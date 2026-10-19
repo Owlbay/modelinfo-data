@@ -1,0 +1,104 @@
+{
+  "id": "tts-1",
+  "object": "model",
+  "created": 1699228800,
+  "owned_by": "openai",
+  "name": "TTS-1",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 15,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2023-11-06",
+    "knowledge_cutoff": null,
+    "description": "Text-to-speech model optimized for speed",
+    "docs": "https://developers.openai.com/api/docs/models/tts-1",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 15,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "tts-1",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "audio": "POST /v1/audio/speech"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "针对速度优化的文本转语音模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "tts-1 Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/tts-1.md",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

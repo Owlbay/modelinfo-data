@@ -1,0 +1,84 @@
+{
+  "id": "viduq2",
+  "object": "model",
+  "created": null,
+  "owned_by": "shengshu",
+  "name": "Vidu Q2",
+  "api": {
+    "types": [
+      "video",
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video",
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Video generation (text, reference, 1-10s clips) and image generation model (text-to-image, reference-to-image, editing).",
+    "docs": "https://platform.vidu.com/docs/overview/model-map",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shengshu",
+      "model": "viduq2",
+      "base_url": "https://api.vidu.com",
+      "endpoints": {
+        "video": "POST /ent/v2/text2video",
+        "images": "POST /ent/v2/reference2image"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "视频生成（文本、参考，1-10 秒片段）和图像生成模型（文生图、参考生图、编辑）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model Map | Vidu API",
+      "url": "https://platform.vidu.com/docs/overview/model-map",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Text to Video | Vidu API",
+      "url": "https://platform.vidu.com/docs/text-to-video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API: video-models/vidu-q2/text-to-video",
+      "url": "https://platform.vidu.com/docs/api-reference/video-models/vidu-q2/text-to-video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu Image Generation API",
+      "url": "https://platform.vidu.com/docs/api-reference/image-generation",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

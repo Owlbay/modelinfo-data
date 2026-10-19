@@ -1,0 +1,141 @@
+{
+  "id": "glm-4.5-air",
+  "object": "model",
+  "created": 1753660800,
+  "owned_by": "zhipu",
+  "name": "GLM-4.5-Air",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/zai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": 98304
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.2,
+    "output": 1.1,
+    "cache_read": 0.03,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-07-28",
+    "knowledge_cutoff": null,
+    "description": "Lighter MoE GLM-4.5 variant, 106B total and 12B active parameters.",
+    "docs": "https://docs.z.ai/guides/llm/glm-4.5",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": 1.1,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "zhipu",
+      "model": "glm-4.5-air",
+      "base_url": "https://api.z.ai/api/paas/v4",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "thinking.type"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "更轻量的 MoE GLM-4.5 变体，总参数 106B，激活参数 12B。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GLM-4.5 | Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/llm/glm-4.5",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/overview/pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Release Notes | Z.AI Developer Document",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型概览 | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "GLM-4.5 | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4.5",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "新品发布 | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/zai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/zai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "qwen-audio-3.0-tts-plus",
+  "object": "model",
+  "created": 1783987200,
+  "owned_by": "alibaba",
+  "name": "Qwen-Audio-3.0-TTS-Plus",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 20,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-14",
+    "knowledge_cutoff": null,
+    "description": "High-performance speech synthesis model for audiobooks, dubbing and premium speech services.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-0-tts-plus",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 20,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen-audio-3.0-tts-plus",
+      "base_url": "wss://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "audio": "WS /api-ws/v1/inference"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "高性能语音合成模型，适用于有声书、配音和高端语音服务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "qwen-audio-3.0-tts-plus | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-0-tts-plus",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — realtime-tts-user-guide",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/realtime-tts-user-guide",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

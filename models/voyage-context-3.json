@@ -1,0 +1,104 @@
+{
+  "id": "voyage-context-3",
+  "object": "model",
+  "created": 1753228800,
+  "owned_by": "voyage",
+  "name": "Voyage Context 3",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/voyage",
+      "voyageai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.18,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-07-23",
+    "knowledge_cutoff": null,
+    "description": "Previous generation of contextualized chunk embeddings, optimized for general-purpose and multilingual retrieval quality.",
+    "docs": "https://docs.voyageai.com/docs/contextualized-chunk-embeddings",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.18,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "voyage",
+      "model": "voyage-context-3",
+      "base_url": "https://api.voyageai.com",
+      "endpoints": {
+        "embeddings": "POST /v1/contextualizedembeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "上一代上下文化分块向量模型，针对通用和多语言检索质量进行了优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Contextualized Chunk Embeddings | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/contextualized-chunk-embeddings",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Voyage AI Blog: voyage-context-3",
+      "url": "https://blog.voyageai.com/2025/07/23/voyage-context-3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — voyageai (api.sdk only)",
+      "url": "https://github.com/voyage-ai/typescript-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/voyage (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/voyage",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

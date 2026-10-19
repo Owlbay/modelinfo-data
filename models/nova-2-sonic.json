@@ -1,0 +1,104 @@
+{
+  "id": "nova-2-sonic",
+  "object": "model",
+  "created": 1764633600,
+  "owned_by": "amazon",
+  "name": "Amazon Nova 2 Sonic",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "@aws-sdk/client-bedrock-runtime"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 3,
+    "output": 12,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-02",
+    "knowledge_cutoff": null,
+    "description": "Amazon's speech-to-speech foundation model for building natural, real-time voice conversation applications.",
+    "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-sonic.html",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 12,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.nova-2-sonic-v1:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "realtime": "POST /model/{modelId}/invoke-with-bidirectional-stream"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "amazon.nova-2-sonic-v1:0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Amazon 的语音到语音基础模型，用于构建自然的实时语音对话应用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Amazon Bedrock model card: Nova 2 Sonic",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-sonic.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Nova 2 User Guide: What is Amazon Nova 2?",
+      "url": "https://docs.aws.amazon.com/nova/latest/nova2-userguide/what-is-nova-2.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Bedrock Pricing",
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
+      "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/bedrock-runtime/",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

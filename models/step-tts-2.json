@@ -1,0 +1,84 @@
+{
+  "id": "step-tts-2",
+  "object": "model",
+  "created": null,
+  "owned_by": "stepfun",
+  "name": "Step TTS 2",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 40,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Upgrade of step-tts-mini with finer emotion and style control and improved voice cloning.",
+    "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 40,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "stepfun",
+      "model": "step-tts-2",
+      "base_url": "https://api.stepfun.ai/v1",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "step-tts-mini 的升级版，情感和风格控制更精细，声音克隆有所改进。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Pricing and Rate Limits | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "音频模型 | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/models/audio",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "mai-voice-2.1-flash",
+  "object": "model",
+  "created": 1790812800,
+  "owned_by": "microsoft",
+  "name": "MAI-Voice-2.1-Flash",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "microsoft-cognitiveservices-speech-sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 15,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-01",
+    "knowledge_cutoff": null,
+    "description": "Low-latency expressive text-to-speech model across 23 languages for real-time voice agents, used via Azure Speech SSML.",
+    "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-voices",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 15,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "microsoft",
+      "model": "MAI-Voice-2.1-Flash",
+      "base_url": "https://<region>.tts.speech.microsoft.com",
+      "endpoints": {
+        "audio": "POST /cognitiveservices/v1"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MAI-Voice-2.1-Flash"
+  ],
+  "translations": {
+    "zh": {
+      "description": "低延迟、富有表现力的文字转语音模型，支持 23 种语言，面向实时语音智能体，通过 Azure Speech SSML 使用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "MAI-Voice-2.1 and MAI-Voice-2.1-Flash | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-voices",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Azure Speech pricing",
+      "url": "https://azure.microsoft.com/pricing/details/speech/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://microsoft.ai/models/mai-voice-2-1/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — microsoft-cognitiveservices-speech-sdk (api.sdk only)",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-voices",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

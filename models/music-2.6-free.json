@@ -1,0 +1,75 @@
+{
+  "id": "music-2.6-free",
+  "object": "model",
+  "created": null,
+  "owned_by": "minimax",
+  "name": "Music-2.6 Free",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Free-tier version of music-2.6 for text-to-music generation, rate limited to 3 RPM. Service stopped from 2026-08-20 per the official notice.",
+    "docs": "https://platform.minimax.io/docs/api-reference/music-generation",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "music-2.6-free",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "audio": "POST /v1/music_generation"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "music-2.6 的免费版，用于文生音乐，速率限制为 3 RPM。根据官方通知，服务自 2026-08-20 起停止。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Music Generation | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/music-generation",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/models-intro",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型 | MiniMax 开放平台文档",
+      "url": "https://platform.minimaxi.com/docs/guides/models-intro",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

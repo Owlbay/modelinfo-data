@@ -1,0 +1,99 @@
+{
+  "id": "4.0ultra",
+  "object": "model",
+  "created": null,
+  "owned_by": "iflytek",
+  "name": "Spark 4.0 Ultra",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 32768,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "iFlytek Spark flagship non-thinking language model with function calling and web search.",
+    "docs": "https://www.xfyun.cn/doc/spark/HTTP%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "iflytek",
+      "model": "4.0Ultra",
+      "base_url": "https://spark-api-open.xf-yun.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "4.0Ultra"
+  ],
+  "translations": {
+    "zh": {
+      "description": "讯飞星火旗舰非思考语言模型，支持函数调用和联网搜索。"
+    }
+  },
+  "sources": [
+    {
+      "title": "星火认知大模型 HTTP 接口文档 | 讯飞星火",
+      "url": "https://www.xfyun.cn/doc/spark/HTTP%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "星火认知大模型 Web 接口文档 | 讯飞星火",
+      "url": "https://www.xfyun.cn/doc/spark/Web.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "星火大模型 API 产品页 | 讯飞星火",
+      "url": "https://xinghuo.xfyun.cn/sparkapi",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

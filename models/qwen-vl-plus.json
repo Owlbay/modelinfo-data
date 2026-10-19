@@ -1,0 +1,147 @@
+{
+  "id": "qwen-vl-plus",
+  "object": "model",
+  "created": null,
+  "owned_by": "alibaba",
+  "name": "Qwen-VL-Plus",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/alibaba",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "dashscope-sdk-official",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": 129024,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.21,
+    "output": 0.63,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Vision-language model with improved detail and text recognition, supporting images over one megapixel.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.21,
+      "output": 0.63,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen-vl-plus",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "chat": "POST /compatible-mode/v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "qwen-vl-plus-2025-08-15",
+    "qwen-vl-plus-latest",
+    "qwen-vl-plus-2025-07-10",
+    "qwen-vl-plus-2025-05-07",
+    "qwen-vl-plus-2025-01-25"
+  ],
+  "translations": {
+    "zh": {
+      "description": "视觉语言模型，改进了细节和文字识别，支持超过一百万像素的图像。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Vision models | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/vision-model",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Text generation models | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "[Model Studio] Notice on the Decommissioning of Certain Historical Mainline Models | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/en/notice/model_studionotice_on_the_decommissioning_of_certain_historical_mainline_models_731",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "[Model Studio] Notice on the Postponed Retirement of Selected Legacy Models | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_postponed_retirement_of_selected_legacy_models_7d0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "[Model Studio] Notice on the Decommissioning of Selected Historical Snapshot Models | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_decommissioning_of_selected_historical_snapshot_models_730",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/alibaba (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/alibaba",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

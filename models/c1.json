@@ -1,0 +1,81 @@
+{
+  "id": "c1",
+  "object": "model",
+  "created": 1775520000,
+  "owned_by": "pixverse",
+  "name": "PixVerse C1",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-07",
+    "knowledge_cutoff": null,
+    "description": "Cinematic video generation model for reference-based generation and action scenes: text-to-video, image-to-video, first/last frame and reference-to-video, 1-15s clips up to 1080p, optional audio.",
+    "docs": "https://docs.platform.pixverse.ai/model-overview-2140345m0",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "pixverse",
+      "model": "c1",
+      "base_url": "https://app-api.pixverse.ai/openapi/v2",
+      "endpoints": {
+        "video": "POST /video/text/generate"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "电影级视频生成模型，适用于基于参考的生成和动作场景：文生视频、图生视频、首尾帧及参考生视频，支持 1-15 秒片段、最高 1080p，可选音频。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model Overview | PixVerse Platform Docs",
+      "url": "https://docs.platform.pixverse.ai/model-overview-2140345m0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Capability matrix | PixVerse Platform Docs",
+      "url": "https://docs.platform.pixverse.ai/capability-matrix-2144288m0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Text-to-Video generation | PixVerse Platform Docs",
+      "url": "https://docs.platform.pixverse.ai/text-to-video-generation-13016634e0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "PixVerse API Changelogs",
+      "url": "https://docs.platform.pixverse.ai/changelogs-906383m0",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

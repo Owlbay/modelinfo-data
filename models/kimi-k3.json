@@ -1,0 +1,201 @@
+{
+  "id": "kimi-k3",
+  "object": "model",
+  "created": 1784160000,
+  "owned_by": "moonshot",
+  "name": "Kimi K3",
+  "api": {
+    "types": [
+      "chat",
+      "messages",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/moonshotai",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 1048576
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "high",
+      "max"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 3,
+    "output": 15,
+    "cache_read": 0.3,
+    "cache_write": 3
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-16",
+    "knowledge_cutoff": null,
+    "description": "Kimi flagship 2.8-trillion-parameter model with native visual understanding for software engineering, knowledge work and deep reasoning.",
+    "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 15,
+      "cache_read": 0.3,
+      "cache_write": 3
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 20,
+      "output": 100,
+      "cache_read": 2,
+      "cache_write": 20
+    }
+  ],
+  "providers": [
+    {
+      "id": "moonshot",
+      "model": "kimi-k3",
+      "base_url": "https://api.moonshot.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages",
+        "responses": "POST /v1/responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "messages": "output_config.effort",
+        "responses": "reasoning.effort"
+      }
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Kimi 旗舰 2.8 万亿参数模型，原生支持视觉理解，用于软件工程、知识工作和深度推理。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model List | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Model Pricing | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/pricing/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kimi K3 Quickstart | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kimi K3 | Kimi Blog",
+      "url": "https://www.kimi.com/blog/kimi-k3",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "API Overview | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Use Kimi in Claude Code | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/claude-code-kimi",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Messages API | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/messages",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Completions API | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model Parameter Reference | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/models-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Structured Output | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/response_format",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Responses API | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/responses",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/moonshotai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/moonshotai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

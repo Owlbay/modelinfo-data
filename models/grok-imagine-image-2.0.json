@@ -1,0 +1,125 @@
+{
+  "id": "grok-imagine-image-2.0",
+  "object": "model",
+  "created": null,
+  "owned_by": "xai",
+  "name": "Grok Imagine Image 2.0",
+  "api": {
+    "types": [
+      "images",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/xai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.04,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "xAI image generation and editing model, priced at $0.04 per image.",
+    "docs": "https://docs.x.ai/developers/models/grok-imagine-image-2.0",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.04,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xai",
+      "model": "grok-imagine-image-2.0",
+      "base_url": "https://api.x.ai",
+      "endpoints": {
+        "images": "POST /v1/images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "xAI 图像生成和编辑模型，价格为每张图像 $0.04。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Grok Imagine Image 2.0 | xAI Docs",
+      "url": "https://docs.x.ai/developers/models/grok-imagine-image-2.0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models and Pricing | xAI Docs",
+      "url": "https://docs.x.ai/developers/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | xAI Docs",
+      "url": "https://docs.x.ai/developers/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Images | xAI REST API",
+      "url": "https://docs.x.ai/developers/rest-api-reference/inference/images",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/xai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

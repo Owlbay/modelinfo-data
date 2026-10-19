@@ -1,0 +1,105 @@
+{
+  "id": "wan2.2-animate-mix",
+  "object": "model",
+  "created": 1758240000,
+  "owned_by": "alibaba",
+  "name": "Wan2.2-Animate-Mix",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@ai-sdk/alibaba",
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "video"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.18,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-09-19",
+    "knowledge_cutoff": null,
+    "description": "Replaces the main character in a video with a character from an image while preserving the original scene, lighting and tone.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/wan-animate-mix-api",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.18,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "wan2.2-animate-mix",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "video": "POST /api/v1/services/aigc/image2video/video-synthesis"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "将视频中的主角替换为图片中的角色，同时保留原始场景、光照和色调。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Wan - video character swap API reference | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/wan-animate-mix-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/alibaba (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/alibaba",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "gpt-5.4-nano",
+  "object": "model",
+  "created": 1773705600,
+  "owned_by": "openai",
+  "name": "GPT-5.4 nano",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 400000,
+    "input": 272000,
+    "output": 128000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.2,
+    "output": 1.25,
+    "cache_read": 0.02,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2026-03-17",
+    "knowledge_cutoff": "2025-08-31",
+    "description": "Cheapest GPT-5.4-class model for simple high-volume tasks.",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": 1.25,
+      "cache_read": 0.02,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-5.4-nano",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses",
+        "batch": "POST /v1/batches"
+      },
+      "reasoning_param": "reasoning.effort"
+    }
+  ],
+  "aliases": [
+    "gpt-5.4-nano-2026-03-17"
+  ],
+  "translations": {
+    "zh": {
+      "description": "GPT-5.4 级别中最便宜的模型，适用于简单的高吞吐量任务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-5.4 nano Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

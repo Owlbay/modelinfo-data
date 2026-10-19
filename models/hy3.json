@@ -1,0 +1,144 @@
+{
+  "id": "hy3",
+  "object": "model",
+  "created": 1783296000,
+  "owned_by": "tencent",
+  "name": "Hy3",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": 196608,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 4,
+    "cache_read": 0.25,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-06",
+    "knowledge_cutoff": null,
+    "description": "Tencent Hy3 295B-A21B MoE model with switchable reasoning depth, served on TokenHub.",
+    "docs": "https://cloud.tencent.com/document/product/1823/132252",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 4,
+      "cache_read": 0.25,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "tencent",
+      "model": "hy3",
+      "base_url": "https://tokenhub.tencentmaas.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "messages": "POST /messages"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "腾讯 Hy3 295B-A21B MoE 模型，推理深度可切换，部署于 TokenHub。"
+    }
+  },
+  "sources": [
+    {
+      "title": "混元调用指南 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/132252",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型列表 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130051",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型定价 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130055",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "腾讯混元Hy3正式上线发布 | 腾讯云开发者社区",
+      "url": "https://cloud.tencent.com/developer/news/4205517",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "语言模型调用概览 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130079",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

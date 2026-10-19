@@ -1,0 +1,193 @@
+{
+  "id": "kimi-k2.7-code",
+  "object": "model",
+  "created": 1781222400,
+  "owned_by": "moonshot",
+  "name": "Kimi K2.7 Code",
+  "api": {
+    "types": [
+      "chat",
+      "messages",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/moonshotai",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.95,
+    "output": 4,
+    "cache_read": 0.19,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "caching",
+    "streaming",
+    "structured_output",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-12",
+    "knowledge_cutoff": null,
+    "description": "Kimi dedicated coding model with more reliable instruction following in long-context agentic coding.",
+    "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.95,
+      "output": 4,
+      "cache_read": 0.19,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 6.5,
+      "output": 27,
+      "cache_read": 1.3,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "moonshot",
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages",
+        "batch": "POST /v1/batches"
+      },
+      "reasoning_param": "thinking.type"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Kimi 专用编码模型，在长上下文智能体编码中指令遵循更可靠。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model List | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Model Pricing | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/pricing/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kimi K2.7 Code Quickstart | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "What's New | Kimi Code Docs",
+      "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Overview | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Use Kimi in Claude Code | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/claude-code-kimi",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Completions API | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model Parameter Reference | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/models-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Structured Output | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/response_format",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Using Batch API for Bulk Processing | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/use-batch-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Create Batch | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/batch-create",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/moonshotai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/moonshotai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

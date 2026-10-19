@@ -1,0 +1,81 @@
+{
+  "id": "viduq3-turbo",
+  "object": "model",
+  "created": 1770768000,
+  "owned_by": "shengshu",
+  "name": "Vidu Q3 Turbo",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-11",
+    "knowledge_cutoff": null,
+    "description": "Faster video generation model of the Vidu Q3 series, 1-16s clips.",
+    "docs": "https://platform.vidu.com/docs/overview/model-map",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shengshu",
+      "model": "viduq3-turbo",
+      "base_url": "https://api.vidu.com",
+      "endpoints": {
+        "video": "POST /ent/v2/text2video"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Vidu Q3 系列中更快的视频生成模型，1-16 秒片段。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model Map | Vidu API",
+      "url": "https://platform.vidu.com/docs/overview/model-map",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Text to Video | Vidu API",
+      "url": "https://platform.vidu.com/docs/text-to-video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API Update Notice",
+      "url": "https://platform.vidu.com/docs/api-reference/updates",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API: video-models/vidu-q3/text-to-video",
+      "url": "https://platform.vidu.com/docs/api-reference/video-models/vidu-q3/text-to-video",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

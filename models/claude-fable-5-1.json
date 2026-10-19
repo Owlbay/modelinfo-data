@@ -1,0 +1,160 @@
+{
+  "id": "claude-fable-5-1",
+  "object": "model",
+  "created": 1788220800,
+  "owned_by": "anthropic",
+  "name": "Claude Fable 5.1",
+  "api": {
+    "types": [
+      "messages",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@anthropic-ai/sdk"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": 1000000,
+    "output": 128000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 10,
+    "output": 50,
+    "cache_read": 0.25,
+    "cache_write": 12.5
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-01",
+    "knowledge_cutoff": "2026-06",
+    "description": "For demanding reasoning and long-horizon agentic work.",
+    "docs": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 10,
+      "output": 50,
+      "cache_read": 0.25,
+      "cache_write": 12.5
+    }
+  ],
+  "providers": [
+    {
+      "id": "anthropic",
+      "model": "claude-fable-5-1",
+      "base_url": "https://api.anthropic.com",
+      "endpoints": {
+        "messages": "POST /v1/messages",
+        "batch": "POST /v1/messages/batches"
+      },
+      "reasoning_param": "output_config.effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "适用于高要求的推理和长周期智能体工作。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Claude Fable 5.1 | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Models overview | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model deprecations | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Effort | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Structured outputs | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "PDF support | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/pdf-support",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Prompt caching | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Messages | Claude API Reference",
+      "url": "https://platform.claude.com/docs/en/api/messages",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Batches | Claude API Reference",
+      "url": "https://platform.claude.com/docs/en/api/messages/batches",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

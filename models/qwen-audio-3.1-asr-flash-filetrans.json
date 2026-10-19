@@ -1,0 +1,98 @@
+{
+  "id": "qwen-audio-3.1-asr-flash-filetrans",
+  "object": "model",
+  "created": null,
+  "owned_by": "alibaba",
+  "name": "Qwen-Audio-3.1-ASR-Flash-Filetrans",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": 8192,
+    "input": 8192,
+    "output": 1024
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.15,
+    "output": 0.47,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Offline speech recognition model for long audio such as meetings and calls, with speaker separation and dialect support.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-asr-flash-filetrans",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.47,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen-audio-3.1-asr-flash-filetrans",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "audio": "POST /api/v1/services/audio/asr/transcription"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向会议和通话等长音频的离线语音识别模型，支持说话人分离和方言。"
+    }
+  },
+  "sources": [
+    {
+      "title": "qwen-audio-3.1-asr-flash-filetrans | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-asr-flash-filetrans",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — qwen-speech-recognition",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-speech-recognition",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

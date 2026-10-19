@@ -1,0 +1,146 @@
+{
+  "id": "qwen3.7-max-preview",
+  "object": "model",
+  "created": 1779235200,
+  "owned_by": "alibaba",
+  "name": "Qwen3.7-Max-Preview",
+  "api": {
+    "types": [
+      "chat",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/alibaba",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "dashscope-sdk-official",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": 991808,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2.5,
+    "output": 7.5,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-20",
+    "knowledge_cutoff": null,
+    "description": "Preview of the largest Qwen3.7 model, thinking mode only.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2.5,
+      "output": 7.5,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 12,
+      "output": 36,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen3.7-max-preview",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "chat": "POST /compatible-mode/v1/chat/completions",
+        "responses": "POST /compatible-mode/v1/responses"
+      },
+      "reasoning_param": "enable_thinking",
+      "reasoning_params": {
+        "responses": "reasoning.effort"
+      }
+    }
+  ],
+  "aliases": [
+    "qwen3.7-max-2026-05-17"
+  ],
+  "translations": {
+    "zh": {
+      "description": "最大的 Qwen3.7 模型的预览版，仅支持思考模式。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Text generation models | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — qwen-api-via-openai-responses",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-responses",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/alibaba (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/alibaba",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "stt-async-v5",
+  "object": "model",
+  "created": 1781136000,
+  "owned_by": "soniox",
+  "name": "Soniox stt-async-v5",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@soniox/node",
+      "@soniox/vercel-ai-sdk-provider"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1.5,
+    "output": 3.5,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-11",
+    "knowledge_cutoff": null,
+    "description": "Soniox asynchronous speech-to-text and translation model for recorded audio across 60+ languages.",
+    "docs": "https://soniox.com/docs/stt/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.5,
+      "output": 3.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "soniox",
+      "model": "stt-async-v5",
+      "base_url": "https://api.soniox.com",
+      "endpoints": {
+        "audio": "POST /v1/transcriptions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "stt-async-v4"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Soniox 异步语音转文字与翻译模型，面向录制音频，支持 60 多种语言。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Soniox Docs",
+      "url": "https://soniox.com/docs/stt/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Create transcription | Soniox Docs",
+      "url": "https://soniox.com/docs/api-reference/stt/transcriptions/create_transcription",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Soniox",
+      "url": "https://soniox.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @soniox/node (api.sdk only)",
+      "url": "https://soniox.com/docs/sdk/node-SDK",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @soniox/vercel-ai-sdk-provider (api.sdk only)",
+      "url": "https://soniox.com/docs/integrations/vercel-ai-sdk",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

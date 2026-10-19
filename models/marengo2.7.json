@@ -1,0 +1,78 @@
+{
+  "id": "marengo2.7",
+  "object": "model",
+  "created": 1733097600,
+  "owned_by": "twelvelabs",
+  "name": "Marengo 2.7",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "twelvelabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-12-02",
+    "knowledge_cutoff": null,
+    "description": "Multimodal video embedding model; sunset on 2026-03-30.",
+    "docs": "https://docs.twelvelabs.io/docs/get-started/release-notes",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "twelvelabs",
+      "model": "marengo2.7",
+      "base_url": "https://api.twelvelabs.io/v1.3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "多模态视频向量模型；已于 2026-03-30 停用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Release notes | TwelveLabs Docs",
+      "url": "https://docs.twelvelabs.io/docs/get-started/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Marengo 2.7: Pioneering Multi-Vector Embeddings for Advanced Video Understanding | Twelve Labs",
+      "url": "https://www.twelvelabs.io/blog/introducing-marengo-2-7",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — twelvelabs-js (api.sdk only)",
+      "url": "https://github.com/twelvelabs-io/twelvelabs-js",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

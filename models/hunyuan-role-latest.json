@@ -1,0 +1,129 @@
+{
+  "id": "hunyuan-role-latest",
+  "object": "model",
+  "created": 1758672000,
+  "owned_by": "tencent",
+  "name": "Hy-Role-Latest",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": 28672,
+    "output": 4096
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 2.4,
+    "output": 9.6,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-09-24",
+    "knowledge_cutoff": null,
+    "description": "Tencent role-play model optimized for chat and story interaction.",
+    "docs": "https://cloud.tencent.com/document/product/1823/130051",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 2.4,
+      "output": 9.6,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "tencent",
+      "model": "hunyuan-role-latest",
+      "base_url": "https://tokenhub.tencentmaas.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "messages": "POST /messages"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "腾讯角色扮演模型，针对对话和故事互动优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130051",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型定价 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130055",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "产品概述 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/104753",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "语言模型调用概览 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130079",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "ocr",
+  "object": "model",
+  "created": 1790726400,
+  "owned_by": "upstage",
+  "name": "Document OCR",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "page",
+    "input": 0.0015,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-30",
+    "knowledge_cutoff": null,
+    "description": "Text recognition for scanned or photographed documents, including tilted, low-quality and multilingual files; priced per page.",
+    "docs": "https://console.upstage.ai/docs/models/document-ocr",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.0015,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "upstage",
+      "model": "ocr",
+      "base_url": "https://api.upstage.ai/v1",
+      "endpoints": {
+        "ocr": "POST /document-digitization"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ocr-260930"
+  ],
+  "translations": {
+    "zh": {
+      "description": "扫描或拍摄文档的文字识别，包括倾斜、低质量和多语言文件；按页计价。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Document OCR | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/document-ocr",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model history | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/history",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Upstage",
+      "url": "https://upstage.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://console.upstage.ai/api/parse/document-ocr",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

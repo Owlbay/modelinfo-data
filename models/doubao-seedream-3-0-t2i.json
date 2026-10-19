@@ -1,0 +1,91 @@
+{
+  "id": "doubao-seedream-3-0-t2i",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seedream-3.0-t2i",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "image",
+    "input": null,
+    "output": 0.259,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-Seedream-3.0-t2i, retired. Official shutdown (EOS) dates: doubao-seedream-3-0-t2i-250415 2026-05-11.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "image",
+      "input": null,
+      "output": 0.259,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seedream-3-0-t2i-250415",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-seedream-3-0-t2i-250415"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Doubao-Seedream-3.0-t2i，已下线。官方停服（EOS）日期：doubao-seedream-3-0-t2i-250415 2026-05-11。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线公告 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1350667",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310）",
+      "url": "https://web.archive.org/web/20250604074021/https://www.volcengine.com/docs/82379/1330310",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：火山方舟模型价格（标准在线推理）",
+      "url": "https://web.archive.org/web/20251219073649/https://www.volcengine.com/docs/82379/1544106",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

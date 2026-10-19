@@ -1,0 +1,126 @@
+{
+  "id": "reka-edge-2603",
+  "object": "model",
+  "created": 1773187200,
+  "owned_by": "reka",
+  "name": "Reka Edge 2603",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 16384,
+    "input": null,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": 0.1,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-11",
+    "knowledge_cutoff": null,
+    "description": "Reka's compact multimodal model accepting text, image and video input.",
+    "docs": "https://docs.reka.ai/chat/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 0.1,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "reka",
+      "model": "reka-edge-2603",
+      "base_url": "https://api.reka.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Reka 的紧凑型多模态模型，接受文本、图像和视频输入。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Reka API Docs",
+      "url": "https://docs.reka.ai/chat/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Pricing | Reka API Docs",
+      "url": "https://docs.reka.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Hugging Face RekaAI/reka-edge-2603 config.json (official org)",
+      "url": "https://huggingface.co/RekaAI/reka-edge-2603/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reka Edge: Frontier-Level Edge Intelligence for Physical AI - Reka",
+      "url": "https://reka.ai/news/reka-edge-frontier-level-edge-intelligence-for-physical-ai",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models - Reka Gateway",
+      "url": "https://developer.reka.ai/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

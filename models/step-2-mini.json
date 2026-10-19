@@ -1,0 +1,115 @@
+{
+  "id": "step-2-mini",
+  "object": "model",
+  "created": null,
+  "owned_by": "stepfun",
+  "name": "Step-2 Mini",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 2,
+    "cache_read": 0.2,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Fast language model based on the in-house MFA attention architecture, good at general tasks and code. Retired on 2026-07-08 per the official lifecycle page.",
+    "docs": "https://platform.stepfun.com/docs/zh/guides/model-migration",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 2,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "stepfun",
+      "model": "step-2-mini",
+      "base_url": "https://api.stepfun.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "基于自研 MFA 注意力架构的快速语言模型，擅长通用任务和代码。根据官方生命周期页面，已于 2026-07-08 下线。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model Lifecycle & Deprecations | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/model-migration",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型生命周期与下线 | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/model-migration",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "定价与限速 | 阶跃星辰开放平台文档（存档，原网址 https://platform.stepfun.com/docs/zh/guides/pricing/details）",
+      "url": "https://web.archive.org/web/20260416070313/https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "文本大模型 | 阶跃星辰开放平台文档（存档，原网址 https://platform.stepfun.com/docs/llm/text）",
+      "url": "https://web.archive.org/web/20260215224847/https://platform.stepfun.com/docs/llm/text",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "aura-2",
+  "object": "model",
+  "created": 1744675200,
+  "owned_by": "deepgram",
+  "name": "Aura-2",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/deepgram",
+      "@deepgram/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 30,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-04-15",
+    "knowledge_cutoff": null,
+    "description": "Deepgram Aura-2 text-to-speech model family; each voice is a model ID of the form aura-2-{voice}-{language}.",
+    "docs": "https://developers.deepgram.com/docs/tts-models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 30,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "deepgram",
+      "model": "aura-2",
+      "base_url": "https://api.deepgram.com",
+      "endpoints": {
+        "audio": "POST /v1/speak"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "aura-2-thalia-en",
+    "aura-2-celeste-es",
+    "aura-2-julius-de",
+    "aura-2-agathe-fr",
+    "aura-2-rhea-nl",
+    "aura-2-livia-it",
+    "aura-2-fujin-ja"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Deepgram Aura-2 文本转语音模型系列；每个音色都是形如 aura-2-{voice}-{language} 的模型 ID。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Text to Speech Models | Deepgram Docs",
+      "url": "https://developers.deepgram.com/docs/tts-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Text to Speech REST API | Deepgram Docs",
+      "url": "https://developers.deepgram.com/docs/text-to-speech",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Deepgram",
+      "url": "https://deepgram.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing Aura-2 | Deepgram",
+      "url": "https://deepgram.com/learn/introducing-aura-2-enterprise-text-to-speech",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @deepgram/sdk (api.sdk only)",
+      "url": "https://github.com/deepgram/deepgram-js-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/deepgram (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/deepgram",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

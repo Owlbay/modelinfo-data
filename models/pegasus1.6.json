@@ -1,0 +1,91 @@
+{
+  "id": "pegasus1.6",
+  "object": "model",
+  "created": 1791244800,
+  "owned_by": "twelvelabs",
+  "name": "Pegasus 1.6",
+  "api": {
+    "types": [
+      "generate"
+    ],
+    "sdk": [
+      "twelvelabs-js"
+    ]
+  },
+  "limits": {
+    "context": 261120,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "structured_output"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-06",
+    "knowledge_cutoff": null,
+    "description": "Generative video-to-text model; analyzes videos or images, with egocentric video understanding, improved entity recognition and in-segment events.",
+    "docs": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/pegasus/pegasus-1-6",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "twelvelabs",
+      "model": "pegasus1.6",
+      "base_url": "https://api.twelvelabs.io/v1.3",
+      "endpoints": {
+        "generate": "POST /analyze"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "生成式视频转文本模型；可分析视频或图像，支持第一人称视频理解，改进了实体识别和片段内事件。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Pegasus 1.6 | TwelveLabs",
+      "url": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/pegasus/pegasus-1-6",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pegasus | TwelveLabs",
+      "url": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/pegasus",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Analyze videos (API Reference) | TwelveLabs",
+      "url": "https://docs.twelvelabs.io/v1.3/api-reference/analyze-videos/analyze",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release notes | TwelveLabs Docs",
+      "url": "https://docs.twelvelabs.io/v1.3/docs/get-started/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — twelvelabs-js (api.sdk only)",
+      "url": "https://github.com/twelvelabs-io/twelvelabs-js",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

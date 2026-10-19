@@ -1,0 +1,84 @@
+{
+  "id": "glm-realtime",
+  "object": "model",
+  "created": null,
+  "owned_by": "zhipu",
+  "name": "GLM-Realtime",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": 1024
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Real-time audio and video call model with cross-modal reasoning, available in Flash (9B) and Air (32B) variants.",
+    "docs": "https://docs.bigmodel.cn/cn/guide/models/sound-and-video/glm-realtime",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "zhipu",
+      "model": "glm-realtime",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "endpoints": {
+        "realtime": "GET /realtime"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "具备跨模态推理能力的实时音视频通话模型，提供 Flash（9B）和 Air（32B）两个版本。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GLM-Realtime | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/sound-and-video/glm-realtime",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API 定价 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型概览 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "核心参数（各模型 max_tokens，128K 输出为 131072）| 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/concept-param",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

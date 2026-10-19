@@ -1,0 +1,132 @@
+{
+  "id": "tongyi-intent-detect-v3",
+  "object": "model",
+  "created": 1733961600,
+  "owned_by": "alibaba",
+  "name": "Tongyi-Intent-Detect-V3",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/alibaba",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "dashscope-sdk-official",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 8192,
+    "input": 8192,
+    "output": 1024
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0.4,
+    "output": 1,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-12-12",
+    "knowledge_cutoff": null,
+    "description": "Intent detection and slot filling model returning API intents and slot parameters as JSON.",
+    "docs": "https://help.aliyun.com/zh/model-studio/tongyi-intent-detect-v3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.4,
+      "output": 1,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "tongyi-intent-detect-v3",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "chat": "POST /compatible-mode/v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "意图识别与槽位填充模型，以 JSON 返回 API 意图和槽位参数。"
+    }
+  },
+  "sources": [
+    {
+      "title": "tongyi-intent-detect-v3 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/tongyi-intent-detect-v3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型调用计费 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — intent-detect-capability",
+      "url": "https://help.aliyun.com/zh/model-studio/intent-detect-capability",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "OpenAI compatible Chat | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-chat-completions",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/alibaba (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/alibaba",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

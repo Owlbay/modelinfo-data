@@ -1,0 +1,141 @@
+{
+  "id": "solar-mini4",
+  "object": "model",
+  "created": 1790035200,
+  "owned_by": "upstage",
+  "name": "Solar Mini 4",
+  "api": {
+    "types": [
+      "chat",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": 0.4,
+    "cache_read": 0.01,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-22",
+    "knowledge_cutoff": "2026-02",
+    "description": "Cost-efficient compact Solar model for agentic use, with reasoning, tool calling and structured outputs.",
+    "docs": "https://console.upstage.ai/docs/models/solar-mini-4",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 0.4,
+      "cache_read": 0.01,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "upstage",
+      "model": "solar-mini4",
+      "base_url": "https://api.upstage.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [
+    "solar-mini4-260922"
+  ],
+  "translations": {
+    "zh": {
+      "description": "高性价比的紧凑型 Solar 模型，面向智能体使用，支持推理、工具调用和结构化输出。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Solar Mini 4 | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/solar-mini-4",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model history | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/history",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Upstage",
+      "url": "https://upstage.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat completions API | Upstage Docs",
+      "url": "https://console.upstage.ai/api/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reasoning | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/capabilities/generate/reasoning",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://console.upstage.ai/api/responses",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "mercury-edit-2",
+  "object": "model",
+  "created": 1774828800,
+  "owned_by": "inception",
+  "name": "Mercury Edit 2",
+  "api": {
+    "types": [
+      "completions"
+    ],
+    "sdk": [
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.25,
+    "output": 0.75,
+    "cache_read": 0.025,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-30",
+    "knowledge_cutoff": null,
+    "description": "Code editing model for autocomplete (FIM) and next edit suggestions.",
+    "docs": "https://docs.inceptionlabs.ai/get-started/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.25,
+      "output": 0.75,
+      "cache_read": 0.025,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "inception",
+      "model": "mercury-edit-2",
+      "base_url": "https://api.inceptionlabs.ai/v1",
+      "endpoints": {
+        "completions": "POST /fim/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "代码编辑模型，支持自动补全（FIM）和下一处编辑建议。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Inception Docs",
+      "url": "https://docs.inceptionlabs.ai/get-started/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Autocomplete (FIM) | Inception Docs",
+      "url": "https://docs.inceptionlabs.ai/capabilities/fim",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Next Edit | Inception Docs",
+      "url": "https://docs.inceptionlabs.ai/capabilities/next-edit",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Inception API OpenAPI specification",
+      "url": "https://api.inceptionlabs.ai/openapi.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing Mercury Edit 2 - Inception Blog",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-edit-2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

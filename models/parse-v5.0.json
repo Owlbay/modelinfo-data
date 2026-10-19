@@ -1,0 +1,114 @@
+{
+  "id": "parse-v5.0",
+  "object": "model",
+  "created": 1787788800,
+  "owned_by": "cohere",
+  "name": "Parse v5.0",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": [
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 8192,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "page",
+    "input": 0.0015,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-27",
+    "knowledge_cutoff": null,
+    "description": "Vision language model that converts enterprise documents such as forms and PDFs into structured Markdown, tables and bounding boxes.",
+    "docs": "https://docs.cohere.com/docs/parse",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.0015,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "parse-v5.0",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "ocr": "POST /v2/parse"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "视觉语言模型，可将表单和 PDF 等企业文档转换为结构化的 Markdown、表格和边界框。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Parse (Details and Application) | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/parse",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "An Overview of Cohere's Models | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Parse | Cohere API Reference",
+      "url": "https://docs.cohere.com/v2/reference/parse",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release Notes | Cohere Docs",
+      "url": "https://docs.cohere.com/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Meet Cohere Parse | Cohere Release Notes",
+      "url": "https://docs.cohere.com/changelog/parse",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Cohere Pricing",
+      "url": "https://cohere.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

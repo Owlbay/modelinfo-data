@@ -1,0 +1,78 @@
+{
+  "id": "llama-nemotron-rerank-vl-1b-v2",
+  "object": "model",
+  "created": 1773360000,
+  "owned_by": "nvidia",
+  "name": "Llama Nemotron Rerank VL 1B v2",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-13",
+    "knowledge_cutoff": null,
+    "description": "Multimodal cross-encoder reranker that scores how relevant a document page (image, text, or both) is to a text query.",
+    "docs": "https://build.nvidia.com/nvidia/llama-nemotron-rerank-vl-1b-v2/modelcard",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+      "base_url": "https://ai.api.nvidia.com",
+      "endpoints": {
+        "rerank": "POST /v1/retrieval/nvidia/llama-nemotron-rerank-vl-1b-v2/reranking"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/llama-nemotron-rerank-vl-1b-v2"
+  ],
+  "translations": {
+    "zh": {
+      "description": "多模态交叉编码器重排模型，对文档页面（图像、文本或两者）与文本查询的相关程度打分。"
+    }
+  },
+  "sources": [
+    {
+      "title": "llama-nemotron-rerank-vl-1b-v2 Model Card | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/llama-nemotron-rerank-vl-1b-v2/modelcard",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "nvidia / llama-nemotron-rerank-vl-1b-v2 | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-nemotron-rerank-vl-1b-v2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reranking (nvidia/llama-nemotron-rerank-vl-1b-v2) | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-nemotron-rerank-vl-1b-v2-infer",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

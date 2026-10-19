@@ -1,0 +1,113 @@
+{
+  "id": "ideogram-4",
+  "object": "model",
+  "created": 1780444800,
+  "owned_by": "ideogram",
+  "name": "Ideogram 4.0",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@image-sdk/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.03,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-03",
+    "knowledge_cutoff": null,
+    "description": "Ideogram image generation from natural-language or structured JSON prompts, with selectable rendering speed.",
+    "docs": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-4",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.03,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ideogram",
+      "model": "ideogram-4",
+      "base_url": "https://api.ideogram.ai",
+      "endpoints": {
+        "images": "POST /v2/image/generate/ideogram-4"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Ideogram 图像生成，支持自然语言或结构化 JSON 提示词，渲染速度可选。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Generate with Ideogram 4.0 | Ideogram API Docs",
+      "url": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-4",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Ideogram API documentation index",
+      "url": "https://developer.ideogram.ai/v2/llms.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Setup | Ideogram API Docs",
+      "url": "https://developer.ideogram.ai/ideogram-api/api-setup",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Pricing | Ideogram",
+      "url": "https://ideogram.ai/api-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Ideogram 4.0",
+      "url": "https://ideogram.ai/models/4.0/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release announcement",
+      "url": "https://ideogram.ai/news/ideogram-4.0/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @image-sdk/sdk (api.sdk only)",
+      "url": "https://github.com/Adarsh-Me/Image-SDK",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

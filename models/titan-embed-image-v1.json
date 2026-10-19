@@ -1,0 +1,102 @@
+{
+  "id": "titan-embed-image-v1",
+  "object": "model",
+  "created": 1701216000,
+  "owned_by": "amazon",
+  "name": "Amazon Titan Multimodal Embeddings G1",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/amazon-bedrock",
+      "@aws-sdk/client-bedrock-runtime"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.8,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2023-11-29",
+    "knowledge_cutoff": null,
+    "description": "Amazon's model that generates embeddings from text and images for multimodal search and recommendation use cases.",
+    "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-multimodal-embeddings-g1.html",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.titan-embed-image-v1",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "embeddings": "POST /model/{modelId}/invoke"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "amazon.titan-embed-image-v1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Amazon 的模型，可根据文本和图像生成向量，用于多模态搜索和推荐场景。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Amazon Bedrock model card: Titan Multimodal Embeddings G1",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-multimodal-embeddings-g1.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Bedrock Pricing",
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
+      "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/bedrock-runtime/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "qwen3.5-omni-plus-realtime",
+  "object": "model",
+  "created": 1774483200,
+  "owned_by": "alibaba",
+  "name": "Qwen3.5-Omni-Plus-Realtime",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": 196608,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-26",
+    "knowledge_cutoff": null,
+    "description": "Real-time omni-modal interaction over WebSocket.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen3.5-omni-plus-realtime",
+      "base_url": "wss://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "realtime": "WS /api-ws/v1/realtime?model=qwen3.5-omni-plus-realtime"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "qwen3.5-omni-plus-realtime-2026-03-15"
+  ],
+  "translations": {
+    "zh": {
+      "description": "基于 WebSocket 的实时全模态交互。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Omni models | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/omni",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Rate limits | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/rate-limit",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — omni-realtime-interaction-process",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/omni-realtime-interaction-process",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

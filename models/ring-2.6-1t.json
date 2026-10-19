@@ -1,0 +1,162 @@
+{
+  "id": "ring-2.6-1t",
+  "object": "model",
+  "created": 1778803200,
+  "owned_by": "ant",
+  "name": "Ring-2.6-1T",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "high",
+      "xhigh"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 4.5,
+    "output": 18,
+    "cache_read": 0.9,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-15",
+    "knowledge_cutoff": null,
+    "description": "Trillion-parameter thinking model built for agent workflows, tool use and long-running tasks.",
+    "docs": "https://developer.ant-ling.com/en/docs/models/ring",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 4.5,
+      "output": 18,
+      "cache_read": 0.9,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ant",
+      "model": "Ring-2.6-1T",
+      "base_url": "https://api.ant-ling.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "reasoning.effort"
+    }
+  ],
+  "aliases": [
+    "Ring-2.6-1T"
+  ],
+  "translations": {
+    "zh": {
+      "description": "万亿参数思考模型，专为智能体工作流、工具使用和长时间运行任务打造。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ring | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/ring",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/price",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/openai",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reasoning Effort | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/tutorials/effort",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Anthropic Compatible API | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/anthropic/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

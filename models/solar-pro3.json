@@ -1,0 +1,135 @@
+{
+  "id": "solar-pro3",
+  "object": "model",
+  "created": 1774224000,
+  "owned_by": "upstage",
+  "name": "Solar Pro 3",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2026-03-23",
+    "knowledge_cutoff": "2025-07",
+    "description": "Mixture-of-experts Solar model (102B total parameters); fully deprecated on 2026-10-30 (KST), migrate to Solar Pro 4.",
+    "docs": "https://console.upstage.ai/docs/models/solar-pro-3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.015,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "upstage",
+      "model": "solar-pro3",
+      "base_url": "https://api.upstage.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [
+    "solar-pro3-260323",
+    "solar-pro3-260126"
+  ],
+  "translations": {
+    "zh": {
+      "description": "混合专家 Solar 模型（总参数 102B）；将于 2026-10-30（KST）完全弃用，请迁移至 Solar Pro 4。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Solar Pro 3 | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/solar-pro-3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model history | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/history",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Upstage",
+      "url": "https://upstage.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat completions API | Upstage Docs",
+      "url": "https://console.upstage.ai/api/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reasoning | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/capabilities/generate/reasoning",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

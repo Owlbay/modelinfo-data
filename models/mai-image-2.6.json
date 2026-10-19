@@ -1,0 +1,92 @@
+{
+  "id": "mai-image-2.6",
+  "object": "model",
+  "created": 1788480000,
+  "owned_by": "microsoft",
+  "name": "MAI-Image-2.6",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-09-04",
+    "knowledge_cutoff": null,
+    "description": "Microsoft AI text-to-image generation and image-to-image editing model with stronger text rendering, portraits and 3D imagery.",
+    "docs": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "microsoft",
+      "model": "MAI-Image-2.6",
+      "base_url": "https://<resource-name>.services.ai.azure.com/mai/v1",
+      "endpoints": {
+        "images": "POST /images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MAI-Image-2.6"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Microsoft AI 文生图和图像编辑（图生图）模型，在文字渲染、人像和 3D 图像方面更强。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Deploy and use MAI image models in Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pushing the quality-cost frontier with MAI-Image-2.6 | Microsoft AI",
+      "url": "https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

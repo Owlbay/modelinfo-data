@@ -1,0 +1,70 @@
+{
+  "id": "sensevoice-v1",
+  "object": "model",
+  "created": null,
+  "owned_by": "alibaba",
+  "name": "SenseVoice V1",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_of_retirement_for_selected_legacy_longtail_models_7d4",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "sensevoice-v1",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "[Model Studio] Notice of Retirement for Selected Legacy Long-tail Models | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/en/notice/model_studio_notice_of_retirement_for_selected_legacy_longtail_models_7d4",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：SenseVoice 录音文件识别 RESTful API | 阿里云百炼（原网址 https://help.aliyun.com/zh/model-studio/developer-reference/sensevoice-recorded-speech-recognition-restful-api）",
+      "url": "https://web.archive.org/web/20250903084923/https://help.aliyun.com/zh/model-studio/developer-reference/sensevoice-recorded-speech-recognition-restful-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

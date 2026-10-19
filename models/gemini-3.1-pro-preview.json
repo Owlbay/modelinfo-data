@@ -1,0 +1,145 @@
+{
+  "id": "gemini-3.1-pro-preview",
+  "object": "model",
+  "created": 1771459200,
+  "owned_by": "google",
+  "name": "Gemini 3.1 Pro Preview",
+  "api": {
+    "types": [
+      "generate",
+      "batch",
+      "interactions"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": 1048576,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2,
+    "output": 12,
+    "cache_read": 0.2,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-02-19",
+    "knowledge_cutoff": null,
+    "description": "Pro model with improved thinking and token efficiency for advanced reasoning and agentic coding.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 12,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-3.1-pro-preview",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1beta/models/{model}:generateContent",
+        "batch": "POST /v1beta/models/{model}:batchGenerateContent",
+        "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    }
+  ],
+  "aliases": [
+    "gemini-3.1-pro-preview-customtools"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Pro 模型，思考能力和 token 效率得到提升，适用于高级推理和智能体编程。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemini 3.1 Pro Preview | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Models | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Generating content | Gemini API",
+      "url": "https://ai.google.dev/api/generate-content",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Batch API | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/batch-api",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "interactions-overview | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/interactions-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

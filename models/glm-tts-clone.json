@@ -1,0 +1,102 @@
+{
+  "id": "glm-tts-clone",
+  "object": "model",
+  "created": 1765411200,
+  "owned_by": "zhipu",
+  "name": "GLM-TTS-Clone",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio",
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "request",
+    "input": null,
+    "output": 6,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-11",
+    "knowledge_cutoff": null,
+    "description": "Voice cloning model that learns a speaker's timbre from a 3-second audio sample.",
+    "docs": "https://docs.bigmodel.cn/cn/guide/models/sound-and-video/glm-tts-clone",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "request",
+      "input": null,
+      "output": 6,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "zhipu",
+      "model": "glm-tts-clone",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "endpoints": {
+        "audio": "POST /voice/clone"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "声音克隆模型，可从 3 秒音频样本中学习说话人的音色。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GLM-TTS-Clone | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/sound-and-video/glm-tts-clone",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API 定价 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型概览 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "音色复刻 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/api-reference/模型-api/音色复刻",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "最新动态 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

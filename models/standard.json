@@ -1,0 +1,119 @@
+{
+  "id": "standard",
+  "object": "model",
+  "created": null,
+  "owned_by": "speechmatics",
+  "name": "Standard",
+  "api": {
+    "types": [
+      "audio",
+      "realtime"
+    ],
+    "sdk": [
+      "@speechmatics/batch-client",
+      "@speechmatics/real-time-client"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.45,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Speechmatics high-throughput speech-to-text model, the default model, available for Batch and Realtime transcription.",
+    "docs": "https://docs.speechmatics.com/speech-to-text/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.45,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "speechmatics",
+      "model": "standard",
+      "base_url": "https://eu1.asr.api.speechmatics.com",
+      "endpoints": {
+        "audio": "POST /v2/jobs"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "speechmatics-realtime",
+      "model": "standard",
+      "base_url": "wss://eu.rt.speechmatics.com",
+      "endpoints": {
+        "realtime": "WS /v2"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Speechmatics 高吞吐语音转文字模型，为默认模型，可用于批量和实时转写。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Speechmatics Docs",
+      "url": "https://docs.speechmatics.com/speech-to-text/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Speechmatics",
+      "url": "https://www.speechmatics.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://docs.speechmatics.com/api-ref/batch/create-a-new-job",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Speechmatics authentication and supported endpoints",
+      "url": "https://docs.speechmatics.com/get-started/authentication",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @speechmatics/batch-client (api.sdk only)",
+      "url": "https://github.com/speechmatics/speechmatics-js-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @speechmatics/real-time-client (api.sdk only)",
+      "url": "https://github.com/speechmatics/speechmatics-js-sdk",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "solar-pro4",
+  "object": "model",
+  "created": 1785974400,
+  "owned_by": "upstage",
+  "name": "Solar Pro 4",
+  "api": {
+    "types": [
+      "chat",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.3,
+    "output": 1.2,
+    "cache_read": 0.06,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-06",
+    "knowledge_cutoff": "2026-02",
+    "description": "Upstage flagship Solar model specialized for agentic use, with reasoning, tool calling and structured outputs.",
+    "docs": "https://console.upstage.ai/docs/models/solar-pro-4",
+    "verified_at": "2026-10-13"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 1.2,
+      "cache_read": 0.06,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "upstage",
+      "model": "solar-pro4",
+      "base_url": "https://api.upstage.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [
+    "solar-pro4-260806"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Upstage 旗舰 Solar 模型，专为智能体使用打造，支持推理、工具调用和结构化输出。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Solar Pro 4 | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/solar-pro-4",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model history | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/history",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Upstage",
+      "url": "https://upstage.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat completions API | Upstage Docs",
+      "url": "https://console.upstage.ai/api/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reasoning | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/capabilities/generate/reasoning",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Responses API（max_output_tokens 最大 131072，适用于 solar-pro4）| Upstage",
+      "url": "https://console.upstage.ai/api/responses",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

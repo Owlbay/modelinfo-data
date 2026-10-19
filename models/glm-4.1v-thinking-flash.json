@@ -1,0 +1,135 @@
+{
+  "id": "glm-4.1v-thinking-flash",
+  "object": "model",
+  "created": null,
+  "owned_by": "zhipu",
+  "name": "GLM-4.1V-Thinking-Flash",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/zai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 65536,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0,
+    "output": 0,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Free visual reasoning model with built-in chain-of-thought.",
+    "docs": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.1v-thinking-flash",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0,
+      "output": 0,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "zhipu",
+      "model": "glm-4.1v-thinking-flash",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "免费的视觉推理模型，内置思维链。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GLM-4.1V-Thinking-Flash | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.1v-thinking-flash",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "GLM-4.1V-Thinking | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.1v-thinking",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API 定价 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型概览 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "核心参数（各模型 max_tokens，128K 输出为 131072）| 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/concept-param",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "对话补全 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/api-reference/模型-api/对话补全",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/zai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/zai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

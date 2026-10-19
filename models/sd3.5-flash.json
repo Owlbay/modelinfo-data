@@ -1,0 +1,92 @@
+{
+  "id": "sd3.5-flash",
+  "object": "model",
+  "created": null,
+  "owned_by": "stability",
+  "name": "Stable Diffusion 3.5 Flash",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.025,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Distilled version of Stable Diffusion 3.5 Medium that generates high-quality images in 4 steps.",
+    "docs": "https://platform.stability.ai/docs/api-reference",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.025,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "stability",
+      "model": "sd3.5-flash",
+      "base_url": "https://api.stability.ai",
+      "endpoints": {
+        "images": "POST /v2beta/stable-image/generate/sd3"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Stable Diffusion 3.5 Medium 的蒸馏版本，4 步即可生成高质量图像。"
+    }
+  },
+  "sources": [
+    {
+      "title": "API Reference | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/docs/api-reference",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release Notes | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/docs/release-notes",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

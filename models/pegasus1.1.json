@@ -1,0 +1,71 @@
+{
+  "id": "pegasus1.1",
+  "object": "model",
+  "created": 1720310400,
+  "owned_by": "twelvelabs",
+  "name": "Pegasus 1.1",
+  "api": {
+    "types": [
+      "generate"
+    ],
+    "sdk": [
+      "twelvelabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-07-07",
+    "knowledge_cutoff": null,
+    "description": "Video language model; discontinued on 2025-02-25.",
+    "docs": "https://docs.twelvelabs.io/docs/get-started/release-notes",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "twelvelabs",
+      "model": "pegasus1.1",
+      "base_url": "https://api.twelvelabs.io/v1.3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "视频语言模型；已于 2025-02-25 停用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Release notes | TwelveLabs Docs",
+      "url": "https://docs.twelvelabs.io/docs/get-started/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — twelvelabs-js (api.sdk only)",
+      "url": "https://github.com/twelvelabs-io/twelvelabs-js",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

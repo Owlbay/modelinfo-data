@@ -1,0 +1,74 @@
+{
+  "id": "granite-8b-code-instruct",
+  "object": "model",
+  "created": null,
+  "owned_by": "ibm",
+  "name": "Granite 8B Code Instruct",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ibm-cloud/watsonx-ai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "IBM foundation model on watsonx.ai; withdrawn on 2026-08-08.",
+    "docs": "https://ibm.com/docs/en/SSYOK8/wsj/analyze-data/fm-model-lifecycle.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "ibm",
+      "model": "ibm/granite-8b-code-instruct",
+      "base_url": "https://us-south.ml.cloud.ibm.com",
+      "endpoints": {
+        "chat": "POST /ml/v1/text/chat"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ibm/granite-8b-code-instruct"
+  ],
+  "translations": {
+    "zh": {
+      "description": "watsonx.ai 上的 IBM 基础模型；已于 2026-08-08 撤下。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Foundation model lifecycle | IBM watsonx docs",
+      "url": "https://ibm.com/docs/en/SSYOK8/wsj/analyze-data/fm-model-lifecycle.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ibm-cloud/watsonx-ai (api.sdk only)",
+      "url": "https://github.com/IBM/watsonx-ai-node-sdk",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

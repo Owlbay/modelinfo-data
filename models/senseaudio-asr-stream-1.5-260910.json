@@ -1,0 +1,93 @@
+{
+  "id": "senseaudio-asr-stream-1.5-260910",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseAudio-ASR-Stream-1.5",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "hour",
+    "input": 3.6,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Streaming real-time transcription.",
+    "docs": "https://docs.senseaudio.cn/guides/asr/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "hour",
+      "input": 3.6,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "senseaudio-asr-stream-1.5-260910",
+      "base_url": "wss://api.senseaudio.cn",
+      "endpoints": {
+        "audio": "WS /ws/v1/realtime/transcriptions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "流式实时转写。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "语音识别介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/asr/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio WebSocket API",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/asr/realtime.md",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

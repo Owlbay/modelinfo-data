@@ -1,0 +1,110 @@
+{
+  "id": "speech-02-turbo",
+  "object": "model",
+  "created": 1743552000,
+  "owned_by": "minimax",
+  "name": "speech-02-turbo",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "minimax-speech-ts"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 60,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-04-02",
+    "knowledge_cutoff": null,
+    "description": "Low-latency speech synthesis (legacy generation).",
+    "docs": "https://platform.minimax.io/docs/api-reference/speech-t2a-http",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 60,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "speech-02-turbo",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "audio": "POST /v1/t2a_v2"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "低延迟语音合成（旧一代）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/models-intro",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API overview | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/api-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pay as You Go pricing | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model release notes | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Speech synthesis (T2A HTTP) | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/speech-t2a-http",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — minimax-speech-ts (api.sdk only)",
+      "url": "https://github.com/williamchong/minimax-speech-ts",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

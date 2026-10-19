@@ -1,0 +1,110 @@
+{
+  "id": "gpt-5.1-codex",
+  "object": "model",
+  "created": 1762992000,
+  "owned_by": "openai",
+  "name": "GPT-5.1-Codex",
+  "api": {
+    "types": [
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 400000,
+    "input": null,
+    "output": 128000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1.25,
+    "output": 10,
+    "cache_read": 0.125,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-11-13",
+    "knowledge_cutoff": "2024-09-30",
+    "description": "A version of GPT-5.1 optimized for agentic coding in Codex.",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.25,
+      "output": 10,
+      "cache_read": 0.125,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-5.1-codex",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "responses": "POST /v1/responses"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "针对 Codex 中的智能体编码优化的 GPT-5.1 版本。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-5.1-Codex Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

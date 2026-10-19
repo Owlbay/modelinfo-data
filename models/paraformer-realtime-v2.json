@@ -1,0 +1,98 @@
+{
+  "id": "paraformer-realtime-v2",
+  "object": "model",
+  "created": 1725580800,
+  "owned_by": "alibaba",
+  "name": "Paraformer-Realtime-V2",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "second",
+    "input": 0.00024,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-09-06",
+    "knowledge_cutoff": null,
+    "description": "Paraformer real-time speech recognition model, billed by input audio duration.",
+    "docs": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "second",
+      "input": 0.00024,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "paraformer-realtime-v2",
+      "base_url": "wss://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "realtime": "WS /api-ws/v1/inference"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Paraformer 实时语音识别模型，按输入音频时长计费。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型调用计费 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — real-time-speech-recognition-user-guide",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/real-time-speech-recognition-user-guide",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

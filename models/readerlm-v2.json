@@ -1,0 +1,96 @@
+{
+  "id": "readerlm-v2",
+  "object": "model",
+  "created": 1736985600,
+  "owned_by": "jina",
+  "name": "ReaderLM-v2",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 512768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-01-16",
+    "knowledge_cutoff": null,
+    "description": "Small language model (1.54B parameters) that converts HTML into clean Markdown or JSON, used by the Reader API.",
+    "docs": "https://jina.ai/models/ReaderLM-v2",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "jina",
+      "model": "readerlm-v2",
+      "base_url": "https://r.jina.ai",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ReaderLM-v2"
+  ],
+  "translations": {
+    "zh": {
+      "description": "小型语言模型（1.54B 参数），可将 HTML 转换为干净的 Markdown 或 JSON，用于 Reader API。"
+    }
+  },
+  "sources": [
+    {
+      "title": "ReaderLM-v2 | Jina AI",
+      "url": "https://jina.ai/models/ReaderLM-v2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina AI API docs",
+      "url": "https://docs.jina.ai/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "ReaderLM-v2 config | Hugging Face (jinaai)",
+      "url": "https://huggingface.co/jinaai/ReaderLM-v2/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Jina AI API",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "kat-coder-pro-v2.5",
+  "object": "model",
+  "created": 1783382400,
+  "owned_by": "kuaishou",
+  "name": "KAT-Coder-Pro V2.5",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 5,
+    "output": 20,
+    "cache_read": 1,
+    "cache_write": null
+  },
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-07",
+    "knowledge_cutoff": null,
+    "description": "KwaiKAT coding model served on the StreamLake Wanqing platform, compatible with OpenAI and Claude protocols.",
+    "docs": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 20,
+      "cache_read": 1,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "kuaishou",
+      "model": "kat-coder-pro-v2.5",
+      "base_url": "https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "部署在 StreamLake 万擎平台上的 KwaiKAT 编码模型，兼容 OpenAI 和 Claude 协议。"
+    }
+  },
+  "sources": [
+    {
+      "title": "KwaiKAT开发工具接入指南 - 快手万擎",
+      "url": "https://www.streamlake.com/document/WANQING/me6ymdjrqv8lp4iq0o9",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "大模型服务与开发平台（价格表）- StreamLake",
+      "url": "https://www.streamlake.com/product/wanqing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "万擎模型列表",
+      "url": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "万擎模型发布公告",
+      "url": "https://streamlake.com/document/WANQING/mdptas54hptu5uvllco",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

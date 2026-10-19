@@ -1,0 +1,106 @@
+{
+  "id": "mistral-large-2402",
+  "object": "model",
+  "created": 1708905600,
+  "owned_by": "mistral",
+  "name": "Mistral Large 1.0",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/mistral",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@mistralai/mistralai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-02-26",
+    "knowledge_cutoff": null,
+    "description": "Our first and larger SOTA model for enterprise use cases with powerfull chat capabilities.",
+    "docs": "https://docs.mistral.ai/models/mistral-large-1-0-24-02",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "mistral-large-2402",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "我们首个、规模较大的 SOTA 模型，适用于企业场景，具备强大的对话能力。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Mistral Large 1.0 | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/mistral-large-1-0-24-02",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models overview（含 Deprecation 与 Retirement 日期表） | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle policy | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/model-lifecycle",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/mistral (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/mistral",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

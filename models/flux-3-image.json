@@ -1,0 +1,104 @@
+{
+  "id": "flux-3-image",
+  "object": "model",
+  "created": 1790812800,
+  "owned_by": "black-forest-labs",
+  "name": "FLUX 3 Image",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/black-forest-labs"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.041,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-01",
+    "knowledge_cutoff": null,
+    "description": "FLUX 3 image generation and editing from one endpoint, with bounding-box layout control, up to ten references and up to 4K output.",
+    "docs": "https://docs.bfl.ml/flux_3/flux3_image_overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.041,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "black-forest-labs",
+      "model": "flux-3-image",
+      "base_url": "https://api.bfl.ai",
+      "endpoints": {
+        "images": "POST /v1/flux-3-image"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "FLUX 3 图像生成与编辑，使用同一端点，支持边界框布局控制、最多十张参考图，输出最高 4K。"
+    }
+  },
+  "sources": [
+    {
+      "title": "FLUX 3 Image | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/flux_3/flux3_image_overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release Notes | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/quick_start/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "FLUX API OpenAPI specification",
+      "url": "https://api.bfl.ai/openapi.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/black-forest-labs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/black-forest-labs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

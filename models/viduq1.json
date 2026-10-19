@@ -1,0 +1,84 @@
+{
+  "id": "viduq1",
+  "object": "model",
+  "created": null,
+  "owned_by": "shengshu",
+  "name": "Vidu Q1",
+  "api": {
+    "types": [
+      "video",
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video",
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Video generation (5s 1080p clips) and reference-to-image generation model.",
+    "docs": "https://platform.vidu.com/docs/overview/model-map",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shengshu",
+      "model": "viduq1",
+      "base_url": "https://api.vidu.com",
+      "endpoints": {
+        "video": "POST /ent/v2/text2video",
+        "images": "POST /ent/v2/reference2image"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "视频生成（5 秒 1080p 片段）和参考生图模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model Map | Vidu API",
+      "url": "https://platform.vidu.com/docs/overview/model-map",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Text to Video | Vidu API",
+      "url": "https://platform.vidu.com/docs/text-to-video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API: video-models/vidu-q1/text-to-video",
+      "url": "https://platform.vidu.com/docs/api-reference/video-models/vidu-q1/text-to-video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu Image Generation API",
+      "url": "https://platform.vidu.com/docs/api-reference/image-generation",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

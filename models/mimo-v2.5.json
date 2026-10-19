@@ -1,0 +1,185 @@
+{
+  "id": "mimo-v2.5",
+  "object": "model",
+  "created": 1776902400,
+  "owned_by": "xiaomi",
+  "name": "MiMo-V2.5",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 2,
+    "cache_read": 0.02,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2026-04-23",
+    "knowledge_cutoff": null,
+    "description": "Native omni-modal Xiaomi model for long-context and multimodal agent scenarios; retires 2026-10-21.",
+    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 2,
+      "cache_read": 0.02,
+      "cache_write": null
+    },
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.14,
+      "output": 0.28,
+      "cache_read": 0.0028,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xiaomi",
+      "model": "mimo-v2.5",
+      "base_url": "https://api.xiaomimimo.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "thinking"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "小米原生全模态模型，面向长上下文和多模态智能体场景；将于 2026-10-21 下线。"
+    }
+  },
+  "sources": [
+    {
+      "title": "mimo-v2.5 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/models/zh-CN/mimo-v2.5",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "按量计费 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat completions (OpenAI-compatible) | Xiaomi MiMo API Docs",
+      "url": "https://mimo.mi.com/docs/en-US/api/chat/openai-api",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "config.json | XiaomiMiMo/MiMo-V2-Flash (Hugging Face)",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash/blob/main/config.json",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "MiMo-V2.5 config.json | Hugging Face",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5/blob/main/config.json",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Anthropic Messages API Compatibility | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/en-US/api/chat/anthropic-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型发布 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/updates/model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型下线 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/updates/deprecate",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

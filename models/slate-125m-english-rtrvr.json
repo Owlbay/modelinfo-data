@@ -1,0 +1,97 @@
+{
+  "id": "slate-125m-english-rtrvr",
+  "object": "model",
+  "created": 1712793600,
+  "owned_by": "ibm",
+  "name": "Slate 125M English Retriever",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ibm-cloud/watsonx-ai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-04-11",
+    "knowledge_cutoff": null,
+    "description": "IBM foundation model on watsonx.ai; withdrawn on 2025-11-12.",
+    "docs": "https://ibm.com/docs/en/SSYOK8/wsj/analyze-data/fm-model-lifecycle.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "ibm",
+      "model": "ibm/slate-125m-english-rtrvr",
+      "base_url": "https://us-south.ml.cloud.ibm.com",
+      "endpoints": {
+        "embeddings": "POST /ml/v1/text/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ibm/slate-125m-english-rtrvr"
+  ],
+  "translations": {
+    "zh": {
+      "description": "watsonx.ai 上的 IBM 基础模型；已于 2025-11-12 撤下。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Foundation model lifecycle | IBM watsonx docs",
+      "url": "https://ibm.com/docs/en/SSYOK8/wsj/analyze-data/fm-model-lifecycle.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://www.ibm.com/docs/en/watsonx/saas?topic=model-foundation-lifecycle",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ibm-cloud/watsonx-ai (api.sdk only)",
+      "url": "https://github.com/IBM/watsonx-ai-node-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "typhoon-asr-realtime",
+  "object": "model",
+  "created": 1757289600,
+  "owned_by": "typhoon",
+  "name": "Typhoon ASR Real-Time",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-09-08",
+    "knowledge_cutoff": null,
+    "description": "Streaming speech recognition model (114M parameters); accepts wav, mp3, flac, ogg and opus.",
+    "docs": "https://docs.opentyphoon.ai/en/asr/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "typhoon",
+      "model": "typhoon-asr-realtime",
+      "base_url": "https://api.opentyphoon.ai/v1",
+      "endpoints": {
+        "audio": "POST /audio/transcriptions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "流式语音识别模型（114M 参数）；接受 wav、mp3、flac、ogg 和 opus。"
+    }
+  },
+  "sources": [
+    {
+      "title": "ASR | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/asr/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/models/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "OpenAI Python SDK audio transcriptions transport",
+      "url": "https://github.com/openai/openai-python/blob/main/src/openai/resources/audio/transcriptions.py",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "gen3a_turbo",
+  "object": "model",
+  "created": null,
+  "owned_by": "runway",
+  "name": "Gen-3 Alpha Turbo",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@runwayml/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.05,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Runway image-to-video model; no longer available on Runway Dev since 2026-07-30.",
+    "docs": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.05,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "runway",
+      "model": "gen3a_turbo",
+      "base_url": "https://api.dev.runwayml.com/v1",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Runway 图生视频模型；自 2026-07-30 起在 Runway Dev 上不再提供。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Runway API Changelog",
+      "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Available AI Models | Runway API（原网址 https://docs.dev.runwayml.com/guides/models/）",
+      "url": "https://web.archive.org/web/20250715224622/https://docs.dev.runwayml.com/guides/models/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Pricing | Runway API（原网址 https://docs.dev.runwayml.com/guides/pricing/）",
+      "url": "https://web.archive.org/web/20260420145731/https://docs.dev.runwayml.com/guides/pricing/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @runwayml/sdk (api.sdk only)",
+      "url": "https://github.com/runwayml/sdk-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

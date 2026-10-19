@@ -1,0 +1,77 @@
+{
+  "id": "qianfan-sug-8k",
+  "object": "model",
+  "created": null,
+  "owned_by": "baidu",
+  "name": "Qianfan-Sug-8K",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@baiducloud/qianfan"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Qianfan-Sug-8K, retired. Official retirement date: 2026-06-30.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "qianfan-sug-8k",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Qianfan-Sug-8K"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Qianfan-Sug-8K，已下线。官方下线日期：2026-06-30。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | 百度千帆（原网址 https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j）",
+      "url": "https://web.archive.org/web/20260310130346/https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

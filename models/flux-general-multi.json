@@ -1,0 +1,106 @@
+{
+  "id": "flux-general-multi",
+  "object": "model",
+  "created": null,
+  "owned_by": "deepgram",
+  "name": "Flux General (Multilingual)",
+  "api": {
+    "types": [
+      "audio",
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/deepgram",
+      "@deepgram/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.0078,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Deepgram Flux speech-to-text model for voice agents with turn detection, supporting 10 languages.",
+    "docs": "https://developers.deepgram.com/docs/models-languages-overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.0078,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "deepgram",
+      "model": "flux-general-multi",
+      "base_url": "wss://api.deepgram.com",
+      "endpoints": {
+        "audio": "WS /v2/listen",
+        "realtime": "WS /v2/listen"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Deepgram Flux 语音转文字模型，面向带轮次检测的语音智能体，支持 10 种语言。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models & Languages Overview | Deepgram Docs",
+      "url": "https://developers.deepgram.com/docs/models-languages-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Flux Quickstart | Deepgram Docs",
+      "url": "https://developers.deepgram.com/docs/flux/quickstart",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Deepgram",
+      "url": "https://deepgram.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @deepgram/sdk (api.sdk only)",
+      "url": "https://github.com/deepgram/deepgram-js-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/deepgram (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/deepgram",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

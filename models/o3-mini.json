@@ -1,0 +1,136 @@
+{
+  "id": "o3-mini",
+  "object": "model",
+  "created": 1738281600,
+  "owned_by": "openai",
+  "name": "o3-mini",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 200000,
+    "input": null,
+    "output": 100000
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1.1,
+    "output": 4.4,
+    "cache_read": 0.55,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "batch"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-01-31",
+    "knowledge_cutoff": "2023-10-01",
+    "description": "A small reasoning model alternative to o3.",
+    "docs": "https://developers.openai.com/api/docs/models/o3-mini",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.1,
+      "output": 4.4,
+      "cache_read": 0.55,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "o3-mini",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses",
+        "batch": "POST /v1/batches"
+      },
+      "reasoning_param": "reasoning.effort"
+    }
+  ],
+  "aliases": [
+    "o3-mini-2025-01-31"
+  ],
+  "translations": {
+    "zh": {
+      "description": "o3 的小型推理替代模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "o3-mini Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/o3-mini",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

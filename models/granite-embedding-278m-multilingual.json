@@ -1,0 +1,123 @@
+{
+  "id": "granite-embedding-278m-multilingual",
+  "object": "model",
+  "created": 1734480000,
+  "owned_by": "ibm",
+  "name": "Granite Embedding 278M Multilingual",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ibm-cloud/watsonx-ai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 512,
+    "input": 512,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.106,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-12-18",
+    "knowledge_cutoff": null,
+    "description": "IBM Granite multilingual embedding model on watsonx.ai (768 dimensions).",
+    "docs": "https://www.ibm.com/docs/en/watsonx/saas?topic=models-supported-encoder",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.106,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ibm",
+      "model": "ibm/granite-embedding-278m-multilingual",
+      "base_url": "https://us-south.ml.cloud.ibm.com",
+      "endpoints": {
+        "embeddings": "POST /ml/v1/text/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ibm/granite-embedding-278m-multilingual"
+  ],
+  "translations": {
+    "zh": {
+      "description": "watsonx.ai 上的 IBM Granite 多语言向量模型（768 维）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Supported encoder models | IBM watsonx.ai docs",
+      "url": "https://www.ibm.com/docs/en/watsonx/saas?topic=models-supported-encoder",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "watsonx.ai pricing | IBM",
+      "url": "https://www.ibm.com/products/watsonx-ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "watsonx.ai API reference | IBM Cloud",
+      "url": "https://cloud.ibm.com/apidocs/watsonx-ai",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "IBM Granite 3.1 announcement - IBM",
+      "url": "https://www.ibm.com/new/announcements/ibm-granite-3-1-powerful-performance-long-context-and-more",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ibm-cloud/watsonx-ai (api.sdk only)",
+      "url": "https://github.com/IBM/watsonx-ai-node-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

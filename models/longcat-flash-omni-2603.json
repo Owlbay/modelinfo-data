@@ -1,0 +1,106 @@
+{
+  "id": "longcat-flash-omni-2603",
+  "object": "model",
+  "created": 1773187200,
+  "owned_by": "meituan",
+  "name": "LongCat-Flash-Omni-2603",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-03-11",
+    "knowledge_cutoff": null,
+    "description": "LongCat-Flash-Omni-2603, retired. Official notice: the platform stops call service for this model from 2026-05-29.",
+    "docs": "https://longcat.chat/platform/docs/zh/ChangeLog.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "meituan",
+      "model": "LongCat-Flash-Omni-2603",
+      "base_url": "https://api.longcat.chat",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "LongCat-Flash-Omni-2603，已下线。官方通知：平台自 2026-05-29 起停止该模型的调用服务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "更新日志 | LongCat API 开放平台",
+      "url": "https://longcat.chat/platform/docs/zh/ChangeLog.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 API 文档 | LongCat API 开放平台（原网址 https://longcat.chat/platform/docs/APIDocs.html）",
+      "url": "https://web.archive.org/web/20260406220010/https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

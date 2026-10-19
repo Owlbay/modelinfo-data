@@ -1,0 +1,93 @@
+{
+  "id": "mai-transcribe-1.5",
+  "object": "model",
+  "created": 1780358400,
+  "owned_by": "microsoft",
+  "name": "MAI-Transcribe-1.5",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.36,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-06-02",
+    "knowledge_cutoff": null,
+    "description": "Microsoft AI speech-to-text model, predecessor of MAI-Transcribe-2, used via Azure Speech enhanced mode.",
+    "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.36,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "microsoft",
+      "model": "MAI-Transcribe-1.5",
+      "base_url": "https://<resource-name>.cognitiveservices.azure.com",
+      "endpoints": {
+        "audio": "POST /speechtotext/transcriptions:transcribe?api-version=2025-10-15"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MAI-Transcribe-1.5"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Microsoft AI 语音转文字模型，是 MAI-Transcribe-2 的前代模型，通过 Azure Speech 增强模式使用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "MAI-Transcribe-2 | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing MAI-Transcribe-1.5 | Microsoft AI",
+      "url": "https://microsoft.ai/news/mai-transcribe-1-5more-accurate-context-aware-and-built-for-production/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://microsoft.ai/models/mai-transcribe-2/",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

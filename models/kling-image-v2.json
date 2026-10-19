@@ -1,0 +1,79 @@
+{
+  "id": "kling-image-v2",
+  "object": "model",
+  "created": null,
+  "owned_by": "kuaishou",
+  "name": "Kling Image 2.0",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Kling Image 2.0 image model, retired. Official notice: retired on 2026-09-15.",
+    "docs": "https://kling.ai/document-api/api/image/2-0/image-generation",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "kuaishou",
+      "model": "kling-v2",
+      "base_url": "https://api-singapore.klingai.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Kling Image 2.0 图像模型，已下线。官方通知：已于 2026-09-15 下线。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Kling Image 2.0 | 可灵 API 文档",
+      "url": "https://kling.ai/document-api/api/image/2-0/image-generation",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "部分旧版模型下线预告 | 可灵 API 文档",
+      "url": "https://kling.ai/document-api/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 可灵 API 文档接口定义（含 model_name 取值）（原网址 https://s15-kling.klingai.com/kos/s101/nlav112918/api-doc/assets/api-BQSr5f8U.js）",
+      "url": "https://web.archive.org/web/20260911/https://s15-kling.klingai.com/kos/s101/nlav112918/api-doc/assets/api-BQSr5f8U.js",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "更新日志 | 可灵 API 文档",
+      "url": "https://kling.ai/document-api/updates/api",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

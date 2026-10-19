@@ -1,0 +1,89 @@
+{
+  "id": "antigravity-preview-05-2026",
+  "object": "model",
+  "created": 1779148800,
+  "owned_by": "google",
+  "name": "Antigravity Preview 05 2026",
+  "api": {
+    "types": [
+      "interactions"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": 1048576,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-05-19",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "google",
+      "model": "antigravity-preview-05-2026",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "changelog | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models/antigravity-preview-05-2026 | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "interactions | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/interactions",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

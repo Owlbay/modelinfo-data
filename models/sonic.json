@@ -1,0 +1,81 @@
+{
+  "id": "sonic",
+  "object": "model",
+  "created": 1729296000,
+  "owned_by": "cartesia",
+  "name": "Sonic",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/cartesia",
+      "@cartesia/cartesia-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-10-19",
+    "knowledge_cutoff": null,
+    "description": "First-generation Cartesia text-to-speech model; sunsetted.",
+    "docs": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "cartesia",
+      "model": "sonic",
+      "base_url": "https://api.cartesia.ai",
+      "endpoints": {
+        "audio": "POST /tts/bytes"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "sonic-2024-12-12",
+    "sonic-2024-10-19"
+  ],
+  "translations": {
+    "zh": {
+      "description": "第一代 Cartesia 文字转语音模型；已停止服务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Older Models | Cartesia Docs",
+      "url": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cartesia (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cartesia",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @cartesia/cartesia-js (api.sdk only)",
+      "url": "https://github.com/cartesia-ai/cartesia-js",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

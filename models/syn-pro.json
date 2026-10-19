@@ -1,0 +1,101 @@
+{
+  "id": "syn-pro",
+  "object": "model",
+  "created": 1761177600,
+  "owned_by": "upstage",
+  "name": "Syn Pro",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 65536,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-23",
+    "knowledge_cutoff": null,
+    "description": "Japanese-focused LLM (about 30B parameters) co-developed by Upstage and Karakuri for enterprise business.",
+    "docs": "https://console.upstage.ai/docs/models/history#syn-pro-251021",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "upstage",
+      "model": "syn-pro",
+      "base_url": "https://api.upstage.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "syn-pro-251021"
+  ],
+  "translations": {
+    "zh": {
+      "description": "由 Upstage 与 Karakuri 共同开发、面向日语的 LLM（约 30B 参数），用于企业商务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model history | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/history",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat completions API | Upstage Docs",
+      "url": "https://console.upstage.ai/api/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release history",
+      "url": "https://www.upstage.ai/blog/en/upstage-ai-jp-syn-pro",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "llama-3.2-nv-embedqa-1b-v1",
+  "object": "model",
+  "created": null,
+  "owned_by": "nvidia",
+  "name": "Llama 3.2 NV EmbedQA 1B v1",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 512,
+    "input": 512,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Embedding model optimized for multilingual and crosslingual text question-answering retrieval.",
+    "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_2-nv-embedqa-1b-v1",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/llama-3.2-nv-embedqa-1b-v1",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/llama-3.2-nv-embedqa-1b-v1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "向量模型，针对多语言和跨语言文本问答检索优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nvidia / llama-3.2-nv-embedqa-1b-v1 | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_2-nv-embedqa-1b-v1",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "NVIDIA llama-3.2-nv-embedqa-1b-v1 inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_2-nv-embedqa-1b-v1-infer",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

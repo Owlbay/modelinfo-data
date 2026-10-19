@@ -1,0 +1,101 @@
+{
+  "id": "sea-lion-modernbert-embedding-600m",
+  "object": "model",
+  "created": 1773619200,
+  "owned_by": "aisingapore",
+  "name": "SEA-LION ModernBERT Embedding 600M",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 8192,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-16",
+    "knowledge_cutoff": null,
+    "description": "Embedding model built on ModernBERT for Southeast Asian languages (1024-dimensional embeddings).",
+    "docs": "https://docs.sea-lion.ai/guides/inferencing/api",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "aisingapore",
+      "model": "aisingapore/SEA-LION-ModernBERT-Embedding-600M",
+      "base_url": "https://api.sea-lion.ai/v1",
+      "endpoints": {
+        "embeddings": "POST /embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "aisingapore/SEA-LION-ModernBERT-Embedding-600M"
+  ],
+  "translations": {
+    "zh": {
+      "description": "基于 ModernBERT、面向东南亚语言的向量模型（1024 维向量）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Inferencing API | SEA-LION Docs",
+      "url": "https://docs.sea-lion.ai/guides/inferencing/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SEA-LION-ModernBERT | SEA-LION Docs",
+      "url": "https://docs.sea-lion.ai/models/sea-embedding/sea-modernbert",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Hugging Face aisingapore/SEA-LION-ModernBERT-Embedding-600M config.json (official org)",
+      "url": "https://huggingface.co/aisingapore/SEA-LION-ModernBERT-Embedding-600M/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Announcing the SEA-LION Embedding Suite | SEA-LION",
+      "url": "https://sea-lion.ai/blog/bridging-the-semantic-gap-announcing-the-sea-lion-embedding-suite/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

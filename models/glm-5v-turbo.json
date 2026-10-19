@@ -1,0 +1,148 @@
+{
+  "id": "glm-5v-turbo",
+  "object": "model",
+  "created": 1775088000,
+  "owned_by": "zhipu",
+  "name": "GLM-5V-Turbo",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/zai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 202752,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 5,
+    "output": 22,
+    "cache_read": 1.2,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-02",
+    "knowledge_cutoff": null,
+    "description": "Multimodal coding foundation model for visual programming, long-horizon planning and agent workflows.",
+    "docs": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5v-turbo",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 22,
+      "cache_read": 1.2,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "zhipu",
+      "model": "glm-5v-turbo",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "thinking.type"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向视觉编程、长周期规划和智能体工作流的多模态编码基础模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GLM-5V-Turbo | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5v-turbo",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API 定价 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型概览 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "核心参数（各模型 max_tokens，128K 输出为 131072）| 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/concept-param",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "对话补全 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/api-reference/模型-api/对话补全",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "GLM-4.6 config.json (max_position_embeddings 202752) | Hugging Face",
+      "url": "https://huggingface.co/zai-org/GLM-4.6/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "最新动态 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/zai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/zai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

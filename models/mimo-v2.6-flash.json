@@ -1,0 +1,182 @@
+{
+  "id": "mimo-v2.6-flash",
+  "object": "model",
+  "created": 1790035200,
+  "owned_by": "xiaomi",
+  "name": "MiMo-V2.6-Flash",
+  "api": {
+    "types": [
+      "chat",
+      "messages",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 2,
+    "cache_read": 0.02,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-22",
+    "knowledge_cutoff": null,
+    "description": "Efficient Xiaomi reasoning model balancing capability, low cost and scale for high-volume workloads.",
+    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.6-flash",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 2,
+      "cache_read": 0.02,
+      "cache_write": null
+    },
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.14,
+      "output": 0.28,
+      "cache_read": 0.0028,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xiaomi",
+      "model": "mimo-v2.6-flash",
+      "base_url": "https://api.xiaomimimo.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "thinking"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "高效的小米推理模型，在能力、低成本和规模之间取得平衡，适用于大批量工作负载。"
+    }
+  },
+  "sources": [
+    {
+      "title": "mimo-v2.6-flash | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/models/zh-CN/mimo-v2.6-flash",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "按量计费 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Xiaomi MiMo-V2.6 发布 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/quick-start/summary/welcome",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Chat completions (OpenAI-compatible) | Xiaomi MiMo API Docs",
+      "url": "https://mimo.mi.com/docs/en-US/api/chat/openai-api",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "config.json | XiaomiMiMo/MiMo-V2-Flash (Hugging Face)",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash/blob/main/config.json",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Anthropic Messages API Compatibility | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/en-US/api/chat/anthropic-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型发布 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/updates/model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

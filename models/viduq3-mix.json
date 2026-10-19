@@ -1,0 +1,80 @@
+{
+  "id": "viduq3-mix",
+  "object": "model",
+  "created": 1776038400,
+  "owned_by": "shengshu",
+  "name": "Vidu Q3 Mix",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-13",
+    "knowledge_cutoff": null,
+    "description": "General-purpose balanced video generation model of the Vidu Q3 series.",
+    "docs": "https://platform.vidu.com/docs/overview/model-map",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shengshu",
+      "model": "viduq3-mix",
+      "base_url": "https://api.vidu.com",
+      "endpoints": {
+        "video": "POST /ent/v2/reference2video"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Vidu Q3 系列中通用、均衡的视频生成模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model Map | Vidu API",
+      "url": "https://platform.vidu.com/docs/overview/model-map",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Text to Video | Vidu API",
+      "url": "https://platform.vidu.com/docs/text-to-video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API Update Notice",
+      "url": "https://platform.vidu.com/docs/api-reference/updates",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API: video-models/vidu-q3/reference-to-video",
+      "url": "https://platform.vidu.com/docs/api-reference/video-models/vidu-q3/reference-to-video",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

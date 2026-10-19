@@ -1,0 +1,121 @@
+{
+  "id": "nova-pro",
+  "object": "model",
+  "created": 1733356800,
+  "owned_by": "amazon",
+  "name": "Amazon Nova Pro",
+  "api": {
+    "types": [
+      "chat",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/amazon-bedrock",
+      "@aws-sdk/client-bedrock-runtime"
+    ]
+  },
+  "limits": {
+    "context": 300000,
+    "input": null,
+    "output": 10000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.8,
+    "output": 3.2,
+    "cache_read": 0.2,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2024-12-05",
+    "knowledge_cutoff": "2024-10",
+    "description": "Amazon's balanced multimodal model offering strong accuracy, speed, and cost for a wide range of tasks across text, images, and video.",
+    "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-pro.html",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": 3.2,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.nova-pro-v1:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /model/{modelId}/converse"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "amazon.nova-pro-v1:0",
+    "us.amazon.nova-pro-v1:0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Amazon 均衡的多模态模型，在准确率、速度和成本上表现出色，适用于涵盖文本、图像和视频的各类任务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Amazon Bedrock model card: Amazon Nova Pro",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-pro.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Nova User Guide (Version 1): What is Amazon Nova?",
+      "url": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Bedrock Pricing",
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
+      "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/bedrock-runtime/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

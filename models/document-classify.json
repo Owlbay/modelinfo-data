@@ -1,0 +1,100 @@
+{
+  "id": "document-classify",
+  "object": "model",
+  "created": 1756512000,
+  "owned_by": "upstage",
+  "name": "Document Classify",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "page",
+    "input": 0.004,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-08-30",
+    "knowledge_cutoff": null,
+    "description": "Semantic classification of documents into user-defined classes; priced per page.",
+    "docs": "https://console.upstage.ai/docs/models/document-classify",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.004,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "upstage",
+      "model": "document-classify",
+      "base_url": "https://api.upstage.ai/v1",
+      "endpoints": {
+        "ocr": "POST /document-classification"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "document-classify-260304",
+    "document-classify-260114"
+  ],
+  "translations": {
+    "zh": {
+      "description": "将文档按用户定义的类别进行语义分类；按页计价。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Document Classify | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/document-classify",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model history | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/history",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Upstage",
+      "url": "https://upstage.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://console.upstage.ai/api/document-classification",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "c4ai-aya-vision-8b",
+  "object": "model",
+  "created": 1741046400,
+  "owned_by": "cohere",
+  "name": "Aya Vision 8B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 16000,
+    "input": null,
+    "output": 4000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-03-04",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.cohere.com/docs/deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "c4ai-aya-vision-8b",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Deprecations | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：官方模型发布/价格文档（原网址 https://docs.cohere.com/docs/aya-vision）",
+      "url": "https://web.archive.org/web/20250409184044/https://docs.cohere.com/docs/aya-vision",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：官方模型发布/价格文档（原网址 https://cohere.com/blog/aya-vision）",
+      "url": "https://web.archive.org/web/20250311231544/https://cohere.com/blog/aya-vision",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

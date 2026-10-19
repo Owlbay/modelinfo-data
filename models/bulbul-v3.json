@@ -1,0 +1,100 @@
+{
+  "id": "bulbul-v3",
+  "object": "model",
+  "created": 1770249600,
+  "owned_by": "sarvam",
+  "name": "Bulbul v3",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "sarvamai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "INR",
+    "unit": "1M_characters",
+    "input": 3000,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-05",
+    "knowledge_cutoff": null,
+    "description": "Text-to-speech model with natural voices for 10 Indian languages and English, up to 2,500 characters per request.",
+    "docs": "https://docs.sarvam.ai/api/getting-started/models/bulbul",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "INR",
+      "unit": "1M_characters",
+      "input": 3000,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "sarvam",
+      "model": "bulbul:v3",
+      "base_url": "https://api.sarvam.ai",
+      "endpoints": {
+        "audio": "POST /text-to-speech"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "bulbul:v3"
+  ],
+  "translations": {
+    "zh": {
+      "description": "文本转语音模型，提供适用于 10 种印度语言和英语的自然音色，每次请求最多 2,500 个字符。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Bulbul | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/models/bulbul",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official release announcement",
+      "url": "https://www.sarvam.ai/blogs/bulbul-v3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — sarvamai (api.sdk only)",
+      "url": "https://docs.sarvam.ai/api/getting-started/sdks",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

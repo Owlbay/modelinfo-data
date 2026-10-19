@@ -1,0 +1,107 @@
+{
+  "id": "baichuan2-turbo-192k",
+  "object": "model",
+  "created": null,
+  "owned_by": "baichuan",
+  "name": "Baichuan2-Turbo-192k",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 16,
+    "output": 16,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Baichuan2-Turbo long-context model (192k). Shut down on 2024-08-16; calls route to Baichuan3-Turbo-128k.",
+    "docs": "https://platform.baichuan-ai.com/prices",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 16,
+      "output": 16,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "baichuan",
+      "model": "Baichuan2-Turbo-192k",
+      "base_url": "https://api.baichuan-ai.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Baichuan2-Turbo-192k"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Baichuan2-Turbo 长上下文模型（192k）。已于 2024-08-16 下线；调用会路由至 Baichuan3-Turbo-128k。"
+    }
+  },
+  "sources": [
+    {
+      "title": "价格说明 | 百川智能开放平台",
+      "url": "https://platform.baichuan-ai.com/prices",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "价格说明 | 百川智能开放平台（存档，原网址 https://platform.baichuan-ai.com/price）",
+      "url": "https://web.archive.org/web/20240713065835/https://platform.baichuan-ai.com/price",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

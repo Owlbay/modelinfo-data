@@ -1,0 +1,116 @@
+{
+  "id": "gemini-2.0-flash-lite",
+  "object": "model",
+  "created": 1740441600,
+  "owned_by": "google",
+  "name": "Gemini 2.0 Flash-Lite",
+  "api": {
+    "types": [
+      "generate"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": 1048576,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.075,
+    "output": 0.3,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "structured_output"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-02-25",
+    "knowledge_cutoff": "2024-08",
+    "description": "A Gemini 2.0 Flash model optimized for cost efficiency and low latency.",
+    "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.075,
+      "output": 0.3,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-2.0-flash-lite",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1beta/models/{model}:generateContent"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "gemini-2.0-flash-lite-001"
+  ],
+  "translations": {
+    "zh": {
+      "description": "针对成本效率和低延迟优化的 Gemini 2.0 Flash 模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Gemini models | Gemini API（原网址 https://ai.google.dev/gemini-api/docs/models/gemini）",
+      "url": "https://web.archive.org/web/20250303104029/https://ai.google.dev/gemini-api/docs/models/gemini",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Gemini Developer API Pricing（原网址 https://ai.google.dev/gemini-api/docs/pricing）",
+      "url": "https://web.archive.org/web/20250228153339/https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Model versions and lifecycle | Generative AI on Vertex AI（原网址 https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions）",
+      "url": "https://web.archive.org/web/20251112105521/https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

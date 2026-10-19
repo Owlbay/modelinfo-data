@@ -1,0 +1,112 @@
+{
+  "id": "gpt-realtime-translate",
+  "object": "model",
+  "created": 1778112000,
+  "owned_by": "openai",
+  "name": "GPT-Realtime-Translate",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 16000,
+    "input": null,
+    "output": 2000
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "audio",
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.034,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-07",
+    "knowledge_cutoff": "2024-09-30",
+    "description": "Streaming speech-to-speech translation model for live multilingual audio.",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-realtime-translate",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.034,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-realtime-translate",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "realtime": "POST /v1/realtime/translations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于实时多语言音频的流式语音到语音翻译模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-Realtime-Translate Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-realtime-translate",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

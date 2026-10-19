@@ -1,0 +1,142 @@
+{
+  "id": "ministral-3b-2512",
+  "object": "model",
+  "created": 1764633600,
+  "owned_by": "mistral",
+  "name": "Ministral 3 3B",
+  "api": {
+    "types": [
+      "chat",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/mistral",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@mistralai/mistralai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": 0.1,
+    "cache_read": 0.01,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-02",
+    "knowledge_cutoff": null,
+    "description": "Smallest and most efficient Ministral 3 model with language and vision capabilities, designed for edge deployment.",
+    "docs": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 0.1,
+      "cache_read": 0.01,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "ministral-3b-2512",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "batch": "POST /v1/batch"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ministral-3b-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Ministral 3 中最小、最高效的模型，具备语言和视觉能力，专为边缘部署设计。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ministral 3 3B | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "API pricing | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Models overview | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Mistral-Large-3-675B-Instruct-2512 (256k context, 262144) | Hugging Face",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/mistral (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/mistral",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ctxl-rerank-v2-instruct-multilingual",
+  "object": "model",
+  "created": 1756252800,
+  "owned_by": "contextual-ai",
+  "name": "Contextual AI Reranker v2 Instruct Multilingual",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "contextual-client"
+    ]
+  },
+  "limits": {
+    "context": 8000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-08-27",
+    "knowledge_cutoff": null,
+    "description": "Multilingual instruction-following reranker that ranks documents by relevance and then by custom instructions such as recency, document type or source.",
+    "docs": "https://docs.contextual.ai/api-reference/rerank/rerank",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "contextual-ai",
+      "model": "ctxl-rerank-v2-instruct-multilingual",
+      "base_url": "https://api.contextual.ai",
+      "endpoints": {
+        "rerank": "POST /v1/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "多语言遵循指令重排模型，先按相关性、再按时效性、文档类型或来源等自定义指令对文档排序。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Rerank | Contextual AI Docs",
+      "url": "https://docs.contextual.ai/api-reference/rerank/rerank",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Contextual AI",
+      "url": "https://contextual.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Open-Sourcing Reranker v2 | Contextual AI",
+      "url": "https://contextual.ai/blog/rerank-v2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — contextual-client (api.sdk only)",
+      "url": "https://github.com/ContextualAI/contextual-client-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

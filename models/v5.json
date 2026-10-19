@@ -1,0 +1,76 @@
+{
+  "id": "v5",
+  "object": "model",
+  "created": 1756425600,
+  "owned_by": "pixverse",
+  "name": "PixVerse V5",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-08-29",
+    "knowledge_cutoff": null,
+    "description": "Legacy PixVerse video model; 5 or 8s clips.",
+    "docs": "https://docs.platform.pixverse.ai/text-to-video-generation-13016634e0",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "pixverse",
+      "model": "v5",
+      "base_url": "https://app-api.pixverse.ai/openapi/v2",
+      "endpoints": {
+        "video": "POST /video/text/generate"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "旧版 PixVerse 视频模型；5 或 8 秒片段。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Text-to-Video generation | PixVerse Platform Docs",
+      "url": "https://docs.platform.pixverse.ai/text-to-video-generation-13016634e0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model Overview | PixVerse Platform Docs",
+      "url": "https://docs.platform.pixverse.ai/model-overview-2140345m0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "PixVerse API Changelogs",
+      "url": "https://docs.platform.pixverse.ai/changelogs-906383m0",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

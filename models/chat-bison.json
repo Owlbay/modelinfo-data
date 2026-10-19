@@ -1,0 +1,75 @@
+{
+  "id": "chat-bison",
+  "object": "model",
+  "created": null,
+  "owned_by": "google",
+  "name": "PaLM 2 for Chat (chat-bison)",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@google-cloud/aiplatform"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://web.archive.org/web/20251112105521/https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "vertex-ai",
+      "model": "chat-bison",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "存档：Model versions and lifecycle | Generative AI on Vertex AI（原网址 https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions）",
+      "url": "https://web.archive.org/web/20251112105521/https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Chat | Generative AI on Vertex AI（原网址 https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/text-chat）",
+      "url": "https://web.archive.org/web/20250210065349/https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/text-chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：PaLM API deprecation（原网址 https://ai.google.dev/palm_docs/deprecation）",
+      "url": "https://web.archive.org/web/20260305113615/https://ai.google.dev/palm_docs/deprecation",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google-cloud/aiplatform (api.sdk only)",
+      "url": "https://github.com/googleapis/google-cloud-node/tree/main/packages/google-cloud-aiplatform",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

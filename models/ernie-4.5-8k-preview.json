@@ -1,0 +1,78 @@
+{
+  "id": "ernie-4.5-8k-preview",
+  "object": "model",
+  "created": 1742083200,
+  "owned_by": "baidu",
+  "name": "ERNIE-4.5-8K-Preview",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@baiducloud/qianfan"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-03-16",
+    "knowledge_cutoff": null,
+    "description": "ERNIE-4.5-8K-Preview, retired. Official retirement date: 2026-06-30.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "ernie-4.5-8k-preview",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ERNIE-4.5-8K-Preview"
+  ],
+  "translations": {
+    "zh": {
+      "description": "ERNIE-4.5-8K-Preview，已下线。官方下线日期：2026-06-30。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型更新记录 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

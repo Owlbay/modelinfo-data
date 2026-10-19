@@ -1,0 +1,112 @@
+{
+  "id": "mimo-v2.5-tts-voicedesign",
+  "object": "model",
+  "created": 1776902400,
+  "owned_by": "xiaomi",
+  "name": "MiMo-V2.5-TTS-VoiceDesign",
+  "api": {
+    "types": [
+      "chat",
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 8192,
+    "input": null,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-23",
+    "knowledge_cutoff": null,
+    "description": "无需参考音频，一句话描述即可生成全新音色。",
+    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-tts-voicedesign",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "xiaomi",
+      "model": "mimo-v2.5-tts-voicedesign",
+      "base_url": "https://api.xiaomimimo.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "en": {
+      "description": "Generate a new voice from a single-sentence description, without reference audio."
+    }
+  },
+  "sources": [
+    {
+      "title": "mimo-v2.5-tts-voicedesign | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-tts-voicedesign",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "按量计费 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型发布 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/updates/model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

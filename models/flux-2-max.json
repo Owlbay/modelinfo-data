@@ -1,0 +1,109 @@
+{
+  "id": "flux-2-max",
+  "object": "model",
+  "created": 1765843200,
+  "owned_by": "black-forest-labs",
+  "name": "FLUX.2 [max]",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/black-forest-labs"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.07,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-16",
+    "knowledge_cutoff": null,
+    "description": "Highest-quality FLUX.2 model, with grounding search, multi-reference editing and strong prompt following.",
+    "docs": "https://docs.bfl.ml/flux_2/flux2_overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.07,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "black-forest-labs",
+      "model": "flux-2-max",
+      "base_url": "https://api.bfl.ai",
+      "endpoints": {
+        "images": "POST /v1/flux-2-max"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "质量最高的 FLUX.2 模型，支持 grounding 搜索、多参考编辑，提示词遵循能力强。"
+    }
+  },
+  "sources": [
+    {
+      "title": "FLUX.2 Overview | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/flux_2/flux2_overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "FLUX.2 Text to Image | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/flux_2/flux2_text_to_image",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release Notes | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/quick_start/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "FLUX API OpenAPI specification",
+      "url": "https://api.bfl.ai/openapi.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/black-forest-labs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/black-forest-labs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

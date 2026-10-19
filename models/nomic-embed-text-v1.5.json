@@ -1,0 +1,82 @@
+{
+  "id": "nomic-embed-text-v1.5",
+  "object": "model",
+  "created": 1707868800,
+  "owned_by": "nomic",
+  "name": "Nomic Embed Text v1.5",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@nomic-ai/atlas"
+    ]
+  },
+  "limits": {
+    "context": 8192,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-02-14",
+    "knowledge_cutoff": null,
+    "description": "Nomic text embedding model with 768 default dimensions and Matryoshka variable output sizes.",
+    "docs": "https://docs.nomic.ai/atlas/embeddings-and-retrieval/text-embedding",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nomic",
+      "model": "nomic-embed-text-v1.5",
+      "base_url": "https://api-atlas.nomic.ai",
+      "endpoints": {
+        "embeddings": "POST /v1/embedding/text"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Nomic 文本向量模型，默认维度为 768，支持 Matryoshka 可变输出维度。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Text Embedding | Nomic Atlas Docs",
+      "url": "https://docs.nomic.ai/atlas/embeddings-and-retrieval/text-embedding",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Embed Text API Reference | Nomic Atlas Docs",
+      "url": "https://docs.nomic.ai/reference/api/embed-text-v-1-embedding-text-post",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Nomic Embed Matryoshka (v1.5) - Nomic",
+      "url": "https://www.nomic.ai/news/nomic-embed-matryoshka",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @nomic-ai/atlas (api.sdk only)",
+      "url": "https://github.com/nomic-ai/ts-nomic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

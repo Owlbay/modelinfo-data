@@ -1,0 +1,128 @@
+{
+  "id": "gemini-4-argon",
+  "object": "model",
+  "created": 1791849600,
+  "owned_by": "google",
+  "name": "Gemini 4 Argon",
+  "api": {
+    "types": [
+      "generate",
+      "batch",
+      "interactions"
+    ],
+    "sdk": [
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 4,
+    "output": 20,
+    "cache_read": 0.2,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-13",
+    "knowledge_cutoff": null,
+    "description": "Flagship reasoning model for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. The default synchronous max output is 65,536 tokens; long decode can continue up to 1,048,576 tokens minus the input. Standard price is $4 input, $20 output, and $0.20 implicit cache read per 1M tokens. Also supports code execution, computer use (preview), search grounding, URL context, and file search.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-4-argon",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "interactions": "POST /v1beta/interactions",
+        "generate": "POST /v1beta/models/gemini-4-argon:generateContent"
+      },
+      "reasoning_param": "generation_config.thinking_level",
+      "reasoning_params": {
+        "interactions": "generation_config.thinking_level",
+        "generate": "generationConfig.thinkingConfig.thinkingLevel"
+      }
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "旗舰推理模型，面向复杂软件工程、深度数学与科学问题求解，以及自主多步智能体。同步默认最大输出为 65,536 token；开启 long decode 后，输出可延续到 1,048,576 减去输入。标准价为每百万 token 输入 4 美元、输出 20 美元、隐式缓存读取 0.20 美元。另支持代码执行、Computer use（预览）、搜索接地、URL context 和 File search。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemini 4 Argon | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "What's new in Gemini 4 Argon | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "Gemini 4 Argon is now available for developers | Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Long decode with the GenerateContent API | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/generate-content/long-decode",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "hy-video-v1.5",
+  "object": "model",
+  "created": null,
+  "owned_by": "tencent",
+  "name": "Hy-Video-v1.5",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": null,
+    "output": 1.6,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Hunyuan video generation model on TokenHub supporting text-to-video and image-to-video (fixed 5 seconds at 720p).",
+    "docs": "https://www.tencentcloud.com/document/product/1300/83712",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": null,
+      "output": 1.6,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "tencent",
+      "model": "hy-video-v1.5",
+      "base_url": "https://tokenhub-intl.tencentcloudmaas.com",
+      "endpoints": {
+        "video": "POST /v1/wand/hunyuan-video/generation"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "TokenHub 上的混元视频生成模型，支持文生视频和图生视频（固定 5 秒，720p）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Video Generation Model Invocation Overview | Tencent Cloud",
+      "url": "https://www.tencentcloud.com/document/product/1300/83712",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Hy API Guide | Tencent Cloud",
+      "url": "https://www.tencentcloud.com/document/product/1300/83716",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "TokenHub Model Pricing | Tencent Cloud",
+      "url": "https://www.tencentcloud.com/document/product/1300/78937",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

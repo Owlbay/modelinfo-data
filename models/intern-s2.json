@@ -1,0 +1,124 @@
+{
+  "id": "intern-s2",
+  "object": "model",
+  "created": 1789257600,
+  "owned_by": "shlab",
+  "name": "Intern-S2",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-13",
+    "knowledge_cutoff": null,
+    "description": "Shanghai AI Lab 397B multimodal scientific reasoning model; thinking mode on by default.",
+    "docs": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shlab",
+      "model": "intern-s2",
+      "base_url": "https://chat.intern-ai.org.cn",
+      "endpoints": {
+        "chat": "POST /api/v1/chat/completions",
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": "thinking_mode"
+    }
+  ],
+  "aliases": [
+    "intern-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "上海人工智能实验室 397B 多模态科学推理模型；默认开启思考模式。"
+    }
+  },
+  "sources": [
+    {
+      "title": "获取模型列表 | InternLM API 文档",
+      "url": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Completions | InternLM API 文档",
+      "url": "https://internlm.intern-ai.org.cn/doc/docs/Chat/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Hugging Face internlm/Intern-S2 config.json (official org)",
+      "url": "https://huggingface.co/internlm/Intern-S2/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "书生-S2 发布 | 上海人工智能实验室",
+      "url": "https://www.shlab.org.cn/news/5444298",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Messages API | InternLM API 文档",
+      "url": "https://internlm.intern-ai.org.cn/doc/docs/API_DOCUMENTATION_ZH/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

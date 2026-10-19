@@ -1,0 +1,141 @@
+{
+  "id": "codestral-2508",
+  "object": "model",
+  "created": 1753833600,
+  "owned_by": "mistral",
+  "name": "Codestral",
+  "api": {
+    "types": [
+      "chat",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/mistral",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@mistralai/mistralai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.3,
+    "output": 0.9,
+    "cache_read": 0.03,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-07-30",
+    "knowledge_cutoff": null,
+    "description": "Language model for code completion specializing in low-latency, high-frequency tasks such as fill-in-the-middle and code generation.",
+    "docs": "https://docs.mistral.ai/models/codestral-25-08",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 0.9,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "codestral-2508",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "batch": "POST /v1/batch"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "codestral-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "用于代码补全的语言模型，擅长低延迟、高频率任务，如中间填充和代码生成。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Codestral | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/codestral-25-08",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "API pricing | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Models overview | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Mistral-Large-3-675B-Instruct-2512 (256k context, 262144) | Hugging Face",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/mistral (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/mistral",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

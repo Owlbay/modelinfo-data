@@ -1,0 +1,78 @@
+{
+  "id": "qianfan-llama-vl-8b",
+  "object": "model",
+  "created": 1745452800,
+  "owned_by": "baidu",
+  "name": "Qianfan-Llama-VL-8B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@baiducloud/qianfan"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-04-24",
+    "knowledge_cutoff": null,
+    "description": "Qianfan-Llama-VL-8B, retired. Official retirement date: 2026-04-23.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "qianfan-llama-vl-8b",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Qianfan-Llama-VL-8B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Qianfan-Llama-VL-8B，已下线。官方下线日期：2026-04-23。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型更新记录 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

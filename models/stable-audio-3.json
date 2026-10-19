@@ -1,0 +1,92 @@
+{
+  "id": "stable-audio-3",
+  "object": "model",
+  "created": 1779235200,
+  "owned_by": "stability",
+  "name": "Stable Audio 3.0",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "request",
+    "input": null,
+    "output": 0.08,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-20",
+    "knowledge_cutoff": null,
+    "description": "Stability audio model for text-to-audio, audio-to-audio and audio inpainting, with up to 6-minute 44.1 kHz stereo output.",
+    "docs": "https://platform.stability.ai/docs/api-reference",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "request",
+      "input": null,
+      "output": 0.08,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "stability",
+      "model": "stable-audio-3",
+      "base_url": "https://api.stability.ai",
+      "endpoints": {
+        "audio": "POST /v2beta/audio/stable-audio/text-to-audio"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Stability 音频模型，支持文本生成音频、音频生成音频和音频局部重绘，最长输出 6 分钟、44.1 kHz 立体声。"
+    }
+  },
+  "sources": [
+    {
+      "title": "API Reference | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/docs/api-reference",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release Notes | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/docs/release-notes",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "minimax-m2.7-highspeed",
+  "object": "model",
+  "created": 1773792000,
+  "owned_by": "minimax",
+  "name": "MiniMax-M2.7-highspeed",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/minimax",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 204800,
+    "input": null,
+    "output": 204800
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.6,
+    "output": 2.4,
+    "cache_read": 0.06,
+    "cache_write": 0.375
+  },
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-18",
+    "knowledge_cutoff": null,
+    "description": "Same performance as M2.7 with faster inference and lower latency.",
+    "docs": "https://platform.minimax.io/docs/guides/models-intro",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.6,
+      "output": 2.4,
+      "cache_read": 0.06,
+      "cache_write": 0.375
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 4.2,
+      "output": 16.8,
+      "cache_read": 0.42,
+      "cache_write": 2.625
+    }
+  ],
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "MiniMax-M2.7-highspeed",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "thinking"
+    }
+  ],
+  "aliases": [
+    "MiniMax-M2.7-highspeed"
+  ],
+  "translations": {
+    "zh": {
+      "description": "性能与 M2.7 相同，推理更快、延迟更低。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/models-intro",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pay as You Go pricing | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Text generation (OpenAI-compatible) | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/text-openai-api",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Text generation (Anthropic-compatible) | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/text-anthropic-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model release notes | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Messages API | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/text-chat-anthropic",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Completions API (max_completion_tokens) | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/text-chat-openai",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/minimax (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/minimax",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

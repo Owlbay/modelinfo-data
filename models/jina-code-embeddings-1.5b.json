@@ -1,0 +1,121 @@
+{
+  "id": "jina-code-embeddings-1.5b",
+  "object": "model",
+  "created": 1756684800,
+  "owned_by": "jina",
+  "name": "Jina Code Embeddings 1.5B",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "jina-ai-provider",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": 32768,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-09-01",
+    "knowledge_cutoff": null,
+    "description": "Code embedding model (1.5B parameters) for code retrieval from code and natural-language queries.",
+    "docs": "https://jina.ai/models/jina-code-embeddings-1.5b",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-code-embeddings-1.5b",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "代码向量模型（1.5B 参数），用于根据代码和自然语言查询进行代码检索。"
+    }
+  },
+  "sources": [
+    {
+      "title": "jina-code-embeddings-1.5b | Jina AI",
+      "url": "https://jina.ai/models/jina-code-embeddings-1.5b",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina AI API docs",
+      "url": "https://docs.jina.ai/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "jina-code-embeddings-1.5b config | Hugging Face (jinaai)",
+      "url": "https://huggingface.co/jinaai/jina-code-embeddings-1.5b/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Jina AI API",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — jina-ai-provider (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/community-providers/jina-ai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

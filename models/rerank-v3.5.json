@@ -1,0 +1,119 @@
+{
+  "id": "rerank-v3.5",
+  "object": "model",
+  "created": 1733097600,
+  "owned_by": "cohere",
+  "name": "Rerank v3.5",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "@ai-sdk/cohere",
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 4096,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "request",
+    "input": 0.002,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-12-02",
+    "knowledge_cutoff": null,
+    "description": "Reranker for English documents and JSON.",
+    "docs": "https://docs.cohere.com/docs/rerank-overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "request",
+      "input": 0.002,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "rerank-v3.5",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "rerank": "POST /v2/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向英文文档和 JSON 的重排模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Rerank v3.5 | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/rerank-overview",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Cohere Model Overview",
+      "url": "https://docs.cohere.com/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "How does Cohere pricing work?",
+      "url": "https://docs.cohere.com/docs/how-does-cohere-pricing-work",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Rerank Overview (context length of 4096 tokens) | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/rerank",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Announcing Rerank-v3.5 | Cohere Release Notes",
+      "url": "https://docs.cohere.com/changelog/rerank-v3.5",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Cohere Pricing（原网址 https://cohere.com/pricing）",
+      "url": "https://web.archive.org/web/20250827120544/https://cohere.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

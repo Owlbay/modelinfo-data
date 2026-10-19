@@ -1,0 +1,120 @@
+{
+  "id": "grok-imagine-video-1.5",
+  "object": "model",
+  "created": 1781568000,
+  "owned_by": "xai",
+  "name": "Grok Imagine Video 1.5",
+  "api": {
+    "types": [
+      "video",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/xai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.08,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-16",
+    "knowledge_cutoff": null,
+    "description": "xAI video generation model, priced at $0.08 per second of output.",
+    "docs": "https://docs.x.ai/developers/models/grok-imagine-video-1.5",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.08,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xai",
+      "model": "grok-imagine-video-1.5",
+      "base_url": "https://api.x.ai",
+      "endpoints": {
+        "video": "POST /v1/videos/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "grok-imagine-video-1.5-preview",
+    "grok-imagine-video-1.5-2026-05-30"
+  ],
+  "translations": {
+    "zh": {
+      "description": "xAI 视频生成模型，价格为每秒输出 $0.08。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Grok Imagine Video 1.5 | xAI Docs",
+      "url": "https://docs.x.ai/developers/models/grok-imagine-video-1.5",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models and Pricing | xAI Docs",
+      "url": "https://docs.x.ai/developers/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | xAI Docs",
+      "url": "https://docs.x.ai/developers/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Grok Imagine Video 1.5 | xAI",
+      "url": "https://x.ai/news/grok-imagine-video-1-5",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Videos | xAI REST API",
+      "url": "https://docs.x.ai/developers/rest-api-reference/inference/videos",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/xai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

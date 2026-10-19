@@ -1,0 +1,94 @@
+{
+  "id": "saaras-v3-realtime",
+  "object": "model",
+  "created": 1787011200,
+  "owned_by": "sarvam",
+  "name": "Saaras v3 Realtime",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "sarvamai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-18",
+    "knowledge_cutoff": null,
+    "description": "Realtime WebSocket speech-to-text model for voice agents and live transcription with interim transcripts.",
+    "docs": "https://docs.sarvam.ai/api/getting-started/models/saaras",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "sarvam",
+      "model": "saaras:v3-realtime",
+      "base_url": "wss://api.sarvam.ai",
+      "endpoints": {
+        "realtime": "WS /speech-to-text-realtime/ws"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "saaras:v3-realtime"
+  ],
+  "translations": {
+    "zh": {
+      "description": "基于 WebSocket 的实时语音转文字模型，适用于语音智能体和实时转写，支持中间转写结果。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Saaras | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/models/saaras",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Realtime Streaming | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/api-guides-tutorials/speech-to-text/realtime-streaming",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://docs.sarvam.ai/api/integration/pipecat-production-guide",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — sarvamai (api.sdk only)",
+      "url": "https://docs.sarvam.ai/api/getting-started/sdks",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

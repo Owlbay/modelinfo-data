@@ -1,0 +1,124 @@
+{
+  "id": "gpt-5.4-pro",
+  "object": "model",
+  "created": 1772668800,
+  "owned_by": "openai",
+  "name": "GPT-5.4 Pro",
+  "api": {
+    "types": [
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1050000,
+    "input": null,
+    "output": 128000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "medium",
+      "high",
+      "xhigh"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 30,
+    "output": 180,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-05",
+    "knowledge_cutoff": "2025-08-31",
+    "description": "Version of GPT-5.4 that produces smarter and more precise responses.",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-5.4-pro",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 30,
+      "output": 180,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-5.4-pro",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "responses": "POST /v1/responses"
+      },
+      "reasoning_param": "reasoning.effort"
+    }
+  ],
+  "aliases": [
+    "gpt-5.4-pro-2026-03-05"
+  ],
+  "translations": {
+    "zh": {
+      "description": "能给出更智能、更精确回答的 GPT-5.4 版本。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-5.4 Pro Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-pro",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Models | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Changelog | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

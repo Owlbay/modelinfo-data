@@ -1,0 +1,127 @@
+{
+  "id": "voyage-4",
+  "object": "model",
+  "created": 1768435200,
+  "owned_by": "voyage",
+  "name": "Voyage 4",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/voyage",
+      "openai",
+      "voyageai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.06,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-01-15",
+    "knowledge_cutoff": null,
+    "description": "Voyage embedding model optimized for general-purpose and multilingual retrieval quality.",
+    "docs": "https://docs.voyageai.com/docs/embeddings",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.06,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "voyage",
+      "model": "voyage-4",
+      "base_url": "https://api.voyageai.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Voyage 向量模型，针对通用和多语言检索质量进行了优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Text Embeddings | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/embeddings",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Text embeddings API | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/reference/embeddings-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Voyage AI Blog: voyage-4",
+      "url": "https://blog.voyageai.com/2026/01/15/voyage-4",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — voyageai (api.sdk only)",
+      "url": "https://github.com/voyage-ai/typescript-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/voyage (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/voyage",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

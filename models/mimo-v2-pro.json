@@ -1,0 +1,128 @@
+{
+  "id": "mimo-v2-pro",
+  "object": "model",
+  "created": 1773792000,
+  "owned_by": "xiaomi",
+  "name": "MiMo-V2-Pro",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 3,
+    "cache_read": 0.2,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-03-18",
+    "knowledge_cutoff": null,
+    "description": "MiMo-V2-Pro, retired. Official shutdown: 2026-06-30 00:00 (UTC+8); requests to the old model name then return errors.",
+    "docs": "https://mimo.mi.com/docs/zh-CN/updates/deprecate",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 3,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xiaomi",
+      "model": "mimo-v2-pro",
+      "base_url": "https://api.xiaomimimo.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "MiMo-V2-Pro，已下线。官方停服时间：2026-06-30 00:00（UTC+8）；此后请求旧模型名称将返回错误。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/updates/deprecate",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | Xiaomi MiMo（原网址 https://mimo.mi.com/docs/zh-CN/quick-start/summary/model）",
+      "url": "https://web.archive.org/web/20260613102030/https://mimo.mi.com/docs/zh-CN/quick-start/summary/model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release and pricing",
+      "url": "https://mimo.mi.com/docs/zh-CN/updates/model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "MiMo-V2-Pro launch — standard pricing up to 256K (cache write temporarily free excluded)",
+      "url": "https://mimo.xiaomi.com/mimo-v2-pro",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "omni-moderation-latest",
+  "object": "model",
+  "created": 1727308800,
+  "owned_by": "openai",
+  "name": "omni-moderation-latest",
+  "api": {
+    "types": [
+      "moderation",
+      "batch"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2024-09-26",
+    "knowledge_cutoff": null,
+    "description": "Free moderation model that detects harmful content in text and images.",
+    "docs": "https://developers.openai.com/api/docs/models/omni-moderation-latest",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "omni-moderation-latest",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "moderation": "POST /v1/moderations",
+        "batch": "POST /v1/batches"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "omni-moderation-2024-09-26"
+  ],
+  "translations": {
+    "zh": {
+      "description": "免费的内容审核模型，可检测文本和图像中的有害内容。"
+    }
+  },
+  "sources": [
+    {
+      "title": "omni-moderation-latest Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/omni-moderation-latest",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

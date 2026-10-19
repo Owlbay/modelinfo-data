@@ -1,0 +1,75 @@
+{
+  "id": "viduq2-turbo",
+  "object": "model",
+  "created": 1758672000,
+  "owned_by": "shengshu",
+  "name": "Vidu Q2 Turbo",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-09-24",
+    "knowledge_cutoff": null,
+    "description": "Fast video generation model supporting image-to-video and first/last frame, 1-10s clips.",
+    "docs": "https://platform.vidu.com/docs/overview/model-map",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shengshu",
+      "model": "viduq2-turbo",
+      "base_url": "https://api.vidu.com",
+      "endpoints": {
+        "video": "POST /ent/v2/img2video"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "快速视频生成模型，支持图生视频和首尾帧，1-10 秒片段。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model Map | Vidu API",
+      "url": "https://platform.vidu.com/docs/overview/model-map",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API Update Notice",
+      "url": "https://platform.vidu.com/docs/api-reference/updates",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API: video-models/vidu-q2/image-to-video",
+      "url": "https://platform.vidu.com/docs/api-reference/video-models/vidu-q2/image-to-video",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

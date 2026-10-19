@@ -1,0 +1,96 @@
+{
+  "id": "jina-reranker-v3",
+  "object": "model",
+  "created": 1759276800,
+  "owned_by": "jina",
+  "name": "Jina Reranker v3",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-01",
+    "knowledge_cutoff": null,
+    "description": "Listwise multilingual reranker (597M parameters) that ranks a query against candidate documents in one context window.",
+    "docs": "https://jina.ai/models/jina-reranker-v3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-reranker-v3",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "rerank": "POST /v1/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "列表式多语言重排模型（597M 参数），在一个上下文窗口内将查询与候选文档进行排序。"
+    }
+  },
+  "sources": [
+    {
+      "title": "jina-reranker-v3 | Jina AI",
+      "url": "https://jina.ai/models/jina-reranker-v3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina AI API docs",
+      "url": "https://docs.jina.ai/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "jina-reranker-v3 config | Hugging Face (jinaai)",
+      "url": "https://huggingface.co/jinaai/jina-reranker-v3/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Jina AI API",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

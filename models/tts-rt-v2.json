@@ -1,0 +1,104 @@
+{
+  "id": "tts-rt-v2",
+  "object": "model",
+  "created": 1786406400,
+  "owned_by": "soniox",
+  "name": "Soniox tts-rt-v2",
+  "api": {
+    "types": [
+      "audio",
+      "realtime"
+    ],
+    "sdk": [
+      "@soniox/node",
+      "@soniox/vercel-ai-sdk-provider"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 4,
+    "output": 21.5,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-11",
+    "knowledge_cutoff": null,
+    "description": "Soniox real-time text-to-speech model with natural speech in 60+ languages, audio-tag emotion control and voice cloning.",
+    "docs": "https://soniox.com/docs/tts/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 21.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "soniox",
+      "model": "tts-rt-v2",
+      "base_url": "https://tts-rt.soniox.com",
+      "endpoints": {
+        "audio": "POST /tts",
+        "realtime": "GET /tts-websocket"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "tts-rt-v1",
+    "tts-rt-v1-preview"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Soniox 实时文字转语音模型，支持 60 多种语言的自然语音、音频标签情感控制和声音克隆。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Soniox Docs (Text-to-Speech)",
+      "url": "https://soniox.com/docs/tts/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Soniox pricing",
+      "url": "https://soniox.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @soniox/node (api.sdk only)",
+      "url": "https://soniox.com/docs/sdk/node-SDK",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @soniox/vercel-ai-sdk-provider (api.sdk only)",
+      "url": "https://soniox.com/docs/integrations/vercel-ai-sdk",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

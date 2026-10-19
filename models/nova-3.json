@@ -1,0 +1,106 @@
+{
+  "id": "nova-3",
+  "object": "model",
+  "created": 1739318400,
+  "owned_by": "deepgram",
+  "name": "Nova-3",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/deepgram",
+      "@deepgram/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.0043,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-02-12",
+    "knowledge_cutoff": null,
+    "description": "Deepgram general-purpose speech-to-text model with multilingual code-switching.",
+    "docs": "https://developers.deepgram.com/docs/models-languages-overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.0043,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "deepgram",
+      "model": "nova-3",
+      "base_url": "https://api.deepgram.com",
+      "endpoints": {
+        "audio": "POST /v1/listen"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nova-3-general"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Deepgram 通用语音转文字模型，支持多语言语码转换。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models & Languages Overview | Deepgram Docs",
+      "url": "https://developers.deepgram.com/docs/models-languages-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Deepgram",
+      "url": "https://deepgram.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing Nova-3 | Deepgram",
+      "url": "https://deepgram.com/learn/introducing-nova-3-speech-to-text-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @deepgram/sdk (api.sdk only)",
+      "url": "https://github.com/deepgram/deepgram-js-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/deepgram (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/deepgram",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

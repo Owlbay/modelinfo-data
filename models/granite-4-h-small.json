@@ -1,0 +1,107 @@
+{
+  "id": "granite-4-h-small",
+  "object": "model",
+  "created": 1759363200,
+  "owned_by": "ibm",
+  "name": "Granite 4 H Small",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ibm-cloud/watsonx-ai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.0636,
+    "output": 0.265,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-02",
+    "knowledge_cutoff": null,
+    "description": "IBM Granite 4 H Small foundation model on watsonx.ai.",
+    "docs": "https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.0636,
+      "output": 0.265,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ibm",
+      "model": "ibm/granite-4-h-small",
+      "base_url": "https://us-south.ml.cloud.ibm.com",
+      "endpoints": {
+        "chat": "POST /ml/v1/text/chat"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ibm/granite-4-h-small"
+  ],
+  "translations": {
+    "zh": {
+      "description": "watsonx.ai 上的 IBM Granite 4 H Small 基础模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Supported foundation models | IBM watsonx.ai docs",
+      "url": "https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "watsonx.ai pricing | IBM",
+      "url": "https://www.ibm.com/products/watsonx-ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "watsonx.ai API reference | IBM Cloud",
+      "url": "https://cloud.ibm.com/apidocs/watsonx-ai",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "IBM Granite 4.0 announcement - IBM",
+      "url": "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ibm-cloud/watsonx-ai (api.sdk only)",
+      "url": "https://github.com/IBM/watsonx-ai-node-sdk",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

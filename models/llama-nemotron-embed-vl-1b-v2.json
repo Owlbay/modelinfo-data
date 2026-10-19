@@ -1,0 +1,97 @@
+{
+  "id": "llama-nemotron-embed-vl-1b-v2",
+  "object": "model",
+  "created": 1770681600,
+  "owned_by": "nvidia",
+  "name": "Llama Nemotron Embed VL 1B v2",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-10",
+    "knowledge_cutoff": null,
+    "description": "Multimodal question-answer retrieval model representing user queries as text and documents as images.",
+    "docs": "https://build.nvidia.com/nvidia/llama-nemotron-embed-vl-1b-v2/modelcard",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/llama-nemotron-embed-vl-1b-v2"
+  ],
+  "translations": {
+    "zh": {
+      "description": "多模态问答检索模型，将用户查询表示为文本，将文档表示为图像。"
+    }
+  },
+  "sources": [
+    {
+      "title": "llama-nemotron-embed-vl-1b-v2 Model Card | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/llama-nemotron-embed-vl-1b-v2/modelcard",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "nvidia / llama-nemotron-embed-vl-1b-v2 | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-nemotron-embed-vl-1b-v2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "gpt-4o-mini-audio-preview",
+  "object": "model",
+  "created": 1734393600,
+  "owned_by": "openai",
+  "name": "GPT-4o Mini Audio",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-12-17",
+    "knowledge_cutoff": "2023-10-01",
+    "description": "Smaller model capable of audio inputs and outputs",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-4o-mini-audio-preview",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "gpt-4o-mini-audio-preview-2024-12-17"
+  ],
+  "translations": {
+    "zh": {
+      "description": "支持音频输入和输出的较小模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-4o Mini Audio Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：OpenAI o1 and new tools for developers（原网址 https://openai.com/index/o1-and-new-tools-for-developers/）",
+      "url": "https://web.archive.org/web/20241219042329/https://openai.com/index/o1-and-new-tools-for-developers/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

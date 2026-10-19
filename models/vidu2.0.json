@@ -1,0 +1,63 @@
+{
+  "id": "vidu2.0",
+  "object": "model",
+  "created": null,
+  "owned_by": "shengshu",
+  "name": "Vidu 2.0",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Video generation model supporting image-to-video, reference-to-video, first/last frame and effect templates, 4s or 8s clips.",
+    "docs": "https://platform.vidu.com/docs/overview/model-map",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shengshu",
+      "model": "vidu2.0",
+      "base_url": "https://api.vidu.com/ent/v2",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "视频生成模型，支持图生视频、参考生视频、首尾帧和特效模板，4 秒或 8 秒片段。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model Map | Vidu API",
+      "url": "https://platform.vidu.com/docs/overview/model-map",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

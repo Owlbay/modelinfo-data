@@ -1,0 +1,113 @@
+{
+  "id": "palmyra-x5",
+  "object": "model",
+  "created": 1745798400,
+  "owned_by": "writer",
+  "name": "Palmyra X5",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "writer-sdk"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.6,
+    "output": 6,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-04-28",
+    "knowledge_cutoff": null,
+    "description": "General-purpose model with a 1M token context window and adaptive reasoning; deprecation scheduled 2026-12-14.",
+    "docs": "https://dev.writer.com/home/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.6,
+      "output": 6,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "writer",
+      "model": "palmyra-x5",
+      "base_url": "https://api.writer.com/v1",
+      "endpoints": {
+        "chat": "POST /chat"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "通用模型，具备 1M token 上下文窗口和自适应推理；计划于 2026-12-14 弃用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Choose a model | Writer AI Studio",
+      "url": "https://dev.writer.com/home/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Writer AI Studio",
+      "url": "https://dev.writer.com/home/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat completion | Writer API Reference",
+      "url": "https://dev.writer.com/api-reference/completion-api/chat-completion",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | Writer AI Studio",
+      "url": "https://dev.writer.com/home/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Palmyra X5 press release | WRITER",
+      "url": "https://writer.com/blog/long-context-palmyra-x5-press-release/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — writer-sdk (api.sdk only)",
+      "url": "https://github.com/writer/writer-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

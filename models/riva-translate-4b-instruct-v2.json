@@ -1,0 +1,91 @@
+{
+  "id": "riva-translate-4b-instruct-v2",
+  "object": "model",
+  "created": 1785110400,
+  "owned_by": "nvidia",
+  "name": "Riva Translate 4B Instruct v2",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-27",
+    "knowledge_cutoff": null,
+    "description": "Translation model in 37 languages with few-shot example prompt capability.",
+    "docs": "https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2/modelcard",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/riva-translate-4b-instruct-v2",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/riva-translate-4b-instruct-v2"
+  ],
+  "translations": {
+    "zh": {
+      "description": "支持 37 种语言的翻译模型，具备少样本示例提示能力。"
+    }
+  },
+  "sources": [
+    {
+      "title": "riva-translate-4b-instruct-v2 Model Card | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2/modelcard",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "nvidia / riva-translate-4b-instruct-v2 | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-riva-translate-4b-instruct-v2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

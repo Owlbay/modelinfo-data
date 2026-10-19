@@ -1,0 +1,108 @@
+{
+  "id": "cosyvoice-v2",
+  "object": "model",
+  "created": 1748304000,
+  "owned_by": "alibaba",
+  "name": "CosyVoice-V2",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_characters",
+    "input": 200,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-05-27",
+    "knowledge_cutoff": null,
+    "description": "CosyVoice v2 speech synthesis model, billed per input character.",
+    "docs": "https://help.aliyun.com/zh/model-studio/cosyvoice-websocket-api",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_characters",
+      "input": 200,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "cosyvoice-v2",
+      "base_url": "wss://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "audio": "WS /api-ws/v1/inference"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "CosyVoice v2 语音合成模型，按输入字符计费。"
+    }
+  },
+  "sources": [
+    {
+      "title": "CosyVoice 语音合成 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/cosyvoice-websocket-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型调用计费 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — cosyvoice-websocket-api",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/cosyvoice-websocket-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — cosyvoice-client-events",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/cosyvoice-client-events",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

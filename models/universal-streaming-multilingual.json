@@ -1,0 +1,98 @@
+{
+  "id": "universal-streaming-multilingual",
+  "object": "model",
+  "created": 1762905600,
+  "owned_by": "assemblyai",
+  "name": "Universal-Streaming Multilingual",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "assemblyai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.15,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-11-12",
+    "knowledge_cutoff": null,
+    "description": "AssemblyAI multilingual streaming speech-to-text model for English, Spanish, German, French, Portuguese and Italian.",
+    "docs": "https://www.assemblyai.com/docs/streaming/select-the-speech-model",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.15,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "assemblyai",
+      "model": "universal-streaming-multilingual",
+      "base_url": "https://streaming.assemblyai.com",
+      "endpoints": {
+        "realtime": "GET /v3/ws"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "AssemblyAI 多语言流式语音转文字模型，支持英语、西班牙语、德语、法语、葡萄牙语和意大利语。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model selection | AssemblyAI Docs",
+      "url": "https://www.assemblyai.com/docs/streaming/select-the-speech-model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | AssemblyAI",
+      "url": "https://www.assemblyai.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release announcement",
+      "url": "https://www.assemblyai.com/blog/introducing-multilingual-universal-streaming",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — assemblyai (api.sdk only)",
+      "url": "https://github.com/AssemblyAI/assemblyai-node-sdk",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

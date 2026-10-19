@@ -1,0 +1,147 @@
+{
+  "id": "muse-spark-1.2",
+  "object": "model",
+  "created": 1785888000,
+  "owned_by": "meta",
+  "name": "Muse Spark 1.2",
+  "api": {
+    "types": [
+      "chat",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1.25,
+    "output": 4.25,
+    "cache_read": 0.15,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-05",
+    "knowledge_cutoff": null,
+    "description": "Previous Muse Spark version for agentic and coding work with long-context reasoning.",
+    "docs": "https://dev.meta.ai/docs/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.25,
+      "output": 4.25,
+      "cache_read": 0.15,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "meta",
+      "model": "muse-spark-1.2",
+      "base_url": "https://api.meta.ai/v1",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "上一版 Muse Spark，用于智能体和编程工作，具备长上下文推理能力。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Meta Model API",
+      "url": "https://dev.meta.ai/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing and rate limits | Meta Model API",
+      "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Reasoning | Meta Model API",
+      "url": "https://dev.meta.ai/docs/reasoning",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Prompt caching | Meta Model API",
+      "url": "https://dev.meta.ai/docs/prompt-caching",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Structured output | Meta Model API",
+      "url": "https://dev.meta.ai/docs/structured-output",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Introducing Muse Code and Muse Spark 1.2 | Meta",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

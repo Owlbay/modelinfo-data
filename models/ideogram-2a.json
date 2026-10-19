@@ -1,0 +1,101 @@
+{
+  "id": "ideogram-2a",
+  "object": "model",
+  "created": null,
+  "owned_by": "ideogram",
+  "name": "Ideogram 2a",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.025,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Fast, lower-cost Ideogram text-to-image model.",
+    "docs": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-2a",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.025,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ideogram",
+      "model": "ideogram-2a",
+      "base_url": "https://api.ideogram.ai",
+      "endpoints": {
+        "images": "POST /v2/image/generate/ideogram-2a"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "快速、低成本的 Ideogram 文生图模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Generate with Ideogram 2a | Ideogram API Docs",
+      "url": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-2a",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Ideogram API documentation index",
+      "url": "https://developer.ideogram.ai/v2/llms.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Setup | Ideogram API Docs",
+      "url": "https://developer.ideogram.ai/ideogram-api/api-setup",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Pricing | Ideogram",
+      "url": "https://ideogram.ai/api-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Ideogram API pricing (dynamic table, lowest text-to-image tier)",
+      "url": "https://ideogram.ai/pricing/?pricing_tab=api",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

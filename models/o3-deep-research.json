@@ -1,0 +1,113 @@
+{
+  "id": "o3-deep-research",
+  "object": "model",
+  "created": 1750723200,
+  "owned_by": "openai",
+  "name": "o3-deep-research",
+  "api": {
+    "types": [
+      "responses",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 200000,
+    "input": null,
+    "output": 100000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 10,
+    "output": 40,
+    "cache_read": 2.5,
+    "cache_write": null
+  },
+  "features": [
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-06-24",
+    "knowledge_cutoff": "2024-06-01",
+    "description": "Our most powerful deep research model",
+    "docs": "https://developers.openai.com/api/docs/models/o3-deep-research",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 10,
+      "output": 40,
+      "cache_read": 2.5,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "o3-deep-research",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "responses": "POST /v1/responses",
+        "batch": "POST /v1/batches"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "o3-deep-research-2025-06-26"
+  ],
+  "translations": {
+    "zh": {
+      "description": "我们最强大的深度研究模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "o3-deep-research Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/o3-deep-research",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

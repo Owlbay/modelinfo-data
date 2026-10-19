@@ -1,0 +1,112 @@
+{
+  "id": "antigravity-preview-09-2026",
+  "object": "model",
+  "created": 1789603200,
+  "owned_by": "google",
+  "name": "Antigravity Preview 09-2026",
+  "api": {
+    "types": [
+      "interactions"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": 1048576,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-09-17",
+    "knowledge_cutoff": null,
+    "description": "General-purpose managed agent that plans, runs code, manages files and searches the web in a Google-hosted Linux sandbox (Interactions API).",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "google",
+      "model": "antigravity-preview-09-2026",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "通用托管智能体，在 Google 托管的 Linux 沙箱中规划任务、运行代码、管理文件并搜索网页（Interactions API）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Antigravity preview 09-2026 | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Antigravity agent | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/antigravity-agent",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release notes | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "interactions-overview | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/interactions-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "sam-3.1",
+  "object": "model",
+  "created": 1774569600,
+  "owned_by": "meta",
+  "name": "Segment Anything Model 3.1",
+  "api": {
+    "types": [
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-27",
+    "knowledge_cutoff": null,
+    "description": "Meta's segmentation model that returns boxes and masks for objects in images and video from a short text prompt.",
+    "docs": "https://dev.meta.ai/docs/media-segmentation",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "meta",
+      "model": "sam-3.1",
+      "base_url": "https://api.meta.ai/v1",
+      "endpoints": {
+        "responses": "POST /v1/responses"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Meta 的分割模型，可根据简短文本提示返回图像和视频中对象的边界框和掩码。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Meta Model API",
+      "url": "https://dev.meta.ai/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing and rate limits | Meta Model API",
+      "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Media segmentation | Meta Model API",
+      "url": "https://dev.meta.ai/docs/media-segmentation",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SAM 3.1 | Meta AI",
+      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

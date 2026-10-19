@@ -1,0 +1,96 @@
+{
+  "id": "sea-guard",
+  "object": "model",
+  "created": 1760659200,
+  "owned_by": "aisingapore",
+  "name": "SEA-Guard",
+  "api": {
+    "types": [
+      "moderation"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-17",
+    "knowledge_cutoff": null,
+    "description": "Safety model for Southeast Asian languages returning a binary safe / unsafe classification; no system prompts or multi-turn conversations.",
+    "docs": "https://docs.sea-lion.ai/guides/inferencing/api",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "aisingapore",
+      "model": "aisingapore/SEA-Guard",
+      "base_url": "https://api.sea-lion.ai/v1",
+      "endpoints": {
+        "moderation": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "aisingapore/SEA-Guard"
+  ],
+  "translations": {
+    "zh": {
+      "description": "面向东南亚语言的安全模型，返回安全 / 不安全的二元分类；不支持系统提示词或多轮对话。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Inferencing API | SEA-LION Docs",
+      "url": "https://docs.sea-lion.ai/guides/inferencing/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SEA-GUARD | SEA-LION Docs",
+      "url": "https://docs.sea-lion.ai/models/sea-guard/qwennllama-sea-guard",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing SEA-Guard: A Specialized Safety Model for AI in Southeast Asia (original API model)",
+      "url": "https://sea-lion.ai/blog/sea-guard-safety-model/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

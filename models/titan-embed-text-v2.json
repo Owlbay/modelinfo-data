@@ -1,0 +1,101 @@
+{
+  "id": "titan-embed-text-v2",
+  "object": "model",
+  "created": 1714435200,
+  "owned_by": "amazon",
+  "name": "Amazon Titan Text Embeddings V2",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/amazon-bedrock",
+      "@aws-sdk/client-bedrock-runtime"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.02,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-04-30",
+    "knowledge_cutoff": null,
+    "description": "Amazon's second-generation text embeddings model with configurable output dimensions and improved accuracy for retrieval tasks.",
+    "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2.html",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.02,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.titan-embed-text-v2:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "embeddings": "POST /model/{modelId}/invoke"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "amazon.titan-embed-text-v2:0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Amazon 的第二代文本向量模型，输出维度可配置，检索任务的准确率有所提升。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Amazon Bedrock model card: Titan Text Embeddings V2",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Bedrock Pricing",
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
+      "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/bedrock-runtime/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

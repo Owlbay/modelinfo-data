@@ -1,0 +1,124 @@
+{
+  "id": "voxtral-mini-tts-2603",
+  "object": "model",
+  "created": 1774224000,
+  "owned_by": "mistral",
+  "name": "Voxtral TTS",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/mistral",
+      "@ai-sdk/openai",
+      "@mistralai/mistralai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 0,
+    "output": 16,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-23",
+    "knowledge_cutoff": null,
+    "description": "Text-to-speech model with zero-shot voice cloning, 9 languages, and streaming with about 90ms time-to-first-audio.",
+    "docs": "https://docs.mistral.ai/models/voxtral-tts-26-03",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 0,
+      "output": 16,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "voxtral-mini-tts-2603",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "audio": "POST /v1/audio/speech"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "voxtral-mini-tts-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "文字转语音模型，支持零样本声音克隆和 9 种语言，流式输出的首个音频延迟约 90ms。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Voxtral TTS | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/voxtral-tts-26-03",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "API pricing | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models overview | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/mistral (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/mistral",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Voxtral TTS | Mistral Docs (official Markdown)",
+      "url": "https://docs.mistral.ai/models/voxtral-tts-26-03.md",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

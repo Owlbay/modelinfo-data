@@ -1,0 +1,109 @@
+{
+  "id": "eleven_v4",
+  "object": "model",
+  "created": 1790553600,
+  "owned_by": "elevenlabs",
+  "name": "Eleven v4",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/elevenlabs",
+      "@elevenlabs/elevenlabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 80,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-28",
+    "knowledge_cutoff": null,
+    "description": "Highest-emotion, highest-quality speech synthesis model with strong voice cloning and speaker preservation on long text.",
+    "docs": "https://elevenlabs.io/docs/overview/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 80,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "elevenlabs",
+      "model": "eleven_v4",
+      "base_url": "https://api.elevenlabs.io",
+      "endpoints": {
+        "audio": "POST /v1/text-to-speech/{voice_id}"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "情感最丰富、质量最高的语音合成模型，在长文本上具备出色的声音克隆和说话人保持能力。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/overview/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API pricing | ElevenLabs",
+      "url": "https://elevenlabs.io/pricing/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Create speech | ElevenLabs API Reference",
+      "url": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @elevenlabs/elevenlabs-js (api.sdk only)",
+      "url": "https://github.com/elevenlabs/elevenlabs-js",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/elevenlabs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/elevenlabs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

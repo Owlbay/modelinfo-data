@@ -1,0 +1,80 @@
+{
+  "id": "ink-2",
+  "object": "model",
+  "created": 1789603200,
+  "owned_by": "cartesia",
+  "name": "Ink 2",
+  "api": {
+    "types": [
+      "audio",
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/cartesia",
+      "@cartesia/cartesia-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-17",
+    "knowledge_cutoff": null,
+    "description": "Cartesia streaming speech-to-text model for voice agents with built-in turn detection, supporting English, French, Hindi, Japanese and Spanish.",
+    "docs": "https://docs.cartesia.ai/build-with-cartesia/stt-models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "cartesia",
+      "model": "ink-2",
+      "base_url": "https://api.cartesia.ai",
+      "endpoints": {
+        "audio": "POST /stt",
+        "realtime": "GET /stt/websocket"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Cartesia 面向语音智能体的流式语音转文字模型，内置轮次检测，支持英语、法语、印地语、日语和西班牙语。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ink 2 | Cartesia Docs",
+      "url": "https://docs.cartesia.ai/build-with-cartesia/stt-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cartesia (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cartesia",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @cartesia/cartesia-js (api.sdk only)",
+      "url": "https://github.com/cartesia-ai/cartesia-js",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

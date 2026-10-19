@@ -1,0 +1,115 @@
+{
+  "id": "embed-v5.0-pro",
+  "object": "model",
+  "created": 1790726400,
+  "owned_by": "cohere",
+  "name": "Embed v5.0 Pro",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/cohere",
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.12,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-30",
+    "knowledge_cutoff": null,
+    "description": "Highest-capability embedding model for text and images.",
+    "docs": "https://docs.cohere.com/docs/cohere-embed",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.12,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "embed-v5.0-pro",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "embeddings": "POST /v2/embed"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "能力最强的文本和图像向量模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Embed v5.0 Pro | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/cohere-embed",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Cohere Model Overview",
+      "url": "https://docs.cohere.com/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "How does Cohere pricing work?",
+      "url": "https://docs.cohere.com/docs/how-does-cohere-pricing-work",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Announcing Cohere's Embed 5 Models | Cohere Release Notes",
+      "url": "https://docs.cohere.com/changelog/embed-v5",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Cohere Pricing",
+      "url": "https://cohere.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

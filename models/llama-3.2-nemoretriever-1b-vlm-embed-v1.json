@@ -1,0 +1,92 @@
+{
+  "id": "llama-3.2-nemoretriever-1b-vlm-embed-v1",
+  "object": "model",
+  "created": 1747699200,
+  "owned_by": "nvidia",
+  "name": "Llama 3.2 NeMo Retriever 1B VLM Embed v1",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 8192,
+    "input": 4096,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-05-20",
+    "knowledge_cutoff": null,
+    "description": "Multimodal embedding model optimized for question-answering retrieval over image, text, or combined image-and-text documents.",
+    "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_2-nemoretriever-1b-vlm-embed-v1",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "多模态向量模型，针对图像、文本或图文混合文档的问答检索优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nvidia / llama-3.2-nemoretriever-1b-vlm-embed-v1 | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_2-nemoretriever-1b-vlm-embed-v1",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "NVIDIA llama-3.2-nemoretriever-1b-vlm-embed-v1 inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_2-nemoretriever-1b-vlm-embed-v1-infer",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

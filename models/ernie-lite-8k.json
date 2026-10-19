@@ -1,0 +1,98 @@
+{
+  "id": "ernie-lite-8k",
+  "object": "model",
+  "created": 1709856000,
+  "owned_by": "baidu",
+  "name": "ERNIE-Lite-8K",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@baiducloud/qianfan"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0,
+    "output": 0,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-03-08",
+    "knowledge_cutoff": null,
+    "description": "ERNIE-Lite-8K, retired. Official retirement date: 2026-01-27.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0,
+      "output": 0,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "ernie-lite-8k",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ERNIE-Lite-8K"
+  ],
+  "translations": {
+    "zh": {
+      "description": "ERNIE-Lite-8K，已下线。官方下线日期：2026-01-27。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型更新记录 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "百度千帆：ERNIE 系列历史刊例价调整公告",
+      "url": "https://ai.baidu.com/ai-doc/WENXINWORKSHOP/wlwg8f1i3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

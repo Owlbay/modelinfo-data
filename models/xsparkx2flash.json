@@ -1,0 +1,84 @@
+{
+  "id": "xsparkx2flash",
+  "object": "model",
+  "created": null,
+  "owned_by": "iflytek",
+  "name": "Spark X2-Flash",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 2,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "iFlytek Spark X2-Flash 30B mid-size model optimized for agent scenarios.",
+    "docs": "https://www.xfyun.cn/doc/spark/TokenPlan.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 2,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "iflytek-token-plan",
+      "model": "xsparkx2flash",
+      "base_url": "https://maas-token-api.cn-huabei-1.xf-yun.com/v2",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "讯飞 Spark X2-Flash 30B 中等规模模型，针对智能体场景优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Astron Token Plan 使用文档 | 讯飞星辰 MaaS",
+      "url": "https://www.xfyun.cn/doc/spark/TokenPlan.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Spark-X2-Flash — official MaaS model square, standard token rates",
+      "url": "https://maas.xfyun.cn/modelSquare?ch=MaaS-jgkol-6B2D",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

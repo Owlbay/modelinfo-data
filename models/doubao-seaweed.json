@@ -1,0 +1,71 @@
+{
+  "id": "doubao-seaweed",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seaweed",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-Seaweed, retired. Official shutdown (EOS) dates: doubao-seaweed-241128 2025-08-28.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seaweed-241128",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-seaweed-241128"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Doubao-Seaweed，已下线。官方停服（EOS）日期：doubao-seaweed-241128 2025-08-28。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线公告 2025 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/2172669",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310）",
+      "url": "https://web.archive.org/web/20250604074021/https://www.volcengine.com/docs/82379/1330310",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "nova-premier",
+  "object": "model",
+  "created": null,
+  "owned_by": "amazon",
+  "name": "Amazon Nova Premier",
+  "api": {
+    "types": [
+      "chat",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/amazon-bedrock",
+      "@aws-sdk/client-bedrock-runtime"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": 10000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "streaming",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Amazon's most capable multimodal model for complex tasks. It comprehends text, images, video, documents, and code. The category table lists US East (N. Virginia) and AWS GovCloud (US-West); the specifications table lists US East (N. Virginia), with cross-region inference to additional commercial regions.",
+    "docs": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
+    "verified_at": "2026-10-13"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.nova-premier-v1:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /model/{modelId}/converse"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "amazon.nova-premier-v1:0",
+    "us.amazon.nova-premier-v1:0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Amazon 面向复杂任务的最强大多模态模型，可理解文本、图像、视频、文档和代码。分类表列出美国东部（弗吉尼亚北部）与 AWS GovCloud（美国西部）；规格表列出美国东部（弗吉尼亚北部），并可通过跨区域推理访问其他商业区域。"
+    }
+  },
+  "sources": [
+    {
+      "title": "What is Amazon Nova? | Amazon Nova User Guide",
+      "url": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
+      "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/bedrock-runtime/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

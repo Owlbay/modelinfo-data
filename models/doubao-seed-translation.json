@@ -1,0 +1,132 @@
+{
+  "id": "doubao-seed-translation",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seed-Translation",
+  "api": {
+    "types": [
+      "chat",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 4096,
+    "input": 1024,
+    "output": 3072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 1.2,
+    "output": 3.6,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao Seed model enhanced for translation.",
+    "docs": "https://www.volcengine.com/docs/82379/1330310",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1.2,
+      "output": 3.6,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seed-translation-250915",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-seed-translation-250915"
+  ],
+  "translations": {
+    "zh": {
+      "description": "针对翻译增强的 Doubao Seed 模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1330310",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型价格 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1544106",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "深度思考 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1449737",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

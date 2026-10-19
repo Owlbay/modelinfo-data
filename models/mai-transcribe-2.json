@@ -1,0 +1,72 @@
+{
+  "id": "mai-transcribe-2",
+  "object": "model",
+  "created": 1788393600,
+  "owned_by": "microsoft",
+  "name": "MAI-Transcribe-2",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-09-03",
+    "knowledge_cutoff": null,
+    "description": "Microsoft AI speech-to-text model for 60 languages with diarization, word timestamps, keyword biasing and code switching.",
+    "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "microsoft",
+      "model": "MAI-Transcribe-2",
+      "base_url": "https://<resource-name>.cognitiveservices.azure.com",
+      "endpoints": {
+        "audio": "POST /speechtotext/transcriptions:transcribe?api-version=2025-10-15"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MAI-Transcribe-2"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Microsoft AI 语音转文字模型，支持 60 种语言，具备说话人分离、词级时间戳、关键词偏置和语码转换功能。"
+    }
+  },
+  "sources": [
+    {
+      "title": "MAI-Transcribe-2 | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "MAI-Transcribe-2 | Microsoft AI",
+      "url": "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "doubao-seed-code-preview",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seed-Code-preview",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-Seed-Code-preview, retired. Official shutdown (EOS) dates: doubao-seed-code-preview-251028 2026-09-21.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seed-code-preview-251028",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-seed-code-preview-251028"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Doubao-Seed-Code-preview，已下线。官方停服（EOS）日期：doubao-seed-code-preview-251028 2026-09-21。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线公告 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1350667",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310）",
+      "url": "https://web.archive.org/web/20251124053616/https://www.volcengine.com/docs/82379/1330310",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

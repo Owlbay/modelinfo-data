@@ -1,0 +1,93 @@
+{
+  "id": "llama-3.1-nemoguard-8b-topic-control",
+  "object": "model",
+  "created": null,
+  "owned_by": "nvidia",
+  "name": "Llama 3.1 NemoGuard 8B TopicControl",
+  "api": {
+    "types": [
+      "moderation",
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Topical and dialogue moderation model for task-oriented dialogue agents and custom policy-based moderation of user prompts.",
+    "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemoguard-8b-topic-control",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/llama-3.1-nemoguard-8b-topic-control",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "moderation": "POST /v1/chat/completions",
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/llama-3.1-nemoguard-8b-topic-control"
+  ],
+  "translations": {
+    "zh": {
+      "description": "话题与对话审核模型，用于任务型对话智能体，以及基于自定义策略对用户提示词进行审核。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nvidia / llama-3.1-nemoguard-8b-topic-control | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemoguard-8b-topic-control",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "NVIDIA llama-3.1-nemoguard-8b-topic-control inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemoguard-8b-topic-control-infer",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

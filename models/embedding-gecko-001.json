@@ -1,0 +1,70 @@
+{
+  "id": "embedding-gecko-001",
+  "object": "model",
+  "created": null,
+  "owned_by": "google",
+  "name": "Embedding Gecko 001",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@google-ai/generativelanguage"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "google",
+      "model": "embedding-gecko-001",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "changelog | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google-ai/generativelanguage (api.sdk only)",
+      "url": "https://github.com/googleapis/google-cloud-node/tree/main/packages/google-ai-generativelanguage",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

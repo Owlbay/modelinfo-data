@@ -1,0 +1,113 @@
+{
+  "id": "mistral-ocr-4-0",
+  "object": "model",
+  "created": 1782172800,
+  "owned_by": "mistral",
+  "name": "OCR 4.0",
+  "api": {
+    "types": [
+      "ocr",
+      "batch"
+    ],
+    "sdk": [
+      "@mistralai/mistralai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text",
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "page",
+    "input": 0.004,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-06-23",
+    "knowledge_cutoff": null,
+    "description": "Our latest OCR service powering our Document AI stack, with native paragraph-level bounding box extraction and structural block labels.",
+    "docs": "https://docs.mistral.ai/models/ocr-4-0",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.004,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "mistral-ocr-4-0",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "batch": "POST /v1/batch"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "我们最新的 OCR 服务，为 Document AI 体系提供支持，原生支持段落级边界框提取和结构块标签。"
+    }
+  },
+  "sources": [
+    {
+      "title": "OCR 4.0 | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/ocr-4-0",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "Models overview（含 Deprecation 与 Retirement 日期表） | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle policy | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/model-lifecycle",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Mistral API pricing（原网址 https://mistral.ai/pricing/api/）",
+      "url": "https://web.archive.org/web/20260701172032/https://mistral.ai/pricing/api/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "OCR 4.0 | Mistral Docs (official Markdown)",
+      "url": "https://docs.mistral.ai/models/ocr-4-0.md",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

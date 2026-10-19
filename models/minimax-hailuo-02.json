@@ -1,0 +1,104 @@
+{
+  "id": "minimax-hailuo-02",
+  "object": "model",
+  "created": 1750204800,
+  "owned_by": "minimax",
+  "name": "MiniMax-Hailuo-02",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@ai-sdk/minimax"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "request",
+    "input": null,
+    "output": 0.1,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-06-18",
+    "knowledge_cutoff": null,
+    "description": "Text-to-video and image-to-video model with up to 1080p output.",
+    "docs": "https://platform.minimax.io/docs/api-reference/video-generation-t2v",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "request",
+      "input": null,
+      "output": 0.1,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "MiniMax-Hailuo-02",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "video": "POST /v1/video_generation"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "文生视频和图生视频模型，输出最高 1080p。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/models-intro",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pay as You Go pricing | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model release notes | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Video generation (text to video) | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/video-generation-t2v",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/minimax (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/minimax",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

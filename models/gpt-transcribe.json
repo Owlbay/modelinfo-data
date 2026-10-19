@@ -1,0 +1,114 @@
+{
+  "id": "gpt-transcribe",
+  "object": "model",
+  "created": 1785196800,
+  "owned_by": "openai",
+  "name": "GPT-Transcribe",
+  "api": {
+    "types": [
+      "audio",
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio",
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.0045,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-28",
+    "knowledge_cutoff": null,
+    "description": "High-accuracy speech-to-text for files and Realtime input.",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-transcribe",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.0045,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-transcribe",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "audio": "POST /v1/audio/transcriptions",
+        "realtime": "POST /v1/realtime/transcription_sessions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向文件和 Realtime 输入的高精度语音转文字模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-Transcribe Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-transcribe",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

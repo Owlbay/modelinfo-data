@@ -1,0 +1,120 @@
+{
+  "id": "jina-embeddings-v5-omni-small",
+  "object": "model",
+  "created": 1778112000,
+  "owned_by": "jina",
+  "name": "Jina Embeddings v5 Omni Small",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "jina-ai-provider",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": 32768,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-07",
+    "knowledge_cutoff": null,
+    "description": "Multimodal embedding model (~1.74B parameters) for text, image, video, audio, and PDF in a shared 1024-dimensional space.",
+    "docs": "https://jina.ai/models/jina-embeddings-v5-omni-small",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-embeddings-v5-omni-small",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "多模态向量模型（约 1.74B 参数），将文本、图像、视频、音频和 PDF 映射到共享的 1024 维空间。"
+    }
+  },
+  "sources": [
+    {
+      "title": "jina-embeddings-v5-omni-small | Jina AI",
+      "url": "https://jina.ai/models/jina-embeddings-v5-omni-small",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina AI API docs",
+      "url": "https://docs.jina.ai/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Jina AI API",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — jina-ai-provider (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/community-providers/jina-ai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

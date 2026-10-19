@@ -1,0 +1,104 @@
+{
+  "id": "qwen-image-3.0-pro",
+  "object": "model",
+  "created": 1784505600,
+  "owned_by": "alibaba",
+  "name": "Qwen-Image-3.0-Pro",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": 0.003,
+    "output": 0.04,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-20",
+    "knowledge_cutoff": null,
+    "description": "High-end image generation model with long-prompt support, dense layouts and legible small text.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-image-3-0-pro",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": 0.003,
+      "output": 0.04,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen-image-3.0-pro",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "images": "POST /api/v1/services/aigc/text2image/image-synthesis"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "高端图像生成模型，支持长提示词、密集版式和清晰可读的小字。"
+    }
+  },
+  "sources": [
+    {
+      "title": "qwen-image-3.0-pro | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-image-3-0-pro",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — qwen-image-api",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

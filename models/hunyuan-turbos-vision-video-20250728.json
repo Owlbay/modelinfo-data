@@ -1,0 +1,118 @@
+{
+  "id": "hunyuan-turbos-vision-video-20250728",
+  "object": "model",
+  "created": 1753660800,
+  "owned_by": "tencent",
+  "name": "HY-Vision-Video",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": 24576,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 3,
+    "output": 9,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-07-28",
+    "knowledge_cutoff": null,
+    "description": "Tencent video understanding model for video description and video Q&A.",
+    "docs": "https://cloud.tencent.com/document/product/1823/130051",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 9,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "tencent",
+      "model": "hunyuan-turbos-vision-video-20250728",
+      "base_url": "https://tokenhub.tencentmaas.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "hunyuan-turbos-vision-video"
+  ],
+  "translations": {
+    "zh": {
+      "description": "腾讯视频理解模型，用于视频描述和视频问答。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130051",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型定价 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130055",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "产品概述 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/104753",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "产品动态 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/97765",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

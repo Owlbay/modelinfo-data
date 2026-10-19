@@ -1,0 +1,110 @@
+{
+  "id": "doubao-lite-4k-character",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-lite-4k-character",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-lite-4k-character, retired. Official shutdown (EOS) dates: doubao-lite-4k-character-240515 2025-04-15; doubao-lite-4k-character-240828 2025-08-28.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-lite-4k-character-240828",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-lite-4k-character-240515",
+    "doubao-lite-4k-character-240828"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Doubao-lite-4k-character，已下线。官方停服（EOS）日期：doubao-lite-4k-character-240515 2025-04-15；doubao-lite-4k-character-240828 2025-08-28。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线公告 2024 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/2172670",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型下线公告 2025 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/2172669",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | 火山方舟 82379/1330310（原网址 https://www.volcengine.com/api/doc/getDocDetail?LibraryID=82379&DocumentID=1330310&type=online）",
+      "url": "https://web.archive.org/web/20250311071301/https://www.volcengine.com/api/doc/getDocDetail?LibraryID=82379&DocumentID=1330310&type=online",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

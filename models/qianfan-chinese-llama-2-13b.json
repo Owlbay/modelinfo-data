@@ -1,0 +1,77 @@
+{
+  "id": "qianfan-chinese-llama-2-13b",
+  "object": "model",
+  "created": null,
+  "owned_by": "baidu",
+  "name": "Qianfan-Chinese-Llama-2-13B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@baiducloud/qianfan"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Qianfan-Chinese-Llama-2-13B, retired. Official retirement date: 2025-12-11.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "qianfan-chinese-llama-2-13b",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Qianfan-Chinese-Llama-2-13B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Qianfan-Chinese-Llama-2-13B，已下线。官方下线日期：2025-12-11。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 API列表 | ModelBuilder（原网址 https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Nlks5zkzu）",
+      "url": "https://web.archive.org/web/20250612164358/https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Nlks5zkzu",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "nova-reel",
+  "object": "model",
+  "created": 1733184000,
+  "owned_by": "amazon",
+  "name": "Amazon Nova Reel",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@aws-sdk/client-bedrock-runtime"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.08,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-12-03",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-reel.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.08,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.nova-reel-v1:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "amazon.nova-reel-v1:0"
+  ],
+  "sources": [
+    {
+      "title": "Model lifecycle (Legacy) - Amazon Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Amazon Bedrock model card: Nova Reel",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-reel.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://aws.amazon.com/cn/campaigns/nc202501/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
+      "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/bedrock-runtime/",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

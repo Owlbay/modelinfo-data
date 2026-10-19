@@ -1,0 +1,114 @@
+{
+  "id": "music_v1",
+  "object": "model",
+  "created": 1755475200,
+  "owned_by": "elevenlabs",
+  "name": "Eleven Music v1",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/elevenlabs",
+      "@elevenlabs/elevenlabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": null,
+    "output": 0.15,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-08-18",
+    "knowledge_cutoff": null,
+    "description": "Studio-grade music generation from text prompts (legacy; outclassed by v2 and v2.5).",
+    "docs": "https://elevenlabs.io/docs/overview/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": null,
+      "output": 0.15,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "elevenlabs",
+      "model": "music_v1",
+      "base_url": "https://api.elevenlabs.io",
+      "endpoints": {
+        "audio": "POST /v1/music"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "根据文本提示生成录音室级音乐（旧版；已被 v2 和 v2.5 超越）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/overview/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API pricing | ElevenLabs",
+      "url": "https://elevenlabs.io/pricing/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Compose music | ElevenLabs API Reference",
+      "url": "https://elevenlabs.io/docs/api-reference/music/compose",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "ElevenAPI per-product pricing FAQ: Eleven Music $0.15/minute",
+      "url": "https://elevenlabs.io/pricing/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Eleven Music, now available in the API",
+      "url": "https://elevenlabs.io/blog/eleven-music-now-available-in-the-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @elevenlabs/elevenlabs-js (api.sdk only)",
+      "url": "https://github.com/elevenlabs/elevenlabs-js",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/elevenlabs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/elevenlabs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

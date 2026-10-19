@@ -1,0 +1,96 @@
+{
+  "id": "nemotron-3-embed-1b",
+  "object": "model",
+  "created": 1784160000,
+  "owned_by": "nvidia",
+  "name": "Nemotron 3 Embed 1B",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-16",
+    "knowledge_cutoff": null,
+    "description": "1B embedding model for semantic search, retrieval and RAG applications.",
+    "docs": "https://build.nvidia.com/nvidia/nemotron-3-embed-1b/modelcard",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/nemotron-3-embed-1b",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/nemotron-3-embed-1b"
+  ],
+  "translations": {
+    "zh": {
+      "description": "1B 向量模型，适用于语义搜索、检索和 RAG 应用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nemotron-3-embed-1b Model Card | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/nemotron-3-embed-1b/modelcard",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "nvidia / nemotron-3-embed-1b | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3-embed-1b",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "NVIDIA nemotron-3-embed-1b inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3-embed-1b-infer",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

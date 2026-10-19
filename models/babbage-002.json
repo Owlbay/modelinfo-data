@@ -1,0 +1,104 @@
+{
+  "id": "babbage-002",
+  "object": "model",
+  "created": 1692662400,
+  "owned_by": "openai",
+  "name": "babbage-002",
+  "api": {
+    "types": [
+      "completions"
+    ],
+    "sdk": [
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.4,
+    "output": 0.4,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2023-08-22",
+    "knowledge_cutoff": "2021-09-01",
+    "description": "Replacement for the GPT-3 ada and babbage base models",
+    "docs": "https://developers.openai.com/api/docs/models/babbage-002",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.4,
+      "output": 0.4,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "babbage-002",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "completions": "POST /v1/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "GPT-3 ada 和 babbage 基础模型的替代品。"
+    }
+  },
+  "sources": [
+    {
+      "title": "babbage-002 Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/babbage-002",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

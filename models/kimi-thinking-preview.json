@@ -1,0 +1,102 @@
+{
+  "id": "kimi-thinking-preview",
+  "object": "model",
+  "created": 1746489600,
+  "owned_by": "moonshot",
+  "name": "Kimi Thinking Preview",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/moonshotai",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-05-06",
+    "knowledge_cutoff": null,
+    "description": "Kimi thinking preview model listed in the official deprecated models. Officially discontinued on 2025-11-11.",
+    "docs": "https://platform.kimi.ai/docs/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "moonshot",
+      "model": "kimi-thinking-preview",
+      "base_url": "https://api.moonshot.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "官方弃用模型列表中的 Kimi 思考预览模型。官方已于 2025-11-11 停止服务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model List | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model List | Kimi API Platform（存档，原网址 https://platform.kimi.ai/docs/models）",
+      "url": "https://web.archive.org/web/20260421085752/https://platform.kimi.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kimi 长思考模型 API 正式发布",
+      "url": "https://platform.kimi.com/blog/posts/kimi-thinking",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/moonshotai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/moonshotai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "vila",
+  "object": "model",
+  "created": null,
+  "owned_by": "nvidia",
+  "name": "VILA",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": 2048
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Vision language model that queries and summarizes images and video from the physical or virtual world.",
+    "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-vila",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/vila",
+      "base_url": "https://ai.api.nvidia.com",
+      "endpoints": {
+        "chat": "POST /v1/vlm/nvidia/vila"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/vila"
+  ],
+  "translations": {
+    "zh": {
+      "description": "视觉语言模型，可对来自物理或虚拟世界的图像和视频进行查询与摘要。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nvidia / vila | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-vila",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "NVIDIA vila inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-vila-infer",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "minimax-h3",
+  "object": "model",
+  "created": 1785456000,
+  "owned_by": "minimax",
+  "name": "MiniMax-H3",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@ai-sdk/minimax"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.08,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-31",
+    "knowledge_cutoff": null,
+    "description": "Open general-purpose multimodal video model with text-to-video, image-to-video, first/last-frame and reference generation at 768P or 2K.",
+    "docs": "https://platform.minimax.io/docs/api-reference/video-generation-v2-create",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.08,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "MiniMax-H3",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "video": "POST /v2/video_generation"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MiniMax-H3"
+  ],
+  "translations": {
+    "zh": {
+      "description": "开放的通用多模态视频模型，支持文生视频、图生视频、首尾帧和参考生成，分辨率为 768P 或 2K。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/models-intro",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API overview | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/api-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pay as You Go pricing | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model release notes | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Create video generation task | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/video-generation-v2-create",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/minimax (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/minimax",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

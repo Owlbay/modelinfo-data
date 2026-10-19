@@ -1,0 +1,84 @@
+{
+  "id": "gemini-2.5-flash-preview-native-audio-dialog",
+  "object": "model",
+  "created": 1747699200,
+  "owned_by": "google",
+  "name": "Gemini 2.5 Flash Preview Native Audio Dialog",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-05-20",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-2.5-flash-preview-native-audio-dialog",
+      "base_url": "wss://generativelanguage.googleapis.com",
+      "endpoints": {
+        "realtime": "WS /ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "changelog | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://ai.google.dev/api/live",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

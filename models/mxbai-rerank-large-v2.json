@@ -1,0 +1,84 @@
+{
+  "id": "mxbai-rerank-large-v2",
+  "object": "model",
+  "created": 1741824000,
+  "owned_by": "mixedbread",
+  "name": "mxbai-rerank-large-v2",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "@mixedbread/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-03-13",
+    "knowledge_cutoff": null,
+    "description": "Pointwise reranker (1.5B parameters) tuned for accuracy across 100+ languages.",
+    "docs": "https://www.mixedbread.com/blog/mxbai-rerank-v2",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "mixedbread",
+      "model": "mixedbread-ai/mxbai-rerank-large-v2",
+      "base_url": "https://api.mixedbread.com",
+      "endpoints": {
+        "rerank": "POST /v1/stores/search"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "mixedbread-ai/mxbai-rerank-large-v2"
+  ],
+  "translations": {
+    "zh": {
+      "description": "逐点式重排模型（1.5B 参数），针对 100 多种语言的准确率进行了调优。"
+    }
+  },
+  "sources": [
+    {
+      "title": "mxbai-rerank-v2 | Mixedbread Blog",
+      "url": "https://www.mixedbread.com/blog/mxbai-rerank-v2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reranking | Mixedbread Docs",
+      "url": "https://www.mixedbread.com/docs/stores/search/rerank",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | Mixedbread Docs",
+      "url": "https://www.mixedbread.com/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mixedbread/sdk (api.sdk only)",
+      "url": "https://github.com/mixedbread-ai/mixedbread-ts",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

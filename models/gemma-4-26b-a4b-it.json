@@ -1,0 +1,121 @@
+{
+  "id": "gemma-4-26b-a4b-it",
+  "object": "model",
+  "created": 1775088000,
+  "owned_by": "google",
+  "name": "Gemma 4 26B A4B IT",
+  "api": {
+    "types": [
+      "generate",
+      "interactions"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "minimal",
+      "high"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-02",
+    "knowledge_cutoff": "2025-01",
+    "description": "Google open Gemma 4 model served on the Gemini API with 256K context, thinking and function calling (free tier only).",
+    "docs": "https://ai.google.dev/gemma/docs/core/gemma_on_gemini_api",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemma-4-26b-a4b-it",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1beta/models/{model}:generateContent",
+        "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Google 开放的 Gemma 4 模型，通过 Gemini API 提供，256K 上下文，支持思考和函数调用（仅限免费层）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemma on the Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core/gemma_on_gemini_api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Gemma 4 model card | Google AI for Developers",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release notes | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "interactions-overview | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/interactions-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

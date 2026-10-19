@@ -1,0 +1,152 @@
+{
+  "id": "glm-4.5v",
+  "object": "model",
+  "created": 1754870400,
+  "owned_by": "zhipu",
+  "name": "GLM-4.5V",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/zai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 65536,
+    "input": null,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.6,
+    "output": 1.8,
+    "cache_read": 0.11,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-08-11",
+    "knowledge_cutoff": null,
+    "description": "Visual reasoning MoE model, 106B total and 12B active parameters, based on GLM-4.5-Air.",
+    "docs": "https://docs.z.ai/guides/vlm/glm-4.5v",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.6,
+      "output": 1.8,
+      "cache_read": 0.11,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 6,
+      "cache_read": 0.4,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "zhipu",
+      "model": "glm-4.5v",
+      "base_url": "https://api.z.ai/api/paas/v4",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "thinking.type"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "基于 GLM-4.5-Air 的视觉推理 MoE 模型，总参数 106B，激活参数 12B。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GLM-4.5V | Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/vlm/glm-4.5v",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/overview/pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Release Notes | Z.AI Developer Document",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Create Chat Completion (max_tokens maximum 131072) | Z.AI Developer Document",
+      "url": "https://docs.z.ai/api-reference/llm/chat-completion",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "GLM-4.6 config.json (max_position_embeddings 202752) | Hugging Face",
+      "url": "https://huggingface.co/zai-org/GLM-4.6/blob/main/config.json",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "最新动态 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "GLM-4.5V | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.5v",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/zai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/zai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

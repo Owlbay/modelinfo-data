@@ -1,0 +1,99 @@
+{
+  "id": "information-extract",
+  "object": "model",
+  "created": 1788480000,
+  "owned_by": "upstage",
+  "name": "Information Extract",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "page",
+    "input": 0.04,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-04",
+    "knowledge_cutoff": null,
+    "description": "Extracts structured key data from documents without additional training; priced per page.",
+    "docs": "https://console.upstage.ai/docs/models/information-extract",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.04,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "upstage",
+      "model": "information-extract",
+      "base_url": "https://api.upstage.ai/v1",
+      "endpoints": {
+        "ocr": "POST /information-extraction"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "information-extract-260904"
+  ],
+  "translations": {
+    "zh": {
+      "description": "无需额外训练即可从文档中提取结构化关键数据；按页计费。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Information Extract | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/information-extract",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model history | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/models/history",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Upstage",
+      "url": "https://upstage.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://console.upstage.ai/api/information-extraction/universal-extraction",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

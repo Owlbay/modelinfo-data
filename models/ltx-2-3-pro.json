@@ -1,0 +1,94 @@
+{
+  "id": "ltx-2-3-pro",
+  "object": "model",
+  "created": 1772668800,
+  "owned_by": "lightricks",
+  "name": "LTX-2.3 Pro",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.04,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-05",
+    "knowledge_cutoff": null,
+    "description": "Higher-quality LTX-2.3 variant supporting text-to-video, image-to-video, audio-to-video, retake and extend at up to 4K.",
+    "docs": "https://docs.ltx.io/models/ltx-2-3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.04,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "lightricks",
+      "model": "ltx-2-3-pro",
+      "base_url": "https://api.ltx.io",
+      "endpoints": {
+        "video": "POST /v2/text-to-video"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "更高质量的 LTX-2.3 变体，支持文生视频、图生视频、音频生视频、重拍和延长，最高 4K。"
+    }
+  },
+  "sources": [
+    {
+      "title": "LTX-2.3 | LTX API Docs",
+      "url": "https://docs.ltx.io/models/ltx-2-3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | LTX API Docs",
+      "url": "https://docs.ltx.io/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Changelog | LTX API Docs",
+      "url": "https://docs.ltx.io/api-changelog",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

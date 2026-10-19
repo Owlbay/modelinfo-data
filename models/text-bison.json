@@ -1,0 +1,96 @@
+{
+  "id": "text-bison",
+  "object": "model",
+  "created": null,
+  "owned_by": "google",
+  "name": "PaLM 2 for Text (text-bison)",
+  "api": {
+    "types": [
+      "completions"
+    ],
+    "sdk": [
+      "@google-cloud/aiplatform"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 0.5,
+    "output": 0.5,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://web.archive.org/web/20251112105521/https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 0.5,
+      "output": 0.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "vertex-ai",
+      "model": "text-bison",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "存档：Model versions and lifecycle | Generative AI on Vertex AI（原网址 https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions）",
+      "url": "https://web.archive.org/web/20251112105521/https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Text generation | Generative AI on Vertex AI（原网址 https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/text）",
+      "url": "https://web.archive.org/web/20241114220602/https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/text",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：PaLM API deprecation（原网址 https://ai.google.dev/palm_docs/deprecation）",
+      "url": "https://web.archive.org/web/20260305113615/https://ai.google.dev/palm_docs/deprecation",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model pricing evidence",
+      "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google-cloud/aiplatform (api.sdk only)",
+      "url": "https://github.com/googleapis/google-cloud-node/tree/main/packages/google-cloud-aiplatform",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

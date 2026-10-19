@@ -1,0 +1,92 @@
+{
+  "id": "stable-image-ultra",
+  "object": "model",
+  "created": 1717545600,
+  "owned_by": "stability",
+  "name": "Stable Image Ultra",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.08,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-06-05",
+    "knowledge_cutoff": null,
+    "description": "Flagship Stability image service based on Stable Diffusion 3.5 Large, for the highest quality and detail.",
+    "docs": "https://platform.stability.ai/docs/api-reference",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.08,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "stability",
+      "model": "stable-image-ultra",
+      "base_url": "https://api.stability.ai",
+      "endpoints": {
+        "images": "POST /v2beta/stable-image/generate/ultra"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "基于 Stable Diffusion 3.5 Large 的 Stability 旗舰图像服务，提供最高的质量和细节。"
+    }
+  },
+  "sources": [
+    {
+      "title": "API Reference | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/docs/api-reference",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release Notes | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/docs/release-notes",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

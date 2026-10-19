@@ -1,0 +1,91 @@
+{
+  "id": "senseaudio-music-2.0-260626",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseAudio-Music-2.0",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "request",
+    "input": null,
+    "output": 1,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Full song generation from lyrics or prompts.",
+    "docs": "https://docs.senseaudio.cn/guides/music/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "request",
+      "input": null,
+      "output": 1,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "senseaudio-music-2.0-260626",
+      "base_url": "https://api.senseaudio.cn",
+      "endpoints": {
+        "audio": "POST /v2/music/song/create"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "根据歌词或提示词生成完整歌曲。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "音乐生成介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/music/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio API: music/song-create-v2",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/music/song-create-v2.md",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

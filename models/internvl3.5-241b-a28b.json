@@ -1,0 +1,100 @@
+{
+  "id": "internvl3.5-241b-a28b",
+  "object": "model",
+  "created": 1756166400,
+  "owned_by": "shlab",
+  "name": "InternVL3.5 241B-A28B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-08-26",
+    "knowledge_cutoff": null,
+    "description": "Multimodal model with strong image-text understanding.",
+    "docs": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shlab",
+      "model": "internvl3.5-241b-a28b",
+      "base_url": "https://chat.intern-ai.org.cn/api/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "internvl3.5-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "图文理解能力强的多模态模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "获取模型列表 | InternLM API 文档",
+      "url": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Completions | InternLM API 文档",
+      "url": "https://internlm.intern-ai.org.cn/doc/docs/Chat/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "InternVL3.5 | InternVL",
+      "url": "https://internvl.github.io/blog/2025-08-26-InternVL-3.5/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

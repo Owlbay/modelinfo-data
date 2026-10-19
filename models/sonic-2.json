@@ -1,0 +1,87 @@
+{
+  "id": "sonic-2",
+  "object": "model",
+  "created": 1741305600,
+  "owned_by": "cartesia",
+  "name": "Sonic 2",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/cartesia",
+      "@cartesia/cartesia-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-03-07",
+    "knowledge_cutoff": null,
+    "description": "Cartesia text-to-speech model for 8 languages; stops working after 2026-10-20, migrate to Sonic 3.6.",
+    "docs": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "cartesia",
+      "model": "sonic-2",
+      "base_url": "https://api.cartesia.ai",
+      "endpoints": {
+        "audio": "POST /tts/bytes"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "sonic-2-2025-06-11",
+    "sonic-2-2025-05-08",
+    "sonic-2-2025-04-16"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Cartesia 文字转语音模型，支持 8 种语言；2026-10-20 之后停止工作，请迁移至 Sonic 3.6。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Older Models | Cartesia Docs",
+      "url": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Cartesia Docs",
+      "url": "https://docs.cartesia.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cartesia (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cartesia",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @cartesia/cartesia-js (api.sdk only)",
+      "url": "https://github.com/cartesia-ai/cartesia-js",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

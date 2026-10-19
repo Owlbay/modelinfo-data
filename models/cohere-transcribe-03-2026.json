@@ -1,0 +1,99 @@
+{
+  "id": "cohere-transcribe-03-2026",
+  "object": "model",
+  "created": 1774483200,
+  "owned_by": "cohere",
+  "name": "Cohere Transcribe",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "cohere-ai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-26",
+    "knowledge_cutoff": null,
+    "description": "Open-source model for high-accuracy, multilingual speech transcription (max file size 25MB).",
+    "docs": "https://docs.cohere.com/docs/transcribe",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "cohere-transcribe-03-2026",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "audio": "POST /v2/audio/transcriptions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "开源模型，用于高精度多语言语音转写（文件最大 25MB）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Cohere Transcribe | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/transcribe",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Cohere Model Overview",
+      "url": "https://docs.cohere.com/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "How does Cohere pricing work?",
+      "url": "https://docs.cohere.com/docs/how-does-cohere-pricing-work",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Announcing the Cohere Transcribe model | Cohere Release Notes",
+      "url": "https://docs.cohere.com/changelog/cohere-transcribe-03-2026",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "mimo-v2.6-pro-ultraspeed",
+  "object": "model",
+  "created": 1790035200,
+  "owned_by": "xiaomi",
+  "name": "MiMo-V2.6-Pro-UltraSpeed",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 30,
+    "output": 60,
+    "cache_read": 0.25,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-22",
+    "knowledge_cutoff": null,
+    "description": "MiMo-V2.6-Pro performance with output up to 20 times faster for real-time, latency-sensitive workloads.",
+    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.6-pro-ultraspeed",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 30,
+      "output": 60,
+      "cache_read": 0.25,
+      "cache_write": null
+    },
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4.35,
+      "output": 8.7,
+      "cache_read": 0.036,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xiaomi",
+      "model": "mimo-v2.6-pro-ultraspeed",
+      "base_url": "https://api.xiaomimimo.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "thinking"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "具备 MiMo-V2.6-Pro 的性能，输出速度最高快 20 倍，适用于实时、对延迟敏感的工作负载。"
+    }
+  },
+  "sources": [
+    {
+      "title": "mimo-v2.6-pro-ultraspeed | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/models/zh-CN/mimo-v2.6-pro-ultraspeed",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "按量计费 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Chat completions (OpenAI-compatible) | Xiaomi MiMo API Docs",
+      "url": "https://mimo.mi.com/docs/en-US/api/chat/openai-api",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "config.json | XiaomiMiMo/MiMo-V2-Flash (Hugging Face)",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash/blob/main/config.json",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Anthropic Messages API Compatibility | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/en-US/api/chat/anthropic-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型发布 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/updates/model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "neva-22b",
+  "object": "model",
+  "created": null,
+  "owned_by": "nvidia",
+  "name": "NeVA 22B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": 1024
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "NVIDIA's version of the LLaVA vision-language model, with the LLaMA language model replaced by a GPT model trained by NVIDIA.",
+    "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-neva-22b",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/neva-22b",
+      "base_url": "https://ai.api.nvidia.com",
+      "endpoints": {
+        "chat": "POST /v1/vlm/nvidia/neva-22b"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/neva-22b"
+  ],
+  "translations": {
+    "zh": {
+      "description": "NVIDIA 版本的 LLaVA 视觉语言模型，其中的 LLaMA 语言模型被替换为 NVIDIA 训练的 GPT 模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nvidia / neva-22b | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-neva-22b",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "NVIDIA neva-22b inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-neva-22b-infer",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

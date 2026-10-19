@@ -1,0 +1,94 @@
+{
+  "id": "veo-3.0-generate-001",
+  "object": "model",
+  "created": 1757376000,
+  "owned_by": "google",
+  "name": "Veo 3",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 1024,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.4,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-09-09",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.4,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "google",
+      "model": "veo-3.0-generate-001",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "video": "POST /v1beta/models/{model}:predictLongRunning"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Video generation | Gemini API（原网址 https://ai.google.dev/gemini-api/docs/video）",
+      "url": "https://web.archive.org/web/20251005134018/https://ai.google.dev/gemini-api/docs/video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official Google Developers announcement with API pricing",
+      "url": "https://developers.googleblog.com/en/veo-3-and-veo-3-fast-new-pricing-new-configurations-and-better-resolution/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

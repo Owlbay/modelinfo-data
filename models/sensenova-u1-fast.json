@@ -1,0 +1,101 @@
+{
+  "id": "sensenova-u1-fast",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseNova U1 Fast",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "image",
+    "input": null,
+    "output": 0.5,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Accelerated SenseNova U1 image generation, optimized for infographics.",
+    "docs": "https://docs.senseaudio.cn/guides/token-plan/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "image",
+      "input": null,
+      "output": 0.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "sensenova-u1-fast",
+      "base_url": "https://api.senseaudio.cn",
+      "endpoints": {
+        "images": "POST /v1/image/sync"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "加速版 SenseNova U1 图像生成，针对信息图进行了优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Token Plan 概览 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/token-plan/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "图片生成介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/image/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "同步图片生成 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/image/sync",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio API: image/sync",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/image/sync.md",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

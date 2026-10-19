@@ -1,0 +1,95 @@
+{
+  "id": "sarvam-m",
+  "object": "model",
+  "created": null,
+  "owned_by": "sarvam",
+  "name": "Sarvam-M",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai",
+      "sarvamai"
+    ]
+  },
+  "limits": {
+    "context": 8192,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Multilingual hybrid-reasoning text model built on Mistral-Small, post-trained for Indic languages.",
+    "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-m",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "sarvam",
+      "model": "sarvam-m",
+      "base_url": "https://api.sarvam.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "基于 Mistral-Small 构建的多语言混合推理文本模型，针对印度语系语言进行了后训练。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Sarvam-M (Deprecated) | Sarvam API Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/models/sarvam-m",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models（Legacy Models） | Sarvam API Docs",
+      "url": "https://docs.sarvam.ai/api-reference-docs/getting-started/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — sarvamai (api.sdk only)",
+      "url": "https://docs.sarvam.ai/api/getting-started/sdks",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

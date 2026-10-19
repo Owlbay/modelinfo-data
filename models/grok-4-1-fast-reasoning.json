@@ -1,0 +1,119 @@
+{
+  "id": "grok-4-1-fast-reasoning",
+  "object": "model",
+  "created": 1763510400,
+  "owned_by": "xai",
+  "name": "Grok 4.1 Fast (Reasoning)",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/xai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 2000000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.2,
+    "output": 0.5,
+    "cache_read": 0.05,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-11-19",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.x.ai/developers/migration/may-15-retirement",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": 0.5,
+      "cache_read": 0.05,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xai",
+      "base_url": "https://api.x.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null,
+      "model": "grok-4-1-fast-reasoning"
+    }
+  ],
+  "aliases": [
+    "grok-4-1-fast",
+    "grok-4-1-fast-reasoning-latest"
+  ],
+  "sources": [
+    {
+      "title": "May 15, 2026 Model Retirement | xAI Docs",
+      "url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：xAI Docs 模型页 grok-4-1-fast-reasoning（原网址 https://docs.x.ai/docs/models/grok-4-1-fast-reasoning）",
+      "url": "https://web.archive.org/web/20260201221413/https://docs.x.ai/docs/models/grok-4-1-fast-reasoning",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/xai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

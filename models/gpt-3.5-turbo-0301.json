@@ -1,0 +1,86 @@
+{
+  "id": "gpt-3.5-turbo-0301",
+  "object": "model",
+  "created": 1677628800,
+  "owned_by": "openai",
+  "name": "gpt-3.5-turbo-0301",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 15,
+    "output": 20,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2023-03-01",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": null,
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 15,
+      "output": 20,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-3.5-turbo-0301",
+      "base_url": "https://api.openai.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：官方模型发布/价格文档（原网址 https://openai.com/blog/introducing-chatgpt-and-whisper-apis）",
+      "url": "https://web.archive.org/web/20230302000653/https://openai.com/blog/introducing-chatgpt-and-whisper-apis",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

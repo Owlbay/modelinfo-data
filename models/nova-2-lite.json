@@ -1,0 +1,129 @@
+{
+  "id": "nova-2-lite",
+  "object": "model",
+  "created": 1764633600,
+  "owned_by": "amazon",
+  "name": "Amazon Nova 2 Lite",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/amazon-bedrock",
+      "@aws-sdk/client-bedrock-runtime"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.3,
+    "output": 2.5,
+    "cache_read": 0.075,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-02",
+    "knowledge_cutoff": "2025-10",
+    "description": "Amazon's cost-efficient multimodal model for simple automation, document processing, and customer support across text, images, and video.",
+    "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 2.5,
+      "cache_read": 0.075,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.nova-2-lite-v1:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /model/{modelId}/converse"
+      },
+      "reasoning_param": "additionalModelRequestFields.reasoningConfig.maxReasoningEffort"
+    }
+  ],
+  "aliases": [
+    "amazon.nova-2-lite-v1:0",
+    "us.amazon.nova-2-lite-v1:0",
+    "global.amazon.nova-2-lite-v1:0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Amazon 高性价比多模态模型，适用于简单自动化、文档处理以及涵盖文本、图像和视频的客户支持。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Amazon Bedrock model card: Nova 2 Lite",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Nova 2 User Guide: What is Amazon Nova 2?",
+      "url": "https://docs.aws.amazon.com/nova/latest/nova2-userguide/what-is-nova-2.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Extended thinking in Amazon Nova 2",
+      "url": "https://docs.aws.amazon.com/nova/latest/nova2-userguide/extended-thinking.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Bedrock Pricing",
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
+      "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/bedrock-runtime/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

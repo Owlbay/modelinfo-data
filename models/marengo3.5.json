@@ -1,0 +1,96 @@
+{
+  "id": "marengo3.5",
+  "object": "model",
+  "created": 1788134400,
+  "owned_by": "twelvelabs",
+  "name": "Marengo 3.5",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "twelvelabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video",
+      "document"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-31",
+    "knowledge_cutoff": null,
+    "description": "Embedding model for video understanding; creates 128, 256 or 512-dimension embeddings from video, audio, images, text and documents.",
+    "docs": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/marengo/marengo-3-5",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "twelvelabs",
+      "model": "marengo3.5",
+      "base_url": "https://api.twelvelabs.io/v1.3",
+      "endpoints": {
+        "embeddings": "POST /embed-v2"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于视频理解的向量模型；可从视频、音频、图像、文本和文档生成 128、256 或 512 维向量。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Marengo 3.5 | TwelveLabs",
+      "url": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/marengo/marengo-3-5",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Marengo | TwelveLabs",
+      "url": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/marengo",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Create embeddings for a query | TwelveLabs",
+      "url": "https://docs.twelvelabs.io/v1.3/docs/guides/create-embeddings/query",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release notes | TwelveLabs Docs",
+      "url": "https://docs.twelvelabs.io/v1.3/docs/get-started/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://docs.twelvelabs.io/v1.3/api-reference/create-embeddings-v2/create-embeddings",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — twelvelabs-js (api.sdk only)",
+      "url": "https://github.com/twelvelabs-io/twelvelabs-js",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

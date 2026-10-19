@@ -1,0 +1,91 @@
+{
+  "id": "jina-colbert-v2",
+  "object": "model",
+  "created": 1725062400,
+  "owned_by": "jina",
+  "name": "Jina ColBERT v2",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 8192,
+    "input": 8192,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-08-31",
+    "knowledge_cutoff": null,
+    "description": "Multilingual late-interaction retrieval model (560M parameters) producing token-level embeddings.",
+    "docs": "https://jina.ai/models/jina-colbert-v2",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-colbert-v2",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "rerank": "POST /v1/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "多语言后期交互检索模型（560M 参数），生成词元级向量。"
+    }
+  },
+  "sources": [
+    {
+      "title": "jina-colbert-v2 | Jina AI",
+      "url": "https://jina.ai/models/jina-colbert-v2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina AI API docs",
+      "url": "https://docs.jina.ai/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Jina AI API",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

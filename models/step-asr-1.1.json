@@ -1,0 +1,79 @@
+{
+  "id": "step-asr-1.1",
+  "object": "model",
+  "created": null,
+  "owned_by": "stepfun",
+  "name": "Step ASR 1.1",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.31,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Speech recognition model.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.31,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "stepfun",
+      "model": "step-asr-1.1",
+      "base_url": "https://api.stepfun.ai/v1",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "语音识别模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Pricing and Rate Limits | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

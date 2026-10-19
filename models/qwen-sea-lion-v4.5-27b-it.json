@@ -1,0 +1,104 @@
+{
+  "id": "qwen-sea-lion-v4.5-27b-it",
+  "object": "model",
+  "created": 1779235200,
+  "owned_by": "aisingapore",
+  "name": "Qwen-SEA-LION v4.5 27B IT",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-20",
+    "knowledge_cutoff": null,
+    "description": "Instruct model fine-tuned for Southeast Asian languages, distilled from Qwen3.5-397B-A17B, with a vision encoder.",
+    "docs": "https://docs.sea-lion.ai/guides/inferencing/api",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "aisingapore",
+      "model": "aisingapore/Qwen-SEA-LION-v4.5-27B-IT",
+      "base_url": "https://api.sea-lion.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "aisingapore/Qwen-SEA-LION-v4.5-27B-IT"
+  ],
+  "translations": {
+    "zh": {
+      "description": "针对东南亚语言微调的指令模型，由 Qwen3.5-397B-A17B 蒸馏而来，带有视觉编码器。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Inferencing API | SEA-LION Docs",
+      "url": "https://docs.sea-lion.ai/guides/inferencing/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Qwen-SEA-LION-v4.5 | SEA-LION Docs",
+      "url": "https://docs.sea-lion.ai/models/sea-lion-v4.5/qwen-sea-lion-v4.5",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Hugging Face aisingapore/Qwen-SEA-LION-v4.5-27B-IT config.json (official org)",
+      "url": "https://huggingface.co/aisingapore/Qwen-SEA-LION-v4.5-27B-IT/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing the SEA-LION v4.5 Suite | SEA-LION",
+      "url": "https://sea-lion.ai/blog/introducing-the-sea-lion-v4-5-suite-agentic-power-and-speed/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

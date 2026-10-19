@@ -1,0 +1,77 @@
+{
+  "id": "ernie-image-turbo",
+  "object": "model",
+  "created": null,
+  "owned_by": "baidu",
+  "name": "ERNIE-Image-Turbo",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@baiducloud/qianfan"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "ERNIE-Image-Turbo, retired. Official retirement date: 2026-06-30.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "ernie-image-turbo",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ERNIE-Image-Turbo"
+  ],
+  "translations": {
+    "zh": {
+      "description": "ERNIE-Image-Turbo，已下线。官方下线日期：2026-06-30。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Ernie-Image-Turbo | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-api/s/Imo9g5a6a",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "recraftv4_styles",
+  "object": "model",
+  "created": 1787702400,
+  "owned_by": "recraft",
+  "name": "Recraft V4 Styles",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@image-sdk/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.035,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-26",
+    "knowledge_cutoff": null,
+    "description": "Style-consistent generation from 1 to 10 reference images or a saved style; always requires a style.",
+    "docs": "https://www.recraft.ai/docs/api-reference/models/recraft-v4-styles",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.035,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "recraft",
+      "model": "recraftv4_styles",
+      "base_url": "https://external.api.recraft.ai",
+      "endpoints": {
+        "images": "POST /v1/images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "基于 1 至 10 张参考图像或已保存风格的风格一致生成；必须指定风格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Recraft V4 Styles | Recraft API Docs",
+      "url": "https://www.recraft.ai/docs/api-reference/models/recraft-v4-styles",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "All models | Recraft API Docs",
+      "url": "https://www.recraft.ai/docs/api-reference/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Recraft API Docs",
+      "url": "https://www.recraft.ai/docs/api-reference/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official release announcement",
+      "url": "https://www.recraft.ai/blog/recraft-v4-styles",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @image-sdk/sdk (api.sdk only)",
+      "url": "https://github.com/Adarsh-Me/Image-SDK",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

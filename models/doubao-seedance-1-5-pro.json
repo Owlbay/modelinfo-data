@@ -1,0 +1,72 @@
+{
+  "id": "doubao-seedance-1-5-pro",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seedance-1.5-pro",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-Seedance-1.5-pro, retired. Official shutdown (EOS) dates: doubao-seedance-1-5-pro-251215 2026-09-21.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seedance-1-5-pro-251215",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-seedance-1-5-pro-251215"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Doubao-Seedance-1.5-pro，已下线。官方停服（EOS）日期：doubao-seedance-1-5-pro-251215 2026-09-21。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线公告 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1350667",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310）",
+      "url": "https://web.archive.org/web/20251220120635/https://www.volcengine.com/docs/82379/1330310",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

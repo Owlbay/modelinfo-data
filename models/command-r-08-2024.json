@@ -1,0 +1,117 @@
+{
+  "id": "command-r-08-2024",
+  "object": "model",
+  "created": 1724976000,
+  "owned_by": "cohere",
+  "name": "Command R",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/cohere",
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": 4000
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2024-08-30",
+    "knowledge_cutoff": "2024-06",
+    "description": "August 2024 update of Command R, optimized for conversational interaction and long-context tasks.",
+    "docs": "https://docs.cohere.com/docs/command-r",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "command-r-08-2024",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "chat": "POST /v2/chat"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Command R 的 2024 年 8 月更新版，针对对话交互和长上下文任务优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Command R | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/command-r",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Cohere Model Overview",
+      "url": "https://docs.cohere.com/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "How does Cohere pricing work?",
+      "url": "https://docs.cohere.com/docs/how-does-cohere-pricing-work",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Command models get an August refresh | Cohere Release Notes",
+      "url": "https://docs.cohere.com/changelog/command-gets-refreshed",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

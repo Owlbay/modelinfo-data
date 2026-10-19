@@ -1,0 +1,118 @@
+{
+  "id": "r1-1776",
+  "object": "model",
+  "created": null,
+  "owned_by": "perplexity",
+  "name": "R1 1776",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2,
+    "output": 8,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.perplexity.ai/docs/resources/changelog",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 8,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "perplexity",
+      "model": "r1-1776",
+      "base_url": "https://api.perplexity.ai",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Changelog | Perplexity Docs",
+      "url": "https://docs.perplexity.ai/docs/resources/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：官方模型发布/价格文档（原网址 https://docs.perplexity.ai/guides/model-cards）",
+      "url": "https://web.archive.org/web/20250405124746/https://docs.perplexity.ai/guides/model-cards",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：官方模型发布/价格文档（原网址 https://docs.perplexity.ai/guides/pricing）",
+      "url": "https://web.archive.org/web/20250328092255/https://docs.perplexity.ai/guides/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

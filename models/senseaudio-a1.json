@@ -1,0 +1,91 @@
+{
+  "id": "senseaudio-a1",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseAudio-A1",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "second",
+    "input": null,
+    "output": 0.017,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Audio generation with multi-role dialogue, background music and ambient effects.",
+    "docs": "https://docs.senseaudio.cn/guides/audio/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "second",
+      "input": null,
+      "output": 0.017,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "senseaudio-a1",
+      "base_url": "https://api.senseaudio.cn",
+      "endpoints": {
+        "audio": "POST /v1/audio/generate"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "音频生成，支持多角色对话、背景音乐和环境音效。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "音频生成介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/audio/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio API: audio/generate",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/audio/generate.md",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "text-embedding-ada-002",
+  "object": "model",
+  "created": 1671062400,
+  "owned_by": "openai",
+  "name": "text-embedding-ada-002",
+  "api": {
+    "types": [
+      "embeddings",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 8192,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2022-12-15",
+    "knowledge_cutoff": null,
+    "description": "Older embedding model.",
+    "docs": "https://developers.openai.com/api/docs/models/text-embedding-ada-002",
+    "verified_at": "2026-10-13"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "text-embedding-ada-002",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings",
+        "batch": "POST /v1/batches"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "较早的向量模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "text-embedding-ada-002 Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/text-embedding-ada-002",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Embeddings guide（text-embedding-ada-002 最大输入 8192）| OpenAI API",
+      "url": "https://developers.openai.com/api/docs/guides/embeddings",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://openai.com/index/new-and-improved-embedding-model/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ctxl-rerank-v2-instruct-multilingual-mini",
+  "object": "model",
+  "created": 1756252800,
+  "owned_by": "contextual-ai",
+  "name": "Contextual AI Reranker v2 Instruct Multilingual Mini",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "contextual-client"
+    ]
+  },
+  "limits": {
+    "context": 8000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.02,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-08-27",
+    "knowledge_cutoff": null,
+    "description": "Smaller, lower-cost multilingual instruction-following reranker in the Reranker v2 family.",
+    "docs": "https://docs.contextual.ai/api-reference/rerank/rerank",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.02,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "contextual-ai",
+      "model": "ctxl-rerank-v2-instruct-multilingual-mini",
+      "base_url": "https://api.contextual.ai",
+      "endpoints": {
+        "rerank": "POST /v1/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Reranker v2 系列中更小、成本更低的多语言遵循指令重排模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Rerank | Contextual AI Docs",
+      "url": "https://docs.contextual.ai/api-reference/rerank/rerank",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Contextual AI",
+      "url": "https://contextual.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Open-Sourcing Reranker v2 | Contextual AI",
+      "url": "https://contextual.ai/blog/rerank-v2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — contextual-client (api.sdk only)",
+      "url": "https://github.com/ContextualAI/contextual-client-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

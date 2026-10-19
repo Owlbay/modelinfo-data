@@ -1,0 +1,107 @@
+{
+  "id": "typhoon-v2.5-30b-a3b-instruct",
+  "object": "model",
+  "created": 1760918400,
+  "owned_by": "typhoon",
+  "name": "Typhoon v2.5 30B A3B Instruct",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-20",
+    "knowledge_cutoff": null,
+    "description": "Agentic mixture-of-experts model with advanced Thai language capabilities.",
+    "docs": "https://docs.opentyphoon.ai/en/models/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "typhoon",
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "base_url": "https://api.opentyphoon.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "智能体混合专家模型，具备先进的泰语能力。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/models/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Reference | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/api-reference/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Overview | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Rate Limits | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/rate-limits/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Tokens and Usage | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/tokens/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "command",
+  "object": "model",
+  "created": null,
+  "owned_by": "cohere",
+  "name": "Command",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 4000,
+    "input": null,
+    "output": 4000
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 2,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.cohere.com/docs/deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 2,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "command",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Deprecations | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Command | Cohere Docs（原网址 https://docs.cohere.com/docs/command-beta）",
+      "url": "https://web.archive.org/web/20250801231254/https://docs.cohere.com/docs/command-beta",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://cohere.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

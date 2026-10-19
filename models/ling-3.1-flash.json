@@ -1,0 +1,114 @@
+{
+  "id": "ling-3.1-flash",
+  "object": "model",
+  "created": null,
+  "owned_by": "ant",
+  "name": "Ling-3.1-flash",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Hybrid reasoning model for long-horizon tasks, office work, software development and agent workflows; free for a limited time.",
+    "docs": "https://developer.ant-ling.com/en/docs/models/ling",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "ant",
+      "model": "Ling-3.1-flash",
+      "base_url": "https://api.ant-ling.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Ling-3.1-flash"
+  ],
+  "translations": {
+    "zh": {
+      "description": "混合推理模型，适用于长周期任务、办公、软件开发和智能体工作流；限时免费。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ling | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/ling",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/price",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/openai",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

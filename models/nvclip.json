@@ -1,0 +1,92 @@
+{
+  "id": "nvclip",
+  "object": "model",
+  "created": null,
+  "owned_by": "nvidia",
+  "name": "NV-CLIP",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Multimodal embeddings model for image and text, the NVIDIA commercial version of CLIP.",
+    "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-nvclip",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/nvclip",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/nvclip"
+  ],
+  "translations": {
+    "zh": {
+      "description": "面向图像和文本的多模态向量模型，是 CLIP 的 NVIDIA 商用版本。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nvidia / nvclip | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nvclip",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "NVIDIA nvclip inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nvclip-infer",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

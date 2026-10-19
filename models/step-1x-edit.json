@@ -1,0 +1,90 @@
+{
+  "id": "step-1x-edit",
+  "object": "model",
+  "created": null,
+  "owned_by": "stepfun",
+  "name": "Step-1X Edit",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Image editing model that modifies and enhances images from a picture and text description. Listed as no longer available in the official image model retirement notice.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/image-offline-notice",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "stepfun",
+      "model": "step-1x-edit",
+      "base_url": "https://api.stepfun.ai",
+      "endpoints": {
+        "images": "POST /v1/images/edits"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "图像编辑模型，可根据图片和文字描述修改并增强图像。官方图像模型下线通知中列为已不再可用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Image Model Retirement Notice | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/image-offline-notice",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "生图改图模型 | 阶跃星辰开放平台文档（存档，原网址 https://platform.stepfun.com/docs/llm/image）",
+      "url": "https://web.archive.org/web/20260212200211/https://platform.stepfun.com/docs/llm/image",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

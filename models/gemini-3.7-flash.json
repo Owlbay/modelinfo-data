@@ -1,0 +1,129 @@
+{
+  "id": "gemini-3.7-flash",
+  "object": "model",
+  "created": 1786579200,
+  "owned_by": "google",
+  "name": "Gemini 3.7 Flash",
+  "api": {
+    "types": [
+      "generate",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": 1048576,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2026-08-13",
+    "knowledge_cutoff": "2026-03",
+    "description": "Previous-generation natively multimodal reasoning model; requests are routed to Gemini 3.8 Flash.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-3.7-flash",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1beta/models/{model}:generateContent",
+        "batch": "POST /v1beta/models/{model}:batchGenerateContent"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "上一代原生多模态推理模型；请求会路由至 Gemini 3.8 Flash。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemini 3.7 Flash | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Models | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Generating content | Gemini API",
+      "url": "https://ai.google.dev/api/generate-content",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Batch API | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/batch-api",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Gemini 3.7 Flash - Model Card — Google DeepMind",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "kimi-k2.7-code-highspeed",
+  "object": "model",
+  "created": null,
+  "owned_by": "moonshot",
+  "name": "Kimi K2.7 Code High-Speed",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/moonshotai",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1.9,
+    "output": 8,
+    "cache_read": 0.38,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "caching",
+    "streaming",
+    "structured_output"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "High-speed variant of Kimi K2.7 Code, about 180 tokens/s output.",
+    "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.9,
+      "output": 8,
+      "cache_read": 0.38,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 13,
+      "output": 54,
+      "cache_read": 2.6,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "moonshot",
+      "model": "kimi-k2.7-code-highspeed",
+      "base_url": "https://api.moonshot.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "thinking.type"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Kimi K2.7 Code 的高速变体，输出约 180 tokens/s。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model List | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Model Pricing | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/pricing/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kimi K2.7 Code Quickstart | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Completions API | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model Parameter Reference | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/models-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Structured Output | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/response_format",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/moonshotai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/moonshotai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

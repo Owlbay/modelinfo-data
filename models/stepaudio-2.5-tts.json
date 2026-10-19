@@ -1,0 +1,109 @@
+{
+  "id": "stepaudio-2.5-tts",
+  "object": "model",
+  "created": null,
+  "owned_by": "stepfun",
+  "name": "StepAudio 2.5 TTS",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 85,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Context-aware text-to-speech with natural-language delivery control and zero-shot voice cloning.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-tts",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 85,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "stepfun",
+      "model": "stepaudio-2.5-tts",
+      "base_url": "https://api.stepfun.ai/v1",
+      "endpoints": {
+        "audio": "POST /audio/speech"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "上下文感知的文字转语音，支持自然语言控制表达方式和零样本声音克隆。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Pricing and Rate Limits | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Audio Models | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/models/audio",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "StepAudio 2.5 TTS | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-tts",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Text-to-Speech | StepFun API reference",
+      "url": "https://platform.stepfun.ai/docs/en/api-reference/audio/create-audio",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "kling-v3",
+  "object": "model",
+  "created": 1771977600,
+  "owned_by": "kuaishou",
+  "name": "Kling 3.0",
+  "api": {
+    "types": [
+      "video",
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/klingai",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "video",
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-25",
+    "knowledge_cutoff": null,
+    "description": "Video model with enhanced native audio, element consistency and multi-shot storytelling (3-15s, 720P/1080P/4K); the same ID serves Kling Image 3.0 (1K/2K).",
+    "docs": "https://kling.ai/document-api/guides/capability-map/video",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "kling",
+      "model": "kling-v3",
+      "base_url": "https://api-singapore.klingai.com",
+      "endpoints": {
+        "video": "POST /text-to-video/kling-3.0",
+        "images": "POST /v1/images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "视频模型，增强了原生音频、元素一致性和多镜头叙事（3 至 15 秒，720P/1080P/4K）；同一 ID 同时提供 Kling Image 3.0（1K/2K）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Video Capability Map | Kling AI API Documentation",
+      "url": "https://kling.ai/document-api/guides/capability-map/video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Image Capability Map | Kling AI API Documentation",
+      "url": "https://kling.ai/document-api/guides/capability-map/image",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kling AI API Updates",
+      "url": "https://kling.ai/document-api/updates/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kling API Pricing - Video",
+      "url": "https://kling.ai/document-api/pricing/base/video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kling API Pricing - Image",
+      "url": "https://kling.ai/document-api/pricing/base/image",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kling Video API",
+      "url": "https://kling.ai/document-api/api/video/3-0-omni/text-to-video.md",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kling Image API",
+      "url": "https://kling.ai/document-api/api/image/3-0-omni/image-generation.md",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/klingai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/klingai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

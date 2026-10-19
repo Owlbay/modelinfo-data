@@ -1,0 +1,114 @@
+{
+  "id": "doubao-seedream-5-0-pro",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seedream-5.0-Pro",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/bytedance",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "image",
+    "input": null,
+    "output": 0.3,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Image creation model with controllable editing and layer decomposition.",
+    "docs": "https://www.volcengine.com/docs/82379/1330310",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "image",
+      "input": null,
+      "output": 0.3,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seedream-5-0-pro-260628",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {
+        "images": "POST /images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-seedream-5-0-pro-260628"
+  ],
+  "translations": {
+    "zh": {
+      "description": "图像创作模型，支持可控编辑和图层分解。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1330310",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型价格 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1544106",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/bytedance (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/bytedance",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "magistral-small-2506",
+  "object": "model",
+  "created": 1749513600,
+  "owned_by": "mistral",
+  "name": "Magistral Small 1.0",
+  "api": {
+    "types": [
+      "chat",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/mistral",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@mistralai/mistralai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 40960,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.5,
+    "output": 1.5,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "batch"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-06-10",
+    "knowledge_cutoff": null,
+    "description": "Our first small reasoning model released June 2025.",
+    "docs": "https://docs.mistral.ai/models/magistral-small-1-0-25-06",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": 1.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "magistral-small-2506",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "batch": "POST /v1/batch"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "2025 年 6 月发布的首个小型推理模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Magistral Small 1.0 | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "Models overview（含 Deprecation 与 Retirement 日期表） | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle policy | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/model-lifecycle",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/mistral (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/mistral",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Magistral Small 1.0 | Mistral Docs (official Markdown)",
+      "url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06.md",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

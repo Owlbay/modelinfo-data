@@ -1,0 +1,85 @@
+{
+  "id": "text-moderation-latest",
+  "object": "model",
+  "created": null,
+  "owned_by": "openai",
+  "name": "text-moderation",
+  "api": {
+    "types": [
+      "moderation"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": "2021-09-01",
+    "description": "Previous generation text-only moderation model",
+    "docs": "https://developers.openai.com/api/docs/models/text-moderation-latest",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "text-moderation-latest",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "moderation": "POST /v1/moderations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "text-moderation-stable",
+    "text-moderation-007"
+  ],
+  "translations": {
+    "zh": {
+      "description": "上一代纯文本内容审核模型"
+    }
+  },
+  "sources": [
+    {
+      "title": "text-moderation Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/text-moderation-latest",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "text-moderation-stable Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/text-moderation-stable",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

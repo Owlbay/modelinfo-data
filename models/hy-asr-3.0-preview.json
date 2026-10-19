@@ -1,0 +1,91 @@
+{
+  "id": "hy-asr-3.0-preview",
+  "object": "model",
+  "created": null,
+  "owned_by": "tencent",
+  "name": "Hy-ASR-3.0-Preview",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "second",
+    "input": 0.00022,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Tencent speech recognition preview for Mandarin, English and Chinese dialects.",
+    "docs": "https://cloud.tencent.com/document/product/1823/130051",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "second",
+      "input": 0.00022,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "tencent",
+      "model": "hy-asr-3.0-preview",
+      "base_url": "https://tokenhub.tencentmaas.com",
+      "endpoints": {
+        "audio": "POST /v1/wand/asrproxy/sync_transcribe"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "腾讯语音识别预览版，支持普通话、英语和中文方言。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130051",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型定价 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130055",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "TokenHub 官方调用指南",
+      "url": "https://cloud.tencent.com/document/product/1823/135791",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

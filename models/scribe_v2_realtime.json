@@ -1,0 +1,118 @@
+{
+  "id": "scribe_v2_realtime",
+  "object": "model",
+  "created": 1762819200,
+  "owned_by": "elevenlabs",
+  "name": "Scribe v2 Realtime",
+  "api": {
+    "types": [
+      "audio",
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/elevenlabs",
+      "@elevenlabs/elevenlabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.39,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-11-11",
+    "knowledge_cutoff": null,
+    "description": "Real-time speech-to-text with about 150ms latency to partial transcripts.",
+    "docs": "https://elevenlabs.io/docs/overview/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.39,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "elevenlabs",
+      "model": "scribe_v2_realtime",
+      "base_url": "wss://api.elevenlabs.io",
+      "endpoints": {
+        "audio": "WS /v1/speech-to-text/realtime",
+        "realtime": "WS /v1/speech-to-text/realtime"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "实时语音转文字，部分转写结果的延迟约 150ms。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/overview/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API pricing | ElevenLabs",
+      "url": "https://elevenlabs.io/pricing/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Create transcript | ElevenLabs API Reference",
+      "url": "https://elevenlabs.io/docs/api-reference/speech-to-text/convert",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://elevenlabs.io/docs/api-reference/speech-to-text/v-1-speech-to-text-realtime",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official release announcement",
+      "url": "https://elevenlabs.io/blog/introducing-scribe-v2-realtime",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @elevenlabs/elevenlabs-js (api.sdk only)",
+      "url": "https://github.com/elevenlabs/elevenlabs-js",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/elevenlabs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/elevenlabs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

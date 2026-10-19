@@ -1,0 +1,92 @@
+{
+  "id": "nemotron-parse",
+  "object": "model",
+  "created": 1761609600,
+  "owned_by": "nvidia",
+  "name": "Nemotron Parse",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-28",
+    "knowledge_cutoff": null,
+    "description": "Vision-language model excelling at retrieving text and metadata from images.",
+    "docs": "https://build.nvidia.com/nvidia/nemotron-parse/modelcard",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/nemotron-parse",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "ocr": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/nemotron-parse"
+  ],
+  "translations": {
+    "zh": {
+      "description": "擅长从图像中提取文本和元数据的视觉语言模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nemotron-parse Model Card | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/nemotron-parse/modelcard",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "nvidia / nemotron-parse | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-parse",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

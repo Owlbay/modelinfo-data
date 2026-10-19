@@ -1,0 +1,64 @@
+{
+  "id": "ltx-2-pro",
+  "object": "model",
+  "created": null,
+  "owned_by": "lightricks",
+  "name": "LTX-2 Pro",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "LTX-2 video generation model; removed from the LTX API on 2026-08-15 per the 2026-07-02 deprecation notice, requests now return an error.",
+    "docs": "https://docs.ltx.io/api-changelog",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "lightricks",
+      "model": "ltx-2-pro",
+      "base_url": "https://api.ltx.io",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "LTX-2 视频生成模型；根据 2026-07-02 的弃用通知，已于 2026-08-15 从 LTX API 移除，请求现在会返回错误。"
+    }
+  },
+  "sources": [
+    {
+      "title": "API Changelog | LTX API Docs",
+      "url": "https://docs.ltx.io/api-changelog",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

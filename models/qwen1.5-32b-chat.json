@@ -1,0 +1,101 @@
+{
+  "id": "qwen1.5-32b-chat",
+  "object": "model",
+  "created": 1712016000,
+  "owned_by": "alibaba",
+  "name": "Qwen1.5-32B-Chat",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/alibaba",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "dashscope-sdk-official",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 8000,
+    "input": 6000,
+    "output": 2000
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-04-02",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://www.alibabacloud.com/en/notice/qwen_15_20_series_models_to_be_decommissioned_on_modelstudio_4ca",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen1.5-32b-chat",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "chat": "POST /compatible-mode/v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Qwen 1.5 & 2.0 Series Models to be Decommissioned on ModelStudio | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/en/notice/qwen_15_20_series_models_to_be_decommissioned_on_modelstudio_4ca",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Models | Alibaba Cloud Model Studio（原网址 https://www.alibabacloud.com/help/en/model-studio/models）",
+      "url": "https://web.archive.org/web/20250908201053/https://www.alibabacloud.com/help/en/model-studio/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Qwen official qwen1.5-32b release announcement",
+      "url": "https://qwenlm.github.io/blog/qwen1.5-32b/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/alibaba (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/alibaba",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

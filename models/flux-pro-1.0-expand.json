@@ -1,0 +1,83 @@
+{
+  "id": "flux-pro-1.0-expand",
+  "object": "model",
+  "created": null,
+  "owned_by": "black-forest-labs",
+  "name": "FLUX.1 Expand [pro]",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/black-forest-labs"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Expands an image by adding pixels on any side while keeping context.",
+    "docs": "https://docs.bfl.ml/flux_1_fill",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "black-forest-labs",
+      "model": "flux-pro-1.0-expand",
+      "base_url": "https://api.bfl.ai",
+      "endpoints": {
+        "images": "POST /v1/flux-pro-1.0-expand"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "在图像任意一侧添加像素以扩展图像，同时保持上下文。"
+    }
+  },
+  "sources": [
+    {
+      "title": "FLUX.1 Fill [pro] | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/flux_1_fill",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/quick_start/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "FLUX API OpenAPI specification",
+      "url": "https://api.bfl.ai/openapi.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/black-forest-labs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/black-forest-labs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

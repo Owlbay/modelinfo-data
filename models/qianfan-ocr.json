@@ -1,0 +1,137 @@
+{
+  "id": "qianfan-ocr",
+  "object": "model",
+  "created": null,
+  "owned_by": "baidu",
+  "name": "Qianfan-OCR",
+  "api": {
+    "types": [
+      "ocr",
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "@baiducloud/qianfan",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": 32768,
+    "output": 28672
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0.45,
+    "output": 1.8,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Baidu Qianfan OCR model that converts document images to structured Markdown, with optional thinking mode.",
+    "docs": "https://cloud.baidu.com/doc/qianfan-docs/s/Qmispikeo",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.45,
+      "output": 1.8,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "qianfan-ocr",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {
+        "chat": "POST /v2/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "百度千帆 OCR 模型，可将文档图像转换为结构化 Markdown，支持可选的思考模式。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Qianfan-OCR | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-docs/s/Qmispikeo",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型列表 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型服务计费 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Anthropic Claude API 兼容 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-docs/s/6mh3e6gjp",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

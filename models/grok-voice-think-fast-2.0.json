@@ -1,0 +1,91 @@
+{
+  "id": "grok-voice-think-fast-2.0",
+  "object": "model",
+  "created": 1785283200,
+  "owned_by": "xai",
+  "name": "Grok Voice Think Fast 2.0",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/xai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-29",
+    "knowledge_cutoff": null,
+    "description": "xAI speech-to-speech voice model with improved intelligence, transcription accuracy and conversational capabilities.",
+    "docs": "https://docs.x.ai/developers/models/grok-voice-think-fast-2.0",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "xai",
+      "model": "grok-voice-think-fast-2.0",
+      "base_url": "https://api.x.ai",
+      "endpoints": {
+        "realtime": "GET /v1/realtime"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "xAI 语音到语音模型，智能水平、转写准确率和对话能力均有提升。"
+    }
+  },
+  "sources": [
+    {
+      "title": "grok-voice-think-fast-2.0 | xAI Docs",
+      "url": "https://docs.x.ai/developers/models/grok-voice-think-fast-2.0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Speech to Speech | xAI Docs",
+      "url": "https://docs.x.ai/developers/model-capabilities/audio/speech-to-speech",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release Notes（grok-voice-latest 现指向 grok-voice-3.0）| xAI Docs",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Introducing Grok Voice Think Fast 2.0",
+      "url": "https://x.ai/news/grok-voice-think-fast-2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/xai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

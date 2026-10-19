@@ -1,0 +1,84 @@
+{
+  "id": "mxbai-rerank-v3.1-listwise",
+  "object": "model",
+  "created": 1785110400,
+  "owned_by": "mixedbread",
+  "name": "mxbai-rerank-v3.1-listwise",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "@mixedbread/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-27",
+    "knowledge_cutoff": null,
+    "description": "Listwise reranker that reads the whole candidate set at once and follows natural-language instructions; default reranker in Mixedbread Search.",
+    "docs": "https://www.mixedbread.com/blog/mxbai-rerank-v3-1-listwise",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "mixedbread",
+      "model": "mixedbread-ai/mxbai-rerank-v3.1-listwise",
+      "base_url": "https://api.mixedbread.com",
+      "endpoints": {
+        "rerank": "POST /v1/stores/search"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "mixedbread-ai/mxbai-rerank-v3.1-listwise"
+  ],
+  "translations": {
+    "zh": {
+      "description": "列表式重排模型，一次读取整个候选集并遵循自然语言指令；是 Mixedbread Search 的默认重排模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "mxbai-rerank-v3.1-listwise | Mixedbread Blog",
+      "url": "https://www.mixedbread.com/blog/mxbai-rerank-v3-1-listwise",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reranking | Mixedbread Docs",
+      "url": "https://www.mixedbread.com/docs/stores/search/rerank",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | Mixedbread Docs",
+      "url": "https://www.mixedbread.com/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mixedbread/sdk (api.sdk only)",
+      "url": "https://github.com/mixedbread-ai/mixedbread-ts",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

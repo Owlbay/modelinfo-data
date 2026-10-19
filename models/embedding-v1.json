@@ -1,0 +1,116 @@
+{
+  "id": "embedding-v1",
+  "object": "model",
+  "created": null,
+  "owned_by": "baidu",
+  "name": "Embedding-V1",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@baiducloud/qianfan",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 384,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0.5,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Baidu text embedding model producing 384-dimensional vectors.",
+    "docs": "https://cloud.baidu.com/doc/qianfan-api/s/Fm7u3ropn",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "embedding-v1",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {
+        "embeddings": "POST /v2/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "百度文本向量模型，输出 384 维向量。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "价格 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-docs/s/Jm8r1826a",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "向量 API 参考 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-api/s/Fm7u3ropn",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

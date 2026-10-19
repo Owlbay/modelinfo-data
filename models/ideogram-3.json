@@ -1,0 +1,114 @@
+{
+  "id": "ideogram-3",
+  "object": "model",
+  "created": 1742947200,
+  "owned_by": "ideogram",
+  "name": "Ideogram 3.0",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@image-sdk/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.03,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-03-26",
+    "knowledge_cutoff": null,
+    "description": "Ideogram text-to-image generation with style codes, style presets, color palettes and style reference images.",
+    "docs": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.03,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ideogram",
+      "model": "ideogram-3",
+      "base_url": "https://api.ideogram.ai",
+      "endpoints": {
+        "images": "POST /v2/image/generate/ideogram-3"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Ideogram 文生图，支持风格代码、风格预设、调色板和风格参考图。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Generate with Ideogram 3.0 | Ideogram API Docs",
+      "url": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Ideogram API documentation index",
+      "url": "https://developer.ideogram.ai/v2/llms.txt",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Setup | Ideogram API Docs",
+      "url": "https://developer.ideogram.ai/ideogram-api/api-setup",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Pricing | Ideogram",
+      "url": "https://ideogram.ai/api-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Ideogram API pricing (dynamic table, lowest text-to-image tier)",
+      "url": "https://ideogram.ai/pricing/?pricing_tab=api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release announcement",
+      "url": "https://about.ideogram.ai/3.0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @image-sdk/sdk (api.sdk only)",
+      "url": "https://github.com/Adarsh-Me/Image-SDK",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

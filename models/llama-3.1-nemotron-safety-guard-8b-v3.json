@@ -1,0 +1,98 @@
+{
+  "id": "llama-3.1-nemotron-safety-guard-8b-v3",
+  "object": "model",
+  "created": 1761609600,
+  "owned_by": "nvidia",
+  "name": "Llama 3.1 Nemotron Safety Guard 8B v3",
+  "api": {
+    "types": [
+      "moderation",
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-28",
+    "knowledge_cutoff": null,
+    "description": "Multilingual content safety model that moderates human-LLM interaction content and classifies user prompts and LLM responses as safe or unsafe.",
+    "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-safety-guard-8b-v3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "moderation": "POST /v1/chat/completions",
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/llama-3.1-nemotron-safety-guard-8b-v3"
+  ],
+  "translations": {
+    "zh": {
+      "description": "多语言内容安全模型，审核人类与 LLM 交互的内容，并将用户提示词和 LLM 回复分类为安全或不安全。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nvidia / llama-3.1-nemotron-safety-guard-8b-v3 | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-safety-guard-8b-v3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "NVIDIA llama-3.1-nemotron-safety-guard-8b-v3 inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-safety-guard-8b-v3-infer",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

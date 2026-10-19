@@ -1,0 +1,99 @@
+{
+  "id": "command-a-vision-07-2025",
+  "object": "model",
+  "created": 1753920000,
+  "owned_by": "cohere",
+  "name": "Command A Vision",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/cohere",
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": 8000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-07-31",
+    "knowledge_cutoff": "2024-06",
+    "description": "Image-processing model for charts, tables, diagrams, OCR, document Q&A, and object detection.",
+    "docs": "https://docs.cohere.com/docs/command-a-vision",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "command-a-vision-07-2025",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "chat": "POST /v2/chat"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "图像处理模型，适用于图表、表格、示意图、OCR、文档问答和目标检测。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Command A Vision | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/command-a-vision",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Cohere Model Overview",
+      "url": "https://docs.cohere.com/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "How does Cohere pricing work?",
+      "url": "https://docs.cohere.com/docs/how-does-cohere-pricing-work",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Announcing Cohere's Command A Vision Model | Cohere Release Notes",
+      "url": "https://docs.cohere.com/changelog/2025-07-31-command-a-vision",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

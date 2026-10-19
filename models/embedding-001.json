@@ -1,0 +1,78 @@
+{
+  "id": "embedding-001",
+  "object": "model",
+  "created": 1712620800,
+  "owned_by": "google",
+  "name": "Embedding 001",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 2048,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-04-09",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "google",
+      "model": "embedding-001",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "embeddings": "POST /v1beta/models/{model}:embedContent"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Models | Gemini API（原网址 https://ai.google.dev/gemini-api/docs/models）",
+      "url": "https://web.archive.org/web/20250601/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

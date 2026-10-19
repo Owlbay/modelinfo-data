@@ -1,0 +1,112 @@
+{
+  "id": "palmyra-x4",
+  "object": "model",
+  "created": 1728432000,
+  "owned_by": "writer",
+  "name": "Palmyra X4",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "writer-sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": 4096
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2.5,
+    "output": 10,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2024-10-09",
+    "knowledge_cutoff": null,
+    "description": "Language model for complex tasks that require extended context; deprecation scheduled 2026-12-14.",
+    "docs": "https://dev.writer.com/home/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2.5,
+      "output": 10,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "writer",
+      "model": "palmyra-x4",
+      "base_url": "https://api.writer.com/v1",
+      "endpoints": {
+        "chat": "POST /chat"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于需要扩展上下文的复杂任务的语言模型；计划于 2026-12-14 弃用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Choose a model | Writer AI Studio",
+      "url": "https://dev.writer.com/home/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Writer AI Studio",
+      "url": "https://dev.writer.com/home/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat completion | Writer API Reference",
+      "url": "https://dev.writer.com/api-reference/completion-api/chat-completion",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | Writer AI Studio",
+      "url": "https://dev.writer.com/home/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing intelligent actions with Palmyra X4 - WRITER",
+      "url": "https://writer.com/blog/actions-with-palmyra-x4/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — writer-sdk (api.sdk only)",
+      "url": "https://github.com/writer/writer-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "act_two",
+  "object": "model",
+  "created": 1753056000,
+  "owned_by": "runway",
+  "name": "Act-Two",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@runwayml/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "video"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.05,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-07-21",
+    "knowledge_cutoff": null,
+    "description": "Runway's motion capture model.",
+    "docs": "https://docs.dev.runwayml.com/guides/models/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.05,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "runway",
+      "model": "act_two",
+      "base_url": "https://api.dev.runwayml.com/v1",
+      "endpoints": {
+        "video": "POST /character_performance"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Runway 的动作捕捉模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Available AI Models | Runway API",
+      "url": "https://docs.dev.runwayml.com/guides/models/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Runway API",
+      "url": "https://docs.dev.runwayml.com/guides/pricing/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Runway API Changelog",
+      "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://docs.dev.runwayml.com/api/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @runwayml/sdk (api.sdk only)",
+      "url": "https://github.com/runwayml/sdk-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

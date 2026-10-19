@@ -1,0 +1,96 @@
+{
+  "id": "generalv3",
+  "object": "model",
+  "created": null,
+  "owned_by": "iflytek",
+  "name": "Spark Pro",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 8192,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "iFlytek Spark Pro professional language model for text and Q&A scenarios.",
+    "docs": "https://www.xfyun.cn/doc/spark/HTTP%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "iflytek",
+      "model": "generalv3",
+      "base_url": "https://spark-api-open.xf-yun.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "讯飞星火 Pro 专业语言模型，适用于文本和问答场景。"
+    }
+  },
+  "sources": [
+    {
+      "title": "星火认知大模型 HTTP 接口文档 | 讯飞星火",
+      "url": "https://www.xfyun.cn/doc/spark/HTTP%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "星火认知大模型 Web 接口文档 | 讯飞星火",
+      "url": "https://www.xfyun.cn/doc/spark/Web.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "星火大模型 API 产品页 | 讯飞星火",
+      "url": "https://xinghuo.xfyun.cn/sparkapi",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

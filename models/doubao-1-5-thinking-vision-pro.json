@@ -1,0 +1,133 @@
+{
+  "id": "doubao-1-5-thinking-vision-pro",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-1.5-thinking-vision-pro",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 3,
+    "output": 9,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-1.5-thinking-vision-pro, retired. Official shutdown (EOS) dates: doubao-1.5-thinking-pro-vision-250415 2025-08-28; doubao-1-5-thinking-vision-pro-250428 2026-03-31.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 9,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-1-5-thinking-vision-pro-250428",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-1.5-thinking-pro-vision-250415",
+    "doubao-1-5-thinking-vision-pro-250428"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Doubao-1.5-thinking-vision-pro，已下线。官方停服（EOS）日期：doubao-1.5-thinking-pro-vision-250415 2025-08-28；doubao-1-5-thinking-vision-pro-250428 2026-03-31。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线公告 2025 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/2172669",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型下线公告 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1350667",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310）",
+      "url": "https://web.archive.org/web/20250604074021/https://www.volcengine.com/docs/82379/1330310",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：火山方舟模型价格（标准在线推理最低长度档）",
+      "url": "https://web.archive.org/web/20251219073649/https://www.volcengine.com/docs/82379/1544106",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "mistral-ocr-2505",
+  "object": "model",
+  "created": 1747872000,
+  "owned_by": "mistral",
+  "name": "OCR 2",
+  "api": {
+    "types": [
+      "ocr",
+      "batch"
+    ],
+    "sdk": [
+      "@mistralai/mistralai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text",
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "page",
+    "input": 0.001,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-05-22",
+    "knowledge_cutoff": null,
+    "description": "Our OCR service powering our Document AI stack that enables our users to extract interleaved text and images",
+    "docs": "https://docs.mistral.ai/models/ocr-2-25-05",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.001,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "mistral-ocr-2505",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "batch": "POST /v1/batch"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "为我们的 Document AI 体系提供支持的 OCR 服务，可让用户提取图文交错的内容。"
+    }
+  },
+  "sources": [
+    {
+      "title": "OCR 2 | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/ocr-2-25-05",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "Models overview（含 Deprecation 与 Retirement 日期表） | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle policy | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/model-lifecycle",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：官方模型价格页（原网址 https://mistral.ai/pricing）",
+      "url": "https://web.archive.org/web/20250731223344/https://mistral.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "OCR 2 | Mistral Docs (official Markdown)",
+      "url": "https://docs.mistral.ai/models/ocr-2-25-05.md",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "kling-video-v2-master",
+  "object": "model",
+  "created": 1747094400,
+  "owned_by": "kuaishou",
+  "name": "Kling 2.0 Master",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@ai-sdk/klingai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-05-13",
+    "knowledge_cutoff": null,
+    "description": "Kling 2.0 Master video model, retired. Official notice: retired on 2026-09-15.",
+    "docs": "https://kling.ai/document-api/api/video/2-0-master/text-to-video",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "kuaishou",
+      "model": "kling-v2-master",
+      "base_url": "https://api-singapore.klingai.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Kling 2.0 Master 视频模型，已下线。官方通知：已于 2026-09-15 下线。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Kling 2.0 Master | 可灵 API 文档",
+      "url": "https://kling.ai/document-api/api/video/2-0-master/text-to-video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "部分旧版模型下线预告 | 可灵 API 文档",
+      "url": "https://kling.ai/document-api/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 可灵 API 文档接口定义（含 model_name 取值）（原网址 https://s15-kling.klingai.com/kos/s101/nlav112918/api-doc/assets/api-BrQJ09bI.js）",
+      "url": "https://web.archive.org/web/20260911/https://s15-kling.klingai.com/kos/s101/nlav112918/api-doc/assets/api-BrQJ09bI.js",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "更新日志 | 可灵 API 文档",
+      "url": "https://kling.ai/document-api/updates/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/klingai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/klingai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

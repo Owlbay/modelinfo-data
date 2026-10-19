@@ -1,0 +1,156 @@
+{
+  "id": "ernie-4.5-turbo-128k",
+  "object": "model",
+  "created": 1745452800,
+  "owned_by": "baidu",
+  "name": "ERNIE 4.5 Turbo 128K",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "@baiducloud/qianfan",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": 125952,
+    "output": 12288
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0.8,
+    "output": 3.2,
+    "cache_read": 0.2,
+    "cache_write": null
+  },
+  "features": [
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-04-24",
+    "knowledge_cutoff": null,
+    "description": "Baidu ERNIE 4.5 Turbo text model with 128K context. Scheduled to be retired on 2026-10-29 (official retirement notice).",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": 3.2,
+      "cache_read": 0.2,
+      "cache_write": null
+    },
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.11,
+      "output": 0.45,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "ernie-4.5-turbo-128k",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {
+        "chat": "POST /v2/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "百度 ERNIE 4.5 Turbo 文本模型，128K 上下文。计划于 2026-10-29 下线（官方下线通知）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "价格 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-docs/s/Jm8r1826a",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型更新记录 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "文本生成 API 参考 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-api/s/3m7of64lb",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Anthropic Claude API 兼容 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-docs/s/6mh3e6gjp",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

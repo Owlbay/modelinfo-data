@@ -1,0 +1,115 @@
+{
+  "id": "gpt-4o-mini-search-preview",
+  "object": "model",
+  "created": 1741651200,
+  "owned_by": "openai",
+  "name": "GPT-4o Mini Search Preview",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-03-11",
+    "knowledge_cutoff": "2023-10-01",
+    "description": "Fast, affordable small model for web search",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-4o-mini-search-preview",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "gpt-4o-mini-search-preview-2025-03-11"
+  ],
+  "translations": {
+    "zh": {
+      "description": "用于网络搜索的快速、实惠的小型模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-4o Mini Search Preview Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "kling-video-o1",
+  "object": "model",
+  "created": 1765756800,
+  "owned_by": "kuaishou",
+  "name": "Kling O1",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@ai-sdk/klingai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.084,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-15",
+    "knowledge_cutoff": null,
+    "description": "Unified video model with all-in-one multimodal instructions and consistency, 3-10s clips at 720P/1080P.",
+    "docs": "https://kling.ai/document-api/guides/capability-map/video",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.084,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "kling",
+      "model": "kling-video-o1",
+      "base_url": "https://api-singapore.klingai.com",
+      "endpoints": {
+        "video": "POST /omni-video/kling-o1"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "统一视频模型，支持一体化多模态指令和一致性，3 至 10 秒片段，720P/1080P。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Video Capability Map | Kling AI API Documentation",
+      "url": "https://kling.ai/document-api/guides/capability-map/video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kling AI API Updates",
+      "url": "https://kling.ai/document-api/updates/api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kling API Pricing - Video",
+      "url": "https://kling.ai/document-api/pricing/base/video",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kling Video API",
+      "url": "https://kling.ai/document-api/api/video/o1/video-omni.md",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/klingai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/klingai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

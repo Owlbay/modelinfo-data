@@ -1,0 +1,128 @@
+{
+  "id": "jina-ocr-v1",
+  "object": "model",
+  "created": 1789344000,
+  "owned_by": "jina",
+  "name": "Jina OCR v1",
+  "api": {
+    "types": [
+      "chat",
+      "ocr"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.5,
+    "output": 2,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-14",
+    "knowledge_cutoff": null,
+    "description": "Page-to-Markdown document parser handling text, formulas, tables and reading order; used by the Reader API.",
+    "docs": "https://jina.ai/models/jina-ocr-v1",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": 2,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-ocr-v1",
+      "base_url": "https://r.jina.ai",
+      "endpoints": {},
+      "reasoning_param": null
+    },
+    {
+      "id": "jina",
+      "model": "jina-ocr-v1",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "页面转 Markdown 的文档解析器，可处理文本、公式、表格和阅读顺序；供 Reader API 使用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "jina-ocr-v1 | Jina AI",
+      "url": "https://jina.ai/models/jina-ocr-v1",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina AI API docs",
+      "url": "https://docs.jina.ai/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Jina AI API",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina Search Foundation API - OpenAPI",
+      "url": "https://api.jina.ai/openapi.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "hy4-preview",
+  "object": "model",
+  "created": 1787875200,
+  "owned_by": "tencent",
+  "name": "Hy4 Preview",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": 983040,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 6,
+    "output": 18,
+    "cache_read": 0.3,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-08-28",
+    "knowledge_cutoff": null,
+    "description": "Tencent Hy4 preview model with 1M context and deep thinking, served on TokenHub.",
+    "docs": "https://cloud.tencent.com/document/product/1823/132252",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 6,
+      "output": 18,
+      "cache_read": 0.3,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "tencent",
+      "model": "hy4-preview",
+      "base_url": "https://tokenhub.tencentmaas.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "messages": "POST /messages"
+      },
+      "reasoning_param": "thinking"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "腾讯 Hy4 预览模型，上下文 1M，支持深度思考，部署于 TokenHub。"
+    }
+  },
+  "sources": [
+    {
+      "title": "混元调用指南 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/132252",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型列表 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130051",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "模型定价 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130055",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "语言模型调用概览 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130079",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "腾讯发布并开源Hy4 preview | Tencent",
+      "url": "https://www.tencent.com/zh-cn/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "nova-micro",
+  "object": "model",
+  "created": 1733356800,
+  "owned_by": "amazon",
+  "name": "Amazon Nova Micro",
+  "api": {
+    "types": [
+      "chat",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/amazon-bedrock",
+      "@aws-sdk/client-bedrock-runtime"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": 10000
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.035,
+    "output": 0.14,
+    "cache_read": 0.00875,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2024-12-05",
+    "knowledge_cutoff": "2024-10",
+    "description": "Amazon's fastest text-only model, optimized for speed and low cost in tasks like summarization, translation, and classification.",
+    "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro.html",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.035,
+      "output": 0.14,
+      "cache_read": 0.00875,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.nova-micro-v1:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /model/{modelId}/converse"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "amazon.nova-micro-v1:0",
+    "us.amazon.nova-micro-v1:0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Amazon 速度最快的纯文本模型，针对摘要、翻译和分类等任务的速度与低成本进行了优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Amazon Bedrock model card: Amazon Nova Micro",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Nova User Guide (Version 1): What is Amazon Nova?",
+      "url": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Amazon Bedrock Pricing",
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
+      "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/bedrock-runtime/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

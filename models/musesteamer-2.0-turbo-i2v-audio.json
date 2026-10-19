@@ -1,0 +1,71 @@
+{
+  "id": "musesteamer-2.0-turbo-i2v-audio",
+  "object": "model",
+  "created": null,
+  "owned_by": "baidu",
+  "name": "MuseSteamer-2.0-Turbo-I2V-Audio",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image"
+    ],
+    "output": [
+      "video",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "MuseSteamer-2.0-Turbo-I2V-Audio, retired. Official retirement date: 2026-02-06.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "musesteamer-2.0-turbo-i2v-audio",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MuseSteamer-2.0-Turbo-I2V-Audio"
+  ],
+  "translations": {
+    "zh": {
+      "description": "MuseSteamer-2.0-Turbo-I2V-Audio，已下线。官方下线日期：2026-02-06。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "百度蒸汽机（MuseSteamer）MCP | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-docs/s/amejnlwya",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

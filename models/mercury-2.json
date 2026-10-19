@@ -1,0 +1,134 @@
+{
+  "id": "mercury-2",
+  "object": "model",
+  "created": 1771891200,
+  "owned_by": "inception",
+  "name": "Mercury 2",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": 50000
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "instant",
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.25,
+    "output": 0.75,
+    "cache_read": 0.025,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-24",
+    "knowledge_cutoff": null,
+    "description": "Previous-generation reasoning diffusion model for chat completions.",
+    "docs": "https://docs.inceptionlabs.ai/get-started/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.25,
+      "output": 0.75,
+      "cache_read": 0.025,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "inception",
+      "model": "mercury-2",
+      "base_url": "https://api.inceptionlabs.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "上一代推理扩散模型，用于对话补全。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Inception Docs",
+      "url": "https://docs.inceptionlabs.ai/get-started/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reasoning Efforts | Inception Docs",
+      "url": "https://docs.inceptionlabs.ai/capabilities/reasoning-efforts",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Inception API OpenAPI specification",
+      "url": "https://api.inceptionlabs.ai/openapi.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "List available models | Inception API",
+      "url": "https://api.inceptionlabs.ai/v1/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing Mercury 2 - Inception Blog",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

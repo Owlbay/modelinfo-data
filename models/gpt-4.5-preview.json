@@ -1,0 +1,123 @@
+{
+  "id": "gpt-4.5-preview",
+  "object": "model",
+  "created": 1740614400,
+  "owned_by": "openai",
+  "name": "GPT-4.5 Preview",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 75,
+    "output": 150,
+    "cache_read": 37.5,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-02-27",
+    "knowledge_cutoff": "2023-10-01",
+    "description": "Deprecated large model.",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-4.5-preview",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 75,
+      "output": 150,
+      "cache_read": 37.5,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-4.5-preview",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses",
+        "batch": "POST /v1/batches"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "gpt-4.5-preview-2025-02-27"
+  ],
+  "translations": {
+    "zh": {
+      "description": "已弃用的大型模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-4.5 Preview Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4.5-preview",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

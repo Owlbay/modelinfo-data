@@ -1,0 +1,96 @@
+{
+  "id": "fugu-ultra",
+  "object": "model",
+  "created": null,
+  "owned_by": "sakana",
+  "name": "Fugu Ultra",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "messages"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "high",
+      "xhigh"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": "2026-08-28",
+    "description": "Fugu Ultra coordinates a deeper pool of expert agents to maximize answer quality on hard, high-stakes problems. v2.0 accepts reasoning efforts high and xhigh; max is accepted as an alias of xhigh. The Responses API defaults to xhigh for fugu-ultra.",
+    "docs": "https://console.sakana.ai/models",
+    "verified_at": "2026-10-13"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "sakana",
+      "model": "fugu-ultra",
+      "base_url": "https://api.sakana.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses",
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort",
+        "messages": null
+      }
+    }
+  ],
+  "aliases": [
+    "fugu-ultra-v2.0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Fugu Ultra 协调更深的专家模型池，在高风险难题上尽量提高回答质量。v2.0 的思考档位是 high 与 xhigh；max 作为 xhigh 的别名被接受。Responses API 对 fugu-ultra 的默认档位是 xhigh。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Sakana AI Console（fugu-ultra 默认 v2.0；Responses 默认 effort 为 xhigh，max 与 xhigh 同义）",
+      "url": "https://console.sakana.ai/models",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Get started | Sakana AI Console",
+      "url": "https://console.sakana.ai/get-started",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

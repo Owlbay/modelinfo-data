@@ -1,0 +1,91 @@
+{
+  "id": "senseaudio-voice-isolation-1.5",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseAudio-Voice-Isolation-1.5",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "second",
+    "input": 0.04,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Vocal track separation from audio.",
+    "docs": "https://docs.senseaudio.cn/guides/voice-isolation/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "second",
+      "input": 0.04,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "senseaudio-voice-isolation-1.5",
+      "base_url": "https://api.senseaudio.cn",
+      "endpoints": {
+        "audio": "POST /v1/isolation/sync"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "从音频中分离人声轨道。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "人声分离介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/voice-isolation/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio API: voice-isolation/sync",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/voice-isolation/sync.md",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

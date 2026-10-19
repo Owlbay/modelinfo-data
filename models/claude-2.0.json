@@ -1,0 +1,92 @@
+{
+  "id": "claude-2.0",
+  "object": "model",
+  "created": 1689033600,
+  "owned_by": "anthropic",
+  "name": "Claude 2",
+  "api": {
+    "types": [
+      "messages",
+      "completions"
+    ],
+    "sdk": [
+      "@anthropic-ai/sdk"
+    ]
+  },
+  "limits": {
+    "context": 100000,
+    "input": null,
+    "output": 4096
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 8,
+    "output": 24,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2023-07-11",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 8,
+      "output": 24,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "anthropic",
+      "model": "claude-2.0",
+      "base_url": "https://api.anthropic.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Model deprecations | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Models overview（原网址 https://docs.anthropic.com/en/docs/models-overview）",
+      "url": "https://web.archive.org/web/20240606193441/https://docs.anthropic.com/en/docs/models-overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Claude 2 | Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

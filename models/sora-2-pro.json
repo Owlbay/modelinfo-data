@@ -1,0 +1,102 @@
+{
+  "id": "sora-2-pro",
+  "object": "model",
+  "created": 1759708800,
+  "owned_by": "openai",
+  "name": "Sora 2 Pro",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.3,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-10-06",
+    "knowledge_cutoff": null,
+    "description": "Most advanced synced-audio video generation",
+    "docs": "https://developers.openai.com/api/docs/models/sora-2-pro",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.3,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "sora-2-pro",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "video": "POST /v1/videos"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "sora-2-pro-2025-10-06"
+  ],
+  "translations": {
+    "zh": {
+      "description": "最先进的音画同步视频生成"
+    }
+  },
+  "sources": [
+    {
+      "title": "Sora 2 Pro Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/sora-2-pro",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

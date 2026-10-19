@@ -1,0 +1,105 @@
+{
+  "id": "moonshot-v1-128k",
+  "object": "model",
+  "created": 1706659200,
+  "owned_by": "moonshot",
+  "name": "Moonshot V1 128K",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/moonshotai",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-01-31",
+    "knowledge_cutoff": null,
+    "description": "Moonshot V1 generation model; the series differs only in maximum context length (input plus output). Officially discontinued on 2026-08-31.",
+    "docs": "https://platform.kimi.ai/docs/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "moonshot",
+      "model": "moonshot-v1-128k",
+      "base_url": "https://api.moonshot.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Moonshot V1 生成模型；该系列仅在最大上下文长度（输入加输出）上有所不同。官方已于 2026-08-31 停用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model List | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model List | Kimi API Platform（存档，原网址 https://platform.kimi.ai/docs/models）",
+      "url": "https://web.archive.org/web/20260421085752/https://platform.kimi.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model Inference Pricing Explanation | Kimi API Platform（存档，原网址 https://platform.kimi.ai/docs/pricing/chat）",
+      "url": "https://web.archive.org/web/20260327200226/https://platform.kimi.ai/docs/pricing/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "为什么要推出 Kimi Latest 模型？",
+      "url": "https://platform.kimi.com/blog/posts/kimi-latest",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/moonshotai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/moonshotai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

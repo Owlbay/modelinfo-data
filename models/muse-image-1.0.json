@@ -1,0 +1,118 @@
+{
+  "id": "muse-image-1.0",
+  "object": "model",
+  "created": 1787616000,
+  "owned_by": "meta",
+  "name": "Muse Image 1.0",
+  "api": {
+    "types": [
+      "images",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.01,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-25",
+    "knowledge_cutoff": null,
+    "description": "Meta's image model that generates and edits images from text prompts and reference images.",
+    "docs": "https://dev.meta.ai/docs/image-generation",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.01,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "meta",
+      "model": "muse-image-1.0",
+      "base_url": "https://api.meta.ai/v1",
+      "endpoints": {
+        "responses": "POST /v1/responses",
+        "images": "POST /v1/images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Meta 的图像模型，可根据文本提示和参考图像生成并编辑图像。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Meta Model API",
+      "url": "https://dev.meta.ai/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing and rate limits | Meta Model API",
+      "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Image generation | Meta Model API",
+      "url": "https://dev.meta.ai/docs/image-generation",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Muse Image on Meta Model API | Meta for Developers",
+      "url": "https://developer.meta.com/ai/resources/blog/build-with-muse-Image/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

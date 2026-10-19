@@ -1,0 +1,104 @@
+{
+  "id": "flux-pro-1.1-ultra",
+  "object": "model",
+  "created": 1730851200,
+  "owned_by": "black-forest-labs",
+  "name": "FLUX1.1 [pro] Ultra",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/black-forest-labs"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.06,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-11-06",
+    "knowledge_cutoff": null,
+    "description": "FLUX1.1 [pro] ultra mode: up to 4MP text-to-image generation with a raw mode and image-to-image support.",
+    "docs": "https://docs.bfl.ml/flux_models/flux_1_1_pro_ultra_raw",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.06,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "black-forest-labs",
+      "model": "flux-pro-1.1-ultra",
+      "base_url": "https://api.bfl.ai",
+      "endpoints": {
+        "images": "POST /v1/flux-pro-1.1-ultra"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "FLUX1.1 [pro] 超高清模式：最高 4MP 的文生图，带 raw 模式并支持图生图。"
+    }
+  },
+  "sources": [
+    {
+      "title": "FLUX1.1 [pro] Ultra Mode | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/flux_models/flux_1_1_pro_ultra_raw",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/quick_start/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "FLUX API OpenAPI specification",
+      "url": "https://api.bfl.ai/openapi.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing FLUX1.1 [pro] Ultra and Raw Modes",
+      "url": "https://bfl.ai/announcements/24-11-06-ultra",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/black-forest-labs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/black-forest-labs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

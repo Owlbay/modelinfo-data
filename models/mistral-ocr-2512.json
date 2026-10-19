@@ -1,0 +1,119 @@
+{
+  "id": "mistral-ocr-2512",
+  "object": "model",
+  "created": 1766016000,
+  "owned_by": "mistral",
+  "name": "Mistral OCR 3",
+  "api": {
+    "types": [
+      "ocr",
+      "batch"
+    ],
+    "sdk": [
+      "@mistralai/mistralai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text",
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "page",
+    "input": 0.002,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-18",
+    "knowledge_cutoff": null,
+    "description": "OCR service powering Mistral's Document AI stack that extracts interleaved text and images.",
+    "docs": "https://docs.mistral.ai/models/ocr-3-25-12",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.002,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "mistral-ocr-2512",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "ocr": "POST /v1/ocr",
+        "batch": "POST /v1/batch/jobs"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "为 Mistral Document AI 体系提供支持的 OCR 服务，可提取图文交错的内容。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Mistral OCR 3 | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/ocr-3-25-12",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "API pricing | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models overview | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "API Reference | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/ocr",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Mistral OCR 3 | Mistral Docs (official Markdown)",
+      "url": "https://docs.mistral.ai/models/ocr-3-25-12.md",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

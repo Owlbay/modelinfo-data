@@ -1,0 +1,83 @@
+{
+  "id": "gwm1_avatars",
+  "object": "model",
+  "created": null,
+  "owned_by": "runway",
+  "name": "Runway Characters",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "@runwayml/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Generates a video of a character speaking from a text script or an audio file.",
+    "docs": "https://docs.dev.runwayml.com/guides/models/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "runway",
+      "model": "gwm1_avatars",
+      "base_url": "https://api.dev.runwayml.com/v1",
+      "endpoints": {
+        "video": "POST /avatar_videos"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "根据文本脚本或音频文件生成角色说话的视频。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Available AI Models | Runway API",
+      "url": "https://docs.dev.runwayml.com/guides/models/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Runway API",
+      "url": "https://docs.dev.runwayml.com/guides/pricing/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://docs.dev.runwayml.com/api/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @runwayml/sdk (api.sdk only)",
+      "url": "https://github.com/runwayml/sdk-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

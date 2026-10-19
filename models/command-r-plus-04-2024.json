@@ -1,0 +1,100 @@
+{
+  "id": "command-r-plus-04-2024",
+  "object": "model",
+  "created": 1712188800,
+  "owned_by": "cohere",
+  "name": "Command R+ (04-2024)",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": 4000
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 3,
+    "output": 15,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-04-04",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.cohere.com/docs/deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 15,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "command-r-plus-04-2024",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "command-r-plus"
+  ],
+  "sources": [
+    {
+      "title": "Deprecations | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Command R+ | Cohere Docs（原网址 https://docs.cohere.com/docs/command-r-plus）",
+      "url": "https://web.archive.org/web/20250731192458/https://docs.cohere.com/docs/command-r-plus",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing Command R+: A Scalable LLM Built for Business | Cohere Blog",
+      "url": "https://cohere.com/blog/command-r-plus-microsoft-azure",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://cohere.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

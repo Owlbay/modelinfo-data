@@ -1,0 +1,121 @@
+{
+  "id": "mistral-ocr-4-1",
+  "object": "model",
+  "created": 1784160000,
+  "owned_by": "mistral",
+  "name": "Mistral OCR 4.1",
+  "api": {
+    "types": [
+      "ocr",
+      "batch"
+    ],
+    "sdk": [
+      "@mistralai/mistralai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text",
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "page",
+    "input": 0.004,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-16",
+    "knowledge_cutoff": null,
+    "description": "OCR service powering Mistral's Document AI stack, with paragraph-level bounding boxes, block labels, and confidence scores.",
+    "docs": "https://docs.mistral.ai/models/ocr-4-1",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.004,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "mistral-ocr-4-1",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "ocr": "POST /v1/ocr",
+        "batch": "POST /v1/batch/jobs"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "mistral-ocr-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "为 Mistral Document AI 体系提供支持的 OCR 服务，支持段落级边界框、块标签和置信度分数。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Mistral OCR 4.1 | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/ocr-4-1",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "API pricing | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models overview | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "API Reference | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/ocr",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Mistral OCR 4.1 | Mistral Docs (official Markdown)",
+      "url": "https://docs.mistral.ai/models/ocr-4-1.md",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

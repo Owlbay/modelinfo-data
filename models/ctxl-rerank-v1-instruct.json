@@ -1,0 +1,77 @@
+{
+  "id": "ctxl-rerank-v1-instruct",
+  "object": "model",
+  "created": 1741651200,
+  "owned_by": "contextual-ai",
+  "name": "Contextual AI Reranker v1 Instruct",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "contextual-client"
+    ]
+  },
+  "limits": {
+    "context": 8000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-03-11",
+    "knowledge_cutoff": null,
+    "description": "First instruction-following reranker from Contextual AI; ranks by relevance first and by custom instructions second.",
+    "docs": "https://docs.contextual.ai/api-reference/rerank/rerank",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "contextual-ai",
+      "model": "ctxl-rerank-v1-instruct",
+      "base_url": "https://api.contextual.ai",
+      "endpoints": {
+        "rerank": "POST /v1/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Contextual AI 首个遵循指令的重排模型；先按相关性排序，再按自定义指令排序。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Rerank | Contextual AI Docs",
+      "url": "https://docs.contextual.ai/api-reference/rerank/rerank",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "2025 Release Updates | Contextual AI Docs",
+      "url": "https://docs.contextual.ai/release-notes/2025",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — contextual-client (api.sdk only)",
+      "url": "https://github.com/ContextualAI/contextual-client-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

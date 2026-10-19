@@ -1,0 +1,107 @@
+{
+  "id": "palmyra-x6",
+  "object": "model",
+  "created": 1786579200,
+  "owned_by": "writer",
+  "name": "Palmyra X6",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "writer-sdk"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2,
+    "output": 8,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-13",
+    "knowledge_cutoff": null,
+    "description": "Agentic model for WRITER Agent and long-horizon enterprise workflows.",
+    "docs": "https://dev.writer.com/home/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 8,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "writer",
+      "model": "palmyra-x6",
+      "base_url": "https://api.writer.com/v1",
+      "endpoints": {
+        "chat": "POST /chat"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向 WRITER Agent 和长周期企业工作流的智能体模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Choose a model | Writer AI Studio",
+      "url": "https://dev.writer.com/home/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Writer AI Studio",
+      "url": "https://dev.writer.com/home/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat completion | Writer API Reference",
+      "url": "https://dev.writer.com/api-reference/completion-api/chat-completion",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "WRITER Palmyra X6 release - WRITER",
+      "url": "https://writer.com/blog/palmyra-x6-major-harness-release/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — writer-sdk (api.sdk only)",
+      "url": "https://github.com/writer/writer-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

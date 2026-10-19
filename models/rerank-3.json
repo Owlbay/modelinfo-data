@@ -1,0 +1,104 @@
+{
+  "id": "rerank-3",
+  "object": "model",
+  "created": 1790726400,
+  "owned_by": "voyage",
+  "name": "Rerank 3",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "@ai-sdk/voyage",
+      "voyageai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-30",
+    "knowledge_cutoff": null,
+    "description": "Voyage reranker with the highest accuracy, recommended for most applications.",
+    "docs": "https://docs.voyageai.com/docs/reranker",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "voyage",
+      "model": "rerank-3",
+      "base_url": "https://api.voyageai.com",
+      "endpoints": {
+        "rerank": "POST /v1/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Voyage 准确率最高的重排模型，推荐用于大多数应用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Rerankers | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/reranker",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Voyage AI Blog: rerank-3",
+      "url": "https://blog.voyageai.com/2026/09/30/rerank-3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — voyageai (api.sdk only)",
+      "url": "https://github.com/voyage-ai/typescript-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/voyage (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/voyage",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

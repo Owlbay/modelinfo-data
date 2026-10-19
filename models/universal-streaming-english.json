@@ -1,0 +1,98 @@
+{
+  "id": "universal-streaming-english",
+  "object": "model",
+  "created": 1748822400,
+  "owned_by": "assemblyai",
+  "name": "Universal-Streaming English",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "assemblyai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.15,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-06-02",
+    "knowledge_cutoff": null,
+    "description": "AssemblyAI English streaming speech-to-text model balancing speed and cost.",
+    "docs": "https://www.assemblyai.com/docs/streaming/select-the-speech-model",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.15,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "assemblyai",
+      "model": "universal-streaming-english",
+      "base_url": "https://streaming.assemblyai.com",
+      "endpoints": {
+        "realtime": "GET /v3/ws"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "AssemblyAI 英语流式语音转文字模型，在速度与成本之间取得平衡。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model selection | AssemblyAI Docs",
+      "url": "https://www.assemblyai.com/docs/streaming/select-the-speech-model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | AssemblyAI",
+      "url": "https://www.assemblyai.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official release announcement",
+      "url": "https://www.assemblyai.com/blog/introducing-universal-streaming",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — assemblyai (api.sdk only)",
+      "url": "https://github.com/AssemblyAI/assemblyai-node-sdk",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

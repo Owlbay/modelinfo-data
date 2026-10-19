@@ -1,0 +1,93 @@
+{
+  "id": "doubao-seedance-1-0-lite",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seedance-1.0-lite",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": null,
+    "output": 10,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-Seedance-1.0-lite, retired. Official shutdown (EOS) dates: doubao-seedance-1-0-lite-i2v-250428 2026-05-11; doubao-seedance-1-0-lite-t2v-250428 2026-05-11.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": null,
+      "output": 10,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seedance-1-0-lite-t2v-250428",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-seedance-1-0-lite-i2v-250428",
+    "doubao-seedance-1-0-lite-t2v-250428"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Doubao-Seedance-1.0-lite，已下线。官方停服（EOS）日期：doubao-seedance-1-0-lite-i2v-250428 2026-05-11；doubao-seedance-1-0-lite-t2v-250428 2026-05-11。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线公告 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1350667",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310）",
+      "url": "https://web.archive.org/web/20250604074021/https://www.volcengine.com/docs/82379/1330310",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：火山方舟模型价格（标准在线推理）",
+      "url": "https://web.archive.org/web/20251219073649/https://www.volcengine.com/docs/82379/1544106",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

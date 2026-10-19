@@ -1,0 +1,94 @@
+{
+  "id": "sd3.5-large",
+  "object": "model",
+  "created": 1729555200,
+  "owned_by": "stability",
+  "name": "Stable Diffusion 3.5 Large",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.065,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-10-22",
+    "knowledge_cutoff": null,
+    "description": "Stable Diffusion 3.5 base model with 8 billion parameters, for professional use at 1 megapixel resolution.",
+    "docs": "https://platform.stability.ai/docs/api-reference",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.065,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "stability",
+      "model": "sd3.5-large",
+      "base_url": "https://api.stability.ai",
+      "endpoints": {
+        "images": "POST /v2beta/stable-image/generate/sd3"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "sd3-large"
+  ],
+  "translations": {
+    "zh": {
+      "description": "拥有 80 亿参数的 Stable Diffusion 3.5 基础模型，适用于 1 百万像素分辨率的专业用途。"
+    }
+  },
+  "sources": [
+    {
+      "title": "API Reference | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/docs/api-reference",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release Notes | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/docs/release-notes",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

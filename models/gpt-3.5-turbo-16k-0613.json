@@ -1,0 +1,110 @@
+{
+  "id": "gpt-3.5-turbo-16k-0613",
+  "object": "model",
+  "created": 1686614400,
+  "owned_by": "openai",
+  "name": "gpt-3.5-turbo-16k-0613",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 16385,
+    "input": null,
+    "output": 4096
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 3,
+    "output": 4,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2023-06-13",
+    "knowledge_cutoff": "2021-09-01",
+    "description": "Legacy GPT model for cheaper chat and non-chat tasks",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-16k-0613",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 4,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-3.5-turbo-16k-0613",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于更低成本对话与非对话任务的旧版 GPT 模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "gpt-3.5-turbo-16k-0613 Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-16k-0613.md",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://openai.com/index/function-calling-and-other-api-updates/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

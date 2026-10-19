@@ -1,0 +1,99 @@
+{
+  "id": "wanx2.1-imageedit",
+  "object": "model",
+  "created": 1742860800,
+  "owned_by": "alibaba",
+  "name": "Wanx2.1-ImageEdit",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "image",
+    "input": null,
+    "output": 0.14,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-03-25",
+    "knowledge_cutoff": null,
+    "description": "Wan general image editing model for outpainting, watermark removal, style transfer, instruction-based editing, inpainting and restoration.",
+    "docs": "https://help.aliyun.com/zh/model-studio/wanx-image-edit",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "image",
+      "input": null,
+      "output": 0.14,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "wanx2.1-imageedit",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "images": "POST /api/v1/services/aigc/image2image/image-synthesis"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Wan 通用图像编辑模型，支持外延绘制、去水印、风格迁移、基于指令的编辑、局部重绘和修复。"
+    }
+  },
+  "sources": [
+    {
+      "title": "通用图像编辑-万相2.1 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/wanx-image-edit",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型调用计费 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "openpangu-2.0-pro",
+  "object": "model",
+  "created": 1785369600,
+  "owned_by": "huawei",
+  "name": "openPangu-2.0-Pro",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 524288,
+    "input": 512000,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 3.2,
+    "output": 14.5,
+    "cache_read": 0.8,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-30",
+    "knowledge_cutoff": null,
+    "description": "Huawei openPangu 2.0 flagship MoE model with 512K context, deep thinking, function calling and prefix continuation (cn-southwest-2 only).",
+    "docs": "https://support.huaweicloud.com/bestpractice-maas/bestpractice_maas_0021_02.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 3.2,
+      "output": 14.5,
+      "cache_read": 0.8,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "huawei",
+      "model": "openpangu-2.0-pro",
+      "base_url": "https://api.modelarts-maas.com",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "chat_template_kwargs.thinking"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "华为 openPangu 2.0 旗舰 MoE 模型，支持 512K 上下文、深度思考、函数调用和前缀续写（仅限 cn-southwest-2）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "OpenAI兼容接口 | 华为云 MaaS",
+      "url": "https://support.huaweicloud.com/model-call-maas/model-call-021.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型列表 | 华为云 MaaS",
+      "url": "https://support.huaweicloud.com/model-list-maas/model_list_0001.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "文本生成模型计费 | 华为云 MaaS",
+      "url": "https://support.huaweicloud.com/price-maas/price-maas-0002.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "MaaS模型发布公告 | 华为云 MaaS",
+      "url": "https://support.huaweicloud.com/bulletin-maas/bulletin-maas-0001.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "openPangu-2.0-Pro | openPangu GitCode",
+      "url": "https://gitcode.com/ascend-tribe/openPangu-2.0-Pro",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Anthropic兼容接口 | 华为云 MaaS",
+      "url": "https://support.huaweicloud.com/model-call-maas/model-call-022.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release history",
+      "url": "https://support.huaweicloud.com/wtsnew-maas/index.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

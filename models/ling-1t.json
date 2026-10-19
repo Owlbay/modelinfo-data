@@ -1,0 +1,107 @@
+{
+  "id": "ling-1t",
+  "object": "model",
+  "created": 1759968000,
+  "owned_by": "ant",
+  "name": "Ling-1T",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-10-09",
+    "knowledge_cutoff": null,
+    "description": "Ling-1T, retired. Official shutdown: 2026-06-15 00:00 (UTC+8).",
+    "docs": "https://developer.ant-ling.com/en/docs/models/deprecation/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "ant",
+      "model": "Ling-1T",
+      "base_url": "https://api.ant-ling.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Ling-1T，已下线。官方下线时间：2026-06-15 00:00（UTC+8）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Deprecation | Ant Ling API Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/deprecation/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Ling-1T | Hugging Face（inclusionAI 官方）",
+      "url": "https://huggingface.co/inclusionAI/Ling-1T",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release history",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

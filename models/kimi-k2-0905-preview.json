@@ -1,0 +1,109 @@
+{
+  "id": "kimi-k2-0905-preview",
+  "object": "model",
+  "created": 1757030400,
+  "owned_by": "moonshot",
+  "name": "Kimi K2 0905 Preview",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/moonshotai",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-09-05",
+    "knowledge_cutoff": null,
+    "description": "Kimi K2 update with enhanced agentic coding, front-end code quality and context understanding. Officially discontinued on 2026-05-25.",
+    "docs": "https://platform.kimi.ai/docs/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "moonshot",
+      "model": "kimi-k2-0905-preview",
+      "base_url": "https://api.moonshot.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Kimi K2 更新版，增强了智能体编码、前端代码质量和上下文理解。官方已于 2026-05-25 停止服务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model List | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model List | Kimi API Platform（存档，原网址 https://platform.kimi.ai/docs/models）",
+      "url": "https://web.archive.org/web/20260421085752/https://platform.kimi.ai/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model Inference Pricing Explanation | Kimi API Platform（存档，原网址 https://platform.kimi.ai/docs/pricing/chat）",
+      "url": "https://web.archive.org/web/20260327200226/https://platform.kimi.ai/docs/pricing/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Kimi K2 模型更新，带来更强的代码能力、更快的 API",
+      "url": "https://platform.kimi.com/blog/posts/kimi-k2-0905",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/moonshotai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/moonshotai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "sensenova-tts-2.0",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseNova-TTS-2.0",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_characters",
+    "input": 350,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Text-to-speech with stronger emotional expression and higher pronunciation accuracy.",
+    "docs": "https://docs.senseaudio.cn/guides/tts/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_characters",
+      "input": 350,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "sensenova-tts-2.0",
+      "base_url": "https://api.senseaudio.cn",
+      "endpoints": {
+        "audio": "POST /v1/t2a_v2"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "文字转语音，情感表达更强，发音更准确。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "语音合成介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/tts/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio API: tts/synthesize",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/tts/synthesize.md",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

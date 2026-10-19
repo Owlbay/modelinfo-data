@@ -1,0 +1,130 @@
+{
+  "id": "gemini-robotics-er-2-preview",
+  "object": "model",
+  "created": 1785369600,
+  "owned_by": "google",
+  "name": "Gemini Robotics-ER 2 Preview",
+  "api": {
+    "types": [
+      "generate",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": 131072,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 5,
+    "cache_read": 0.1,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-07-30",
+    "knowledge_cutoff": "2025-01",
+    "description": "Vision-language model for robotics with spatial reasoning, video understanding and multi-step tool orchestration.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 5,
+      "cache_read": 0.1,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-robotics-er-2-preview",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1beta/models/{model}:generateContent",
+        "batch": "POST /v1beta/models/{model}:batchGenerateContent"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向机器人的视觉语言模型，支持空间推理、视频理解和多步工具编排。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemini Robotics-ER 2 Preview | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Generating content | Gemini API",
+      "url": "https://ai.google.dev/api/generate-content",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Release notes | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

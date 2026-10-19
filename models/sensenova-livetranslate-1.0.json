@@ -1,0 +1,78 @@
+{
+  "id": "sensenova-livetranslate-1.0",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseNova-LiveTranslate-1.0",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Simultaneous interpretation: real-time recognition, translation and spoken output.",
+    "docs": "https://docs.senseaudio.cn/guides/simultaneous-interpretation/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "sensenova-livetranslate-1.0",
+      "base_url": "wss://api.senseaudio.cn",
+      "endpoints": {
+        "realtime": "WS /ws/v1/audio/simulat-interpreting"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "同声传译：实时识别、翻译并语音输出。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "同声传译介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/simultaneous-interpretation/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio WebSocket API",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/simultaneous-interpretation/websocket.md",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

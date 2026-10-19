@@ -1,0 +1,101 @@
+{
+  "id": "llama-3.1-nemotron-ultra-253b-v1",
+  "object": "model",
+  "created": 1743984000,
+  "owned_by": "nvidia",
+  "name": "Llama 3.1 Nemotron Ultra 253B v1",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-04-07",
+    "knowledge_cutoff": null,
+    "description": "Reasoning model derived from Meta Llama-3.1-405B-Instruct, post-trained for reasoning, chat preferences, RAG and tool calling.",
+    "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-ultra-253b-v1",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/llama-3.1-nemotron-ultra-253b-v1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "由 Meta Llama-3.1-405B-Instruct 衍生的推理模型，经后训练以提升推理、对话偏好、RAG 和工具调用能力。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nvidia / llama-3.1-nemotron-ultra-253b-v1 | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-ultra-253b-v1",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Create chat completion (nvidia/llama-3.1-nemotron-ultra-253b-v1) | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-ultra-253b-v1-infer",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "NVIDIA llama-3.1-nemotron-ultra-253b-v1 inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-ultra-253b-v1-infer",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "glm-ocr",
+  "object": "model",
+  "created": 1770076800,
+  "owned_by": "zhipu",
+  "name": "GLM-OCR",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "document",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.03,
+    "output": 0.03,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-03",
+    "knowledge_cutoff": null,
+    "description": "Lightweight 0.9B-parameter OCR model for document parsing.",
+    "docs": "https://docs.z.ai/guides/vlm/glm-ocr",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.03,
+      "output": 0.03,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": 0.2,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "zhipu",
+      "model": "glm-ocr",
+      "base_url": "https://api.z.ai/api/paas/v4",
+      "endpoints": {
+        "ocr": "POST /layout_parsing"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于文档解析的轻量级 0.9B 参数 OCR 模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GLM-OCR | Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/vlm/glm-ocr",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/overview/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "最新动态 | 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

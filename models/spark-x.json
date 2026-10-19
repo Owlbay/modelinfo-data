@@ -1,0 +1,113 @@
+{
+  "id": "spark-x",
+  "object": "model",
+  "created": null,
+  "owned_by": "iflytek",
+  "name": "Spark X2",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 65536,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 3,
+    "output": 3,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "iFlytek Spark X2 deep reasoning model with function calling and web search.",
+    "docs": "https://www.xfyun.cn/doc/spark/X1http.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 3,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "iflytek",
+      "model": "spark-x",
+      "base_url": "https://spark-api-open.xf-yun.com/x2",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "thinking"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "讯飞星火 X2 深度推理模型，支持函数调用和联网搜索。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Spark-X2 http 协议文档 | 讯飞星火",
+      "url": "https://www.xfyun.cn/doc/spark/X1http.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Astron Token Plan 使用文档 | 讯飞星辰 MaaS",
+      "url": "https://www.xfyun.cn/doc/spark/TokenPlan.html",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "讯飞星火大模型API | 科大讯飞",
+      "url": "https://xinghuo.xfyun.cn/sparkapi",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

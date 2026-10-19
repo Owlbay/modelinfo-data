@@ -1,0 +1,113 @@
+{
+  "id": "gemini-3.8-flash-tts",
+  "object": "model",
+  "created": 1790035200,
+  "owned_by": "google",
+  "name": "Gemini 3.8 Flash TTS",
+  "api": {
+    "types": [
+      "audio",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 8192,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.5,
+    "output": 9,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-22",
+    "knowledge_cutoff": null,
+    "description": "Flagship expressive text-to-speech model with studio-grade voice fidelity.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": 9,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-3.8-flash-tts",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "audio": "POST /v1beta/models/{model}:generateContent",
+        "batch": "POST /v1beta/models/{model}:batchGenerateContent"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "旗舰级富有表现力的文本转语音模型，具备录音棚级音色保真度。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemini 3.8 Flash TTS | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Models | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

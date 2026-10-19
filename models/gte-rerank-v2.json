@@ -1,0 +1,103 @@
+{
+  "id": "gte-rerank-v2",
+  "object": "model",
+  "created": 1742428800,
+  "owned_by": "alibaba",
+  "name": "GTE-Rerank-V2",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": 4000,
+    "input": 4000,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0.8,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-03-20",
+    "knowledge_cutoff": null,
+    "description": "Text reranking model for semantic retrieval and RAG.",
+    "docs": "https://help.aliyun.com/zh/model-studio/embedding-rerank-model",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "gte-rerank-v2",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "rerank": "POST /api/v1/services/rerank/text-rerank/text-rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于语义检索和 RAG 的文本重排模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "向量与重排序 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/embedding-rerank-model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型调用计费 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — text-rerank-api",
+      "url": "https://help.aliyun.com/zh/model-studio/text-rerank-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

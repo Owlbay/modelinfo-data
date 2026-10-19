@@ -1,0 +1,75 @@
+{
+  "id": "viduq4-preview",
+  "object": "model",
+  "created": 1791331200,
+  "owned_by": "shengshu",
+  "name": "Vidu Q4 Preview",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-07",
+    "knowledge_cutoff": null,
+    "description": "Preview video generation model for image-to-video and reference-to-video, up to 4K, 1-16s clips.",
+    "docs": "https://platform.vidu.com/docs/overview/model-map",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shengshu",
+      "model": "viduq4-preview",
+      "base_url": "https://api.vidu.com",
+      "endpoints": {
+        "video": "POST /ent/v2/img2video"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "预览版视频生成模型，用于图生视频和参考生视频，最高 4K，1-16 秒片段。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model Map | Vidu API",
+      "url": "https://platform.vidu.com/docs/overview/model-map",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API Update Notice",
+      "url": "https://platform.vidu.com/docs/api-reference/updates",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Vidu API: video-models/vidu-q4-preview/image-to-video",
+      "url": "https://platform.vidu.com/docs/api-reference/video-models/vidu-q4-preview/image-to-video",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

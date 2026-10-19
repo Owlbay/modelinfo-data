@@ -1,0 +1,104 @@
+{
+  "id": "uni-1-max",
+  "object": "model",
+  "created": null,
+  "owned_by": "luma",
+  "name": "Uni-1 Max",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "luma-agents"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.1,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Higher-quality Luma image model with the same parameters as uni-1, for image generation and editing.",
+    "docs": "https://docs.agents.lumalabs.ai/guides/model",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.1,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "luma",
+      "model": "uni-1-max",
+      "base_url": "https://agents.lumalabs.ai",
+      "endpoints": {
+        "images": "POST /v1/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "质量更高的 Luma 图像模型，参数与 uni-1 相同，用于图像生成和编辑。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Luma Agents API Docs",
+      "url": "https://docs.agents.lumalabs.ai/guides/model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Image generation | Luma Agents API Docs",
+      "url": "https://docs.agents.lumalabs.ai/guides/images/generation",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Luma Agents API Docs",
+      "url": "https://docs.agents.lumalabs.ai/guides/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Quickstart | Luma Agents API Docs",
+      "url": "https://docs.agents.lumalabs.ai/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — luma-agents (api.sdk only)",
+      "url": "https://github.com/lumalabs/luma-agents-typescript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

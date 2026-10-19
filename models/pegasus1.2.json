@@ -1,0 +1,76 @@
+{
+  "id": "pegasus1.2",
+  "object": "model",
+  "created": 1739232000,
+  "owned_by": "twelvelabs",
+  "name": "Pegasus 1.2",
+  "api": {
+    "types": [
+      "generate"
+    ],
+    "sdk": [
+      "twelvelabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-02-11",
+    "knowledge_cutoff": null,
+    "description": "Video language model for long video understanding; removed from the platform on 2026-08-18.",
+    "docs": "https://docs.twelvelabs.io/docs/get-started/release-notes",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "twelvelabs",
+      "model": "pegasus1.2",
+      "base_url": "https://api.twelvelabs.io/v1.3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于长视频理解的视频语言模型；已于 2026-08-18 从平台移除。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Release notes | TwelveLabs Docs",
+      "url": "https://docs.twelvelabs.io/docs/get-started/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pegasus 1.2: An Industry-Grade Video Language Model | Twelve Labs",
+      "url": "https://www.twelvelabs.io/blog/introducing-pegasus-1-2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — twelvelabs-js (api.sdk only)",
+      "url": "https://github.com/twelvelabs-io/twelvelabs-js",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "qwen3-vl-embedding",
+  "object": "model",
+  "created": 1768953600,
+  "owned_by": "alibaba",
+  "name": "Qwen3-VL-Embedding",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/alibaba",
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": 32000,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-01-21",
+    "knowledge_cutoff": null,
+    "description": "Multimodal embedding model for mixed text, image and video retrieval, with output dimensions from 256 to 2560.",
+    "docs": "https://help.aliyun.com/zh/model-studio/embedding-rerank-model",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen3-vl-embedding",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "embeddings": "POST /api/v1/services/embeddings/multimodal-embedding/multimodal-embedding"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "多模态向量模型，用于文本、图像和视频混合检索，输出维度为 256 至 2560。"
+    }
+  },
+  "sources": [
+    {
+      "title": "向量与重排序 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/embedding-rerank-model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型调用计费 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Alibaba Cloud Model Studio API Reference — multimodal-embedding-api-reference",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/multimodal-embedding-api-reference",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/alibaba (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/alibaba",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

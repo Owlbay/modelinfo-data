@@ -1,0 +1,146 @@
+{
+  "id": "ultramarine-1-flash",
+  "object": "model",
+  "created": 1791936000,
+  "owned_by": "paperinstruments",
+  "name": "Ultramarine 1 Flash",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "messages"
+    ],
+    "sdk": [
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "high",
+      "max"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.15,
+    "output": 0.5,
+    "cache_read": 0.03,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-14",
+    "knowledge_cutoff": null,
+    "description": "We present Ultramarine 1 Flash, an agentic model for professional knowledge work.",
+    "docs": "https://docs.paperinstruments.com/docs/ultramarine",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.5,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "paperinstruments",
+      "model": "ultramarine-1-flash",
+      "base_url": "https://api.paperinstruments.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "messages": "POST /messages"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "messages": "output_config.effort"
+      }
+    },
+    {
+      "id": "paperinstruments",
+      "model": "ultramarine-1-flash",
+      "base_url": "https://api.paperinstruments.com/v1",
+      "endpoints": {
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning.effort",
+      "reasoning_params": {
+        "responses": "reasoning.effort"
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      }
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "我们推出 Ultramarine 1 Flash，一款面向专业知识工作的智能体模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ultramarine 1 Flash: Scaling Non-Verifiable RL",
+      "url": "https://www.paperinstruments.com/blog/ultramarine",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Billing（输入 $0.15、缓存输入 $0.03、输出含推理 $0.50／百万 tokens）| Paper Instruments",
+      "url": "https://docs.paperinstruments.com/docs/ultramarine/billing",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Quickstart | Paper Instruments",
+      "url": "https://docs.paperinstruments.com/docs/ultramarine",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Chat completions | Paper Instruments",
+      "url": "https://docs.paperinstruments.com/docs/ultramarine/chat-completions",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Responses | Paper Instruments",
+      "url": "https://docs.paperinstruments.com/docs/ultramarine/responses",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Messages | Paper Instruments",
+      "url": "https://docs.paperinstruments.com/docs/ultramarine/messages",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

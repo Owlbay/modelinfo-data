@@ -1,0 +1,97 @@
+{
+  "id": "claude-3-5-sonnet-20240620",
+  "object": "model",
+  "created": null,
+  "owned_by": "anthropic",
+  "name": "Claude Sonnet 3.5 (Jun 2024)",
+  "api": {
+    "types": [
+      "messages",
+      "batch"
+    ],
+    "sdk": [
+      "@anthropic-ai/sdk"
+    ]
+  },
+  "limits": {
+    "context": 200000,
+    "input": null,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 3,
+    "output": 15,
+    "cache_read": 0.3,
+    "cache_write": 3.75
+  },
+  "features": [
+    "tools",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 15,
+      "cache_read": 0.3,
+      "cache_write": 3.75
+    }
+  ],
+  "providers": [
+    {
+      "id": "anthropic",
+      "model": "claude-3-5-sonnet-20240620",
+      "base_url": "https://api.anthropic.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Model deprecations | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Models overview（原网址 https://docs.anthropic.com/en/docs/about-claude/models/overview）",
+      "url": "https://web.archive.org/web/20250601122325/https://docs.anthropic.com/en/docs/about-claude/models/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：Pricing（原网址 https://docs.anthropic.com/en/docs/about-claude/pricing）",
+      "url": "https://web.archive.org/web/20250512021553/https://docs.anthropic.com/en/docs/about-claude/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

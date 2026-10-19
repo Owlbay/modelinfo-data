@@ -1,0 +1,98 @@
+{
+  "id": "oak-1",
+  "object": "model",
+  "created": null,
+  "owned_by": "speechmatics",
+  "name": "Oak 1",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@speechmatics/batch-client"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.3,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Speechmatics multilingual speech-to-text model tuned for healthcare audio such as ambient scribes and dictation, Batch only.",
+    "docs": "https://docs.speechmatics.com/speech-to-text/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.3,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "speechmatics",
+      "model": "oak-1",
+      "base_url": "https://eu1.asr.api.speechmatics.com",
+      "endpoints": {
+        "audio": "POST /v2/jobs"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Speechmatics 多语言语音转文字模型，针对环境记录员（ambient scribe）和听写等医疗音频调优，仅支持批量处理。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Speechmatics Docs",
+      "url": "https://docs.speechmatics.com/speech-to-text/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Speechmatics",
+      "url": "https://www.speechmatics.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://docs.speechmatics.com/api-ref/batch/create-a-new-job",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @speechmatics/batch-client (api.sdk only)",
+      "url": "https://github.com/speechmatics/speechmatics-js-sdk",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

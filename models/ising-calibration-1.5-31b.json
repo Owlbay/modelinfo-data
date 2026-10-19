@@ -1,0 +1,92 @@
+{
+  "id": "ising-calibration-1.5-31b",
+  "object": "model",
+  "created": 1784505600,
+  "owned_by": "nvidia",
+  "name": "Ising Calibration 1.5 31B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-07-20",
+    "knowledge_cutoff": null,
+    "description": "Dense multimodal vision-language model that analyzes quantum computing calibration experiment plots and generates structured technical text.",
+    "docs": "https://build.nvidia.com/nvidia/ising-calibration-1.5-31b/modelcard",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/ising-calibration-1.5-31b",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/ising-calibration-1.5-31b"
+  ],
+  "translations": {
+    "zh": {
+      "description": "稠密多模态视觉语言模型，可分析量子计算校准实验图并生成结构化技术文本。"
+    }
+  },
+  "sources": [
+    {
+      "title": "ising-calibration-1.5-31b Model Card | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/ising-calibration-1.5-31b/modelcard",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "nvidia / ising-calibration-1.5-31b | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-ising-calibration-1-5-31b",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

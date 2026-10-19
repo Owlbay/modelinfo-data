@@ -1,0 +1,130 @@
+{
+  "id": "jina-embeddings-v5-text-small",
+  "object": "model",
+  "created": 1771372800,
+  "owned_by": "jina",
+  "name": "Jina Embeddings v5 Text Small",
+  "api": {
+    "types": [
+      "embeddings",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "jina-ai-provider",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": 32768,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-18",
+    "knowledge_cutoff": null,
+    "description": "Multilingual text embedding model (677M parameters) with task-specific adapters.",
+    "docs": "https://jina.ai/models/jina-embeddings-v5-text-small",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-embeddings-v5-text-small",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings",
+        "batch": "POST /v1/batch/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "多语言文本向量模型（677M 参数），带有任务专用适配器。"
+    }
+  },
+  "sources": [
+    {
+      "title": "jina-embeddings-v5-text-small | Jina AI",
+      "url": "https://jina.ai/models/jina-embeddings-v5-text-small",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina AI API docs",
+      "url": "https://docs.jina.ai/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "jina-embeddings-v5-text-small config | Hugging Face (jinaai)",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v5-text-small/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Jina AI API",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina Search Foundation API - OpenAPI",
+      "url": "https://api.jina.ai/openapi.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — jina-ai-provider (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/community-providers/jina-ai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

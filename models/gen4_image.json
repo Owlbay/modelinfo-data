@@ -1,0 +1,104 @@
+{
+  "id": "gen4_image",
+  "object": "model",
+  "created": 1747353600,
+  "owned_by": "runway",
+  "name": "Gen-4 Image",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@runwayml/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.05,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-05-16",
+    "knowledge_cutoff": null,
+    "description": "Runway's image generation model.",
+    "docs": "https://docs.dev.runwayml.com/guides/models/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.05,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "runway",
+      "model": "gen4_image",
+      "base_url": "https://api.dev.runwayml.com/v1",
+      "endpoints": {
+        "images": "POST /text_to_image"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Runway 的图像生成模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Available AI Models | Runway API",
+      "url": "https://docs.dev.runwayml.com/guides/models/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Runway API",
+      "url": "https://docs.dev.runwayml.com/guides/pricing/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Runway API Changelog",
+      "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://docs.dev.runwayml.com/api/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @runwayml/sdk (api.sdk only)",
+      "url": "https://github.com/runwayml/sdk-node",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

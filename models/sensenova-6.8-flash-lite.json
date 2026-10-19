@@ -1,0 +1,175 @@
+{
+  "id": "sensenova-6.8-flash-lite",
+  "object": "model",
+  "created": 1786406400,
+  "owned_by": "sensetime",
+  "name": "SenseNova 6.8 Flash Lite",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 15,
+    "output": 90,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-08-11",
+    "knowledge_cutoff": null,
+    "description": "Lightweight multimodal agent model for complex real-world tasks (early preview).",
+    "docs": "https://github.com/OpenSenseNova/SenseNova6.8",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 15,
+      "output": 90,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "sensenova-6.8-flash-lite",
+      "base_url": "https://api.senseaudio.cn",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses",
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "sensenova",
+      "model": "sensenova-6.8-flash-lite",
+      "base_url": "https://token.sensenova.cn/v1",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null,
+      "pricing": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "轻量多模态智能体模型，面向复杂的真实世界任务（早期预览）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "文本生成介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/llm/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "对话 Chat API | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/llm/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Token Plan 概览 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/token-plan/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseNova6.8 | OpenSenseNova",
+      "url": "https://github.com/OpenSenseNova/SenseNova6.8",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseNova 6.8 Flash Lite Preview API guide | OpenSenseNova (GitHub)",
+      "url": "https://github.com/OpenSenseNova/SenseNova6.8/blob/main/API.md",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio responses API",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/llm/responses.md",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio messages API",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/llm/messages.md",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseNova 6.8 Flash Lite Preview launch",
+      "url": "https://www.sensetime.com/cn/news/sensenova-6.8-flash-lite-preview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "gemini-3.8-live-extended-thinking",
+  "object": "model",
+  "created": 1789430400,
+  "owned_by": "google",
+  "name": "Gemini 3.8 Live Extended Thinking",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/google",
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 131072,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-15",
+    "knowledge_cutoff": null,
+    "description": "High-reasoning audio-to-audio model for complex multi-step problems in real-time voice interactions.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-3.8-live-extended-thinking",
+      "base_url": "wss://generativelanguage.googleapis.com",
+      "endpoints": {
+        "realtime": "WS /ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "高推理能力的音频到音频模型，适用于实时语音交互中的复杂多步问题。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemini 3.8 Live Extended Thinking | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Models | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Live API | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/live",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://ai.google.dev/api/live",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @google/genai (api.sdk only)",
+      "url": "https://github.com/googleapis/js-genai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

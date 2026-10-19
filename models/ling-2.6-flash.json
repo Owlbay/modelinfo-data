@@ -1,0 +1,149 @@
+{
+  "id": "ling-2.6-flash",
+  "object": "model",
+  "created": 1776816000,
+  "owned_by": "ant",
+  "name": "Ling-2.6-flash",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0.6,
+    "output": 1.8,
+    "cache_read": 0.12,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-22",
+    "knowledge_cutoff": null,
+    "description": "Cost-effective Ling model.",
+    "docs": "https://developer.ant-ling.com/en/docs/models/ling",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.6,
+      "output": 1.8,
+      "cache_read": 0.12,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ant",
+      "model": "Ling-2.6-flash",
+      "base_url": "https://api.ant-ling.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Ling-2.6-flash"
+  ],
+  "translations": {
+    "zh": {
+      "description": "高性价比的 Ling 模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Pricing | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/price",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/openai",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Anthropic Compatible API | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/anthropic/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

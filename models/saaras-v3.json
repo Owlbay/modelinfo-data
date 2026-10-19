@@ -1,0 +1,100 @@
+{
+  "id": "saaras-v3",
+  "object": "model",
+  "created": 1770681600,
+  "owned_by": "sarvam",
+  "name": "Saaras v3",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "sarvamai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "INR",
+    "unit": "hour",
+    "input": 30,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-10",
+    "knowledge_cutoff": null,
+    "description": "Speech-to-text model for 22 Indian languages plus Indian English with transcribe, translate, verbatim, translit and codemix modes.",
+    "docs": "https://docs.sarvam.ai/api/getting-started/models/saaras",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "INR",
+      "unit": "hour",
+      "input": 30,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "sarvam",
+      "model": "saaras:v3",
+      "base_url": "https://api.sarvam.ai",
+      "endpoints": {
+        "audio": "POST /speech-to-text"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "saaras:v3"
+  ],
+  "translations": {
+    "zh": {
+      "description": "语音转文字模型，支持 22 种印度语言和印度英语，提供 transcribe、translate、verbatim、translit 和 codemix 模式。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Saaras | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/models/saaras",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official release announcement",
+      "url": "https://www.sarvam.ai/blogs",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — sarvamai (api.sdk only)",
+      "url": "https://docs.sarvam.ai/api/getting-started/sdks",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

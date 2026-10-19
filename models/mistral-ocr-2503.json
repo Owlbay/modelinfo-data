@@ -1,0 +1,108 @@
+{
+  "id": "mistral-ocr-2503",
+  "object": "model",
+  "created": 1741219200,
+  "owned_by": "mistral",
+  "name": "OCR",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": [
+      "@mistralai/mistralai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text",
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "page",
+    "input": 0.001,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-03-06",
+    "knowledge_cutoff": null,
+    "description": "Our first OCR optimized model.",
+    "docs": "https://docs.mistral.ai/models/ocr-25-03",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.001,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "mistral-ocr-2503",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "我们首个针对 OCR 优化的模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "OCR | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/ocr-25-03",
+      "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "Models overview（含 Deprecation 与 Retirement 日期表） | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle policy | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/model-lifecycle",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://mistral.ai/news/mistral-ocr",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "OCR | Mistral Docs (official Markdown)",
+      "url": "https://docs.mistral.ai/models/ocr-25-03.md",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

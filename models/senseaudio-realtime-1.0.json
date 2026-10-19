@@ -1,0 +1,95 @@
+{
+  "id": "senseaudio-realtime-1.0",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseAudio-Realtime-1.0",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "minute",
+    "input": 0.6,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "End-to-end real-time speech dialogue model over WebSocket.",
+    "docs": "https://docs.senseaudio.cn/guides/agent/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "minute",
+      "input": 0.6,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "senseaudio-realtime-1.0",
+      "base_url": "wss://api.senseaudio.cn",
+      "endpoints": {
+        "realtime": "WS /ws/v1/realtime/voice-dialog"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "基于 WebSocket 的端到端实时语音对话模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "端到端实时语音介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/agent/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio WebSocket API",
+      "url": "https://docs.senseaudio.cn/guides/agent/overview.md",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

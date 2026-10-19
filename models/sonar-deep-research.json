@@ -1,0 +1,134 @@
+{
+  "id": "sonar-deep-research",
+  "object": "model",
+  "created": null,
+  "owned_by": "perplexity",
+  "name": "Sonar Deep Research",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/perplexity",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2,
+    "output": 8,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Perplexity deep research model for the Sonar API; Sonar Chat Completions support ended 2026-09-27 in favor of the Agent API.",
+    "docs": "https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 8,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "perplexity",
+      "model": "sonar-deep-research",
+      "base_url": "https://api.perplexity.ai",
+      "endpoints": {
+        "chat": "POST /v1/sonar"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Sonar API 的 Perplexity 深度研究模型；Sonar Chat Completions 支持已于 2026-09-27 结束，改用 Agent API。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Migrate from Sonar to the Agent API | Perplexity Docs",
+      "url": "https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Perplexity Docs",
+      "url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/perplexity (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/perplexity",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

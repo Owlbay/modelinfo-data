@@ -1,0 +1,136 @@
+{
+  "id": "jamba-mini-2",
+  "object": "model",
+  "created": 1767830400,
+  "owned_by": "ai21",
+  "name": "Jamba Mini 2",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": 4096
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.2,
+    "output": 0.4,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-01-08",
+    "knowledge_cutoff": "2024-08-22",
+    "description": "AI21's efficient Jamba model (52B parameters, 12B active) balancing efficiency and steerability for core enterprise workflows.",
+    "docs": "https://docs.ai21.com/docs/jamba-foundation-models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": 0.4,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ai21",
+      "model": "jamba-mini",
+      "base_url": "https://api.ai21.com/studio/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "jamba-mini",
+    "jamba-mini-2-2026-01"
+  ],
+  "translations": {
+    "zh": {
+      "description": "AI21 的高效 Jamba 模型（52B 参数，12B 激活），在效率与可控性之间取得平衡，适用于核心企业工作流。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Jamba | AI21 Documentation",
+      "url": "https://docs.ai21.com/docs/jamba-foundation-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat request | AI21 API Reference",
+      "url": "https://docs.ai21.com/reference/jamba-1-6-api-ref",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Function Calling | AI21 Documentation",
+      "url": "https://docs.ai21.com/docs/function-calling",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "AI21 Pricing",
+      "url": "https://www.ai21.com/pricing/",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "AI21-Jamba2-Mini config.json (max_position_embeddings 262144 for 256K) | Hugging Face",
+      "url": "https://huggingface.co/ai21labs/AI21-Jamba2-Mini/blob/main/config.json",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Introducing Jamba2 - AI21 Blog",
+      "url": "https://www.ai21.com/blog/introducing-jamba2/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

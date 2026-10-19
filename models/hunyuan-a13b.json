@@ -1,0 +1,117 @@
+{
+  "id": "hunyuan-a13b",
+  "object": "model",
+  "created": 1750809600,
+  "owned_by": "tencent",
+  "name": "Hunyuan-A13B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 229376,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0.5,
+    "output": 2,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-06-25",
+    "knowledge_cutoff": null,
+    "description": "Tencent hybrid reasoning MoE model with 80B total and 13B active parameters.",
+    "docs": "https://cloud.tencent.com/document/product/1729/104753",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": 2,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "tencent",
+      "model": "hunyuan-a13b",
+      "base_url": "https://api.hunyuan.cloud.tencent.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "腾讯混合推理 MoE 模型，总参数 80B，激活参数 13B。"
+    }
+  },
+  "sources": [
+    {
+      "title": "产品概述 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/104753",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "混元生文计费概述 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/97731",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "产品动态 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/97765",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "OpenAI 兼容接口 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/111007",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "flux-kontext-pro",
+  "object": "model",
+  "created": 1748476800,
+  "owned_by": "black-forest-labs",
+  "name": "FLUX.1 Kontext [pro]",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/black-forest-labs"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.04,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-05-29",
+    "knowledge_cutoff": null,
+    "description": "Previous-generation model combining text-to-image generation with context-aware image editing.",
+    "docs": "https://docs.bfl.ml/kontext/kontext_overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.04,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "black-forest-labs",
+      "model": "flux-kontext-pro",
+      "base_url": "https://api.bfl.ai",
+      "endpoints": {
+        "images": "POST /v1/flux-kontext-pro"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "上一代模型，结合文生图与上下文感知的图像编辑。"
+    }
+  },
+  "sources": [
+    {
+      "title": "FLUX.1 Kontext Introduction | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/kontext/kontext_overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "FLUX.1 Kontext Image Generation | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/kontext/kontext_text_to_image",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/quick_start/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "FLUX API OpenAPI specification",
+      "url": "https://api.bfl.ai/openapi.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing FLUX.1 Kontext and the BFL Playground",
+      "url": "https://bfl.ai/announcements/flux-1-kontext",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/black-forest-labs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/black-forest-labs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

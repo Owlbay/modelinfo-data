@@ -1,0 +1,142 @@
+{
+  "id": "grok-build-0.1",
+  "object": "model",
+  "created": 1779148800,
+  "owned_by": "xai",
+  "name": "Grok Build 0.1",
+  "api": {
+    "types": [
+      "chat",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/xai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 256000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 2,
+    "cache_read": 0.2,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-19",
+    "knowledge_cutoff": null,
+    "description": "SpaceXAI's intelligent coding model for agentic software, engineering, and workflow tasks.",
+    "docs": "https://docs.x.ai/developers/models/grok-build-0.1",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 2,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xai",
+      "model": "grok-build-0.1",
+      "base_url": "https://api.x.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "grok-code-fast-1",
+    "grok-code-fast",
+    "grok-code-fast-1-0825"
+  ],
+  "translations": {
+    "zh": {
+      "description": "SpaceXAI 的智能编码模型，用于智能体软件、工程和工作流任务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Grok Build 0.1 | xAI Docs",
+      "url": "https://docs.x.ai/developers/models/grok-build-0.1",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Models and Pricing | xAI Docs",
+      "url": "https://docs.x.ai/developers/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Release Notes | xAI Docs",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Responses | xAI Docs",
+      "url": "https://docs.x.ai/developers/rest-api-reference/inference/responses",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Generate Text | xAI Docs",
+      "url": "https://docs.x.ai/developers/model-capabilities/text/generate-text",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/xai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

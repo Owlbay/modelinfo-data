@@ -1,0 +1,94 @@
+{
+  "id": "ltx-2-5-fast",
+  "object": "model",
+  "created": 1786406400,
+  "owned_by": "lightricks",
+  "name": "LTX-2.5 Fast",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output": [
+      "video",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.09,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-11",
+    "knowledge_cutoff": null,
+    "description": "Fast, low-cost LTX-2.5 variant for text-to-video, image-to-video and audio-to-video at up to 4K, with native multi-shot scenes.",
+    "docs": "https://docs.ltx.io/models/ltx-2-5",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.09,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "lightricks",
+      "model": "ltx-2-5-fast",
+      "base_url": "https://api.ltx.io",
+      "endpoints": {
+        "video": "POST /v2/text-to-video"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "快速、低成本的 LTX-2.5 变体，用于文生视频、图生视频和音频生视频，最高 4K，原生支持多镜头场景。"
+    }
+  },
+  "sources": [
+    {
+      "title": "LTX-2.5 | LTX API Docs",
+      "url": "https://docs.ltx.io/models/ltx-2-5",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | LTX API Docs",
+      "url": "https://docs.ltx.io/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Changelog | LTX API Docs",
+      "url": "https://docs.ltx.io/api-changelog",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "rerank-v4.0-pro",
+  "object": "model",
+  "created": 1765411200,
+  "owned_by": "cohere",
+  "name": "Rerank v4.0 Pro",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "@ai-sdk/cohere",
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "request",
+    "input": 0.0025,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-11",
+    "knowledge_cutoff": null,
+    "description": "Multilingual reranker for English and non-English documents and JSON with best quality for complex use cases.",
+    "docs": "https://docs.cohere.com/docs/rerank-overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "request",
+      "input": 0.0025,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "rerank-v4.0-pro",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "rerank": "POST /v2/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向英文及非英文文档和 JSON 的多语言重排模型，在复杂场景下质量最佳。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Rerank v4.0 Pro | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/rerank-overview",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Cohere Model Overview",
+      "url": "https://docs.cohere.com/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "How does Cohere pricing work?",
+      "url": "https://docs.cohere.com/docs/how-does-cohere-pricing-work",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Cohere's Rerank v4.0 Model is Here! | Cohere Release Notes",
+      "url": "https://docs.cohere.com/changelog/rerank-v4.0",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Cohere Pricing",
+      "url": "https://cohere.com/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

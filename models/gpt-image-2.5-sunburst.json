@@ -1,0 +1,122 @@
+{
+  "id": "gpt-image-2.5-sunburst",
+  "object": "model",
+  "created": 1788825600,
+  "owned_by": "openai",
+  "name": "GPT-Image-2.5 Sunburst",
+  "api": {
+    "types": [
+      "images",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 5,
+    "output": 30,
+    "cache_read": 1.25,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-08",
+    "knowledge_cutoff": null,
+    "description": "Most capable model for image generation and editing.",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 30,
+      "cache_read": 1.25,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-image-2.5-sunburst",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "images": "POST /v1/images/generations",
+        "batch": "POST /v1/batches"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "gpt-image-2.5-sunburst-2026-09-08"
+  ],
+  "translations": {
+    "zh": {
+      "description": "能力最强的图像生成和编辑模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-Image-2.5 Sunburst Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

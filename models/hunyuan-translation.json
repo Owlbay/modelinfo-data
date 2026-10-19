@@ -1,0 +1,117 @@
+{
+  "id": "hunyuan-translation",
+  "object": "model",
+  "created": 1760400000,
+  "owned_by": "tencent",
+  "name": "Hunyuan-Translation",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 4096,
+    "output": 4096
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 1.2,
+    "output": 3.6,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-14",
+    "knowledge_cutoff": null,
+    "description": "Tencent translation model covering 33 languages plus 5 ethnic minority languages.",
+    "docs": "https://cloud.tencent.com/document/product/1729/104753",
+    "verified_at": "2026-10-10"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1.2,
+      "output": 3.6,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "tencent",
+      "model": "hunyuan-translation",
+      "base_url": "https://api.hunyuan.cloud.tencent.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "腾讯翻译模型，覆盖 33 种语言及 5 种少数民族语言。"
+    }
+  },
+  "sources": [
+    {
+      "title": "产品概述 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/104753",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "混元生文计费概述 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/97731",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "产品动态 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/97765",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "OpenAI 兼容接口 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/111007",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

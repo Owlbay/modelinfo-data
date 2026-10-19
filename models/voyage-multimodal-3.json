@@ -1,0 +1,89 @@
+{
+  "id": "voyage-multimodal-3",
+  "object": "model",
+  "created": 1731369600,
+  "owned_by": "voyage",
+  "name": "Voyage Multimodal 3",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/voyage",
+      "voyageai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-11-12",
+    "knowledge_cutoff": null,
+    "description": "Previous-generation Voyage multimodal embedding model for interleaved text and images.",
+    "docs": "https://docs.voyageai.com/docs/multimodal-embeddings",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "voyage",
+      "model": "voyage-multimodal-3",
+      "base_url": "https://api.voyageai.com",
+      "endpoints": {
+        "embeddings": "POST /v1/multimodalembeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "上一代 Voyage 多模态向量模型，用于交错的文本和图像。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Multimodal Embeddings | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/multimodal-embeddings",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Voyage AI Blog: voyage-multimodal-3",
+      "url": "https://blog.voyageai.com/2024/11/12/voyage-multimodal-3",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — voyageai (api.sdk only)",
+      "url": "https://github.com/voyage-ai/typescript-sdk",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/voyage (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/voyage",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

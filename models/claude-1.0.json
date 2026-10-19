@@ -1,0 +1,65 @@
+{
+  "id": "claude-1.0",
+  "object": "model",
+  "created": null,
+  "owned_by": "anthropic",
+  "name": "Claude 1.0",
+  "api": {
+    "types": [
+      "completions"
+    ],
+    "sdk": [
+      "@anthropic-ai/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "anthropic",
+      "model": "claude-1.0",
+      "base_url": "https://api.anthropic.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Model deprecations | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

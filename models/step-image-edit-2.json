@@ -1,0 +1,90 @@
+{
+  "id": "step-image-edit-2",
+  "object": "model",
+  "created": 1777420800,
+  "owned_by": "stepfun",
+  "name": "Step Image Edit 2",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-04-29",
+    "knowledge_cutoff": null,
+    "description": "Image editing model. Retired on 2026-10-10 per the official image model retirement notice.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/image-offline-notice",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "stepfun",
+      "model": "step-image-edit-2",
+      "base_url": "https://api.stepfun.ai",
+      "endpoints": {
+        "images": "POST /v1/images/edits"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "图像编辑模型。根据官方图像模型下线通知，已于 2026-10-10 下线。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Image Model Retirement Notice | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/image-offline-notice",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "StepFun 官方模型发布新闻",
+      "url": "https://www.stepfun.com/news",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "typhoon-ocr",
+  "object": "model",
+  "created": 1763078400,
+  "owned_by": "typhoon",
+  "name": "Typhoon OCR",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-11-14",
+    "knowledge_cutoff": null,
+    "description": "Specialized OCR and document parsing model (Typhoon OCR 1.5, 2B); accepts PNG, JPEG and PDF.",
+    "docs": "https://docs.opentyphoon.ai/en/ocr/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "typhoon",
+      "model": "typhoon-ocr",
+      "base_url": "https://api.opentyphoon.ai/v1",
+      "endpoints": {
+        "ocr": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "专用 OCR 与文档解析模型（Typhoon OCR 1.5，2B）；接受 PNG、JPEG 和 PDF。"
+    }
+  },
+  "sources": [
+    {
+      "title": "OCR | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/ocr/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/models/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Typhoon OCR official client implementation",
+      "url": "https://github.com/scb-10x/typhoon-ocr/blob/master/packages/typhoon_ocr/typhoon_ocr/ocr_utils.py",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "OpenAI Python SDK chat completions transport",
+      "url": "https://github.com/openai/openai-python/blob/main/src/openai/resources/chat/completions/completions.py",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "ink-whisper",
+  "object": "model",
+  "created": 1748995200,
+  "owned_by": "cartesia",
+  "name": "Ink Whisper",
+  "api": {
+    "types": [
+      "audio",
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/cartesia",
+      "@cartesia/cartesia-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-06-04",
+    "knowledge_cutoff": null,
+    "description": "Cartesia affordable speech-to-text model with higher accuracy and lower latency than baseline Whisper.",
+    "docs": "https://docs.cartesia.ai/build-with-cartesia/stt/older-models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "cartesia",
+      "model": "ink-whisper",
+      "base_url": "https://api.cartesia.ai",
+      "endpoints": {
+        "audio": "POST /stt",
+        "realtime": "GET /stt/websocket"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "ink-whisper-2025-06-04"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Cartesia 的实惠语音转文字模型，准确率高于基线 Whisper，延迟更低。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Older STT Models | Cartesia Docs",
+      "url": "https://docs.cartesia.ai/build-with-cartesia/stt/older-models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cartesia (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cartesia",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @cartesia/cartesia-js (api.sdk only)",
+      "url": "https://github.com/cartesia-ai/cartesia-js",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

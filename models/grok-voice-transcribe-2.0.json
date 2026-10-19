@@ -1,0 +1,100 @@
+{
+  "id": "grok-voice-transcribe-2.0",
+  "object": "model",
+  "created": 1789603200,
+  "owned_by": "xai",
+  "name": "Grok Voice Transcribe 2.0",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/xai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.1,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-17",
+    "knowledge_cutoff": null,
+    "description": "xAI speech-to-text model with batch and streaming transcription, word-level timestamps, speaker diarization, and 38+ languages.",
+    "docs": "https://docs.x.ai/developers/model-capabilities/audio/speech-to-text",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.1,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xai",
+      "model": "grok-voice-transcribe-2.0",
+      "base_url": "https://api.x.ai",
+      "endpoints": {
+        "audio": "POST /v1/stt"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "xAI 语音转文字模型，支持批量和流式转写、词级时间戳、说话人分离，以及 38 种以上语言。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Speech to Text | xAI Docs",
+      "url": "https://docs.x.ai/developers/model-capabilities/audio/speech-to-text",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release Notes | xAI Docs",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | xAI Docs",
+      "url": "https://docs.x.ai/developers/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/xai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

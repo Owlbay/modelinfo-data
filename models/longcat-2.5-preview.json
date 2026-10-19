@@ -1,0 +1,149 @@
+{
+  "id": "longcat-2.5-preview",
+  "object": "model",
+  "created": 1790294400,
+  "owned_by": "meituan",
+  "name": "LongCat-2.5-Preview",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 2,
+    "output": 8,
+    "cache_read": 0.04,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-09-25",
+    "knowledge_cutoff": null,
+    "description": "Meituan LongCat high-performance agentic model with image understanding and strong coding capability.",
+    "docs": "https://longcat.chat/platform/docs/pricing/longcat-2.5",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 8,
+      "cache_read": 0.04,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "meituan",
+      "model": "LongCat-2.5-Preview",
+      "base_url": "https://api.longcat.chat",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "thinking.type"
+    }
+  ],
+  "aliases": [
+    "LongCat-2.5-Preview"
+  ],
+  "translations": {
+    "zh": {
+      "description": "美团 LongCat 高性能智能体模型，支持图像理解，编码能力强。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Quick Start / Models | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Chat Completions | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/api/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Change Log | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/change-log",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "LongCat-2.5-Preview Pricing | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/pricing/longcat-2.5",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "tiny-aya-earth",
+  "object": "model",
+  "created": 1771286400,
+  "owned_by": "cohere",
+  "name": "Tiny Aya Earth",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/cohere",
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 8000,
+    "input": null,
+    "output": 8000
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-17",
+    "knowledge_cutoff": null,
+    "description": "3.35B model specialized for West Asian and African languages.",
+    "docs": "https://docs.cohere.com/docs/tiny-aya",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "tiny-aya-earth",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "chat": "POST /v2/chat"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "专注于西亚和非洲语言的 3.35B 模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Tiny Aya Earth | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/tiny-aya",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Cohere Model Overview",
+      "url": "https://docs.cohere.com/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "How does Cohere pricing work?",
+      "url": "https://docs.cohere.com/docs/how-does-cohere-pricing-work",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Cohere Labs Launches Tiny Aya, Making Multilingual AI Accessible | Cohere Blog",
+      "url": "https://cohere.com/blog/cohere-labs-tiny-aya",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

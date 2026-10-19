@@ -1,0 +1,106 @@
+{
+  "id": "mistral-moderation-2411",
+  "object": "model",
+  "created": 1730851200,
+  "owned_by": "mistral",
+  "name": "Mistral Moderation",
+  "api": {
+    "types": [
+      "moderation",
+      "batch"
+    ],
+    "sdk": [
+      "@mistralai/mistralai"
+    ]
+  },
+  "limits": {
+    "context": 8192,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "batch"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-11-06",
+    "knowledge_cutoff": null,
+    "description": "Our moderation service that enables our users to detect harmful text content",
+    "docs": "https://docs.mistral.ai/models/mistral-moderation-24-11",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "mistral-moderation-2411",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "batch": "POST /v1/batch"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "我们的内容审核服务，可帮助用户检测有害文本内容。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Mistral Moderation | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/mistral-moderation-24-11",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models overview（含 Deprecation 与 Retirement 日期表） | Mistral Docs",
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model lifecycle policy | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/model-lifecycle",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：官方模型发布/价格文档（原网址 https://mistral.ai/pricing）",
+      "url": "https://web.archive.org/web/20250731223344/https://mistral.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only)",
+      "url": "https://github.com/mistralai/client-ts",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

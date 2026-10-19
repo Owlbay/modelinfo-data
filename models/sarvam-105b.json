@@ -1,0 +1,128 @@
+{
+  "id": "sarvam-105b",
+  "object": "model",
+  "created": null,
+  "owned_by": "sarvam",
+  "name": "Sarvam-105B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai",
+      "sarvamai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "INR",
+    "unit": "1M_tokens",
+    "input": 15,
+    "output": 60,
+    "cache_read": 5,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Sarvam flagship 105B Mixture-of-Experts chat model for Indian language understanding, reasoning, coding and agentic tasks.",
+    "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-105b",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "INR",
+      "unit": "1M_tokens",
+      "input": 15,
+      "output": 60,
+      "cache_read": 5,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "sarvam",
+      "model": "sarvam-105b",
+      "base_url": "https://api.sarvam.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Sarvam 旗舰 105B 混合专家聊天模型，面向印度语言理解、推理、编程和智能体任务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Sarvam-105B | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/models/sarvam-105b",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "sarvamai/sarvam-105b config.json | Hugging Face",
+      "url": "https://huggingface.co/sarvamai/sarvam-105b/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "October 10, 2026: Updated Pricing for Language Models | Sarvam API Docs",
+      "url": "https://docs.sarvam.ai/changelog/2026/10/10",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — sarvamai (api.sdk only)",
+      "url": "https://docs.sarvam.ai/api/getting-started/sdks",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

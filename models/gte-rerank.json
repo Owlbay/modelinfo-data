@@ -1,0 +1,70 @@
+{
+  "id": "gte-rerank",
+  "object": "model",
+  "created": null,
+  "owned_by": "alibaba",
+  "name": "GTE-Rerank",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_gtererank_model_deprecation_751",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "gte-rerank",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "[Model Studio] Notice on GTE-RERANK Model Deprecation | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_gtererank_model_deprecation_751",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档：文本排序模型 API 详情 | 阿里云百炼（原网址 https://help.aliyun.com/zh/model-studio/developer-reference/text-rerank-api）",
+      "url": "https://web.archive.org/web/20250211063206/https://help.aliyun.com/zh/model-studio/developer-reference/text-rerank-api",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

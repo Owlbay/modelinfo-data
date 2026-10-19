@@ -1,0 +1,94 @@
+{
+  "id": "embed-v4.0",
+  "object": "model",
+  "created": 1744675200,
+  "owned_by": "cohere",
+  "name": "Embed v4.0",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/cohere",
+      "cohere-ai"
+    ]
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-04-15",
+    "knowledge_cutoff": null,
+    "description": "Embedding model for text and images, also supports classification.",
+    "docs": "https://docs.cohere.com/docs/cohere-embed",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "embed-v4.0",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "embeddings": "POST /v2/embed"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "文本和图像向量模型，同时支持分类。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Embed v4.0 | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/cohere-embed",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Cohere Model Overview",
+      "url": "https://docs.cohere.com/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "How does Cohere pricing work?",
+      "url": "https://docs.cohere.com/docs/how-does-cohere-pricing-work",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Announcing Embed Multimodal v4 | Cohere Release Notes",
+      "url": "https://docs.cohere.com/changelog/embed-multimodal-v4",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "pp-structurev3",
+  "object": "model",
+  "created": 1765497600,
+  "owned_by": "baidu",
+  "name": "PP-StructureV3",
+  "api": {
+    "types": [
+      "ocr"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "page",
+    "input": 0.18,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-12",
+    "knowledge_cutoff": null,
+    "description": "PP-StructureV3 document structure recognition with layout, table, formula and seal recognition on Qianfan.",
+    "docs": "https://cloud.baidu.com/doc/qianfan-api/s/Nmj124ro4",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "page",
+      "input": 0.18,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "pp-structurev3",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {
+        "ocr": "POST /v2/ocr/paddleocr"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "千帆上的 PP-StructureV3 文档结构识别，支持版面、表格、公式和印章识别。"
+    }
+  },
+  "sources": [
+    {
+      "title": "PP-StructureV3 API | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-api/s/Nmj124ro4",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型列表 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型服务计费 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型更新记录 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

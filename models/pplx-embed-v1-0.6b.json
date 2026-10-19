@@ -1,0 +1,126 @@
+{
+  "id": "pplx-embed-v1-0.6b",
+  "object": "model",
+  "created": 1772064000,
+  "owned_by": "perplexity",
+  "name": "pplx-embed-v1-0.6b",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/perplexity",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.004,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-26",
+    "knowledge_cutoff": null,
+    "description": "Perplexity standard text embedding model, 1024 dimensions, for independent texts and queries.",
+    "docs": "https://docs.perplexity.ai/docs/embeddings/quickstart",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.004,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "perplexity",
+      "model": "pplx-embed-v1-0.6b",
+      "base_url": "https://api.perplexity.ai",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Perplexity 标准文本向量模型，1024 维，用于独立的文本和查询。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Embeddings API | Perplexity Docs",
+      "url": "https://docs.perplexity.ai/docs/embeddings/quickstart",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Standard Embeddings | Perplexity Docs",
+      "url": "https://docs.perplexity.ai/docs/embeddings/standard-embeddings",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Perplexity Docs",
+      "url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "perplexity-ai/pplx-embed-v1-0.6b config.json | Hugging Face",
+      "url": "https://huggingface.co/perplexity-ai/pplx-embed-v1-0.6b/blob/main/config.json",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing pplx-embed | Perplexity API Platform Forum",
+      "url": "https://community.perplexity.ai/t/introducing-pplx-embed-state-of-the-art-embedding-models-for-web-scale-retrieval/4732",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/perplexity (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/perplexity",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

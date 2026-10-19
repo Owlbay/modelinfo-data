@@ -1,0 +1,144 @@
+{
+  "id": "senseaudio-s2",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseAudio-S2",
+  "api": {
+    "types": [
+      "chat",
+      "messages",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 15,
+    "output": 90,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "SenseAudio flagship text generation model.",
+    "docs": "https://docs.senseaudio.cn/guides/llm/overview",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 15,
+      "output": 90,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "senseaudio",
+      "model": "senseaudio-s2",
+      "base_url": "https://api.senseaudio.cn",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /v1/messages",
+        "responses": "POST /v1/responses"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "SenseAudio 旗舰文本生成模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表与计费 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "文本生成介绍 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/llm/overview",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "对话 Chat API | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/llm/chat",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "消息 (Messages) | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/llm/messages",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio responses API",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/llm/responses.md",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SenseAudio messages API",
+      "url": "https://docs.senseaudio.cn/api-reference/endpoint/llm/messages.md",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

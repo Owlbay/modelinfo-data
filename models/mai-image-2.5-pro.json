@@ -1,0 +1,108 @@
+{
+  "id": "mai-image-2.5-pro",
+  "object": "model",
+  "created": 1784764800,
+  "owned_by": "microsoft",
+  "name": "MAI-Image-2.5-Pro",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 5,
+    "output": 106,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-07-23",
+    "knowledge_cutoff": null,
+    "description": "Highest-quality model in the MAI-Image-2.5 series for text-to-image generation and image-to-image editing.",
+    "docs": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 106,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "microsoft",
+      "model": "MAI-Image-2.5-Pro",
+      "base_url": "https://<resource-name>.services.ai.azure.com/mai/v1",
+      "endpoints": {
+        "images": "POST /images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MAI-Image-2.5-Pro"
+  ],
+  "translations": {
+    "zh": {
+      "description": "MAI-Image-2.5 系列中质量最高的模型，支持文生图和图像编辑（图生图）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Deploy and use MAI image models in Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Introducing MAI-Image-2.5-Pro and MAI-Voice-2-Flash | Microsoft AI",
+      "url": "https://microsoft.ai/news/introducing-mai-image-2-5-pro-and-mai-voice-2-flash/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

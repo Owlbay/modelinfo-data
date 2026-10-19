@@ -1,0 +1,98 @@
+{
+  "id": "stable-image-core",
+  "object": "model",
+  "created": 1710979200,
+  "owned_by": "stability",
+  "name": "Stable Image Core",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@image-sdk/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.03,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-03-21",
+    "knowledge_cutoff": null,
+    "description": "Stability image service optimized for fast and cost-effective text-to-image generation.",
+    "docs": "https://platform.stability.ai/docs/api-reference",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.03,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "stability",
+      "model": "stable-image-core",
+      "base_url": "https://api.stability.ai",
+      "endpoints": {
+        "images": "POST /v2beta/stable-image/generate/core"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Stability 图像服务，针对快速、高性价比的文生图进行了优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "API Reference | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/docs/api-reference",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Stability AI Developer Platform",
+      "url": "https://platform.stability.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Stability AI API Release Notes",
+      "url": "https://platform.stability.ai/docs/release-notes",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @image-sdk/sdk (api.sdk only)",
+      "url": "https://github.com/Adarsh-Me/Image-SDK",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

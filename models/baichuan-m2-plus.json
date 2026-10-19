@@ -1,0 +1,115 @@
+{
+  "id": "baichuan-m2-plus",
+  "object": "model",
+  "created": null,
+  "owned_by": "baichuan",
+  "name": "Baichuan-M2-Plus",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": 32000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 10,
+    "output": 30,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Baichuan medical chat model with evidence grounding and medical file conversations.",
+    "docs": "https://platform.baichuan-ai.com/docs-v2/medical",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 10,
+      "output": 30,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "baichuan",
+      "model": "Baichuan-M2-Plus",
+      "base_url": "https://api.baichuan-ai.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Baichuan-M2-Plus"
+  ],
+  "translations": {
+    "zh": {
+      "description": "百川医疗对话模型，支持循证依据和医疗文件对话。"
+    }
+  },
+  "sources": [
+    {
+      "title": "医疗大模型对话 | 百川智能开放平台",
+      "url": "https://platform.baichuan-ai.com/docs-v2/medical",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "产品定价 | 百川智能开放平台",
+      "url": "https://platform.baichuan-ai.com/prices",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "baichuan-mcp-servers | Baichuan Inc. GitHub",
+      "url": "https://github.com/baichuan-inc/baichuan-mcp-servers",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "grok-voice-3.0",
+  "object": "model",
+  "created": 1791936000,
+  "owned_by": "xai",
+  "name": "Grok Voice 3.0",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "high",
+      "none"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-14",
+    "knowledge_cutoff": null,
+    "description": "The world’s most intelligent voice model.",
+    "docs": "https://docs.x.ai/developers/models/grok-voice-3.0",
+    "verified_at": "2026-10-15"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "xai",
+      "model": "grok-voice-3.0",
+      "base_url": "wss://api.x.ai",
+      "endpoints": {
+        "realtime": "WS /v1/realtime"
+      },
+      "reasoning_param": "reasoning.effort"
+    }
+  ],
+  "aliases": [
+    "grok-voice-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "全球最智能的语音模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Grok Voice 3.0 | xAI Docs",
+      "url": "https://docs.x.ai/developers/models/grok-voice-3.0",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Speech to Speech | xAI Docs",
+      "url": "https://docs.x.ai/developers/model-capabilities/audio/speech-to-speech",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Pricing（Speech to Speech grok-voice-3.0 为 $0.08/min 另加文本输入 $0.004）| xAI Docs",
+      "url": "https://docs.x.ai/developers/pricing",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Speech to Speech Pricing and Rate Limits | xAI Docs",
+      "url": "https://docs.x.ai/developers/models/speech-to-speech",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Release Notes（grok-voice-3.0 可用，grok-voice-latest 指向它，grok-voice-2.0 弃用）| xAI Docs",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Introducing Grok Voice 3.0",
+      "url": "https://x.ai/news/grok-voice-3",
+      "retrieved_at": "2026-10-15"
+    }
+  ]
+}

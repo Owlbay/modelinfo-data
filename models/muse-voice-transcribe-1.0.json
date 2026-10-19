@@ -1,0 +1,100 @@
+{
+  "id": "muse-voice-transcribe-1.0",
+  "object": "model",
+  "created": 1788220800,
+  "owned_by": "meta",
+  "name": "Muse Voice Transcribe 1.0",
+  "api": {
+    "types": [
+      "audio",
+      "realtime"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.18,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-01",
+    "knowledge_cutoff": null,
+    "description": "Meta's speech-to-text model for transcribing live audio streams or supported audio files.",
+    "docs": "https://dev.meta.ai/docs/speech-to-text",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.18,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "meta",
+      "model": "muse-voice-transcribe-1.0",
+      "base_url": "https://api.meta.ai/v1",
+      "endpoints": {
+        "audio": "POST /v1/asr/transcribe",
+        "realtime": "GET /v1/asr/realtime"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Meta 的语音转文字模型，可转写实时音频流或受支持的音频文件。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Meta Model API",
+      "url": "https://dev.meta.ai/docs/models",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Pricing and rate limits | Meta Model API",
+      "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Speech to text | Meta Model API",
+      "url": "https://dev.meta.ai/docs/speech-to-text",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Introducing Muse Voice Transcribe | Meta",
+      "url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

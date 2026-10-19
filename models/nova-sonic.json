@@ -1,0 +1,77 @@
+{
+  "id": "nova-sonic",
+  "object": "model",
+  "created": 1744070400,
+  "owned_by": "amazon",
+  "name": "Amazon Nova Sonic",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "@aws-sdk/client-bedrock-runtime"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-04-08",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.aws.amazon.com/nova/latest/userguide/speech.html",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.nova-sonic-v1:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "amazon.nova-sonic-v1:0"
+  ],
+  "sources": [
+    {
+      "title": "Model lifecycle (Legacy) - Amazon Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Using the Amazon Nova Sonic Speech-to-Speech model - Amazon Nova User Guide (Version 1)",
+      "url": "https://docs.aws.amazon.com/nova/latest/userguide/speech.html",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official model release / pricing documentation",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-sonic-human-like-voice-conversations-for-generative-ai-applications/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
+      "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/bedrock-runtime/",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

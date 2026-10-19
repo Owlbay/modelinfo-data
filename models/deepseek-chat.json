@@ -1,0 +1,120 @@
+{
+  "id": "deepseek-chat",
+  "object": "model",
+  "created": null,
+  "owned_by": "deepseek",
+  "name": "DeepSeek-Chat",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/deepseek",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": 8192
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.28,
+    "output": 0.42,
+    "cache_read": 0.028,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Legacy API name for the non-thinking mode of the DeepSeek flagship model (DeepSeek-V3.2 at the last pricing snapshot). Announced for discontinuation on 2026-07-24.",
+    "docs": "https://api-docs.deepseek.com/quick_start/pricing",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.28,
+      "output": 0.42,
+      "cache_read": 0.028,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "deepseek",
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "DeepSeek 旗舰模型非思考模式的旧版 API 名称（最近一次定价快照时为 DeepSeek-V3.2）。已宣布于 2026-07-24 停用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Change Log | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/updates",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models & Pricing | DeepSeek API Docs（存档，原网址 https://api-docs.deepseek.com/quick_start/pricing）",
+      "url": "https://web.archive.org/web/20260714172607/https://api-docs.deepseek.com/quick_start/pricing/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models & Pricing | DeepSeek API Docs（存档，原网址 https://api-docs.deepseek.com/quick_start/pricing）",
+      "url": "https://web.archive.org/web/20260319171942/https://api-docs.deepseek.com/quick_start/pricing/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/deepseek (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/deepseek",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

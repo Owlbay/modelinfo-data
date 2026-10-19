@@ -1,0 +1,70 @@
+{
+  "id": "doubao-seed3d-1-0",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seed3D-1.0",
+  "api": {
+    "types": [
+      "3d"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "image"
+    ],
+    "output": [
+      "3d"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-Seed3D-1.0, retired. Official shutdown (EOS) dates: doubao-seed3d-1-0-250928 2026-03-24.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seed3d-1-0-250928",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-seed3d-1-0-250928"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Doubao-Seed3D-1.0，已下线。官方停服（EOS）日期：doubao-seed3d-1-0-250928 2026-03-24。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线公告 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1350667",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310）",
+      "url": "https://web.archive.org/web/20251124053616/https://www.volcengine.com/docs/82379/1330310",
+      "retrieved_at": "2026-10-11"
+    }
+  ]
+}

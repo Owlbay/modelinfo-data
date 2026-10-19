@@ -1,0 +1,156 @@
+{
+  "id": "ling-3.0-flash-vl",
+  "object": "model",
+  "created": 1788480000,
+  "owned_by": "ant",
+  "name": "Ling-3.0-flash-VL",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 0.5,
+    "output": 1.5,
+    "cache_read": 0.1,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-04",
+    "knowledge_cutoff": null,
+    "description": "First native multimodal Ling model, with visual feedback for frontend code generation and GUI automation.",
+    "docs": "https://developer.ant-ling.com/en/docs/models/ling",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": 1.5,
+      "cache_read": 0.1,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ant",
+      "model": "Ling-3.0-flash-VL",
+      "base_url": "https://api.ant-ling.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Ling-3.0-flash-VL"
+  ],
+  "translations": {
+    "zh": {
+      "description": "首个原生多模态 Ling 模型，为前端代码生成和 GUI 自动化提供视觉反馈。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ling | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/ling",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/price",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/openai",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Changelog | Ling Developer Docs",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Anthropic Compatible API | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/anthropic/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

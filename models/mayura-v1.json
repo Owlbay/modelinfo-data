@@ -1,0 +1,100 @@
+{
+  "id": "mayura-v1",
+  "object": "model",
+  "created": null,
+  "owned_by": "sarvam",
+  "name": "Mayura v1",
+  "api": {
+    "types": [
+      "completions"
+    ],
+    "sdk": [
+      "sarvamai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "INR",
+    "unit": "1M_characters",
+    "input": 2000,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Text translation model between English and 10 Indian languages with multiple translation styles, up to 1,000 characters per request.",
+    "docs": "https://docs.sarvam.ai/api/getting-started/models/mayura",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "INR",
+      "unit": "1M_characters",
+      "input": 2000,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "sarvam",
+      "model": "mayura:v1",
+      "base_url": "https://api.sarvam.ai",
+      "endpoints": {
+        "completions": "POST /translate"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "mayura:v1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "英语与 10 种印度语言之间的文本翻译模型，支持多种翻译风格，每次请求最多 1,000 个字符。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Mayura | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/models/mayura",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Sarvam Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://docs.sarvam.ai/api-reference/text/translate-text",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — sarvamai (api.sdk only)",
+      "url": "https://docs.sarvam.ai/api/getting-started/sdks",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

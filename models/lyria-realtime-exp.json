@@ -1,0 +1,102 @@
+{
+  "id": "lyria-realtime-exp",
+  "object": "model",
+  "created": 1747699200,
+  "owned_by": "google",
+  "name": "Lyria RealTime",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "@ai-sdk/google"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2025-05-20",
+    "knowledge_cutoff": null,
+    "description": "Experimental real-time instrumental music generation over a streaming WebSocket with weighted prompts.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/lyria-realtime-exp",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "google",
+      "model": "lyria-realtime-exp",
+      "base_url": "wss://generativelanguage.googleapis.com",
+      "endpoints": {
+        "realtime": "WS /ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateMusic"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "实验性实时器乐生成，通过流式 WebSocket 提供，支持加权提示词。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Lyria RealTime | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/lyria-realtime-exp",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Music generation with Lyria RealTime | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/realtime-music-generation",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Deprecations | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Release notes | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Official API reference",
+      "url": "https://ai.google.dev/api/live_music",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/google (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

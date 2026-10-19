@@ -1,0 +1,110 @@
+{
+  "id": "ray-3.2",
+  "object": "model",
+  "created": 1780963200,
+  "owned_by": "luma",
+  "name": "Ray 3.2",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": [
+      "luma-agents"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "request",
+    "input": null,
+    "output": 0.15,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-09",
+    "knowledge_cutoff": null,
+    "description": "Luma video model for text-to-video, image-to-video, video editing and aspect-ratio reframing, at up to 1080p.",
+    "docs": "https://docs.agents.lumalabs.ai/guides/model",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "request",
+      "input": null,
+      "output": 0.15,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "luma",
+      "model": "ray-3.2",
+      "base_url": "https://agents.lumalabs.ai",
+      "endpoints": {
+        "video": "POST /v1/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Luma 视频模型，支持文生视频、图生视频、视频编辑和画幅重构，最高 1080p。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Luma Agents API Docs",
+      "url": "https://docs.agents.lumalabs.ai/guides/model",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Video generation | Luma Agents API Docs",
+      "url": "https://docs.agents.lumalabs.ai/guides/videos/generation",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Luma Agents API Docs",
+      "url": "https://docs.agents.lumalabs.ai/guides/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Quickstart | Luma Agents API Docs",
+      "url": "https://docs.agents.lumalabs.ai/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Luma Introduces Ray3.2 Model and API",
+      "url": "https://lumalabs.ai/news/introducing-ray-3-2",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — luma-agents (api.sdk only)",
+      "url": "https://github.com/lumalabs/luma-agents-typescript",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

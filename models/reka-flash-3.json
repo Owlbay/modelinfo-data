@@ -1,0 +1,117 @@
+{
+  "id": "reka-flash-3",
+  "object": "model",
+  "created": 1741564800,
+  "owned_by": "reka",
+  "name": "Reka Flash 3",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": 0.2,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "structured_output"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-03-10",
+    "knowledge_cutoff": null,
+    "description": "Reka's reasoning text model served on the Reka API.",
+    "docs": "https://docs.reka.ai/chat/models",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 0.2,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "reka",
+      "model": "reka-flash-3",
+      "base_url": "https://api.reka.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Reka 的推理文本模型，通过 Reka API 提供服务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Reka API Docs",
+      "url": "https://docs.reka.ai/chat/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Pricing | Reka API Docs",
+      "url": "https://docs.reka.ai/pricing",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Reasoning with Reka Flash 3 - Reka",
+      "url": "https://reka.ai/labs/research/introducing-reka-flash",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Models - Reka Gateway",
+      "url": "https://developer.reka.ai/models",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}

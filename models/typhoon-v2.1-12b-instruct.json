@@ -1,0 +1,106 @@
+{
+  "id": "typhoon-v2.1-12b-instruct",
+  "object": "model",
+  "created": 1746403200,
+  "owned_by": "typhoon",
+  "name": "Typhoon v2.1 12B Instruct",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-05-05",
+    "knowledge_cutoff": null,
+    "description": "Hybrid reasoning model with enhanced Thai language capabilities.",
+    "docs": "https://docs.opentyphoon.ai/en/models/",
+    "verified_at": "2026-10-11"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "typhoon",
+      "model": "typhoon-v2.1-12b-instruct",
+      "base_url": "https://api.opentyphoon.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "混合推理模型，增强了泰语能力。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/models/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API Reference | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/api-reference/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Overview | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Rate Limits | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/rate-limits/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Tokens and Usage | Typhoon Docs",
+      "url": "https://docs.opentyphoon.ai/en/tokens/",
+      "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}
