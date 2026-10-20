@@ -1,0 +1,133 @@
+{
+  "id": "grok-2-vision-1212",
+  "object": "model",
+  "created": 1734134400,
+  "owned_by": "xai",
+  "name": "Grok 2 Vision 1212",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/xai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2,
+    "output": 10,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-12-14",
+    "knowledge_cutoff": null,
+    "description": "Our multimodal model that processes documents, diagrams, charts, screenshots, and photographs.",
+    "docs": "https://web.archive.org/web/20251230031057/https://docs.x.ai/docs/models/grok-2-vision-1212",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 10,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xai",
+      "base_url": "https://api.x.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null,
+      "model": "grok-2-vision-1212"
+    }
+  ],
+  "aliases": [
+    "grok-2-vision",
+    "grok-2-vision-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "我们的多模态模型，可处理文档、示意图、图表、截图和照片。"
+    }
+  },
+  "sources": [
+    {
+      "title": "存档：xAI Docs 模型页 grok-2-vision-1212（原网址 https://docs.x.ai/docs/models/grok-2-vision-1212）",
+      "url": "https://web.archive.org/web/20251230031057/https://docs.x.ai/docs/models/grok-2-vision-1212",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档：xAI Docs 模型页 grok-3-mini（页内含 grok-3-mini、grok-2-1212、grok-2-vision-1212、grok-2-image-1212 条目）（原网址 https://docs.x.ai/docs/models/grok-3-mini）",
+      "url": "https://web.archive.org/web/20260124185157/https://docs.x.ai/docs/models/grok-3-mini",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档：xAI Docs Models and Pricing（含模型简介）（原网址 https://docs.x.ai/docs/models）",
+      "url": "https://web.archive.org/web/20250501021006/https://docs.x.ai/docs/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Release Notes | xAI Docs",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Models | xAI Docs（现行模型列表已不含该模型）",
+      "url": "https://docs.x.ai/developers/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/xai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

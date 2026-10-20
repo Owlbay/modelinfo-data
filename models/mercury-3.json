@@ -1,0 +1,129 @@
+{
+  "id": "mercury-3",
+  "object": "model",
+  "created": 1792368000,
+  "owned_by": "inception",
+  "name": "Mercury 3",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "instant",
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.2,
+    "output": 0.7,
+    "cache_read": 0.02,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-19",
+    "knowledge_cutoff": null,
+    "description": "Inception's most capable diffusion LLM, with a 1M-token context window, up to 131,072 output tokens and instant, low, medium and high reasoning effort.",
+    "docs": "https://docs.inceptionlabs.ai/get-started/models",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": 0.7,
+      "cache_read": 0.02,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "inception",
+      "model": "mercury-3",
+      "base_url": "https://api.inceptionlabs.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Inception 最强的扩散语言模型，上下文窗口 1M tokens，最多输出 131,072 tokens，支持 instant、low、medium、high 四档思考。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Inception Docs（Mercury 3 标准价 $0.20 / $0.02 / $0.70，上线期间 5 折）",
+      "url": "https://docs.inceptionlabs.ai/get-started/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Reasoning Efforts | Inception Docs",
+      "url": "https://docs.inceptionlabs.ai/capabilities/reasoning-efforts",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "List available models | Inception API",
+      "url": "https://api.inceptionlabs.ai/v1/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Diffusion at Scale: Introducing Mercury 3 - Inception Blog（Oct 19, 2026）",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "qwen3-livetranslate-flash-realtime",
+  "object": "model",
+  "created": 1758585600,
+  "owned_by": "alibaba",
+  "name": "Qwen3-LiveTranslate-Flash-Realtime",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio",
+      "video"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-09-23",
+    "knowledge_cutoff": null,
+    "description": "Real-time version of Qwen3-LiveTranslate-Flash, a multilingual simultaneous audio and video interpretation model built on Qwen3-Omni that understands 19 languages and speaks 10 languages, including 8 Chinese dialects.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen3-livetranslate-flash-realtime",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "qwen3-livetranslate-flash-realtime-2025-09-22"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Qwen3-LiveTranslate-Flash 的实时版本，基于 Qwen3-Omni 的多语言实时音视频同传模型，能听懂 19 种语言，会说 10 种语言以及 8 种中文方言。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "模型上下架与更新 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "【大模型服务平台百炼】部分老旧模型下线通知 | 阿里云官网公告",
+      "url": "https://www.aliyun.com/notice/118434",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "模型下线机制说明 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-depreciation",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

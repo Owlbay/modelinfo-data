@@ -1,0 +1,144 @@
+{
+  "id": "mimo-v2-omni",
+  "object": "model",
+  "created": 1773792000,
+  "owned_by": "xiaomi",
+  "name": "MiMo-V2-Omni",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 2,
+    "cache_read": 0.02,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-03-18",
+    "knowledge_cutoff": null,
+    "description": "MiMo-V2-Omni, Xiaomi omni-modal model (text, vision, audio) with 256K context; retired. Requests were forwarded to mimo-v2.5 from 2026-06-01 and the model was shut down on 2026-06-30 00:00 (UTC+8).",
+    "docs": "https://mimo.mi.com/docs/zh-CN/updates/deprecate",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 2,
+      "cache_read": 0.02,
+      "cache_write": null
+    },
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.14,
+      "output": 0.28,
+      "cache_read": 0.0028,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xiaomi",
+      "model": "mimo-v2-omni",
+      "base_url": "https://api.xiaomimimo.com",
+      "endpoints": {},
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "MiMo-V2-Omni，小米全模态模型（文本、视觉、语音），上下文 256K；已下线。2026-06-01 起请求自动转发至 mimo-v2.5，2026-06-30 00:00（UTC+8）正式下线。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型下线 | Xiaomi MiMo",
+      "url": "https://mimo.mi.com/docs/zh-CN/updates/deprecate",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "模型发布 | Xiaomi MiMo（2026-03-18 mimo-v2-omni 发布：256K 上下文，文本、视觉、语音模态）",
+      "url": "https://mimo.mi.com/docs/zh-CN/updates/model",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档 模型列表 | Xiaomi MiMo（mimo-v2-omni 上下文窗口 256K、最大输出 128K；原网址 https://mimo.mi.com/docs/zh-CN/quick-start/summary/model）",
+      "url": "https://web.archive.org/web/20260613102030/https://mimo.mi.com/docs/zh-CN/quick-start/summary/model",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档 按量计费 | Xiaomi MiMo（2026-06-12 更新，MiMo-V2 系列 mimo-v2-omni 国内与海外定价；原网址 https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go）",
+      "url": "https://web.archive.org/web/20260615120113/https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "MiMo-V2-Omni | Xiaomi MiMo",
+      "url": "https://mimo.xiaomi.com/mimo-v2-omni",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

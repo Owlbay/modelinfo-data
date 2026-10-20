@@ -1,0 +1,112 @@
+{
+  "id": "sarvam-30b",
+  "object": "model",
+  "created": null,
+  "owned_by": "sarvam",
+  "name": "Sarvam-30B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai",
+      "sarvamai"
+    ]
+  },
+  "limits": {
+    "context": 65536,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Sarvam 30B-parameter (2.4B active) Mixture-of-Experts reasoning chat model trained from scratch for Indian languages; removed from the Chat Completions API on 2026-08-18 in favour of Sarvam-105B.",
+    "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-30b",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "sarvam",
+      "model": "sarvam-30b",
+      "base_url": "https://api.sarvam.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Sarvam 从零训练、面向印度语言的 30B 参数（激活 2.4B）混合专家推理聊天模型；2026-08-18 起已从 Chat Completions API 移除，改用 Sarvam-105B。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Sarvam-30B (Deprecated) | Sarvam API Docs",
+      "url": "https://docs.sarvam.ai/api/getting-started/models/sarvam-30b",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "August 18, 2026: Sarvam-30B Deprecated | Sarvam API Docs",
+      "url": "https://docs.sarvam.ai/changelog/2026/8/18",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "May 1, 2026: sarvam-30b serves full 64K context | Sarvam API Docs",
+      "url": "https://docs.sarvam.ai/changelog/2026/5/1",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Open-Sourcing Sarvam 30B and 105B | Sarvam AI",
+      "url": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — sarvamai (api.sdk only)",
+      "url": "https://docs.sarvam.ai/api/getting-started/sdks",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

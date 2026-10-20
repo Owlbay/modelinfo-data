@@ -1,0 +1,138 @@
+{
+  "id": "muse-wonder-1.0",
+  "object": "model",
+  "created": 1791763200,
+  "owned_by": "meta",
+  "name": "Muse Wonder",
+  "api": {
+    "types": [
+      "chat",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 4,
+    "output": 20,
+    "cache_read": 0.2,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-12",
+    "knowledge_cutoff": null,
+    "description": "Meta's most capable model, built for complex software engineering and long-horizon agentic work.",
+    "docs": "https://dev.meta.ai/docs/models",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "meta",
+      "model": "muse-wonder-1.0",
+      "base_url": "https://api.meta.ai/v1",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Meta 能力最强的模型，专为复杂软件工程和长周期智能体工作打造。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Meta Model API",
+      "url": "https://dev.meta.ai/docs/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Pricing and rate limits | Meta Model API",
+      "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Reasoning | Meta Model API",
+      "url": "https://dev.meta.ai/docs/reasoning",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Muse Wonder | Meta",
+      "url": "https://dev.meta.ai/models/muse-wonder",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents | Meta AI Research",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

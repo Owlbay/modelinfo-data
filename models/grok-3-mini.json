@@ -1,0 +1,139 @@
+{
+  "id": "grok-3-mini",
+  "object": "model",
+  "created": 1743638400,
+  "owned_by": "xai",
+  "name": "Grok 3 Mini",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/xai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "high"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.3,
+    "output": 0.5,
+    "cache_read": 0.075,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-04-03",
+    "knowledge_cutoff": null,
+    "description": "A lightweight model that thinks before responding. Fast, smart, and great for logic-based tasks that do not require deep domain knowledge.",
+    "docs": "https://web.archive.org/web/20260124185157/https://docs.x.ai/docs/models/grok-3-mini",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 0.5,
+      "cache_read": 0.075,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xai",
+      "base_url": "https://api.x.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort",
+      "model": "grok-3-mini"
+    }
+  ],
+  "aliases": [
+    "grok-3-mini-latest",
+    "grok-3-mini-beta",
+    "grok-3-mini-fast",
+    "grok-3-mini-fast-latest",
+    "grok-3-mini-fast-beta"
+  ],
+  "translations": {
+    "zh": {
+      "description": "轻量级模型，先思考再作答。快速、聪明，擅长不需要深厚领域知识的逻辑类任务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "存档：xAI Docs 模型页 grok-3-mini（页内含 grok-3-mini、grok-2-1212、grok-2-vision-1212、grok-2-image-1212 条目）（原网址 https://docs.x.ai/docs/models/grok-3-mini）",
+      "url": "https://web.archive.org/web/20260124185157/https://docs.x.ai/docs/models/grok-3-mini",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档：xAI Docs Models and Pricing（含模型简介）（原网址 https://docs.x.ai/docs/models）",
+      "url": "https://web.archive.org/web/20250501021006/https://docs.x.ai/docs/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档：xAI Docs Reasoning 指南（reasoning_effort 仅 grok-3-mini 支持，取值 low / high）（原网址 https://docs.x.ai/docs/guides/reasoning）",
+      "url": "https://web.archive.org/web/20260101122454/https://docs.x.ai/docs/guides/reasoning",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Release Notes | xAI Docs",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Models | xAI Docs（现行模型列表已不含该模型）",
+      "url": "https://docs.x.ai/developers/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/xai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

@@ -78,7 +78,9 @@
       "reasoning_param": null
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "pixtral-12b"
+  ],
   "translations": {
     "zh": {
       "description": "除文本外还具备图像理解能力的 12B 模型。"

@@ -1,0 +1,134 @@
+{
+  "id": "grok-2-image-1212",
+  "object": "model",
+  "created": 1742342400,
+  "owned_by": "xai",
+  "name": "Grok 2 Image 1212",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/xai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.07,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-03-19",
+    "knowledge_cutoff": null,
+    "description": "Our latest image generation model that can generate vivid, realistic images based on a text prompt. Excels at generating images for marketing, social media, and entertainment.",
+    "docs": "https://web.archive.org/web/20251202223533/https://docs.x.ai/docs/models/grok-2-image-1212",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.07,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "xai",
+      "base_url": "https://api.x.ai",
+      "endpoints": {
+        "images": "POST /v1/images/generations"
+      },
+      "reasoning_param": null,
+      "model": "grok-2-image-1212"
+    }
+  ],
+  "aliases": [
+    "grok-2-image",
+    "grok-2-image-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "我们最新的图像生成模型，可根据文本提示生成生动逼真的图像，擅长为营销、社交媒体和娱乐场景生成图像。"
+    }
+  },
+  "sources": [
+    {
+      "title": "存档：xAI Docs 模型页 grok-2-image-1212（原网址 https://docs.x.ai/docs/models/grok-2-image-1212）",
+      "url": "https://web.archive.org/web/20251202223533/https://docs.x.ai/docs/models/grok-2-image-1212",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档：xAI Docs 模型页 grok-3-mini（页内含 grok-3-mini、grok-2-1212、grok-2-vision-1212、grok-2-image-1212 条目）（原网址 https://docs.x.ai/docs/models/grok-3-mini）",
+      "url": "https://web.archive.org/web/20260124185157/https://docs.x.ai/docs/models/grok-3-mini",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档：xAI Docs Models and Pricing（含模型简介）（原网址 https://docs.x.ai/docs/models）",
+      "url": "https://web.archive.org/web/20250501021006/https://docs.x.ai/docs/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档：xAI Docs Image Generations 指南（原网址 https://docs.x.ai/docs/guides/image-generations）",
+      "url": "https://web.archive.org/web/20250328102548/https://docs.x.ai/docs/guides/image-generations",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Release Notes | xAI Docs",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Models | xAI Docs（现行模型列表已不含该模型）",
+      "url": "https://docs.x.ai/developers/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/xai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

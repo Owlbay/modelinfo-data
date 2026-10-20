@@ -1,0 +1,104 @@
+{
+  "id": "fugu",
+  "object": "model",
+  "created": 1782086400,
+  "owned_by": "sakana",
+  "name": "Fugu",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "messages"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "high",
+      "xhigh"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-22",
+    "knowledge_cutoff": null,
+    "description": "Default Sakana Fugu multi-agent orchestration model, balancing strong performance with low latency for everyday work; routes each task to the best model in its agent pool, and specific agents can be opted out. Reasoning efforts high and xhigh (default high); max is accepted as an alias of xhigh. Pay-as-you-go is billed at the rate of the underlying model used.",
+    "docs": "https://console.sakana.ai/models",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "sakana",
+      "model": "fugu",
+      "base_url": "https://api.sakana.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses",
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort",
+        "messages": null
+      }
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Sakana Fugu 默认的多智能体编排模型，兼顾性能与低延迟，适合日常工作；按任务路由到智能体池中最合适的模型，也可以把特定智能体排除出池。思考档位为 high 与 xhigh（默认 high），max 作为 xhigh 的别名被接受。按量计费按实际调用的底层模型价格计费。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Sakana AI Console（Supported models: fugu, fugu-ultra-v1.0 also known as fugu-ultra-20260615）",
+      "url": "https://console.sakana.ai/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Get started | Sakana AI Console（context_window 1000000、input_modalities text/image、reasoning high/xhigh）",
+      "url": "https://console.sakana.ai/get-started",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Pricing | Sakana AI Console",
+      "url": "https://console.sakana.ai/pricing",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Sakana Fugu: One Model to Command Them All | Sakana AI（June 22, 2026）",
+      "url": "https://sakana.ai/fugu-release/",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

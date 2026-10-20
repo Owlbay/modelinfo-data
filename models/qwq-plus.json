@@ -73,7 +73,9 @@
       "reasoning_param": "enable_thinking"
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "qwq-plus-latest"
+  ],
   "translations": {
     "zh": {
       "description": "增强版 QwQ 推理模型，基于 Qwen2.5 通过强化学习训练。"

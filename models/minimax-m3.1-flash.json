@@ -1,0 +1,176 @@
+{
+  "id": "minimax-m3.1-flash",
+  "object": "model",
+  "created": 1792368000,
+  "owned_by": "minimax",
+  "name": "MiniMax-M3.1-Flash",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/minimax",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": 524288
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-19",
+    "knowledge_cutoff": null,
+    "description": "Efficient open-weight multimodal coding model with a 1M-token context window and tunable thinking depth; thinking is always on.",
+    "docs": "https://platform.minimax.io/docs/guides/models-intro",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.015,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 4,
+      "cache_read": 0.1,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "MiniMax-M3.1-Flash",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "messages": "output_config.effort"
+      }
+    }
+  ],
+  "aliases": [
+    "MiniMax-M3.1-Flash"
+  ],
+  "translations": {
+    "zh": {
+      "description": "高效的开放权重多模态编程模型，上下文窗口为 1M tokens，思考深度可调；始终开启思考。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/models-intro",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Pay as You Go pricing | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "按量计费 | MiniMax 开放平台（国内站 CNY 价格）",
+      "url": "https://platform.minimax.cn/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Model release notes | MiniMax API Docs（Oct. 19, 2026: MiniMax M3.1 Flash）",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Chat Completions API（max_completion_tokens 512K、reasoning_effort、text/image/video 输入） | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/text-chat-openai",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Messages API（output_config.effort、thinking 只能 adaptive） | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/text-chat-anthropic",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/minimax (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/minimax",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

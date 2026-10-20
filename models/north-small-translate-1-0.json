@@ -52,7 +52,9 @@
       "reasoning_param": null
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "north-small-translate-09-2026"
+  ],
   "translations": {
     "zh": {
       "description": "总参数 218B、激活参数 25B 的 MoE 模型，用于 50 多种语言的机器翻译。"

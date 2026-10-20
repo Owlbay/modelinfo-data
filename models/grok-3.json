@@ -76,7 +76,10 @@
   ],
   "aliases": [
     "grok-3-latest",
-    "grok-3-beta"
+    "grok-3-beta",
+    "grok-3-fast",
+    "grok-3-fast-latest",
+    "grok-3-fast-beta"
   ],
   "sources": [
     {
