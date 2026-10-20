@@ -27,14 +27,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.1,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "pricing": null,
   "features": [],
   "info": {
     "status": "preview",
@@ -44,16 +37,7 @@
     "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "hour",
-      "input": 0.1,
-      "output": null,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
+  "prices": [],
   "providers": [
     {
       "id": "microsoft",

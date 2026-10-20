@@ -28,14 +28,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "request",
-    "input": null,
-    "output": 0.156,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "pricing": null,
   "features": [],
   "info": {
     "status": "active",
@@ -45,16 +38,7 @@
     "docs": "https://docs.platform.pixverse.ai/text-to-video-generation-13016634e0",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "request",
-      "input": null,
-      "output": 0.156,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
+  "prices": [],
   "providers": [
     {
       "id": "pixverse",

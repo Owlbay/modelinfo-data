@@ -29,14 +29,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.022,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "pricing": null,
   "features": [],
   "info": {
     "status": "active",
@@ -46,16 +39,7 @@
     "docs": "https://docs.platform.pixverse.ai/v6-2056814m0",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "second",
-      "input": null,
-      "output": 0.022,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
+  "prices": [],
   "providers": [
     {
       "id": "pixverse",
