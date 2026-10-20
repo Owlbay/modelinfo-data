@@ -32,11 +32,11 @@
     "efforts": []
   },
   "pricing": {
-    "currency": "USD",
+    "currency": "CNY",
     "unit": "1M_tokens",
-    "input": 0.1,
-    "output": 0.3,
-    "cache_read": null,
+    "input": 0.7,
+    "output": 2.1,
+    "cache_read": 0.07,
     "cache_write": null
   },
   "features": [],
@@ -50,11 +50,19 @@
   },
   "prices": [
     {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.7,
+      "output": 2.1,
+      "cache_read": 0.07,
+      "cache_write": null
+    },
+    {
       "currency": "USD",
       "unit": "1M_tokens",
       "input": 0.1,
       "output": 0.3,
-      "cache_read": null,
+      "cache_read": 0.01,
       "cache_write": null
     }
   ],
@@ -118,6 +126,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "存档 按量计费 | Xiaomi MiMo（2026-06-12 更新，下线前最后一版官方价：mimo-v2-flash 国内 ¥0.70/¥2.10/缓存命中 ¥0.07，海外 $0.10/$0.30/$0.01；原网址 https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go）",
+      "url": "https://web.archive.org/web/20260615120113/https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

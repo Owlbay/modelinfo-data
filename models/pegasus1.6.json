@@ -15,7 +15,7 @@
   "limits": {
     "context": 261120,
     "input": null,
-    "output": null
+    "output": 98304
   },
   "modalities": {
     "input": [
@@ -31,7 +31,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 1.75,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "structured_output"
   ],
@@ -43,7 +50,16 @@
     "docs": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/pegasus/pegasus-1-6",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 1.75,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "twelvelabs",
@@ -86,6 +102,11 @@
       "title": "SDK support — twelvelabs-js (api.sdk only)",
       "url": "https://github.com/twelvelabs-io/twelvelabs-js",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Overage pricing | TwelveLabs",
+      "url": "https://www.twelvelabs.io/overage",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

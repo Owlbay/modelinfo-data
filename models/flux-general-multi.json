@@ -1,7 +1,7 @@
 {
   "id": "flux-general-multi",
   "object": "model",
-  "created": null,
+  "created": 1777420800,
   "owned_by": "deepgram",
   "name": "Flux General (Multilingual)",
   "api": {
@@ -42,7 +42,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-04-29",
     "knowledge_cutoff": null,
     "description": "Deepgram Flux speech-to-text model for voice agents with turn detection, supporting 10 languages.",
     "docs": "https://developers.deepgram.com/docs/models-languages-overview",
@@ -101,6 +101,11 @@
       "title": "SDK support — @ai-sdk/deepgram (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/deepgram",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Introducing Flux STT Multilingual for Global Voice Agents | Deepgram",
+      "url": "https://deepgram.com/learn/introducing-flux-multilingual",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

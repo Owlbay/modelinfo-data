@@ -19,9 +19,9 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
-    "output": null
+    "context": 65536,
+    "input": 49152,
+    "output": 16384
   },
   "modalities": {
     "input": [
@@ -52,7 +52,7 @@
     "knowledge_cutoff": null,
     "description": "OCR model on the Qwen3.5 architecture for document parsing, text localization and key-information extraction, including PDF parsing.",
     "docs": "https://help.aliyun.com/zh/model-studio/qwen-vl-ocr",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
     {
@@ -127,6 +127,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen3.5-ocr model information | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-5-ocr",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

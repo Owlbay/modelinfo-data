@@ -30,10 +30,10 @@
     "efforts": []
   },
   "pricing": {
-    "currency": "CNY",
+    "currency": "USD",
     "unit": "1M_tokens",
-    "input": 1.5,
-    "output": 12,
+    "input": 0.23,
+    "output": 1.87,
     "cache_read": null,
     "cache_write": null
   },
@@ -44,9 +44,17 @@
     "knowledge_cutoff": null,
     "description": "Qwen-Audio-TTS speech synthesis model with instruction control, billed by input and output tokens.",
     "docs": "https://help.aliyun.com/zh/model-studio/qwen-tts",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.23,
+      "output": 1.87,
+      "cache_read": null,
+      "cache_write": null
+    },
     {
       "currency": "CNY",
       "unit": "1M_tokens",
@@ -88,6 +96,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

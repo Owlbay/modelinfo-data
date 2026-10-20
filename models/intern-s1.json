@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 32768,
     "input": null,
     "output": null
   },
@@ -93,6 +93,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "获取模型列表（窗口长度 32K） | InternLM API 文档",
+      "url": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

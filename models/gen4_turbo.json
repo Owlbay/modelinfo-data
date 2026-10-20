@@ -1,7 +1,7 @@
 {
   "id": "gen4_turbo",
   "object": "model",
-  "created": null,
+  "created": 1743724800,
   "owned_by": "runway",
   "name": "Gen-4 Turbo",
   "api": {
@@ -41,7 +41,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2025-04-04",
     "knowledge_cutoff": null,
     "description": "Runway's fastest image-to-video model.",
     "docs": "https://docs.dev.runwayml.com/guides/models/",

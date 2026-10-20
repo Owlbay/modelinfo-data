@@ -1,7 +1,7 @@
 {
   "id": "stepaudio-2.5-chat",
   "object": "model",
-  "created": null,
+  "created": 1778198400,
   "owned_by": "stepfun",
   "name": "StepAudio 2.5 Chat",
   "api": {
@@ -43,7 +43,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-05-08",
     "knowledge_cutoff": null,
     "description": "Conversational model that understands speech, including hesitation and laughter, and outputs text.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-chat",
@@ -119,6 +119,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "StepAudio 2.5 Realtime 上线 | 阶跃星辰新闻",
+      "url": "https://www.stepfun.com/news/stepaudio-2-5-realtime",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "StepAudio 2.5 Chat | StepFun 开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/models/stepaudio-2.5-chat",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

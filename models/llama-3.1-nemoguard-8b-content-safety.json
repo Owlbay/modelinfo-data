@@ -1,7 +1,7 @@
 {
   "id": "llama-3.1-nemoguard-8b-content-safety",
   "object": "model",
-  "created": null,
+  "created": 1736985600,
   "owned_by": "nvidia",
   "name": "Llama 3.1 NemoGuard 8B ContentSafety",
   "api": {
@@ -36,7 +36,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2025-01-16",
     "knowledge_cutoff": null,
     "description": "Content safety model that moderates human-LLM interaction content and classifies user prompts and LLM responses as safe or unsafe.",
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemoguard-8b-content-safety",
@@ -88,6 +88,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "NVIDIA Releases NIM Microservices to Safeguard Applications for Agentic AI | NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/nemo-guardrails-nim-microservices/",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

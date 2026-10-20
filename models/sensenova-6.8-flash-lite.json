@@ -19,9 +19,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 262144,
     "input": null,
-    "output": null
+    "output": 65536
   },
   "modalities": {
     "input": [
@@ -170,6 +170,11 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SenseNova AI API 文档（模型列表 context_length 262144、max_output_length 65536；max_tokens 范围 [1, 65536]）",
+      "url": "https://platform.sensenova.cn/docs",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

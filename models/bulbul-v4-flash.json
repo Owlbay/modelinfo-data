@@ -1,7 +1,7 @@
 {
   "id": "bulbul-v4-flash",
   "object": "model",
-  "created": null,
+  "created": 1791849600,
   "owned_by": "sarvam",
   "name": "Bulbul v4 Flash",
   "api": {
@@ -29,17 +29,33 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "INR",
+    "unit": "1M_characters",
+    "input": 2000,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-13",
     "knowledge_cutoff": null,
     "description": "Latest text-to-speech model with 200+ persona voices and the same API contract as Bulbul v3.",
     "docs": "https://docs.sarvam.ai/api/getting-started/models/bulbul",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "INR",
+      "unit": "1M_characters",
+      "input": 2000,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "sarvam",
@@ -69,6 +85,16 @@
       "title": "SDK support — sarvamai (api.sdk only)",
       "url": "https://docs.sarvam.ai/api/getting-started/sdks",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Introducing Bulbul V4 Flash（₹20／万字符）| Sarvam AI",
+      "url": "https://www.sarvam.ai/blogs/bulbul-v4-flash",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "API Pricing | Sarvam AI",
+      "url": "https://www.sarvam.ai/api-pricing",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "fugu-ultra",
   "object": "model",
-  "created": null,
+  "created": 1789084800,
   "owned_by": "sakana",
   "name": "Fugu Ultra",
   "api": {
@@ -35,7 +35,14 @@
       "xhigh"
     ]
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 5,
+    "output": 30,
+    "cache_read": 0.5,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "structured_output",
@@ -43,13 +50,22 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-09-11",
     "knowledge_cutoff": "2026-08-28",
     "description": "Fugu Ultra coordinates a deeper pool of expert agents to maximize answer quality on hard, high-stakes problems. v2.0 accepts reasoning efforts high and xhigh; max is accepted as an alias of xhigh. The Responses API defaults to xhigh for fugu-ultra.",
     "docs": "https://console.sakana.ai/models",
-    "verified_at": "2026-10-13"
+    "verified_at": "2026-10-20"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 30,
+      "cache_read": 0.5,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "sakana",
@@ -78,19 +94,29 @@
   },
   "sources": [
     {
-      "title": "Models | Sakana AI Console（fugu-ultra 默认 v2.0；Responses 默认 effort 为 xhigh，max 与 xhigh 同义）",
+      "title": "Models | Sakana AI Console（Supported models: fugu-ultra → fugu-ultra-v2.0, fugu-ultra-v1.1, fugu-max → fugu-max-v1.0, fugu-cyber → fugu-cyber-v1.0）；默认 Responses effort xhigh",
       "url": "https://console.sakana.ai/models",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-20"
     },
     {
-      "title": "Get started | Sakana AI Console",
+      "title": "Get started | Sakana AI Console（Codex model catalog: context_window 1000000, input_modalities text/image, supported_reasoning_levels）",
       "url": "https://console.sakana.ai/get-started",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Pricing | Sakana AI Console（fugu-ultra-v2.0 standard $5 / $30 / cached $0.50 per 1M, >272K context $10 / $45 / $1.00; fugu-max-v1.0 $2 / $6 / cached $0.25）",
+      "url": "https://console.sakana.ai/pricing",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier | Sakana AI（September 11, 2026）",
+      "url": "https://sakana.ai/fugu-max-release/",
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "SDK support — openai (api.sdk only)",
       "url": "https://github.com/openai/openai-node",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

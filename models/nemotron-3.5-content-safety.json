@@ -17,7 +17,7 @@
   "limits": {
     "context": 131072,
     "input": null,
-    "output": null
+    "output": 65536
   },
   "modalities": {
     "input": [
@@ -92,6 +92,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "NVIDIA nemotron-3.5-content-safety inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3-5-content-safety-infer",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

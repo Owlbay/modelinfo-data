@@ -1,5 +1,5 @@
 {
-  "id": "grok-voice-think-fast-2.0",
+  "id": "grok-voice-2.0",
   "object": "model",
   "created": 1785283200,
   "owned_by": "xai",
@@ -31,23 +31,39 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.08,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "tools"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2026-07-29",
     "knowledge_cutoff": null,
     "description": "xAI speech-to-speech voice model with improved intelligence, transcription accuracy and conversational capabilities.",
-    "docs": "https://docs.x.ai/developers/models/grok-voice-think-fast-2.0",
-    "verified_at": "2026-10-15"
+    "docs": "https://docs.x.ai/developers/model-capabilities/audio/speech-to-speech",
+    "verified_at": "2026-10-20"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.08,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "xai",
-      "model": "grok-voice-think-fast-2.0",
+      "model": "grok-voice-2.0",
       "base_url": "https://api.x.ai",
       "endpoints": {
         "realtime": "GET /v1/realtime"
@@ -55,7 +71,9 @@
       "reasoning_param": null
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "grok-voice-think-fast-2.0"
+  ],
   "translations": {
     "zh": {
       "description": "xAI 语音到语音模型，智能水平、转写准确率和对话能力均有提升。"
@@ -63,19 +81,14 @@
   },
   "sources": [
     {
-      "title": "grok-voice-think-fast-2.0 | xAI Docs",
-      "url": "https://docs.x.ai/developers/models/grok-voice-think-fast-2.0",
-      "retrieved_at": "2026-10-11"
-    },
-    {
       "title": "Speech to Speech | xAI Docs",
       "url": "https://docs.x.ai/developers/model-capabilities/audio/speech-to-speech",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Release Notes（grok-voice-latest 现指向 grok-voice-3.0）| xAI Docs",
       "url": "https://docs.x.ai/developers/release-notes",
-      "retrieved_at": "2026-10-15"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Introducing Grok Voice Think Fast 2.0",
@@ -86,6 +99,11 @@
       "title": "SDK support — @ai-sdk/xai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Models and Pricing（Voice Pricing：grok-voice-2.0）| xAI Docs",
+      "url": "https://docs.x.ai/developers/pricing",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

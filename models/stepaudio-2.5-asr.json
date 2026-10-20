@@ -11,7 +11,7 @@
     "sdk": []
   },
   "limits": {
-    "context": null,
+    "context": 32768,
     "input": null,
     "output": null
   },
@@ -49,6 +49,14 @@
       "currency": "USD",
       "unit": "hour",
       "input": 0.022,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "hour",
+      "input": 0.15,
       "output": null,
       "cache_read": null,
       "cache_write": null
@@ -91,6 +99,21 @@
       "title": "StepFun 官方模型发布新闻",
       "url": "https://www.stepfun.com/news",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API 定价 | StepFun 开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "阶跃 StepAudio 2.5 ASR 上线 | 阶跃星辰新闻",
+      "url": "https://www.stepfun.com/news/stepaudio-2-5-asr",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "StepAudio 2.5 ASR | StepFun 开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/models/stepaudio-2.5-asr",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

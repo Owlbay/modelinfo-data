@@ -1,7 +1,7 @@
 {
   "id": "qwen3.7-text-rerank",
   "object": "model",
-  "created": null,
+  "created": 1788220800,
   "owned_by": "alibaba",
   "name": "Qwen3.7-Text-Rerank",
   "api": {
@@ -40,11 +40,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-09-01",
     "knowledge_cutoff": null,
     "description": "Text reranking model for search results and RAG.",
     "docs": "https://help.aliyun.com/zh/model-studio/embedding-rerank-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
     {
@@ -93,6 +93,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型上下架与更新 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

@@ -14,7 +14,7 @@
   },
   "limits": {
     "context": 8192,
-    "input": null,
+    "input": 8192,
     "output": 1024
   },
   "modalities": {
@@ -44,7 +44,7 @@
     "knowledge_cutoff": null,
     "description": "End-to-end real-time speech recognition for meetings and live captions.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
     {
@@ -98,6 +98,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen-audio-3.1-asr-flash-streaming model information | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-asr-flash-streaming",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

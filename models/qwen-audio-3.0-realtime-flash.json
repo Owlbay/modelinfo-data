@@ -31,7 +31,14 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.23,
+    "output": 0.7,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "streaming"
   ],
@@ -41,9 +48,26 @@
     "knowledge_cutoff": null,
     "description": "Low-latency duplex speech model.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.23,
+      "output": 0.7,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1.5,
+      "output": 4.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "alibaba",
@@ -91,6 +115,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型价格 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

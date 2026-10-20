@@ -1,7 +1,7 @@
 {
   "id": "nova-premier",
   "object": "model",
-  "created": null,
+  "created": 1745971200,
   "owned_by": "amazon",
   "name": "Amazon Nova Premier",
   "api": {
@@ -34,20 +34,36 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2.5,
+    "output": 12.5,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "streaming",
     "batch"
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2025-04-30",
     "knowledge_cutoff": null,
     "description": "Amazon's most capable multimodal model for complex tasks. It comprehends text, images, video, documents, and code. The category table lists US East (N. Virginia) and AWS GovCloud (US-West); the specifications table lists US East (N. Virginia), with cross-region inference to additional commercial regions.",
     "docs": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
     "verified_at": "2026-10-13"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2.5,
+      "output": 12.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "amazon-bedrock",
@@ -83,6 +99,21 @@
       "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Amazon Nova pricing | AWS",
+      "url": "https://aws.amazon.com/nova/pricing/",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Amazon Bedrock Pricing",
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Amazon Nova Premier, our most capable model for complex tasks and teacher for model distillation | AWS What's New",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

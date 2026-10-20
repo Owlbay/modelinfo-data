@@ -35,7 +35,7 @@
     "currency": "USD",
     "unit": "second",
     "input": null,
-    "output": 0.17,
+    "output": 0.15,
     "cache_read": null,
     "cache_write": null
   },
@@ -46,14 +46,14 @@
     "knowledge_cutoff": null,
     "description": "FLUX 3 video generation with synchronized audio, from text, keyframe images or a reference clip.",
     "docs": "https://docs.bfl.ml/flux_3/flux3_overview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
     {
       "currency": "USD",
       "unit": "second",
       "input": null,
-      "output": 0.17,
+      "output": 0.15,
       "cache_read": null,
       "cache_write": null
     }
@@ -87,9 +87,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "Pricing | Black Forest Labs Docs",
+      "title": "Pricing | Black Forest Labs Docs（FLUX 3 Video full render t2v/i2v hd $0.15/s, fhd $0.24/s, qhd $0.28/s, uhd $0.41/s; draft $0.06/s）",
       "url": "https://docs.bfl.ml/quick_start/pricing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Release Notes | Black Forest Labs Docs",

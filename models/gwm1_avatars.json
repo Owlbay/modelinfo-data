@@ -1,7 +1,7 @@
 {
   "id": "gwm1_avatars",
   "object": "model",
-  "created": null,
+  "created": 1785974400,
   "owned_by": "runway",
   "name": "Runway Characters",
   "api": {
@@ -34,7 +34,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-08-06",
     "knowledge_cutoff": null,
     "description": "Generates a video of a character speaking from a text script or an audio file.",
     "docs": "https://docs.dev.runwayml.com/guides/models/",

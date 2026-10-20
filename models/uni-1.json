@@ -1,7 +1,7 @@
 {
   "id": "uni-1",
   "object": "model",
-  "created": null,
+  "created": 1777939200,
   "owned_by": "luma",
   "name": "Uni-1",
   "api": {
@@ -41,7 +41,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-05-05",
     "knowledge_cutoff": null,
     "description": "Default Luma image model for image generation and editing, with up to 9 reference images and optional web search grounding.",
     "docs": "https://docs.agents.lumalabs.ai/guides/model",
@@ -99,6 +99,11 @@
       "title": "SDK support — luma-agents (api.sdk only)",
       "url": "https://github.com/lumalabs/luma-agents-typescript",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Introducing the Uni-1.1 API | Luma",
+      "url": "https://lumalabs.ai/news/uni-1-1-api",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

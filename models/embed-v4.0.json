@@ -31,7 +31,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.12,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "active",
@@ -41,7 +48,16 @@
     "docs": "https://docs.cohere.com/docs/cohere-embed",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.12,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "cohere",
@@ -89,6 +105,11 @@
       "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Cohere Pricing 存档 2026-09-02（Embed 4 $0.12／百万 tokens）",
+      "url": "https://web.archive.org/web/20260902170505/https://cohere.com/pricing",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

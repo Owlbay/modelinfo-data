@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 131072,
     "input": 131072,
     "output": 65536
   },
@@ -79,7 +79,7 @@
     {
       "title": "Gemini 3.5 Live Translate Preview | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Models | Gemini API",
@@ -125,6 +125,16 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Understand and count tokens | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/tokens",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Live API capabilities guide（context window：native audio 模型 128k）| Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/live-api/capabilities",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

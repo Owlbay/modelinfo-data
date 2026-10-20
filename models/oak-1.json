@@ -1,7 +1,7 @@
 {
   "id": "oak-1",
   "object": "model",
-  "created": null,
+  "created": 1791936000,
   "owned_by": "speechmatics",
   "name": "Oak 1",
   "api": {
@@ -40,7 +40,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-14",
     "knowledge_cutoff": null,
     "description": "Speechmatics multilingual speech-to-text model tuned for healthcare audio such as ambient scribes and dictation, Batch only.",
     "docs": "https://docs.speechmatics.com/speech-to-text/models",
@@ -93,6 +93,11 @@
       "title": "SDK support — @speechmatics/batch-client (api.sdk only)",
       "url": "https://github.com/speechmatics/speechmatics-js-sdk",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Meet Oak: medical transcription that follows the conversation across languages and speakers | Speechmatics",
+      "url": "https://www.speechmatics.com/company/articles-and-news/meet-oak-multilingual-medical-speech-to-text",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

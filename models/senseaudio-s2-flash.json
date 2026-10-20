@@ -19,9 +19,9 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
-    "output": null
+    "context": 262144,
+    "input": 260096,
+    "output": 65536
   },
   "modalities": {
     "input": [
@@ -139,6 +139,11 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型列表（上下文长度、最大输入、最大输出） | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/account/model-list.md",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

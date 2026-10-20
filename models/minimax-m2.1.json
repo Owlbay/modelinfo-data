@@ -1,7 +1,7 @@
 {
   "id": "minimax-m2.1",
   "object": "model",
-  "created": null,
+  "created": 1766361600,
   "owned_by": "minimax",
   "name": "MiniMax-M2.1",
   "api": {
@@ -50,7 +50,7 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2025-12-22",
     "knowledge_cutoff": null,
     "description": "Legacy 230B-parameter model (10B active) for code generation and enhanced reasoning.",
     "docs": "https://platform.minimax.io/docs/guides/models-intro",
@@ -164,6 +164,21 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Model release notes — Dec. 22, 2025 MiniMax-M2.1 | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "模型发布记录 — 2025 年 12 月 22 日 MiniMax-M2.1 / M2.1-highspeed 正式发布 | MiniMax 开放平台",
+      "url": "https://platform.minimaxi.com/docs/release-notes/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "存档 Pay as You Go pricing — MiniMax-M2.1 / M2.1-highspeed（原网址 https://platform.minimax.io/docs/guides/pricing-paygo）",
+      "url": "https://web.archive.org/web/20261002184926/https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "ideogram-4-5",
   "object": "model",
-  "created": null,
+  "created": 1790726400,
   "owned_by": "ideogram",
   "name": "Ideogram 4.5",
   "api": {
@@ -41,11 +41,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-09-30",
     "knowledge_cutoff": null,
     "description": "Ideogram image generation from natural-language or structured JSON prompts, with optional source images and masks for editing.",
     "docs": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-4-5",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
     {
@@ -96,9 +96,19 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "Ideogram API pricing (dynamic table, lowest text-to-image tier)",
+      "title": "Ideogram API Pricing（Ideogram 4.5 Generate Low $0.03, Medium $0.06, High $0.10 per image）",
       "url": "https://ideogram.ai/pricing/?pricing_tab=api",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Ideogram on X: Introducing Ideogram 4.5 … Live in Ideogram, the API, and launch partners（September 30, 2026）",
+      "url": "https://x.com/ideogram_ai/status/2105327223431737780",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Ideogram 4.5 | Ideogram",
+      "url": "https://ideogram.ai/models/4.5/",
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "SDK support — @image-sdk/sdk (api.sdk only)",

@@ -31,7 +31,14 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 2,
+    "output": 6,
+    "cache_read": 0.4,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "streaming"
@@ -44,7 +51,16 @@
     "docs": "https://developer.ant-ling.com/en/docs/models/ling",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 6,
+      "cache_read": 0.4,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "ant",
@@ -109,6 +125,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Pricing — Ling-3.1-flash 原价 ¥2.00 / ¥6.00 / 缓存 ¥0.40（限时折扣价不计） | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/price",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

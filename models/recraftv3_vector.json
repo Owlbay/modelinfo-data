@@ -1,7 +1,7 @@
 {
   "id": "recraftv3_vector",
   "object": "model",
-  "created": null,
+  "created": 1730246400,
   "owned_by": "recraft",
   "name": "Recraft V3 Vector",
   "api": {
@@ -44,11 +44,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2024-10-30",
     "knowledge_cutoff": null,
     "description": "Recraft V3 variant that returns editable SVG vector images.",
     "docs": "https://www.recraft.ai/docs/api-reference/models/recraft-v3",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
     {
@@ -92,6 +92,11 @@
       "title": "Pricing | Recraft API Docs",
       "url": "https://www.recraft.ai/docs/api-reference/pricing",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Recraft introduces a revolutionary AI model that thinks in design language（October 30, 2024；Recraft V3 via API, raster and vector formats）",
+      "url": "https://www.recraft.ai/blog/recraft-introduces-a-revolutionary-ai-model-that-thinks-in-design-language",
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "SDK support — openai (api.sdk only)",

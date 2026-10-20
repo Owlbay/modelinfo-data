@@ -33,7 +33,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2.5,
+    "output": 10,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "streaming"
@@ -46,7 +53,16 @@
     "docs": "https://developers.openai.com/api/docs/models/gpt-audio-1.5",
     "verified_at": "2026-10-15"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2.5,
+      "output": 10,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "openai",
@@ -68,12 +84,12 @@
     {
       "title": "GPT-Audio-1.5 Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-audio-1.5",
-      "retrieved_at": "2026-10-15"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Pricing | OpenAI API",
       "url": "https://developers.openai.com/api/docs/pricing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Models | OpenAI API",

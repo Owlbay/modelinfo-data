@@ -27,7 +27,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "hour",
+    "input": 0.1,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "preview",
@@ -37,7 +44,16 @@
     "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.1,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "microsoft",
@@ -67,6 +83,16 @@
       "title": "MAI-Transcribe-2 | Microsoft AI",
       "url": "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Azure Speech pricing（MAI Transcribe-2，限时推广价至 2026-12-31）| Microsoft Azure",
+      "url": "https://azure.microsoft.com/en-us/pricing/details/speech/",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "MAI-Transcribe-2 | Microsoft AI",
+      "url": "https://microsoft.ai/models/mai-transcribe-2/",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

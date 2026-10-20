@@ -52,6 +52,14 @@
       "output": null,
       "cache_read": null,
       "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_characters",
+      "input": 280,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
     }
   ],
   "providers": [
@@ -79,6 +87,11 @@
       "title": "音频模型 | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/models/audio",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API 定价 | StepFun 开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

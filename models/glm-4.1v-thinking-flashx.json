@@ -1,7 +1,7 @@
 {
   "id": "glm-4.1v-thinking-flashx",
   "object": "model",
-  "created": null,
+  "created": 1751414400,
   "owned_by": "zhipu",
   "name": "GLM-4.1V-Thinking-FlashX",
   "api": {
@@ -47,7 +47,7 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2025-07-02",
     "knowledge_cutoff": null,
     "description": "High-concurrency 10B visual reasoning model with built-in chain-of-thought for complex scene understanding.",
     "docs": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.1v-thinking",
@@ -125,6 +125,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型与产品发布记录 — 2025-07-02 GLM-4.1V-Thinking 系列视觉推理模型上线 | 智谱开放平台",
+      "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "GLM-4.1V-Thinking（高并发版 FlashX / 免费版 Flash，上下文 64K） | 智谱开放平台",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.1v-thinking",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

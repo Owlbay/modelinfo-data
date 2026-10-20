@@ -1,7 +1,7 @@
 {
   "id": "stepaudio-2.5-tts",
   "object": "model",
-  "created": null,
+  "created": 1776297600,
   "owned_by": "stepfun",
   "name": "StepAudio 2.5 TTS",
   "api": {
@@ -41,7 +41,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-04-16",
     "knowledge_cutoff": null,
     "description": "Context-aware text-to-speech with natural-language delivery control and zero-shot voice cloning.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-tts",
@@ -52,6 +52,14 @@
       "currency": "USD",
       "unit": "1M_characters",
       "input": 85,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_characters",
+      "input": 580,
       "output": null,
       "cache_read": null,
       "cache_write": null
@@ -104,6 +112,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "API 定价 | StepFun 开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "阶跃 StepAudio 2.5 TTS 上线 | 阶跃星辰新闻",
+      "url": "https://www.stepfun.com/news/stepaudio-2-5-tts",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

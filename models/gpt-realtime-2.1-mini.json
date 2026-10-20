@@ -33,7 +33,14 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.6,
+    "output": 2.4,
+    "cache_read": 0.06,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "caching"
@@ -46,7 +53,16 @@
     "docs": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.6,
+      "output": 2.4,
+      "cache_read": 0.06,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "openai",
@@ -68,12 +84,12 @@
     {
       "title": "GPT-Realtime-2.1 Mini Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Pricing | OpenAI API",
       "url": "https://developers.openai.com/api/docs/pricing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Models | OpenAI API",

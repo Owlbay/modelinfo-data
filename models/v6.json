@@ -29,7 +29,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.022,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "active",
@@ -39,7 +46,16 @@
     "docs": "https://docs.platform.pixverse.ai/v6-2056814m0",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.022,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "pixverse",
@@ -82,6 +98,11 @@
       "title": "PixVerse API Changelogs",
       "url": "https://docs.platform.pixverse.ai/changelogs-906383m0",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "PixVerse API Pricing",
+      "url": "https://docs.platform.pixverse.ai/pixverse-api-pricing-2394995m0",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

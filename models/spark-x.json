@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 196608,
     "input": 65536,
     "output": 131072
   },
@@ -108,6 +108,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "讯飞星辰MaaS平台 模型广场",
+      "url": "https://maas.xfyun.cn/modelSquare",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

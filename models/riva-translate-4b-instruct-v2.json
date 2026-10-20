@@ -15,9 +15,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 8192,
     "input": null,
-    "output": null
+    "output": 4096
   },
   "modalities": {
     "input": [
@@ -86,6 +86,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "NVIDIA riva-translate-4b-instruct-v2 inference API",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-riva-translate-4b-instruct-v2-infer",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

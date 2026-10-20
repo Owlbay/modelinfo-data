@@ -23,6 +23,7 @@
       "video"
     ],
     "output": [
+      "text",
       "audio"
     ]
   },
@@ -82,6 +83,11 @@
     {
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Qwen3-LiveTranslate-Flash-Realtime | Alibaba Cloud Model Studio (Wayback Machine archive, 2026-03-15)",
+      "url": "https://web.archive.org/web/20260315140414/https://www.alibabacloud.com/help/en/model-studio/qwen3-livetranslate-flash-realtime",
       "retrieved_at": "2026-10-20"
     }
   ]

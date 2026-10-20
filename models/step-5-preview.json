@@ -20,7 +20,7 @@
   "limits": {
     "context": 1000000,
     "input": 1000000,
-    "output": null
+    "output": 65536
   },
   "modalities": {
     "input": [
@@ -192,6 +192,11 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Step 5 Preview API 缓存价格调整公告",
+      "url": "https://platform.stepfun.com/docs/zh/announcements/step-5-preview-price-adjustment",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

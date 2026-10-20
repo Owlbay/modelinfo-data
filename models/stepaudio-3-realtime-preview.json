@@ -1,7 +1,7 @@
 {
   "id": "stepaudio-3-realtime-preview",
   "object": "model",
-  "created": null,
+  "created": 1789430400,
   "owned_by": "stepfun",
   "name": "StepAudio 3 Realtime Preview",
   "api": {
@@ -35,7 +35,7 @@
   ],
   "info": {
     "status": "preview",
-    "release_date": null,
+    "release_date": "2026-09-15",
     "knowledge_cutoff": null,
     "description": "Full-duplex voice model for real-time interaction with natural interruption and tool calling; free for a limited time.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-realtime",
@@ -79,6 +79,11 @@
       "title": "Bidirectional Realtime Voice | StepFun API reference",
       "url": "https://platform.stepfun.ai/docs/en/api-reference/realtime/chat",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "阶跃发布语音大模型StepAudio 3 | 阶跃星辰新闻",
+      "url": "https://www.stepfun.com/news/stepaudio-3",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

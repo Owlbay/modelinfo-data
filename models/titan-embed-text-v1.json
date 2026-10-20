@@ -14,8 +14,8 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
+    "context": 8192,
+    "input": 8192,
     "output": null
   },
   "modalities": {
@@ -80,7 +80,7 @@
     {
       "title": "Amazon Bedrock model card: Titan Embeddings G1 - Text",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-embeddings-g1---text.html",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Amazon Bedrock Pricing",
@@ -96,6 +96,11 @@
       "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Amazon Titan Text Embeddings models | Amazon Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/titan-embedding-models.html",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

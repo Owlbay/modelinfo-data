@@ -1,0 +1,106 @@
+{
+  "id": "fugu-cyber",
+  "object": "model",
+  "created": 1784592000,
+  "owned_by": "sakana",
+  "name": "Fugu Cyber",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "messages"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "high",
+      "xhigh"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-21",
+    "knowledge_cutoff": null,
+    "description": "Fugu Cyber is Sakana AI's multi-agent orchestration model specialized for cybersecurity reasoning: security analysis, vulnerability research, threat investigation and other cyber workflows. fugu-cyber currently points to fugu-cyber-v1.0. Available only with pay-as-you-go billing after an approved access request; pricing is by contacting sales. Reasoning efforts high and xhigh; max is accepted as an alias of xhigh.",
+    "docs": "https://console.sakana.ai/models",
+    "verified_at": "2026-10-20"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "sakana",
+      "model": "fugu-cyber",
+      "base_url": "https://api.sakana.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses",
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort",
+        "messages": null
+      }
+    }
+  ],
+  "aliases": [
+    "fugu-cyber-v1.0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Fugu Cyber 是 Sakana AI 面向网络安全推理的多智能体编排模型，用于安全分析、漏洞研究、威胁调查等网络安全工作流。fugu-cyber 目前指向 fugu-cyber-v1.0。只在按量计费下提供，并需提交使用申请经人工审核后开通；价格需联系销售。思考档位为 high 与 xhigh，max 作为 xhigh 的别名被接受。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Sakana AI Console（Supported models: fugu-ultra → fugu-ultra-v2.0, fugu-ultra-v1.1, fugu-max → fugu-max-v1.0, fugu-cyber → fugu-cyber-v1.0）",
+      "url": "https://console.sakana.ai/models",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Get started | Sakana AI Console（Codex model catalog: context_window 1000000, input_modalities text/image, supported_reasoning_levels）",
+      "url": "https://console.sakana.ai/get-started",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Pricing | Sakana AI Console（Fugu Cyber: contact sales for pricing）",
+      "url": "https://console.sakana.ai/pricing",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Introducing Fugu-Cyber | Sakana AI（July 21, 2026）",
+      "url": "https://sakana.ai/fugu-cyber-release/",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-20"
+    }
+  ]
+}

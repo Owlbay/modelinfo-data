@@ -1,7 +1,7 @@
 {
   "id": "ideogram-2a",
   "object": "model",
-  "created": null,
+  "created": 1740614400,
   "owned_by": "ideogram",
   "name": "Ideogram 2a",
   "api": {
@@ -38,11 +38,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2025-02-27",
     "knowledge_cutoff": null,
     "description": "Fast, lower-cost Ideogram text-to-image model.",
     "docs": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-2a",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
     {
@@ -93,9 +93,14 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "Ideogram API pricing (dynamic table, lowest text-to-image tier)",
+      "title": "Ideogram API Pricing（Ideogram 2a Turbo $0.025, Default $0.04 per image）",
       "url": "https://ideogram.ai/pricing/?pricing_tab=api",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Ideogram on X: Say hello to Ideogram 2a … Now live on the Ideogram website, API（February 27, 2025）",
+      "url": "https://x.com/ideogram_ai/status/1895157668102222075",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

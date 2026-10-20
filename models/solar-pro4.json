@@ -16,7 +16,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 524288,
     "input": null,
     "output": 131072
   },
@@ -136,6 +136,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "API Pricing | Upstage",
+      "url": "https://www.upstage.ai/pricing",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

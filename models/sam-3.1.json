@@ -32,7 +32,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": 0.0025,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "streaming"
   ],
@@ -44,7 +51,16 @@
     "docs": "https://dev.meta.ai/docs/media-segmentation",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": 0.0025,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "meta",
@@ -71,7 +87,7 @@
     {
       "title": "Pricing and rate limits | Meta Model API",
       "url": "https://dev.meta.ai/docs/pricing-rate-limits",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Media segmentation | Meta Model API",

@@ -30,7 +30,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.0043,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "active",
@@ -40,7 +47,16 @@
     "docs": "https://developers.deepgram.com/docs/models-languages-overview",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.0043,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "deepgram",
@@ -83,6 +99,11 @@
       "title": "SDK support — @ai-sdk/deepgram (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/deepgram",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Introducing Nova-3 Medical | Deepgram",
+      "url": "https://deepgram.com/learn/introducing-nova-3-medical-speech-to-text-api",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

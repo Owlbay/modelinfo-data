@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 8192,
     "input": 8192,
     "output": null
   },
@@ -82,7 +82,7 @@
     {
       "title": "Gemini Embedding 2 | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Models | Gemini API",
@@ -118,6 +118,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Understand and count tokens | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/tokens",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

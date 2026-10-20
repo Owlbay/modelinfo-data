@@ -34,7 +34,14 @@
       "none"
     ]
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.08,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "streaming"
@@ -47,7 +54,16 @@
     "docs": "https://docs.x.ai/developers/models/grok-voice-3.0",
     "verified_at": "2026-10-15"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.08,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "xai",
@@ -81,7 +97,7 @@
     {
       "title": "Pricing（Speech to Speech grok-voice-3.0 为 $0.08/min 另加文本输入 $0.004）| xAI Docs",
       "url": "https://docs.x.ai/developers/pricing",
-      "retrieved_at": "2026-10-15"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Speech to Speech Pricing and Rate Limits | xAI Docs",

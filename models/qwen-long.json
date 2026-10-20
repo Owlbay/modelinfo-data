@@ -1,7 +1,7 @@
 {
   "id": "qwen-long",
   "object": "model",
-  "created": null,
+  "created": 1716163200,
   "owned_by": "alibaba",
   "name": "Qwen-Long",
   "api": {
@@ -49,11 +49,11 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2024-05-20",
     "knowledge_cutoff": null,
     "description": "Long-context model that processes large documents uploaded as files, with a 10,000,000-token context window.",
     "docs": "https://help.aliyun.com/zh/model-studio/long-context-qwen-long",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
     {
@@ -117,6 +117,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型上下架与更新 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

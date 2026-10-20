@@ -1,5 +1,5 @@
 {
-  "id": "north-small-translate-1-0",
+  "id": "north-small-translate-09-2026",
   "object": "model",
   "created": 1788912000,
   "owned_by": "cohere",
@@ -44,7 +44,7 @@
   "providers": [
     {
       "id": "cohere",
-      "model": "north-small-translate-1-0",
+      "model": "north-small-translate-09-2026",
       "base_url": "https://api.cohere.com",
       "endpoints": {
         "chat": "POST /v2/chat"
@@ -53,7 +53,7 @@
     }
   ],
   "aliases": [
-    "north-small-translate-09-2026"
+    "north-small-translate-1-0"
   ],
   "translations": {
     "zh": {

@@ -1,7 +1,7 @@
 {
   "id": "stepaudio-2.5-asr-stream",
   "object": "model",
-  "created": null,
+  "created": 1776988800,
   "owned_by": "stepfun",
   "name": "StepAudio 2.5 ASR Stream",
   "api": {
@@ -38,7 +38,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-04-24",
     "knowledge_cutoff": null,
     "description": "Streaming variant of StepAudio 2.5 ASR over a bidirectional WebSocket with server-side VAD and per-word timing.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-asr",
@@ -49,6 +49,14 @@
       "currency": "USD",
       "unit": "hour",
       "input": 0.18,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "hour",
+      "input": 1.2,
       "output": null,
       "cache_read": null,
       "cache_write": null
@@ -86,6 +94,21 @@
       "title": "Streaming Speech Recognition | StepFun API reference",
       "url": "https://platform.stepfun.ai/docs/en/api-reference/audio/asr-stream",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "API 定价 | StepFun 开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "阶跃 StepAudio 2.5 ASR 上线 | 阶跃星辰新闻",
+      "url": "https://www.stepfun.com/news/stepaudio-2-5-asr",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "StepAudio 2.5 ASR | StepFun 开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/models/stepaudio-2.5-asr",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

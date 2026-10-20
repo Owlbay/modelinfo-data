@@ -1,7 +1,7 @@
 {
   "id": "sarvam-105b",
   "object": "model",
-  "created": null,
+  "created": 1772755200,
   "owned_by": "sarvam",
   "name": "Sarvam-105B",
   "api": {
@@ -45,7 +45,7 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-03-06",
     "knowledge_cutoff": null,
     "description": "Sarvam flagship 105B Mixture-of-Experts chat model for Indian language understanding, reasoning, coding and agentic tasks.",
     "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-105b",
@@ -123,6 +123,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Open-Sourcing Sarvam 30B and 105B | Sarvam AI Blog",
+      "url": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

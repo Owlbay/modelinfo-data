@@ -17,9 +17,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 16384,
     "input": 8192,
-    "output": null
+    "output": 8192
   },
   "modalities": {
     "input": [
@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Low-cost Qwen translation model for simple, latency-sensitive uses, 31 languages.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
   "prices": [
     {
@@ -127,6 +127,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen-mt-lite model information | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-mt-lite",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

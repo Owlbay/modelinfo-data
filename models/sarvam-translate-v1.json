@@ -1,7 +1,7 @@
 {
   "id": "sarvam-translate-v1",
   "object": "model",
-  "created": null,
+  "created": 1749254400,
   "owned_by": "sarvam",
   "name": "Sarvam-Translate v1",
   "api": {
@@ -40,7 +40,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2025-06-07",
     "knowledge_cutoff": null,
     "description": "Text translation model covering 22 Indian languages and English in formal style, up to 2,000 characters per request.",
     "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-translate",
@@ -95,6 +95,11 @@
       "title": "SDK support — sarvamai (api.sdk only)",
       "url": "https://docs.sarvam.ai/api/getting-started/sdks",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Sarvam Translate | Sarvam AI Blog",
+      "url": "https://www.sarvam.ai/blogs/sarvam-translate",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

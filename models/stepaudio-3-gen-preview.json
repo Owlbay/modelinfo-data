@@ -1,7 +1,7 @@
 {
   "id": "stepaudio-3-gen-preview",
   "object": "model",
-  "created": null,
+  "created": 1789430400,
   "owned_by": "stepfun",
   "name": "StepAudio 3 Gen Preview",
   "api": {
@@ -32,7 +32,7 @@
   "features": [],
   "info": {
     "status": "preview",
-    "release_date": null,
+    "release_date": "2026-09-15",
     "knowledge_cutoff": null,
     "description": "Unified audio generation from natural language: expressive voice with sound effects, ambience, background music and singing; free for a limited time.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-gen",
@@ -66,6 +66,11 @@
       "title": "StepAudio 3 Gen | StepFun Documentation",
       "url": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-gen",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "阶跃发布语音大模型StepAudio 3 | 阶跃星辰新闻",
+      "url": "https://www.stepfun.com/news/stepaudio-3",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

@@ -31,7 +31,14 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.8,
+    "output": 6.4,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "streaming"
@@ -42,9 +49,26 @@
     "knowledge_cutoff": null,
     "description": "Duplex end-to-end voice conversation model with function calling, web search and voice cloning.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-20"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": 6.4,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 40,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "alibaba",
@@ -97,6 +121,16 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen-audio-3.1-realtime-plus model information | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-realtime-plus",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "模型价格 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

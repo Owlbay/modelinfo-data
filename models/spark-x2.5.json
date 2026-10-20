@@ -35,7 +35,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 3.2,
+    "output": 12,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "active",
@@ -45,7 +52,16 @@
     "docs": "https://www.xfyun.cn/doc/spark/Spark-X2.5%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D.html",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 3.2,
+      "output": 12,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "iflytek",
@@ -110,6 +126,16 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "讯飞星辰MaaS平台 模型广场",
+      "url": "https://maas.xfyun.cn/modelSquare",
+      "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "讯飞星火大模型API | 科大讯飞",
+      "url": "https://xinghuo.xfyun.cn/sparkapi",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 131072,
     "input": 131072,
     "output": null
   },
@@ -80,7 +80,7 @@
     {
       "title": "Lyria 3 Pro Preview | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Models | Gemini API",
@@ -111,6 +111,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Understand and count tokens | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/tokens",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

@@ -16,7 +16,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 65536,
     "input": 65536,
     "output": 32768
   },
@@ -86,7 +86,7 @@
     {
       "title": "Nano Banana Pro | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Models | Gemini API",
@@ -127,6 +127,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Understand and count tokens | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/tokens",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }

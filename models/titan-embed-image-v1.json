@@ -15,7 +15,7 @@
   },
   "limits": {
     "context": null,
-    "input": null,
+    "input": 256,
     "output": null
   },
   "modalities": {
@@ -97,6 +97,11 @@
       "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Amazon Titan Multimodal Embeddings G1 | Amazon Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/titan-multiemb-models.html",
+      "retrieved_at": "2026-10-20"
     }
   ]
 }
