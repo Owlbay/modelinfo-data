@@ -1,0 +1,102 @@
+{
+  "id": "moondream3.1-9b-a2b",
+  "object": "model",
+  "created": 1783382400,
+  "owned_by": "moondream",
+  "name": "Moondream 3.1 9B A2B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.3,
+    "output": 1,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-07",
+    "knowledge_cutoff": "2025-12",
+    "description": "Open-weight vision-language model with 9.0B total parameters and 2.0B active per token. It reads image and text into a 32,768-token context, returns text, and supports grounded reasoning. Weights use the Moondream License. Real-time cloud price is $0.30 per million input tokens and $1.00 per million output tokens. The batch price is half of that and is not stored. The model card still labels its figures preliminary.",
+    "docs": "https://moondream.ai/models/moondream_3-1_9B_A2B",
+    "verified_at": "2026-10-24"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 1,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "moondream",
+      "model": "moondream3.1-9B-A2B",
+      "base_url": "https://api.moondream.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "moondream3.1-9B-A2B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "开放权重的视觉语言模型，总参数 9.0B，每 token 激活 2.0B。它把图像和文本读入 32,768 token 上下文，输出文本，并支持带定位的推理。权重使用 Moondream License。云端实时价为每百万输入 token 0.30 美元、每百万输出 token 1.00 美元。批量价是该价格的一半，未记入。模型卡仍把数字标为初步结果。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Moondream 3.1 9B A2B model card",
+      "url": "https://moondream.ai/models/moondream_3-1_9B_A2B",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "title": "Pricing | Moondream",
+      "url": "https://moondream.ai/pricing",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "title": "API | Moondream Docs",
+      "url": "https://docs.moondream.ai/api",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "title": "Moondream 3.1: Beyond Benchmarks",
+      "url": "https://moondream.ai/blog/moondream-3-1-beyond-benchmarks",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

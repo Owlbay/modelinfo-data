@@ -1,0 +1,58 @@
+{
+  "id": "ming-3.0-tts-tiny",
+  "object": "model",
+  "created": null,
+  "owned_by": "inclusionai",
+  "name": "Ming-3.0-tts-tiny",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "inclusionAI mixture-of-experts speech-synthesis model. The Ling V3 backbone has 7.9B total parameters and about 1.3B active per token. It takes text and an optional reference clip and writes audio, including multi-speaker dialogue. The card lists the MIT license. No context limit, release date, or first-party hosted price is published.",
+    "docs": "https://huggingface.co/inclusionAI/Ming-3.0-tts-tiny",
+    "verified_at": "2026-10-24"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [
+    "Ming-3.0-tts-tiny"
+  ],
+  "translations": {
+    "zh": {
+      "description": "inclusionAI 的混合专家语音合成模型。Ling V3 骨干总参数 7.9B，每 token 大约激活 1.3B。输入为文本和可选的参考音频，输出音频，并支持多说话人对话。模型卡写明许可证为 MIT。未公布上下文上限、发布日期或第一方托管价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ming-3.0-tts-tiny model card | inclusionAI",
+      "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-tiny",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

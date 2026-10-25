@@ -1,0 +1,90 @@
+{
+  "id": "moondream3-preview",
+  "object": "model",
+  "created": null,
+  "owned_by": "moondream",
+  "name": "Moondream 3 Preview",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.3,
+    "output": 2.5,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "streaming",
+    "batch"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Hosted Moondream 3 Preview vision model. The API model id is moondream3-preview, and the shared chat endpoint accepts image inputs and streaming. Real-time price is $0.30 per million input tokens and $2.50 per million output tokens. The batch price is half of that and is not stored. Context length, parameter count, and release date are not stated on the pricing or API pages.",
+    "docs": "https://docs.moondream.ai/api",
+    "verified_at": "2026-10-24"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 2.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "moondream",
+      "model": "moondream3-preview",
+      "base_url": "https://api.moondream.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "托管的 Moondream 3 Preview 视觉模型。API 模型 ID 为 moondream3-preview，共用的对话端点接受图像输入并支持流式输出。实时价为每百万输入 token 0.30 美元、每百万输出 token 2.50 美元。批量价是该价格的一半，未记入。价格页和 API 页没有写上下文长度、参数量和发布日期。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Pricing | Moondream",
+      "url": "https://moondream.ai/pricing",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "title": "API | Moondream Docs",
+      "url": "https://docs.moondream.ai/api",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

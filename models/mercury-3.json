@@ -11,6 +11,7 @@
     "sdk": [
       "@ai-sdk/openai",
       "@ai-sdk/openai-compatible",
+      "inceptionai",
       "openai"
     ]
   },
@@ -47,15 +48,16 @@
   "features": [
     "tools",
     "structured_output",
-    "streaming"
+    "streaming",
+    "caching"
   ],
   "info": {
     "status": "active",
     "release_date": "2026-10-19",
     "knowledge_cutoff": null,
-    "description": "Inception's most capable diffusion LLM, with a 1M-token context window, up to 131,072 output tokens and instant, low, medium and high reasoning effort.",
+    "description": "Diffusion language model with a 1M-token context window and a maximum of 131,072 output tokens. Reasoning effort accepts instant, low, medium, and high. Text in, text out, with tool calling and structured outputs. The recorded price is the standard rate; launch pricing is 50% lower.",
     "docs": "https://docs.inceptionlabs.ai/get-started/models",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-10-22"
   },
   "prices": [
     {
@@ -81,14 +83,19 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "Inception 最强的扩散语言模型，上下文窗口 1M tokens，最多输出 131,072 tokens，支持 instant、low、medium、high 四档思考。"
+      "description": "扩散语言模型，上下文窗口为 1M tokens，最大输出 131,072 tokens。reasoning effort 取值为 instant、low、medium 和 high。输入和输出均为文本，支持工具调用和结构化输出。此处记录的是标准价；首发价为其五折。"
     }
   },
   "sources": [
     {
-      "title": "Models | Inception Docs（Mercury 3 标准价 $0.20 / $0.02 / $0.70，上线期间 5 折）",
+      "title": "Models | Inception Docs",
       "url": "https://docs.inceptionlabs.ai/get-started/models",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "Diffusion at Scale: Introducing Mercury 3 | Inception",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "retrieved_at": "2026-10-22"
     },
     {
       "title": "Reasoning Efforts | Inception Docs",
@@ -98,11 +105,6 @@
     {
       "title": "List available models | Inception API",
       "url": "https://api.inceptionlabs.ai/v1/models",
-      "retrieved_at": "2026-10-20"
-    },
-    {
-      "title": "Diffusion at Scale: Introducing Mercury 3 - Inception Blog（Oct 19, 2026）",
-      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
       "retrieved_at": "2026-10-20"
     },
     {

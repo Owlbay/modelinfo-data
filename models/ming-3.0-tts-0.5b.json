@@ -1,0 +1,58 @@
+{
+  "id": "ming-3.0-tts-0.5b",
+  "object": "model",
+  "created": null,
+  "owned_by": "inclusionai",
+  "name": "Ming-3.0-tts-0.5B",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "inclusionAI dense 0.5B speech-synthesis checkpoint built on Qwen2.5-0.5B. It takes text and an optional reference clip and writes 44.1 kHz audio. The card lists voice cloning, voice design, emotion and dialect control, and the MIT license. No context limit, release date, or first-party hosted price is published.",
+    "docs": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+    "verified_at": "2026-10-24"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [
+    "Ming-3.0-tts-0.5B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "inclusionAI 的稠密 0.5B 语音合成模型，骨干为 Qwen2.5-0.5B。输入为文本和可选的参考音频，输出 44.1 kHz 音频。模型卡列出声音克隆、声音设计、情绪和方言控制，许可证为 MIT。未公布上下文上限、发布日期或第一方托管价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ming-3.0-tts-0.5B model card | inclusionAI",
+      "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

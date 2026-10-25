@@ -3,7 +3,7 @@
   "object": "model",
   "created": 1788998400,
   "owned_by": "deepseek",
-  "name": "DeepSeek-V4.1-Flash",
+  "name": "DeepSeek-V4.1-Flash-1017",
   "api": {
     "types": [
       "chat",
@@ -59,9 +59,9 @@
     "status": "active",
     "release_date": "2026-09-10",
     "knowledge_cutoff": null,
-    "description": "DeepSeek-V4.1-Flash, the smallest model of the new architecture family, with native multimodal visual understanding.",
+    "description": "As of 2026-10-17, deepseek-flash is served by DeepSeek-V4.1-Flash-1017. The API name and peak pricing are unchanged. The pricing page lists a 1M-token context, a 384K maximum output, native vision, JSON output, and tool calls. Weights are released under the MIT License. Off-peak rates are half the peak rates stored here.",
     "docs": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-22"
   },
   "prices": [
     {
@@ -104,19 +104,24 @@
   ],
   "translations": {
     "zh": {
-      "description": "DeepSeek-V4.1-Flash，新架构系列中最小的模型，具备原生多模态视觉理解能力。"
+      "description": "自 2026-10-17 起，deepseek-flash 由 DeepSeek-V4.1-Flash-1017 提供。API 名称和高峰价格不变。定价页写明上下文 1M tokens、最大输出 384K，并支持原生视觉、JSON 输出和工具调用。权重以 MIT 许可发布。非高峰价格是此处所记高峰价的一半。"
     }
   },
   "sources": [
     {
       "title": "Models & Pricing | DeepSeek API Docs",
       "url": "https://api-docs.deepseek.com/quick_start/pricing",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-22"
     },
     {
       "title": "Change Log | DeepSeek API Docs",
       "url": "https://api-docs.deepseek.com/updates",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash-1017 model card (MIT License) | Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "retrieved_at": "2026-10-22"
     },
     {
       "title": "Thinking Mode | DeepSeek API Docs",

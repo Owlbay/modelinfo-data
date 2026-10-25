@@ -1,0 +1,97 @@
+{
+  "id": "flux-3-image-klein",
+  "object": "model",
+  "created": 1792022400,
+  "owned_by": "black-forest-labs",
+  "name": "FLUX 3 Image Klein",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "image",
+    "input": null,
+    "output": 0.008,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-15",
+    "knowledge_cutoff": null,
+    "description": "Open-weight 5.6B FLUX 3 image model for text-to-image, editing, and up to 10 reference images, under the FLUX Kommunity License. The API model id is flux-3-image-klein. Official per-image prices by output size are $0.008 at 768×768, $0.009 at 1K, $0.011 at 1.5K, $0.014 at 2K, and $0.036 at 4K. The stored price is the lowest tier, 768×768.",
+    "docs": "https://docs.bfl.ml/flux_3/flux3_image_klein",
+    "verified_at": "2026-10-16"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.008,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "black-forest-labs",
+      "model": "flux-3-image-klein",
+      "base_url": "https://api.bfl.ai",
+      "endpoints": {
+        "images": "POST /v1/flux-3-image-klein"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "开放权重的 5.6B FLUX 3 图像模型，支持文生图、编辑和最多 10 张参考图，许可证为 FLUX Kommunity License。API 模型 ID 为 flux-3-image-klein。官方按输出尺寸的单张价格为 768×768 $0.008、1K $0.009、1.5K $0.011、2K $0.014、4K $0.036。记录的是最低档 768×768。"
+    }
+  },
+  "sources": [
+    {
+      "title": "FLUX 3 Image Klein",
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "retrieved_at": "2026-10-16"
+    },
+    {
+      "title": "Pricing（FLUX 3 Klein：768×768 $0.008、1K $0.009、1.5K $0.011、2K $0.014、4K $0.036）| Black Forest Labs",
+      "url": "https://docs.bfl.ml/quick_start/pricing",
+      "retrieved_at": "2026-10-16"
+    },
+    {
+      "title": "FLUX 3 Image Klein | Black Forest Labs Docs",
+      "url": "https://docs.bfl.ml/flux_3/flux3_image_klein",
+      "retrieved_at": "2026-10-16"
+    },
+    {
+      "title": "Generate an image with FLUX 3 Klein | Black Forest Labs API",
+      "url": "https://docs.bfl.ml/api-reference/utility/generate-an-image-with-flux-3-klein",
+      "retrieved_at": "2026-10-16"
+    }
+  ]
+}

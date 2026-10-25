@@ -1,0 +1,89 @@
+{
+  "id": "nemotron-3.5-super-vl",
+  "object": "model",
+  "created": 1792022400,
+  "owned_by": "nvidia",
+  "name": "Nemotron 3.5 Super VL",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-15",
+    "knowledge_cutoff": null,
+    "description": "Open 120B-parameter vision-language model with 12B active parameters, under the OpenMDW-1.1 license. It accepts text, images, and video and returns text; the announcement also describes webpage and PDF understanding, with documents supplied as page images. The weights card says context is up to 1M tokens, and one TensorRT-LLM example sets max_seq_len to 1048576. The NVIDIA NIM catalog lists 262K for the hosted endpoint. Those figures conflict, so the context limit is unset. Reasoning is switched with chat_template_kwargs.enable_thinking; medium effort sets medium_effort to true. No official API token price is published.",
+    "docs": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+    "verified_at": "2026-10-16"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/nemotron-3.5-super-vl-120b-a12b"
+  ],
+  "translations": {
+    "zh": {
+      "description": "开放的 120B 视觉语言模型，激活参数 12B，许可证为 OpenMDW-1.1。输入为文本、图像和视频，输出为文本；公告还写到网页与 PDF 理解，文档以页面图像提供。权重卡写上下文最高 1M tokens，一份 TensorRT-LLM 示例把 max_seq_len 设为 1048576。NVIDIA NIM 目录把托管端点标为 262K。两处数字冲突，因此上下文上限留空。推理用 chat_template_kwargs.enable_thinking 开关；中等强度另设 medium_effort 为 true。官方未公布 API token 标准价。"
+    }
+  },
+  "sources": [
+    {
+      "title": "NVIDIA Expands Nemotron Family With Nemotron 3.5 Super VL",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "retrieved_at": "2026-10-16"
+    },
+    {
+      "title": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 model card | Hugging Face",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+      "retrieved_at": "2026-10-16"
+    },
+    {
+      "title": "nemotron-3.5-super-vl-120b-a12b model card | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b/modelcard",
+      "retrieved_at": "2026-10-16"
+    },
+    {
+      "title": "nemotron-3.5-super-vl-120b-a12b | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "retrieved_at": "2026-10-16"
+    }
+  ]
+}

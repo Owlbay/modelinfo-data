@@ -37,7 +37,7 @@
     "input": 12.5,
     "output": 75,
     "cache_read": 1.25,
-    "cache_write": null
+    "cache_write": 15.625
   },
   "features": [
     "tools",
@@ -51,7 +51,7 @@
     "knowledge_cutoff": "2026-02-16",
     "description": "Advanced cybersecurity model for authorized vulnerability research and security testing (approved access only).",
     "docs": "https://developers.openai.com/api/docs/models/gpt-5.6-cyber",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-16"
   },
   "prices": [
     {
@@ -60,7 +60,7 @@
       "input": 12.5,
       "output": 75,
       "cache_read": 1.25,
-      "cache_write": null
+      "cache_write": 15.625
     }
   ],
   "providers": [
@@ -89,9 +89,9 @@
       "retrieved_at": "2026-10-10"
     },
     {
-      "title": "Pricing | OpenAI API",
+      "title": "Pricing（gpt-5.6-cyber 短上下文缓存写入 $15.625／百万 tokens）| OpenAI API",
       "url": "https://developers.openai.com/api/docs/pricing",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-16"
     },
     {
       "title": "Models | OpenAI API",

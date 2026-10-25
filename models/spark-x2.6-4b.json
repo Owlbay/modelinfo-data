@@ -1,0 +1,70 @@
+{
+  "id": "spark-x2.6-4b",
+  "object": "model",
+  "created": 1792540800,
+  "owned_by": "iflytek",
+  "name": "Spark-X2.6-4B",
+  "api": {
+    "types": [
+      "responses"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-21",
+    "knowledge_cutoff": null,
+    "description": "iFlytek Spark-X2.6-4B. The MaaS catalog says code, agent, long-text, and multilingual ability are improved and that three reasoning modes were added. Context is tagged 1M, with text input and text output. It prints an OpenAI base at /v2, an Anthropic base at /anthropic, and a complete Responses URL at /v1/responses; only that Responses path is recorded. The catalog marks the model limited-time free and lists a zero inference price, so the standard price is unset.",
+    "docs": "https://xinghuo.xfyun.cn/sparkapi",
+    "verified_at": "2026-10-24"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "iflytek",
+      "model": "spark-x2.6-4b",
+      "base_url": "https://maas-api.cn-huabei-1.xf-yun.com",
+      "endpoints": {
+        "responses": "POST /v1/responses"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "讯飞 Spark-X2.6-4B。星辰 MaaS 目录写明代码、智能体、长文本和多语言能力提升，并新增三档推理模式。上下文标为 1M，输入和输出都是文本。目录给出 OpenAI 基址 /v2、Anthropic 基址 /anthropic，以及完整的 Responses 地址 /v1/responses；这里只登记这条完整路径。目录角标为限时免费，推理价格为 0，因此标准价留空。"
+    }
+  },
+  "sources": [
+    {
+      "title": "讯飞星火大模型 API",
+      "url": "https://xinghuo.xfyun.cn/sparkapi",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "title": "星辰 MaaS 模型目录（Spark-X2.6-4B）",
+      "url": "https://maas.xfyun.cn/api/v1/gpt-finetune/model/base/list-v2",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

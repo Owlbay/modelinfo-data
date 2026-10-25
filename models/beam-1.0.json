@@ -1,0 +1,75 @@
+{
+  "id": "beam-1.0",
+  "object": "model",
+  "created": 1792108800,
+  "owned_by": "reflection",
+  "name": "Beam 1.0",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-16",
+    "knowledge_cutoff": "2026-06-30",
+    "description": "Open-weight sparse mixture-of-experts model with 501.3B total parameters and 23.4B active parameters. It takes text input and generates text, with a 1M-token context length and a knowledge cutoff of 2026-06-30. Weights are Apache 2.0. Reasoning values are low, medium (default), high, xhigh, and max, and the model supports tool calling. No first-party API price is published.",
+    "docs": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+    "verified_at": "2026-10-22"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [
+    "Beam-1.0-501B-A23B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "开源稀疏混合专家模型，模型卡写明总参数 501.3B、激活参数 23.4B，输入和输出均为文本，上下文长度 1M tokens，知识截止日期 2026-06-30。权重为 Apache 2.0。推理档位为 low、medium（默认）、high、xhigh 和 max，并支持工具调用。未公布第一方 API 价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Introducing Beam | Reflection",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "Beam 1.0 model card | Hugging Face",
+      "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "Introducing Beam | Hugging Face Blog",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "retrieved_at": "2026-10-22"
+    }
+  ]
+}

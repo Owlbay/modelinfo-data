@@ -1,0 +1,68 @@
+{
+  "id": "nemotron-3.5-embed-1b",
+  "object": "model",
+  "created": 1792454400,
+  "owned_by": "nvidia",
+  "name": "Nemotron 3.5 Embed 1B",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-20",
+    "knowledge_cutoff": null,
+    "description": "1.55B multimodal embedding model. It embeds text and document images into a 2048-dimensional vector, with a 32,768-token context. The hosted Preview API serves the BF16 variant as nvidia/nemotron-3.5-embed-1b. Weights use OpenMDW-1.1. The same card also describes an NVFP4 quantized derivative that is not a separate hosted model id. The trial endpoint does not publish a numeric standard price.",
+    "docs": "https://build.nvidia.com/nvidia/nemotron-3_5-embed-1b/modelcard",
+    "verified_at": "2026-10-24"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/nemotron-3.5-embed-1b",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/nemotron-3.5-embed-1b"
+  ],
+  "translations": {
+    "zh": {
+      "description": "1.55B 多模态向量模型。它把文本和文档图像编码为 2048 维向量，上下文 32,768 tokens。托管的 Preview API 提供 BF16 变体，模型 ID 为 nvidia/nemotron-3.5-embed-1b。权重使用 OpenMDW-1.1。同一模型卡还描述了 NVFP4 量化衍生版本，它不是另一个托管模型 ID。试用端点没有公布数字标准价。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nemotron-3.5-embed-1b Model Card | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/nemotron-3_5-embed-1b/modelcard",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

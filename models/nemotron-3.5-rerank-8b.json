@@ -1,0 +1,58 @@
+{
+  "id": "nemotron-3.5-rerank-8b",
+  "object": "model",
+  "created": 1792454400,
+  "owned_by": "nvidia",
+  "name": "Nemotron 3.5 Rerank 8B",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-20",
+    "knowledge_cutoff": null,
+    "description": "8.38B reranker that scores a text query against a document of text, a page image, or both. Context is 32,768 tokens. Weights use OpenMDW-1.1. The API reference dates both the Hugging Face card and the planned Build.NVIDIA listing to 2026-10-20. No request path is printed, and no numeric standard price is published.",
+    "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-rerank-8b",
+    "verified_at": "2026-10-24"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [
+    "nvidia/nemotron-3.5-rerank-8b"
+  ],
+  "translations": {
+    "zh": {
+      "description": "8.38B 重排模型，对文本查询与文档（文本、页面图像或两者）的相关程度打分。上下文 32,768 tokens。权重使用 OpenMDW-1.1。API 参考把 Hugging Face 模型卡和计划中的 Build.NVIDIA 上架都写为 2026-10-20。页面没有给出请求路径，也没有数字标准价。"
+    }
+  },
+  "sources": [
+    {
+      "title": "nvidia / nemotron-3.5-rerank-8b | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-rerank-8b",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ming-3.0-asr-tiny",
+  "object": "model",
+  "created": null,
+  "owned_by": "inclusionai",
+  "name": "Ming-3.0-asr-tiny",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "inclusionAI speech-recognition model that pairs a Ling-tiny-v3 language backbone with an audio encoder. It transcribes Chinese and English, including dialects, and can take hotwords or dialogue context as text. Output is transcription text. The card says image and video inputs are unsupported, and that a self-hosted server can stream the transcript. Weights and original project code use the MIT license. Parameter count, context limit, release date, and a first-party hosted price are not stated.",
+    "docs": "https://huggingface.co/inclusionAI/Ming-3.0-asr-tiny",
+    "verified_at": "2026-10-24"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "inclusionAI 的语音识别模型，把 Ling-tiny-v3 语言骨干和音频编码器结合在一起。它转写中文和英文，包括方言，并可以把热词或对话上下文作为文本输入。输出是转写文本。模型卡写明不支持图像和视频输入，自托管服务可以流式返回转写。权重和项目原代码使用 MIT 许可证。参数量、上下文上限、发布日期和第一方托管价格均未写明。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ming-3.0-asr-tiny model card | inclusionAI",
+      "url": "https://huggingface.co/inclusionAI/Ming-3.0-asr-tiny",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

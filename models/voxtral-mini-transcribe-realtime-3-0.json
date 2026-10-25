@@ -1,0 +1,104 @@
+{
+  "id": "voxtral-mini-transcribe-realtime-3-0",
+  "object": "model",
+  "created": 1792454400,
+  "owned_by": "mistral",
+  "name": "Voxtral Mini Transcribe Realtime 3",
+  "api": {
+    "types": [
+      "audio",
+      "realtime"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.008,
+    "output": null,
+    "cache_read": 0.0008,
+    "cache_write": null
+  },
+  "features": [
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-20",
+    "knowledge_cutoff": null,
+    "description": "Public-preview realtime transcription model for a single WebSocket session, with configurable latency from 80 ms to 2,400 ms, end-of-turn detection, context biasing, and speaker diarization. Input is audio and output is text. The model card does not list a context length.",
+    "docs": "https://docs.mistral.ai/models/voxtral-mini-transcribe-realtime-3-0",
+    "verified_at": "2026-10-22"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.008,
+      "output": null,
+      "cache_read": 0.0008,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "voxtral-mini-transcribe-realtime-3-0",
+      "base_url": "wss://api.mistral.ai",
+      "endpoints": {
+        "audio": "WS /v1/audio/transcriptions/realtime",
+        "realtime": "WS /v1/audio/transcriptions/realtime"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "voxtral-mini-transcribe-realtime-3",
+    "voxtral-mini-transcribe-realtime-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "公开预览的实时转写模型，在单条 WebSocket 会话中提供 80 ms 到 2,400 ms 的可配置延迟、话轮检测、上下文偏置和说话人分离。输入为音频，输出为文本。模型卡未列出上下文长度。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Voxtral Mini Transcribe Realtime 3 | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-realtime-3-0",
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "Realtime transcription | Mistral Docs",
+      "url": "https://docs.mistral.ai/studio/audio/speech-to-text/transcribe-in-realtime",
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "API pricing | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/pricing",
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "Migrate from Voxtral 2 | Mistral Docs",
+      "url": "https://docs.mistral.ai/studio/audio/migrate-from-voxtral-2",
+      "retrieved_at": "2026-10-22"
+    }
+  ]
+}

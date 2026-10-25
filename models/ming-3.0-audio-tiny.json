@@ -1,0 +1,58 @@
+{
+  "id": "ming-3.0-audio-tiny",
+  "object": "model",
+  "created": null,
+  "owned_by": "inclusionai",
+  "name": "Ming-3.0-audio-tiny",
+  "api": {
+    "types": [
+      "chat",
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "inclusionAI compact native audio-language mixture-of-experts model with 9.3B total parameters and 2.7B activated per step. It takes audio and text and can return text or text with synthesized speech. The card states audio reasoning and the MIT license. No context limit, release date, or first-party hosted price is published.",
+    "docs": "https://huggingface.co/inclusionAI/Ming-3.0-audio-tiny",
+    "verified_at": "2026-10-24"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "inclusionAI 的紧凑原生音频语言模型，混合专家架构，总参数 9.3B，每步激活 2.7B。输入为音频和文本，可以返回文本，或文本加合成语音。模型卡写明支持音频推理，许可证为 MIT。未公布上下文上限、发布日期或第一方托管价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ming-3.0-audio-tiny model card | inclusionAI",
+      "url": "https://huggingface.co/inclusionAI/Ming-3.0-audio-tiny",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "flint",
+  "object": "model",
+  "created": 1792540800,
+  "owned_by": "recursive",
+  "name": "Recursive Flint",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-21",
+    "knowledge_cutoff": null,
+    "description": "Open-weight mixture-of-experts coding model with 40 billion total parameters and 2.5 billion active per token, under the Apache 2.0 license. The announcement states a context window of up to 512k tokens and recommends staying within 256k tokens. No first-party API or price is published.",
+    "docs": "https://recursive.com/updates/introducing-recursive-flint",
+    "verified_at": "2026-10-22"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "开源混合专家编程模型，公告写明总参数 400 亿、每 token 激活 25 亿，许可为 Apache 2.0。上下文窗口最高 512k tokens，并建议编程和其他任务保持在 256k tokens 以内。未公布第一方 API 或价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Introducing Flint | Recursive",
+      "url": "https://recursive.com/updates/introducing-recursive-flint",
+      "retrieved_at": "2026-10-22"
+    }
+  ]
+}

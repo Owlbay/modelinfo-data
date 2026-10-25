@@ -1,0 +1,100 @@
+{
+  "id": "voxtral-mini-tts-3-0",
+  "object": "model",
+  "created": 1792454400,
+  "owned_by": "mistral",
+  "name": "Voxtral TTS 3",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 13,
+    "output": null,
+    "cache_read": 1.3,
+    "cache_write": null
+  },
+  "features": [
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-20",
+    "knowledge_cutoff": null,
+    "description": "Public-preview text-to-speech model with zero-shot and professional voice cloning, 9 languages, and streaming with about 90 ms time-to-first-audio. Input is text and audio; output is audio.",
+    "docs": "https://docs.mistral.ai/models/voxtral-mini-tts-3-0",
+    "verified_at": "2026-10-22"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 13,
+      "output": null,
+      "cache_read": 1.3,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "voxtral-mini-tts-3-0",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "audio": "POST /v1/audio/speech"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "voxtral-mini-tts-3",
+    "voxtral-mini-tts-realtime-3-0",
+    "voxtral-mini-tts-realtime-3",
+    "voxtral-mini-tts-realtime-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "公开预览的文字转语音模型，支持零样本和专业声音克隆、9 种语言，流式输出的首个音频延迟约 90 ms。输入为文本和音频，输出为音频。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Voxtral TTS 3 | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/voxtral-mini-tts-3-0",
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "API pricing | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/pricing",
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "Migrate from Voxtral 2 | Mistral Docs",
+      "url": "https://docs.mistral.ai/studio/audio/migrate-from-voxtral-2",
+      "retrieved_at": "2026-10-22"
+    }
+  ]
+}

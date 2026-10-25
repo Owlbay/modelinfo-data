@@ -1,0 +1,96 @@
+{
+  "id": "voxtral-mini-transcribe-3-0",
+  "object": "model",
+  "created": 1792454400,
+  "owned_by": "mistral",
+  "name": "Voxtral Mini Transcribe 3",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.0035,
+    "output": null,
+    "cache_read": 0.00035,
+    "cache_write": null
+  },
+  "features": [
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-20",
+    "knowledge_cutoff": null,
+    "description": "Public-preview transcription and diarization model. Context length is 32k. Input is audio and output is text.",
+    "docs": "https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0",
+    "verified_at": "2026-10-22"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.0035,
+      "output": null,
+      "cache_read": 0.00035,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "mistral",
+      "model": "voxtral-mini-transcribe-3-0",
+      "base_url": "https://api.mistral.ai",
+      "endpoints": {
+        "audio": "POST /v1/audio/transcriptions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "voxtral-mini-transcribe-3",
+    "voxtral-mini-transcribe-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "公开预览的转写和说话人分离模型。上下文长度为 32k。输入为音频，输出为文本。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Voxtral Mini Transcribe 3 | Mistral Docs",
+      "url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0",
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "API pricing | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/pricing",
+      "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "Migrate from Voxtral 2 | Mistral Docs",
+      "url": "https://docs.mistral.ai/studio/audio/migrate-from-voxtral-2",
+      "retrieved_at": "2026-10-22"
+    }
+  ]
+}
