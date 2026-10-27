@@ -66,8 +66,8 @@
       "model": "muse-image-1.0",
       "base_url": "https://api.meta.ai/v1",
       "endpoints": {
-        "responses": "POST /v1/responses",
-        "images": "POST /v1/images/generations"
+        "responses": "POST /responses",
+        "images": "POST /images/generations"
       },
       "reasoning_param": null
     }

@@ -63,8 +63,8 @@
       "model": "muse-voice-transcribe-1.0",
       "base_url": "https://api.meta.ai/v1",
       "endpoints": {
-        "audio": "POST /v1/asr/transcribe",
-        "realtime": "GET /v1/asr/realtime"
+        "audio": "POST /asr/transcribe",
+        "realtime": "GET /asr/realtime"
       },
       "reasoning_param": null
     }

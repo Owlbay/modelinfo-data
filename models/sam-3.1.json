@@ -67,7 +67,7 @@
       "model": "sam-3.1",
       "base_url": "https://api.meta.ai/v1",
       "endpoints": {
-        "responses": "POST /v1/responses"
+        "responses": "POST /responses"
       },
       "reasoning_param": null
     }

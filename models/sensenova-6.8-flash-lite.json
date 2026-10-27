@@ -83,7 +83,7 @@
       "model": "sensenova-6.8-flash-lite",
       "base_url": "https://token.sensenova.cn/v1",
       "endpoints": {
-        "chat": "POST /v1/chat/completions"
+        "chat": "POST /chat/completions"
       },
       "reasoning_param": null,
       "pricing": null

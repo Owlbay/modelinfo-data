@@ -80,8 +80,8 @@
       "model": "muse-spark-1.2-contributor",
       "base_url": "https://api.meta.ai/v1",
       "endpoints": {
-        "chat": "POST /v1/chat/completions",
-        "responses": "POST /v1/responses"
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
       },
       "reasoning_param": "reasoning_effort"
     }
