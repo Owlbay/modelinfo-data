@@ -1,0 +1,102 @@
+{
+  "id": "summarize-1",
+  "object": "model",
+  "created": null,
+  "owned_by": "scaledown",
+  "name": "Summarize-1",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": 1000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": 0,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Task-specific small model for faithful abstractive summaries, called through the OpenAI-compatible chat completions API; summarize always points to the latest version. Output is capped at 1,000 tokens and is free; image input is $0.15 per million tokens.",
+    "docs": "https://docs.scaledown.ai/api-reference/summarize",
+    "verified_at": "2026-10-28"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": 0,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "scaledown",
+      "model": "summarize-1",
+      "base_url": "https://api.scaledown.xyz/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "summarize"
+  ],
+  "translations": {
+    "zh": {
+      "description": "面向忠实摘要的专用小模型，通过兼容 OpenAI 的 Chat Completions 接口调用；summarize 始终指向最新版本。输出最多 1,000 tokens 且不收费；图片输入为每百万 tokens 0.15 美元。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Summarize（model summarize-1 / summarize，max_tokens 默认且最大 1000，支持 JPEG、PNG、TIFF、PDF 文件输入）| ScaleDown Docs",
+      "url": "https://docs.scaledown.ai/api-reference/summarize",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "Summarize overview | ScaleDown Docs",
+      "url": "https://docs.scaledown.ai/api-reference/summarize-overview",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "ScaleDown 官网 Pricing（Extract / Summarize：文本输入 $0.05、图片输入 $0.15 / 1M tokens，输出免费，上下文 1M tokens）",
+      "url": "https://scaledown.ai",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "Introduction（API base URL https://api.scaledown.xyz）| ScaleDown Docs",
+      "url": "https://docs.scaledown.ai/introduction",
+      "retrieved_at": "2026-10-28"
+    }
+  ]
+}

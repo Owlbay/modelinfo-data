@@ -1,0 +1,104 @@
+{
+  "id": "extract-1",
+  "object": "model",
+  "created": null,
+  "owned_by": "scaledown",
+  "name": "Extract-1",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": 0,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "structured_output"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Task-specific small model that extracts entities defined by a JSON schema, returning each match with a confidence score and surrounding context, through the OpenAI-compatible chat completions API; extract always points to the latest version. Output is free; image input is $0.15 per million tokens.",
+    "docs": "https://docs.scaledown.ai/api-reference/extract",
+    "verified_at": "2026-10-28"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": 0,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "scaledown",
+      "model": "extract-1",
+      "base_url": "https://api.scaledown.xyz/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "extract"
+  ],
+  "translations": {
+    "zh": {
+      "description": "按 JSON Schema 定义的字段抽取实体的专用小模型，每个结果附置信度与上下文，通过兼容 OpenAI 的 Chat Completions 接口调用；extract 始终指向最新版本。输出不收费；图片输入为每百万 tokens 0.15 美元。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Extract（model extract-1 / extract，response_format JSON Schema，支持 JPEG、PNG、TIFF、PDF 文件输入）| ScaleDown Docs",
+      "url": "https://docs.scaledown.ai/api-reference/extract",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "Extract overview | ScaleDown Docs",
+      "url": "https://docs.scaledown.ai/api-reference/extract-overview",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "ScaleDown 官网 Pricing（Extract / Summarize：文本输入 $0.05、图片输入 $0.15 / 1M tokens，输出免费，上下文 1M tokens）",
+      "url": "https://scaledown.ai",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "Introduction（API base URL https://api.scaledown.xyz）| ScaleDown Docs",
+      "url": "https://docs.scaledown.ai/introduction",
+      "retrieved_at": "2026-10-28"
+    }
+  ]
+}
