@@ -1,0 +1,131 @@
+{
+  "id": "qwen-audio-3.1-realtime-flash",
+  "object": "model",
+  "created": 1793059200,
+  "owned_by": "alibaba",
+  "name": "Qwen-Audio-3.1-Realtime-Flash",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": 245760,
+    "output": 16384
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.23,
+    "output": 0.7,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-27",
+    "knowledge_cutoff": null,
+    "description": "Low-latency duplex end-to-end voice conversation model with function calling, web search and voice cloning. The recorded price is for text input and text output; audio input is $0.93 and audio output $1.87 per million tokens.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-realtime-flash",
+    "verified_at": "2026-10-28"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.23,
+      "output": 0.7,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1.5,
+      "output": 4.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen-audio-3.1-realtime-flash",
+      "base_url": "wss://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "realtime": "WS /api-ws/v1/realtime?model=qwen-audio-3.1-realtime-flash"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "低延迟双工端到端语音对话模型，支持工具调用、联网搜索和声音复刻。此处记录的是文本输入与文本输出价；音频输入为每百万 tokens 0.93 美元，音频输出为 1.87 美元。"
+    }
+  },
+  "sources": [
+    {
+      "title": "qwen-audio-3.1-realtime-flash model information（上下文 262,144、最大输入 245,760、最大输出 16,384；文本输入 $0.23、音频输入 $0.93、文本输出 $0.7、音频输出 $1.87）| Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-realtime-flash",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "Model lifecycle and updates（2026-10-27 qwen-audio-3.1-realtime-flash）| Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "模型价格（qwen-audio-3.1-realtime-flash 文本输入 1.5 元、音频输入 6 元、文本输出 4.5 元、音频输出 12 元）| 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "Omni models（Realtime API，函数调用与联网搜索支持，思考模式不支持）| Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/omni",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "Real-time speech guide | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-user-guides",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "Rate limits | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/rate-limit",
+      "retrieved_at": "2026-10-28"
+    },
+    {
+      "title": "SDK support — dashscope-sdk-official (api.sdk only)",
+      "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
+      "retrieved_at": "2026-10-28"
+    }
+  ]
+}
