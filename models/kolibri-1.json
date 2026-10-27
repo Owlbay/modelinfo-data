@@ -1,0 +1,65 @@
+{
+  "id": "kolibri-1",
+  "object": "model",
+  "created": 1790985600,
+  "owned_by": "aleph-alpha",
+  "name": "Kolibri-1",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "structured_output"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-03",
+    "knowledge_cutoff": "2026-06-18",
+    "description": "Open-weight mixture-of-experts reasoning model for German and English, released on 3 October 2026 under Apache 2.0. The model card lists a context length of 1,048,576 tokens and recommends at most 262,144 tokens for serving efficiency. reasoning_effort accepts none, low, medium, or high, and the card documents tool calling and structured output. No standard API token price or first-party request URL is published.",
+    "docs": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+    "verified_at": "2026-10-27"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [
+    "Aleph-Alpha/Kolibri-1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "面向德语和英语的开放权重混合专家推理模型，2026 年 10 月 3 日以 Apache 2.0 发布。模型卡列出的上下文长度为 1,048,576 tokens，并建议为了服务效率最多使用 262,144 tokens。reasoning_effort 可取 none、low、medium 或 high，模型卡写明支持工具调用和结构化输出。没有公布 API 标准 token 价格或第一方请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Aleph-Alpha/Kolibri-1 | Hugging Face",
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "retrieved_at": "2026-10-27"
+    }
+  ]
+}

@@ -38,7 +38,7 @@
     "knowledge_cutoff": null,
     "description": "218B total / 25B active parameter MoE model for machine translation across 50+ languages.",
     "docs": "https://docs.cohere.com/docs/north-small-translate-1.0",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-26"
   },
   "prices": [],
   "providers": [
@@ -64,12 +64,12 @@
     {
       "title": "North Small Translate 1.0 | Cohere Docs",
       "url": "https://docs.cohere.com/docs/north-small-translate-1.0",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-26"
     },
     {
       "title": "Cohere Model Overview",
       "url": "https://docs.cohere.com/docs/models",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-26"
     },
     {
       "title": "How does Cohere pricing work?",

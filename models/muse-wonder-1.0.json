@@ -61,9 +61,9 @@
     "status": "preview",
     "release_date": "2026-10-12",
     "knowledge_cutoff": null,
-    "description": "Meta's most capable model, built for complex software engineering and long-horizon agentic work.",
+    "description": "Meta's most capable model, built for complex software engineering and long-horizon agentic work, with a 1,048,576-token context window.",
     "docs": "https://dev.meta.ai/docs/models",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-10-26"
   },
   "prices": [
     {
@@ -81,47 +81,61 @@
       "model": "muse-wonder-1.0",
       "base_url": "https://api.meta.ai/v1",
       "endpoints": {
-        "chat": "POST /v1/chat/completions",
-        "responses": "POST /v1/responses"
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
       },
-      "reasoning_param": "reasoning_effort"
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      }
     }
   ],
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "Meta 能力最强的模型，专为复杂软件工程和长周期智能体工作打造。"
+      "description": "Meta 能力最强的模型，面向复杂软件工程和长周期智能体任务，上下文窗口为 1,048,576 tokens。"
     }
   },
   "sources": [
+    {
+      "title": "Muse Wonder | Meta Model API",
+      "url": "https://dev.meta.ai/models/muse-wonder",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "Build with Meta Model API and Muse Code | Meta Model API",
+      "url": "https://dev.meta.ai/docs/overview",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "Pricing and rate limits | Meta Model API",
+      "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "Reasoning | Meta Model API",
+      "url": "https://dev.meta.ai/docs/reasoning",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "Muse Wonder Model Card | Meta",
+      "url": "https://research.meta.ai/static/muse-wonder-model-card",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-26"
+    },
     {
       "title": "Models | Meta Model API",
       "url": "https://dev.meta.ai/docs/models",
       "retrieved_at": "2026-10-20"
     },
     {
-      "title": "Pricing and rate limits | Meta Model API",
-      "url": "https://dev.meta.ai/docs/pricing-rate-limits",
-      "retrieved_at": "2026-10-20"
-    },
-    {
-      "title": "Reasoning | Meta Model API",
-      "url": "https://dev.meta.ai/docs/reasoning",
-      "retrieved_at": "2026-10-20"
-    },
-    {
-      "title": "Muse Wonder | Meta",
-      "url": "https://dev.meta.ai/models/muse-wonder",
-      "retrieved_at": "2026-10-20"
-    },
-    {
       "title": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents | Meta AI Research",
       "url": "https://research.meta.ai/blog/muse-wonder",
-      "retrieved_at": "2026-10-20"
-    },
-    {
-      "title": "SDK support — openai (api.sdk only)",
-      "url": "https://github.com/openai/openai-node",
       "retrieved_at": "2026-10-20"
     },
     {

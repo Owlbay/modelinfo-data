@@ -1,0 +1,86 @@
+{
+  "id": "rerank-v5.0-pro",
+  "object": "model",
+  "created": 1792540800,
+  "owned_by": "cohere",
+  "name": "Rerank v5.0 Pro",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.05,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-21",
+    "knowledge_cutoff": null,
+    "description": "Rerank 5 Pro ranks documents against a query. The docs state a context length of 32,768 tokens for the query and documents combined. The launch post prices the API at $0.05 per 1M tokens. No cached-token price, separate input cap, or output cap is published.",
+    "docs": "https://docs.cohere.com/docs/rerank",
+    "verified_at": "2026-10-27"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "cohere",
+      "model": "rerank-v5.0-pro",
+      "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "rerank": "POST /v2/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Rerank 5 Pro 按查询对文档排序。文档写明查询与文档合计的上下文长度为 32,768 tokens。发布说明中的 API 价格为每百万 tokens 0.05 美元。页面没有给出缓存价、单独的输入上限或输出上限。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Rerank 5 | Cohere",
+      "url": "https://cohere.com/blog/rerank-5",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "title": "Rerank | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/rerank",
+      "retrieved_at": "2026-10-27"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "lfm2.5-24b-a2b",
+  "object": "model",
+  "created": 1791849600,
+  "owned_by": "liquid",
+  "name": "LFM2.5-24B-A2B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": 1,
+    "cache_read": 0.05,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-13",
+    "knowledge_cutoff": null,
+    "description": "Open-weight text model with 24B total parameters, about 2B active, and a 131,072-token context window. The model card documents tool use, and the model always thinks. Liquid Console API inference is priced at $0.10 per 1M input tokens, $0.05 per 1M cached input tokens, and $1.00 per 1M output tokens. A $2 signup credit is separate from that token price. The pages do not publish a cache-write price, a maximum output, or a request URL.",
+    "docs": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "verified_at": "2026-10-27"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 1,
+      "cache_read": 0.05,
+      "cache_write": null
+    }
+  ],
+  "providers": [],
+  "aliases": [
+    "LiquidAI/LFM2.5-24B-A2B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "开放权重文本模型，总参数 24B、激活约 2B，上下文窗口 131,072 tokens。模型卡写明支持工具使用，并且模型始终思考。Liquid Console API 推理价格为输入每百万 tokens 0.10 美元、缓存输入 0.05 美元、输出 1.00 美元。注册赠送的 2 美元额度与该 token 价格分开。页面没有给出缓存写入价、最大输出或请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "LFM2.5-24B-A2B | Liquid AI",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "title": "LiquidAI/LFM2.5-24B-A2B | Hugging Face",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+      "retrieved_at": "2026-10-27"
+    }
+  ]
+}

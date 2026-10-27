@@ -1,0 +1,59 @@
+{
+  "id": "xing4.0-29b-a4b",
+  "object": "model",
+  "created": 1789603200,
+  "owned_by": "teleai",
+  "name": "Xing4.0-29B-A4B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-17",
+    "knowledge_cutoff": null,
+    "description": "Open-weight model from China Telecom Artificial Intelligence Technology Co., Ltd., with 29B total parameters and 4B activated per token. The README says it natively supports a 256K context length, extensible to 512K, and the serving examples pass 262144 as a launch flag. TeleAI is not in the abbreviation table and the page does not state one exact context limit, so the context field is unset. It supports tool calling, and the sample output contains a chain of thought. No standard API token price or first-party request URL is published.",
+    "docs": "https://github.com/XingChen-AGI/Xing4.0-29B-A4B",
+    "verified_at": "2026-10-27"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [
+    "Xing4.0-29B-A4B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "中国电信人工智能科技有限公司的开放权重模型，总参数 29B，每 token 激活 4B。README 写原生支持 256K 上下文，可扩展到 512K；服务示例把 262144 作为启动参数。TeleAI 不在缩写换算表中，页面也没有给出唯一的精确上下文上限，因此上下文字段留空。它支持工具调用，示例输出包含思维链。没有公布 API 标准 token 价格或第一方请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Xing4.0-29B-A4B | XingChen-AGI",
+      "url": "https://github.com/XingChen-AGI/Xing4.0-29B-A4B",
+      "retrieved_at": "2026-10-27"
+    }
+  ]
+}

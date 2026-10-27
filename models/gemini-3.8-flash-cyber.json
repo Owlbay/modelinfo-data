@@ -1,0 +1,83 @@
+{
+  "id": "gemini-3.8-flash-cyber",
+  "object": "model",
+  "created": 1789516800,
+  "owned_by": "google",
+  "name": "Gemini 3.8 Flash Cyber",
+  "api": {
+    "types": [
+      "generate",
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1.5,
+    "output": 7.5,
+    "cache_read": 0.15,
+    "cache_write": null
+  },
+  "features": [
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-16",
+    "knowledge_cutoff": null,
+    "description": "Generally available to allowlisted projects. Input is text, image, audio, and video, and output is text. The context window is 1,048,576 tokens and the maximum output is 65,536 tokens. Thinking, structured output, context caching, GenerateContent, and Chat Completions are supported. Function calling, grounding, code execution, URL context, computer use, batch inference, the Interactions API, and the Live API are not supported. The recorded price is the Agent Platform Global standard rate, which is the same at or below 200K input tokens and above 200K: $1.50 per 1M input tokens, $0.15 per 1M cached input tokens, and $7.50 per 1M output tokens. Non-global standard rates are $1.65, $0.165, and $8.25. Priority and Flex/Batch rates are not recorded, and the page does not publish a cache-write price or a request URL.",
+    "docs": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash-cyber",
+    "verified_at": "2026-10-27"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.5,
+      "output": 7.5,
+      "cache_read": 0.15,
+      "cache_write": null
+    }
+  ],
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "对白名单项目正式可用。输入为文本、图像、音频和视频，输出为文本。上下文窗口 1,048,576 tokens，最大输出 65,536 tokens。支持思考、结构化输出、上下文缓存、GenerateContent 和 Chat Completions。不支持函数调用、Grounding、代码执行、URL context、计算机操作、批量推理、Interactions API 和 Live API。记录的是 Agent Platform Global 标准价，200K 输入 tokens 及以下与以上相同：输入每百万 tokens 1.50 美元，缓存输入 0.15 美元，输出 7.50 美元。非 Global 标准价为 1.65、0.165 和 8.25 美元。Priority 与 Flex/Batch 价格不记录。页面没有给出缓存写入价或请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemini 3.8 Flash Cyber | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash-cyber",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "title": "Agent Platform Pricing | Google Cloud",
+      "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+      "retrieved_at": "2026-10-27"
+    }
+  ]
+}

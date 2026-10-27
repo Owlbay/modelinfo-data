@@ -1,0 +1,75 @@
+{
+  "id": "pareto-26.10",
+  "object": "model",
+  "created": 1792022400,
+  "owned_by": "unbiased",
+  "name": "Pareto 26.10",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.8,
+    "output": 3.2,
+    "cache_read": 0.03,
+    "cache_write": null
+  },
+  "features": [
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-15",
+    "knowledge_cutoff": null,
+    "description": "Stable Pareto release as of October 15, 2026. On the Unbiased API, pareto points at 26.10, and the dated id pareto-26.10 pins this release. The announcement says the preview price is now permanent: $0.80 per million input tokens, $0.03 cached, and $3.20 output. It also says the context window is 1M tokens. Unbiased is not in the abbreviation table and the page does not print an exact token count, so the context limit is unset. No cache-write price, maximum output, or request URL is published. Subscriber weekly allowances are plan prices and are not recorded.",
+    "docs": "https://unbiased.ai/blog/pareto-26-10/",
+    "verified_at": "2026-10-27"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": 3.2,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ],
+  "providers": [],
+  "aliases": [
+    "pareto"
+  ],
+  "translations": {
+    "zh": {
+      "description": "2026 年 10 月 15 日起的稳定版 Pareto。在 Unbiased API 上，pareto 指向 26.10，带日期的 id pareto-26.10 用来固定这个版本。公告写明预览价现已转为永久价：输入每百万 tokens 0.80 美元，缓存 0.03 美元，输出 3.20 美元。公告还写上下文窗口为 1M tokens。Unbiased 不在缩写换算表中，页面也没有精确 token 数，因此上下文上限留空。没有公布缓存写入价、最大输出或请求 URL。订阅套餐的周额度是方案价格，不记录。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Pareto 26.10 is out of preview | Unbiased AI",
+      "url": "https://unbiased.ai/blog/pareto-26-10/",
+      "retrieved_at": "2026-10-27"
+    }
+  ]
+}

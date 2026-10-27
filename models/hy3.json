@@ -54,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "Tencent Hy3 295B-A21B MoE model with switchable reasoning depth, served on TokenHub.",
     "docs": "https://cloud.tencent.com/document/product/1823/132252",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-26"
   },
   "prices": [
     {
@@ -78,7 +78,9 @@
       "reasoning_param": "reasoning_effort"
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "hy3-preview"
+  ],
   "translations": {
     "zh": {
       "description": "腾讯 Hy3 295B-A21B MoE 模型，推理深度可切换，部署于 TokenHub。"
@@ -93,12 +95,17 @@
     {
       "title": "模型列表 | 腾讯云 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "Hy Token Plan 中 Hy3 preview 自动路由到 Hy3 | 腾讯云公告",
+      "url": "https://cloud.tencent.com/announce/detail/2384",
+      "retrieved_at": "2026-10-26"
     },
     {
       "title": "模型定价 | 腾讯云 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130055",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-26"
     },
     {
       "title": "腾讯混元Hy3正式上线发布 | 腾讯云开发者社区",

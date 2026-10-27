@@ -1,0 +1,59 @@
+{
+  "id": "minicpm-v-4.7-1b",
+  "object": "model",
+  "created": null,
+  "owned_by": "openbmb",
+  "name": "MiniCPM-V 4.7 1B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Open-weight multimodal model with 1.55B parameters. The docs list a 256K context and support for single-image, multi-image, and video understanding. Thinking is switched with enable_thinking; no effort values are listed. OpenBMB is not in the abbreviation table, so 256K is not converted. The page does not publish a calendar date, a maximum output, a standard API price, or a first-party request URL.",
+    "docs": "https://openbmb.cn/docs/en/guides/minicpm-v/minicpm-v-4.7",
+    "verified_at": "2026-10-27"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [
+    "openbmb/MiniCPM-V-4.7-1B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "开放权重多模态模型，参数 1.55B。文档列出 256K 上下文，并支持单图、多图和视频理解。思考由 enable_thinking 开关控制，没有列出强度取值。OpenBMB 不在缩写换算表中，因此不换算 256K。页面没有给出日历日期、最大输出、API 标准价或第一方请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "MiniCPM-V 4.7 | OpenBMB",
+      "url": "https://openbmb.cn/docs/en/guides/minicpm-v/minicpm-v-4.7",
+      "retrieved_at": "2026-10-27"
+    }
+  ]
+}

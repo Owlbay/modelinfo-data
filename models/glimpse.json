@@ -1,0 +1,75 @@
+{
+  "id": "glimpse",
+  "object": "model",
+  "created": null,
+  "owned_by": "elorian",
+  "name": "Glimpse",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.6,
+    "output": 3,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "A visual thinking model available through an API and a chat interface. It takes text, images, and video and reasons in visual space, including with multimodal tools. Input tokens cost $0.60 per million and output tokens $3.00 per million; the comparison table labels those rates uncached. The page does not publish a calendar date, a cached-token price, a context length, a maximum output, or a request URL.",
+    "docs": "https://elorian.ai/blog/introducing-glimpse",
+    "verified_at": "2026-10-27"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.6,
+      "output": 3,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "可通过 API 和聊天界面使用的视觉思考模型。它接收文本、图像和视频，并在视觉空间中推理，包括使用多模态工具。输入每百万 tokens 0.60 美元，输出 3.00 美元；对照表把这两项标为未缓存价格。页面没有给出日历日期、缓存价、上下文长度、最大输出或请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Introducing Glimpse | Elorian",
+      "url": "https://elorian.ai/blog/introducing-glimpse",
+      "retrieved_at": "2026-10-27"
+    }
+  ]
+}

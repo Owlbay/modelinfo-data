@@ -1,0 +1,129 @@
+{
+  "id": "kimi-k3.1-pro-highspeed",
+  "object": "model",
+  "created": null,
+  "owned_by": "moonshot",
+  "name": "Kimi K3.1 Pro Highspeed",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 1048576
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "high",
+      "max"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 4,
+    "output": 20,
+    "cache_read": 0.2,
+    "cache_write": 4
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "High-speed variant of Kimi K3.1 Pro that delivers 2-3× the speed of K3.1 Pro. It uses the same 1,048,576-token context, image and video input, and always-on thinking.",
+    "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+    "verified_at": "2026-10-26"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": 0.2,
+      "cache_write": 4
+    }
+  ],
+  "providers": [
+    {
+      "id": "moonshot",
+      "model": "kimi-k3.1-pro-highspeed",
+      "base_url": "https://api.moonshot.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "moonshot",
+      "model": "kimi-k3.1-pro-highspeed",
+      "base_url": "https://api.moonshot.cn",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort",
+      "pricing": {
+        "currency": "CNY",
+        "unit": "1M_tokens",
+        "input": 26,
+        "output": 136,
+        "cache_read": 1.3,
+        "cache_write": 26
+      }
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Kimi K3.1 Pro 的高速版本，速度约为 K3.1 Pro 的 2–3 倍。上下文同样为 1,048,576 tokens，支持图像和视频输入，思考模式始终开启。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Kimi K3.1 Pro Quickstart | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "Kimi K3.1 Pro 快速开始 | Kimi API 开放平台",
+      "url": "https://platform.kimi.com/docs/guide/kimi-k3-1-pro-quickstart",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "Chat Model Pricing | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/pricing/chat",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "对话模型定价 | Kimi API 开放平台",
+      "url": "https://platform.kimi.com/docs/pricing/chat",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "Introducing Kimi K3.1 Pro | Kimi",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "retrieved_at": "2026-10-26"
+    }
+  ]
+}

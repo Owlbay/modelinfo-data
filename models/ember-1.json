@@ -1,0 +1,92 @@
+{
+  "id": "ember-1",
+  "object": "model",
+  "created": 1790035200,
+  "owned_by": "fireworks",
+  "name": "Ember-1",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 3,
+    "output": 15,
+    "cache_read": 0.3,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-22",
+    "knowledge_cutoff": null,
+    "description": "Serverless base model. The model page says it was created on 22 September 2026 and is Ready. Serverless pricing is $3.00 per 1M input tokens, $0.30 per 1M cached input tokens, and $15.00 per 1M output tokens. Image input and function calling are supported. The page lists the context length as 1040k tokens. Fireworks is not in the abbreviation table and no exact integer is printed, so the context limit is unset. No cache-write price or maximum output is published.",
+    "docs": "https://fireworks.ai/models/fireworks/ember-1",
+    "verified_at": "2026-10-27"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 15,
+      "cache_read": 0.3,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "fireworks",
+      "model": "fireworks/ember-1",
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "fireworks/ember-1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "无服务器基础模型。模型页写明创建于 2026 年 9 月 22 日，状态为 Ready。无服务器价格为输入每百万 tokens 3.00 美元、缓存输入 0.30 美元、输出 15.00 美元。支持图像输入和函数调用。页面把上下文长度写成 1040k tokens。Fireworks 不在缩写换算表中，页面也没有精确整数，因此上下文上限留空。没有公布缓存写入价或最大输出。"
+    }
+  },
+  "sources": [
+    {
+      "title": "fireworks/ember-1 | Fireworks",
+      "url": "https://fireworks.ai/models/fireworks/ember-1",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "title": "Querying text models | Fireworks Docs",
+      "url": "https://docs.fireworks.ai/guides/querying-text-models",
+      "retrieved_at": "2026-10-27"
+    }
+  ]
+}
