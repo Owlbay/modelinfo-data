@@ -30,17 +30,33 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0,
+    "output": 0,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "active",
     "release_date": "2026-06-09",
     "knowledge_cutoff": null,
-    "description": "30B total / 3B active parameter MoE model for agentic coding.",
+    "description": "30B total / 3B active parameter MoE model for agentic coding. The Cohere pricing page lists API access as $0 (free).",
     "docs": "https://docs.cohere.com/docs/north-mini-code-1.0",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0,
+      "output": 0,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "cohere",
@@ -55,7 +71,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "总参数 30B、激活参数 3B 的 MoE 模型，用于智能体编程。"
+      "description": "总参数 30B、激活参数 3B 的 MoE 模型，用于智能体编程。Cohere 官方价格页标注 API 调用为 0 美元（免费）。"
     }
   },
   "sources": [
@@ -88,6 +104,11 @@
       "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Pricing | Cohere",
+      "url": "https://cohere.com/pricing",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

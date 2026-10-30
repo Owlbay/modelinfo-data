@@ -34,8 +34,8 @@
   "pricing": {
     "currency": "USD",
     "unit": "1M_tokens",
-    "input": 2.5,
-    "output": 10,
+    "input": 0,
+    "output": 0,
     "cache_read": null,
     "cache_write": null
   },
@@ -47,16 +47,16 @@
     "status": "active",
     "release_date": "2026-05-20",
     "knowledge_cutoff": "2025-04",
-    "description": "Mixture-of-Experts model combining vision, agentic, reasoning, and translation capabilities.",
+    "description": "Mixture-of-Experts model combining vision, agentic, reasoning, and translation capabilities. The Cohere pricing page lists API access as $0 (free).",
     "docs": "https://docs.cohere.com/docs/command-a-plus",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
       "currency": "USD",
       "unit": "1M_tokens",
-      "input": 2.5,
-      "output": 10,
+      "input": 0,
+      "output": 0,
       "cache_read": null,
       "cache_write": null
     }
@@ -75,7 +75,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "混合专家模型，兼具视觉、智能体、推理和翻译能力。"
+      "description": "混合专家模型，兼具视觉、智能体、推理和翻译能力。Cohere 官方价格页标注 API 调用为 0 美元（免费）。"
     }
   },
   "sources": [
@@ -97,7 +97,7 @@
     {
       "title": "Pricing | Cohere",
       "url": "https://cohere.com/pricing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",

@@ -58,7 +58,7 @@
     "knowledge_cutoff": null,
     "description": "Hybrid model unifying instruct, reasoning, and coding capabilities in a single model.",
     "docs": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -145,6 +145,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Prompt caching | Mistral Docs",
+      "url": "https://docs.mistral.ai/studio/conversations/advanced/prompt-caching",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

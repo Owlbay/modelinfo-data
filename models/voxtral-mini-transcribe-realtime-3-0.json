@@ -33,7 +33,7 @@
     "unit": "minute",
     "input": 0.008,
     "output": null,
-    "cache_read": 0.0008,
+    "cache_read": null,
     "cache_write": null
   },
   "features": [
@@ -46,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Public-preview realtime transcription model for a single WebSocket session, with configurable latency from 80 ms to 2,400 ms, end-of-turn detection, context biasing, and speaker diarization. Input is audio and output is text. The model card does not list a context length.",
     "docs": "https://docs.mistral.ai/models/voxtral-mini-transcribe-realtime-3-0",
-    "verified_at": "2026-10-22"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -54,7 +54,7 @@
       "unit": "minute",
       "input": 0.008,
       "output": null,
-      "cache_read": 0.0008,
+      "cache_read": null,
       "cache_write": null
     }
   ],
@@ -93,7 +93,7 @@
     {
       "title": "API pricing | Mistral Docs",
       "url": "https://docs.mistral.ai/inference/pricing",
-      "retrieved_at": "2026-10-22"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "Migrate from Voxtral 2 | Mistral Docs",

@@ -39,9 +39,9 @@
   "pricing": {
     "currency": "USD",
     "unit": "1M_tokens",
-    "input": 0.75,
-    "output": 3.75,
-    "cache_read": 0.075,
+    "input": 1.5,
+    "output": 7.5,
+    "cache_read": 0.15,
     "cache_write": null
   },
   "features": [
@@ -55,17 +55,17 @@
     "status": "active",
     "release_date": "2026-07-21",
     "knowledge_cutoff": "2026-03",
-    "description": "Model for agentic workloads with strong code generation and spatial reasoning at high speed and low cost.",
+    "description": "Model for agentic workloads with strong code generation and spatial reasoning at high speed and low cost. Standard price is $1.50 input, $7.50 output, and $0.15 cache read per 1M tokens from January 1, 2027. The introductory price through December 31, 2026 is $0.75, $3.75, and $0.075.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
       "currency": "USD",
       "unit": "1M_tokens",
-      "input": 0.75,
-      "output": 3.75,
-      "cache_read": 0.075,
+      "input": 1.5,
+      "output": 7.5,
+      "cache_read": 0.15,
       "cache_write": null
     }
   ],
@@ -85,7 +85,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "面向智能体工作负载的模型，代码生成和空间推理能力强，速度快、成本低。"
+      "description": "面向智能体工作负载的模型，代码生成和空间推理能力强，速度快、成本低。2027 年 1 月 1 日起的标准价为每百万 token 输入 1.50 美元、输出 7.50 美元、缓存读取 0.15 美元。2026 年 12 月 31 日前的介绍价为 0.75、3.75 和 0.075 美元。"
     }
   },
   "sources": [
@@ -102,7 +102,7 @@
     {
       "title": "Pricing | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "Deprecations | Gemini API",

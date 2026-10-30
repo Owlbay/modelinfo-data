@@ -55,7 +55,7 @@
     "knowledge_cutoff": null,
     "description": "Powerful and efficient Ministral 3 model with text and vision capabilities, built for edge deployment.",
     "docs": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -137,6 +137,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Prompt caching | Mistral Docs",
+      "url": "https://docs.mistral.ai/studio/conversations/advanced/prompt-caching",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }
