@@ -41,9 +41,9 @@
   "pricing": {
     "currency": "USD",
     "unit": "1M_tokens",
-    "input": 1.36,
-    "output": 4.18,
-    "cache_read": 0.14,
+    "input": 0.7,
+    "output": 2.1,
+    "cache_read": 0.07,
     "cache_write": null
   },
   "features": [
@@ -58,15 +58,15 @@
     "knowledge_cutoff": null,
     "description": "State-of-the-art, open-weight, general-purpose multimodal model with a granular Mixture-of-Experts architecture.",
     "docs": "https://docs.mistral.ai/models/mistral-large-4-0",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
       "currency": "USD",
       "unit": "1M_tokens",
-      "input": 1.36,
-      "output": 4.18,
-      "cache_read": 0.14,
+      "input": 0.7,
+      "output": 2.1,
+      "cache_read": 0.07,
       "cache_write": null
     }
   ],
@@ -94,12 +94,12 @@
     {
       "title": "Mistral Large 4 | Mistral Docs",
       "url": "https://docs.mistral.ai/models/mistral-large-4-0",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "API pricing | Mistral Docs",
       "url": "https://docs.mistral.ai/inference/pricing",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "Models overview | Mistral Docs",
@@ -145,6 +145,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Mistral Large 4 | Mistral Docs (official Markdown)",
+      "url": "https://docs.mistral.ai/models/mistral-large-4-0.md",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

@@ -13,9 +13,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 131072,
     "input": null,
-    "output": null
+    "output": 8192
   },
   "modalities": {
     "input": [
@@ -44,7 +44,7 @@
     "knowledge_cutoff": null,
     "description": "IBM foundation model on watsonx.ai; withdrawn on 2026-02-22.",
     "docs": "https://ibm.com/docs/en/SSYOK8/wsj/analyze-data/fm-model-lifecycle.html",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -95,6 +95,11 @@
       "title": "SDK support — @ibm-cloud/watsonx-ai (api.sdk only)",
       "url": "https://github.com/IBM/watsonx-ai-node-sdk",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "存档：IBM foundation models | IBM watsonx docs（原网址 https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-models-ibm.html?context=wx）",
+      "url": "https://web.archive.org/web/20250616185646/https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-models-ibm.html?context=wx",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

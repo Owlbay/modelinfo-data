@@ -15,7 +15,7 @@
   },
   "limits": {
     "context": 8000,
-    "input": null,
+    "input": 8000,
     "output": 8000
   },
   "modalities": {
@@ -38,7 +38,7 @@
     "knowledge_cutoff": "2024-06",
     "description": "Machine translation model covering 23 languages.",
     "docs": "https://docs.cohere.com/docs/command-a-translate",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [],
   "providers": [

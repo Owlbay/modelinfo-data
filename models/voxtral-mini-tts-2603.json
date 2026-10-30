@@ -36,8 +36,8 @@
   "pricing": {
     "currency": "USD",
     "unit": "1M_characters",
-    "input": 0,
-    "output": 16,
+    "input": 16,
+    "output": null,
     "cache_read": null,
     "cache_write": null
   },
@@ -48,14 +48,14 @@
     "knowledge_cutoff": null,
     "description": "Text-to-speech model with zero-shot voice cloning, 9 languages, and streaming with about 90ms time-to-first-audio.",
     "docs": "https://docs.mistral.ai/models/voxtral-tts-26-03",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
       "currency": "USD",
       "unit": "1M_characters",
-      "input": 0,
-      "output": 16,
+      "input": 16,
+      "output": null,
       "cache_read": null,
       "cache_write": null
     }
@@ -83,12 +83,12 @@
     {
       "title": "Voxtral TTS | Mistral Docs",
       "url": "https://docs.mistral.ai/models/voxtral-tts-26-03",
-      "retrieved_at": "2026-10-14"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "API pricing | Mistral Docs",
       "url": "https://docs.mistral.ai/inference/pricing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "Models overview | Mistral Docs",
@@ -118,7 +118,7 @@
     {
       "title": "Voxtral TTS | Mistral Docs (official Markdown)",
       "url": "https://docs.mistral.ai/models/voxtral-tts-26-03.md",
-      "retrieved_at": "2026-10-15"
+      "retrieved_at": "2026-10-30"
     }
   ]
 }
