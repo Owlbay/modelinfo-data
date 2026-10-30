@@ -33,7 +33,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 4,
+    "output": 16,
+    "cache_read": 0.4,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "caching"
@@ -44,9 +51,18 @@
     "knowledge_cutoff": "2023-10-01",
     "description": "Model capable of realtime text and audio inputs and outputs",
     "docs": "https://developers.openai.com/api/docs/models/gpt-realtime",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 16,
+      "cache_read": 0.4,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "openai",
@@ -70,7 +86,7 @@
     {
       "title": "gpt-realtime Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-realtime.md",
-      "retrieved_at": "2026-10-14"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "Deprecations | OpenAI API",

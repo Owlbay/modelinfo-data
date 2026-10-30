@@ -32,7 +32,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.6,
+    "output": 2.4,
+    "cache_read": 0.3,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "caching"
@@ -43,9 +50,18 @@
     "knowledge_cutoff": "2023-10-01",
     "description": "Smaller realtime model for text and audio inputs and outputs",
     "docs": "https://developers.openai.com/api/docs/models/gpt-4o-mini-realtime-preview",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.6,
+      "output": 2.4,
+      "cache_read": 0.3,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "openai",
@@ -69,7 +85,7 @@
     {
       "title": "GPT-4o Mini Realtime Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-realtime-preview",
-      "retrieved_at": "2026-10-15"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "Deprecations | OpenAI API",

@@ -32,7 +32,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 5,
+    "output": 20,
+    "cache_read": 2.5,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "caching"
@@ -43,9 +50,18 @@
     "knowledge_cutoff": "2023-10-01",
     "description": "Model capable of realtime text and audio inputs and outputs",
     "docs": "https://developers.openai.com/api/docs/models/gpt-4o-realtime-preview",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 20,
+      "cache_read": 2.5,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "openai",
@@ -71,7 +87,7 @@
     {
       "title": "GPT-4o Realtime Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-4o-realtime-preview",
-      "retrieved_at": "2026-10-15"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "Deprecations | OpenAI API",

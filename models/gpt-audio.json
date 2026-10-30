@@ -33,7 +33,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 2.5,
+    "output": 10,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "streaming"
@@ -44,9 +51,18 @@
     "knowledge_cutoff": "2023-10-01",
     "description": "For audio inputs and outputs with Chat Completions API",
     "docs": "https://developers.openai.com/api/docs/models/gpt-audio",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2.5,
+      "output": 10,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "openai",
@@ -70,7 +86,7 @@
     {
       "title": "gpt-audio Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-audio.md",
-      "retrieved_at": "2026-10-14"
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "Deprecations | OpenAI API",
