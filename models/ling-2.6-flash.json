@@ -18,7 +18,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 262144,
     "input": null,
     "output": null
   },
@@ -52,7 +52,7 @@
     "knowledge_cutoff": null,
     "description": "Cost-effective Ling model.",
     "docs": "https://developer.ant-ling.com/en/docs/models/ling",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -144,6 +144,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Archived Ling | Ant Ling Developer Docs (original https://developer.ant-ling.com/en/docs/models/ling/)",
+      "url": "https://web.archive.org/web/20260511042302/https://developer.ant-ling.com/en/docs/models/ling/",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

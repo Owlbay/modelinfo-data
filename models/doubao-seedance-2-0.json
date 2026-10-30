@@ -1,7 +1,7 @@
 {
   "id": "doubao-seedance-2-0",
   "object": "model",
-  "created": null,
+  "created": 1770854400,
   "owned_by": "bytedance",
   "name": "Doubao-Seedance-2.0",
   "api": {
@@ -42,11 +42,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-02-12",
     "knowledge_cutoff": null,
     "description": "Video generation with omni-modal reference, video editing and extension, up to 4k.",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -92,6 +92,11 @@
       "title": "SDK support — @ai-sdk/bytedance (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/bytedance",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Seedance 2.0 Official Launch | ByteDance Seed",
+      "url": "https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

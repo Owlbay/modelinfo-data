@@ -15,9 +15,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 1048576,
     "input": null,
-    "output": null
+    "output": 131072
   },
   "modalities": {
     "input": [
@@ -46,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "MiMo-V2-Pro, retired. Official shutdown: 2026-06-30 00:00 (UTC+8); requests to the old model name then return errors.",
     "docs": "https://mimo.mi.com/docs/zh-CN/updates/deprecate",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {

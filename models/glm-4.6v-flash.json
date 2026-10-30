@@ -40,7 +40,7 @@
     "unit": "1M_tokens",
     "input": 0,
     "output": 0,
-    "cache_read": null,
+    "cache_read": 0,
     "cache_write": null
   },
   "features": [
@@ -52,7 +52,7 @@
     "knowledge_cutoff": null,
     "description": "Lightweight and completely free GLM-4.6V series model.",
     "docs": "https://docs.z.ai/guides/vlm/glm-4.6v",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -60,7 +60,7 @@
       "unit": "1M_tokens",
       "input": 0,
       "output": 0,
-      "cache_read": null,
+      "cache_read": 0,
       "cache_write": null
     }
   ],

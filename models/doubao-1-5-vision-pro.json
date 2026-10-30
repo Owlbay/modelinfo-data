@@ -15,9 +15,9 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
-    "output": null
+    "context": 131072,
+    "input": 98304,
+    "output": 16384
   },
   "modalities": {
     "input": [
@@ -48,7 +48,7 @@
     "knowledge_cutoff": null,
     "description": "Doubao-1.5-vision-pro, retired. Official shutdown (EOS) dates: doubao-1-5-vision-pro-250328 2026-03-31.",
     "docs": "https://www.volcengine.com/docs/82379/1350667",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {

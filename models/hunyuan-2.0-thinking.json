@@ -14,8 +14,8 @@
   },
   "limits": {
     "context": null,
-    "input": null,
-    "output": null
+    "input": 131072,
+    "output": 65536
   },
   "modalities": {
     "input": [
@@ -29,7 +29,14 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "CNY",
+    "unit": "1M_tokens",
+    "input": 3.975,
+    "output": 15.9,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "retired",
@@ -37,9 +44,18 @@
     "knowledge_cutoff": null,
     "description": "Hunyuan-2.0-Thinking, retired. Official shutdown: service stopped from 2026-06-22 00:00 (Beijing time) per the old-version model retirement notice.",
     "docs": "https://cloud.tencent.com/document/product/1729/131925",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 3.975,
+      "output": 15.9,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [],
   "aliases": [
     "hunyuan-2.0-thinking-20251109",
@@ -75,6 +91,11 @@
       "title": "SDK support — tencentcloud-sdk-nodejs-hunyuan (api.sdk only)",
       "url": "https://github.com/TencentCloud/tencentcloud-sdk-nodejs/tree/master/src/services/hunyuan",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "存档 混元生文计费概述 | 腾讯混元大模型（原网址 https://cloud.tencent.com/document/product/1729/97731）",
+      "url": "https://web.archive.org/web/20260511093516/https://cloud.tencent.com/document/product/1729/97731",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

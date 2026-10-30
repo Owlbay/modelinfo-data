@@ -1,7 +1,7 @@
 {
   "id": "glm-4.5-x",
   "object": "model",
-  "created": null,
+  "created": 1753660800,
   "owned_by": "zhipu",
   "name": "GLM-4.5-X",
   "api": {
@@ -16,9 +16,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 131072,
     "input": null,
-    "output": null
+    "output": 98304
   },
   "modalities": {
     "input": [
@@ -48,11 +48,11 @@
   ],
   "info": {
     "status": "deprecated",
-    "release_date": null,
+    "release_date": "2025-07-28",
     "knowledge_cutoff": null,
     "description": "High-performance GLM-4.5 variant with strong reasoning and ultra-fast response.",
     "docs": "https://docs.z.ai/guides/llm/glm-4.5",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -121,6 +121,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "新品发布 | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }
