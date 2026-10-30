@@ -38,7 +38,7 @@
     "unit": "1M_tokens",
     "input": 0.5,
     "output": 1.4,
-    "cache_read": null,
+    "cache_read": 0.1,
     "cache_write": null
   },
   "features": [
@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Role-playing model for virtual companions, game NPCs and IP characters, with improved character consistency and topic progression.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/role-play",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -59,7 +59,7 @@
       "unit": "1M_tokens",
       "input": 0.5,
       "output": 1.4,
-      "cache_read": null,
+      "cache_read": 0.1,
       "cache_write": null
     },
     {
@@ -128,6 +128,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen-plus-character | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-plus-character",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

@@ -19,7 +19,7 @@
   "limits": {
     "context": 10000000,
     "input": 10000000,
-    "output": 32768
+    "output": 8192
   },
   "modalities": {
     "input": [
@@ -53,7 +53,7 @@
     "knowledge_cutoff": null,
     "description": "Long-context model that processes large documents uploaded as files, with a 10,000,000-token context window.",
     "docs": "https://help.aliyun.com/zh/model-studio/long-context-qwen-long",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -122,6 +122,16 @@
       "title": "模型上下架与更新 | 大模型服务平台百炼",
       "url": "https://help.aliyun.com/zh/model-studio/newly-released-models",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "qwen-long | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-long",
+      "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "qwen-long 模型信息 | 阿里云百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-long",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

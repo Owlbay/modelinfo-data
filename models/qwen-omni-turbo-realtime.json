@@ -33,7 +33,14 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.27,
+    "output": 1.07,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "streaming"
   ],
@@ -43,9 +50,18 @@
     "knowledge_cutoff": null,
     "description": "Legacy real-time omni-modal model for text and audio; no longer updated.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.27,
+      "output": 1.07,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "alibaba",
@@ -99,6 +115,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud (Wayback Machine archive, 2026-03-01)",
+      "url": "https://web.archive.org/web/20260301130655/https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

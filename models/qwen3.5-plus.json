@@ -44,8 +44,8 @@
     "unit": "1M_tokens",
     "input": 0.4,
     "output": 2.4,
-    "cache_read": null,
-    "cache_write": null
+    "cache_read": 0.04,
+    "cache_write": 0.5
   },
   "features": [
     "tools",
@@ -59,7 +59,7 @@
     "knowledge_cutoff": null,
     "description": "Native vision-language Plus model with hybrid linear attention and sparse MoE architecture.",
     "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-5-plus",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -67,8 +67,8 @@
       "unit": "1M_tokens",
       "input": 0.4,
       "output": 2.4,
-      "cache_read": null,
-      "cache_write": null
+      "cache_read": 0.04,
+      "cache_write": 0.5
     },
     {
       "currency": "CNY",

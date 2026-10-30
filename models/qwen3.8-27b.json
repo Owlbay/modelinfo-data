@@ -44,8 +44,8 @@
     "unit": "1M_tokens",
     "input": 0.5,
     "output": 3,
-    "cache_read": null,
-    "cache_write": null
+    "cache_read": 0.05,
+    "cache_write": 0.625
   },
   "features": [
     "tools",
@@ -59,7 +59,7 @@
     "knowledge_cutoff": null,
     "description": "Open-weight native vision-language dense model focused on coding and office productivity.",
     "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-27b",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -67,8 +67,8 @@
       "unit": "1M_tokens",
       "input": 0.5,
       "output": 3,
-      "cache_read": null,
-      "cache_write": null
+      "cache_read": 0.05,
+      "cache_write": 0.625
     },
     {
       "currency": "CNY",

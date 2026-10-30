@@ -17,9 +17,9 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
-    "output": null
+    "context": 131072,
+    "input": 129024,
+    "output": 32768
   },
   "modalities": {
     "input": [
@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Open-weight Qwen3 235B MoE, non-thinking 2507 version.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -125,6 +125,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Model list | Alibaba Cloud Model Studio (Wayback Machine archive, 2026-03-04)",
+      "url": "https://web.archive.org/web/20260304021333/https://www.alibabacloud.com/help/en/model-studio/models",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

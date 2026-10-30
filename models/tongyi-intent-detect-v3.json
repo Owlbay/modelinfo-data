@@ -19,7 +19,7 @@
   "limits": {
     "context": 8192,
     "input": 8192,
-    "output": 1024
+    "output": 4096
   },
   "modalities": {
     "input": [
@@ -48,7 +48,7 @@
     "knowledge_cutoff": null,
     "description": "Intent detection and slot filling model returning API intents and slot parameters as JSON.",
     "docs": "https://help.aliyun.com/zh/model-studio/tongyi-intent-detect-v3",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -127,6 +127,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "tongyi-intent-detect-v3 | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/tongyi-intent-detect-v3",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

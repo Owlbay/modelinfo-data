@@ -38,7 +38,7 @@
     "unit": "1M_tokens",
     "input": 1.6,
     "output": 6.4,
-    "cache_read": null,
+    "cache_read": 0.32,
     "cache_write": null
   },
   "features": [
@@ -52,7 +52,7 @@
     "knowledge_cutoff": null,
     "description": "Large multilingual Qwen model with gains in code, logic and multilingual ability.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -60,7 +60,7 @@
       "unit": "1M_tokens",
       "input": 1.6,
       "output": 6.4,
-      "cache_read": null,
+      "cache_read": 0.32,
       "cache_write": null
     },
     {
@@ -127,6 +127,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen-max | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-max",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

@@ -17,8 +17,8 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
+    "context": 131072,
+    "input": 126976,
     "output": null
   },
   "modalities": {
@@ -52,7 +52,7 @@
     "knowledge_cutoff": null,
     "description": "Open-weight Qwen3-VL vision-language model for image and video understanding.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -131,6 +131,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Model list | Alibaba Cloud Model Studio (Wayback Machine archive, 2025-12-16)",
+      "url": "https://web.archive.org/web/20251216202024/https://www.alibabacloud.com/help/en/model-studio/models",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

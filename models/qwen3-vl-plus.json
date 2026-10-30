@@ -43,8 +43,8 @@
     "unit": "1M_tokens",
     "input": 0.2,
     "output": 1.6,
-    "cache_read": null,
-    "cache_write": null
+    "cache_read": 0.02,
+    "cache_write": 0.25
   },
   "features": [
     "structured_output",
@@ -57,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "Vision-language model with thinking and non-thinking modes and ultra-long video support.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -65,8 +65,8 @@
       "unit": "1M_tokens",
       "input": 0.2,
       "output": 1.6,
-      "cache_read": null,
-      "cache_write": null
+      "cache_read": 0.02,
+      "cache_write": 0.25
     },
     {
       "currency": "CNY",
@@ -158,6 +158,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen3-vl-plus | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-vl-plus",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

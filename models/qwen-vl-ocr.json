@@ -17,8 +17,8 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
+    "context": 38192,
+    "input": 30000,
     "output": 8192
   },
   "modalities": {
@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Qwen3-VL-architecture model for extracting text and structured data from scans, tables and receipts.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/vision-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -136,6 +136,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Model list | Alibaba Cloud Model Studio (Wayback Machine archive, 2026-03-04)",
+      "url": "https://web.archive.org/web/20260304021333/https://www.alibabacloud.com/help/en/model-studio/models",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

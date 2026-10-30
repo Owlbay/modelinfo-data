@@ -1,7 +1,7 @@
 {
   "id": "qwen-audio-3.1-tts-flash",
   "object": "model",
-  "created": null,
+  "created": 1791763200,
   "owned_by": "alibaba",
   "name": "Qwen-Audio-3.1-TTS-Flash",
   "api": {
@@ -40,11 +40,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-12",
     "knowledge_cutoff": null,
     "description": "Qwen-Audio-TTS speech synthesis model with instruction control, billed by input and output tokens.",
     "docs": "https://help.aliyun.com/zh/model-studio/qwen-tts",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -101,6 +101,11 @@
       "title": "Model Studio model pricing | Alibaba Cloud",
       "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

@@ -13,9 +13,9 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
-    "output": null
+    "context": 53248,
+    "input": 49152,
+    "output": 4096
   },
   "modalities": {
     "input": [
@@ -31,7 +31,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 10,
+    "output": 10,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "retired",
@@ -39,9 +46,18 @@
     "knowledge_cutoff": null,
     "description": "Real-time version of Qwen3-LiveTranslate-Flash, a multilingual simultaneous audio and video interpretation model built on Qwen3-Omni that understands 19 languages and speaks 10 languages, including 8 Chinese dialects.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 10,
+      "output": 10,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "alibaba",
@@ -89,6 +105,16 @@
       "title": "Qwen3-LiveTranslate-Flash-Realtime | Alibaba Cloud Model Studio (Wayback Machine archive, 2026-03-15)",
       "url": "https://web.archive.org/web/20260315140414/https://www.alibabacloud.com/help/en/model-studio/qwen3-livetranslate-flash-realtime",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Model list | Alibaba Cloud Model Studio (Wayback Machine archive, 2026-03-04)",
+      "url": "https://web.archive.org/web/20260304021333/https://www.alibabacloud.com/help/en/model-studio/models",
+      "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud (Wayback Machine archive, 2026-03-01)",
+      "url": "https://web.archive.org/web/20260301130655/https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

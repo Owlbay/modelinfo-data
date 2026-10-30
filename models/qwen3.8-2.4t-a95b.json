@@ -42,8 +42,8 @@
     "unit": "1M_tokens",
     "input": 2,
     "output": 6,
-    "cache_read": null,
-    "cache_write": null
+    "cache_read": 0.17,
+    "cache_write": 2.5
   },
   "features": [
     "tools",
@@ -57,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "Open-source release of the latest Qwen flagship, a sparse MoE with 2.4T total and about 95B active parameters.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -65,8 +65,8 @@
       "unit": "1M_tokens",
       "input": 2,
       "output": 6,
-      "cache_read": null,
-      "cache_write": null
+      "cache_read": 0.17,
+      "cache_write": 2.5
     },
     {
       "currency": "CNY",
@@ -159,6 +159,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen3.8-2.4t-a95b | Alibaba Cloud Model Studio",
+      "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-2-4t-a95b",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }
