@@ -11,7 +11,7 @@
     "sdk": []
   },
   "limits": {
-    "context": null,
+    "context": 1048576,
     "input": null,
     "output": null
   },
@@ -40,17 +40,17 @@
   "info": {
     "status": "active",
     "release_date": "2026-10-15",
-    "knowledge_cutoff": null,
-    "description": "Open-weight Muse Spark model with 816B total parameters and 42B active, released under the Muse Model License. The model card states a 1M-token context at inference; Meta publishes exact token counts per model and this page does not, so the context limit is unset. Input is text, image, video, and audio, and output is text. reasoning_effort accepts low, medium, high, or xhigh, and the default is xhigh. Meta does not publish a first-party API or a standard API price; weights are on Hugging Face and inference is hosted by third parties.",
+    "knowledge_cutoff": "2026-01-04",
+    "description": "Open-weight Muse Spark model with 816B total parameters and 42B active, released under the Muse Model License, with a 1,048,576-token context window. Input is text, image, video, and audio, and output is text. reasoning_effort accepts low, medium, high, or xhigh, and the default is xhigh. Meta does not publish a first-party API or a standard API price; weights are on Hugging Face and inference is hosted by third parties.",
     "docs": "https://research.meta.ai/blog/muse-spark-open",
-    "verified_at": "2026-10-16"
+    "verified_at": "2026-10-30"
   },
   "prices": [],
   "providers": [],
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "开放权重的 Muse Spark 模型，总参数 816B、激活 42B，许可证为 Muse Model License。模型卡写推理时上下文为 1M tokens；Meta 按模型给出精确 token 数，该页没有精确数字，因此上下文上限留空。输入为文本、图像、视频和音频，输出为文本。reasoning_effort 可取 low、medium、high 或 xhigh，默认 xhigh。Meta 未公布第一方 API，也没有 API 标准价；权重在 Hugging Face，推理由第三方托管。"
+      "description": "开放权重的 Muse Spark 模型，总参数 816B、激活 42B，许可证为 Muse Model License，上下文窗口为 1,048,576 token。输入为文本、图像、视频和音频，输出为文本。reasoning_effort 可取 low、medium、high 或 xhigh，默认 xhigh。Meta 未公布第一方 API，也没有 API 标准价；权重在 Hugging Face，推理由第三方托管。"
     }
   },
   "sources": [
@@ -63,6 +63,21 @@
       "title": "Muse Spark Open model card（816B/42B、1M、模态与 reasoning_effort）| Hugging Face",
       "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
       "retrieved_at": "2026-10-16"
+    },
+    {
+      "title": "Muse Spark Open | Meta Model API",
+      "url": "https://dev.meta.ai/docs/muse-spark-open",
+      "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Recommended settings | Muse Spark Open",
+      "url": "https://dev.meta.ai/docs/muse-spark-open/settings",
+      "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Prompting guide | Muse Spark Open",
+      "url": "https://dev.meta.ai/docs/muse-spark-open/prompting",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

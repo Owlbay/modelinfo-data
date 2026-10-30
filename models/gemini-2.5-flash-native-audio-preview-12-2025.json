@@ -34,7 +34,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.5,
+    "output": 2,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [
     "tools"
   ],
@@ -44,9 +51,18 @@
     "knowledge_cutoff": "2025-01",
     "description": "Real-time voice and video agent model with native audio.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": 2,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "google",

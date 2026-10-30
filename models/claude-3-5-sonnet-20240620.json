@@ -1,7 +1,7 @@
 {
   "id": "claude-3-5-sonnet-20240620",
   "object": "model",
-  "created": null,
+  "created": 1718841600,
   "owned_by": "anthropic",
   "name": "Claude Sonnet 3.5 (Jun 2024)",
   "api": {
@@ -15,7 +15,7 @@
   },
   "limits": {
     "context": 200000,
-    "input": null,
+    "input": 200000,
     "output": 8192
   },
   "modalities": {
@@ -46,11 +46,11 @@
   ],
   "info": {
     "status": "retired",
-    "release_date": null,
-    "knowledge_cutoff": null,
+    "release_date": "2024-06-20",
+    "knowledge_cutoff": "2024-04",
     "description": null,
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -92,6 +92,16 @@
       "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
       "url": "https://github.com/anthropics/anthropic-sdk-typescript",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "存档：官方 API 发布说明（原网址 https://docs.anthropic.com/en/release-notes/api）",
+      "url": "https://web.archive.org/web/20241201015946/https://docs.anthropic.com/en/release-notes/api",
+      "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Models overview | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

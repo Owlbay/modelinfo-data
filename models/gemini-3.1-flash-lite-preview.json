@@ -40,7 +40,7 @@
     "unit": "1M_tokens",
     "input": 0.25,
     "output": 1.5,
-    "cache_read": null,
+    "cache_read": 0.025,
     "cache_write": null
   },
   "features": [
@@ -55,7 +55,7 @@
     "knowledge_cutoff": null,
     "description": null,
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {
@@ -63,7 +63,7 @@
       "unit": "1M_tokens",
       "input": 0.25,
       "output": 1.5,
-      "cache_read": null,
+      "cache_read": 0.025,
       "cache_write": null
     }
   ],
@@ -125,6 +125,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "存档：Gemini API 价格（原网址 https://ai.google.dev/gemini-api/docs/pricing）",
+      "url": "https://web.archive.org/web/20260521030432/https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

@@ -15,7 +15,7 @@
   },
   "limits": {
     "context": null,
-    "input": null,
+    "input": 8192,
     "output": null
   },
   "modalities": {
@@ -34,7 +34,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.2,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "retired",
@@ -42,9 +49,18 @@
     "knowledge_cutoff": null,
     "description": null,
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "google",
@@ -84,6 +100,16 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini Embedding 2 preview model | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
+      "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "存档：Gemini API 价格（原网址 https://ai.google.dev/gemini-api/docs/pricing）",
+      "url": "https://web.archive.org/web/20260401191258/https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }
