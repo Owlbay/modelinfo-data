@@ -1,0 +1,83 @@
+{
+  "id": "gemini-4-carbon",
+  "object": "model",
+  "created": 1793145600,
+  "owned_by": "google",
+  "name": "Gemini 4 Carbon",
+  "api": {
+    "types": [
+      "generate"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 4,
+    "output": 20,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-28",
+    "knowledge_cutoff": null,
+    "description": "Frontier model for cybersecurity and long-horizon work, announced on October 28, 2026. It is being made available to a subset of cyber defenders through the Fairwind Program and is not yet available to developers, businesses, or consumers. The launch post prices the introductory period at $2 per 1M input tokens and $10 per 1M output tokens, with cached input at 95% off the input price. After that period, $4 per 1M input tokens and $20 per 1M output tokens apply; that later rate is recorded here. The post gives no end date for the introductory period, no dollar amount for standard cached input, no context window, no maximum output, and no API model code. The Gemini API models index and pricing page do not list this model. The post mentions multimodal understanding without naming input types.",
+    "docs": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "verified_at": "2026-10-29"
+  },
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向网络安全和长程任务的前沿模型，2026 年 10 月 28 日发布。它先向一部分网络安全防御方通过 Fairwind Program 开放，尚未向开发者、企业或消费者开放。发布说明中的介绍价是输入每百万 tokens 2 美元、输出 10 美元，缓存输入为输入价的 95% 折扣。介绍期结束后适用输入 4 美元、输出 20 美元；这里记录的是后一档。文章没有给出介绍期截止日期、标准缓存价的具体金额、上下文窗口、最大输出或 API 模型代码。Gemini API 的模型目录和价格页都没有列出该模型。文章提到多模态理解，但没有写出输入类型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Introducing Gemini 4 Carbon | Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "retrieved_at": "2026-10-29"
+    },
+    {
+      "title": "Models | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-29"
+    },
+    {
+      "title": "Pricing | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "retrieved_at": "2026-10-29"
+    }
+  ],
+  "providers": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "particle-1",
+  "object": "model",
+  "created": 1793145600,
+  "owned_by": "particle",
+  "name": "Particle-1",
+  "api": {
+    "types": [
+      "chat",
+      "completions",
+      "responses"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max",
+      "ultra"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.25,
+    "output": 1,
+    "cache_read": 0.03,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-28",
+    "knowledge_cutoff": null,
+    "description": "Particle's software-engineering model, post-trained on DeepSeek V4.1 Flash and available through the Particle API. Requests use particle-1; responses return particle-ai/particle-1. The context window is 1,048,576 tokens for the prompt and completion combined. The output ceiling is 131,072 tokens, and the default cap when no limit is sent is 32,000. Input is text and images, and output is text. Chat reasoning_effort accepts none, minimal, low, medium, high (default), xhigh, max, and ultra; the Responses WebSocket uses reasoning.effort. Tool calling and streaming are supported. Schema-guaranteed structured output is not advertised. The recorded price is the peak standard rate: $0.25 per 1M uncached input tokens, $0.03 per 1M cached input tokens, and $1.00 per 1M output tokens. Off-peak and Flex rates are lower and are not recorded. The launch post's cost footnote instead lists $0.30, $0.006, and $1.20 per 1M tokens for both Particle-1 and DeepSeek V4.1 Flash.",
+    "docs": "https://docs.particle.ai/models",
+    "verified_at": "2026-10-29"
+  },
+  "aliases": [
+    "particle-ai/particle-1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Particle 的软件工程模型，基于 DeepSeek V4.1 Flash 后训练，可通过 Particle API 使用。请求使用 particle-1，响应返回 particle-ai/particle-1。上下文窗口为提示与补全合计 1,048,576 tokens。输出上限 131,072 tokens；未传限制时默认上限为 32,000。输入为文本和图像，输出为文本。聊天接口的 reasoning_effort 可取 none、minimal、low、medium、high（默认）、xhigh、max 和 ultra；Responses WebSocket 使用 reasoning.effort。支持工具调用和流式输出。不宣称有模式保证的结构化输出。记录的是高峰标准价：未缓存输入每百万 tokens 0.25 美元，缓存输入 0.03 美元，输出 1.00 美元。非高峰和 Flex 更低，不记录。发布说明的成本脚注则把 Particle-1 和 DeepSeek V4.1 Flash 都写成每百万 tokens 0.30、0.006 和 1.20 美元。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Introducing Particle-1 | Particle",
+      "url": "https://particle.ai/blog/introducing-particle-1",
+      "retrieved_at": "2026-10-29"
+    },
+    {
+      "title": "Model catalog | Particle API",
+      "url": "https://docs.particle.ai/models",
+      "retrieved_at": "2026-10-29"
+    },
+    {
+      "title": "Usage & billing | Particle API",
+      "url": "https://docs.particle.ai/usage-billing",
+      "retrieved_at": "2026-10-29"
+    },
+    {
+      "title": "List Models | Particle API",
+      "url": "https://docs.particle.ai/models-endpoint",
+      "retrieved_at": "2026-10-29"
+    },
+    {
+      "title": "Chat Completions | Particle API",
+      "url": "https://docs.particle.ai/chat-completions",
+      "retrieved_at": "2026-10-29"
+    },
+    {
+      "title": "Reasoning controls | Particle API",
+      "url": "https://docs.particle.ai/reasoning",
+      "retrieved_at": "2026-10-29"
+    },
+    {
+      "title": "Responses WebSocket API | Particle API",
+      "url": "https://docs.particle.ai/responses",
+      "retrieved_at": "2026-10-29"
+    }
+  ],
+  "providers": [
+    {
+      "id": "particle",
+      "model": "particle-1",
+      "base_url": "https://api.particle.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "completions": "POST /v1/completions"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort"
+      }
+    },
+    {
+      "id": "particle",
+      "model": "particle-1",
+      "base_url": "wss://api.particle.ai",
+      "endpoints": {
+        "responses": "WS /v1/responses"
+      },
+      "reasoning_param": "reasoning.effort"
+    }
+  ],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.25,
+      "output": 1,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ]
+}
