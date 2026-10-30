@@ -11,9 +11,9 @@
     "sdk": []
   },
   "limits": {
-    "context": null,
+    "context": 1048576,
     "input": null,
-    "output": null
+    "output": 131072
   },
   "modalities": {
     "input": [
@@ -43,7 +43,7 @@
     "knowledge_cutoff": "2026-06-30",
     "description": "Open-weight sparse mixture-of-experts model with 501.3B total parameters and 23.4B active parameters. It takes text input and generates text, with a 1M-token context length and a knowledge cutoff of 2026-06-30. Weights are Apache 2.0. Reasoning values are low, medium (default), high, xhigh, and max, and the model supports tool calling. No first-party API price is published.",
     "docs": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
-    "verified_at": "2026-10-22"
+    "verified_at": "2026-10-30"
   },
   "prices": [],
   "providers": [],
@@ -70,6 +70,11 @@
       "title": "Introducing Beam | Hugging Face Blog",
       "url": "https://huggingface.co/blog/reflection-beam",
       "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "Models | Reflection Developer Docs",
+      "url": "https://developers.reflection.ai/models",
+      "retrieved_at": "2026-10-30"
     }
   ]
 }

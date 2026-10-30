@@ -32,7 +32,14 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 1,
+    "output": 5,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "retired",
@@ -40,9 +47,18 @@
     "knowledge_cutoff": null,
     "description": null,
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "perplexity",
@@ -63,6 +79,11 @@
       "title": "存档：Model Cards | Perplexity Docs（原网址 https://docs.perplexity.ai/guides/model-cards）",
       "url": "https://web.archive.org/web/20250405124746/https://docs.perplexity.ai/guides/model-cards",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Sonar reasoning | Perplexity Docs (Wayback 2025-12-05)",
+      "url": "https://web.archive.org/web/20251205180050/https://docs.perplexity.ai/getting-started/models/models/sonar-reasoning",
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "SDK support — @ai-sdk/perplexity (api.sdk only)",

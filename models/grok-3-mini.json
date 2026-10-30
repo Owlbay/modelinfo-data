@@ -51,10 +51,10 @@
   "info": {
     "status": "retired",
     "release_date": "2025-04-03",
-    "knowledge_cutoff": null,
+    "knowledge_cutoff": "2024-11-17",
     "description": "A lightweight model that thinks before responding. Fast, smart, and great for logic-based tasks that do not require deep domain knowledge.",
     "docs": "https://web.archive.org/web/20260124185157/https://docs.x.ai/docs/models/grok-3-mini",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-10-30"
   },
   "prices": [
     {

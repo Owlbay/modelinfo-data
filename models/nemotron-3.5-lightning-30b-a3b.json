@@ -39,10 +39,10 @@
   "info": {
     "status": "active",
     "release_date": "2026-08-11",
-    "knowledge_cutoff": null,
+    "knowledge_cutoff": "2025-09",
     "description": "Fastest 30B A3B MoE model with leading domain accuracy for specialized agentic tasks.",
     "docs": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [],
   "providers": [

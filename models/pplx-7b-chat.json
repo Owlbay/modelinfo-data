@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 8192,
     "input": null,
     "output": null
   },
@@ -31,7 +31,14 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.07,
+    "output": 0.28,
+    "cache_read": null,
+    "cache_write": null
+  },
   "features": [],
   "info": {
     "status": "retired",
@@ -39,9 +46,18 @@
     "knowledge_cutoff": null,
     "description": null,
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.07,
+      "output": 0.28,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "perplexity",
@@ -57,6 +73,16 @@
       "title": "Changelog | Perplexity Docs",
       "url": "https://docs.perplexity.ai/docs/resources/changelog",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Supported Models | Perplexity Docs (Wayback 2024-02-02)",
+      "url": "https://web.archive.org/web/20240202213304/https://docs.perplexity.ai/docs/model-cards",
+      "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Pricing | Perplexity Docs (Wayback 2024-01-18)",
+      "url": "https://web.archive.org/web/20240118201113/https://docs.perplexity.ai/docs/pricing",
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "SDK support — openai (api.sdk only)",

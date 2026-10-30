@@ -38,10 +38,10 @@
   "info": {
     "status": "active",
     "release_date": "2026-06-04",
-    "knowledge_cutoff": null,
+    "knowledge_cutoff": "2025-09",
     "description": "Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning and tool calling.",
     "docs": "https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b/modelcard",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-30"
   },
   "prices": [],
   "providers": [

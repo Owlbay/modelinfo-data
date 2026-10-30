@@ -36,7 +36,14 @@
       "max"
     ]
   },
-  "pricing": null,
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 5,
+    "output": 30,
+    "cache_read": 0.5,
+    "cache_write": null
+  },
   "features": [
     "tools",
     "structured_output",
@@ -48,9 +55,18 @@
     "knowledge_cutoff": null,
     "description": "Version 1.1 of Fugu Ultra, Sakana AI's multi-agent orchestration model, upgraded to orchestrate newer frontier models with gains of up to 7.9 points over v1.0. Pinned version; fugu-ultra now points to v2.0. Supports three distinct reasoning efforts: high, xhigh and max (a separate maximum level for the hardest problems).",
     "docs": "https://console.sakana.ai/models",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-10-30"
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 30,
+      "cache_read": 0.5,
+      "cache_write": null
+    }
+  ],
   "providers": [
     {
       "id": "sakana",
@@ -95,6 +111,11 @@
       "title": "Announcing Fugu-Ultra v1.1 and Claude Code interface for Fugu | Sakana AI（July 24, 2026）",
       "url": "https://sakana.ai/fugu-1-1-claude-code-interface/",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Pricing | Sakana AI Console (Wayback 2026-09-06)",
+      "url": "https://web.archive.org/web/20260906155643/https://console.sakana.ai/pricing",
+      "retrieved_at": "2026-10-30"
     },
     {
       "title": "SDK support — openai (api.sdk only)",
