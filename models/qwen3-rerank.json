@@ -29,23 +29,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.1,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-01-27",
-    "knowledge_cutoff": null,
-    "description": "Text ranking model that orders candidate documents by relevance to a query, supporting over 100 languages.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-rerank",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-01-27",
+    "knowledge_cutoff": null,
+    "description": "Text ranking model that orders candidate documents by relevance to a query, supporting over 100 languages.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-rerank",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

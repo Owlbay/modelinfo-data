@@ -31,26 +31,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.23,
-    "output": 0.7,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-27",
-    "knowledge_cutoff": null,
-    "description": "Low-latency duplex end-to-end voice conversation model with function calling, web search and voice cloning. The recorded price is for text input and text output; audio input is $0.93 and audio output $1.87 per million tokens.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-realtime-flash",
-    "verified_at": "2026-10-28"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -69,6 +49,18 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-27",
+    "knowledge_cutoff": null,
+    "description": "Low-latency duplex end-to-end voice conversation model with function calling, web search and voice cloning. The recorded price is for text input and text output; audio input is $0.93 and audio output $1.87 per million tokens.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-realtime-flash",
+    "verified_at": "2026-10-28"
+  },
   "providers": [
     {
       "id": "alibaba",

@@ -31,23 +31,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.0539,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-17",
-    "knowledge_cutoff": null,
-    "description": "Real-time performable world model with instruction injection.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-17",
+    "knowledge_cutoff": null,
+    "description": "Real-time performable world model with instruction injection.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "alibaba",

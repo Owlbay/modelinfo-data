@@ -27,28 +27,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.37,
-    "output": 1.25,
-    "cache_read": 0.075,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "preview",
-    "release_date": "2026-10-12",
-    "knowledge_cutoff": null,
-    "description": "GLM-Legal, a GLM-5.3-Flash variant trained for legal research, contract review and document drafting. API access is open only to selected enterprise customers by application.",
-    "docs": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -67,6 +45,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-12",
+    "knowledge_cutoff": null,
+    "description": "GLM-Legal, a GLM-5.3-Flash variant trained for legal research, contract review and document drafting. API access is open only to selected enterprise customers by application.",
+    "docs": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "zhipu",

@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.01,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-25",
-    "knowledge_cutoff": null,
-    "description": "Meta's image model that generates and edits images from text prompts and reference images.",
-    "docs": "https://dev.meta.ai/docs/image-generation",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-25",
+    "knowledge_cutoff": null,
+    "description": "Meta's image model that generates and edits images from text prompts and reference images.",
+    "docs": "https://dev.meta.ai/docs/image-generation",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "meta",

@@ -33,7 +33,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -43,7 +43,6 @@
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "google",

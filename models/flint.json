@@ -27,7 +27,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -37,7 +37,6 @@
     "docs": "https://recursive.com/updates/introducing-recursive-flint",
     "verified_at": "2026-10-22"
   },
-  "prices": [],
   "providers": [],
   "aliases": [],
   "translations": {

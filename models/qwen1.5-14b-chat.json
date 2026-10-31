@@ -33,7 +33,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -43,7 +43,6 @@
     "docs": "https://www.alibabacloud.com/en/notice/qwen_15_20_series_models_to_be_decommissioned_on_modelstudio_4ca",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "alibaba",

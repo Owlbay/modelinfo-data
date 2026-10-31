@@ -40,14 +40,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 10,
-    "output": 50,
-    "cache_read": 1,
-    "cache_write": 12.5
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 10,
+      "output": 50,
+      "cache_read": 1,
+      "cache_write": 12.5
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -63,16 +65,6 @@
     "docs": "https://developers.openai.com/api/docs/models/gpt-6-astra",
     "verified_at": "2026-10-10"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 10,
-      "output": 50,
-      "cache_read": 1,
-      "cache_write": 12.5
-    }
-  ],
   "providers": [
     {
       "id": "openai",

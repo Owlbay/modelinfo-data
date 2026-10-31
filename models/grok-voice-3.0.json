@@ -34,14 +34,16 @@
       "none"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "minute",
-    "input": 0.08,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.08,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "streaming"
@@ -54,16 +56,6 @@
     "docs": "https://docs.x.ai/developers/models/grok-voice-3.0",
     "verified_at": "2026-10-15"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "minute",
-      "input": 0.08,
-      "output": null,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "xai",

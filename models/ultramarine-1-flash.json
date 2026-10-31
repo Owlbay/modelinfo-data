@@ -37,14 +37,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.15,
-    "output": 0.5,
-    "cache_read": 0.03,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.5,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -59,16 +61,6 @@
     "docs": "https://docs.paperinstruments.com/docs/ultramarine",
     "verified_at": "2026-10-15"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.15,
-      "output": 0.5,
-      "cache_read": 0.03,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "paperinstruments",

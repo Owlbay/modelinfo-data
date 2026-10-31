@@ -29,23 +29,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.23,
-    "output": 1.87,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-12",
-    "knowledge_cutoff": null,
-    "description": "Qwen-Audio-TTS speech synthesis model with instruction control, billed by input and output tokens.",
-    "docs": "https://help.aliyun.com/zh/model-studio/qwen-tts",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -64,6 +47,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-12",
+    "knowledge_cutoff": null,
+    "description": "Qwen-Audio-TTS speech synthesis model with instruction control, billed by input and output tokens.",
+    "docs": "https://help.aliyun.com/zh/model-studio/qwen-tts",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "alibaba",

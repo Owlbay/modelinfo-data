@@ -34,23 +34,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 1,
-    "output": 2,
-    "cache_read": 0.02,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2026-03-18",
-    "knowledge_cutoff": null,
-    "description": "MiMo-V2-Omni, Xiaomi omni-modal model (text, vision, audio) with 256K context; retired. Requests were forwarded to mimo-v2.5 from 2026-06-01 and the model was shut down on 2026-06-30 00:00 (UTC+8).",
-    "docs": "https://mimo.mi.com/docs/zh-CN/updates/deprecate",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -69,6 +52,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-03-18",
+    "knowledge_cutoff": null,
+    "description": "MiMo-V2-Omni, Xiaomi omni-modal model (text, vision, audio) with 256K context; retired. Requests were forwarded to mimo-v2.5 from 2026-06-01 and the model was shut down on 2026-06-30 00:00 (UTC+8).",
+    "docs": "https://mimo.mi.com/docs/zh-CN/updates/deprecate",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "xiaomi",

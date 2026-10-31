@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.5,
-    "output": 2,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2023-06-13",
-    "knowledge_cutoff": null,
-    "description": null,
-    "docs": null,
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2023-06-13",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": null,
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "openai",

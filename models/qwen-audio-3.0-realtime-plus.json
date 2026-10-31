@@ -31,25 +31,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.8,
-    "output": 6.4,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-07-14",
-    "knowledge_cutoff": null,
-    "description": "Real-time voice conversation model accessed through the Realtime API (WebSocket).",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -68,6 +49,17 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-14",
+    "knowledge_cutoff": null,
+    "description": "Real-time voice conversation model accessed through the Realtime API (WebSocket).",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "alibaba",

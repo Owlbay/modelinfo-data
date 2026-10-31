@@ -34,7 +34,7 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools"
   ],
@@ -46,7 +46,6 @@
     "docs": "https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning/modelcard",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "nvidia",

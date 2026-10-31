@@ -28,23 +28,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.93,
-    "output": 1.87,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-21",
-    "knowledge_cutoff": null,
-    "description": "AudioGen model that generates complete audio in one pass from text, timestamps and up to three reference clips: multilingual speech, multi-speaker dialogue, podcasts, sound effects and ambience. Non-streaming; up to 240 s per podcast request, 120 s otherwise.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-next",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -63,6 +46,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-21",
+    "knowledge_cutoff": null,
+    "description": "AudioGen model that generates complete audio in one pass from text, timestamps and up to three reference clips: multilingual speech, multi-speaker dialogue, podcasts, sound effects and ambience. Non-streaming; up to 240 s per podcast request, 120 s otherwise.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-next",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "alibaba",
@@ -81,14 +73,16 @@
         "audio": "POST /api/v1/services/audio/tts/SpeechSynthesizer"
       },
       "reasoning_param": null,
-      "pricing": {
-        "currency": "CNY",
-        "unit": "1M_tokens",
-        "input": 6,
-        "output": 12,
-        "cache_read": null,
-        "cache_write": null
-      }
+      "prices": [
+        {
+          "currency": "CNY",
+          "unit": "1M_tokens",
+          "input": 6,
+          "output": 12,
+          "cache_read": null,
+          "cache_write": null
+        }
+      ]
     }
   ],
   "aliases": [],

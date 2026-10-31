@@ -33,23 +33,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.5,
-    "output": 7.5,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2025-07-23",
-    "knowledge_cutoff": null,
-    "description": "Open-weight Qwen3 coding model with strong coding agent ability, served on Model Studio.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-coder-480b-a35b-instruct",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-07-23",
+    "knowledge_cutoff": null,
+    "description": "Open-weight Qwen3 coding model with strong coding agent ability, served on Model Studio.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-coder-480b-a35b-instruct",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

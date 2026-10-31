@@ -32,23 +32,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 3,
-    "output": 9,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-09-16",
-    "knowledge_cutoff": null,
-    "description": "Tencent deep-thinking vision model for VQA, OCR, charts and visual grounding.",
-    "docs": "https://cloud.tencent.com/document/product/1823/130051",
-    "verified_at": "2026-10-10"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -59,6 +42,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-09-16",
+    "knowledge_cutoff": null,
+    "description": "Tencent deep-thinking vision model for VQA, OCR, charts and visual grounding.",
+    "docs": "https://cloud.tencent.com/document/product/1823/130051",
+    "verified_at": "2026-10-10"
+  },
   "providers": [
     {
       "id": "tencent",

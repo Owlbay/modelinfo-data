@@ -33,23 +33,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.1,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-04-03",
-    "knowledge_cutoff": null,
-    "description": "Wan2.7 image-to-video model supporting first-frame, first-and-last-frame and video-continuation generation.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/image-to-video-general-api-reference",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-03",
+    "knowledge_cutoff": null,
+    "description": "Wan2.7 image-to-video model supporting first-frame, first-and-last-frame and video-continuation generation.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/image-to-video-general-api-reference",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

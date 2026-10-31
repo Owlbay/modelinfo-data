@@ -33,7 +33,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -43,7 +43,6 @@
     "docs": "https://docs.bigmodel.cn/cn/guide/models/vlm/autoglm-phone",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "zhipu",

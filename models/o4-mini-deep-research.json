@@ -32,14 +32,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2,
-    "output": 8,
-    "cache_read": 0.5,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 8,
+      "cache_read": 0.5,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming",
     "caching",
@@ -53,16 +55,6 @@
     "docs": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 2,
-      "output": 8,
-      "cache_read": 0.5,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "openai",

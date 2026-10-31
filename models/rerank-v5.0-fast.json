@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.02,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-21",
-    "knowledge_cutoff": null,
-    "description": "Rerank 5 Fast ranks documents against a query. The docs state a context length of 32,768 tokens for the query and documents combined. The launch post prices the API at $0.02 per 1M tokens. No cached-token price, separate input cap, or output cap is published.",
-    "docs": "https://docs.cohere.com/docs/rerank",
-    "verified_at": "2026-10-27"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -54,6 +37,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-21",
+    "knowledge_cutoff": null,
+    "description": "Rerank 5 Fast ranks documents against a query. The docs state a context length of 32,768 tokens for the query and documents combined. The launch post prices the API at $0.02 per 1M tokens. No cached-token price, separate input cap, or output cap is published.",
+    "docs": "https://docs.cohere.com/docs/rerank",
+    "verified_at": "2026-10-27"
+  },
   "providers": [
     {
       "id": "cohere",

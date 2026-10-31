@@ -30,7 +30,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -40,7 +40,6 @@
     "docs": "https://docs.cohere.com/docs/north-small-translate-1.0",
     "verified_at": "2026-10-26"
   },
-  "prices": [],
   "providers": [
     {
       "id": "cohere",

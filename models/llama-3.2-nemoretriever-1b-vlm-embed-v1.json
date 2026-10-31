@@ -32,7 +32,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -42,7 +42,6 @@
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_2-nemoretriever-1b-vlm-embed-v1",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "nvidia",

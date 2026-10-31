@@ -32,23 +32,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.5,
-    "output": 3.5,
-    "cache_read": 0.3,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-05-08",
-    "knowledge_cutoff": null,
-    "description": "Conversational model that understands speech, including hesitation and laughter, and outputs text.",
-    "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-chat",
-    "verified_at": "2026-10-10"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -67,6 +50,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-08",
+    "knowledge_cutoff": null,
+    "description": "Conversational model that understands speech, including hesitation and laughter, and outputs text.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-chat",
+    "verified_at": "2026-10-10"
+  },
   "providers": [
     {
       "id": "stepfun",

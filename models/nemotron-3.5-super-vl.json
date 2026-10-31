@@ -31,7 +31,7 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools",
     "streaming"
@@ -44,7 +44,6 @@
     "docs": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
     "verified_at": "2026-10-16"
   },
-  "prices": [],
   "providers": [
     {
       "id": "nvidia",

@@ -31,7 +31,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -41,7 +41,6 @@
     "docs": "https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2/modelcard",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "nvidia",

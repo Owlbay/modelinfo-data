@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "page",
-    "input": 0.0015,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-27",
-    "knowledge_cutoff": null,
-    "description": "Vision language model that converts enterprise documents such as forms and PDFs into structured Markdown, tables and bounding boxes.",
-    "docs": "https://docs.cohere.com/docs/parse",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-27",
+    "knowledge_cutoff": null,
+    "description": "Vision language model that converts enterprise documents such as forms and PDFs into structured Markdown, tables and bounding boxes.",
+    "docs": "https://docs.cohere.com/docs/parse",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "cohere",

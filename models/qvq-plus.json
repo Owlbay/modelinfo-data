@@ -35,7 +35,7 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "streaming"
   ],
@@ -47,7 +47,6 @@
     "docs": "https://www.alibabacloud.com/help/en/model-studio/vision-model",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "alibaba",

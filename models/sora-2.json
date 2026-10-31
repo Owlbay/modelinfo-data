@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.1,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2025-10-06",
-    "knowledge_cutoff": null,
-    "description": "Flagship video generation with synced audio",
-    "docs": "https://developers.openai.com/api/docs/models/sora-2",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-10-06",
+    "knowledge_cutoff": null,
+    "description": "Flagship video generation with synced audio",
+    "docs": "https://developers.openai.com/api/docs/models/sora-2",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "openai",

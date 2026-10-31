@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.24,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-06-17",
-    "knowledge_cutoff": null,
-    "description": "Speechmatics multilingual speech-to-text model that handles speakers switching languages mid-conversation, available for Batch and, since 2026-10-13, Realtime transcription. The stored price is the Batch rate; Realtime is $0.40 per hour.",
-    "docs": "https://docs.speechmatics.com/speech-to-text/models",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-17",
+    "knowledge_cutoff": null,
+    "description": "Speechmatics multilingual speech-to-text model that handles speakers switching languages mid-conversation, available for Batch and, since 2026-10-13, Realtime transcription. The stored price is the Batch rate; Realtime is $0.40 per hour.",
+    "docs": "https://docs.speechmatics.com/speech-to-text/models",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "speechmatics",
@@ -76,14 +68,16 @@
         "realtime": "WS /v2"
       },
       "reasoning_param": null,
-      "pricing": {
-        "currency": "USD",
-        "unit": "hour",
-        "input": 0.4,
-        "output": null,
-        "cache_read": null,
-        "cache_write": null
-      }
+      "prices": [
+        {
+          "currency": "USD",
+          "unit": "hour",
+          "input": 0.4,
+          "output": null,
+          "cache_read": null,
+          "cache_write": null
+        }
+      ]
     }
   ],
   "aliases": [],

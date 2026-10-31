@@ -35,7 +35,7 @@
       "xhigh"
     ]
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -45,7 +45,6 @@
     "docs": "https://research.meta.ai/blog/muse-spark-open",
     "verified_at": "2026-10-30"
   },
-  "prices": [],
   "providers": [],
   "aliases": [],
   "translations": {

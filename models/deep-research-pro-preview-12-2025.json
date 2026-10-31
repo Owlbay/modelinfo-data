@@ -34,7 +34,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -44,7 +44,6 @@
     "docs": "https://ai.google.dev/gemini-api/docs/models/deep-research-pro-preview-12-2025",
     "verified_at": "2026-10-31"
   },
-  "prices": [],
   "providers": [
     {
       "id": "google",

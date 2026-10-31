@@ -32,14 +32,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "page",
-    "input": 0.004,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "page",
+      "input": 0.004,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "batch"
   ],
@@ -51,16 +53,6 @@
     "docs": "https://docs.mistral.ai/models/ocr-4-0",
     "verified_at": "2026-10-15"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "page",
-      "input": 0.004,
-      "output": null,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "mistral",

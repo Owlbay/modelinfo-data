@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "hour",
-    "input": 3.6,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Speech recognition for review and proofreading scenarios.",
-    "docs": "https://docs.senseaudio.cn/guides/asr/overview",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -54,6 +37,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Speech recognition for review and proofreading scenarios.",
+    "docs": "https://docs.senseaudio.cn/guides/asr/overview",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "senseaudio",

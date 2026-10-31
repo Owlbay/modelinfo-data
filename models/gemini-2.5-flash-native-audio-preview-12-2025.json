@@ -34,14 +34,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.5,
-    "output": 2,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": 2,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools"
   ],
@@ -53,16 +55,6 @@
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
     "verified_at": "2026-10-30"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.5,
-      "output": 2,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "google",

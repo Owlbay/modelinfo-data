@@ -32,7 +32,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -42,7 +42,6 @@
     "docs": "https://web.archive.org/web/20260716095218/https://docs.bigmodel.cn/cn/guide/start/model-overview",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "zhipu",

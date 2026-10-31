@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "minute",
-    "input": 0.006,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": "2023-03-01",
-    "knowledge_cutoff": null,
-    "description": "General-purpose speech recognition model.",
-    "docs": "https://developers.openai.com/api/docs/models/whisper-1",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2023-03-01",
+    "knowledge_cutoff": null,
+    "description": "General-purpose speech recognition model.",
+    "docs": "https://developers.openai.com/api/docs/models/whisper-1",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "openai",

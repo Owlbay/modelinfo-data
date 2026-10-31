@@ -28,7 +28,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -38,7 +38,6 @@
     "docs": "https://docs.ltx.io/api-changelog",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "lightricks",

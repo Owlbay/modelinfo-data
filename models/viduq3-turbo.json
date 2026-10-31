@@ -28,7 +28,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -38,7 +38,6 @@
     "docs": "https://platform.vidu.com/docs/overview/model-map",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "shengshu",

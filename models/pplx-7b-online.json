@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0,
-    "output": 0.28,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2023-11-29",
-    "knowledge_cutoff": null,
-    "description": null,
-    "docs": "https://docs.perplexity.ai/docs/resources/changelog",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2023-11-29",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.perplexity.ai/docs/resources/changelog",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "perplexity",

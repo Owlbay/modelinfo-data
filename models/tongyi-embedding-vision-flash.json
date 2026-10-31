@@ -32,23 +32,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.09,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-10-31",
-    "knowledge_cutoff": null,
-    "description": "Lower-cost multimodal embedding for cross-modal retrieval, 64-768 dimensions.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -67,6 +50,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-31",
+    "knowledge_cutoff": null,
+    "description": "Lower-cost multimodal embedding for cross-modal retrieval, 64-768 dimensions.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "alibaba",

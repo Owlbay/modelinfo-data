@@ -32,14 +32,16 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.28,
-    "output": 0.42,
-    "cache_read": 0.028,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.28,
+      "output": 0.42,
+      "cache_read": 0.028,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -53,16 +55,6 @@
     "docs": "https://api-docs.deepseek.com/quick_start/pricing",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.28,
-      "output": 0.42,
-      "cache_read": 0.028,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "deepseek",

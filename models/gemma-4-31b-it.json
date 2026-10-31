@@ -35,7 +35,7 @@
       "high"
     ]
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools"
   ],
@@ -47,7 +47,6 @@
     "docs": "https://ai.google.dev/gemma/docs/core/gemma_on_gemini_api",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "google",

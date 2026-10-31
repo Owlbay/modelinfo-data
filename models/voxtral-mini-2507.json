@@ -35,7 +35,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "structured_output",
     "batch"
@@ -48,7 +48,6 @@
     "docs": "https://docs.mistral.ai/models/voxtral-mini-25-07",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "mistral",

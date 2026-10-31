@@ -33,23 +33,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0.125,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-01",
-    "knowledge_cutoff": null,
-    "description": "Cost- and throughput-oriented text embedding model with output dimensions from 256 to 1024.",
-    "docs": "https://help.aliyun.com/zh/model-studio/embedding-rerank-model",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-01",
+    "knowledge_cutoff": null,
+    "description": "Cost- and throughput-oriented text embedding model with output dimensions from 256 to 1024.",
+    "docs": "https://help.aliyun.com/zh/model-studio/embedding-rerank-model",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "alibaba",

@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.12,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-02-10",
-    "knowledge_cutoff": null,
-    "description": "Runway's state-of-the-art text-to-video and image-to-video model.",
-    "docs": "https://docs.dev.runwayml.com/guides/models/",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-10",
+    "knowledge_cutoff": null,
+    "description": "Runway's state-of-the-art text-to-video and image-to-video model.",
+    "docs": "https://docs.dev.runwayml.com/guides/models/",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "runway",

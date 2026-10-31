@@ -33,14 +33,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.3,
-    "output": 7.8,
-    "cache_read": 0.13,
-    "cache_write": 1.625
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.3,
+      "output": 7.8,
+      "cache_read": 0.13,
+      "cache_write": 1.625
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -54,16 +56,6 @@
     "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-max",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 1.3,
-      "output": 7.8,
-      "cache_read": 0.13,
-      "cache_write": 1.625
-    }
-  ],
   "providers": [
     {
       "id": "alibaba",

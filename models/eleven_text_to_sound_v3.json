@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "minute",
-    "input": 0.12,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-29",
-    "knowledge_cutoff": null,
-    "description": "ElevenLabs sound effects model that generates sound effects from text prompts. Compared with eleven_text_to_sound_v2, it follows several sound instructions in one prompt more closely, handles prompts with music or vocals, sounds more natural, and is less likely to clip on high-frequency sounds; it supports looping. It uses the same Sound Effects API, where eleven_text_to_sound_v2 remains the default model_id. It is in limited access and may not be available in every region; accounts without access get an Unknown model error. The stored price is the Sound Effects API rate of $0.12 per minute.",
-    "docs": "https://elevenlabs.io/docs/overview/models",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-29",
+    "knowledge_cutoff": null,
+    "description": "ElevenLabs sound effects model that generates sound effects from text prompts. Compared with eleven_text_to_sound_v2, it follows several sound instructions in one prompt more closely, handles prompts with music or vocals, sounds more natural, and is less likely to clip on high-frequency sounds; it supports looping. It uses the same Sound Effects API, where eleven_text_to_sound_v2 remains the default model_id. It is in limited access and may not be available in every region; accounts without access get an Unknown model error. The stored price is the Sound Effects API rate of $0.12 per minute.",
+    "docs": "https://elevenlabs.io/docs/overview/models",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "elevenlabs",

@@ -39,28 +39,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.4,
-    "output": 1.6,
-    "cache_read": 0.04,
-    "cache_write": 0.5
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-06-01",
-    "knowledge_cutoff": null,
-    "description": "Cost-effective Plus model with robust text capabilities and multimodal agent abilities such as GUI interaction.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-7-plus",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -79,6 +57,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-01",
+    "knowledge_cutoff": null,
+    "description": "Cost-effective Plus model with robust text capabilities and multimodal agent abilities such as GUI interaction.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-7-plus",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

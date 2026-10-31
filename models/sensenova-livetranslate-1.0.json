@@ -28,7 +28,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "streaming"
   ],
@@ -40,7 +40,6 @@
     "docs": "https://docs.senseaudio.cn/guides/simultaneous-interpretation/overview",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "senseaudio",

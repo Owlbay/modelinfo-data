@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.12,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2024-06-03",
-    "knowledge_cutoff": null,
-    "description": "Voyage embedding model optimized for finance retrieval and RAG.",
-    "docs": "https://docs.voyageai.com/docs/embeddings",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-06-03",
+    "knowledge_cutoff": null,
+    "description": "Voyage embedding model optimized for finance retrieval and RAG.",
+    "docs": "https://docs.voyageai.com/docs/embeddings",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "voyage",

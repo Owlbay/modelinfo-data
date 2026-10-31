@@ -39,28 +39,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.4,
-    "output": 2.4,
-    "cache_read": 0.04,
-    "cache_write": 0.5
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-02-15",
-    "knowledge_cutoff": null,
-    "description": "Native vision-language Plus model with hybrid linear attention and sparse MoE architecture.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-5-plus",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -79,6 +57,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-15",
+    "knowledge_cutoff": null,
+    "description": "Native vision-language Plus model with hybrid linear attention and sparse MoE architecture.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-5-plus",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "alibaba",

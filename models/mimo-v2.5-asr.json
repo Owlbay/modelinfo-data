@@ -32,14 +32,16 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "hour",
-    "input": 0.5,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "hour",
+      "input": 0.5,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming"
   ],
@@ -51,16 +53,6 @@
     "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-asr",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "hour",
-      "input": 0.5,
-      "output": null,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "xiaomi",

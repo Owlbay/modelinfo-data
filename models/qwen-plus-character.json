@@ -33,26 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.5,
-    "output": 1.4,
-    "cache_read": 0.1,
-    "cache_write": null
-  },
-  "features": [
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-01-30",
-    "knowledge_cutoff": null,
-    "description": "Role-playing model for virtual companions, game NPCs and IP characters, with improved character consistency and topic progression.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/role-play",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -71,6 +51,18 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-01-30",
+    "knowledge_cutoff": null,
+    "description": "Role-playing model for virtual companions, game NPCs and IP characters, with improved character consistency and topic progression.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/role-play",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "alibaba",

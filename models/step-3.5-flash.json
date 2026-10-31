@@ -34,27 +34,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.1,
-    "output": 0.3,
-    "cache_read": 0.02,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-02-02",
-    "knowledge_cutoff": null,
-    "description": "Sparse MoE reasoning model (196B total, 11B active) for agents and long-horizon tasks.",
-    "docs": "https://platform.stepfun.ai/docs/en/guides/models/step-3.5-flash",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -73,6 +52,19 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-02",
+    "knowledge_cutoff": null,
+    "description": "Sparse MoE reasoning model (196B total, 11B active) for agents and long-horizon tasks.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/models/step-3.5-flash",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "stepfun",

@@ -32,14 +32,16 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2,
-    "output": 10,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 10,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output"
@@ -52,16 +54,6 @@
     "docs": "https://docs.x.ai/developers/release-notes",
     "verified_at": "2026-10-20"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 2,
-      "output": 10,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "xai",

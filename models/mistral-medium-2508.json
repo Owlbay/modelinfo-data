@@ -35,14 +35,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.4,
-    "output": 2,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.4,
+      "output": 2,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -56,16 +58,6 @@
     "docs": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
     "verified_at": "2026-10-15"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.4,
-      "output": 2,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "mistral",

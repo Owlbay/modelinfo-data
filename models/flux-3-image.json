@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.041,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-01",
-    "knowledge_cutoff": null,
-    "description": "FLUX 3 image generation and editing from one endpoint, with bounding-box layout control, up to ten references and up to 4K output.",
-    "docs": "https://docs.bfl.ml/flux_3/flux3_image_overview",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-01",
+    "knowledge_cutoff": null,
+    "description": "FLUX 3 image generation and editing from one endpoint, with bounding-box layout control, up to ten references and up to 4K output.",
+    "docs": "https://docs.bfl.ml/flux_3/flux3_image_overview",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "black-forest-labs",

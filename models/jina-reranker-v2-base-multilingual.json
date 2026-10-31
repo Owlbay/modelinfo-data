@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.05,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": "2024-06-25",
-    "knowledge_cutoff": null,
-    "description": "Multilingual cross-encoder reranker (278M parameters); the model page marks it as deprecated.",
-    "docs": "https://jina.ai/models/jina-reranker-v2-base-multilingual",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -54,6 +37,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2024-06-25",
+    "knowledge_cutoff": null,
+    "description": "Multilingual cross-encoder reranker (278M parameters); the model page marks it as deprecated.",
+    "docs": "https://jina.ai/models/jina-reranker-v2-base-multilingual",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "jina",

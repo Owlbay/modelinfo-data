@@ -34,14 +34,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2,
-    "output": 5,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "batch"
@@ -54,16 +56,6 @@
     "docs": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 2,
-      "output": 5,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "mistral",

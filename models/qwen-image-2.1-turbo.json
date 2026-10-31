@@ -33,23 +33,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.016,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-09",
-    "knowledge_cutoff": null,
-    "description": "8-step 7B model unifying text-to-image and editing.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-09",
+    "knowledge_cutoff": null,
+    "description": "8-step 7B model unifying text-to-image and editing.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

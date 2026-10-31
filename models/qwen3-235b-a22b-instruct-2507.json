@@ -33,14 +33,16 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.23,
-    "output": 0.92,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.23,
+      "output": 0.92,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "structured_output",
     "streaming"
@@ -53,16 +55,6 @@
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
     "verified_at": "2026-10-30"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.23,
-      "output": 0.92,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "alibaba",

@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 30,
-    "output": 100,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Hunyuan-Pro, retired. Official shutdown: service stopped from 2026-06-22 00:00 (Beijing time) per the old-version model retirement notice.",
-    "docs": "https://cloud.tencent.com/document/product/1729/131925",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Hunyuan-Pro, retired. Official shutdown: service stopped from 2026-06-22 00:00 (Beijing time) per the old-version model retirement notice.",
+    "docs": "https://cloud.tencent.com/document/product/1729/131925",
+    "verified_at": "2026-10-11"
+  },
   "providers": [],
   "aliases": [],
   "translations": {

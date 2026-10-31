@@ -31,23 +31,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": null,
-    "output": 14,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Compact Seedance 2.0 video generation at 480p and 720p.",
-    "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Compact Seedance 2.0 video generation at 480p and 720p.",
+    "docs": "https://www.volcengine.com/docs/82379/1330310",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "bytedance",

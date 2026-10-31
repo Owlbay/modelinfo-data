@@ -34,23 +34,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": 0.068,
-    "output": 0.068,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-20",
-    "knowledge_cutoff": null,
-    "description": "Accelerated Wan3.0 covering text, image and reference-to-video in one model.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -61,6 +44,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-20",
+    "knowledge_cutoff": null,
+    "description": "Accelerated Wan3.0 covering text, image and reference-to-video in one model.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

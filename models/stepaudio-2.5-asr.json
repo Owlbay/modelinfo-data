@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.022,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-04-24",
-    "knowledge_cutoff": null,
-    "description": "4B-parameter speech recognition model using multi-token prediction; one-shot submission with SSE output.",
-    "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-asr",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -62,6 +45,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-24",
+    "knowledge_cutoff": null,
+    "description": "4B-parameter speech recognition model using multi-token prediction; one-shot submission with SSE output.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-asr",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "stepfun",

@@ -31,14 +31,16 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "batch"
   ],
@@ -50,16 +52,6 @@
     "docs": "https://developers.openai.com/api/docs/models/omni-moderation-latest",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0,
-      "output": null,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "openai",

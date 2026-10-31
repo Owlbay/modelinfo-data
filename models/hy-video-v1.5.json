@@ -28,23 +28,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": null,
-    "output": 1.6,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Hunyuan video generation model on TokenHub supporting text-to-video and image-to-video (fixed 5 seconds at 720p).",
-    "docs": "https://www.tencentcloud.com/document/product/1300/83712",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -55,6 +38,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Hunyuan video generation model on TokenHub supporting text-to-video and image-to-video (fixed 5 seconds at 720p).",
+    "docs": "https://www.tencentcloud.com/document/product/1300/83712",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "tencent",

@@ -40,28 +40,6 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.32,
-    "output": 3.96,
-    "cache_read": 0.044,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-13",
-    "knowledge_cutoff": null,
-    "description": "DeepSeek-V4-Pro, the flagship V4 model with thinking and non-thinking modes.",
-    "docs": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -80,6 +58,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-13",
+    "knowledge_cutoff": null,
+    "description": "DeepSeek-V4-Pro, the flagship V4 model with thinking and non-thinking modes.",
+    "docs": "https://api-docs.deepseek.com/quick_start/pricing",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "deepseek",

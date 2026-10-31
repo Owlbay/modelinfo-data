@@ -31,14 +31,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0,
-    "output": 0,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0,
+      "output": 0,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming"
   ],
@@ -50,16 +52,6 @@
     "docs": "https://www.xfyun.cn/doc/spark/HTTP%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.html",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 0,
-      "output": 0,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "iflytek",

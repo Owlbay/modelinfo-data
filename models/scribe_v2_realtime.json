@@ -31,14 +31,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.39,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.39,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming"
   ],
@@ -50,16 +52,6 @@
     "docs": "https://elevenlabs.io/docs/overview/models",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "hour",
-      "input": 0.39,
-      "output": null,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "elevenlabs",

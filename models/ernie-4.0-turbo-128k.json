@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 3,
-    "output": 9,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2024-10-31",
-    "knowledge_cutoff": null,
-    "description": "ERNIE-4.0-Turbo-128K, retired. Official retirement date: 2026-06-30.",
-    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-10-31",
+    "knowledge_cutoff": null,
+    "description": "ERNIE-4.0-Turbo-128K, retired. Official retirement date: 2026-06-30.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "baidu",

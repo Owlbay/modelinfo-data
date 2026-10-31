@@ -29,7 +29,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -39,7 +39,6 @@
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_gtererank_model_deprecation_751",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "alibaba",

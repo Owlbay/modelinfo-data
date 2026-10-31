@@ -35,14 +35,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.5,
-    "output": 9,
-    "cache_read": 0.15,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.5,
+      "output": 9,
+      "cache_read": 0.15,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -58,16 +60,6 @@
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 1.5,
-      "output": 9,
-      "cache_read": 0.15,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "google",

@@ -33,23 +33,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.07,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2024-07-12",
-    "knowledge_cutoff": null,
-    "description": "Multilingual text embedding model, 512-1024 dimensions, kept for migrating existing indexes.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -68,6 +51,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-07-12",
+    "knowledge_cutoff": null,
+    "description": "Multilingual text embedding model, 512-1024 dimensions, kept for migrating existing indexes.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

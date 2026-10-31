@@ -37,14 +37,16 @@
       "xhigh"
     ]
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 4.5,
-    "output": 18,
-    "cache_read": 0.9,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 4.5,
+      "output": 18,
+      "cache_read": 0.9,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "streaming"
@@ -57,16 +59,6 @@
     "docs": "https://developer.ant-ling.com/en/docs/models/ring",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 4.5,
-      "output": 18,
-      "cache_read": 0.9,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "ant",

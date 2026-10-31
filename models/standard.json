@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.45,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Speechmatics high-throughput speech-to-text model, the default model, available for Batch and Realtime transcription.",
-    "docs": "https://docs.speechmatics.com/speech-to-text/models",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Speechmatics high-throughput speech-to-text model, the default model, available for Batch and Realtime transcription.",
+    "docs": "https://docs.speechmatics.com/speech-to-text/models",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "speechmatics",

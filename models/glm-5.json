@@ -32,28 +32,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1,
-    "output": 3.2,
-    "cache_read": 0.2,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-02-12",
-    "knowledge_cutoff": null,
-    "description": "Foundation model for agentic engineering, 744B total and 40B active parameters.",
-    "docs": "https://docs.z.ai/guides/llm/glm-5",
-    "verified_at": "2026-10-10"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -72,6 +50,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-12",
+    "knowledge_cutoff": null,
+    "description": "Foundation model for agentic engineering, 744B total and 40B active parameters.",
+    "docs": "https://docs.z.ai/guides/llm/glm-5",
+    "verified_at": "2026-10-10"
+  },
   "providers": [
     {
       "id": "zhipu",

@@ -40,27 +40,6 @@
       "high"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.2,
-    "output": 1.15,
-    "cache_read": 0.04,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-05-29",
-    "knowledge_cutoff": null,
-    "description": "Sparse MoE multimodal reasoning model (198B total, 11B active) with image and video understanding.",
-    "docs": "https://platform.stepfun.ai/docs/en/guides/models/step-3.7-flash",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -79,6 +58,19 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-29",
+    "knowledge_cutoff": null,
+    "description": "Sparse MoE multimodal reasoning model (198B total, 11B active) with image and video understanding.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/models/step-3.7-flash",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "stepfun",

@@ -32,23 +32,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "image",
-    "input": null,
-    "output": 0.05,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Baidu MuseSteamer Air text-to-image model on Qianfan, priced per 1024x1024 image.",
-    "docs": "https://cloud.baidu.com/doc/qianfan-api/s/Ymio9i9i4",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -59,6 +42,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Baidu MuseSteamer Air text-to-image model on Qianfan, priced per 1024x1024 image.",
+    "docs": "https://cloud.baidu.com/doc/qianfan-api/s/Ymio9i9i4",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "baidu",

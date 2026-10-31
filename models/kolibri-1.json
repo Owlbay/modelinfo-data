@@ -32,7 +32,7 @@
       "high"
     ]
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools",
     "structured_output"
@@ -45,7 +45,6 @@
     "docs": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
     "verified_at": "2026-10-27"
   },
-  "prices": [],
   "providers": [],
   "aliases": [
     "Aleph-Alpha/Kolibri-1"

@@ -32,28 +32,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.4,
-    "output": 4.4,
-    "cache_read": 0.26,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-04-07",
-    "knowledge_cutoff": null,
-    "description": "Flagship foundation model for long-horizon tasks, working autonomously up to 8 hours.",
-    "docs": "https://docs.z.ai/guides/llm/glm-5.1",
-    "verified_at": "2026-10-10"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -72,6 +50,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-07",
+    "knowledge_cutoff": null,
+    "description": "Flagship foundation model for long-horizon tasks, working autonomously up to 8 hours.",
+    "docs": "https://docs.z.ai/guides/llm/glm-5.1",
+    "verified_at": "2026-10-10"
+  },
   "providers": [
     {
       "id": "zhipu",

@@ -38,27 +38,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.6,
-    "output": 3.6,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-04-22",
-    "knowledge_cutoff": null,
-    "description": "Open-weight dense vision-language model improving agentic coding and STEM reasoning over Qwen3.5-27B.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -77,6 +56,19 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-22",
+    "knowledge_cutoff": null,
+    "description": "Open-weight dense vision-language model improving agentic coding and STEM reasoning over Qwen3.5-27B.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

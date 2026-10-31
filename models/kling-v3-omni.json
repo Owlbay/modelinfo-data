@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.084,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-02-25",
-    "knowledge_cutoff": null,
-    "description": "All-in-one multimodal video model with voice-driven characters and native audio (3-15s, 720P/1080P/4K); the same ID serves Kling Image 3.0 Omni (1K/2K/4K, series generation).",
-    "docs": "https://kling.ai/document-api/guides/capability-map/video",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-25",
+    "knowledge_cutoff": null,
+    "description": "All-in-one multimodal video model with voice-driven characters and native audio (3-15s, 720P/1080P/4K); the same ID serves Kling Image 3.0 Omni (1K/2K/4K, series generation).",
+    "docs": "https://kling.ai/document-api/guides/capability-map/video",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "kling",

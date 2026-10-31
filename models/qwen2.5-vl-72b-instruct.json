@@ -34,23 +34,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2.8,
-    "output": 8.4,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2025-01-26",
-    "knowledge_cutoff": null,
-    "description": null,
-    "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_decommissioning_of_selected_historical_snapshot_models_730",
-    "verified_at": "2026-10-13"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -61,6 +44,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-01-26",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_decommissioning_of_selected_historical_snapshot_models_730",
+    "verified_at": "2026-10-13"
+  },
   "providers": [
     {
       "id": "alibaba",

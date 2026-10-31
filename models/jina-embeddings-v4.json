@@ -34,23 +34,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.05,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-06-24",
-    "knowledge_cutoff": null,
-    "description": "Multimodal multilingual embedding model (3.8B parameters) for text, images and visual documents.",
-    "docs": "https://jina.ai/models/jina-embeddings-v4",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -61,6 +44,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-06-24",
+    "knowledge_cutoff": null,
+    "description": "Multimodal multilingual embedding model (3.8B parameters) for text, images and visual documents.",
+    "docs": "https://jina.ai/models/jina-embeddings-v4",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "jina",

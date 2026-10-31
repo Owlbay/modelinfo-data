@@ -41,14 +41,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 4,
-    "output": 20,
-    "cache_read": 0.4,
-    "cache_write": 5
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": 0.4,
+      "cache_write": 5
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -64,16 +66,6 @@
     "docs": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
     "verified_at": "2026-10-10"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 4,
-      "output": 20,
-      "cache_read": 0.4,
-      "cache_write": 5
-    }
-  ],
   "providers": [
     {
       "id": "openai",

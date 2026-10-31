@@ -29,14 +29,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "minute",
-    "input": 0.08,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.08,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools"
   ],
@@ -48,16 +50,6 @@
     "docs": "https://elevenlabs.io/docs/eleven-agents/customization/realtime-models",
     "verified_at": "2026-10-31"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "minute",
-      "input": 0.08,
-      "output": null,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "elevenlabs",

@@ -41,28 +41,6 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.3,
-    "output": 1.2,
-    "cache_read": 0.006,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-10",
-    "knowledge_cutoff": null,
-    "description": "As of 2026-10-17, deepseek-flash is served by DeepSeek-V4.1-Flash-1017. The API name and peak pricing are unchanged. The pricing page lists a 1M-token context, a 384K maximum output, native vision, JSON output, and tool calls. Weights are released under the MIT License. Off-peak rates are half the peak rates stored here.",
-    "docs": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verified_at": "2026-10-22"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -81,6 +59,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-10",
+    "knowledge_cutoff": null,
+    "description": "As of 2026-10-17, deepseek-flash is served by DeepSeek-V4.1-Flash-1017. The API name and peak pricing are unchanged. The pricing page lists a 1M-token context, a 384K maximum output, native vision, JSON output, and tool calls. Weights are released under the MIT License. Off-peak rates are half the peak rates stored here.",
+    "docs": "https://api-docs.deepseek.com/quick_start/pricing",
+    "verified_at": "2026-10-22"
+  },
   "providers": [
     {
       "id": "deepseek",

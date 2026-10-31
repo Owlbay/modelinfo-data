@@ -31,14 +31,16 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.2,
-    "output": 0.4,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": 0.4,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "streaming"
@@ -51,16 +53,6 @@
     "docs": "https://docs.ai21.com/docs/jamba-foundation-models",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.2,
-      "output": 0.4,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "ai21",

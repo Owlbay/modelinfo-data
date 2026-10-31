@@ -37,27 +37,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.3,
-    "output": 1.2,
-    "cache_read": 0.06,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-06-01",
-    "knowledge_cutoff": null,
-    "description": "Multimodal frontier coding model with a 1M-token context window.",
-    "docs": "https://platform.minimax.io/docs/guides/models-intro",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -76,6 +55,19 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-01",
+    "knowledge_cutoff": null,
+    "description": "Multimodal frontier coding model with a 1M-token context window.",
+    "docs": "https://platform.minimax.io/docs/guides/models-intro",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "minimax",

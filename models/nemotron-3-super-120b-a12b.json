@@ -31,7 +31,7 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools",
     "structured_output"
@@ -44,7 +44,6 @@
     "docs": "https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b/modelcard",
     "verified_at": "2026-10-30"
   },
-  "prices": [],
   "providers": [
     {
       "id": "nvidia",

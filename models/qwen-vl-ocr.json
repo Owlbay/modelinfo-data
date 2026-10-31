@@ -34,25 +34,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.07,
-    "output": 0.16,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "streaming"
-  ],
-  "info": {
-    "status": "retired",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Qwen3-VL-architecture model for extracting text and structured data from scans, tables and receipts.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/vision-model",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -71,6 +52,17 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Qwen3-VL-architecture model for extracting text and structured data from scans, tables and receipts.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/vision-model",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "alibaba",

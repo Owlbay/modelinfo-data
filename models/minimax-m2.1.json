@@ -35,27 +35,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.3,
-    "output": 1.2,
-    "cache_read": 0.03,
-    "cache_write": 0.375
-  },
-  "features": [
-    "tools",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2025-12-22",
-    "knowledge_cutoff": null,
-    "description": "Legacy 230B-parameter model (10B active) for code generation and enhanced reasoning.",
-    "docs": "https://platform.minimax.io/docs/guides/models-intro",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -74,6 +53,19 @@
       "cache_write": 2.625
     }
   ],
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-22",
+    "knowledge_cutoff": null,
+    "description": "Legacy 230B-parameter model (10B active) for code generation and enhanced reasoning.",
+    "docs": "https://platform.minimax.io/docs/guides/models-intro",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "minimax",

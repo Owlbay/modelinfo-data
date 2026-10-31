@@ -27,7 +27,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "deprecated",
@@ -37,7 +37,6 @@
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-embed-qa-4",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "nvidia",

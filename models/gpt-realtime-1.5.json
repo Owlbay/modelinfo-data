@@ -33,14 +33,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 4,
-    "output": 16,
-    "cache_read": 0.4,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 16,
+      "cache_read": 0.4,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "caching"
@@ -53,16 +55,6 @@
     "docs": "https://developers.openai.com/api/docs/models/gpt-realtime-1.5",
     "verified_at": "2026-10-15"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 4,
-      "output": 16,
-      "cache_read": 0.4,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "openai",

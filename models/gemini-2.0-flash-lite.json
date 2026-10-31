@@ -33,14 +33,16 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.075,
+      "output": 0.3,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "structured_output"
   ],
@@ -52,16 +54,6 @@
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.075,
-      "output": 0.3,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "google",

@@ -30,7 +30,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -40,7 +40,6 @@
     "docs": "https://docs.bfl.ml/flux_1_fill",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "black-forest-labs",

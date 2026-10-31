@@ -34,14 +34,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2.5,
-    "output": 12.5,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2.5,
+      "output": 12.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming",
     "batch"
@@ -54,16 +56,6 @@
     "docs": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
     "verified_at": "2026-10-13"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 2.5,
-      "output": 12.5,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "amazon-bedrock",

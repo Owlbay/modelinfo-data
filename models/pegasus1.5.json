@@ -31,14 +31,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 1.75,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 1.75,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "structured_output"
   ],
@@ -50,16 +52,6 @@
     "docs": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/pegasus/pegasus-1-5",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "hour",
-      "input": 1.75,
-      "output": null,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "twelvelabs",

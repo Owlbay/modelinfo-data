@@ -35,14 +35,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.25,
-    "output": 2.5,
-    "cache_read": 0.2,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.25,
+      "output": 2.5,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -57,16 +59,6 @@
     "docs": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 1.25,
-      "output": 2.5,
-      "cache_read": 0.2,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "xai",

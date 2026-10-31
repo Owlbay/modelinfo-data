@@ -36,23 +36,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.084,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-02-25",
-    "knowledge_cutoff": null,
-    "description": "Video model with enhanced native audio, element consistency and multi-shot storytelling (3-15s, 720P/1080P/4K); the same ID serves Kling Image 3.0 (1K/2K).",
-    "docs": "https://kling.ai/document-api/guides/capability-map/video",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -63,6 +46,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-25",
+    "knowledge_cutoff": null,
+    "description": "Video model with enhanced native audio, element consistency and multi-shot storytelling (3-15s, 720P/1080P/4K); the same ID serves Kling Image 3.0 (1K/2K).",
+    "docs": "https://kling.ai/document-api/guides/capability-map/video",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "kling",

@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2,
-    "output": 8,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2025-03-06",
-    "knowledge_cutoff": "2024-03-05",
-    "description": null,
-    "docs": "https://docs.ai21.com/docs/jamba-foundation-models",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-03-06",
+    "knowledge_cutoff": "2024-03-05",
+    "description": null,
+    "docs": "https://docs.ai21.com/docs/jamba-foundation-models",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "ai21",

@@ -32,14 +32,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 15,
-    "output": 75,
-    "cache_read": 1.5,
-    "cache_write": 18.75
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 15,
+      "output": 75,
+      "cache_read": 1.5,
+      "cache_write": 18.75
+    }
+  ],
   "features": [
     "tools",
     "caching",
@@ -53,16 +55,6 @@
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-30"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 15,
-      "output": 75,
-      "cache_read": 1.5,
-      "cache_write": 18.75
-    }
-  ],
   "providers": [
     {
       "id": "anthropic",

@@ -37,26 +37,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.43,
-    "output": 1.66,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2025-12-04",
-    "knowledge_cutoff": null,
-    "description": "Thinker-Talker MoE omni-modal model with thinking mode and speech output.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -75,6 +55,18 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-04",
+    "knowledge_cutoff": null,
+    "description": "Thinker-Talker MoE omni-modal model with thinking mode and speech output.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "alibaba",

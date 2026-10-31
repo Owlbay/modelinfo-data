@@ -39,29 +39,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2,
-    "output": 6,
-    "cache_read": 0.17,
-    "cache_write": 2.5
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching",
-    "batch"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-03",
-    "knowledge_cutoff": null,
-    "description": "Alibaba 2.4-trillion-parameter MoE flagship (95B active) for coding and office productivity.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-max",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -80,6 +57,21 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-03",
+    "knowledge_cutoff": null,
+    "description": "Alibaba 2.4-trillion-parameter MoE flagship (95B active) for coding and office productivity.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-max",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

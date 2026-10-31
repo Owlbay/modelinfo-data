@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.007,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-23",
-    "knowledge_cutoff": null,
-    "description": "Fast, low-cost raster model with quality close to V4.1, about 1.3 seconds per image; no styles.",
-    "docs": "https://www.recraft.ai/docs/api-reference/models/recraft-v4-1-flash",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-23",
+    "knowledge_cutoff": null,
+    "description": "Fast, low-cost raster model with quality close to V4.1, about 1.3 seconds per image; no styles.",
+    "docs": "https://www.recraft.ai/docs/api-reference/models/recraft-v4-1-flash",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "recraft",

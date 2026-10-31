@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.2,
-    "output": 0.2,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2024-10-21",
-    "knowledge_cutoff": null,
-    "description": "IBM foundation model on watsonx.ai; withdrawn on 2026-02-22.",
-    "docs": "https://ibm.com/docs/en/SSYOK8/wsj/analyze-data/fm-model-lifecycle.html",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-10-21",
+    "knowledge_cutoff": null,
+    "description": "IBM foundation model on watsonx.ai; withdrawn on 2026-02-22.",
+    "docs": "https://ibm.com/docs/en/SSYOK8/wsj/analyze-data/fm-model-lifecycle.html",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "ibm",

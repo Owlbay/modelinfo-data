@@ -34,14 +34,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2,
-    "output": 10,
-    "cache_read": 0.2,
-    "cache_write": 2
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 10,
+      "cache_read": 0.2,
+      "cache_write": 2
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -57,16 +59,6 @@
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
     "verified_at": "2026-10-31"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 2,
-      "output": 10,
-      "cache_read": 0.2,
-      "cache_write": 2
-    }
-  ],
   "providers": [
     {
       "id": "moonshot",
@@ -87,14 +79,16 @@
         "batch": "POST /v1/batches"
       },
       "reasoning_param": "reasoning_effort",
-      "pricing": {
-        "currency": "CNY",
-        "unit": "1M_tokens",
-        "input": 13,
-        "output": 68,
-        "cache_read": 1.3,
-        "cache_write": 13
-      }
+      "prices": [
+        {
+          "currency": "CNY",
+          "unit": "1M_tokens",
+          "input": 13,
+          "output": 68,
+          "cache_read": 1.3,
+          "cache_write": 13
+        }
+      ]
     }
   ],
   "aliases": [],

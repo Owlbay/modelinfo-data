@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.43,
-    "output": 15,
-    "cache_read": 0.29,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Audio model for deep sound understanding and reasoning that thinks while speaking.",
-    "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -64,6 +47,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Audio model for deep sound understanding and reasoning that thinks while speaking.",
+    "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "stepfun",

@@ -31,14 +31,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.1,
-    "output": 4.4,
-    "cache_read": 0.55,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.1,
+      "output": 4.4,
+      "cache_read": 0.55,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming"
   ],
@@ -50,16 +52,6 @@
     "docs": "https://developers.openai.com/api/docs/models/o1-mini",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 1.1,
-      "output": 4.4,
-      "cache_read": 0.55,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "openai",

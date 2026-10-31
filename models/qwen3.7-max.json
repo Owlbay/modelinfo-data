@@ -37,28 +37,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2.5,
-    "output": 7.5,
-    "cache_read": 0.25,
-    "cache_write": 3.125
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-05-20",
-    "knowledge_cutoff": null,
-    "description": "Largest and most capable model in the Qwen3.7 series, a flagship for agent-centric work, programming and office tasks.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-7-max",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -77,6 +55,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-20",
+    "knowledge_cutoff": null,
+    "description": "Largest and most capable model in the Qwen3.7 series, a flagship for agent-centric work, programming and office tasks.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-7-max",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

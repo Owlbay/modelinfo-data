@@ -30,23 +30,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "request",
-    "input": null,
-    "output": 0.1,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-06-18",
-    "knowledge_cutoff": null,
-    "description": "Text-to-video and image-to-video model with up to 1080p output.",
-    "docs": "https://platform.minimax.io/docs/api-reference/video-generation-t2v",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-06-18",
+    "knowledge_cutoff": null,
+    "description": "Text-to-video and image-to-video model with up to 1080p output.",
+    "docs": "https://platform.minimax.io/docs/api-reference/video-generation-t2v",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "minimax",

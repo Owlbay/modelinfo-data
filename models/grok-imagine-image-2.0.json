@@ -34,14 +34,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.04,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.04,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "batch"
   ],
@@ -53,16 +55,6 @@
     "docs": "https://docs.x.ai/developers/models/grok-imagine-image-2.0",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "image",
-      "input": null,
-      "output": 0.04,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "xai",

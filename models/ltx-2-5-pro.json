@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.12,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-11",
-    "knowledge_cutoff": null,
-    "description": "Higher-fidelity LTX-2.5 variant for text-to-video, image-to-video and audio-to-video at up to 4K, with native multi-shot scenes.",
-    "docs": "https://docs.ltx.io/models/ltx-2-5",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-11",
+    "knowledge_cutoff": null,
+    "description": "Higher-fidelity LTX-2.5 variant for text-to-video, image-to-video and audio-to-video at up to 4K, with native multi-shot scenes.",
+    "docs": "https://docs.ltx.io/models/ltx-2-5",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "lightricks",

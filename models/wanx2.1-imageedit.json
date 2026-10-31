@@ -30,23 +30,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "image",
-    "input": null,
-    "output": 0.14,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-03-25",
-    "knowledge_cutoff": null,
-    "description": "Wan general image editing model for outpainting, watermark removal, style transfer, instruction-based editing, inpainting and restoration.",
-    "docs": "https://help.aliyun.com/zh/model-studio/wanx-image-edit",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-03-25",
+    "knowledge_cutoff": null,
+    "description": "Wan general image editing model for outpainting, watermark removal, style transfer, instruction-based editing, inpainting and restoration.",
+    "docs": "https://help.aliyun.com/zh/model-studio/wanx-image-edit",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

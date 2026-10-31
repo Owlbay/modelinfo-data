@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "request",
-    "input": 0.002,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2024-12-02",
-    "knowledge_cutoff": null,
-    "description": "Reranker for English documents and JSON.",
-    "docs": "https://docs.cohere.com/docs/rerank-overview",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-12-02",
+    "knowledge_cutoff": null,
+    "description": "Reranker for English documents and JSON.",
+    "docs": "https://docs.cohere.com/docs/rerank-overview",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "cohere",

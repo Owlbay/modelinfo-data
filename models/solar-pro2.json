@@ -31,14 +31,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.015,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output"
@@ -51,16 +53,6 @@
     "docs": "https://console.upstage.ai/docs/models/solar-pro-2",
     "verified_at": "2026-10-31"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.15,
-      "output": 0.6,
-      "cache_read": 0.015,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "upstage",

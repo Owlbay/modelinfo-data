@@ -32,14 +32,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.1,
-    "output": 4.5,
-    "cache_read": 0.22,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.1,
+      "output": 4.5,
+      "cache_read": 0.22,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -54,16 +56,6 @@
     "docs": "https://docs.z.ai/guides/llm/glm-4.5",
     "verified_at": "2026-10-10"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 1.1,
-      "output": 4.5,
-      "cache_read": 0.22,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "zhipu",

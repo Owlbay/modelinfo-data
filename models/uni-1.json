@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.0404,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-05-05",
-    "knowledge_cutoff": null,
-    "description": "Default Luma image model for image generation and editing, with up to 9 reference images and optional web search grounding.",
-    "docs": "https://docs.agents.lumalabs.ai/guides/model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-05",
+    "knowledge_cutoff": null,
+    "description": "Default Luma image model for image generation and editing, with up to 9 reference images and optional web search grounding.",
+    "docs": "https://docs.agents.lumalabs.ai/guides/model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "luma",

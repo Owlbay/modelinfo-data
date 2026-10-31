@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.21,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-07-07",
-    "knowledge_cutoff": null,
-    "description": "AssemblyAI highest-accuracy pre-recorded speech-to-text model with 18 languages, native code switching and contextual prompting.",
-    "docs": "https://www.assemblyai.com/docs/pre-recorded-audio/select-the-speech-model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-07",
+    "knowledge_cutoff": null,
+    "description": "AssemblyAI highest-accuracy pre-recorded speech-to-text model with 18 languages, native code switching and contextual prompting.",
+    "docs": "https://www.assemblyai.com/docs/pre-recorded-audio/select-the-speech-model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "assemblyai",

@@ -35,7 +35,7 @@
       "xhigh"
     ]
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools",
     "structured_output",
@@ -49,7 +49,6 @@
     "docs": "https://console.sakana.ai/models",
     "verified_at": "2026-10-20"
   },
-  "prices": [],
   "providers": [
     {
       "id": "sakana",

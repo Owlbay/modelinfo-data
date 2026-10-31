@@ -27,14 +27,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.05,
-    "output": 0.7,
-    "cache_read": 0.025,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": 0.7,
+      "cache_read": 0.025,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "caching"
@@ -47,16 +49,6 @@
     "docs": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
     "verified_at": "2026-10-31"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.05,
-      "output": 0.7,
-      "cache_read": 0.025,
-      "cache_write": null
-    }
-  ],
   "providers": [],
   "aliases": [
     "LiquidAI/LFM2.5-24B-A2B"

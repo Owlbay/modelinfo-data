@@ -33,23 +33,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 3,
-    "output": 9,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Doubao-1.5-thinking-vision-pro, retired. Official shutdown (EOS) dates: doubao-1.5-thinking-pro-vision-250415 2025-08-28; doubao-1-5-thinking-vision-pro-250428 2026-03-31.",
-    "docs": "https://www.volcengine.com/docs/82379/1350667",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-1.5-thinking-vision-pro, retired. Official shutdown (EOS) dates: doubao-1.5-thinking-pro-vision-250415 2025-08-28; doubao-1-5-thinking-vision-pro-250428 2026-03-31.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "bytedance",

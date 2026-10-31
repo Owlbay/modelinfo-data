@@ -33,7 +33,7 @@
       "max"
     ]
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools"
   ],
@@ -45,7 +45,6 @@
     "docs": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
     "verified_at": "2026-10-30"
   },
-  "prices": [],
   "providers": [],
   "aliases": [
     "Beam-1.0-501B-A23B"

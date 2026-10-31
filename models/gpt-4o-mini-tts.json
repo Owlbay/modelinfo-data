@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.6,
-    "output": 12,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-03-20",
-    "knowledge_cutoff": null,
-    "description": "Text-to-speech model powered by GPT-4o Mini.",
-    "docs": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
-    "verified_at": "2026-10-10"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-03-20",
+    "knowledge_cutoff": null,
+    "description": "Text-to-speech model powered by GPT-4o Mini.",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
+    "verified_at": "2026-10-10"
+  },
   "providers": [
     {
       "id": "openai",

@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.08,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-05-29",
-    "knowledge_cutoff": null,
-    "description": "Higher-tier FLUX.1 Kontext model for text-to-image generation and context-aware image editing.",
-    "docs": "https://docs.bfl.ml/kontext/kontext_overview",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-05-29",
+    "knowledge_cutoff": null,
+    "description": "Higher-tier FLUX.1 Kontext model for text-to-image generation and context-aware image editing.",
+    "docs": "https://docs.bfl.ml/kontext/kontext_overview",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "black-forest-labs",

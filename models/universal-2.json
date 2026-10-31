@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.15,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2024-10-30",
-    "knowledge_cutoff": null,
-    "description": "AssemblyAI accurate, cost-effective pre-recorded speech-to-text model supporting 99 languages.",
-    "docs": "https://www.assemblyai.com/docs/pre-recorded-audio/select-the-speech-model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-10-30",
+    "knowledge_cutoff": null,
+    "description": "AssemblyAI accurate, cost-effective pre-recorded speech-to-text model supporting 99 languages.",
+    "docs": "https://www.assemblyai.com/docs/pre-recorded-audio/select-the-speech-model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "assemblyai",

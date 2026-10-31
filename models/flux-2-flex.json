@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.05,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-11-25",
-    "knowledge_cutoff": null,
-    "description": "FLUX.2 model for typography, text rendering and fine detail, with adjustable steps and guidance scale.",
-    "docs": "https://docs.bfl.ml/flux_2/flux2_overview",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-11-25",
+    "knowledge_cutoff": null,
+    "description": "FLUX.2 model for typography, text rendering and fine detail, with adjustable steps and guidance scale.",
+    "docs": "https://docs.bfl.ml/flux_2/flux2_overview",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "black-forest-labs",

@@ -37,14 +37,16 @@
       "high"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.3,
-    "output": 2.5,
-    "cache_read": 0.075,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 2.5,
+      "cache_read": 0.075,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "streaming",
@@ -58,16 +60,6 @@
     "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html",
     "verified_at": "2026-10-10"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.3,
-      "output": 2.5,
-      "cache_read": 0.075,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "amazon-bedrock",

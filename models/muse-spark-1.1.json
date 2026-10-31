@@ -42,14 +42,16 @@
       "xhigh"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.25,
-    "output": 4.25,
-    "cache_read": 0.15,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.25,
+      "output": 4.25,
+      "cache_read": 0.15,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -64,16 +66,6 @@
     "docs": "https://dev.meta.ai/docs/models",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 1.25,
-      "output": 4.25,
-      "cache_read": 0.15,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "meta",

@@ -27,14 +27,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 5,
-    "output": 20,
-    "cache_read": 1,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 20,
+      "cache_read": 1,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools"
   ],
@@ -46,16 +48,6 @@
     "docs": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 5,
-      "output": 20,
-      "cache_read": 1,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "kuaishou",

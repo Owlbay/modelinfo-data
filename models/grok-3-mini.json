@@ -35,14 +35,16 @@
       "high"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.3,
-    "output": 0.5,
-    "cache_read": 0.075,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 0.5,
+      "cache_read": 0.075,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -56,16 +58,6 @@
     "docs": "https://web.archive.org/web/20260124185157/https://docs.x.ai/docs/models/grok-3-mini",
     "verified_at": "2026-10-30"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.3,
-      "output": 0.5,
-      "cache_read": 0.075,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "xai",

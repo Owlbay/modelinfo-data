@@ -30,23 +30,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.1,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": "2025-10-15",
-    "knowledge_cutoff": null,
-    "description": "Faster, lower-cost Veo 3.1 video generation with synchronized audio.",
-    "docs": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-10-15",
+    "knowledge_cutoff": null,
+    "description": "Faster, lower-cost Veo 3.1 video generation with synchronized audio.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "google",

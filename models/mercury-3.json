@@ -37,14 +37,16 @@
       "high"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.2,
-    "output": 0.7,
-    "cache_read": 0.02,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": 0.7,
+      "cache_read": 0.02,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -59,16 +61,6 @@
     "docs": "https://docs.inceptionlabs.ai/get-started/models",
     "verified_at": "2026-10-22"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.2,
-      "output": 0.7,
-      "cache_read": 0.02,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "inception",

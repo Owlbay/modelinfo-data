@@ -36,7 +36,7 @@
       "max"
     ]
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools",
     "streaming"
@@ -49,7 +49,6 @@
     "docs": "https://huggingface.co/internlm/Atria-Dawn",
     "verified_at": "2026-10-31"
   },
-  "prices": [],
   "providers": [
     {
       "id": "shlab",

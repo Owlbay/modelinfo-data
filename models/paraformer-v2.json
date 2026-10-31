@@ -29,23 +29,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "second",
-    "input": 0.00008,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2024-09-06",
-    "knowledge_cutoff": null,
-    "description": "Paraformer audio file recognition model, billed by input audio duration.",
-    "docs": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-09-06",
+    "knowledge_cutoff": null,
+    "description": "Paraformer audio file recognition model, billed by input audio duration.",
+    "docs": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

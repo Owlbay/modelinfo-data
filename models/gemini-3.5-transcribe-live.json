@@ -30,23 +30,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 3.5,
-    "output": 21,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-26",
-    "knowledge_cutoff": "2025-01",
-    "description": "Low-latency streaming speech-to-text model for the Live API.",
-    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-26",
+    "knowledge_cutoff": "2025-01",
+    "description": "Low-latency streaming speech-to-text model for the Live API.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "google",

@@ -38,27 +38,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.2,
-    "output": 1.6,
-    "cache_read": 0.02,
-    "cache_write": 0.25
-  },
-  "features": [
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2025-09-23",
-    "knowledge_cutoff": null,
-    "description": "Vision-language model with thinking and non-thinking modes and ultra-long video support.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -77,6 +56,19 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-09-23",
+    "knowledge_cutoff": null,
+    "description": "Vision-language model with thinking and non-thinking modes and ultra-long video support.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "alibaba",

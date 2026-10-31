@@ -31,23 +31,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.8,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2023-11-29",
-    "knowledge_cutoff": null,
-    "description": "Amazon's model that generates embeddings from text and images for multimodal search and recommendation use cases.",
-    "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-multimodal-embeddings-g1.html",
-    "verified_at": "2026-10-10"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2023-11-29",
+    "knowledge_cutoff": null,
+    "description": "Amazon's model that generates embeddings from text and images for multimodal search and recommendation use cases.",
+    "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-multimodal-embeddings-g1.html",
+    "verified_at": "2026-10-10"
+  },
   "providers": [
     {
       "id": "amazon-bedrock",

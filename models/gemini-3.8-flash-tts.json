@@ -31,14 +31,16 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.5,
-    "output": 9,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": 9,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "batch"
   ],
@@ -50,16 +52,6 @@
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
     "verified_at": "2026-10-10"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.5,
-      "output": 9,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "google",

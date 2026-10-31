@@ -33,14 +33,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0.6,
-    "output": 1,
-    "cache_read": 0.06,
-    "cache_write": 0.75
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.6,
+      "output": 1,
+      "cache_read": 0.06,
+      "cache_write": 0.75
+    }
+  ],
   "features": [
     "caching"
   ],
@@ -52,16 +54,6 @@
     "docs": "https://help.aliyun.com/zh/model-studio/qwen-doc-turbo",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 0.6,
-      "output": 1,
-      "cache_read": 0.06,
-      "cache_write": 0.75
-    }
-  ],
   "providers": [
     {
       "id": "alibaba",

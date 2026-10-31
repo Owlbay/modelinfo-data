@@ -29,7 +29,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools"
   ],
@@ -41,7 +41,6 @@
     "docs": "https://docs.bigmodel.cn/cn/guide/models/sound-and-video/glm-realtime",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "zhipu",

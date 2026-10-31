@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 1,
-    "output": 2,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "iFlytek Spark X2-Flash 30B mid-size model optimized for agent scenarios.",
-    "docs": "https://www.xfyun.cn/doc/spark/TokenPlan.html",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -54,6 +37,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "iFlytek Spark X2-Flash 30B mid-size model optimized for agent scenarios.",
+    "docs": "https://www.xfyun.cn/doc/spark/TokenPlan.html",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "iflytek-token-plan",

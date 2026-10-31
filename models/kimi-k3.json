@@ -43,29 +43,6 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 3,
-    "output": 15,
-    "cache_read": 0.3,
-    "cache_write": 3
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "caching",
-    "streaming",
-    "batch"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-07-16",
-    "knowledge_cutoff": null,
-    "description": "Kimi flagship 2.8-trillion-parameter model with native visual understanding for software engineering, knowledge work and deep reasoning.",
-    "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -84,6 +61,21 @@
       "cache_write": 20
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "caching",
+    "streaming",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-16",
+    "knowledge_cutoff": null,
+    "description": "Kimi flagship 2.8-trillion-parameter model with native visual understanding for software engineering, knowledge work and deep reasoning.",
+    "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "moonshot",

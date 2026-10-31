@@ -30,23 +30,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.15,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": "2025-07-14",
-    "knowledge_cutoff": null,
-    "description": "Text embedding model for semantic search, document retrieval and recommendation.",
-    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-07-14",
+    "knowledge_cutoff": null,
+    "description": "Text embedding model for semantic search, document retrieval and recommendation.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "google",

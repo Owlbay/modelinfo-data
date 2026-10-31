@@ -34,7 +34,7 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "structured_output",
     "caching"
@@ -47,7 +47,6 @@
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "google",

@@ -35,26 +35,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.04,
-    "output": 0.4,
-    "cache_read": 0.004,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Lightweight, high-speed and affordable GLM-4.6V series model.",
-    "docs": "https://docs.z.ai/guides/vlm/glm-4.6v",
-    "verified_at": "2026-10-10"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -73,6 +53,18 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Lightweight, high-speed and affordable GLM-4.6V series model.",
+    "docs": "https://docs.z.ai/guides/vlm/glm-4.6v",
+    "verified_at": "2026-10-10"
+  },
   "providers": [
     {
       "id": "zhipu",

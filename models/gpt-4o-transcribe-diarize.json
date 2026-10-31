@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2.5,
-    "output": 10,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": null,
-    "knowledge_cutoff": "2024-06-01",
-    "description": "Transcription model that identifies who is speaking when.",
-    "docs": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe-diarize",
-    "verified_at": "2026-10-15"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": null,
+    "knowledge_cutoff": "2024-06-01",
+    "description": "Transcription model that identifies who is speaking when.",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe-diarize",
+    "verified_at": "2026-10-15"
+  },
   "providers": [
     {
       "id": "openai",

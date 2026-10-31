@@ -33,7 +33,7 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "streaming"
   ],
@@ -45,7 +45,6 @@
     "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-tts-voiceclone",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "xiaomi",

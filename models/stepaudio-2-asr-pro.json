@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.29,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Professional 32B-parameter speech recognition model.",
-    "docs": "https://platform.stepfun.ai/docs/en/guides/models/overview",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -62,6 +45,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Professional 32B-parameter speech recognition model.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/models/overview",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "stepfun",

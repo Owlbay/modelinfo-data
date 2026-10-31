@@ -35,26 +35,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.3,
-    "output": 0.9,
-    "cache_read": 0.05,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2025-12-08",
-    "knowledge_cutoff": null,
-    "description": "Z.ai multimodal model with native function calling and 128K context for visual understanding and agents.",
-    "docs": "https://docs.z.ai/guides/vlm/glm-4.6v",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -73,6 +53,18 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-08",
+    "knowledge_cutoff": null,
+    "description": "Z.ai multimodal model with native function calling and 128K context for visual understanding and agents.",
+    "docs": "https://docs.z.ai/guides/vlm/glm-4.6v",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "zhipu",

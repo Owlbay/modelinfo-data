@@ -30,23 +30,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": 0.003,
-    "output": 0.03,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-04",
-    "knowledge_cutoff": null,
-    "description": "Qwen 3.0 series image generation and editing model that balances quality and speed.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-04",
+    "knowledge_cutoff": null,
+    "description": "Qwen 3.0 series image generation and editing model that balances quality and speed.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

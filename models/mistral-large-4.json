@@ -39,14 +39,16 @@
       "high"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.7,
-    "output": 2.1,
-    "cache_read": 0.07,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.7,
+      "output": 2.1,
+      "cache_read": 0.07,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -61,16 +63,6 @@
     "docs": "https://docs.mistral.ai/models/mistral-large-4-0",
     "verified_at": "2026-10-31"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.7,
-      "output": 2.1,
-      "cache_read": 0.07,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "mistral",

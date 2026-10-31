@@ -28,7 +28,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "preview",
@@ -38,7 +38,6 @@
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-music",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "stepfun",

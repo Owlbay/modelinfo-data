@@ -29,23 +29,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_characters",
-    "input": 60,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-01-23",
-    "knowledge_cutoff": null,
-    "description": "Fast speech synthesis with natural flow and 40 languages.",
-    "docs": "https://platform.minimax.io/docs/api-reference/speech-t2a-http",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-01-23",
+    "knowledge_cutoff": null,
+    "description": "Fast speech synthesis with natural flow and 40 languages.",
+    "docs": "https://platform.minimax.io/docs/api-reference/speech-t2a-http",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "minimax",

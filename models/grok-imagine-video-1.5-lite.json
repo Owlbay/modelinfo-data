@@ -31,14 +31,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.02,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.02,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "batch"
   ],
@@ -50,16 +52,6 @@
     "docs": "https://docs.x.ai/developers/models/grok-imagine-video-1.5-lite",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "second",
-      "input": null,
-      "output": 0.02,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "xai",

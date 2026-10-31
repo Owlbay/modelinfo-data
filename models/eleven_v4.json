@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_characters",
-    "input": 80,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-28",
-    "knowledge_cutoff": null,
-    "description": "Highest-emotion, highest-quality speech synthesis model with strong voice cloning and speaker preservation on long text.",
-    "docs": "https://elevenlabs.io/docs/overview/models",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-28",
+    "knowledge_cutoff": null,
+    "description": "Highest-emotion, highest-quality speech synthesis model with strong voice cloning and speaker preservation on long text.",
+    "docs": "https://elevenlabs.io/docs/overview/models",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "elevenlabs",

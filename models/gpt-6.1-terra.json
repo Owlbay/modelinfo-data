@@ -37,14 +37,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1,
-    "output": 5,
-    "cache_read": 0.05,
-    "cache_write": 1.25
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 5,
+      "cache_read": 0.05,
+      "cache_write": 1.25
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -60,16 +62,6 @@
     "docs": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
     "verified_at": "2026-10-27"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 1,
-      "output": 5,
-      "cache_read": 0.05,
-      "cache_write": 1.25
-    }
-  ],
   "providers": [
     {
       "id": "openai",

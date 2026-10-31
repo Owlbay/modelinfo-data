@@ -33,23 +33,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.07,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-06-05",
-    "knowledge_cutoff": null,
-    "description": "Multilingual text vector model from Tongyi Lab based on Qwen3, with 64-2048 selectable dimensions.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/text-embedding-v4",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -68,6 +51,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-06-05",
+    "knowledge_cutoff": null,
+    "description": "Multilingual text vector model from Tongyi Lab based on Qwen3, with 64-2048 selectable dimensions.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/text-embedding-v4",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

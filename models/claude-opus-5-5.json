@@ -39,14 +39,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 4,
-    "output": 20,
-    "cache_read": 0.2,
-    "cache_write": 5
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": 0.2,
+      "cache_write": 5
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -62,16 +64,6 @@
     "docs": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
     "verified_at": "2026-10-10"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 4,
-      "output": 20,
-      "cache_read": 0.2,
-      "cache_write": 5
-    }
-  ],
   "providers": [
     {
       "id": "anthropic",

@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_characters",
-    "input": 30,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-04-15",
-    "knowledge_cutoff": null,
-    "description": "Deepgram Aura-2 text-to-speech model family; each voice is a model ID of the form aura-2-{voice}-{language}.",
-    "docs": "https://developers.deepgram.com/docs/tts-models",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-04-15",
+    "knowledge_cutoff": null,
+    "description": "Deepgram Aura-2 text-to-speech model family; each voice is a model ID of the form aura-2-{voice}-{language}.",
+    "docs": "https://developers.deepgram.com/docs/tts-models",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "deepgram",

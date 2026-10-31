@@ -28,23 +28,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.008,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-15",
-    "knowledge_cutoff": null,
-    "description": "Open-weight 5.6B FLUX 3 image model for text-to-image, editing, and up to 10 reference images, under the FLUX Kommunity License. The API model id is flux-3-image-klein. Official per-image prices by output size are $0.008 at 768×768, $0.009 at 1K, $0.011 at 1.5K, $0.014 at 2K, and $0.036 at 4K. The stored price is the lowest tier, 768×768.",
-    "docs": "https://docs.bfl.ml/flux_3/flux3_image_klein",
-    "verified_at": "2026-10-16"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -55,6 +38,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-15",
+    "knowledge_cutoff": null,
+    "description": "Open-weight 5.6B FLUX 3 image model for text-to-image, editing, and up to 10 reference images, under the FLUX Kommunity License. The API model id is flux-3-image-klein. Official per-image prices by output size are $0.008 at 768×768, $0.009 at 1K, $0.011 at 1.5K, $0.014 at 2K, and $0.036 at 4K. The stored price is the lowest tier, 768×768.",
+    "docs": "https://docs.bfl.ml/flux_3/flux3_image_klein",
+    "verified_at": "2026-10-16"
+  },
   "providers": [
     {
       "id": "black-forest-labs",

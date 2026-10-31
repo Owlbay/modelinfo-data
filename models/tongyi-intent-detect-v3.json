@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0.4,
-    "output": 1,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2024-12-12",
-    "knowledge_cutoff": null,
-    "description": "Intent detection and slot filling model returning API intents and slot parameters as JSON.",
-    "docs": "https://help.aliyun.com/zh/model-studio/tongyi-intent-detect-v3",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-12-12",
+    "knowledge_cutoff": null,
+    "description": "Intent detection and slot filling model returning API intents and slot parameters as JSON.",
+    "docs": "https://help.aliyun.com/zh/model-studio/tongyi-intent-detect-v3",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "alibaba",

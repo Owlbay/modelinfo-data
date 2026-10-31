@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_characters",
-    "input": 16,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-03-23",
-    "knowledge_cutoff": null,
-    "description": "Text-to-speech model with zero-shot voice cloning, 9 languages, and streaming with about 90ms time-to-first-audio.",
-    "docs": "https://docs.mistral.ai/models/voxtral-tts-26-03",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-23",
+    "knowledge_cutoff": null,
+    "description": "Text-to-speech model with zero-shot voice cloning, 9 languages, and streaming with about 90ms time-to-first-audio.",
+    "docs": "https://docs.mistral.ai/models/voxtral-tts-26-03",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "mistral",

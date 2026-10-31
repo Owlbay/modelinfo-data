@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.5,
-    "output": 2,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": null,
-    "knowledge_cutoff": "2021-09-01",
-    "description": "An older model only compatible with the legacy Completions endpoint",
-    "docs": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-instruct",
-    "verified_at": "2026-10-15"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": "2021-09-01",
+    "description": "An older model only compatible with the legacy Completions endpoint",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-instruct",
+    "verified_at": "2026-10-15"
+  },
   "providers": [
     {
       "id": "openai",

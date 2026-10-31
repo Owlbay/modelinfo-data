@@ -29,7 +29,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -39,7 +39,6 @@
     "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
     "verified_at": "2026-10-30"
   },
-  "prices": [],
   "providers": [
     {
       "id": "baidu",

@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": null,
-    "output": 0.157,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-28",
-    "knowledge_cutoff": null,
-    "description": "Kling 4.0 video model with native single-run generation up to 30 s at 720P/1080P, text-to-video, image-to-video and Omni reference-to-video with up to 10 keyframes and 15 references.",
-    "docs": "https://kling.ai/document-api/api/video/4-0/text-to-video",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-28",
+    "knowledge_cutoff": null,
+    "description": "Kling 4.0 video model with native single-run generation up to 30 s at 720P/1080P, text-to-video, image-to-video and Omni reference-to-video with up to 10 keyframes and 15 references.",
+    "docs": "https://kling.ai/document-api/api/video/4-0/text-to-video",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "kling",

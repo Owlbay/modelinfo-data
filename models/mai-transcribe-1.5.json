@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.36,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "preview",
-    "release_date": "2026-06-02",
-    "knowledge_cutoff": null,
-    "description": "Microsoft AI speech-to-text model, predecessor of MAI-Transcribe-2, used via Azure Speech enhanced mode.",
-    "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -54,6 +37,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-06-02",
+    "knowledge_cutoff": null,
+    "description": "Microsoft AI speech-to-text model, predecessor of MAI-Transcribe-2, used via Azure Speech enhanced mode.",
+    "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "microsoft",

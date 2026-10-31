@@ -39,28 +39,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.15,
-    "output": 0.47,
-    "cache_read": 0.016,
-    "cache_write": 0.2
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-26",
-    "knowledge_cutoff": null,
-    "description": "Multimodal Qwen model combining reasoning, generation and speed for coding assistance, agentic workflows and visual understanding.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-flash",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -79,6 +57,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-26",
+    "knowledge_cutoff": null,
+    "description": "Multimodal Qwen model combining reasoning, generation and speed for coding assistance, agentic workflows and visual understanding.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-flash",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

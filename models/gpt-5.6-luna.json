@@ -41,14 +41,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.2,
-    "output": 1.2,
-    "cache_read": 0.02,
-    "cache_write": 0.25
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.2,
+      "output": 1.2,
+      "cache_read": 0.02,
+      "cache_write": 0.25
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -64,16 +66,6 @@
     "docs": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.2,
-      "output": 1.2,
-      "cache_read": 0.02,
-      "cache_write": 0.25
-    }
-  ],
   "providers": [
     {
       "id": "openai",

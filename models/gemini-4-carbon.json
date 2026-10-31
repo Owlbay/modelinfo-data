@@ -27,14 +27,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 4,
-    "output": 20,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "caching"
   ],
@@ -69,15 +71,5 @@
       "retrieved_at": "2026-10-29"
     }
   ],
-  "providers": [],
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 4,
-      "output": 20,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ]
+  "providers": []
 }

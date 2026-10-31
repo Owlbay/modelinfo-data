@@ -31,7 +31,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "deprecated",
@@ -41,7 +41,6 @@
     "docs": "https://developer.ant-ling.com/en/docs/models/deprecation/",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "ant",

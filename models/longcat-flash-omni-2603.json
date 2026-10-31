@@ -35,7 +35,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -45,7 +45,6 @@
     "docs": "https://longcat.chat/platform/docs/zh/ChangeLog.html",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "meituan",

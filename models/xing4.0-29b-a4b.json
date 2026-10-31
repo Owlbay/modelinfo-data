@@ -27,7 +27,7 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools"
   ],
@@ -39,7 +39,6 @@
     "docs": "https://github.com/XingChen-AGI/Xing4.0-29B-A4B",
     "verified_at": "2026-10-27"
   },
-  "prices": [],
   "providers": [],
   "aliases": [
     "Xing4.0-29B-A4B"

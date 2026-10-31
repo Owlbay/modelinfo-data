@@ -29,7 +29,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -39,7 +39,6 @@
     "docs": "https://www.mixedbread.com/blog/mxbai-rerank-v3-1-listwise",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "mixedbread",

@@ -38,29 +38,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 1,
-    "output": 2,
-    "cache_read": 0.02,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching",
-    "batch"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-22",
-    "knowledge_cutoff": null,
-    "description": "Efficient Xiaomi reasoning model balancing capability, low cost and scale for high-volume workloads.",
-    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.6-flash",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -79,6 +56,21 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-22",
+    "knowledge_cutoff": null,
+    "description": "Efficient Xiaomi reasoning model balancing capability, low cost and scale for high-volume workloads.",
+    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.6-flash",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "xiaomi",

@@ -35,14 +35,16 @@
       "high"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.015,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools"
   ],
@@ -54,16 +56,6 @@
     "docs": "https://ai.google.dev/gemma/docs/core/gemma_on_gemini_api",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.15,
-      "output": 0.6,
-      "cache_read": 0.015,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "google",

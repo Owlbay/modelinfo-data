@@ -36,14 +36,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 15,
-    "output": 90,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 15,
+      "output": 90,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "streaming"
@@ -56,16 +58,6 @@
     "docs": "https://github.com/OpenSenseNova/SenseNova6.8",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 15,
-      "output": 90,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "senseaudio",
@@ -86,7 +78,7 @@
         "chat": "POST /chat/completions"
       },
       "reasoning_param": null,
-      "pricing": null
+      "prices": []
     }
   ],
   "aliases": [],

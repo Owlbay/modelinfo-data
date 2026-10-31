@@ -39,28 +39,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.5,
-    "output": 3,
-    "cache_read": 0.05,
-    "cache_write": 0.625
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-04-01",
-    "knowledge_cutoff": null,
-    "description": "Native vision-language Plus model improved in agentic coding, front-end programming, OCR and object localization.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-plus",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -79,6 +57,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-01",
+    "knowledge_cutoff": null,
+    "description": "Native vision-language Plus model improved in agentic coding, front-end programming, OCR and object localization.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-plus",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

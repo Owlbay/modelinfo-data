@@ -39,28 +39,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.25,
-    "output": 1.5,
-    "cache_read": 0.025,
-    "cache_write": 0.3125
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-04-16",
-    "knowledge_cutoff": null,
-    "description": "Native vision-language Flash model with strong agentic coding, math and code reasoning.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-flash",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -79,6 +57,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-16",
+    "knowledge_cutoff": null,
+    "description": "Native vision-language Flash model with strong agentic coding, math and code reasoning.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-flash",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

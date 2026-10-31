@@ -28,23 +28,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.13,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-22",
-    "knowledge_cutoff": null,
-    "description": "Ideogram's first vector model. It generates editable SVG artwork from a prompt with optional image references (POST /v2/svg/generate/ideogram-vector-1), and converts a raster image to SVG (POST /v2/svg/vectorize/ideogram-vector-1). Text to SVG costs $0.13, $0.16 and $0.20 per SVG at low, medium and high quality; with image references, high quality costs $0.32; image to SVG costs $0.10 per image. The stored price is the lowest text-to-SVG tier, low quality.",
-    "docs": "https://developer.ideogram.ai/v2/api-reference/vectors/generate-svg",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -55,6 +38,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-22",
+    "knowledge_cutoff": null,
+    "description": "Ideogram's first vector model. It generates editable SVG artwork from a prompt with optional image references (POST /v2/svg/generate/ideogram-vector-1), and converts a raster image to SVG (POST /v2/svg/vectorize/ideogram-vector-1). Text to SVG costs $0.13, $0.16 and $0.20 per SVG at low, medium and high quality; with image references, high quality costs $0.32; image to SVG costs $0.10 per image. The stored price is the lowest text-to-SVG tier, low quality.",
+    "docs": "https://developer.ideogram.ai/v2/api-reference/vectors/generate-svg",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "ideogram",

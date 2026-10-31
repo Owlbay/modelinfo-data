@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.05,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-01-16",
-    "knowledge_cutoff": null,
-    "description": "Small language model (1.54B parameters) that converts HTML into clean Markdown or JSON, used by the Reader API.",
-    "docs": "https://jina.ai/models/ReaderLM-v2",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -54,6 +37,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-01-16",
+    "knowledge_cutoff": null,
+    "description": "Small language model (1.54B parameters) that converts HTML into clean Markdown or JSON, used by the Reader API.",
+    "docs": "https://jina.ai/models/ReaderLM-v2",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "jina",

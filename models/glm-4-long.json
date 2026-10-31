@@ -32,23 +32,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 1,
-    "output": 1,
-    "cache_read": 0.5,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Language model designed for very long text and memory-style tasks, supporting 1M-token input.",
-    "docs": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4-long",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -59,6 +42,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Language model designed for very long text and memory-style tasks, supporting 1M-token input.",
+    "docs": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4-long",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "zhipu",

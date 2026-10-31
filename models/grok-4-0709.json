@@ -33,14 +33,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 3,
-    "output": 15,
-    "cache_read": 0.75,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 15,
+      "cache_read": 0.75,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -54,16 +56,6 @@
     "docs": "https://docs.x.ai/developers/migration/may-15-retirement",
     "verified_at": "2026-10-30"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 3,
-      "output": 15,
-      "cache_read": 0.75,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "xai",

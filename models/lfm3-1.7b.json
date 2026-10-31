@@ -27,14 +27,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.08,
-    "output": 0.2,
-    "cache_read": 0.02,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.08,
+      "output": 0.2,
+      "cache_read": 0.02,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -48,16 +50,6 @@
     "docs": "https://docs.liquid.ai/lfm/models/lfm3-1.7b",
     "verified_at": "2026-10-31"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.08,
-      "output": 0.2,
-      "cache_read": 0.02,
-      "cache_write": null
-    }
-  ],
   "providers": [],
   "aliases": [],
   "translations": {

@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2,
-    "output": 6,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2024-04-17",
-    "knowledge_cutoff": null,
-    "description": "A large open MoE model competing with much larger dense models.",
-    "docs": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-04-17",
+    "knowledge_cutoff": null,
+    "description": "A large open MoE model competing with much larger dense models.",
+    "docs": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "mistral",

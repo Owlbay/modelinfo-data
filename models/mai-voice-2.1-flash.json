@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_characters",
-    "input": 15,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "preview",
-    "release_date": "2026-10-01",
-    "knowledge_cutoff": null,
-    "description": "Low-latency expressive text-to-speech model across 23 languages for real-time voice agents, used via Azure Speech SSML.",
-    "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-voices",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-01",
+    "knowledge_cutoff": null,
+    "description": "Low-latency expressive text-to-speech model across 23 languages for real-time voice agents, used via Azure Speech SSML.",
+    "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-voices",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "microsoft",

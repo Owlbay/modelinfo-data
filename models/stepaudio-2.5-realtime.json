@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.5,
-    "output": 10,
-    "cache_read": 0.3,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-05-08",
-    "knowledge_cutoff": null,
-    "description": "End-to-end speech-to-speech model served over a WebSocket Realtime API, replying with streaming audio and a text transcript.",
-    "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-realtime",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -64,6 +47,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-08",
+    "knowledge_cutoff": null,
+    "description": "End-to-end speech-to-speech model served over a WebSocket Realtime API, replying with streaming audio and a text transcript.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-realtime",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "stepfun",

@@ -30,23 +30,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": null,
-    "output": 15,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Text, first-frame and first-last-frame video generation (scheduled to go offline).",
-    "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-10-10"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Text, first-frame and first-last-frame video generation (scheduled to go offline).",
+    "docs": "https://www.volcengine.com/docs/82379/1330310",
+    "verified_at": "2026-10-10"
+  },
   "providers": [
     {
       "id": "bytedance",

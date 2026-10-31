@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.5,
-    "output": 17.5,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-27",
-    "knowledge_cutoff": null,
-    "description": "High-performance model for fast, conversational video generation and editing.",
-    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-27",
+    "knowledge_cutoff": null,
+    "description": "High-performance model for fast, conversational video generation and editing.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "google",

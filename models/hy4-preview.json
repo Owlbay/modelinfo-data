@@ -34,14 +34,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 6,
-    "output": 18,
-    "cache_read": 0.3,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 6,
+      "output": 18,
+      "cache_read": 0.3,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -56,16 +58,6 @@
     "docs": "https://cloud.tencent.com/document/product/1823/132252",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 6,
-      "output": 18,
-      "cache_read": 0.3,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "tencent",

@@ -33,7 +33,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -43,7 +43,6 @@
     "docs": "https://docs.mistral.ai/models/mistral-small-1-0-24-02",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "mistral",

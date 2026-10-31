@@ -34,28 +34,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 3,
-    "output": 6,
-    "cache_read": 0.025,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "retired",
-    "release_date": "2026-04-23",
-    "knowledge_cutoff": null,
-    "description": "Trillion-parameter Xiaomi flagship base model for long-running agent and coding tasks; retired on 2026-10-21 10:00 (UTC+8), after which the old model name returns errors.",
-    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-pro",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -74,6 +52,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-04-23",
+    "knowledge_cutoff": null,
+    "description": "Trillion-parameter Xiaomi flagship base model for long-running agent and coding tasks; retired on 2026-10-21 10:00 (UTC+8), after which the old model name returns errors.",
+    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-pro",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "xiaomi",

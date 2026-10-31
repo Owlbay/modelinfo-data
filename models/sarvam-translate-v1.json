@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "INR",
-    "unit": "1M_characters",
-    "input": 2000,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-06-07",
-    "knowledge_cutoff": null,
-    "description": "Text translation model covering 22 Indian languages and English in formal style, up to 2,000 characters per request.",
-    "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-translate",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "INR",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-06-07",
+    "knowledge_cutoff": null,
+    "description": "Text translation model covering 22 Indian languages and English in formal style, up to 2,000 characters per request.",
+    "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-translate",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "sarvam",

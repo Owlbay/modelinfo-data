@@ -34,14 +34,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.075,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.075,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -57,16 +59,6 @@
     "docs": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
     "verified_at": "2026-10-15"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.15,
-      "output": 0.6,
-      "cache_read": 0.075,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "openai",

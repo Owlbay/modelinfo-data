@@ -31,14 +31,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.25,
-    "output": 2,
-    "cache_read": 0.025,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.25,
+      "output": 2,
+      "cache_read": 0.025,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -53,16 +55,6 @@
     "docs": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.25,
-      "output": 2,
-      "cache_read": 0.025,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "openai",

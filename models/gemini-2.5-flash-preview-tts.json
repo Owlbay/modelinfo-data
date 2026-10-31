@@ -31,23 +31,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.5,
-    "output": 10,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": "2025-05-20",
-    "knowledge_cutoff": null,
-    "description": "Controllable, low-latency text-to-speech model.",
-    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-05-20",
+    "knowledge_cutoff": null,
+    "description": "Controllable, low-latency text-to-speech model.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "google",

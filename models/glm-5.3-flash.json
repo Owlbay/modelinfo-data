@@ -35,28 +35,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.15,
-    "output": 0.5,
-    "cache_read": 0.03,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-26",
-    "knowledge_cutoff": null,
-    "description": "First native multimodal model in the GLM-5 series, 320B total and 18B active parameters, low cost.",
-    "docs": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
-    "verified_at": "2026-10-10"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -75,6 +53,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-26",
+    "knowledge_cutoff": null,
+    "description": "First native multimodal model in the GLM-5 series, 320B total and 18B active parameters, low cost.",
+    "docs": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+    "verified_at": "2026-10-10"
+  },
   "providers": [
     {
       "id": "zhipu",

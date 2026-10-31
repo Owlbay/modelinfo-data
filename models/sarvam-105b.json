@@ -32,14 +32,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "INR",
-    "unit": "1M_tokens",
-    "input": 15,
-    "output": 60,
-    "cache_read": 5,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "INR",
+      "unit": "1M_tokens",
+      "input": 15,
+      "output": 60,
+      "cache_read": 5,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming"
   ],
@@ -51,16 +53,6 @@
     "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-105b",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "INR",
-      "unit": "1M_tokens",
-      "input": 15,
-      "output": 60,
-      "cache_read": 5,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "sarvam",

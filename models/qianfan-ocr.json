@@ -37,23 +37,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0.45,
-    "output": 1.8,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Baidu Qianfan OCR model that converts document images to structured Markdown, with optional thinking mode. Scheduled to be retired on 2026-11-23 (official retirement notice).",
-    "docs": "https://cloud.baidu.com/doc/qianfan-docs/s/Qmispikeo",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -64,6 +47,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Baidu Qianfan OCR model that converts document images to structured Markdown, with optional thinking mode. Scheduled to be retired on 2026-11-23 (official retirement notice).",
+    "docs": "https://cloud.baidu.com/doc/qianfan-docs/s/Qmispikeo",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "baidu",

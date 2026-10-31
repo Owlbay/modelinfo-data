@@ -30,23 +30,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": 0.003,
-    "output": 0.04,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-07-20",
-    "knowledge_cutoff": null,
-    "description": "High-end image generation model with long-prompt support, dense layouts and legible small text.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-image-3-0-pro",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-20",
+    "knowledge_cutoff": null,
+    "description": "High-end image generation model with long-prompt support, dense layouts and legible small text.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-image-3-0-pro",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

@@ -32,23 +32,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 5,
-    "output": 47,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "preview",
-    "release_date": "2026-06-02",
-    "knowledge_cutoff": null,
-    "description": "Microsoft AI text-to-image generation and image-to-image editing model.",
-    "docs": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -59,6 +42,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-06-02",
+    "knowledge_cutoff": null,
+    "description": "Microsoft AI text-to-image generation and image-to-image editing model.",
+    "docs": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "microsoft",

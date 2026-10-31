@@ -39,27 +39,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.6,
-    "output": 3.6,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-02-15",
-    "knowledge_cutoff": null,
-    "description": "Open-weight native vision-language MoE model (397B total, 17B active) for reasoning, code and agents.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -78,6 +57,19 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-15",
+    "knowledge_cutoff": null,
+    "description": "Open-weight native vision-language MoE model (397B total, 17B active) for reasoning, code and agents.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

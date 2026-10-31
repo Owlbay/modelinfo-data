@@ -43,14 +43,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 4,
-    "output": 20,
-    "cache_read": 0.2,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -65,16 +67,6 @@
     "docs": "https://dev.meta.ai/docs/models",
     "verified_at": "2026-10-26"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 4,
-      "output": 20,
-      "cache_read": 0.2,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "meta",

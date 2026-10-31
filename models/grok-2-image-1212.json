@@ -32,23 +32,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.07,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2025-03-19",
-    "knowledge_cutoff": null,
-    "description": "Our latest image generation model that can generate vivid, realistic images based on a text prompt. Excels at generating images for marketing, social media, and entertainment.",
-    "docs": "https://web.archive.org/web/20251202223533/https://docs.x.ai/docs/models/grok-2-image-1212",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -59,6 +42,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-03-19",
+    "knowledge_cutoff": null,
+    "description": "Our latest image generation model that can generate vivid, realistic images based on a text prompt. Excels at generating images for marketing, social media, and entertainment.",
+    "docs": "https://web.archive.org/web/20251202223533/https://docs.x.ai/docs/models/grok-2-image-1212",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "xai",

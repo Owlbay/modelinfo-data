@@ -34,23 +34,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "second",
-    "input": 0.05,
-    "output": 0.05,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-06",
-    "knowledge_cutoff": null,
-    "description": "All-in-one video generation model for text-to-video, image-to-video and reference-based generation.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/wan3-0-video",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -61,6 +44,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-06",
+    "knowledge_cutoff": null,
+    "description": "All-in-one video generation model for text-to-video, image-to-video and reference-based generation.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/wan3-0-video",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

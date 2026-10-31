@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.45,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-29",
-    "knowledge_cutoff": null,
-    "description": "AssemblyAI flagship streaming speech-to-text model for voice agents with 32 languages, native code-switching, prompting and conversational context.",
-    "docs": "https://www.assemblyai.com/docs/streaming/select-the-speech-model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-29",
+    "knowledge_cutoff": null,
+    "description": "AssemblyAI flagship streaming speech-to-text model for voice agents with 32 languages, native code-switching, prompting and conversational context.",
+    "docs": "https://www.assemblyai.com/docs/streaming/select-the-speech-model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "assemblyai",

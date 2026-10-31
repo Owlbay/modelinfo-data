@@ -39,14 +39,16 @@
       "ultra"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.25,
-    "output": 1,
-    "cache_read": 0.03,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.25,
+      "output": 1,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "streaming",
@@ -127,16 +129,6 @@
         "responses": "WS /v1/responses"
       },
       "reasoning_param": "reasoning.effort"
-    }
-  ],
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.25,
-      "output": 1,
-      "cache_read": 0.03,
-      "cache_write": null
     }
   ]
 }

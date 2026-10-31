@@ -34,27 +34,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2.5,
-    "output": 7.5,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-05-20",
-    "knowledge_cutoff": null,
-    "description": "Preview of the largest Qwen3.7 model, thinking mode only.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -73,6 +52,19 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-20",
+    "knowledge_cutoff": null,
+    "description": "Preview of the largest Qwen3.7 model, thinking mode only.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

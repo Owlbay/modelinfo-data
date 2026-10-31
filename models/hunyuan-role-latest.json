@@ -34,23 +34,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 2.4,
-    "output": 9.6,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-09-24",
-    "knowledge_cutoff": null,
-    "description": "Tencent role-play model optimized for chat and story interaction.",
-    "docs": "https://cloud.tencent.com/document/product/1823/130051",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -61,6 +44,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-09-24",
+    "knowledge_cutoff": null,
+    "description": "Tencent role-play model optimized for chat and story interaction.",
+    "docs": "https://cloud.tencent.com/document/product/1823/130051",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "tencent",

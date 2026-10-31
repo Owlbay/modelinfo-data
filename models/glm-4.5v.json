@@ -35,23 +35,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.6,
-    "output": 1.8,
-    "cache_read": 0.11,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-08-11",
-    "knowledge_cutoff": null,
-    "description": "Visual reasoning MoE model, 106B total and 12B active parameters, based on GLM-4.5-Air.",
-    "docs": "https://docs.z.ai/guides/vlm/glm-4.5v",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -70,6 +53,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-08-11",
+    "knowledge_cutoff": null,
+    "description": "Visual reasoning MoE model, 106B total and 12B active parameters, based on GLM-4.5-Air.",
+    "docs": "https://docs.z.ai/guides/vlm/glm-4.5v",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "zhipu",

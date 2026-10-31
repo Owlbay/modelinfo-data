@@ -28,7 +28,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "preview",
@@ -38,7 +38,6 @@
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-rerank-8b",
     "verified_at": "2026-10-24"
   },
-  "prices": [],
   "providers": [],
   "aliases": [
     "nvidia/nemotron-3.5-rerank-8b"

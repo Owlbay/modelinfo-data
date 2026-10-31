@@ -28,23 +28,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": null,
-    "output": 10,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Doubao-Seedance-1.0-lite, retired. Official shutdown (EOS) dates: doubao-seedance-1-0-lite-i2v-250428 2026-05-11; doubao-seedance-1-0-lite-t2v-250428 2026-05-11.",
-    "docs": "https://www.volcengine.com/docs/82379/1350667",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -55,6 +38,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Doubao-Seedance-1.0-lite, retired. Official shutdown (EOS) dates: doubao-seedance-1-0-lite-i2v-250428 2026-05-11; doubao-seedance-1-0-lite-t2v-250428 2026-05-11.",
+    "docs": "https://www.volcengine.com/docs/82379/1350667",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "bytedance",

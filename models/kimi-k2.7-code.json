@@ -38,29 +38,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.95,
-    "output": 4,
-    "cache_read": 0.19,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "caching",
-    "streaming",
-    "structured_output",
-    "batch"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-06-12",
-    "knowledge_cutoff": null,
-    "description": "Kimi dedicated coding model with more reliable instruction following in long-context agentic coding.",
-    "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -79,6 +56,21 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "caching",
+    "streaming",
+    "structured_output",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-12",
+    "knowledge_cutoff": null,
+    "description": "Kimi dedicated coding model with more reliable instruction following in long-context agentic coding.",
+    "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "moonshot",

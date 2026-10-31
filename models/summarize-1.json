@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.05,
-    "output": 0,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Task-specific small model for faithful abstractive summaries, called through the OpenAI-compatible chat completions API; summarize always points to the latest version. Output is capped at 1,000 tokens and is free; image input is $0.15 per million tokens.",
-    "docs": "https://docs.scaledown.ai/api-reference/summarize",
-    "verified_at": "2026-10-28"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Task-specific small model for faithful abstractive summaries, called through the OpenAI-compatible chat completions API; summarize always points to the latest version. Output is capped at 1,000 tokens and is free; image input is $0.15 per million tokens.",
+    "docs": "https://docs.scaledown.ai/api-reference/summarize",
+    "verified_at": "2026-10-28"
+  },
   "providers": [
     {
       "id": "scaledown",

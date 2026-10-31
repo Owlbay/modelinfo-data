@@ -28,7 +28,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -38,7 +38,6 @@
     "docs": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
     "verified_at": "2026-10-31"
   },
-  "prices": [],
   "providers": [
     {
       "id": "ant",

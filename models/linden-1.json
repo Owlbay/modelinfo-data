@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "hour",
-    "input": 0.3,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-17",
-    "knowledge_cutoff": null,
-    "description": "Speechmatics model powering Agent STT, returning speaker-attributed turn-based segments for voice agents.",
-    "docs": "https://docs.speechmatics.com/speech-to-text/models",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-17",
+    "knowledge_cutoff": null,
+    "description": "Speechmatics model powering Agent STT, returning speaker-attributed turn-based segments for voice agents.",
+    "docs": "https://docs.speechmatics.com/speech-to-text/models",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "speechmatics",

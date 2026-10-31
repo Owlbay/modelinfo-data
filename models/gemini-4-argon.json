@@ -39,14 +39,16 @@
       "high"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 4,
-    "output": 20,
-    "cache_read": 0.2,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -61,16 +63,6 @@
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
     "verified_at": "2026-10-15"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 4,
-      "output": 20,
-      "cache_read": 0.2,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "google",

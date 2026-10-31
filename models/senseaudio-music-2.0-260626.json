@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "request",
-    "input": null,
-    "output": 1,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Full song generation from lyrics or prompts.",
-    "docs": "https://docs.senseaudio.cn/guides/music/overview",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -54,6 +37,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Full song generation from lyrics or prompts.",
+    "docs": "https://docs.senseaudio.cn/guides/music/overview",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "senseaudio",

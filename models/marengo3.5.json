@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.26,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-08-31",
-    "knowledge_cutoff": null,
-    "description": "Embedding model for video understanding; creates 128, 256 or 512-dimension embeddings from video, audio, images, text and documents.",
-    "docs": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/marengo/marengo-3-5",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-31",
+    "knowledge_cutoff": null,
+    "description": "Embedding model for video understanding; creates 128, 256 or 512-dimension embeddings from video, audio, images, text and documents.",
+    "docs": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/marengo/marengo-3-5",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "twelvelabs",

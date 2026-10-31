@@ -28,23 +28,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "request",
-    "input": null,
-    "output": 0.08,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-09-10",
-    "knowledge_cutoff": null,
-    "description": "Stability audio model for text-to-audio, audio-to-audio and audio inpainting, with up to 3-minute 44.1 kHz stereo output.",
-    "docs": "https://platform.stability.ai/docs/api-reference",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -55,6 +38,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-09-10",
+    "knowledge_cutoff": null,
+    "description": "Stability audio model for text-to-audio, audio-to-audio and audio inpainting, with up to 3-minute 44.1 kHz stereo output.",
+    "docs": "https://platform.stability.ai/docs/api-reference",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "stability",

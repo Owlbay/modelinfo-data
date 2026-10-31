@@ -32,7 +32,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -42,7 +42,6 @@
     "docs": "https://platform.stepfun.ai/docs/en/guides/image-offline-notice",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "stepfun",

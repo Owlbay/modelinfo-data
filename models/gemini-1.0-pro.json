@@ -30,7 +30,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools"
   ],
@@ -42,7 +42,6 @@
     "docs": "https://web.archive.org/web/20251112105521/https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "google",

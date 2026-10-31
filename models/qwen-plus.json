@@ -36,28 +36,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.4,
-    "output": 1.2,
-    "cache_read": 0.04,
-    "cache_write": 0.5
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Mid-tier Qwen model balancing capability and speed, with improved code generation, reasoning and multilingual ability.",
-    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-plus",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -76,6 +54,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Mid-tier Qwen model balancing capability and speed, with improved code generation, reasoning and multilingual ability.",
+    "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-plus",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

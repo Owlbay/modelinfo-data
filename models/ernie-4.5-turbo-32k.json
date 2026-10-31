@@ -35,26 +35,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0.8,
-    "output": 3.2,
-    "cache_read": 0.2,
-    "cache_write": null
-  },
-  "features": [
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "retired",
-    "release_date": "2025-04-24",
-    "knowledge_cutoff": null,
-    "description": "Baidu ERNIE 4.5 Turbo text model with 32K context. Retired on 2026-10-29 (official retirement notice).",
-    "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -73,6 +53,18 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-04-24",
+    "knowledge_cutoff": null,
+    "description": "Baidu ERNIE 4.5 Turbo text model with 32K context. Retired on 2026-10-29 (official retirement notice).",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "baidu",

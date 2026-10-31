@@ -27,7 +27,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -37,7 +37,6 @@
     "docs": "https://docs.sea-lion.ai/models/sea-lion-guard-v2/gemma-sea-lion-guard-v2",
     "verified_at": "2026-10-31"
   },
-  "prices": [],
   "providers": [],
   "aliases": [
     "aisingapore/Gemma-SEA-LION-Guard-v2-31B"

@@ -27,23 +27,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.05,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-10-01",
-    "knowledge_cutoff": null,
-    "description": "Listwise multilingual reranker (597M parameters) that ranks a query against candidate documents in one context window.",
-    "docs": "https://jina.ai/models/jina-reranker-v3",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -54,6 +37,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-10-01",
+    "knowledge_cutoff": null,
+    "description": "Listwise multilingual reranker (597M parameters) that ranks a query against candidate documents in one context window.",
+    "docs": "https://jina.ai/models/jina-reranker-v3",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "jina",

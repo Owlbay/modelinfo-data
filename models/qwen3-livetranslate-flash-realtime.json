@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 10,
-    "output": 10,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2025-09-23",
-    "knowledge_cutoff": null,
-    "description": "Real-time version of Qwen3-LiveTranslate-Flash, a multilingual simultaneous audio and video interpretation model built on Qwen3-Omni that understands 19 languages and speaks 10 languages, including 8 Chinese dialects.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-09-23",
+    "knowledge_cutoff": null,
+    "description": "Real-time version of Qwen3-LiveTranslate-Flash, a multilingual simultaneous audio and video interpretation model built on Qwen3-Omni that understands 19 languages and speaks 10 languages, including 8 Chinese dialects.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "alibaba",

@@ -43,27 +43,6 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-19",
-    "knowledge_cutoff": null,
-    "description": "Multimodal agent model for coding and tool use. Developer docs list a 1,000,000-token context window, text, image, and video input, and text output. Effort accepts low, medium, high, xhigh, and max, defaults to max, and cannot be disabled. Hugging Face publishes the weights at approximately 428B total parameters with 23B activated per token, under the MiniMax Community License: non-commercial use is free; commercial use must display “Built with MiniMax M3.1-Flash”; yearly revenue above $20 million USD requires prior written authorization from MiniMax, and otherwise a one-time notice.",
-    "docs": "https://platform.minimax.io/docs/guides/text-generation",
-    "verified_at": "2026-10-24"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -82,6 +61,19 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-19",
+    "knowledge_cutoff": null,
+    "description": "Multimodal agent model for coding and tool use. Developer docs list a 1,000,000-token context window, text, image, and video input, and text output. Effort accepts low, medium, high, xhigh, and max, defaults to max, and cannot be disabled. Hugging Face publishes the weights at approximately 428B total parameters with 23B activated per token, under the MiniMax Community License: non-commercial use is free; commercial use must display “Built with MiniMax M3.1-Flash”; yearly revenue above $20 million USD requires prior written authorization from MiniMax, and otherwise a one-time notice.",
+    "docs": "https://platform.minimax.io/docs/guides/text-generation",
+    "verified_at": "2026-10-24"
+  },
   "providers": [
     {
       "id": "minimax",

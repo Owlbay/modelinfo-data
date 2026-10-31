@@ -42,14 +42,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0.6,
-    "output": 3.6,
-    "cache_read": 0.12,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.6,
+      "output": 3.6,
+      "cache_read": 0.12,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -65,16 +67,6 @@
     "docs": "https://www.volcengine.com/docs/82379/1330310",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 0.6,
-      "output": 3.6,
-      "cache_read": 0.12,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "bytedance",

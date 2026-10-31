@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.2,
-    "output": 0.6,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2025-02-17",
-    "knowledge_cutoff": null,
-    "description": "A finetuned Small model trained on meticulously curated datasets from across the Middle East and South Asia.",
-    "docs": "https://docs.mistral.ai/models/mistral-saba-25-02",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-02-17",
+    "knowledge_cutoff": null,
+    "description": "A finetuned Small model trained on meticulously curated datasets from across the Middle East and South Asia.",
+    "docs": "https://docs.mistral.ai/models/mistral-saba-25-02",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "mistral",

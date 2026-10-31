@@ -27,7 +27,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "preview",
@@ -37,7 +37,6 @@
     "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "microsoft",

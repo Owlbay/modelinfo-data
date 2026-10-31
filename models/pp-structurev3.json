@@ -28,23 +28,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "page",
-    "input": 0.18,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": "2025-12-12",
-    "knowledge_cutoff": null,
-    "description": "PP-StructureV3 document structure recognition with layout, table, formula and seal recognition on Qianfan. Scheduled to be retired on 2026-11-23 (official retirement notice).",
-    "docs": "https://cloud.baidu.com/doc/qianfan-api/s/Nmj124ro4",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -55,6 +38,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-12-12",
+    "knowledge_cutoff": null,
+    "description": "PP-StructureV3 document structure recognition with layout, table, formula and seal recognition on Qianfan. Scheduled to be retired on 2026-11-23 (official retirement notice).",
+    "docs": "https://cloud.baidu.com/doc/qianfan-api/s/Nmj124ro4",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "baidu",

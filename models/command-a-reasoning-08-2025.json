@@ -30,7 +30,7 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "tools",
     "structured_output"
@@ -43,7 +43,6 @@
     "docs": "https://docs.cohere.com/docs/command-a-reasoning",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "cohere",

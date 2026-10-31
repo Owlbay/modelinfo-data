@@ -28,14 +28,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.3,
-    "output": 2.5,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 2.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming",
     "batch"
@@ -48,16 +50,6 @@
     "docs": "https://docs.moondream.ai/api",
     "verified_at": "2026-10-24"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.3,
-      "output": 2.5,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "moondream",

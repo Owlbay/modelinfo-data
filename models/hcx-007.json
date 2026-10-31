@@ -32,14 +32,16 @@
       "high"
     ]
   },
-  "pricing": {
-    "currency": "KRW",
-    "unit": "1M_tokens",
-    "input": 1250,
-    "output": 5000,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "KRW",
+      "unit": "1M_tokens",
+      "input": 1250,
+      "output": 5000,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -53,16 +55,6 @@
     "docs": "https://guide.ncloud-docs.com/docs/clovastudio-model",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "KRW",
-      "unit": "1M_tokens",
-      "input": 1250,
-      "output": 5000,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "naver",

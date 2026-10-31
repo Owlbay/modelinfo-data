@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 3,
-    "output": 4,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2023-06-13",
-    "knowledge_cutoff": "2021-09-01",
-    "description": "Legacy GPT model for cheaper chat and non-chat tasks",
-    "docs": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-16k-0613",
-    "verified_at": "2026-10-15"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2023-06-13",
+    "knowledge_cutoff": "2021-09-01",
+    "description": "Legacy GPT model for cheaper chat and non-chat tasks",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-16k-0613",
+    "verified_at": "2026-10-15"
+  },
   "providers": [
     {
       "id": "openai",

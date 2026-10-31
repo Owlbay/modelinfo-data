@@ -31,23 +31,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0.5,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-01-29",
-    "knowledge_cutoff": null,
-    "description": "Multimodal reranking model that orders mixed text, image and video candidates.",
-    "docs": "https://help.aliyun.com/zh/model-studio/embedding-rerank-model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-01-29",
+    "knowledge_cutoff": null,
+    "description": "Multimodal reranking model that orders mixed text, image and video candidates.",
+    "docs": "https://help.aliyun.com/zh/model-studio/embedding-rerank-model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

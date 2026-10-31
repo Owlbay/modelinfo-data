@@ -30,7 +30,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -40,7 +40,6 @@
     "docs": "https://docs.cohere.com/docs/command-a-translate",
     "verified_at": "2026-10-30"
   },
-  "prices": [],
   "providers": [
     {
       "id": "cohere",

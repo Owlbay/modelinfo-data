@@ -29,7 +29,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -39,7 +39,6 @@
     "docs": "https://cloud.tencent.com/document/product/1729/131925",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [],
   "aliases": [
     "hunyuan-large-role-latest",

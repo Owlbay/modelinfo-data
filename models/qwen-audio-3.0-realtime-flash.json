@@ -31,25 +31,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.23,
-    "output": 0.7,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-07-14",
-    "knowledge_cutoff": null,
-    "description": "Low-latency duplex speech model.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -68,6 +49,17 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-14",
+    "knowledge_cutoff": null,
+    "description": "Low-latency duplex speech model.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "alibaba",

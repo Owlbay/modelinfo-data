@@ -34,28 +34,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.9,
-    "output": 8,
-    "cache_read": 0.38,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "caching",
-    "streaming",
-    "structured_output"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "High-speed variant of Kimi K2.7 Code, about 180 tokens/s output.",
-    "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -74,6 +52,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "caching",
+    "streaming",
+    "structured_output"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "High-speed variant of Kimi K2.7 Code, about 180 tokens/s output.",
+    "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "moonshot",

@@ -27,7 +27,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "retired",
@@ -37,7 +37,6 @@
     "docs": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
     "verified_at": "2026-10-20"
   },
-  "prices": [],
   "providers": [
     {
       "id": "xiaomi",

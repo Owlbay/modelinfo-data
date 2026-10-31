@@ -28,23 +28,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "image",
-    "input": null,
-    "output": 0.1,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-10-27",
-    "knowledge_cutoff": null,
-    "description": "Ming layer-decoupling model on the Ant Ling platform: splits one input image into transparent PNG layers guided by a prompt, at 512 px and above, via the OpenAI-compatible image edits endpoint.",
-    "docs": "https://developer.ant-ling.com/en/docs/api-reference/image/edits/",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -55,6 +38,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-27",
+    "knowledge_cutoff": null,
+    "description": "Ming layer-decoupling model on the Ant Ling platform: splits one input image into transparent PNG layers guided by a prompt, at 512 px and above, via the OpenAI-compatible image edits endpoint.",
+    "docs": "https://developer.ant-ling.com/en/docs/api-reference/image/edits/",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "ant",

@@ -27,14 +27,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.7,
-    "output": 1.4,
-    "cache_read": 0.18,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.7,
+      "output": 1.4,
+      "cache_read": 0.18,
+      "cache_write": null
+    }
+  ],
   "features": [
     "caching"
   ],
@@ -46,16 +48,6 @@
     "docs": "https://www.aionlabs.ai/docs/models/",
     "verified_at": "2026-10-30"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.7,
-      "output": 1.4,
-      "cache_read": 0.18,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "aionlabs",

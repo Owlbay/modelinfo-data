@@ -28,7 +28,7 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "preview",
@@ -38,7 +38,6 @@
     "docs": "https://build.nvidia.com/nvidia/nemotron-3_5-embed-1b/modelcard",
     "verified_at": "2026-10-24"
   },
-  "prices": [],
   "providers": [
     {
       "id": "nvidia",

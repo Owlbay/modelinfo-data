@@ -37,28 +37,6 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 1,
-    "output": 2,
-    "cache_read": 0.02,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "retired",
-    "release_date": "2026-04-23",
-    "knowledge_cutoff": null,
-    "description": "Native omni-modal Xiaomi model for long-context and multimodal agent scenarios; retired on 2026-10-21 10:00 (UTC+8), after which the old model name returns errors.",
-    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -77,6 +55,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-04-23",
+    "knowledge_cutoff": null,
+    "description": "Native omni-modal Xiaomi model for long-context and multimodal agent scenarios; retired on 2026-10-21 10:00 (UTC+8), after which the old model name returns errors.",
+    "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "xiaomi",

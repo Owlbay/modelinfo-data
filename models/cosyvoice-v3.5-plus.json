@@ -29,23 +29,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_characters",
-    "input": 150,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-02-27",
-    "knowledge_cutoff": null,
-    "description": "CosyVoice v3.5 Plus speech synthesis model that supports cloned and designed voices.",
-    "docs": "https://help.aliyun.com/zh/model-studio/cosyvoice-websocket-api",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-27",
+    "knowledge_cutoff": null,
+    "description": "CosyVoice v3.5 Plus speech synthesis model that supports cloned and designed voices.",
+    "docs": "https://help.aliyun.com/zh/model-studio/cosyvoice-websocket-api",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

@@ -28,23 +28,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.05,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-04-08",
-    "knowledge_cutoff": null,
-    "description": "Multilingual multimodal reranker (2.4B parameters) for ranking visual documents.",
-    "docs": "https://jina.ai/models/jina-reranker-m0",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -55,6 +38,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-04-08",
+    "knowledge_cutoff": null,
+    "description": "Multilingual multimodal reranker (2.4B parameters) for ranking visual documents.",
+    "docs": "https://jina.ai/models/jina-reranker-m0",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "jina",

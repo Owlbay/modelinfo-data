@@ -37,23 +37,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0.5,
-    "output": 2,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-06-16",
-    "knowledge_cutoff": null,
-    "description": "OCR model on the Qwen3.5 architecture for document parsing, text localization and key-information extraction, including PDF parsing.",
-    "docs": "https://help.aliyun.com/zh/model-studio/qwen-vl-ocr",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -64,6 +47,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-16",
+    "knowledge_cutoff": null,
+    "description": "OCR model on the Qwen3.5 architecture for document parsing, text localization and key-information extraction, including PDF parsing.",
+    "docs": "https://help.aliyun.com/zh/model-studio/qwen-vl-ocr",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "alibaba",

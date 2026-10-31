@@ -31,14 +31,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.05,
-    "output": 0,
-    "cache_read": null,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": 0,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "structured_output"
   ],
@@ -50,16 +52,6 @@
     "docs": "https://docs.scaledown.ai/api-reference/extract",
     "verified_at": "2026-10-28"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.05,
-      "output": 0,
-      "cache_read": null,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "scaledown",

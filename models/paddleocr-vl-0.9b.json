@@ -28,23 +28,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "page",
-    "input": 0.18,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "deprecated",
-    "release_date": "2025-11-28",
-    "knowledge_cutoff": null,
-    "description": "PaddleOCR-VL document parsing model with layout analysis, formula, table and chart recognition on Qianfan. Scheduled to be retired on 2026-11-23 (official retirement notice).",
-    "docs": "https://cloud.baidu.com/doc/qianfan-api/s/zmho8omz3",
-    "verified_at": "2026-10-31"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -55,6 +38,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-11-28",
+    "knowledge_cutoff": null,
+    "description": "PaddleOCR-VL document parsing model with layout analysis, formula, table and chart recognition on Qianfan. Scheduled to be retired on 2026-11-23 (official retirement notice).",
+    "docs": "https://cloud.baidu.com/doc/qianfan-api/s/zmho8omz3",
+    "verified_at": "2026-10-31"
+  },
   "providers": [
     {
       "id": "baidu",

@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "request",
-    "input": null,
-    "output": 0.15,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-06-09",
-    "knowledge_cutoff": null,
-    "description": "Luma video model for text-to-video, image-to-video, video editing and aspect-ratio reframing, at up to 1080p.",
-    "docs": "https://docs.agents.lumalabs.ai/guides/model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-09",
+    "knowledge_cutoff": null,
+    "description": "Luma video model for text-to-video, image-to-video, video editing and aspect-ratio reframing, at up to 1080p.",
+    "docs": "https://docs.agents.lumalabs.ai/guides/model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "luma",

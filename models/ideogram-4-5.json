@@ -30,23 +30,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "image",
-    "input": null,
-    "output": 0.03,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-30",
-    "knowledge_cutoff": null,
-    "description": "Ideogram image generation from natural-language or structured JSON prompts, with optional source images and masks for editing.",
-    "docs": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-4-5",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -57,6 +40,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-30",
+    "knowledge_cutoff": null,
+    "description": "Ideogram image generation from natural-language or structured JSON prompts, with optional source images and masks for editing.",
+    "docs": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-4-5",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "ideogram",

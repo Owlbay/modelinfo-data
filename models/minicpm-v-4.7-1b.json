@@ -29,7 +29,7 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [],
   "info": {
     "status": "active",
@@ -39,7 +39,6 @@
     "docs": "https://openbmb.cn/docs/en/guides/minicpm-v/minicpm-v-4.7",
     "verified_at": "2026-10-27"
   },
-  "prices": [],
   "providers": [],
   "aliases": [
     "openbmb/MiniCPM-V-4.7-1B"

@@ -40,28 +40,6 @@
       "high"
     ]
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 7,
-    "output": 20,
-    "cache_read": 0.7,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "structured_output",
-    "streaming",
-    "caching"
-  ],
-  "info": {
-    "status": "preview",
-    "release_date": "2026-09-20",
-    "knowledge_cutoff": null,
-    "description": "Flagship multimodal reasoning model for agentic work with a 1M-token context.",
-    "docs": "https://platform.stepfun.com/docs/zh/guides/models/step-5-preview",
-    "verified_at": "2026-10-15"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -80,6 +58,20 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-09-20",
+    "knowledge_cutoff": null,
+    "description": "Flagship multimodal reasoning model for agentic work with a 1M-token context.",
+    "docs": "https://platform.stepfun.com/docs/zh/guides/models/step-5-preview",
+    "verified_at": "2026-10-15"
+  },
   "providers": [
     {
       "id": "stepfun",

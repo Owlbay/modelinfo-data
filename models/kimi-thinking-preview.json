@@ -32,7 +32,7 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "streaming"
   ],
@@ -44,7 +44,6 @@
     "docs": "https://platform.kimi.ai/docs/models",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "moonshot",

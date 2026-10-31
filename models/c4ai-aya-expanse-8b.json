@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.5,
-    "output": 1.5,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2024-10-24",
-    "knowledge_cutoff": null,
-    "description": null,
-    "docs": "https://docs.cohere.com/docs/deprecations",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-10-24",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.cohere.com/docs/deprecations",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "cohere",

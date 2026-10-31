@@ -27,23 +27,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "second",
-    "input": 0.00022,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "preview",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Tencent speech recognition preview for Mandarin, English and Chinese dialects.",
-    "docs": "https://cloud.tencent.com/document/product/1823/130051",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -54,6 +37,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "preview",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Tencent speech recognition preview for Mandarin, English and Chinese dialects.",
+    "docs": "https://cloud.tencent.com/document/product/1823/130051",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "tencent",

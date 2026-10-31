@@ -33,26 +33,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2.1,
-    "output": 12.4,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-03-26",
-    "knowledge_cutoff": null,
-    "description": "Real-time omni-modal interaction over WebSocket.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -71,6 +51,18 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-26",
+    "knowledge_cutoff": null,
+    "description": "Real-time omni-modal interaction over WebSocket.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "alibaba",

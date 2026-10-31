@@ -31,26 +31,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.8,
-    "output": 6.4,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "tools",
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-09-20",
-    "knowledge_cutoff": null,
-    "description": "Duplex end-to-end voice conversation model with function calling, web search and voice cloning.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
-    "verified_at": "2026-10-20"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -69,6 +49,18 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-20",
+    "knowledge_cutoff": null,
+    "description": "Duplex end-to-end voice conversation model with function calling, web search and voice cloning.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
+    "verified_at": "2026-10-20"
+  },
   "providers": [
     {
       "id": "alibaba",

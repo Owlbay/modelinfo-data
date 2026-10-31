@@ -29,25 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 1.43,
-    "output": 10,
-    "cache_read": 0.29,
-    "cache_write": null
-  },
-  "features": [
-    "tools"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "End-to-end audio model for sound understanding and natural interaction, with native tool calling and web search.",
-    "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -66,6 +47,17 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "End-to-end audio model for sound understanding and natural interaction, with native tool calling and web search.",
+    "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "stepfun",

@@ -35,7 +35,7 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": null,
+  "prices": [],
   "features": [
     "streaming"
   ],
@@ -47,7 +47,6 @@
     "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
     "verified_at": "2026-10-11"
   },
-  "prices": [],
   "providers": [
     {
       "id": "baidu",

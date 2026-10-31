@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "page",
-    "input": 0.001,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2025-03-06",
-    "knowledge_cutoff": null,
-    "description": "Our first OCR optimized model.",
-    "docs": "https://docs.mistral.ai/models/ocr-25-03",
-    "verified_at": "2026-10-15"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-03-06",
+    "knowledge_cutoff": null,
+    "description": "Our first OCR optimized model.",
+    "docs": "https://docs.mistral.ai/models/ocr-25-03",
+    "verified_at": "2026-10-15"
+  },
   "providers": [
     {
       "id": "mistral",

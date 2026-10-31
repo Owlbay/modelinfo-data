@@ -34,23 +34,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.2,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-04-22",
-    "knowledge_cutoff": "2025-11",
-    "description": "Multimodal embedding model mapping text, images, video, audio and PDFs into one embedding space.",
-    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
-    "verified_at": "2026-10-30"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -61,6 +44,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-22",
+    "knowledge_cutoff": "2025-11",
+    "description": "Multimodal embedding model mapping text, images, video, audio and PDFs into one embedding space.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+    "verified_at": "2026-10-30"
+  },
   "providers": [
     {
       "id": "google",

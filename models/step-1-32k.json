@@ -31,23 +31,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 15,
-    "output": 70,
-    "cache_read": 3,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": null,
-    "knowledge_cutoff": null,
-    "description": "Step-1 series classic-architecture language model with 32K context. Retired on 2026-07-08 per the official lifecycle page.",
-    "docs": "https://platform.stepfun.com/docs/zh/guides/model-migration",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -58,6 +41,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Step-1 series classic-architecture language model with 32K context. Retired on 2026-07-08 per the official lifecycle page.",
+    "docs": "https://platform.stepfun.com/docs/zh/guides/model-migration",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "stepfun",

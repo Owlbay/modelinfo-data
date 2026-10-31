@@ -35,25 +35,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 4,
-    "output": 18,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2026-05-09",
-    "knowledge_cutoff": null,
-    "description": "Baidu ERNIE 5.1 text generation model on the Qianfan platform.",
-    "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -72,6 +53,17 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-09",
+    "knowledge_cutoff": null,
+    "description": "Baidu ERNIE 5.1 text generation model on the Qianfan platform.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "baidu",

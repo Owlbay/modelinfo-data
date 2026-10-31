@@ -30,14 +30,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.25,
-    "output": 0.75,
-    "cache_read": 0.025,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.25,
+      "output": 0.75,
+      "cache_read": 0.025,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming"
   ],
@@ -49,16 +51,6 @@
     "docs": "https://docs.inceptionlabs.ai/get-started/models",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.25,
-      "output": 0.75,
-      "cache_read": 0.025,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "inception",

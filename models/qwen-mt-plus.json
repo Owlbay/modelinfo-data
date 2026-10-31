@@ -33,25 +33,6 @@
     "supported": false,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 2.46,
-    "output": 7.37,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [
-    "streaming"
-  ],
-  "info": {
-    "status": "active",
-    "release_date": "2025-07-22",
-    "knowledge_cutoff": null,
-    "description": "Highest-quality Qwen translation model for professional and formal documents, 92 languages.",
-    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -70,6 +51,17 @@
       "cache_write": null
     }
   ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-07-22",
+    "knowledge_cutoff": null,
+    "description": "Highest-quality Qwen translation model for professional and formal documents, 92 languages.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "alibaba",

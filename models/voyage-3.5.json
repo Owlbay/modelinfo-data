@@ -33,23 +33,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.06,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2025-05-20",
-    "knowledge_cutoff": null,
-    "description": "Previous-generation Voyage embedding model optimized for general-purpose and multilingual retrieval.",
-    "docs": "https://docs.voyageai.com/docs/embeddings",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "USD",
@@ -60,6 +43,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2025-05-20",
+    "knowledge_cutoff": null,
+    "description": "Previous-generation Voyage embedding model optimized for general-purpose and multilingual retrieval.",
+    "docs": "https://docs.voyageai.com/docs/embeddings",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "voyage",

@@ -35,14 +35,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 5,
-    "output": 22,
-    "cache_read": 1.2,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 22,
+      "cache_read": 1.2,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "streaming",
@@ -56,16 +58,6 @@
     "docs": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5v-turbo",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 5,
-      "output": 22,
-      "cache_read": 1.2,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "zhipu",

@@ -27,14 +27,16 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 0.8,
-    "output": 3.2,
-    "cache_read": 0.03,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": 3.2,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ],
   "features": [
     "caching"
   ],
@@ -46,16 +48,6 @@
     "docs": "https://unbiased.ai/blog/pareto-26-10/",
     "verified_at": "2026-10-27"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 0.8,
-      "output": 3.2,
-      "cache_read": 0.03,
-      "cache_write": null
-    }
-  ],
   "providers": [],
   "aliases": [
     "pareto"

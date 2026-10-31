@@ -39,14 +39,16 @@
       "max"
     ]
   },
-  "pricing": {
-    "currency": "USD",
-    "unit": "1M_tokens",
-    "input": 10,
-    "output": 50,
-    "cache_read": 0.25,
-    "cache_write": 12.5
-  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 10,
+      "output": 50,
+      "cache_read": 0.25,
+      "cache_write": 12.5
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -62,16 +64,6 @@
     "docs": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
     "verified_at": "2026-10-10"
   },
-  "prices": [
-    {
-      "currency": "USD",
-      "unit": "1M_tokens",
-      "input": 10,
-      "output": 50,
-      "cache_read": 0.25,
-      "cache_write": 12.5
-    }
-  ],
   "providers": [
     {
       "id": "anthropic",

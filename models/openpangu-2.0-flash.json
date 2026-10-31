@@ -34,14 +34,16 @@
     "supported": true,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0.8,
-    "output": 1.6,
-    "cache_read": 0.2,
-    "cache_write": null
-  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": 1.6,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "streaming",
@@ -55,16 +57,6 @@
     "docs": "https://support.huaweicloud.com/bestpractice-maas/bestpractice_maas_0021_01.html",
     "verified_at": "2026-10-11"
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 0.8,
-      "output": 1.6,
-      "cache_read": 0.2,
-      "cache_write": null
-    }
-  ],
   "providers": [
     {
       "id": "huawei",

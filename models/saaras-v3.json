@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "INR",
-    "unit": "hour",
-    "input": 30,
-    "output": null,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "active",
-    "release_date": "2026-02-10",
-    "knowledge_cutoff": null,
-    "description": "Speech-to-text model for 22 Indian languages plus Indian English with transcribe, translate, verbatim, translit and codemix modes.",
-    "docs": "https://docs.sarvam.ai/api/getting-started/models/saaras",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "INR",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-02-10",
+    "knowledge_cutoff": null,
+    "description": "Speech-to-text model for 22 Indian languages plus Indian English with transcribe, translate, verbatim, translit and codemix modes.",
+    "docs": "https://docs.sarvam.ai/api/getting-started/models/saaras",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "sarvam",

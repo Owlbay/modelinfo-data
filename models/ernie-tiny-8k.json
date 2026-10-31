@@ -29,23 +29,6 @@
     "supported": null,
     "efforts": []
   },
-  "pricing": {
-    "currency": "CNY",
-    "unit": "1M_tokens",
-    "input": 0,
-    "output": 0,
-    "cache_read": null,
-    "cache_write": null
-  },
-  "features": [],
-  "info": {
-    "status": "retired",
-    "release_date": "2024-03-08",
-    "knowledge_cutoff": null,
-    "description": "ERNIE-Tiny-8K, retired. Official retirement date: 2026-01-27. The page lists it with retirement dates 2026-01-27, 2026-06-09 and 2026-10-29; the earliest is used.",
-    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
-    "verified_at": "2026-10-11"
-  },
   "prices": [
     {
       "currency": "CNY",
@@ -56,6 +39,15 @@
       "cache_write": null
     }
   ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2024-03-08",
+    "knowledge_cutoff": null,
+    "description": "ERNIE-Tiny-8K, retired. Official retirement date: 2026-01-27. The page lists it with retirement dates 2026-01-27, 2026-06-09 and 2026-10-29; the earliest is used.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+    "verified_at": "2026-10-11"
+  },
   "providers": [
     {
       "id": "baidu",
