@@ -48,12 +48,12 @@
     "streaming"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2025-08-07",
     "knowledge_cutoff": null,
-    "description": "Baidu ERNIE 4.5 Turbo vision-language model with 128K context. Scheduled to be retired on 2026-10-29 (official retirement notice).",
+    "description": "Baidu ERNIE 4.5 Turbo vision-language model with 128K context. Retired on 2026-10-29 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -88,7 +88,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "百度 ERNIE 4.5 Turbo 视觉语言模型，128K 上下文。计划于 2026-10-29 下线（官方下线通知）。"
+      "description": "百度 ERNIE 4.5 Turbo 视觉语言模型，128K 上下文。已于 2026-10-29 下线（官方下线通知）。"
     }
   },
   "sources": [
@@ -120,7 +120,7 @@
     {
       "title": "模型版本升级及退役机制 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "SDK support — openai (api.sdk only)",

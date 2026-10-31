@@ -1,0 +1,132 @@
+{
+  "id": "qwen-audio-3.1-tts-next",
+  "object": "model",
+  "created": 1789948800,
+  "owned_by": "alibaba",
+  "name": "Qwen-Audio-3.1-TTS-Next",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.93,
+    "output": 1.87,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-09-21",
+    "knowledge_cutoff": null,
+    "description": "AudioGen model that generates complete audio in one pass from text, timestamps and up to three reference clips: multilingual speech, multi-speaker dialogue, podcasts, sound effects and ambience. Non-streaming; up to 240 s per podcast request, 120 s otherwise.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-next",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.93,
+      "output": 1.87,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 6,
+      "output": 12,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen-audio-3.1-tts-next",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "audio": "POST /api/v1/services/audio/tts/SpeechSynthesizer"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen-audio-3.1-tts-next",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "audio": "POST /api/v1/services/audio/tts/SpeechSynthesizer"
+      },
+      "reasoning_param": null,
+      "pricing": {
+        "currency": "CNY",
+        "unit": "1M_tokens",
+        "input": 6,
+        "output": 12,
+        "cache_read": null,
+        "cache_write": null
+      }
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "统一音频生成（AudioGen）模型，可根据文本、时间戳和最多 3 段参考音频一次生成完整音频，涵盖多语种人声、多人对话、播客、音效和环境音。仅非流式；播客单次最长 240 秒，其他场景 120 秒。"
+    }
+  },
+  "sources": [
+    {
+      "title": "qwen-audio-3.1-tts-next | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-next",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Audio generation API reference | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/audio-generation-api",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Model lifecycle and updates (Singapore launch 2026-10-22) | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "模型上下架与更新（华北 2 上线 2026-09-21）| 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "模型调用计费 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

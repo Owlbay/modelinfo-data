@@ -47,12 +47,12 @@
   },
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": "Baidu Qianfan OCR model that converts document images to structured Markdown, with optional thinking mode.",
+    "description": "Baidu Qianfan OCR model that converts document images to structured Markdown, with optional thinking mode. Scheduled to be retired on 2026-11-23 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan-docs/s/Qmispikeo",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -79,7 +79,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "百度千帆 OCR 模型，可将文档图像转换为结构化 Markdown，支持可选的思考模式。"
+      "description": "百度千帆 OCR 模型，可将文档图像转换为结构化 Markdown，支持可选的思考模式。计划于 2026-11-23 下线（官方下线通知）。"
     }
   },
   "sources": [
@@ -132,6 +132,11 @@
       "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
       "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

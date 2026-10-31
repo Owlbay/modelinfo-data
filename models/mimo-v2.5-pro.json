@@ -49,12 +49,12 @@
     "caching"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2026-04-23",
     "knowledge_cutoff": null,
-    "description": "Trillion-parameter Xiaomi flagship base model for long-running agent and coding tasks; retires 2026-10-21.",
+    "description": "Trillion-parameter Xiaomi flagship base model for long-running agent and coding tasks; retired on 2026-10-21 10:00 (UTC+8), after which the old model name returns errors.",
     "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-pro",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -89,7 +89,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "小米万亿参数旗舰基础模型，面向长时间运行的智能体和编程任务；将于 2026-10-21 下线。"
+      "description": "小米万亿参数旗舰基础模型，面向长时间运行的智能体和编程任务；已于 2026-10-21 10:00（UTC+8）下线，旧模型名称已失效。"
     }
   },
   "sources": [
@@ -131,7 +131,7 @@
     {
       "title": "模型下线 | Xiaomi MiMo",
       "url": "https://mimo.mi.com/docs/zh-CN/updates/deprecate",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",

@@ -1,0 +1,133 @@
+{
+  "id": "qwen-audio-3.1-tts-plus",
+  "object": "model",
+  "created": 1792540800,
+  "owned_by": "alibaba",
+  "name": "Qwen-Audio-3.1-TTS-Plus",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "dashscope-sdk-official"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_characters",
+    "input": 30,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-21",
+    "knowledge_cutoff": null,
+    "description": "Professional Qwen-Audio-TTS speech synthesis model for premium voices, dubbing and audio content, with instruction and tag control and voice cloning; billed per input character.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-plus",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 30,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_characters",
+      "input": 140,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen-audio-3.1-tts-plus",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
+      "endpoints": {
+        "audio": "POST /api/v1/services/audio/tts/SpeechSynthesizer"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen-audio-3.1-tts-plus",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "audio": "POST /api/v1/services/audio/tts/SpeechSynthesizer"
+      },
+      "reasoning_param": null,
+      "pricing": {
+        "currency": "CNY",
+        "unit": "1M_characters",
+        "input": 140,
+        "output": null,
+        "cache_read": null,
+        "cache_write": null
+      }
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Qwen-Audio-TTS 专业级语音合成模型，面向精品音色、影视配音和有声内容，支持指令与标签控制及声音复刻；按输入字符计费。"
+    }
+  },
+  "sources": [
+    {
+      "title": "qwen-audio-3.1-tts-plus | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-plus",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "模型上下架与更新 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Model Studio model pricing | Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "模型调用计费 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "语音合成-千问 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-tts",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

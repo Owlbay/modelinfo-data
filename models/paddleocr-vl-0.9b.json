@@ -38,12 +38,12 @@
   },
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2025-11-28",
     "knowledge_cutoff": null,
-    "description": "PaddleOCR-VL document parsing model with layout analysis, formula, table and chart recognition on Qianfan.",
+    "description": "PaddleOCR-VL document parsing model with layout analysis, formula, table and chart recognition on Qianfan. Scheduled to be retired on 2026-11-23 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan-api/s/zmho8omz3",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -69,7 +69,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "千帆上的 PaddleOCR-VL 文档解析模型，支持版面分析以及公式、表格和图表识别。"
+      "description": "千帆上的 PaddleOCR-VL 文档解析模型，支持版面分析以及公式、表格和图表识别。计划于 2026-11-23 下线（官方下线通知）。"
     }
   },
   "sources": [
@@ -92,6 +92,11 @@
       "title": "模型更新记录 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

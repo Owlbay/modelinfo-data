@@ -1,0 +1,98 @@
+{
+  "id": "kling-4.0",
+  "object": "model",
+  "created": 1793145600,
+  "owned_by": "kuaishou",
+  "name": "Kling 4.0",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "second",
+    "input": null,
+    "output": 0.157,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-28",
+    "knowledge_cutoff": null,
+    "description": "Kling 4.0 video model with native single-run generation up to 30 s at 720P/1080P, text-to-video, image-to-video and Omni reference-to-video with up to 10 keyframes and 15 references.",
+    "docs": "https://kling.ai/document-api/api/video/4-0/text-to-video",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.157,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "kling",
+      "model": "kling-4.0",
+      "base_url": "https://api-singapore.klingai.com",
+      "endpoints": {
+        "video": "POST /text-to-video/kling-4.0"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Kling 4.0 视频模型，单次原生生成最长 30 秒，支持 720P/1080P、文生视频、图生视频和 Omni 参考生视频，最多 10 个关键帧和 15 个参考素材。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Kling AI API Updates (2026-10-28)",
+      "url": "https://kling.ai/document-api/updates/api",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Kling API Pricing - Video",
+      "url": "https://kling.ai/document-api/pricing/base/video",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Kling 4.0 Text to Video API",
+      "url": "https://kling.ai/document-api/api/video/4-0/text-to-video.md",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Kling 4.0 Image to Video API",
+      "url": "https://kling.ai/document-api/api/video/4-0/image-to-video.md",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

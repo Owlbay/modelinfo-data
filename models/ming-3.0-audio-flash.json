@@ -38,11 +38,23 @@
     "knowledge_cutoff": null,
     "description": "inclusionAI native audio-language mixture-of-experts model with 126B total parameters and 6.5B activated per step. It takes audio and text and can return text or text with synthesized speech. The card states audio reasoning and the MIT license. The 128K figure is a serving profile, not a published context limit. No release date or first-party hosted price is on the card.",
     "docs": "https://huggingface.co/inclusionAI/Ming-3.0-audio-flash",
-    "verified_at": "2026-10-24"
+    "verified_at": "2026-10-31"
   },
   "prices": [],
-  "providers": [],
-  "aliases": [],
+  "providers": [
+    {
+      "id": "ant",
+      "model": "Ming-3.0-audio-flash",
+      "base_url": "https://api.ant-ling.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Ming-3.0-audio-flash"
+  ],
   "translations": {
     "zh": {
       "description": "inclusionAI 的原生音频语言模型，混合专家架构，总参数 126B，每步激活 6.5B。输入为音频和文本，可以返回文本，或文本加合成语音。模型卡写明支持音频推理，许可证为 MIT。128K 是部署规格，不是公布的上下文上限。模型卡没有发布日期，也没有第一方托管价格。"
@@ -53,6 +65,16 @@
       "title": "Ming-3.0-audio-flash model card | inclusionAI",
       "url": "https://huggingface.co/inclusionAI/Ming-3.0-audio-flash",
       "retrieved_at": "2026-10-24"
+    },
+    {
+      "title": "Changelog (v2.0.4, 2026-10-19) | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai/",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

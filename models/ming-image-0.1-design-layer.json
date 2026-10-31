@@ -1,0 +1,94 @@
+{
+  "id": "ming-image-0.1-design-layer",
+  "object": "model",
+  "created": 1793059200,
+  "owned_by": "ant",
+  "name": "Ming-Image-0.1-Design-Layer",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "CNY",
+    "unit": "image",
+    "input": null,
+    "output": 0.1,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-27",
+    "knowledge_cutoff": null,
+    "description": "Ming layer-decoupling model on the Ant Ling platform: splits one input image into transparent PNG layers guided by a prompt, at 512 px and above, via the OpenAI-compatible image edits endpoint.",
+    "docs": "https://developer.ant-ling.com/en/docs/api-reference/image/edits/",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "image",
+      "input": null,
+      "output": 0.1,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "ant",
+      "model": "Ming-Image-0.1-Design-Layer",
+      "base_url": "https://api.ant-ling.com/v1",
+      "endpoints": {
+        "images": "POST /images/edits"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Ming-Image-0.1-Design-Layer"
+  ],
+  "translations": {
+    "zh": {
+      "description": "蚂蚁 Ling 平台上的 Ming 图层拆分模型：按提示词把单张输入图拆成透明 PNG 图层，支持 512 及以上尺寸，使用兼容 OpenAI 的图像编辑接口。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Changelog | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Pricing | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/price",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Image Editing | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/image/edits/",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

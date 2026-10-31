@@ -1,0 +1,121 @@
+{
+  "id": "glm-5.3-flashx-legal",
+  "object": "model",
+  "created": 1791763200,
+  "owned_by": "zhipu",
+  "name": "GLM-5.3-FlashX-Legal",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.37,
+    "output": 1.25,
+    "cache_read": 0.075,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-12",
+    "knowledge_cutoff": null,
+    "description": "GLM-Legal, a GLM-5.3-Flash variant trained for legal research, contract review and document drafting. API access is open only to selected enterprise customers by application.",
+    "docs": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.37,
+      "output": 1.25,
+      "cache_read": 0.075,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 7,
+      "cache_read": 0.57,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "zhipu",
+      "model": "glm-5.3-flashx-legal",
+      "base_url": "https://api.z.ai/api/paas/v4",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "thinking.type"
+    }
+  ],
+  "aliases": [
+    "GLM-Legal"
+  ],
+  "translations": {
+    "zh": {
+      "description": "GLM-Legal，基于 GLM-5.3-Flash 针对法律检索、合同审查和文书起草训练的模型。API 仅面向经申请的企业客户定向开放。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GLM-5.3-FlashX-Legal | Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "GLM-5.3-FlashX-Legal | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "GLM-Legal: Advancing Agentic Legal Intelligence | Z.ai Blog (2026-10-12)",
+      "url": "https://z.ai/blog/glm-legal",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Pricing | Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/overview/pricing",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "API 定价 | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Create Chat Completion (max_tokens maximum 131072) | Z.AI Developer Document",
+      "url": "https://docs.z.ai/api-reference/llm/chat-completion",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

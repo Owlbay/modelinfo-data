@@ -8,7 +8,8 @@
     "types": [
       "chat",
       "messages",
-      "responses"
+      "responses",
+      "batch"
     ],
     "sdk": [
       "@ai-sdk/anthropic",
@@ -54,7 +55,8 @@
     "tools",
     "structured_output",
     "caching",
-    "streaming"
+    "streaming",
+    "batch"
   ],
   "info": {
     "status": "active",
@@ -62,7 +64,7 @@
     "knowledge_cutoff": null,
     "description": "Kimi flagship 2.8-trillion-parameter model with native visual understanding for software engineering, knowledge work and deep reasoning.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -90,7 +92,8 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions",
         "messages": "POST /anthropic/v1/messages",
-        "responses": "POST /v1/responses"
+        "responses": "POST /v1/responses",
+        "batch": "POST /v1/batches"
       },
       "reasoning_param": "reasoning_effort",
       "reasoning_params": {
@@ -196,6 +199,16 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "平台新功能发布记录（2026年10月 Batch API 支持 Kimi K3.1 Pro 与 Kimi K3）| Kimi 开放平台",
+      "url": "https://platform.kimi.com/docs/changelog",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Batch API guide | Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/guide/use-batch-api",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

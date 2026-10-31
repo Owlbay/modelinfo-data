@@ -38,12 +38,12 @@
   },
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2025-12-12",
     "knowledge_cutoff": null,
-    "description": "PP-StructureV3 document structure recognition with layout, table, formula and seal recognition on Qianfan.",
+    "description": "PP-StructureV3 document structure recognition with layout, table, formula and seal recognition on Qianfan. Scheduled to be retired on 2026-11-23 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan-api/s/Nmj124ro4",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -69,7 +69,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "千帆上的 PP-StructureV3 文档结构识别，支持版面、表格、公式和印章识别。"
+      "description": "千帆上的 PP-StructureV3 文档结构识别，支持版面、表格、公式和印章识别。计划于 2026-11-23 下线（官方下线通知）。"
     }
   },
   "sources": [
@@ -92,6 +92,11 @@
       "title": "模型更新记录 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "模型版本升级及退役机制 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

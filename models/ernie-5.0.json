@@ -48,12 +48,12 @@
     "streaming"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2025-11-13",
     "knowledge_cutoff": null,
-    "description": "Baidu ERNIE 5.0 native omni-modal model with text generation, vision understanding and deep thinking. Scheduled to be retired on 2026-10-29 (official retirement notice).",
+    "description": "Baidu ERNIE 5.0 native omni-modal model with text generation, vision understanding and deep thinking. Retired on 2026-10-29 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -88,7 +88,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "百度 ERNIE 5.0 原生全模态模型，支持文本生成、视觉理解和深度思考。计划于 2026-10-29 下线（官方下线通知）。"
+      "description": "百度 ERNIE 5.0 原生全模态模型，支持文本生成、视觉理解和深度思考。已于 2026-10-29 下线（官方下线通知）。"
     }
   },
   "sources": [
@@ -120,7 +120,7 @@
     {
       "title": "模型版本升级及退役机制 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "SDK support — openai (api.sdk only)",

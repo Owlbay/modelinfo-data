@@ -1,0 +1,91 @@
+{
+  "id": "atria-dawn",
+  "object": "model",
+  "created": null,
+  "owned_by": "shlab",
+  "name": "Atria Dawn",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "messages"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 512000,
+    "input": null,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "pricing": null,
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Shanghai AI Lab agentic model built on the 744B-parameter MoE GLM-5.2, aimed at research, software, office deliverables and authorized security work. Text-only input, 512K context; MIT-licensed weights. Hosted access is through the Intern Token Plan, with no public per-token price; release date not stated on the model card.",
+    "docs": "https://huggingface.co/internlm/Atria-Dawn",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "shlab",
+      "model": "Atria-Dawn",
+      "base_url": "https://discovery-api.intern-ai.org.cn",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses",
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [
+    "Atria-Dawn"
+  ],
+  "translations": {
+    "zh": {
+      "description": "上海人工智能实验室的智能体模型，基于 744B 参数 MoE 的 GLM-5.2，面向科研、软件开发、办公交付和授权安全任务。仅支持文本输入，上下文 512K；权重以 MIT 许可开源。托管调用通过书生 Token Plan，未公布按 token 计价；模型卡未写发布日期。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Atria Dawn model card | Hugging Face (internlm)",
+      "url": "https://huggingface.co/internlm/Atria-Dawn",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Atria Dawn official release | atria-asi.ai",
+      "url": "https://atria-asi.ai/",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Intern Token Plan API console (base URLs)",
+      "url": "https://discovery.intern-ai.org.cn/token-plan/home",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}
