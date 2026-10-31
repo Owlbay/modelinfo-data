@@ -1,0 +1,93 @@
+{
+  "id": "lfm3-omni-2b",
+  "object": "model",
+  "created": 1793059200,
+  "owned_by": "liquid",
+  "name": "LFM3-Omni-2B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": 1,
+    "cache_read": 0.02,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-27",
+    "knowledge_cutoff": null,
+    "description": "Liquid AI's first omni model, an open-weight 2.17B model in the LFM3 family released on October 27, 2026. A single end-to-end model takes text, images, video with or without its soundtrack, and audio, and answers in text, speech, or interleaved text and speech (24 kHz), with a 32K-token context length and multimodal tool calling. It is a non-reasoning model. The recorded price is the Liquid API text rate: $0.10 per 1M input tokens, $0.02 per 1M cached input tokens, and $1.00 per 1M output tokens. Image input is $0.10 per 1M tokens ($0.02 cached); audio is $2.00 per 1M input tokens and $10.00 per 1M output tokens, with no cached audio rate. Weights are released under the LFM Open License v1.0. The docs give the context length only as 32K tokens (input + output), so no exact token count is recorded. The pages do not publish a cache-write price, a maximum output, or a request URL.",
+    "docs": "https://docs.liquid.ai/lfm/models/lfm3-omni-2b",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 1,
+      "cache_read": 0.02,
+      "cache_write": null
+    }
+  ],
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Liquid AI 的首个全模态模型，LFM3 系列的 2.17B 开放权重模型，2026 年 10 月 27 日发布。单个端到端模型可输入文本、图片、视频（可带音轨）和音频，以文本、语音或文本与语音交错（24 kHz）回答，上下文长度 32K tokens，支持多模态工具调用。该模型不做推理。记录的是 Liquid API 文本价格：输入每百万 tokens 0.10 美元、缓存输入 0.02 美元、输出 1.00 美元。图片输入每百万 tokens 0.10 美元（缓存 0.02 美元）；音频输入每百万 tokens 2.00 美元、输出 10.00 美元，音频没有缓存价。权重以 LFM Open License v1.0 发布。文档只写上下文长度为 32K tokens（含输入与输出），没有给出精确 token 数，因此不记录。页面没有给出缓存写入价、最大输出或请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "LFM3-Omni-2B | Liquid Docs",
+      "url": "https://docs.liquid.ai/lfm/models/lfm3-omni-2b",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Pricing | Liquid AI",
+      "url": "https://www.liquid.ai/pricing",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Introducing LFM3: Every Modality for Specialized Intelligence | Liquid AI",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "LiquidAI/LFM3-Omni-2B | Hugging Face",
+      "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

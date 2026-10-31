@@ -37,12 +37,12 @@
   "pricing": null,
   "features": [],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2025-12-11",
     "knowledge_cutoff": null,
     "description": null,
     "docs": "https://ai.google.dev/gemini-api/docs/models/deep-research-pro-preview-12-2025",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [],
   "providers": [
@@ -61,12 +61,12 @@
     {
       "title": "deprecations | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "changelog | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/changelog",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "models/deep-research-pro-preview-12-2025 | Gemini API",

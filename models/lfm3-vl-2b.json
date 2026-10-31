@@ -1,0 +1,97 @@
+{
+  "id": "lfm3-vl-2b",
+  "object": "model",
+  "created": 1793059200,
+  "owned_by": "liquid",
+  "name": "LFM3-VL-2B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 128000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": 0.5,
+    "cache_read": 0.02,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-27",
+    "knowledge_cutoff": null,
+    "description": "Open-weight 2B vision-language model in the LFM3 family, released on October 27, 2026. It takes text, images, and video at native resolution, reasons step by step before answering, and covers spatial and embodied reasoning, with a 128K-token context length (input + output; 128,000 in the model config). Liquid API inference is priced at $0.10 per 1M text input tokens, $0.02 per 1M cached input tokens, and $0.50 per 1M output tokens; image input is $0.10 per 1M tokens ($0.02 cached). Weights are released under the LFM Open License v1.0. The pages do not publish a cache-write price, a maximum output, or a request URL.",
+    "docs": "https://docs.liquid.ai/lfm/models/lfm3-vl-2b",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 0.5,
+      "cache_read": 0.02,
+      "cache_write": null
+    }
+  ],
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "LFM3 系列的 2B 开放权重视觉语言模型，2026 年 10 月 27 日发布。支持以原始分辨率输入文本、图片和视频，回答前逐步推理，并支持空间与具身推理，上下文长度 128K tokens（含输入与输出，模型配置为 128,000）。Liquid API 推理价格为文本输入每百万 tokens 0.10 美元、缓存输入 0.02 美元、输出 0.50 美元；图片输入每百万 tokens 0.10 美元（缓存 0.02 美元）。权重以 LFM Open License v1.0 发布。页面没有给出缓存写入价、最大输出或请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "LFM3-VL-2B | Liquid Docs",
+      "url": "https://docs.liquid.ai/lfm/models/lfm3-vl-2b",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Pricing | Liquid AI",
+      "url": "https://www.liquid.ai/pricing",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Introducing LFM3: Every Modality for Specialized Intelligence | Liquid AI",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "LiquidAI/LFM3-VL-2B | Hugging Face",
+      "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "LiquidAI/LFM3-VL-2B config.json | Hugging Face",
+      "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B/blob/main/config.json",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

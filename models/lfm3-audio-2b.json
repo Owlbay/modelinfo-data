@@ -1,0 +1,91 @@
+{
+  "id": "lfm3-audio-2b",
+  "object": "model",
+  "created": 1793059200,
+  "owned_by": "liquid",
+  "name": "LFM3-Audio-2B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.1,
+    "output": 1,
+    "cache_read": 0.02,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-27",
+    "knowledge_cutoff": null,
+    "description": "Open-weight 2B audio model in the LFM3 family, released on October 27, 2026, for multilingual speech recognition, speech synthesis, voice chat, audio understanding, and tool calling. It takes text or 16 kHz audio and returns text, 24 kHz speech, or interleaved text and speech, with a 32K-token context length; reasoning can be turned on or off per request. The recorded price is the Liquid API text rate: $0.10 per 1M input tokens, $0.02 per 1M cached input tokens, and $1.00 per 1M output tokens. Audio is billed at $2.00 per 1M input tokens and $10.00 per 1M output tokens, with no cached audio rate. Weights are released under the LFM Open License v1.0. The docs give the context length only as 32K tokens (input + output), so no exact token count is recorded. The pages do not publish a cache-write price, a maximum output, or a request URL.",
+    "docs": "https://docs.liquid.ai/lfm/models/lfm3-audio-2b",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 1,
+      "cache_read": 0.02,
+      "cache_write": null
+    }
+  ],
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "LFM3 系列的 2B 开放权重音频模型，2026 年 10 月 27 日发布，用于多语种语音识别、语音合成、语音对话、音频理解和工具调用。输入文本或 16 kHz 音频，输出文本、24 kHz 语音或文本与语音交错，上下文长度 32K tokens；每次请求可开关推理。记录的是 Liquid API 文本价格：输入每百万 tokens 0.10 美元、缓存输入 0.02 美元、输出 1.00 美元。音频输入每百万 tokens 2.00 美元、输出 10.00 美元，音频没有缓存价。权重以 LFM Open License v1.0 发布。文档只写上下文长度为 32K tokens（含输入与输出），没有给出精确 token 数，因此不记录。页面没有给出缓存写入价、最大输出或请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "LFM3-Audio-2B | Liquid Docs",
+      "url": "https://docs.liquid.ai/lfm/models/lfm3-audio-2b",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Pricing | Liquid AI",
+      "url": "https://www.liquid.ai/pricing",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Introducing LFM3: Every Modality for Specialized Intelligence | Liquid AI",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "LiquidAI/LFM3-Audio-2B | Hugging Face",
+      "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

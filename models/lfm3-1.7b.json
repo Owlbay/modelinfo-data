@@ -1,0 +1,90 @@
+{
+  "id": "lfm3-1.7b",
+  "object": "model",
+  "created": 1793059200,
+  "owned_by": "liquid",
+  "name": "LFM3-1.7B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "1M_tokens",
+    "input": 0.08,
+    "output": 0.2,
+    "cache_read": 0.02,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-27",
+    "knowledge_cutoff": null,
+    "description": "Open-weight 1.73B text model in the LFM3 family, released on October 27, 2026, for local agents, tool calling, structured outputs, and domain-specific fine-tuning, with a 256K-token context window (input + output). Reasoning is on by default and can be turned off. Liquid does not recommend it for agentic coding or complex multi-step reasoning. Liquid API inference is priced at $0.08 per 1M input tokens, $0.02 per 1M cached input tokens, and $0.20 per 1M output tokens. Weights are released under the LFM Open License v1.0. The pages do not publish a cache-write price, a maximum output, or a request URL.",
+    "docs": "https://docs.liquid.ai/lfm/models/lfm3-1.7b",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.08,
+      "output": 0.2,
+      "cache_read": 0.02,
+      "cache_write": null
+    }
+  ],
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "LFM3 系列的 1.73B 开放权重文本模型，2026 年 10 月 27 日发布，面向本地智能体、工具调用、结构化输出和领域微调，上下文窗口 256K tokens（含输入与输出）。默认开启推理，可关闭。Liquid 不建议用于智能体编程或复杂多步推理。Liquid API 推理价格为输入每百万 tokens 0.08 美元、缓存输入 0.02 美元、输出 0.20 美元。权重以 LFM Open License v1.0 发布。页面没有给出缓存写入价、最大输出或请求 URL。"
+    }
+  },
+  "sources": [
+    {
+      "title": "LFM3-1.7B | Liquid Docs",
+      "url": "https://docs.liquid.ai/lfm/models/lfm3-1.7b",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Pricing | Liquid AI",
+      "url": "https://www.liquid.ai/pricing",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Introducing LFM3: Every Modality for Specialized Intelligence | Liquid AI",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "LiquidAI/LFM3-1.7B | Hugging Face",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}
