@@ -44,7 +44,7 @@
     "status": "retired",
     "release_date": "2025-04-20",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Qwen series speech synthesis model that takes Chinese, English, or mixed text and generates streaming audio output.",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_postponed_retirement_of_selected_legacy_models_7d0",
     "verified_at": "2026-10-11"
   },
@@ -62,6 +62,11 @@
     "qwen-tts-2025-05-22",
     "qwen-tts-2025-04-10"
   ],
+  "translations": {
+    "zh": {
+      "description": "Qwen 系列语音合成模型，输入中文、英文或中英混合文本，输出流式音频。"
+    }
+  },
   "sources": [
     {
       "title": "[Model Studio] Notice on the Postponed Retirement of Selected Legacy Models | Alibaba Cloud",

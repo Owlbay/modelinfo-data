@@ -50,7 +50,7 @@
     "status": "retired",
     "release_date": "2024-10-22",
     "knowledge_cutoff": "2024-04",
-    "description": null,
+    "description": "Claude Sonnet 3.5 (October 2024 snapshot), the upgraded version of Claude 3.5 Sonnet, with a 200K context window and text and image input.",
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-30"
   },
@@ -64,6 +64,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Claude Sonnet 3.5（2024 年 10 月快照），Claude 3.5 Sonnet 的升级版本，上下文窗口 200K，支持文本与图像输入。"
+    }
+  },
   "sources": [
     {
       "title": "Model deprecations | Claude Platform Docs",
@@ -94,6 +99,11 @@
       "title": "Models overview | Claude Platform Docs",
       "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Models - Anthropic",
+      "url": "https://web.archive.org/web/2024/https://docs.anthropic.com/en/docs/legacy-model-guide",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

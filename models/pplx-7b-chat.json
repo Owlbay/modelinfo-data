@@ -46,7 +46,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Perplexity in-house 7B chat model built on an open-source LLM and fine-tuned for chat.",
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
     "verified_at": "2026-10-30"
   },
@@ -60,6 +60,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Perplexity 自研 7B 对话模型，基于开源 LLM 微调。"
+    }
+  },
   "sources": [
     {
       "title": "Changelog | Perplexity Docs",
@@ -105,6 +110,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Perplexity on X",
+      "url": "https://x.com/perplexity_ai/status/1717953875678794158",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

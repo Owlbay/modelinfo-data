@@ -1,7 +1,7 @@
 {
   "id": "muse-spark-1.2-contributor",
   "object": "model",
-  "created": null,
+  "created": 1785888000,
   "owned_by": "meta",
   "name": "Muse Spark 1.2 (Contributor)",
   "api": {
@@ -60,7 +60,7 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-08-05",
     "knowledge_cutoff": null,
     "description": "Muse Spark 1.2 on the discounted Contributor tier, which permits training on prompts and completions.",
     "docs": "https://dev.meta.ai/docs/models",
@@ -129,6 +129,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Meet Muse Spark 1.2 and Muse Code",
+      "url": "https://dev.meta.ai/resources/blog/build-with-muse-code",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

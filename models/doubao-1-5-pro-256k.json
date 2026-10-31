@@ -1,7 +1,7 @@
 {
   "id": "doubao-1-5-pro-256k",
   "object": "model",
-  "created": null,
+  "created": 1737504000,
   "owned_by": "bytedance",
   "name": "Doubao-1.5-pro-256k",
   "api": {
@@ -15,9 +15,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 256000,
     "input": null,
-    "output": null
+    "output": 12000
   },
   "modalities": {
     "input": [
@@ -35,7 +35,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-01-22",
     "knowledge_cutoff": null,
     "description": "Doubao-1.5-pro-256k, retired. Official shutdown (EOS) dates: doubao-1-5-pro-256k-250115 2025-11-27.",
     "docs": "https://www.volcengine.com/docs/82379/1350667",
@@ -98,6 +98,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Doubao-1.5-pro (ByteDance Seed)",
+      "url": "https://seed.bytedance.com/zh/special/doubao_1_5_pro",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "豆包大模型 1.5 正式发布，全面上线火山方舟",
+      "url": "https://developer.volcengine.com/articles/7462939272262189083",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

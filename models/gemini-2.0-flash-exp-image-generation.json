@@ -15,8 +15,8 @@
   },
   "limits": {
     "context": null,
-    "input": null,
-    "output": null
+    "input": 1048576,
+    "output": 8192
   },
   "modalities": {
     "input": [
@@ -38,7 +38,7 @@
     "status": "retired",
     "release_date": "2025-03-12",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Experimental Gemini 2.0 Flash model with native tool use and multimodal generation, including image generation; points to the same underlying model as gemini-2.0-flash-exp.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -54,6 +54,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "实验版 Gemini 2.0 Flash 模型，支持原生工具使用与多模态生成（含图像生成）；与 gemini-2.0-flash-exp 指向同一底层模型。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -79,6 +84,16 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-04)",
+      "url": "https://web.archive.org/web/20250410/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-01)",
+      "url": "https://web.archive.org/web/20250121/https://ai.google.dev/gemini-api/docs/models/gemini",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

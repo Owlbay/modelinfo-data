@@ -1,7 +1,7 @@
 {
   "id": "gemini-2.5-flash-image-preview",
   "object": "model",
-  "created": null,
+  "created": 1756166400,
   "owned_by": "google",
   "name": "Gemini 2.5 Flash Image Preview",
   "api": {
@@ -14,9 +14,9 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
-    "output": null
+    "context": 32768,
+    "input": 32768,
+    "output": 32768
   },
   "modalities": {
     "input": [
@@ -45,9 +45,9 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-08-26",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Gemini 2.5 Flash Image Preview, a natively multimodal model for generating and editing images conversationally.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -63,6 +63,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Gemini 2.5 Flash Image Preview，原生多模态模型，可通过对话生成和编辑图像。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -93,6 +98,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-09)",
+      "url": "https://web.archive.org/web/20250907/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

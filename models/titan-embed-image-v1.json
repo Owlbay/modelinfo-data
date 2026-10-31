@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 256,
     "input": 256,
     "output": null
   },

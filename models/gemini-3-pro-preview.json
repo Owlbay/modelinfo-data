@@ -54,7 +54,7 @@
     "status": "retired",
     "release_date": "2025-11-18",
     "knowledge_cutoff": "2025-01",
-    "description": null,
+    "description": "Gemini 3 Pro Preview, a multimodal reasoning model for agentic and vibe-coding tasks.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-30"
   },
@@ -70,6 +70,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Gemini 3 Pro Preview，面向智能体与 vibe coding 任务的多模态推理模型。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Gemini API",
@@ -100,6 +105,11 @@
       "title": "存档：Gemini API 价格（原网址 https://ai.google.dev/gemini-api/docs/pricing）",
       "url": "https://web.archive.org/web/20260301172429/https://ai.google.dev/gemini-api/docs/pricing",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Gemini 3 Pro Preview | Gemini API (archived)",
+      "url": "https://web.archive.org/web/20251125/https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

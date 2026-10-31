@@ -1,7 +1,7 @@
 {
   "id": "minicpm-v-4.7-35b-a3b",
   "object": "model",
-  "created": null,
+  "created": 1791763200,
   "owned_by": "openbmb",
   "name": "MiniCPM-V 4.7 35B-A3B",
   "api": {
@@ -11,7 +11,7 @@
     "sdk": []
   },
   "limits": {
-    "context": null,
+    "context": 256000,
     "input": null,
     "output": null
   },
@@ -33,7 +33,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-12",
     "knowledge_cutoff": null,
     "description": "Open-weight multimodal model with 35.2B total parameters and about 3.5B activated. The docs list a 256K context and support for single-image, multi-image, and video understanding. Thinking is switched with enable_thinking; no effort values are listed. OpenBMB is not in the abbreviation table, so 256K is not converted. The page does not publish a calendar date, a maximum output, a standard API price, or a first-party request URL.",
     "docs": "https://openbmb.cn/docs/en/guides/minicpm-v/minicpm-v-4.7",
@@ -53,6 +53,11 @@
       "title": "MiniCPM-V 4.7 | OpenBMB",
       "url": "https://openbmb.cn/docs/en/guides/minicpm-v/minicpm-v-4.7",
       "retrieved_at": "2026-10-27"
+    },
+    {
+      "title": "Changelog | OpenBMB Knowledge Base",
+      "url": "https://openbmb.cn/docs/en/changelog",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

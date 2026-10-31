@@ -1,7 +1,7 @@
 {
   "id": "sarvam-30b",
   "object": "model",
-  "created": null,
+  "created": 1772755200,
   "owned_by": "sarvam",
   "name": "Sarvam-30B",
   "api": {
@@ -38,7 +38,7 @@
   ],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2026-03-06",
     "knowledge_cutoff": null,
     "description": "Sarvam 30B-parameter (2.4B active) Mixture-of-Experts reasoning chat model trained from scratch for Indian languages; removed from the Chat Completions API on 2026-08-18 in favour of Sarvam-105B.",
     "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-30b",

@@ -45,7 +45,7 @@
     "status": "active",
     "release_date": "2025-09-23",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Wan 2.5 preview general image editing model supporting single-image editing and multi-image fusion, driven by text instructions.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
     "verified_at": "2026-10-11"
   },
@@ -61,6 +61,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Wan 2.5 预览版通用图像编辑模型，支持由文本指令驱动的单图编辑与多图融合。"
+    }
+  },
   "sources": [
     {
       "title": "Qwen-Image API reference | Alibaba Cloud Model Studio",
@@ -86,6 +91,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "万相-通用图像编辑2.5",
+      "url": "https://help.aliyun.com/zh/model-studio/wan2-5-image-edit-api-reference",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

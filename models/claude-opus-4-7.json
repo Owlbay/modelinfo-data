@@ -60,7 +60,7 @@
     "status": "active",
     "release_date": "2026-04-16",
     "knowledge_cutoff": "2026-01",
-    "description": null,
+    "description": "Claude Opus 4.7, Anthropic's most capable generally available model for complex reasoning and agentic coding.",
     "docs": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
     "verified_at": "2026-10-10"
   },
@@ -77,6 +77,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Claude Opus 4.7，Anthropic 面向复杂推理与智能体编程的最强正式发布模型。"
+    }
+  },
   "sources": [
     {
       "title": "Claude Opus 4.7 | Claude Platform Docs",
@@ -142,6 +147,11 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Models overview - Claude Docs",
+      "url": "https://web.archive.org/web/20260510/https://platform.claude.com/docs/en/about-claude/models/overview",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

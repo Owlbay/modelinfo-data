@@ -52,7 +52,7 @@
     "status": "retired",
     "release_date": "2025-09-19",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Grok 4 Fast non-reasoning model from xAI, using a unified architecture that blends reasoning and non-reasoning modes, with a 2M token context window.",
     "docs": "https://docs.x.ai/developers/migration/may-15-retirement",
     "verified_at": "2026-10-11"
   },
@@ -70,6 +70,11 @@
   "aliases": [
     "grok-4-fast-non-reasoning-latest"
   ],
+  "translations": {
+    "zh": {
+      "description": "xAI 的 Grok 4 Fast 非推理模型，采用融合推理与非推理模式的统一架构，上下文窗口为 2M Token。"
+    }
+  },
   "sources": [
     {
       "title": "May 15, 2026 Model Retirement | xAI Docs",

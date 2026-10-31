@@ -1,7 +1,7 @@
 {
   "id": "perceptron-mk1.5",
   "object": "model",
-  "created": null,
+  "created": 1790294400,
   "owned_by": "perceptron",
   "name": "Perceptron Mk1.5",
   "api": {
@@ -11,7 +11,7 @@
     "sdk": []
   },
   "limits": {
-    "context": null,
+    "context": 32000,
     "input": null,
     "output": null
   },
@@ -45,7 +45,7 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-09-25",
     "knowledge_cutoff": null,
     "description": "Mk1.5 ingests text, images, video, and audio and emits text, points, boxes, polygons, clips, and object tracks. The API model ID is perceptron-mk1.5. The page lists a 32K-token multimodal context window and prices of $0.15 per 1M input tokens and $1.50 per 1M output tokens. It supports arbitrary tools in OpenAI JSON Schema format. Perceptron is not in the abbreviation table, so 32K is not converted. The page does not publish a calendar date, a cached-token price, a maximum output, or a request URL.",
     "docs": "https://www.perceptron.inc/blog/introducing-perceptron-mk1-5",

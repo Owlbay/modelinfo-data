@@ -1,7 +1,7 @@
 {
   "id": "doubao-seed3d-2-0",
   "object": "model",
-  "created": null,
+  "created": 1776902400,
   "owned_by": "bytedance",
   "name": "Doubao-Seed3D-2.0",
   "api": {
@@ -40,7 +40,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-04-23",
     "knowledge_cutoff": null,
     "description": "Image-to-3D generation model that produces textured 3D files with PBR materials (glb, obj, usd, usdz); asynchronous task API.",
     "docs": "https://docs.volcengine.com/docs/ark/model-list?lang=zh",
@@ -90,6 +90,11 @@
       "title": "创建 3D 生成任务 API",
       "url": "https://docs.volcengine.com/docs/ark/create-3d-generation-task-api?lang=zh",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Seed3D 2.0 Released: Higher Precision and Greater Usability",
+      "url": "https://seed.bytedance.com/en/blog/seed3d-2-0-released-higher-precision-and-greater-usability",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

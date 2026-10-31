@@ -1,7 +1,7 @@
 {
   "id": "sarvam-m",
   "object": "model",
-  "created": null,
+  "created": 1747958400,
   "owned_by": "sarvam",
   "name": "Sarvam-M",
   "api": {
@@ -36,7 +36,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-05-23",
     "knowledge_cutoff": null,
     "description": "Multilingual hybrid-reasoning text model built on Mistral-Small, post-trained for Indic languages.",
     "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-m",
@@ -89,6 +89,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Sarvam-M technical blog",
+      "url": "https://www.sarvam.ai/blogs/sarvam-m",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Changelog May 2025",
+      "url": "https://docs.sarvam.ai/changelog/2025/5/1.md",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

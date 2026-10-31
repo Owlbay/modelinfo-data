@@ -36,7 +36,7 @@
     "status": "retired",
     "release_date": "2025-03-04",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Aya Vision 8B multimodal, massively multilingual model for tasks such as image captioning and visual question answering in 23 languages.",
     "docs": "https://docs.cohere.com/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -50,6 +50,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Aya Vision 8B 多模态多语言模型，支持图像描述、视觉问答等任务，覆盖 23 种语言。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Cohere Docs",

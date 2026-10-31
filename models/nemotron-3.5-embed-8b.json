@@ -1,7 +1,7 @@
 {
   "id": "nemotron-3.5-embed-8b",
   "object": "model",
-  "created": null,
+  "created": 1792368000,
   "owned_by": "nvidia",
   "name": "Nemotron 3.5 Embed 8B",
   "api": {
@@ -32,7 +32,7 @@
   "features": [],
   "info": {
     "status": "preview",
-    "release_date": null,
+    "release_date": "2026-10-19",
     "knowledge_cutoff": null,
     "description": "8.38B multimodal embedding model for text and document images, with a 32,768-token context and 4096-dimensional embeddings. Weights use OpenMDW-1.1. The same card lists a Build.NVIDIA.com release of 2026-10-19 and a Hugging Face release of 2026-10-20, so the release date is unset. No request path is printed, and the trial endpoint does not publish a numeric standard price.",
     "docs": "https://build.nvidia.com/nvidia/nemotron-3_5-embed-8b/modelcard",

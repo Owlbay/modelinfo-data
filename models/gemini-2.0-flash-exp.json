@@ -40,7 +40,7 @@
     "status": "retired",
     "release_date": "2024-12-11",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Experimental preview of Gemini 2.0 Flash with native tool use and multimodal generation and a 1M token context window.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -56,6 +56,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Gemini 2.0 Flash 的实验预览版，支持原生工具使用与多模态生成，上下文窗口为 1M Token。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -81,6 +86,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-01)",
+      "url": "https://web.archive.org/web/20250121/https://ai.google.dev/gemini-api/docs/models/gemini",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

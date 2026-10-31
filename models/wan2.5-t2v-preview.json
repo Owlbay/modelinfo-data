@@ -45,7 +45,7 @@
     "status": "active",
     "release_date": "2025-09-19",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Wan 2.5 preview text-to-video model with audio sync, producing 480P, 720P or 1080P video of 5 or 10 seconds.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "verified_at": "2026-10-11"
   },
@@ -61,6 +61,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Wan 2.5 预览版文生视频模型，支持音频同步，输出 5 秒或 10 秒的 480P、720P 或 1080P 视频。"
+    }
+  },
   "sources": [
     {
       "title": "Model Studio model pricing | Alibaba Cloud",
@@ -96,6 +101,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Video generation - Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/video-generation",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

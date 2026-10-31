@@ -51,7 +51,7 @@
     "status": "retired",
     "release_date": "2025-05-22",
     "knowledge_cutoff": "2025-03",
-    "description": null,
+    "description": "Claude Sonnet 4, a high-performance model with exceptional reasoning and efficiency and a 200K context window.",
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-30"
   },
@@ -67,6 +67,11 @@
   "aliases": [
     "claude-sonnet-4-20250514"
   ],
+  "translations": {
+    "zh": {
+      "description": "Claude Sonnet 4，推理与效率出色的高性能模型，上下文窗口 200K。"
+    }
+  },
   "sources": [
     {
       "title": "Model deprecations | Claude Platform Docs",

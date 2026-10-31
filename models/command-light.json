@@ -44,7 +44,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Smaller, faster version of Cohere Command, with a 4k context length.",
     "docs": "https://docs.cohere.com/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -58,6 +58,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Cohere Command 的更小更快版本，上下文长度 4k。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Cohere Docs",

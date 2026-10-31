@@ -1,7 +1,7 @@
 {
   "id": "moondream3-preview",
   "object": "model",
-  "created": null,
+  "created": 1758153600,
   "owned_by": "moondream",
   "name": "Moondream 3 Preview",
   "api": {
@@ -11,7 +11,7 @@
     "sdk": []
   },
   "limits": {
-    "context": null,
+    "context": 32000,
     "input": null,
     "output": null
   },
@@ -44,7 +44,7 @@
   ],
   "info": {
     "status": "preview",
-    "release_date": null,
+    "release_date": "2025-09-18",
     "knowledge_cutoff": null,
     "description": "Hosted Moondream 3 Preview vision model. The API model id is moondream3-preview, and the shared chat endpoint accepts image inputs and streaming. Real-time price is $0.30 per million input tokens and $2.50 per million output tokens. The batch price is half of that and is not stored. Context length, parameter count, and release date are not stated on the pricing or API pages.",
     "docs": "https://docs.moondream.ai/api",
@@ -77,6 +77,11 @@
       "title": "API | Moondream Docs",
       "url": "https://docs.moondream.ai/api",
       "retrieved_at": "2026-10-24"
+    },
+    {
+      "title": "Moondream 3 Preview: Frontier-level reasoning at a blazing speed | Moondream",
+      "url": "https://moondream.ai/blog/moondream-3-preview",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

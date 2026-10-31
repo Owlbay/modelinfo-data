@@ -50,7 +50,7 @@
     "status": "retired",
     "release_date": "2024-03-13",
     "knowledge_cutoff": "2023-08",
-    "description": null,
+    "description": "Claude Haiku 3, a fast and compact model for near-instant responsiveness.",
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-30"
   },
@@ -66,6 +66,11 @@
   "aliases": [
     "claude-3-haiku-20240307"
   ],
+  "translations": {
+    "zh": {
+      "description": "Claude Haiku 3，用于近乎即时响应的快速、紧凑模型。"
+    }
+  },
   "sources": [
     {
       "title": "Model deprecations | Claude Platform Docs",

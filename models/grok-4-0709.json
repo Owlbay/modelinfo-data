@@ -52,7 +52,7 @@
     "status": "retired",
     "release_date": "2025-07-09",
     "knowledge_cutoff": "2024-11",
-    "description": null,
+    "description": "Grok 4, an xAI language model available through the xAI API.",
     "docs": "https://docs.x.ai/developers/migration/may-15-retirement",
     "verified_at": "2026-10-30"
   },
@@ -71,6 +71,11 @@
     "grok-4",
     "grok-4-latest"
   ],
+  "translations": {
+    "zh": {
+      "description": "Grok 4，xAI 的语言模型，通过 xAI API 提供。"
+    }
+  },
   "sources": [
     {
       "title": "May 15, 2026 Model Retirement | xAI Docs",

@@ -39,7 +39,7 @@
     "status": "retired",
     "release_date": "2024-02-04",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Qwen1.5 series open-source chat model (14B) from Alibaba Cloud.",
     "docs": "https://www.alibabacloud.com/en/notice/qwen_15_20_series_models_to_be_decommissioned_on_modelstudio_4ca",
     "verified_at": "2026-10-11"
   },
@@ -55,6 +55,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Qwen1.5 系列开源对话模型（14B）。"
+    }
+  },
   "sources": [
     {
       "title": "Qwen 1.5 & 2.0 Series Models to be Decommissioned on ModelStudio | Alibaba Cloud",

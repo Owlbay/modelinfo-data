@@ -43,7 +43,7 @@
     "status": "retired",
     "release_date": "2025-05-07",
     "knowledge_cutoff": "2024-08",
-    "description": null,
+    "description": "Gemini 2.0 Flash preview model with improved image generation features, including generating and editing images conversationally.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -59,6 +59,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Gemini 2.0 Flash 预览版模型，具备改进的图像生成能力，包括以对话方式生成和编辑图像。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Gemini API",

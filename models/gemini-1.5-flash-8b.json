@@ -14,9 +14,9 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
-    "output": null
+    "context": 1048576,
+    "input": 1048576,
+    "output": 8192
   },
   "modalities": {
     "input": [
@@ -45,7 +45,7 @@
     "status": "retired",
     "release_date": "2024-10-03",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Gemini 1.5 Flash-8B, a small multimodal model designed for high-volume, lower-intelligence tasks.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -63,6 +63,11 @@
   "aliases": [
     "gemini-1.5-flash-8b-001"
   ],
+  "translations": {
+    "zh": {
+      "description": "Gemini 1.5 Flash-8B，小型多模态模型，面向高吞吐、对智能要求较低的任务。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -93,6 +98,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-04)",
+      "url": "https://web.archive.org/web/20250410/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

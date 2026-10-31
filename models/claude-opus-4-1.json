@@ -51,7 +51,7 @@
     "status": "retired",
     "release_date": "2025-08-05",
     "knowledge_cutoff": "2025-03",
-    "description": null,
+    "description": "Claude Opus 4.1, an exceptional model for specialized reasoning tasks.",
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-30"
   },
@@ -67,6 +67,11 @@
   "aliases": [
     "claude-opus-4-1-20250805"
   ],
+  "translations": {
+    "zh": {
+      "description": "Claude Opus 4.1，面向专项推理任务的出色模型。"
+    }
+  },
   "sources": [
     {
       "title": "Model deprecations | Claude Platform Docs",
@@ -97,6 +102,11 @@
       "title": "Models overview | Claude Platform Docs",
       "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Models overview - Claude Docs",
+      "url": "https://web.archive.org/web/20251201/https://platform.claude.com/docs/en/about-claude/models/overview",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

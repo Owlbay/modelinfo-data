@@ -13,7 +13,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 8000,
     "input": null,
     "output": null
   },

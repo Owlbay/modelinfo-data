@@ -1,7 +1,7 @@
 {
   "id": "kling-video-v1-5",
   "object": "model",
-  "created": null,
+  "created": 1731628800,
   "owned_by": "kuaishou",
   "name": "Kling 1.5",
   "api": {
@@ -34,7 +34,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2024-11-15",
     "knowledge_cutoff": null,
     "description": "Kling 1.5 video model, retired. Official notice: retired on 2026-09-15.",
     "docs": "https://kling.ai/document-api/api/video/1-5/image-to-video",

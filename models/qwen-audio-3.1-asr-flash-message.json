@@ -1,7 +1,7 @@
 {
   "id": "qwen-audio-3.1-asr-flash-message",
   "object": "model",
-  "created": null,
+  "created": 1789948800,
   "owned_by": "alibaba",
   "name": "Qwen-Audio-3.1-ASR-Flash-Message",
   "api": {
@@ -50,9 +50,9 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-09-21",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Generative speech recognition model optimized for voice messages, voice input, and enterprise scenarios, supporting Chinese, English, and other languages.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "verified_at": "2026-10-20"
   },
@@ -68,6 +68,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向语音消息、语音输入和企业场景优化的生成式语音识别模型，支持中文、英文等多种语言。"
+    }
+  },
   "sources": [
     {
       "title": "Model Studio model pricing | Alibaba Cloud",

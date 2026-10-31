@@ -37,7 +37,7 @@
     "status": "retired",
     "release_date": "2025-07-31",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Veo 3 video generation model producing 8-second 720p or 1080p videos from text prompts, with natively generated audio.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -51,6 +51,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Veo 3 视频生成模型，根据文本提示生成 8 秒 720p 或 1080p 视频，并原生生成音频。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -66,6 +71,11 @@
       "title": "SDK support — @google/genai (api.sdk only)",
       "url": "https://github.com/googleapis/js-genai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Generate videos with Veo 3 in Gemini API (archived)",
+      "url": "https://web.archive.org/web/20251001/https://ai.google.dev/gemini-api/docs/video",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

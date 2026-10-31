@@ -51,7 +51,7 @@
     "status": "retired",
     "release_date": "2025-04-03",
     "knowledge_cutoff": "2024-11-17",
-    "description": null,
+    "description": "Grok 3, xAI's flagship text model, offered through the xAI API.",
     "docs": "https://docs.x.ai/developers/migration/may-15-retirement",
     "verified_at": "2026-10-30"
   },
@@ -73,6 +73,11 @@
     "grok-3-fast-latest",
     "grok-3-fast-beta"
   ],
+  "translations": {
+    "zh": {
+      "description": "Grok 3，xAI 的旗舰文本模型，通过 xAI API 提供。"
+    }
+  },
   "sources": [
     {
       "title": "May 15, 2026 Model Retirement | xAI Docs",

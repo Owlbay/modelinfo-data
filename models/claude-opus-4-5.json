@@ -54,7 +54,7 @@
     "status": "active",
     "release_date": "2025-11-24",
     "knowledge_cutoff": "2025-05",
-    "description": null,
+    "description": "Claude Opus 4.5, a premium model combining maximum intelligence with practical performance.",
     "docs": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
     "verified_at": "2026-10-10"
   },
@@ -73,6 +73,11 @@
   "aliases": [
     "claude-opus-4-5-20251101"
   ],
+  "translations": {
+    "zh": {
+      "description": "Claude Opus 4.5，兼顾最高智能与实用性能的旗舰模型。"
+    }
+  },
   "sources": [
     {
       "title": "Claude Opus 4.5 | Claude Platform Docs",
@@ -138,6 +143,11 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Models overview - Claude Docs",
+      "url": "https://web.archive.org/web/20251201/https://platform.claude.com/docs/en/about-claude/models/overview",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

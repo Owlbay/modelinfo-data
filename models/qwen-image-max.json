@@ -44,7 +44,7 @@
     "status": "retired",
     "release_date": "2025-12-30",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Max-series Qwen image generation model with more realistic material and natural textures and improved text rendering.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "verified_at": "2026-10-11"
   },
@@ -58,6 +58,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Qwen 文生图 Max 系列模型，材质与自然纹理更真实，文字渲染更好。"
+    }
+  },
   "sources": [
     {
       "title": "Model Studio model pricing | Alibaba Cloud",

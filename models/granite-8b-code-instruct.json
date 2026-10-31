@@ -13,7 +13,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 128000,
     "input": null,
     "output": null
   },
@@ -68,6 +68,11 @@
       "title": "SDK support — @ibm-cloud/watsonx-ai (api.sdk only)",
       "url": "https://github.com/IBM/watsonx-ai-node-sdk",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Supported foundation models in watsonx.ai",
+      "url": "https://www.ibm.com/docs/SSLSRPV_latest/wsj/analyze-data/fm-models.html",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

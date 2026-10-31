@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 1048576,
     "input": 1048576,
     "output": 65536
   },
@@ -55,7 +55,7 @@
     "status": "retired",
     "release_date": "2026-03-03",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Gemini 3.1 Flash-Lite Preview, a cost-efficient multimodal model for high-volume agentic tasks, simple data extraction and low-latency applications.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
     "verified_at": "2026-10-30"
   },
@@ -72,6 +72,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Gemini 3.1 Flash-Lite Preview，高性价比多模态模型，适用于大批量智能体任务、简单数据提取和低延迟应用。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -122,6 +127,11 @@
       "title": "存档：Gemini API 价格（原网址 https://ai.google.dev/gemini-api/docs/pricing）",
       "url": "https://web.archive.org/web/20260521030432/https://ai.google.dev/gemini-api/docs/pricing",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Gemini 3.1 Flash-Lite Preview | Gemini API (archived)",
+      "url": "https://web.archive.org/web/20260320/https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

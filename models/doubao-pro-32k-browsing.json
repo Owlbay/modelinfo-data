@@ -1,7 +1,7 @@
 {
   "id": "doubao-pro-32k-browsing",
   "object": "model",
-  "created": null,
+  "created": 1718409600,
   "owned_by": "bytedance",
   "name": "Doubao-pro-32k-browsing",
   "api": {
@@ -15,9 +15,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 32000,
     "input": null,
-    "output": null
+    "output": 4000
   },
   "modalities": {
     "input": [
@@ -35,7 +35,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2024-06-15",
     "knowledge_cutoff": null,
     "description": "Doubao-pro-32k-browsing, retired. Official shutdown (EOS) dates: doubao-pro-32k-browsing-240615 2025-04-15; doubao-pro-32k-browsing-240615 2025-05-28; doubao-pro-32k-browsing-240828 2025-08-28; doubao-pro-32k-browsing-241115 2025-11-27.",
     "docs": "https://www.volcengine.com/docs/82379/1350667",
@@ -105,6 +105,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型发布公告 2024",
+      "url": "https://www.volcengine.com/docs/82379/1866361",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

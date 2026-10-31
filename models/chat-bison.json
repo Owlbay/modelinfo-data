@@ -35,7 +35,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "PaLM 2 for Chat (chat-bison) large language model fine-tuned for natural multi-turn conversations, suited to text tasks that need back-and-forth interaction.",
     "docs": "https://web.archive.org/web/20251112105521/https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
     "verified_at": "2026-10-11"
   },
@@ -49,6 +49,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "PaLM 2 for Chat（chat-bison）大语言模型，针对自然多轮对话微调，适合需要来回交互的文本任务。"
+    }
+  },
   "sources": [
     {
       "title": "存档：Model versions and lifecycle | Generative AI on Vertex AI（原网址 https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions）",

@@ -35,7 +35,7 @@
     "status": "retired",
     "release_date": "2025-04-08",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Amazon Nova Sonic speech-to-speech model providing real-time conversational interactions through bidirectional audio streaming.",
     "docs": "https://docs.aws.amazon.com/nova/latest/userguide/speech.html",
     "verified_at": "2026-10-11"
   },
@@ -51,6 +51,11 @@
   "aliases": [
     "amazon.nova-sonic-v1:0"
   ],
+  "translations": {
+    "zh": {
+      "description": "Amazon Nova Sonic 语音到语音模型，通过双向音频流提供实时对话交互。"
+    }
+  },
   "sources": [
     {
       "title": "Model lifecycle (Legacy) - Amazon Bedrock",

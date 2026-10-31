@@ -44,7 +44,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Instruction-following conversational model for language tasks, with a 4k context length.",
     "docs": "https://docs.cohere.com/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -58,6 +58,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "指令遵循对话模型，用于语言任务，上下文长度 4k。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Cohere Docs",

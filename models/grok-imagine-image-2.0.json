@@ -1,7 +1,7 @@
 {
   "id": "grok-imagine-image-2.0",
   "object": "model",
-  "created": null,
+  "created": 1786060800,
   "owned_by": "xai",
   "name": "Grok Imagine Image 2.0",
   "api": {
@@ -49,7 +49,7 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-08-07",
     "knowledge_cutoff": null,
     "description": "xAI image generation and editing model, priced at $0.04 per image.",
     "docs": "https://docs.x.ai/developers/models/grok-imagine-image-2.0",
@@ -112,6 +112,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Imagine Image 2.0",
+      "url": "https://x.ai/news/grok-imagine-image-2",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

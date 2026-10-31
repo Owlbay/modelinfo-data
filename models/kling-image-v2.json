@@ -1,7 +1,7 @@
 {
   "id": "kling-image-v2",
   "object": "model",
-  "created": null,
+  "created": 1747094400,
   "owned_by": "kuaishou",
   "name": "Kling Image 2.0",
   "api": {
@@ -32,7 +32,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-05-13",
     "knowledge_cutoff": null,
     "description": "Kling Image 2.0 image model, retired. Official notice: retired on 2026-09-15.",
     "docs": "https://kling.ai/document-api/api/image/2-0/image-generation",

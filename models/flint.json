@@ -11,7 +11,7 @@
     "sdk": []
   },
   "limits": {
-    "context": null,
+    "context": 512000,
     "input": null,
     "output": null
   },

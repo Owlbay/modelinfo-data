@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 256000,
     "input": null,
     "output": null
   },
@@ -96,6 +96,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://longcat.chat/platform/docs/APIDocs.html",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "meituan-longcat/LongCat-Flash-Lite",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

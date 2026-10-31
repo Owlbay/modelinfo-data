@@ -46,7 +46,7 @@
     "status": "active",
     "release_date": "2025-04-07",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Wan 2.1 Plus first-and-last-frame video generation model, producing silent 720P video of 5 seconds.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/image-to-video-by-first-and-last-frame-api-reference",
     "verified_at": "2026-10-11"
   },
@@ -62,6 +62,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Wan 2.1 Plus 首尾帧生视频模型，输出 5 秒、720P 的无音频视频。"
+    }
+  },
   "sources": [
     {
       "title": "Wan - image-to-video - first and last frames API reference (2.2) | Alibaba Cloud Model Studio",
@@ -87,6 +92,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Video generation - Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/video-generation",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

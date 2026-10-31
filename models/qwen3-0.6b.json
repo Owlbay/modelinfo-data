@@ -48,7 +48,7 @@
     "status": "retired",
     "release_date": "2025-04-29",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Qwen3 0.6B dense language model with switchable thinking and non-thinking modes, supporting 119 languages and dialects.",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_decommissioning_of_selected_historical_snapshot_models_730",
     "verified_at": "2026-10-11"
   },
@@ -64,6 +64,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Qwen3 0.6B 稠密语言模型，支持思考与非思考模式切换，覆盖 119 种语言和方言。"
+    }
+  },
   "sources": [
     {
       "title": "[Model Studio] Notice on the Decommissioning of Selected Historical Snapshot Models | Alibaba Cloud",

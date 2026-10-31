@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 2048,
     "input": 2048,
     "output": null
   },
@@ -36,7 +36,7 @@
     "status": "retired",
     "release_date": "2024-04-09",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Google text embedding model producing 768-dimensional text embeddings with strong retrieval performance on MTEB benchmarks.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -52,6 +52,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Google 文本嵌入模型，生成 768 维文本嵌入向量，在 MTEB 基准上检索表现出色。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Gemini API",
@@ -77,6 +82,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-04)",
+      "url": "https://web.archive.org/web/20250410/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 1048576,
     "input": 1048576,
     "output": 65536
   },
@@ -36,7 +36,7 @@
     "status": "retired",
     "release_date": "2025-03-25",
     "knowledge_cutoff": "2025-01",
-    "description": null,
+    "description": "Experimental Gemini 2.5 Pro thinking model for reasoning over complex problems in code, math and STEM and analyzing large datasets, codebases and documents with long context.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-30"
   },
@@ -52,6 +52,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "实验版 Gemini 2.5 Pro 思考模型，可对代码、数学和 STEM 复杂问题进行推理，并借助长上下文分析大型数据集、代码库和文档。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -82,6 +87,11 @@
       "title": "存档：Gemini 模型（原网址 https://ai.google.dev/gemini-api/docs/models）",
       "url": "https://web.archive.org/web/20250414235329/https://ai.google.dev/gemini-api/docs/models",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-04)",
+      "url": "https://web.archive.org/web/20250410/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

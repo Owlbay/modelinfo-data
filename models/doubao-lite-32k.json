@@ -1,7 +1,7 @@
 {
   "id": "doubao-lite-32k",
   "object": "model",
-  "created": null,
+  "created": 1715731200,
   "owned_by": "bytedance",
   "name": "Doubao-lite-32k",
   "api": {
@@ -15,9 +15,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 32000,
     "input": null,
-    "output": null
+    "output": 4000
   },
   "modalities": {
     "input": [
@@ -44,7 +44,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2024-05-15",
     "knowledge_cutoff": null,
     "description": "Doubao-lite-32k, retired. Official shutdown (EOS) dates: doubao-lite-32k-240428 2025-04-15; doubao-lite-32k-240428 2025-05-28; doubao-lite-32k-240628 2025-05-28; doubao-lite-32k-240828 2025-11-27.",
     "docs": "https://www.volcengine.com/docs/82379/1350667",
@@ -119,6 +119,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型发布公告 2024",
+      "url": "https://www.volcengine.com/docs/82379/1866361",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -46,7 +46,7 @@
     "status": "retired",
     "release_date": "2023-11-29",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Perplexity online LLM built on mistral-7b that draws on web search for up-to-date, factual responses.",
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
     "verified_at": "2026-10-30"
   },
@@ -60,6 +60,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Perplexity 在线 LLM，基于 mistral-7b，借助联网搜索提供最新、有事实依据的回答。"
+    }
+  },
   "sources": [
     {
       "title": "Changelog | Perplexity Docs",
@@ -110,6 +115,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Introducing PPLX Online LLMs",
+      "url": "https://web.archive.org/web/2023/https://blog.perplexity.ai/blog/introducing-pplx-online-llms",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

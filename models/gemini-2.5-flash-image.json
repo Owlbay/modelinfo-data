@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 65536,
     "input": 65536,
     "output": 32768
   },

@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 1048576,
     "input": 1048576,
     "output": 65536
   },
@@ -51,7 +51,7 @@
     "status": "retired",
     "release_date": "2025-09-25",
     "knowledge_cutoff": "2025-01",
-    "description": null,
+    "description": "Gemini Robotics ER 1.5, a vision-language model that brings Gemini agentic capabilities to robotics, with spatial reasoning and action planning from natural language commands.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.5-preview",
     "verified_at": "2026-10-11"
   },
@@ -67,6 +67,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Gemini Robotics ER 1.5，将 Gemini 的智能体能力带入机器人领域的视觉语言模型，支持空间推理并根据自然语言指令规划动作。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",

@@ -36,7 +36,7 @@
     "status": "retired",
     "release_date": "2025-02-05",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Experimental Gemini 2.0 Pro, described as the most powerful second-generation Gemini model, with strong reasoning, native tool use and a 2M token context window.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -54,6 +54,11 @@
   "aliases": [
     "gemini-2.0-pro-exp-02-05"
   ],
+  "translations": {
+    "zh": {
+      "description": "实验版 Gemini 2.0 Pro，被描述为最强的第二代 Gemini 模型，具备强推理能力、原生工具使用和 2M Token 上下文窗口。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -79,6 +84,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-01)",
+      "url": "https://web.archive.org/web/20250125/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

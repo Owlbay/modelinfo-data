@@ -39,7 +39,7 @@
     "status": "retired",
     "release_date": "2025-06-17",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Gemini 2.5 Flash Live model for the Live API, enabling low-latency bidirectional voice and video interactions with text, audio and video input and text and audio output.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -55,6 +55,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于 Live API 的 Gemini 2.5 Flash Live 模型，支持低延迟双向语音与视频交互，输入文本、音频、视频，输出文本与音频。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -80,6 +85,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-09)",
+      "url": "https://web.archive.org/web/20250907/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

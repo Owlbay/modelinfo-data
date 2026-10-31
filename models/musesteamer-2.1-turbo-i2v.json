@@ -1,7 +1,7 @@
 {
   "id": "musesteamer-2.1-turbo-i2v",
   "object": "model",
-  "created": null,
+  "created": 1769731200,
   "owned_by": "baidu",
   "name": "MuseSteamer-2.1-Turbo-I2V",
   "api": {
@@ -32,7 +32,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2026-01-30",
     "knowledge_cutoff": null,
     "description": "MuseSteamer-2.1-Turbo-I2V, retired. Official retirement date: 2026-02-06.",
     "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
@@ -70,6 +70,11 @@
       "title": "创建视频生成任务 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan-api/s/Xme6ul5g4",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "更新动态 - 百度千帆·大模型服务及Agent开发平台",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/Mmh8l4qwj",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

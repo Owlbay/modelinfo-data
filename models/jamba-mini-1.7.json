@@ -46,7 +46,7 @@
     "status": "retired",
     "release_date": "2025-07-03",
     "knowledge_cutoff": "2024-08-22",
-    "description": null,
+    "description": "AI21 Jamba Mini 1.7, an efficient hybrid SSM-Transformer model optimized for speed and quality, with a 256K context window.",
     "docs": "https://docs.ai21.com/docs/jamba-foundation-models",
     "verified_at": "2026-10-30"
   },
@@ -64,6 +64,11 @@
   "aliases": [
     "jamba-mini-1.7-2025-08"
   ],
+  "translations": {
+    "zh": {
+      "description": "AI21 的 Jamba Mini 1.7，高效的混合 SSM-Transformer 模型，针对速度与质量优化，上下文窗口 256K。"
+    }
+  },
   "sources": [
     {
       "title": "Jamba | AI21 Docs（Model Deprecation 表）",
@@ -104,6 +109,11 @@
       "title": "存档：Chat request | AI21 API Reference（原网址 https://docs.ai21.com/reference/jamba-1-6-api-ref）",
       "url": "https://web.archive.org/web/20250814043337/https://docs.ai21.com/reference/jamba-1-6-api-ref",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Jamba foundation models (Mar 2025 archive)",
+      "url": "https://web.archive.org/web/20250326203836/https://docs.ai21.com/docs/jamba-foundation-models",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

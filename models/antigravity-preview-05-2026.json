@@ -37,7 +37,7 @@
     "status": "retired",
     "release_date": "2026-05-19",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "General-purpose managed agent for autonomous, multi-step workflows that plans, reasons, runs code, manages files and searches the web in a Google-hosted isolated Linux sandbox.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026",
     "verified_at": "2026-10-11"
   },
@@ -53,6 +53,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于自主多步骤工作流的通用托管 Agent，可规划、推理、运行代码、管理文件并搜索网页，运行在 Google 托管的隔离 Linux 沙箱中。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",

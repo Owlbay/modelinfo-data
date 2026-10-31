@@ -45,7 +45,7 @@
     "status": "retired",
     "release_date": "2025-02-05",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Gemini 2.0 Flash-Lite preview, a Gemini 2.0 Flash model optimized for cost efficiency and low latency.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -63,6 +63,11 @@
   "aliases": [
     "gemini-2.0-flash-lite-preview-02-05"
   ],
+  "translations": {
+    "zh": {
+      "description": "Gemini 2.0 Flash-Lite 预览版，针对成本效率与低延迟优化的 Gemini 2.0 Flash 模型。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -93,6 +98,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-02)",
+      "url": "https://web.archive.org/web/20250215/https://ai.google.dev/gemini-api/docs/models/gemini",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "recraftv4_styles_vector",
   "object": "model",
-  "created": null,
+  "created": 1787702400,
   "owned_by": "recraft",
   "name": "Recraft V4 Styles Vector",
   "api": {
@@ -46,7 +46,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-08-26",
     "knowledge_cutoff": null,
     "description": "Recraft V4 Styles variant that returns editable SVG vector images; always requires a style.",
     "docs": "https://www.recraft.ai/docs/api-reference/models/recraft-v4-styles",
@@ -104,6 +104,11 @@
       "title": "SDK support — @image-sdk/sdk (api.sdk only)",
       "url": "https://github.com/Adarsh-Me/Image-SDK",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Recraft V4 Styles: Style it once, every image matches",
+      "url": "https://www.recraft.ai/blog/meet-recraft-v4-styles",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -16,7 +16,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 512,
     "input": null,
     "output": null
   },
@@ -91,6 +91,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Supported encoder foundation models in watsonx.ai",
+      "url": "https://www.ibm.com/docs/SSLSRPV_2.2.x/wsj/analyze-data/fm-models-embed.html",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

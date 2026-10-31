@@ -45,7 +45,7 @@
     "status": "retired",
     "release_date": "2023-07-11",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Claude 2, the predecessor to Claude 3, offering strong all-round performance; supports the Messages and Text Completions APIs.",
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-11"
   },
@@ -59,6 +59,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Claude 2，Claude 3 的前代模型，整体表现强劲；支持 Messages 与 Text Completions API。"
+    }
+  },
   "sources": [
     {
       "title": "Model deprecations | Claude Platform Docs",

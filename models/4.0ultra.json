@@ -1,7 +1,7 @@
 {
   "id": "4.0ultra",
   "object": "model",
-  "created": null,
+  "created": 1719446400,
   "owned_by": "iflytek",
   "name": "Spark 4.0 Ultra",
   "api": {
@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 32768,
     "input": 32768,
     "output": 32768
   },
@@ -38,7 +38,7 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2024-06-27",
     "knowledge_cutoff": null,
     "description": "iFlytek Spark flagship non-thinking language model with function calling and web search.",
     "docs": "https://www.xfyun.cn/doc/spark/HTTP%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.html",
@@ -93,6 +93,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "讯飞星火V4.0发布，打造更懂师生的AI助手-公司新闻-科大讯飞智慧教育",
+      "url": "https://edu.iflytek.com/about-us/news/company-news/1095",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "recraftv4_1_utility_pro",
   "object": "model",
-  "created": null,
+  "created": 1778716800,
   "owned_by": "recraft",
   "name": "Recraft V4.1 Utility Pro",
   "api": {
@@ -46,7 +46,7 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-05-14",
     "knowledge_cutoff": null,
     "description": "Recraft V4.1 Utility variant that generates 2K raster images.",
     "docs": "https://www.recraft.ai/docs/api-reference/models/recraft-v4-1",
@@ -104,6 +104,11 @@
       "title": "SDK support — @image-sdk/sdk (api.sdk only)",
       "url": "https://github.com/Adarsh-Me/Image-SDK",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Recraft V4.1 Release: More Beautiful by Nature",
+      "url": "https://www.recraft.ai/blog/recraft-v4-1-more-beautiful-by-nature",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

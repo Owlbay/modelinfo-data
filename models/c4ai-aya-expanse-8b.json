@@ -44,7 +44,7 @@
     "status": "retired",
     "release_date": "2024-10-24",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Aya Expanse 8B multilingual model serving 23 languages, built with instruction tuning with data arbitrage, preference training, and model merging.",
     "docs": "https://docs.cohere.com/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -58,6 +58,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Aya Expanse 8B 多语言模型，支持 23 种语言，采用数据套利式指令微调、偏好训练和模型合并。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Cohere Docs",

@@ -48,7 +48,7 @@
     "status": "retired",
     "release_date": "2025-09-19",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Qwen3-Omni-30B-A3B audio captioner, a downstream fine-grained audio caption model producing detailed, low-hallucination captions for arbitrary audio input.",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_of_retirement_for_selected_legacy_longtail_models_7d4",
     "verified_at": "2026-10-11"
   },
@@ -64,6 +64,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Qwen3-Omni-30B-A3B 音频描述模型，下游细粒度音频字幕模型，可为任意音频输入生成详细、低幻觉的描述。"
+    }
+  },
   "sources": [
     {
       "title": "[Model Studio] Notice of Retirement for Selected Legacy Long-tail Models | Alibaba Cloud",
@@ -104,6 +109,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+      "url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Captioner",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

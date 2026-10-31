@@ -1,7 +1,7 @@
 {
   "id": "qianfan-ocr",
   "object": "model",
-  "created": null,
+  "created": 1773273600,
   "owned_by": "baidu",
   "name": "Qianfan-OCR",
   "api": {
@@ -50,7 +50,7 @@
   "features": [],
   "info": {
     "status": "deprecated",
-    "release_date": null,
+    "release_date": "2026-03-12",
     "knowledge_cutoff": null,
     "description": "Baidu Qianfan OCR model that converts document images to structured Markdown, with optional thinking mode. Scheduled to be retired on 2026-11-23 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan-docs/s/Qmispikeo",
@@ -128,6 +128,11 @@
     {
       "title": "模型版本升级及退役机制 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "baidubce/qianfan-models-cookbook README (News)",
+      "url": "https://github.com/baidubce/qianfan-models-cookbook",
       "retrieved_at": "2026-10-31"
     }
   ]

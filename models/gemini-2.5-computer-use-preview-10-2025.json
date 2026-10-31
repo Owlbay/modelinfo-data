@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 128000,
     "input": 128000,
     "output": 64000
   },
@@ -46,7 +46,7 @@
     "status": "retired",
     "release_date": "2025-10-07",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Gemini 2.5 Computer Use model, an agentic model for direct interface interaction, used for browser automation, multi-step software tasks and UI testing.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
     "verified_at": "2026-10-11"
   },
@@ -62,6 +62,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Gemini 2.5 Computer Use 模型，面向直接界面交互的 Agent 模型，用于浏览器自动化、多步骤软件任务和 UI 测试。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",

@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 2048,
     "input": 2048,
     "output": null
   },
@@ -36,7 +36,7 @@
     "status": "retired",
     "release_date": "2024-04-09",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Google text embedding model producing 768-dimensional embeddings for text of up to 2,048 tokens.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -52,6 +52,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Google 文本嵌入模型，为最多 2,048 个 Token 的文本生成 768 维向量。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Gemini API",
@@ -72,6 +77,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-04)",
+      "url": "https://web.archive.org/web/20250410/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

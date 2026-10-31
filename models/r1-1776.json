@@ -1,7 +1,7 @@
 {
   "id": "r1-1776",
   "object": "model",
-  "created": null,
+  "created": 1739836800,
   "owned_by": "perplexity",
   "name": "R1 1776",
   "api": {
@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 128000,
     "input": null,
     "output": null
   },
@@ -44,9 +44,9 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-02-18",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "DeepSeek-R1 version post-trained to provide unbiased, accurate, and factual information; an offline chat model that does not use search.",
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
     "verified_at": "2026-10-11"
   },
@@ -60,6 +60,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "经后训练的 DeepSeek-R1 版本，旨在提供无偏见、准确、有事实依据的信息；为不使用搜索的离线对话模型。"
+    }
+  },
   "sources": [
     {
       "title": "Changelog | Perplexity Docs",
@@ -105,6 +110,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Open-sourcing R1 1776",
+      "url": "https://web.archive.org/web/2025/https://www.perplexity.ai/hub/blog/open-sourcing-r1-1776",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Supported Models (Context Length per Model) - Perplexity docs (archived 2025-04-30)",
+      "url": "https://web.archive.org/web/20250430214336/https://docs.perplexity.ai/models/model-cards",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

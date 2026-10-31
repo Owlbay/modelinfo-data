@@ -48,7 +48,7 @@
     "status": "retired",
     "release_date": "2025-01-27",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Qwen2.5-7B-Instruct-1M, open-source Qwen2.5 7B instruction model upgraded to handle 1M-token contexts.",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_decommissioning_of_selected_historical_snapshot_models_730",
     "verified_at": "2026-10-11"
   },
@@ -64,6 +64,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Qwen2.5-7B-Instruct-1M，开源的 Qwen2.5 7B 指令模型，升级后可处理 100 万 Token 的上下文。"
+    }
+  },
   "sources": [
     {
       "title": "[Model Studio] Notice on the Decommissioning of Selected Historical Snapshot Models | Alibaba Cloud",

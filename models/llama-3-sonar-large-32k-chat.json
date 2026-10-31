@@ -37,7 +37,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Perplexity Sonar large chat model in the Llama 3 family with a 32k context window.",
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
     "verified_at": "2026-10-11"
   },
@@ -51,6 +51,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Perplexity Sonar large 对话模型，属于 Llama 3 系列，上下文窗口 32k。"
+    }
+  },
   "sources": [
     {
       "title": "Changelog | Perplexity Docs",
@@ -91,6 +96,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Changelog - Perplexity docs (archived 2024)",
+      "url": "https://web.archive.org/web/2024/https://docs.perplexity.ai/changelog",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

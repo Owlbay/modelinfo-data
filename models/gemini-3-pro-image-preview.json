@@ -50,7 +50,7 @@
     "status": "retired",
     "release_date": "2025-11-20",
     "knowledge_cutoff": "2025-01",
-    "description": null,
+    "description": "Gemini 3 Pro Image Preview (Nano Banana Pro), a reasoning-driven model for professional image editing and generation with accurate text rendering and Google Search grounding.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -66,6 +66,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Gemini 3 Pro Image Preview（Nano Banana Pro），推理驱动的图像生成与编辑模型，支持精确文字渲染和 Google 搜索事实依据。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Gemini API",
@@ -96,6 +101,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini 3 Pro Image Preview | Gemini API (archived)",
+      "url": "https://web.archive.org/web/20251201/https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image-preview",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -14,9 +14,9 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
-    "output": null
+    "context": 30720,
+    "input": 30720,
+    "output": 2048
   },
   "modalities": {
     "input": [
@@ -84,6 +84,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Google AI for Developers (archived 2024-03)",
+      "url": "https://web.archive.org/web/20240301/https://ai.google.dev/models/gemini",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

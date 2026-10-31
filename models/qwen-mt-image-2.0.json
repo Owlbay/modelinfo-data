@@ -44,7 +44,7 @@
     "status": "active",
     "release_date": "2026-08-28",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Image translation model supporting 55 source languages that replicates the original layout and typography, with custom terminology and sensitive word filtering.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
     "verified_at": "2026-10-11"
   },
@@ -60,6 +60,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "图像翻译模型，支持 55 种源语言，还原原图排版与字体，支持自定义术语和敏感词过滤。"
+    }
+  },
   "sources": [
     {
       "title": "Qwen-Image API reference | Alibaba Cloud Model Studio",

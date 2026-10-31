@@ -52,7 +52,7 @@
     "status": "retired",
     "release_date": "2025-05-20",
     "knowledge_cutoff": "2025-01",
-    "description": null,
+    "description": "Gemini 2.5 Flash preview (05-20), described as a price-performance model with well-rounded capabilities.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -72,6 +72,11 @@
     "gemini-2.5-flash-preview-09-25",
     "gemini-2.5-flash-preview-09-2025"
   ],
+  "translations": {
+    "zh": {
+      "description": "Gemini 2.5 Flash 预览版（05-20），定位为性价比模型，能力均衡全面。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Gemini API",

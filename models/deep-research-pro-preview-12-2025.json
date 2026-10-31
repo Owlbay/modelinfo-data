@@ -40,7 +40,7 @@
     "status": "retired",
     "release_date": "2025-12-11",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Deep Research Pro preview agent, powered by Gemini 3.1 Pro, for autonomous multi-step investigations that produce cited reports from public web sources and private workspace data.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/deep-research-pro-preview-12-2025",
     "verified_at": "2026-10-31"
   },
@@ -56,6 +56,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Deep Research Pro 预览版 Agent，由 Gemini 3.1 Pro 驱动，用于自主多步骤调研，基于公开网页与私有工作区数据生成带引用的报告。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",

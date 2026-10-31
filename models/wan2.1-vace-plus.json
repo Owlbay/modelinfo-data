@@ -47,7 +47,7 @@
     "status": "active",
     "release_date": "2025-05-14",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Wan 2.1 VACE Plus video editing model.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/wan-video-editing-api-reference",
     "verified_at": "2026-10-11"
   },
@@ -63,6 +63,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Wan 2.1 VACE Plus 视频编辑模型。"
+    }
+  },
   "sources": [
     {
       "title": "Wan2.7 - video editing API reference | Alibaba Cloud Model Studio",
@@ -93,6 +98,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Video generation - Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/video-generation",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -52,7 +52,7 @@
     "status": "retired",
     "release_date": "2025-11-19",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Grok 4.1 Fast reasoning model from xAI, available through the xAI API.",
     "docs": "https://docs.x.ai/developers/migration/may-15-retirement",
     "verified_at": "2026-10-11"
   },
@@ -71,6 +71,11 @@
     "grok-4-1-fast",
     "grok-4-1-fast-reasoning-latest"
   ],
+  "translations": {
+    "zh": {
+      "description": "xAI 的 Grok 4.1 Fast 推理模型，通过 xAI API 提供。"
+    }
+  },
   "sources": [
     {
       "title": "May 15, 2026 Model Retirement | xAI Docs",

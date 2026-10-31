@@ -47,7 +47,7 @@
     "status": "active",
     "release_date": "2026-04-03",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Wan 2.7 reference-to-video model supporting multiple characters, producing 720P or 1080P video of 2 to 10 seconds.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "verified_at": "2026-10-11"
   },
@@ -63,6 +63,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Wan 2.7 参考生视频模型，支持多角色，输出 2–10 秒的 720P 或 1080P 视频。"
+    }
+  },
   "sources": [
     {
       "title": "Model Studio model pricing | Alibaba Cloud",
@@ -88,6 +93,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Video generation - Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/video-generation",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

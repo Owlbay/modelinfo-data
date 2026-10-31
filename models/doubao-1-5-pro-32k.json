@@ -1,7 +1,7 @@
 {
   "id": "doubao-1-5-pro-32k",
   "object": "model",
-  "created": null,
+  "created": 1737504000,
   "owned_by": "bytedance",
   "name": "Doubao-1.5-pro-32k",
   "api": {
@@ -44,7 +44,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-01-22",
     "knowledge_cutoff": null,
     "description": "Doubao-1.5-pro-32k, retired. Official shutdown (EOS) dates: doubao-1-5-pro-32k-250115 2026-09-21.",
     "docs": "https://www.volcengine.com/docs/82379/1350667",
@@ -117,6 +117,16 @@
       "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310）",
       "url": "https://web.archive.org/web/20250604074021/https://www.volcengine.com/docs/82379/1330310",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Doubao-1.5-pro (ByteDance Seed)",
+      "url": "https://seed.bytedance.com/zh/special/doubao_1_5_pro",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "豆包大模型 1.5 正式发布，全面上线火山方舟",
+      "url": "https://developer.volcengine.com/articles/7462939272262189083",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

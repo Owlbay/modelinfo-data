@@ -46,7 +46,7 @@
     "status": "active",
     "release_date": "2026-04-26",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "HappyHorse-1.0 reference-to-video generation model that supports up to 9 reference images.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "verified_at": "2026-10-11"
   },
@@ -62,6 +62,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "HappyHorse-1.0 参考生视频模型，最多支持 9 张参考图像。"
+    }
+  },
   "sources": [
     {
       "title": "Model Studio model pricing | Alibaba Cloud",

@@ -45,7 +45,7 @@
     "status": "retired",
     "release_date": "2025-08-18",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "First Qwen image editing model, offering bilingual (Chinese/English) text editing and visual plus semantic editing.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
     "verified_at": "2026-10-11"
   },
@@ -59,6 +59,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "首个 Qwen 图像编辑模型，支持中英双语文字编辑以及视觉与语义编辑。"
+    }
+  },
   "sources": [
     {
       "title": "Qwen-Image API reference | Alibaba Cloud Model Studio",

@@ -44,7 +44,7 @@
     "status": "active",
     "release_date": "2025-05-22",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Wan 2.1 Turbo text-to-image model, generating images from text in a range of artistic styles and photorealistic looks.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "verified_at": "2026-10-11"
   },
@@ -60,6 +60,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "万相 2.1 极速版文生图模型，基于文本生成图像，支持多种艺术风格与写实摄影效果。"
+    }
+  },
   "sources": [
     {
       "title": "Model Studio model pricing | Alibaba Cloud",
@@ -95,6 +100,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "万相-文生图V2版API参考",
+      "url": "https://help.aliyun.com/zh/model-studio/text-to-image-v2-api-reference",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

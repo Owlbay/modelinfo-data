@@ -16,7 +16,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 128000,
     "input": null,
     "output": null
   },
@@ -126,6 +126,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Supported Models (Context Length per Model) - Perplexity docs (archived 2025-04-30)",
+      "url": "https://web.archive.org/web/20250430214336/https://docs.perplexity.ai/models/model-cards",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

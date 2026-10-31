@@ -16,7 +16,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 128000,
     "input": null,
     "output": null
   },
@@ -47,7 +47,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Fast, real-time reasoning model with search, designed for quick problem-solving.",
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
     "verified_at": "2026-10-30"
   },
@@ -61,6 +61,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "带搜索的快速实时推理模型，面向快速解决问题。"
+    }
+  },
   "sources": [
     {
       "title": "Changelog | Perplexity Docs",
@@ -111,6 +116,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Supported Models (Context Length per Model) - Perplexity docs (archived 2025-04-30)",
+      "url": "https://web.archive.org/web/20250430214336/https://docs.perplexity.ai/models/model-cards",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

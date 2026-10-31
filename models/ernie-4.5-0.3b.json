@@ -13,7 +13,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 128000,
     "input": null,
     "output": null
   },
@@ -71,6 +71,11 @@
       "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
       "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "大模型API（百度星河社区 AI Studio，更新时间 2026-05-19）",
+      "url": "https://ai.baidu.com/ai-doc/AISTUDIO/rm344erns",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

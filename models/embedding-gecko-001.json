@@ -13,7 +13,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 1024,
     "input": null,
     "output": null
   },
@@ -35,7 +35,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "PaLM 2 Gecko text embedding model that generates embeddings for input text of up to 1024 tokens.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -49,6 +49,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "PaLM 2 Gecko 文本嵌入模型，为最多 1024 个 Token 的输入文本生成嵌入向量。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -64,6 +69,11 @@
       "title": "SDK support — @google-ai/generativelanguage (api.sdk only)",
       "url": "https://github.com/googleapis/google-cloud-node/tree/main/packages/google-ai-generativelanguage",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "PaLM models | Google AI for Developers (archived)",
+      "url": "https://web.archive.org/web/20240601/https://ai.google.dev/palm_docs/palm",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

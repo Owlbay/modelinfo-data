@@ -1,7 +1,7 @@
 {
   "id": "glimpse",
   "object": "model",
-  "created": null,
+  "created": 1792108800,
   "owned_by": "elorian",
   "name": "Glimpse",
   "api": {
@@ -44,7 +44,7 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-16",
     "knowledge_cutoff": null,
     "description": "A visual thinking model available through an API and a chat interface. It takes text, images, and video and reasons in visual space, including with multimodal tools. Input tokens cost $0.60 per million and output tokens $3.00 per million; the comparison table labels those rates uncached. The page does not publish a calendar date, a cached-token price, a context length, a maximum output, or a request URL.",
     "docs": "https://elorian.ai/blog/introducing-glimpse",

@@ -45,7 +45,7 @@
     "status": "retired",
     "release_date": "2023-11-21",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Updated version of Claude 2 with improved accuracy, with a 200K context window.",
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-11"
   },
@@ -59,6 +59,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Claude 2 的更新版本，准确性有所提升，上下文窗口为 200K。"
+    }
+  },
   "sources": [
     {
       "title": "Model deprecations | Claude Platform Docs",

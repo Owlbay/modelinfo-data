@@ -35,7 +35,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Claude Instant 1.0, a lighter, less expensive and much faster first-generation Claude model.",
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-11"
   },
@@ -49,6 +49,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Claude Instant 1.0，第一代 Claude 中更轻量、更便宜、速度更快的模型。"
+    }
+  },
   "sources": [
     {
       "title": "Model deprecations | Claude Platform Docs",
@@ -59,6 +64,11 @@
       "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
       "url": "https://github.com/anthropics/anthropic-sdk-typescript",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Introducing Claude",
+      "url": "https://www.anthropic.com/news/introducing-claude",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

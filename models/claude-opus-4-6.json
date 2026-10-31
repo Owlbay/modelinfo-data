@@ -59,7 +59,7 @@
     "status": "active",
     "release_date": "2026-02-05",
     "knowledge_cutoff": "2025-05",
-    "description": null,
+    "description": "Claude Opus 4.6, described as the most intelligent model for building agents and coding.",
     "docs": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
     "verified_at": "2026-10-10"
   },
@@ -76,6 +76,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Claude Opus 4.6，官方称其为用于构建智能体和编程的最智能模型。"
+    }
+  },
   "sources": [
     {
       "title": "Claude Opus 4.6 | Claude Platform Docs",
@@ -141,6 +146,11 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Models overview - Claude Docs",
+      "url": "https://web.archive.org/web/20260301/https://platform.claude.com/docs/en/about-claude/models/overview",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

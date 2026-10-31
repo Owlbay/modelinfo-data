@@ -36,7 +36,7 @@
     "status": "retired",
     "release_date": "2024-12-19",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Experimental Gemini 2.0 Flash Thinking model trained to generate its thinking process as part of the response, with stronger reasoning than Gemini 2.0 Flash Experimental.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -55,6 +55,11 @@
     "gemini-2.0-flash-thinking-exp-01-21",
     "gemini-2.0-flash-thinking-exp-1219"
   ],
+  "translations": {
+    "zh": {
+      "description": "实验版 Gemini 2.0 Flash Thinking 模型，经训练会在回答中生成思考过程，推理能力强于 Gemini 2.0 Flash Experimental。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -80,6 +85,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini 2.0 Flash Thinking | Gemini API (archived 2025-02)",
+      "url": "https://web.archive.org/web/20250201/https://ai.google.dev/gemini-api/docs/thinking",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

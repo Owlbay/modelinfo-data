@@ -1,7 +1,7 @@
 {
   "id": "qianfan-sug-8k",
   "object": "model",
-  "created": null,
+  "created": 1747267200,
   "owned_by": "baidu",
   "name": "Qianfan-Sug-8K",
   "api": {
@@ -13,7 +13,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 8000,
     "input": null,
     "output": null
   },
@@ -33,7 +33,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-05-15",
     "knowledge_cutoff": null,
     "description": "Qianfan-Sug-8K, retired. Official retirement date: 2026-06-30.",
     "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
@@ -71,6 +71,16 @@
       "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
       "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型更新记录 - 百度千帆·大模型服务及Agent开发平台",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "模型列表 - 百度千帆·大模型服务及Agent开发平台（Internet Archive 2025-12-10 快照）",
+      "url": "https://web.archive.org/web/20251210233646/https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -44,7 +44,7 @@
     "status": "active",
     "release_date": "2025-09-19",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Wan 2.5 preview text-to-image model supporting free image sizes within total-pixel and aspect-ratio limits.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "verified_at": "2026-10-11"
   },
@@ -60,6 +60,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Wan 2.5 预览版文生图模型，支持在总像素面积与宽高比约束内自由选择图像尺寸。"
+    }
+  },
   "sources": [
     {
       "title": "Model Studio model pricing | Alibaba Cloud",
@@ -90,6 +95,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "万相-文生图V2版API参考",
+      "url": "https://help.aliyun.com/zh/model-studio/text-to-image-v2-api-reference",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

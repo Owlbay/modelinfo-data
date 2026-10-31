@@ -44,7 +44,7 @@
     "status": "retired",
     "release_date": "2025-09-25",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Fun-ASR multilingual speech recognition model supporting over 31 languages with free language switching.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "verified_at": "2026-10-11"
   },
@@ -58,6 +58,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Fun-ASR 多语种语音识别模型，支持 31 种以上语言并可自由切换语言。"
+    }
+  },
   "sources": [
     {
       "title": "Model Studio model pricing | Alibaba Cloud",

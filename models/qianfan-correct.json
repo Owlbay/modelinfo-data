@@ -13,7 +13,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 8000,
     "input": null,
     "output": null
   },
@@ -71,6 +71,11 @@
       "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
       "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型列表 - 百度千帆·大模型服务及Agent开发平台（Internet Archive 2025-12-10 快照）",
+      "url": "https://web.archive.org/web/20251210233646/https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

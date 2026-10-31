@@ -46,7 +46,7 @@
     "status": "retired",
     "release_date": "2024-03-11",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Command R is an instruction-following conversational model for complex workflows such as code generation, RAG, tool use, and agents.",
     "docs": "https://docs.cohere.com/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -62,6 +62,11 @@
   "aliases": [
     "command-r"
   ],
+  "translations": {
+    "zh": {
+      "description": "Command R 是指令遵循对话模型，适用于代码生成、RAG、工具调用和智能体等复杂工作流。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Cohere Docs",

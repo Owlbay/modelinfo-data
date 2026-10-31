@@ -37,7 +37,7 @@
     "status": "retired",
     "release_date": "2025-05-20",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Gemini 2.5 Flash native audio dialog model with thinking, available through the Live API for interactive conversational experiences with style and control prompting.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -53,6 +53,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "带思考能力的 Gemini 2.5 Flash 原生音频对话模型，通过 Live API 提供，支持风格与控制提示的交互式对话体验。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -78,6 +83,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini models | Gemini API (archived 2025-06)",
+      "url": "https://web.archive.org/web/20250601/https://ai.google.dev/gemini-api/docs/models",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

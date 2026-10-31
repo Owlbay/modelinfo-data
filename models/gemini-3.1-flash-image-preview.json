@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 131072,
     "input": 131072,
     "output": 32768
   },
@@ -51,7 +51,7 @@
     "status": "retired",
     "release_date": "2026-02-26",
     "knowledge_cutoff": "2025-01",
-    "description": null,
+    "description": "Gemini 3.1 Flash Image Preview (Nano Banana 2), a high-efficiency image generation and conversational editing model optimized for speed and high-volume use.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-13"
   },
@@ -67,6 +67,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Gemini 3.1 Flash Image Preview（Nano Banana 2），面向速度与大批量场景优化的高效图像生成与对话式编辑模型。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -112,6 +117,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini 3.1 Flash Image Preview | Gemini API (archived)",
+      "url": "https://web.archive.org/web/20260110/https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image-preview",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

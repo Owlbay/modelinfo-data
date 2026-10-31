@@ -1,7 +1,7 @@
 {
   "id": "kimi-k2-thinking-turbo",
   "object": "model",
-  "created": null,
+  "created": 1762387200,
   "owned_by": "moonshot",
   "name": "Kimi K2 Thinking Turbo",
   "api": {
@@ -40,7 +40,7 @@
   ],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-11-06",
     "knowledge_cutoff": null,
     "description": "High-speed version of Kimi K2 Thinking, output speed 60 to 100 tokens per second. Officially discontinued on 2026-05-25.",
     "docs": "https://platform.kimi.ai/docs/models",
@@ -98,6 +98,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "平台新功能发布记录",
+      "url": "https://platform.kimi.com/blog/posts/changelog",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

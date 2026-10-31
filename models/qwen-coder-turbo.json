@@ -48,7 +48,7 @@
     "status": "retired",
     "release_date": "2024-09-19",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Qwen code model for code generation.",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_postponed_retirement_of_selected_legacy_models_7d0",
     "verified_at": "2026-10-11"
   },
@@ -68,6 +68,11 @@
     "qwen-coder-turbo-2024-09-19",
     "qwen-coder-turbo-0919"
   ],
+  "translations": {
+    "zh": {
+      "description": "Qwen 代码模型，用于代码生成。"
+    }
+  },
   "sources": [
     {
       "title": "[Model Studio] Notice on the Postponed Retirement of Selected Legacy Models | Alibaba Cloud",

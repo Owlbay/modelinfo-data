@@ -35,7 +35,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "SenseVoice speech recognition model supporting 50+ languages, with emotion analysis, audio event detection, punctuation prediction and inverse text normalization (ITN).",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_of_retirement_for_selected_legacy_longtail_models_7d4",
     "verified_at": "2026-10-11"
   },
@@ -49,6 +49,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "SenseVoice 语音识别模型，支持 50 多种语言，具备情感分析与音频事件检测能力，默认提供标点预测和逆文本正则化（ITN）。"
+    }
+  },
   "sources": [
     {
       "title": "[Model Studio] Notice of Retirement for Selected Legacy Long-tail Models | Alibaba Cloud",

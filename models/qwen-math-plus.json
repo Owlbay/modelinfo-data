@@ -48,7 +48,7 @@
     "status": "retired",
     "release_date": "2024-09-13",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Language model specialized for solving mathematical problems.",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_of_retirement_for_selected_legacy_longtail_models_7d4",
     "verified_at": "2026-10-11"
   },
@@ -70,6 +70,11 @@
     "qwen-math-plus-2024-08-16",
     "qwen-math-plus-0816"
   ],
+  "translations": {
+    "zh": {
+      "description": "专用于解决数学问题的语言模型。"
+    }
+  },
   "sources": [
     {
       "title": "[Model Studio] Notice of Retirement for Selected Legacy Long-tail Models | Alibaba Cloud",

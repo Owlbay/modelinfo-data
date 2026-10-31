@@ -50,7 +50,7 @@
     "status": "retired",
     "release_date": "2024-11-04",
     "knowledge_cutoff": "2024-07",
-    "description": null,
+    "description": "Claude Haiku 3.5, Anthropic's fastest model of the Claude 3.5 generation, with a 200K context window.",
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-30"
   },
@@ -66,6 +66,11 @@
   "aliases": [
     "claude-3-5-haiku-20241022"
   ],
+  "translations": {
+    "zh": {
+      "description": "Claude Haiku 3.5，Claude 3.5 系列中最快的模型，上下文窗口为 200K。"
+    }
+  },
   "sources": [
     {
       "title": "Model deprecations | Claude Platform Docs",
@@ -96,6 +101,11 @@
       "title": "Models overview | Claude Platform Docs",
       "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Models - Anthropic",
+      "url": "https://web.archive.org/web/2024/https://docs.anthropic.com/en/docs/legacy-model-guide",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

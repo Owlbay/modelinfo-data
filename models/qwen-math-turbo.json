@@ -48,7 +48,7 @@
     "status": "retired",
     "release_date": "2024-09-19",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Language model specialized for solving mathematical problems.",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_postponed_retirement_of_selected_legacy_models_7d0",
     "verified_at": "2026-10-11"
   },
@@ -68,6 +68,11 @@
     "qwen-math-turbo-2024-09-19",
     "qwen-math-turbo-0919"
   ],
+  "translations": {
+    "zh": {
+      "description": "专用于解决数学问题的语言模型。"
+    }
+  },
   "sources": [
     {
       "title": "[Model Studio] Notice on the Postponed Retirement of Selected Legacy Models | Alibaba Cloud",

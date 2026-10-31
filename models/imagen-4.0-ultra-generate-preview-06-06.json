@@ -44,7 +44,7 @@
     "status": "retired",
     "release_date": "2025-06-24",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Imagen 4 Ultra preview text-to-image model generating realistic, high-quality images from text prompts, with a SynthID watermark on all outputs.",
     "docs": "https://ai.google.dev/gemini-api/docs/deprecations",
     "verified_at": "2026-10-11"
   },
@@ -58,6 +58,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Imagen 4 Ultra 预览版 文本生成图像模型，根据文本提示生成逼真的高质量图像，所有输出均带 SynthID 水印。"
+    }
+  },
   "sources": [
     {
       "title": "deprecations | Gemini API",
@@ -78,6 +83,11 @@
       "title": "SDK support — @google/genai (api.sdk only)",
       "url": "https://github.com/googleapis/js-genai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Generate images using Imagen | Gemini API (archived)",
+      "url": "https://web.archive.org/web/20250801/https://ai.google.dev/gemini-api/docs/imagen",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -13,9 +13,9 @@
     ]
   },
   "limits": {
-    "context": null,
-    "input": null,
-    "output": null
+    "context": 32000,
+    "input": 24000,
+    "output": 8000
   },
   "modalities": {
     "input": [
@@ -80,6 +80,11 @@
       "title": "SDK support — tencentcloud-sdk-nodejs-hunyuan (api.sdk only)",
       "url": "https://github.com/TencentCloud/tencentcloud-sdk-nodejs/tree/master/src/services/hunyuan",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "腾讯混元大模型 产品动态",
+      "url": "https://cloud.tencent.com/document/product/1729/97765",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

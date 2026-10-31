@@ -37,7 +37,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Perplexity Sonar large online model (70B parameters) in the Llama 3.1 family, with web search and a 127,072-token context.",
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
     "verified_at": "2026-10-11"
   },
@@ -51,6 +51,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Perplexity Sonar large 在线模型（70B 参数），属于 Llama 3.1 系列，带联网搜索，上下文 127,072 token。"
+    }
+  },
   "sources": [
     {
       "title": "Changelog | Perplexity Docs",
@@ -91,6 +96,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.perplexity.ai/docs/sonar/quickstart",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Supported Models - Perplexity docs (archived 2024-09-14)",
+      "url": "https://web.archive.org/web/20240914045158/https://docs.perplexity.ai/guides/model-cards",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Changelog - Perplexity docs (archived 2024)",
+      "url": "https://web.archive.org/web/2024/https://docs.perplexity.ai/changelog",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

@@ -45,7 +45,7 @@
     "status": "retired",
     "release_date": "2026-01-15",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Max-series Qwen image editing model with improved industrial design and geometric reasoning, character consistency, and integrated LoRA capabilities.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
     "verified_at": "2026-10-11"
   },
@@ -59,6 +59,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Qwen 图像编辑 Max 系列模型，提升工业设计与几何推理能力和角色一致性，并集成 LoRA 能力。"
+    }
+  },
   "sources": [
     {
       "title": "Qwen-Image API reference | Alibaba Cloud Model Studio",

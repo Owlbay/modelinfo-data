@@ -14,7 +14,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 8000,
     "input": null,
     "output": null
   },
@@ -97,6 +97,11 @@
       "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Amazon Nova Embeddings",
+      "url": "https://docs.aws.amazon.com/nova/latest/nova2-userguide/embeddings.html",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

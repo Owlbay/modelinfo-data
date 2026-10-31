@@ -45,7 +45,7 @@
     "status": "retired",
     "release_date": "2024-03-04",
     "knowledge_cutoff": "2023-08",
-    "description": null,
+    "description": "Claude Sonnet 3, balancing intelligence and speed for enterprise workloads.",
     "docs": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
     "verified_at": "2026-10-30"
   },
@@ -61,6 +61,11 @@
   "aliases": [
     "claude-3-sonnet-20240229"
   ],
+  "translations": {
+    "zh": {
+      "description": "Claude Sonnet 3，在智能与速度之间取得平衡，适用于企业级工作负载。"
+    }
+  },
   "sources": [
     {
       "title": "Model deprecations | Claude Platform Docs",
