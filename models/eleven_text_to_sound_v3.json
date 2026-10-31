@@ -1,0 +1,99 @@
+{
+  "id": "eleven_text_to_sound_v3",
+  "object": "model",
+  "created": 1793232000,
+  "owned_by": "elevenlabs",
+  "name": "SFX v3",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/elevenlabs",
+      "@elevenlabs/elevenlabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.12,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-29",
+    "knowledge_cutoff": null,
+    "description": "ElevenLabs sound effects model that generates sound effects from text prompts. Compared with eleven_text_to_sound_v2, it follows several sound instructions in one prompt more closely, handles prompts with music or vocals, sounds more natural, and is less likely to clip on high-frequency sounds; it supports looping. It uses the same Sound Effects API, where eleven_text_to_sound_v2 remains the default model_id. It is in limited access and may not be available in every region; accounts without access get an Unknown model error. The stored price is the Sound Effects API rate of $0.12 per minute.",
+    "docs": "https://elevenlabs.io/docs/overview/models",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.12,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "elevenlabs",
+      "model": "eleven_text_to_sound_v3",
+      "base_url": "https://api.elevenlabs.io",
+      "endpoints": {
+        "audio": "POST /v1/sound-generation"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "ElevenLabs 音效模型，根据文本提示生成音效。与 eleven_text_to_sound_v2 相比，它能更准确地执行同一提示中的多条声音指令，能处理包含音乐或人声的提示，声音更自然，高频声音更不容易削波，并支持循环。它使用同一个 Sound Effects API，默认 model_id 仍是 eleven_text_to_sound_v2。目前为受限访问，并非所有地区都可用；没有权限的账户会收到 Unknown model 错误。记录的价格是 Sound Effects API 的每分钟 $0.12。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Introducing SFX v3 in ElevenCreative and ElevenAPI | ElevenLabs (Oct 29, 2026)",
+      "url": "https://elevenlabs.io/blog/sound-effects-v3",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Models（SFX v3, eleven_text_to_sound_v3, limited access）| ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/overview/models",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Create sound effect | ElevenLabs API Reference",
+      "url": "https://elevenlabs.io/docs/api-reference/text-to-sound-effects/convert",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "API pricing（Sound Effects $0.12 per minute）| ElevenLabs",
+      "url": "https://elevenlabs.io/pricing/api",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "v6-max",
+  "object": "model",
+  "created": 1792627200,
+  "owned_by": "pixverse",
+  "name": "PixVerse V6 Max",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-22",
+    "knowledge_cutoff": null,
+    "description": "PixVerse video generation model for text-to-video and image-to-video only, with optional native audio. Clips are 1-15 seconds at 360p, 540p, 720p or 1080p in eight aspect ratios. First/last frame, multi-subject references, video references and video extend are not supported. The API bills in credits (225 credits = USD 1): 6, 9, 11 and 22 credits per second at 360p to 1080p without audio, and 9, 11, 15 and 28 with audio.",
+    "docs": "https://docs.platform.pixverse.ai/model-capability-map-2394982m0",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [],
+  "providers": [
+    {
+      "id": "pixverse",
+      "model": "v6-max",
+      "base_url": "https://app-api.pixverse.ai/openapi/v2",
+      "endpoints": {
+        "video": "POST /video/text/generate"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "PixVerse 视频生成模型，目前只支持文生视频和图生视频，可选原生音频。片段时长 1-15 秒，分辨率 360p、540p、720p 或 1080p，支持八种画幅比例。不支持首尾帧、多主体参考、视频参考和视频延长。API 以积分计费（225 积分 = 1 美元）：无音频时 360p 至 1080p 每秒 6、9、11、22 积分，有音频时每秒 9、11、15、28 积分。"
+    }
+  },
+  "sources": [
+    {
+      "title": "PixVerse API Changelog（2026-10-22: Added V6-max support for Text-to-Video and Image-to-Video）",
+      "url": "https://docs.platform.pixverse.ai/changelog-2394996m0",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Model Capability Map | PixVerse Platform Docs",
+      "url": "https://docs.platform.pixverse.ai/model-capability-map-2394982m0",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Text-to-Video | PixVerse Platform Docs",
+      "url": "https://docs.platform.pixverse.ai/text-to-video-13016634e0",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "PixVerse API Pricing（V6 Max credits per second）",
+      "url": "https://docs.platform.pixverse.ai/pixverse-api-pricing-2394995m0",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

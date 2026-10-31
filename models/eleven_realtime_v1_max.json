@@ -1,0 +1,110 @@
+{
+  "id": "eleven_realtime_v1_max",
+  "object": "model",
+  "created": 1792454400,
+  "owned_by": "elevenlabs",
+  "name": "Eleven Realtime v1 Max",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": [
+      "@openai/agents-realtime"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "pricing": {
+    "currency": "USD",
+    "unit": "minute",
+    "input": 0.08,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-20",
+    "knowledge_cutoff": null,
+    "description": "ElevenLabs Speech to Speech model for voice agents with complex instructions and multi-step tool calls; it reasons before it responds. One model id bundles speech recognition, turn-taking, an LLM and text to speech, tuned as one cascaded system, with 90+ languages. Use it in ElevenAgents or through the OpenAI-compatible Realtime API over WebSocket. Realtime models are rolling out gradually across workspaces. Max is available under Zero Retention Mode and HIPAA, is not available in the India and Singapore data residency environments, and needs an agent token limit of at least 1,024 or no limit. The API price is $0.08 per minute of connected audio plus LLM usage at $1.80 per 1M input tokens and $9.00 per 1M output tokens. The stored price is the per-minute rate.",
+    "docs": "https://elevenlabs.io/docs/eleven-agents/customization/realtime-models",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.08,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "elevenlabs",
+      "model": "eleven_realtime_v1_max",
+      "base_url": "wss://api.elevenlabs.io",
+      "endpoints": {
+        "realtime": "WS /v1/convai/realtime"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "ElevenLabs 面向语音智能体的语音到语音模型，适合复杂指令和多步工具调用，回答前会先推理。一个模型 ID 打包了语音识别、轮次切换、LLM 和文本转语音，作为一个级联系统整体调优，支持 90 多种语言。可在 ElevenAgents 中使用，或通过兼容 OpenAI 的 Realtime API（WebSocket）调用。Realtime 模型正在各工作区逐步开放。Max 支持零保留模式（Zero Retention Mode）和 HIPAA，不提供于印度和新加坡数据驻留环境，并要求智能体 token 上限至少为 1,024 或不设上限。API 价格为每分钟连接音频 $0.08，另加 LLM 用量：每 1M 输入 token $1.80、每 1M 输出 token $9.00。记录的是按分钟计费的价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Introducing Eleven Realtime: a simpler way to build natural voice agents | ElevenLabs (Oct 20, 2026)",
+      "url": "https://elevenlabs.io/blog/realtime",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Realtime models | ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/eleven-agents/customization/realtime-models",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Models | ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/overview/models",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "OpenAI Realtime API compatibility | ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/eleven-agents/guides/openai-realtime-compatibility",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "API pricing | ElevenLabs",
+      "url": "https://elevenlabs.io/pricing/api",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Changelog（October 19, 2026: Eleven Realtime）| ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/changelog",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

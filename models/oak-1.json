@@ -6,10 +6,12 @@
   "name": "Oak 1",
   "api": {
     "types": [
-      "audio"
+      "audio",
+      "realtime"
     ],
     "sdk": [
-      "@speechmatics/batch-client"
+      "@speechmatics/batch-client",
+      "@speechmatics/real-time-client"
     ]
   },
   "limits": {
@@ -42,9 +44,9 @@
     "status": "active",
     "release_date": "2026-10-14",
     "knowledge_cutoff": null,
-    "description": "Speechmatics multilingual speech-to-text model tuned for healthcare audio such as ambient scribes and dictation, Batch only.",
+    "description": "Speechmatics multilingual speech-to-text model tuned for healthcare audio such as ambient scribes and dictation, available for Batch and, since 2026-10-27, Realtime transcription. The stored price is the Batch rate; Realtime is $0.46 per hour.",
     "docs": "https://docs.speechmatics.com/speech-to-text/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -65,24 +67,41 @@
         "audio": "POST /v2/jobs"
       },
       "reasoning_param": null
+    },
+    {
+      "id": "speechmatics-realtime",
+      "model": "oak-1",
+      "base_url": "wss://eu.rt.speechmatics.com",
+      "endpoints": {
+        "realtime": "WS /v2"
+      },
+      "reasoning_param": null,
+      "pricing": {
+        "currency": "USD",
+        "unit": "hour",
+        "input": 0.46,
+        "output": null,
+        "cache_read": null,
+        "cache_write": null
+      }
     }
   ],
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "Speechmatics 多语言语音转文字模型，针对环境记录员（ambient scribe）和听写等医疗音频调优，仅支持批量处理。"
+      "description": "Speechmatics 多语言语音转文字模型，针对环境记录员（ambient scribe）和听写等医疗音频调优，支持批量处理，并自 2026-10-27 起支持实时转写。记录的是批量处理价格；实时转写为每小时 $0.46。"
     }
   },
   "sources": [
     {
       "title": "Models | Speechmatics Docs",
       "url": "https://docs.speechmatics.com/speech-to-text/models",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-31"
     },
     {
-      "title": "Pricing | Speechmatics",
+      "title": "Pricing（oak-1: Pre-recorded $0.30/hr, Real-time $0.46/hr base rate）| Speechmatics",
       "url": "https://www.speechmatics.com/pricing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "Official API reference",
@@ -98,6 +117,16 @@
       "title": "Meet Oak: medical transcription that follows the conversation across languages and speakers | Speechmatics",
       "url": "https://www.speechmatics.com/company/articles-and-news/meet-oak-multilingual-medical-speech-to-text",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Release Notes（2026.10.27 Realtime SaaS: Oak 1 now available for real-time transcription）| Speechmatics",
+      "url": "https://docs.speechmatics.com/release-notes",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "SDK support — @speechmatics/real-time-client (api.sdk only)",
+      "url": "https://github.com/speechmatics/speechmatics-js-sdk",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

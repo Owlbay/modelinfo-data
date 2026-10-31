@@ -6,10 +6,12 @@
   "name": "Melia 1",
   "api": {
     "types": [
-      "audio"
+      "audio",
+      "realtime"
     ],
     "sdk": [
-      "@speechmatics/batch-client"
+      "@speechmatics/batch-client",
+      "@speechmatics/real-time-client"
     ]
   },
   "limits": {
@@ -42,9 +44,9 @@
     "status": "active",
     "release_date": "2026-06-17",
     "knowledge_cutoff": null,
-    "description": "Speechmatics multilingual speech-to-text model that handles speakers switching languages mid-conversation, Batch only.",
+    "description": "Speechmatics multilingual speech-to-text model that handles speakers switching languages mid-conversation, available for Batch and, since 2026-10-13, Realtime transcription. The stored price is the Batch rate; Realtime is $0.40 per hour.",
     "docs": "https://docs.speechmatics.com/speech-to-text/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -65,24 +67,41 @@
         "audio": "POST /v2/jobs"
       },
       "reasoning_param": null
+    },
+    {
+      "id": "speechmatics-realtime",
+      "model": "melia-1",
+      "base_url": "wss://eu.rt.speechmatics.com",
+      "endpoints": {
+        "realtime": "WS /v2"
+      },
+      "reasoning_param": null,
+      "pricing": {
+        "currency": "USD",
+        "unit": "hour",
+        "input": 0.4,
+        "output": null,
+        "cache_read": null,
+        "cache_write": null
+      }
     }
   ],
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "Speechmatics 多语言语音转文字模型，可处理说话人在对话中途切换语言的情况，仅支持批量处理。"
+      "description": "Speechmatics 多语言语音转文字模型，可处理说话人在对话中途切换语言的情况，支持批量处理，并自 2026-10-13 起支持实时转写。记录的是批量处理价格；实时转写为每小时 $0.40。"
     }
   },
   "sources": [
     {
       "title": "Models | Speechmatics Docs",
       "url": "https://docs.speechmatics.com/speech-to-text/models",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-31"
     },
     {
-      "title": "Pricing | Speechmatics",
+      "title": "Pricing（melia-1: Pre-recorded $0.24/hr, Real-time $0.40/hr base rate）| Speechmatics",
       "url": "https://www.speechmatics.com/pricing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "Introducing Melia, our new multilingual speech-to-text model | Speechmatics",
@@ -98,6 +117,16 @@
       "title": "SDK support — @speechmatics/batch-client (api.sdk only)",
       "url": "https://github.com/speechmatics/speechmatics-js-sdk",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Release Notes（2026.10.13 Realtime SaaS: Melia 1 now available in Realtime）| Speechmatics",
+      "url": "https://docs.speechmatics.com/release-notes",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "SDK support — @speechmatics/real-time-client (api.sdk only)",
+      "url": "https://github.com/speechmatics/speechmatics-js-sdk",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

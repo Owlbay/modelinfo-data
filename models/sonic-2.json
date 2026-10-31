@@ -33,12 +33,12 @@
   "pricing": null,
   "features": [],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2025-03-07",
     "knowledge_cutoff": null,
-    "description": "Cartesia text-to-speech model for 8 languages; stops working after 2026-10-20, migrate to Sonic 3.6.",
+    "description": "Cartesia text-to-speech model for 8 languages; stopped working after 2026-10-20 per the official sunset notice; migrate to Sonic 3.6.",
     "docs": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [],
   "providers": [
@@ -59,7 +59,7 @@
   ],
   "translations": {
     "zh": {
-      "description": "Cartesia 文字转语音模型，支持 8 种语言；2026-10-20 之后停止工作，请迁移至 Sonic 3.6。"
+      "description": "Cartesia 文字转语音模型，支持 8 种语言；按官方停用公告已于 2026-10-20 之后停止工作，请迁移至 Sonic 3.6。"
     }
   },
   "sources": [
