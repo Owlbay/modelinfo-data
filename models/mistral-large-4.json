@@ -34,7 +34,8 @@
   "reasoning": {
     "supported": true,
     "efforts": [
-      "none",
+      "low",
+      "medium",
       "high"
     ]
   },
@@ -56,9 +57,9 @@
     "status": "preview",
     "release_date": "2026-10-06",
     "knowledge_cutoff": null,
-    "description": "State-of-the-art, open-weight, general-purpose multimodal model with a granular Mixture-of-Experts architecture.",
+    "description": "State-of-the-art, open-weight, general-purpose multimodal model with a granular Mixture-of-Experts architecture. The model page lists API names mistral-large-4 and mistral-large-4-0, status Public Preview, and release date 2026-10-06. On 2026-10-29 Mistral released the weights of this same model. The model card says about 1T total parameters, 49B active per token, and 52B including embeddings and output layers; the model page says 1.05T total and 52B active. Context length is written as 1M, and the model card's local config sets max_context_length to 1048576. Input is text and image, and output is text. reasoning_effort accepts low, medium, or high, and high is the default; low replaces the earlier none mode. Weights are on Hugging Face as mistralai/Mistral-Large-4-1T-A52B, and a separate NVFP4 checkpoint is mistralai/Mistral-Large-4-1T-A52B-NVFP4. That card refers to an FP8 checkpoint, but the public model list has no separate FP8 repository. The license is the Mistral Ecosystem Open-Weight License, a modified MIT license. The API price is $0.70 per 1M input tokens, $0.07 cached input, and $2.10 output.",
     "docs": "https://docs.mistral.ai/models/mistral-large-4-0",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -87,19 +88,19 @@
   ],
   "translations": {
     "zh": {
-      "description": "最先进的开放权重通用多模态模型，采用细粒度混合专家（Mixture-of-Experts）架构。"
+      "description": "最先进的开放权重通用多模态模型，采用细粒度混合专家（Mixture-of-Experts）架构。模型页列出的 API 名称是 mistral-large-4 和 mistral-large-4-0，状态为 Public Preview，发布日为 2026-10-06。2026-10-29，Mistral 发布了同一模型的权重。模型卡写总参数约 1T，每 token 激活 49B，算上嵌入和输出层为 52B；模型页写总参数 1.05T、激活 52B。上下文写成 1M，模型卡的本地配置把 max_context_length 设为 1048576。输入为文本和图像，输出为文本。reasoning_effort 可取 low、medium 或 high，默认 high；low 取代了先前的 none。权重在 Hugging Face 的 mistralai/Mistral-Large-4-1T-A52B，另有 NVFP4 检查点 mistralai/Mistral-Large-4-1T-A52B-NVFP4。该卡提到 FP8 检查点，但公开模型列表里没有单独的 FP8 仓库。许可证是 Mistral Ecosystem Open-Weight License，即修改版 MIT。API 价格为输入每百万 tokens 0.70 美元、缓存输入 0.07 美元、输出 2.10 美元。"
     }
   },
   "sources": [
     {
       "title": "Mistral Large 4 | Mistral Docs",
       "url": "https://docs.mistral.ai/models/mistral-large-4-0",
-      "retrieved_at": "2026-10-30"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "API pricing | Mistral Docs",
       "url": "https://docs.mistral.ai/inference/pricing",
-      "retrieved_at": "2026-10-30"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "Models overview | Mistral Docs",
@@ -112,9 +113,19 @@
       "retrieved_at": "2026-10-10"
     },
     {
-      "title": "Mistral-Large-3-675B-Instruct-2512 (256k context, 262144) | Hugging Face",
-      "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
-      "retrieved_at": "2026-10-10"
+      "title": "Mistral Large 4 (Le Chonk) is now open weight | Mistral",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "mistralai/Mistral-Large-4-1T-A52B | Hugging Face",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "mistralai/Mistral-Large-4-1T-A52B-NVFP4 | Hugging Face",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B-NVFP4",
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",
@@ -149,7 +160,7 @@
     {
       "title": "Mistral Large 4 | Mistral Docs (official Markdown)",
       "url": "https://docs.mistral.ai/models/mistral-large-4-0.md",
-      "retrieved_at": "2026-10-30"
+      "retrieved_at": "2026-10-31"
     }
   ]
 }
