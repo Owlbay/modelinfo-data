@@ -44,12 +44,12 @@
     "structured_output"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2025-04-22",
     "knowledge_cutoff": "2024-09",
-    "description": "Compact 10.7B-parameter Solar model for instruction-following conversation and fine-tuning; fully deprecated on 2026-10-30 (KST), migrate to Solar Mini 4.",
+    "description": "Compact 10.7B-parameter Solar model for instruction-following conversation and fine-tuning; Upstage API support ended on 2026-10-30, migrate to Solar Mini 4.",
     "docs": "https://console.upstage.ai/docs/models/solar-mini",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -79,7 +79,7 @@
   ],
   "translations": {
     "zh": {
-      "description": "紧凑的 10.7B 参数 Solar 模型，用于遵循指令的对话和微调；将于 2026-10-30（KST）完全弃用，请迁移至 Solar Mini 4。"
+      "description": "紧凑的 10.7B 参数 Solar 模型，用于遵循指令的对话和微调；Upstage API 已于 2026-10-30 停止支持，请迁移至 Solar Mini 4。"
     }
   },
   "sources": [
@@ -117,6 +117,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Changelog (October 30, 2026: deprecation) | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/resources/changelog",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

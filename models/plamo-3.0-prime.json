@@ -48,12 +48,12 @@
     "streaming"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2026-06-22",
     "knowledge_cutoff": null,
-    "description": "Preferred Networks flagship Japanese LLM with reasoning support and a 256K context window.",
+    "description": "Preferred Networks flagship Japanese LLM with reasoning support and a 256K context window; service ends on 2027-01-31, migrate to PLaMo 3.1 Prime (requests are routed to plamo-3.1-prime from 2027-02-01).",
     "docs": "https://docs.plamo.preferredai.jp/en/api",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -79,7 +79,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "Preferred Networks 旗舰日语大语言模型，支持推理，上下文窗口为 256K。"
+      "description": "Preferred Networks 旗舰日语大语言模型，支持推理，上下文窗口为 256K；将于 2027-01-31 停止提供，请迁移至 PLaMo 3.1 Prime（2027-02-01 起请求将自动切换到 plamo-3.1-prime）。"
     }
   },
   "sources": [
@@ -112,6 +112,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "PLaMo 3.0 Prime の提供終了について (2026-10-30)",
+      "url": "https://plamo.preferredai.jp/news/20261030-plamo-3-0-close",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

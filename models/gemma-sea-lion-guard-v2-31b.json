@@ -1,0 +1,72 @@
+{
+  "id": "gemma-sea-lion-guard-v2-31b",
+  "object": "model",
+  "created": 1792540800,
+  "owned_by": "aisingapore",
+  "name": "Gemma-SEA-LION-Guard-v2-31B",
+  "api": {
+    "types": [
+      "moderation"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "pricing": null,
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-21",
+    "knowledge_cutoff": null,
+    "description": "SEA-LION-Guard v2 safety and action-governance decision model for Southeast Asian languages, fine-tuned from Gemma 4 31B. Instead of free text it returns probabilities for content moderation (safe / sensitive / unsafe), rule applicability and rule violation, and supports multi-turn evaluation, bring-your-own-policy rules and tool-call evaluation. Open weights under MIT with a 256K-token context; no public per-token API price.",
+    "docs": "https://docs.sea-lion.ai/models/sea-lion-guard-v2/gemma-sea-lion-guard-v2",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [],
+  "providers": [],
+  "aliases": [
+    "aisingapore/Gemma-SEA-LION-Guard-v2-31B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "SEA-LION-Guard v2 安全与行为治理决策模型，面向东南亚语言，基于 Gemma 4 31B 微调。不生成自由文本，而是返回内容审核（安全 / 敏感 / 不安全）、规则适用性与规则违反的概率，支持多轮对话评估、自定义策略规则与工具调用评估。开放权重，MIT 许可，上下文 256K tokens；官方未公布按量 API 价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemma-SEA-LION-Guard-v2 | SEA-LION Docs",
+      "url": "https://docs.sea-lion.ai/models/sea-lion-guard-v2/gemma-sea-lion-guard-v2",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Safeguarding Regional Agents: Announcing Gemma-SEA-LION-Guard-v2 (31B, E4B, E2B) | SEA-LION (2026-10-21)",
+      "url": "https://sea-lion.ai/blog/safeguarding-regional-agents-announcing-gemma-sea-lion-guard-v2-31b-e4b-e2b/",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "aisingapore/Gemma-SEA-LION-Guard-v2-31B model card | Hugging Face",
+      "url": "https://huggingface.co/aisingapore/Gemma-SEA-LION-Guard-v2-31B",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "aisingapore/Gemma-SEA-LION-Guard-v2-31B config.json | Hugging Face",
+      "url": "https://huggingface.co/aisingapore/Gemma-SEA-LION-Guard-v2-31B/blob/main/config.json",
+      "retrieved_at": "2026-10-31"
+    }
+  ]
+}

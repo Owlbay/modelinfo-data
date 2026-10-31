@@ -44,12 +44,12 @@
     "structured_output"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2025-12-15",
     "knowledge_cutoff": "2025-03",
-    "description": "High-performance Solar model (31B parameters) supporting both chat and reasoning modes; fully deprecated on 2026-10-30 (KST), migrate to Solar Pro 4.",
+    "description": "High-performance Solar model (31B parameters) supporting both chat and reasoning modes; Upstage API support ended on 2026-10-30, migrate to Solar Pro 4.",
     "docs": "https://console.upstage.ai/docs/models/solar-pro-2",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-10-31"
   },
   "prices": [
     {
@@ -79,7 +79,7 @@
   ],
   "translations": {
     "zh": {
-      "description": "高性能 Solar 模型（31B 参数），同时支持聊天和推理模式；将于 2026-10-30（KST）完全弃用，请迁移至 Solar Pro 4。"
+      "description": "高性能 Solar 模型（31B 参数），同时支持聊天和推理模式；Upstage API 已于 2026-10-30 停止支持，请迁移至 Solar Pro 4。"
     }
   },
   "sources": [
@@ -117,6 +117,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Changelog (October 30, 2026: deprecation) | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/resources/changelog",
+      "retrieved_at": "2026-10-31"
     }
   ]
 }

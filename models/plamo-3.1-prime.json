@@ -1,0 +1,122 @@
+{
+  "id": "plamo-3.1-prime",
+  "object": "model",
+  "created": 1793059200,
+  "owned_by": "pfn",
+  "name": "PLaMo 3.1 Prime",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": 20480
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "medium"
+    ]
+  },
+  "pricing": {
+    "currency": "JPY",
+    "unit": "1M_tokens",
+    "input": 60,
+    "output": 250,
+    "cache_read": null,
+    "cache_write": null
+  },
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-27",
+    "knowledge_cutoff": null,
+    "description": "Preferred Networks flagship Japanese LLM with reasoning and non-reasoning modes, a 256K context window, and built-in web search via web_search_options; improved factuality and faithfulness over PLaMo 3.0 Prime.",
+    "docs": "https://docs.plamo.preferredai.jp/en/api",
+    "verified_at": "2026-10-31"
+  },
+  "prices": [
+    {
+      "currency": "JPY",
+      "unit": "1M_tokens",
+      "input": 60,
+      "output": 250,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "pfn",
+      "model": "plamo-3.1-prime",
+      "base_url": "https://api.platform.preferredai.jp",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Preferred Networks 旗舰日语大语言模型，支持推理与非推理模式，上下文窗口为 256K，可通过 web_search_options 内置网页搜索；事实性与忠实性较 PLaMo 3.0 Prime 有所提升。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Completion API | PLaMo Reference",
+      "url": "https://docs.plamo.preferredai.jp/en/api",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "PLaMo API（料金プラン）",
+      "url": "https://plamo.preferredai.jp/api",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "PLaMo 3.1 Prime 提供開始 (2026-10-27)",
+      "url": "https://www.preferred.jp/ja/news/pr20261027",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "PLaMo 3.0 Prime の提供終了について (2026-10-30)",
+      "url": "https://plamo.preferredai.jp/news/20261030-plamo-3-0-close",
+      "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}
