@@ -1,0 +1,13 @@
+{
+  "json.schemas": [
+    { "fileMatch": ["/models/*.json"], "url": "./schema/model.schema.json" },
+    { "fileMatch": ["/vendors/*.json"], "url": "./schema/vendor.schema.json" },
+    { "fileMatch": ["/providers/*.json"], "url": "./schema/provider.schema.json" }
+  ],
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  }
+}

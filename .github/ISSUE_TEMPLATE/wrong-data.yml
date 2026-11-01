@@ -1,0 +1,35 @@
+name: 报告错误数据 / Report wrong data
+description: 某个模型、厂商或供应商的数据与官方页面不一致
+title: "数据有误："
+labels: ["bug"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: 文件或模型 ID / File or model ID
+      placeholder: models/gpt-5.json
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: 哪个字段不对 / Which field is wrong
+      description: 写出字段、当前值与官方页面上的正确值。
+      placeholder: |
+        prices[0].output：当前 10，官方价格页为 8
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 官方来源链接 / Official source URL
+      description: 必须是模型厂商或供应商的官方页面，第三方聚合站不算。
+      placeholder: https://
+    validations:
+      required: true
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: 其他 / Other
+      options:
+        - label: 我愿意提 PR 修正 / I can open a PR to fix it

@@ -62,6 +62,30 @@
     "docs": "https://docs.particle.ai/models",
     "verified_at": "2026-10-29"
   },
+  "providers": [
+    {
+      "id": "particle",
+      "model": "particle-1",
+      "base_url": "https://api.particle.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "completions": "POST /v1/completions"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort"
+      }
+    },
+    {
+      "id": "particle",
+      "model": "particle-1",
+      "base_url": "wss://api.particle.ai",
+      "endpoints": {
+        "responses": "WS /v1/responses"
+      },
+      "reasoning_param": "reasoning.effort"
+    }
+  ],
   "aliases": [
     "particle-ai/particle-1"
   ],
@@ -105,30 +129,6 @@
       "title": "Responses WebSocket API | Particle API",
       "url": "https://docs.particle.ai/responses",
       "retrieved_at": "2026-10-29"
-    }
-  ],
-  "providers": [
-    {
-      "id": "particle",
-      "model": "particle-1",
-      "base_url": "https://api.particle.ai",
-      "endpoints": {
-        "chat": "POST /v1/chat/completions",
-        "completions": "POST /v1/completions"
-      },
-      "reasoning_param": "reasoning_effort",
-      "reasoning_params": {
-        "chat": "reasoning_effort"
-      }
-    },
-    {
-      "id": "particle",
-      "model": "particle-1",
-      "base_url": "wss://api.particle.ai",
-      "endpoints": {
-        "responses": "WS /v1/responses"
-      },
-      "reasoning_param": "reasoning.effort"
     }
   ]
 }

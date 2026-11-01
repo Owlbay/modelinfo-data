@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Owlbay/modelinfo-data/raw/main/schema/model.schema.json",
+  "title": "ModelInfo 模型 / Model",
+  "description": "models/<id>.json：一个模型一个文件。字段顺序固定（go run ./cmd/check --fix 可自动排序）；未知写 null 或 []，不推算、不填 0。完整说明见 docs/fields.md。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "object", "created", "owned_by", "name", "api", "limits", "modalities", "reasoning", "prices", "features", "info", "providers", "aliases", "sources"],
+  "properties": {
+    "id": {
+      "description": "调用接口时传的模型 ID，与文件名一致 / Model ID used in API calls; must equal the file name.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]*$"
+    },
+    "object": {
+      "description": "固定为 model / Always \"model\".",
+      "const": "model"
+    },
+    "created": {
+      "description": "发布时间（Unix 秒，UTC 当天 0 点），与 info.release_date 一致；未知为 null / Release time (Unix seconds, 00:00 UTC), consistent with info.release_date.",
+      "type": ["integer", "null"],
+      "exclusiveMinimum": 0
+    },
+    "owned_by": {
+      "description": "模型厂商 ID，必须存在于 vendors/ / Vendor ID; must exist in vendors/.",
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "description": "显示名称 / Display name.",
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "api": {
+      "description": "接口类型与官方 SDK / API types and official SDK packages.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["types", "sdk"],
+      "properties": {
+        "types": {
+          "description": "支持的接口类型，至少一项 / Supported API types (at least one).",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/apiType" }
+        },
+        "sdk": {
+          "description": "可调用该模型的 SDK 包名（npm 或 PyPI）；没有时写 [] / SDK package names.",
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^(?:@[a-z0-9._-]+/)?[a-z0-9._-]+(?:/[a-z0-9._-]+)*$" }
+        }
+      }
+    },
+    "limits": { "$ref": "#/definitions/limits" },
+    "modalities": { "$ref": "#/definitions/modalities" },
+    "reasoning": {
+      "description": "推理（思考）能力 / Reasoning support.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["supported", "efforts"],
+      "properties": {
+        "supported": {
+          "description": "是否支持推理；未知为 null / Whether reasoning is supported; null if unknown.",
+          "type": ["boolean", "null"]
+        },
+        "efforts": {
+          "description": "可选的推理强度档位，按官方写法；没有时写 [] / Reasoning effort levels as named officially.",
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "prices": {
+      "description": "官方公布的全部币种标价，主币种在前，同一币种只出现一次；不换算汇率；没有公开价时写 [] / Official prices per currency, primary first; never converted.",
+      "type": "array",
+      "items": { "$ref": "#/definitions/price" }
+    },
+    "features": {
+      "description": "支持的功能；没有时写 [] / Supported features.",
+      "type": "array",
+      "items": { "$ref": "#/definitions/feature" }
+    },
+    "info": {
+      "description": "状态与说明 / Status and metadata.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "release_date", "knowledge_cutoff", "description", "docs", "verified_at"],
+      "properties": {
+        "status": {
+          "description": "preview 预览 · active 可用 · deprecated 已弃用（仍可调用，有下线计划） · retired 已下线",
+          "enum": ["preview", "active", "deprecated", "retired"]
+        },
+        "release_date": {
+          "description": "发布日期 YYYY-MM-DD，与 created 一致；未知为 null / Release date.",
+          "$ref": "#/definitions/nullableDate"
+        },
+        "knowledge_cutoff": {
+          "description": "训练数据截止，按官方写法（如 2026-06）；未知为 null / Knowledge cutoff.",
+          "type": ["string", "null"]
+        },
+        "description": {
+          "description": "一句话简介（多为英文原文）；未知为 null / One-line description.",
+          "type": ["string", "null"]
+        },
+        "docs": {
+          "description": "官方文档页网址；没有为 null / Official docs URL.",
+          "type": ["string", "null"],
+          "pattern": "^https?://"
+        },
+        "verified_at": {
+          "description": "最近一次对照官方页面核实的日期；未核实为 null / Last verified against official pages.",
+          "$ref": "#/definitions/nullableDate"
+        }
+      }
+    },
+    "providers": {
+      "description": "能调用该模型的官方接入点（维护字段，不进入 /v1/models）；没有时写 [] / Official API endpoints serving this model.",
+      "type": "array",
+      "items": { "$ref": "#/definitions/provider" }
+    },
+    "aliases": {
+      "description": "旧 ID 或其他叫法；与全部模型的 ID、别名都不能重复；没有时写 [] / Old IDs or other names; unique across all models.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "\\S" }
+    },
+    "translations": {
+      "description": "简介的译文（可省略）；info.description 为 null 时不能有 / Translations of info.description (optional).",
+      "type": "object",
+      "propertyNames": { "enum": ["zh", "en"] },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["description"],
+        "properties": {
+          "description": { "type": "string", "pattern": "\\S" }
+        }
+      }
+    },
+    "sources": {
+      "description": "官方来源，至少一条；必须是厂商或供应商的官方页面，第三方聚合站不算 / Official sources (vendor or provider pages only).",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/source" }
+    }
+  },
+  "definitions": {
+    "apiType": {
+      "description": "chat 为 OpenAI Chat Completions 兼容，messages 为 Anthropic Messages 兼容，responses 为 OpenAI Responses 兼容。",
+      "enum": ["chat", "messages", "responses", "interactions", "completions", "generate", "batch", "realtime", "embeddings", "images", "video", "audio", "3d", "rerank", "ocr", "moderation"]
+    },
+    "modality": {
+      "enum": ["text", "image", "audio", "video", "document", "embedding", "score", "3d"]
+    },
+    "feature": {
+      "enum": ["tools", "structured_output", "streaming", "caching", "batch"]
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "nullableDate": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "token": {
+      "type": ["integer", "null"],
+      "exclusiveMinimum": 0
+    },
+    "amount": {
+      "description": "单价（按 unit 计）；未公布为 null，免费为 0 / Price per unit; null if not published.",
+      "type": ["number", "null"],
+      "minimum": 0
+    },
+    "limits": {
+      "description": "Token 上限；未知为 null。input、output 不能大于 context / Token limits.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["context", "input", "output"],
+      "properties": {
+        "context": { "description": "上下文窗口 / Context window.", "$ref": "#/definitions/token" },
+        "input": { "description": "最大输入 / Max input tokens.", "$ref": "#/definitions/token" },
+        "output": { "description": "最大输出 / Max output tokens.", "$ref": "#/definitions/token" }
+      }
+    },
+    "modalities": {
+      "description": "输入、输出模态，各至少一项 / Input and output modalities.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input", "output"],
+      "properties": {
+        "input": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/modality" } },
+        "output": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/modality" } }
+      }
+    },
+    "price": {
+      "description": "一种币种的官方标价；分时段、阶梯价只记标准价（阶梯取最低一档）/ Official price in one currency.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["currency", "unit", "input", "output", "cache_read", "cache_write"],
+      "properties": {
+        "currency": { "description": "ISO 4217 币种代码，如 USD、CNY / Currency code.", "type": "string", "pattern": "^[A-Z]{3}$" },
+        "unit": {
+          "description": "计价单位 / Pricing unit.",
+          "enum": ["1M_tokens", "1M_characters", "image", "second", "minute", "hour", "request", "page"]
+        },
+        "input": { "description": "输入单价 / Input price.", "$ref": "#/definitions/amount" },
+        "output": { "description": "输出单价 / Output price.", "$ref": "#/definitions/amount" },
+        "cache_read": { "description": "缓存命中单价 / Cache read price.", "$ref": "#/definitions/amount" },
+        "cache_write": { "description": "缓存写入单价 / Cache write price.", "$ref": "#/definitions/amount" }
+      }
+    },
+    "provider": {
+      "description": "一个供应商接入点；HTTP 与 WebSocket 端点分成两项 / One provider endpoint set.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "model", "base_url", "endpoints", "reasoning_param"],
+      "properties": {
+        "id": { "description": "供应商 ID，必须存在于 providers/ / Provider ID.", "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "model": { "description": "在该供应商处调用时的模型 ID / Model ID at this provider.", "type": "string", "pattern": "\\S" },
+        "base_url": { "description": "https:// 或 wss:// 开头 / Base URL.", "type": "string", "pattern": "^(https|wss)://" },
+        "endpoints": {
+          "description": "接口类型 → \"GET|POST|WS /路径\"；类型必须在 api.types 中 / API type → endpoint.",
+          "type": "object",
+          "propertyNames": { "$ref": "#/definitions/apiType" },
+          "additionalProperties": { "type": "string", "pattern": "^(GET|POST|WS) /" }
+        },
+        "reasoning_param": { "description": "开启或调节推理的请求参数名；没有为 null / Reasoning request parameter.", "type": ["string", "null"] },
+        "reasoning_params": {
+          "description": "（可选）按接口类型区分的推理参数，键必须是已登记的端点 / Per-endpoint reasoning parameter.",
+          "type": "object",
+          "propertyNames": { "$ref": "#/definitions/apiType" },
+          "additionalProperties": { "type": ["string", "null"] }
+        },
+        "reasoning_efforts": { "description": "（可选）该供应商支持的推理档位，与模型不同时才写", "type": "array", "items": { "type": "string" } },
+        "limits": { "description": "（可选）与模型不同时才写", "$ref": "#/definitions/limits" },
+        "modalities": { "description": "（可选）与模型不同时才写", "$ref": "#/definitions/modalities" },
+        "features": { "description": "（可选）与模型不同时才写", "type": "array", "items": { "$ref": "#/definitions/feature" } },
+        "prices": { "description": "（可选）与模型不同时才写；[] 表示该供应商没有公开价", "type": "array", "items": { "$ref": "#/definitions/price" } }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "retrieved_at"],
+      "properties": {
+        "title": { "description": "页面标题 / Page title.", "type": "string" },
+        "url": { "description": "官方页面的 https 网址 / Official https URL.", "type": "string", "pattern": "^https://" },
+        "retrieved_at": { "description": "查阅日期 YYYY-MM-DD / Date retrieved.", "$ref": "#/definitions/date" }
+      }
+    }
+  }
+}

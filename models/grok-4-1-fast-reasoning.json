@@ -59,12 +59,12 @@
   "providers": [
     {
       "id": "xai",
+      "model": "grok-4-1-fast-reasoning",
       "base_url": "https://api.x.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions"
       },
-      "reasoning_param": null,
-      "model": "grok-4-1-fast-reasoning"
+      "reasoning_param": null
     }
   ],
   "aliases": [

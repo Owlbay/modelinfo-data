@@ -54,12 +54,12 @@
   "providers": [
     {
       "id": "xai",
+      "model": "grok-2-image-1212",
       "base_url": "https://api.x.ai",
       "endpoints": {
         "images": "POST /v1/images/generations"
       },
-      "reasoning_param": null,
-      "model": "grok-2-image-1212"
+      "reasoning_param": null
     }
   ],
   "aliases": [

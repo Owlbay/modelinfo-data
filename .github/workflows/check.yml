@@ -1,0 +1,31 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+      - name: 校验数据（错误会标注到 PR 的文件与行）
+        run: go run ./cmd/check
+      - name: go vet
+        if: ${{ !cancelled() }}
+        run: go vet ./...
+      - name: go test
+        if: ${{ !cancelled() }}
+        run: go test ./...

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 贡献指南 / Contributing guide
+    url: https://github.com/Owlbay/modelinfo-data/blob/main/CONTRIBUTING.md
+    about: 想直接修改数据？请先阅读贡献指南后提 PR。
