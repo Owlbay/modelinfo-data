@@ -110,7 +110,7 @@ func shape(p *Problems, path string, n jsonx.Node, t reflect.Type) {
 		for i, k := range n.Keys {
 			f, ok := known[k]
 			if !ok {
-				add("未知字段 %s（可用字段：%s）", k, strings.Join(names(fields), "、"))
+				*p = append(*p, join(path, k)+"："+fmt.Sprintf("未知字段（可用字段：%s）", strings.Join(names(fields), "、")))
 				continue
 			}
 			order = append(order, k)

@@ -87,7 +87,7 @@ func TestShape(t *testing.T) {
 		name, from, to, want string
 	}{
 		{"缺少字段", `"created": 1785715200,`, ``, "缺少字段 created"},
-		{"未知字段", `"object": "model",`, `"object": "model", "foo": 1,`, "未知字段 foo"},
+		{"未知字段", `"object": "model",`, `"object": "model", "foo": 1,`, "foo：未知字段"},
 		{"字段顺序", `"object": "model",
   "created": 1785715200,`, `"created": 1785715200,
   "object": "model",`, "字段顺序应为 id、object、created"},

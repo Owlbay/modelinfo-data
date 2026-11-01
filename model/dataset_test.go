@@ -83,7 +83,7 @@ func TestLoad(t *testing.T) {
 		"models/d.json:2: 格式不标准：第 2 行应为 `  \"id\": \"d\",`",
 		"models/e.json:41: aliases[0]：别名 a 已被模型 a 使用",
 		"models/a.json:2: id：a 已是模型 e 的别名",
-		"models/f.json:2: 第 2 行：JSON 语法错误",
+		"行：JSON 语法错误：", // 行号与报错文字随 Go 版本略有不同
 		"models/g.json:1: 缺少字段 name",
 		"models/README.md: models/ 下只能放 .json 文件",
 	}
