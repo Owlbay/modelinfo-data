@@ -1,0 +1,31 @@
+name: 请求收录模型 / Request a model
+description: 希望收录一个还没有的模型
+title: "收录："
+labels: ["收录请求"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        收录范围：在模型厂商自家官方 API 上可调用（或曾经可调用）的模型。只有开源权重、没有官方 API 的模型暂不收录。
+        Scope: models callable on the vendor's own official API (current or retired). Open-weight-only models are out of scope.
+  - type: input
+    id: model
+    attributes:
+      label: 模型 ID 与厂商 / Model ID and vendor
+      placeholder: mistral-medium-4（Mistral）
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 官方页面 / Official pages
+      description: 模型页、价格页或发布公告等官方链接，每行一个。
+      placeholder: https://
+    validations:
+      required: true
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: 其他 / Other
+      options:
+        - label: 我愿意提 PR 收录 / I can open a PR to add it
