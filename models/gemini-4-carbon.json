@@ -48,6 +48,7 @@
     "docs": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
     "verified_at": "2026-10-29"
   },
+  "providers": [],
   "aliases": [],
   "translations": {
     "zh": {
@@ -70,6 +71,5 @@
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
       "retrieved_at": "2026-10-29"
     }
-  ],
-  "providers": []
+  ]
 }
