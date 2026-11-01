@@ -106,7 +106,7 @@ PR 上的 CI 会把同样的错误标注到对应文件的对应行。
 - [ ] CI 通过（`go run ./cmd/check`）。
 - [ ] 一个 PR 只包含一类改动，标题说明改了什么，例如 `数据：收录 Mistral Medium 4` 或 `data: update GPT-5 prices`。
 
-合并后几分钟内线上自动更新。发现线上数据有误但不方便改？请[提 Issue](https://github.com/Owlbay/modelinfo-data/issues/new/choose)。
+`main` 分支受保护：所有改动都要通过 PR，`check` 通过并经维护者（CODEOWNERS）批准后才能合并。合并后几秒内线上自动更新（webhook 触发；万一丢失，5 分钟内兜底同步）。发现线上数据有误但不方便改？请[提 Issue](https://github.com/Owlbay/modelinfo-data/issues/new/choose)。
 
 ## 许可
 
