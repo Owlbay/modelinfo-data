@@ -1,7 +1,7 @@
 name: 请求收录模型 / Request a model
 description: 希望收录一个还没有的模型
 title: "收录："
-labels: ["收录请求"]
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:

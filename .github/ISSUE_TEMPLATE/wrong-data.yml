@@ -1,7 +1,7 @@
 name: 报告错误数据 / Report wrong data
 description: 某个模型、厂商或供应商的数据与官方页面不一致
 title: "数据有误："
-labels: ["错误数据"]
+labels: ["bug"]
 body:
   - type: input
     id: file
