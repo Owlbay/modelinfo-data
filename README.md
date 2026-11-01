@@ -5,7 +5,7 @@
 
 [modelinfo.dev](https://modelinfo.dev) 的模型数据：模型规格、价格与供应商，每个数值都来自模型厂商的官方页面。
 
-本仓库是**唯一数据来源**：合并到 `main` 的改动会自动同步到 modelinfo.dev 与 `https://modelinfo.dev/v1/models`。欢迎提 PR 补充新模型、更新价格或修正错误，规则见 [CONTRIBUTING.md](CONTRIBUTING.md)；发现错误但不方便改，请[提 Issue](https://github.com/Owlbay/modelinfo-data/issues/new/choose)。
+本仓库是**唯一数据来源**：合并到 `main` 的改动会在几秒内自动同步到 modelinfo.dev 与 `https://modelinfo.dev/v1/models`。欢迎提 PR 补充新模型、更新价格或修正错误，规则见 [CONTRIBUTING.md](CONTRIBUTING.md)；发现错误但不方便改，请[提 Issue](https://github.com/Owlbay/modelinfo-data/issues/new/choose)。
 
 > Model specs, prices and providers behind modelinfo.dev, every value sourced from official vendor pages. This repo is the single source of truth; merged PRs are synced to the site automatically. See [CONTRIBUTING.md](CONTRIBUTING.md) (English summary at the top).
 
