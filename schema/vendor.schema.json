@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Owlbay/modelinfo-data/raw/main/schema/vendor.schema.json",
+  "title": "ModelInfo 模型厂商 / Vendor",
+  "description": "vendors/<id>.json：模型厂商（模型的 owned_by 引用它）。字段顺序为 id、name、url、icon。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "url"],
+  "properties": {
+    "id": { "description": "厂商 ID，与文件名一致 / Vendor ID; must equal the file name.", "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "description": "显示名称 / Display name.", "type": "string", "pattern": "\\S" },
+    "url": { "description": "官网 https 网址 / Official website.", "type": "string", "pattern": "^https://" },
+    "icon": { "description": "（可选）@lobehub/icons 的单色图标名 / Optional @lobehub/icons name.", "type": "string", "pattern": "^[a-z0-9-]+$" }
+  }
+}
