@@ -1,7 +1,7 @@
 {
   "id": "kimi-k3.1-pro-highspeed",
   "object": "model",
-  "created": null,
+  "created": 1792800000,
   "owned_by": "moonshot",
   "name": "Kimi K3.1 Pro Highspeed",
   "api": {
@@ -51,11 +51,11 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-24",
     "knowledge_cutoff": null,
     "description": "High-speed variant of Kimi K3.1 Pro that delivers 2-3× the speed of K3.1 Pro. It uses the same 1,048,576-token context, image and video input, and always-on thinking.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
-    "verified_at": "2026-10-26"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -118,6 +118,11 @@
       "title": "Introducing Kimi K3.1 Pro | Kimi",
       "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
       "retrieved_at": "2026-10-26"
+    },
+    {
+      "title": "Kimi K3.1 Pro：智能前沿，更进一步 | Kimi",
+      "url": "https://www.kimi.com/news/kimi-k3-1-pro",
+      "retrieved_at": "2026-11-02"
     }
   ]
 }
