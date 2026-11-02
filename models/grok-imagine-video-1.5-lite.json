@@ -1,7 +1,7 @@
 {
   "id": "grok-imagine-video-1.5-lite",
   "object": "model",
-  "created": null,
+  "created": 1791417600,
   "owned_by": "xai",
   "name": "Grok Imagine Video 1.5 Lite",
   "api": {
@@ -46,11 +46,11 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-08",
     "knowledge_cutoff": null,
     "description": "xAI video generation model, priced at $0.02 per second of output.",
     "docs": "https://docs.x.ai/developers/models/grok-imagine-video-1.5-lite",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-03"
   },
   "providers": [
     {
@@ -89,6 +89,11 @@
       "title": "Video Generation | xAI Docs",
       "url": "https://docs.x.ai/developers/model-capabilities/video/generation",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Grok Imagine（@imagine）发布帖：Video 1.5 Lite is live in the Grok Imagine API | X",
+      "url": "https://x.com/imagine/status/2108280250673352929",
+      "retrieved_at": "2026-11-03"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",
