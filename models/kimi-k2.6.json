@@ -64,12 +64,12 @@
     "batch"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2026-04-20",
     "knowledge_cutoff": null,
     "description": "Kimi general-purpose model with stronger long-horizon coding, instruction following and agent execution.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-6-quickstart",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -94,7 +94,7 @@
     {
       "title": "Model List | Kimi API Platform",
       "url": "https://platform.kimi.ai/docs/models",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Chat Model Pricing | Kimi API Platform",
@@ -104,7 +104,7 @@
     {
       "title": "Kimi K2.6 Quickstart | Kimi API Platform",
       "url": "https://platform.kimi.ai/docs/guide/kimi-k2-6-quickstart",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Kimi K2.6 | Kimi Blog",
