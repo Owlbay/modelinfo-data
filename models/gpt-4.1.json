@@ -52,12 +52,12 @@
     "batch"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2025-04-14",
     "knowledge_cutoff": "2024-06-01",
     "description": "Smartest non-reasoning model with strong instruction following and tool calling.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-4.1",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -84,7 +84,7 @@
     {
       "title": "GPT-4.1 Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-4.1",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Pricing | OpenAI API",
@@ -94,12 +94,17 @@
     {
       "title": "Models | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/all",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Changelog | OpenAI API",
       "url": "https://developers.openai.com/api/docs/changelog",
       "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",

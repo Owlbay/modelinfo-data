@@ -50,12 +50,12 @@
     "batch"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2024-04-09",
     "knowledge_cutoff": "2023-12-01",
     "description": "An older high-intelligence GPT model.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-4-turbo",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -82,7 +82,7 @@
     {
       "title": "GPT-4 Turbo Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-4-turbo",
-      "retrieved_at": "2026-10-15"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Pricing | OpenAI API",
@@ -92,12 +92,12 @@
     {
       "title": "Models | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/all",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Deprecations | OpenAI API",
       "url": "https://developers.openai.com/api/docs/deprecations",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Changelog | OpenAI API",

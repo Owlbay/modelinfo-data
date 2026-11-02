@@ -48,12 +48,12 @@
     "batch"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2025-03-19",
     "knowledge_cutoff": "2023-10-01",
     "description": "Version of o1 with more compute for better responses.",
     "docs": "https://developers.openai.com/api/docs/models/o1-pro",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -79,7 +79,7 @@
     {
       "title": "o1-pro Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/o1-pro",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Pricing | OpenAI API",
@@ -89,12 +89,12 @@
     {
       "title": "Models | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/all",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Deprecations | OpenAI API",
       "url": "https://developers.openai.com/api/docs/deprecations",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Changelog | OpenAI API",

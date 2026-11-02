@@ -42,12 +42,12 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2025-03-20",
     "knowledge_cutoff": null,
     "description": "Text-to-speech model powered by GPT-4o Mini.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -73,7 +73,7 @@
     {
       "title": "GPT-4o Mini TTS Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Pricing | OpenAI API",
@@ -83,12 +83,17 @@
     {
       "title": "Models | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/all",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Changelog | OpenAI API",
       "url": "https://developers.openai.com/api/docs/changelog",
       "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "SDK support — openai (api.sdk only)",

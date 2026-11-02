@@ -47,12 +47,12 @@
     "batch"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2023-03-01",
     "knowledge_cutoff": "2021-09-01",
     "description": "Legacy GPT model for cheaper chat and non-chat tasks.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -79,7 +79,7 @@
     {
       "title": "GPT-3.5 Turbo Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo",
-      "retrieved_at": "2026-10-15"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Pricing | OpenAI API",
@@ -89,12 +89,12 @@
     {
       "title": "Models | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/all",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Deprecations | OpenAI API",
       "url": "https://developers.openai.com/api/docs/deprecations",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "存档：官方模型发布/价格文档（原网址 https://openai.com/blog/introducing-chatgpt-and-whisper-apis）",

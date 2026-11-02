@@ -48,12 +48,12 @@
     "batch"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2025-04-23",
     "knowledge_cutoff": null,
     "description": "Previous natively multimodal image generation model.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-image-1",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -78,7 +78,7 @@
     {
       "title": "GPT-Image-1 Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/gpt-image-1",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Pricing | OpenAI API",
@@ -88,12 +88,12 @@
     {
       "title": "Models | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/all",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Deprecations | OpenAI API",
       "url": "https://developers.openai.com/api/docs/deprecations",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Changelog | OpenAI API",
