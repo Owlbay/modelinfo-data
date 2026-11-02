@@ -1,7 +1,7 @@
 {
   "id": "ming-3.0-audio-flash",
   "object": "model",
-  "created": null,
+  "created": 1792368000,
   "owned_by": "inclusionai",
   "name": "Ming-3.0-audio-flash",
   "api": {
@@ -34,11 +34,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-19",
     "knowledge_cutoff": null,
     "description": "inclusionAI native audio-language mixture-of-experts model with 126B total parameters and 6.5B activated per step. It takes audio and text and can return text or text with synthesized speech. The card states audio reasoning and the MIT license. The 128K figure is a serving profile, not a published context limit. No release date or first-party hosted price is on the card.",
     "docs": "https://huggingface.co/inclusionAI/Ming-3.0-audio-flash",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-03"
   },
   "providers": [
     {
@@ -68,7 +68,7 @@
     {
       "title": "Changelog (v2.0.4, 2026-10-19) | Ant Ling Docs",
       "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-03"
     },
     {
       "title": "OpenAI Compatible | Ant Ling API Reference",
