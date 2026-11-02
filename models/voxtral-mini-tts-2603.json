@@ -45,12 +45,12 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2026-03-23",
     "knowledge_cutoff": null,
     "description": "Text-to-speech model with zero-shot voice cloning, 9 languages, and streaming with about 90ms time-to-first-audio.",
     "docs": "https://docs.mistral.ai/models/voxtral-tts-26-03",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -75,7 +75,7 @@
     {
       "title": "Voxtral TTS | Mistral Docs",
       "url": "https://docs.mistral.ai/models/voxtral-tts-26-03",
-      "retrieved_at": "2026-10-30"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "API pricing | Mistral Docs",
@@ -85,7 +85,7 @@
     {
       "title": "Models overview | Mistral Docs",
       "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "SDK support — @mistralai/mistralai (api.sdk only)",

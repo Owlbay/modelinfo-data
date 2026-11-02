@@ -52,12 +52,12 @@
     "batch"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2025-12-02",
     "knowledge_cutoff": null,
     "description": "State-of-the-art, open-weight, general-purpose multimodal model with a granular Mixture-of-Experts architecture.",
     "docs": "https://docs.mistral.ai/models/mistral-large-3-25-12",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -83,7 +83,7 @@
     {
       "title": "Mistral Large 3 | Mistral Docs",
       "url": "https://docs.mistral.ai/models/mistral-large-3-25-12",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "API pricing | Mistral Docs",
@@ -93,7 +93,7 @@
     {
       "title": "Models overview | Mistral Docs",
       "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Mistral-Large-3-675B-Instruct-2512 (256k context, 262144) | Hugging Face",
