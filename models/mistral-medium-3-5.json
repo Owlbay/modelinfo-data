@@ -55,12 +55,12 @@
     "batch"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2026-04-28",
     "knowledge_cutoff": null,
     "description": "Frontier-class multimodal model optimized for agentic and coding use cases.",
     "docs": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -87,7 +87,7 @@
     {
       "title": "Mistral Medium 3.5 | Mistral Docs",
       "url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "API pricing | Mistral Docs",
@@ -97,7 +97,7 @@
     {
       "title": "Models overview | Mistral Docs",
       "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Reasoning | Mistral Docs",
