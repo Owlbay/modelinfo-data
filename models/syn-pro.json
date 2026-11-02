@@ -36,10 +36,10 @@
   "info": {
     "status": "active",
     "release_date": "2025-10-23",
-    "knowledge_cutoff": null,
+    "knowledge_cutoff": "2025-03",
     "description": "Japanese-focused LLM (about 30B parameters) co-developed by Upstage and Karakuri for enterprise business.",
     "docs": "https://console.upstage.ai/docs/models/history#syn-pro-251021",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -64,7 +64,7 @@
     {
       "title": "Model history | Upstage Docs",
       "url": "https://console.upstage.ai/docs/models/history",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Chat completions API | Upstage Docs",
