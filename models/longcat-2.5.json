@@ -1,0 +1,146 @@
+{
+  "id": "longcat-2.5",
+  "object": "model",
+  "created": 1793577600,
+  "owned_by": "meituan",
+  "name": "LongCat-2.5",
+  "api": {
+    "types": [
+      "chat",
+      "messages",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-02",
+    "knowledge_cutoff": null,
+    "description": "High-performance Agentic model",
+    "docs": "https://longcat.chat/platform/docs/",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "meituan",
+      "model": "LongCat-2.5",
+      "base_url": "https://api.longcat.chat",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages",
+        "responses": "POST /openai/v1/responses"
+      },
+      "reasoning_param": "thinking.type"
+    }
+  ],
+  "aliases": [
+    "LongCat-2.5"
+  ],
+  "translations": {
+    "zh": {
+      "description": "高性能智能体模型"
+    }
+  },
+  "sources": [
+    {
+      "title": "Quick Start / Supported Models | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Change Log (LongCat-2.5 Now Available, 2026-11-02) | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/change-log",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Model Parameters | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/api/model-params",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Chat Completions | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/api/chat",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Responses API | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/api/responses",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "LongCat-2.5 Pricing (limited-time discounted price only) | LongCat API Docs",
+      "url": "https://longcat.chat/platform/docs/pricing/longcat-2.5",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://longcat.chat/platform/docs/APIDocs.html",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}
