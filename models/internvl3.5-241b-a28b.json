@@ -38,12 +38,12 @@
     "streaming"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2025-08-26",
     "knowledge_cutoff": null,
     "description": "Multimodal model with strong image-text understanding.",
     "docs": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-03"
   },
   "providers": [
     {
@@ -68,7 +68,7 @@
     {
       "title": "获取模型列表 | InternLM API 文档",
       "url": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-03"
     },
     {
       "title": "Chat Completions | InternLM API 文档",
@@ -79,6 +79,11 @@
       "title": "InternVL3.5 | InternVL",
       "url": "https://internvl.github.io/blog/2025-08-26-InternVL-3.5/",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Service Migration Notice | InternLM API",
+      "url": "https://internlm.intern-ai.org.cn/api/document",
+      "retrieved_at": "2026-11-03"
     },
     {
       "title": "SDK support — openai (api.sdk only)",
@@ -98,7 +103,7 @@
     {
       "title": "获取模型列表（窗口长度 32K） | InternLM API 文档",
       "url": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-11-03"
     }
   ]
 }

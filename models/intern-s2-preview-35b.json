@@ -38,12 +38,12 @@
     "streaming"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2026-05-15",
     "knowledge_cutoff": null,
     "description": "Shanghai AI Lab 35B-A3B multimodal preview model of Intern-S2.",
     "docs": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-03"
   },
   "providers": [
     {
@@ -68,7 +68,7 @@
     {
       "title": "获取模型列表 | InternLM API 文档",
       "url": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-03"
     },
     {
       "title": "Chat Completions | InternLM API 文档",
@@ -84,6 +84,11 @@
       "title": "Intern-S2-Preview 开源 | 上海人工智能实验室",
       "url": "https://www.shlab.org.cn/news/5444267",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Service Migration Notice | InternLM API",
+      "url": "https://internlm.intern-ai.org.cn/api/document",
+      "retrieved_at": "2026-11-03"
     },
     {
       "title": "SDK support — openai (api.sdk only)",
