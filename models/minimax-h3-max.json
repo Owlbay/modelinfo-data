@@ -1,0 +1,88 @@
+{
+  "id": "minimax-h3-max",
+  "object": "model",
+  "created": null,
+  "owned_by": "minimax",
+  "name": "MiniMax-H3-Max",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "second",
+      "input": null,
+      "output": 0.05,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "The fast generation variant. Supports text-to-video, image-to-video (first / last frame), and reference-to-video (reference image / video / audio); 480P / 768P resolution, 2K is not supported; 5–15s duration.",
+    "docs": "https://platform.minimax.io/docs/api-reference/video-generation-v2-create",
+    "verified_at": "2026-11-02"
+  },
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "MiniMax-H3-Max",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "video": "POST /v2/video_generation"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MiniMax-H3-Max"
+  ],
+  "translations": {
+    "zh": {
+      "description": "快速生成版本。支持文生视频、图生视频（首帧/尾帧）和参考生视频（参考图像/视频/音频）；分辨率为 480P/768P，不支持 2K；时长 5–15 秒。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model List | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/faq/models",
+      "retrieved_at": "2026-11-02"
+    },
+    {
+      "title": "Pricing Overview | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/pricing/overview",
+      "retrieved_at": "2026-11-02"
+    },
+    {
+      "title": "Create Video Generation Task | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/video-generation-v2-create",
+      "retrieved_at": "2026-11-02"
+    }
+  ]
+}
