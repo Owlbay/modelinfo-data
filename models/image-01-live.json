@@ -1,0 +1,75 @@
+{
+  "id": "image-01-live",
+  "object": "model",
+  "created": null,
+  "owned_by": "minimax",
+  "name": "image-01-live",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Generates images from a text prompt and a reference image.",
+    "docs": "https://platform.minimax.io/docs/api-reference/image-generation-i2i",
+    "verified_at": "2026-11-02"
+  },
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "image-01-live",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "images": "POST /v1/image_generation"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "根据文字提示和参考图像生成图像。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Model List | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/faq/models",
+      "retrieved_at": "2026-11-02"
+    },
+    {
+      "title": "Image-to-Image Generation | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/image-generation-i2i",
+      "retrieved_at": "2026-11-02"
+    },
+    {
+      "title": "Pricing Overview | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/pricing/overview",
+      "retrieved_at": "2026-11-02"
+    }
+  ]
+}
