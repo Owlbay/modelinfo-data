@@ -1,7 +1,7 @@
 {
   "id": "ming-3.0-asr-tiny",
   "object": "model",
-  "created": null,
+  "created": 1792368000,
   "owned_by": "inclusionai",
   "name": "Ming-3.0-asr-tiny",
   "api": {
@@ -34,11 +34,11 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-19",
     "knowledge_cutoff": null,
     "description": "inclusionAI speech-recognition model that pairs a Ling-tiny-v3 language backbone with an audio encoder. It transcribes Chinese and English, including dialects, and can take hotwords or dialogue context as text. Output is transcription text. The card says image and video inputs are unsupported, and that a self-hosted server can stream the transcript. Weights and original project code use the MIT license. Parameter count, context limit, release date, and a first-party hosted price are not stated.",
     "docs": "https://huggingface.co/inclusionAI/Ming-3.0-asr-tiny",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-03"
   },
   "providers": [
     {
@@ -68,7 +68,7 @@
     {
       "title": "Changelog (v2.0.4, 2026-10-19) | Ant Ling Docs",
       "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-03"
     },
     {
       "title": "ASR | Ant Ling API Reference",

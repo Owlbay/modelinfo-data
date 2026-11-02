@@ -1,7 +1,7 @@
 {
   "id": "ming-3.0-tts-0.5b",
   "object": "model",
-  "created": null,
+  "created": 1792368000,
   "owned_by": "inclusionai",
   "name": "Ming-3.0-tts-0.5B",
   "api": {
@@ -32,11 +32,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-10-19",
     "knowledge_cutoff": null,
     "description": "inclusionAI dense 0.5B speech-synthesis checkpoint built on Qwen2.5-0.5B. It takes text and an optional reference clip and writes 44.1 kHz audio. The card lists voice cloning, voice design, emotion and dialect control, and the MIT license. No context limit, release date, or first-party hosted price is published.",
     "docs": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-03"
   },
   "providers": [
     {
@@ -66,7 +66,7 @@
     {
       "title": "Changelog (v2.0.4, 2026-10-19) | Ant Ling Docs",
       "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-03"
     },
     {
       "title": "TTS | Ant Ling API Reference",
