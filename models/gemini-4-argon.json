@@ -58,10 +58,10 @@
   "info": {
     "status": "active",
     "release_date": "2026-10-13",
-    "knowledge_cutoff": null,
+    "knowledge_cutoff": "2026-03",
     "description": "Flagship reasoning model for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. The default synchronous max output is 65,536 tokens; long decode can continue up to 1,048,576 tokens minus the input. Standard price is $4 input, $20 output, and $0.20 implicit cache read per 1M tokens. Also supports code execution, computer use (preview), search grounding, URL context, and file search.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -105,6 +105,11 @@
       "title": "Gemini 4 Argon is now available for developers | Google Blog",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
       "retrieved_at": "2026-10-14"
+    },
+    {
+      "title": "Gemini 4 Argon - Model Card — Google DeepMind",
+      "url": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "SDK support — @google/genai (api.sdk only)",
