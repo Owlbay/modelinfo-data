@@ -1,0 +1,78 @@
+{
+  "id": "codegeex-4",
+  "object": "model",
+  "created": null,
+  "owned_by": "zhipu",
+  "name": "CodeGeeX-4",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 0.1,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "zhipu",
+      "model": "codegeex-4",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "模型概览 | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "API 定价 | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "CodeGeeX-4 | 智谱AI开放平台（旧版文档，现已重定向）",
+      "url": "https://open.bigmodel.cn/dev/api/code-model/codegeex-4",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
