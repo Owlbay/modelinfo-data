@@ -59,12 +59,12 @@
     "caching"
   ],
   "info": {
-    "status": "active",
+    "status": "retired",
     "release_date": "2025-12-22",
     "knowledge_cutoff": null,
     "description": "Legacy 230B-parameter model (10B active) for code generation and enhanced reasoning.",
     "docs": "https://platform.minimax.io/docs/guides/models-intro",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -121,6 +121,11 @@
       "title": "Chat Completions API (max_completion_tokens) | MiniMax API Docs",
       "url": "https://platform.minimax.io/docs/api-reference/text-chat-openai",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Model List（含 M2.5/M2.7 下线公告与 Retired Models 表） | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/faq/models",
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",
