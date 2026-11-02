@@ -52,12 +52,12 @@
     "batch"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2025-04-16",
     "knowledge_cutoff": "2024-06-01",
     "description": "Fast, cost-efficient reasoning model, succeeded by GPT-5 Mini.",
     "docs": "https://developers.openai.com/api/docs/models/o4-mini",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-02"
   },
   "providers": [
     {
@@ -84,7 +84,7 @@
     {
       "title": "o4-mini Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/o4-mini",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Pricing | OpenAI API",
@@ -94,12 +94,12 @@
     {
       "title": "Models | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/all",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Deprecations | OpenAI API",
       "url": "https://developers.openai.com/api/docs/deprecations",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-02"
     },
     {
       "title": "Changelog | OpenAI API",
