@@ -1,0 +1,77 @@
+{
+  "id": "baichuan-text-embedding",
+  "object": "model",
+  "created": null,
+  "owned_by": "baichuan",
+  "name": "Baichuan-Text-Embedding",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 512,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://platform.baichuan-ai.com/docs-v2/text-Embedding",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "baichuan",
+      "model": "Baichuan-Text-Embedding",
+      "base_url": "https://api.baichuan-ai.com/v1",
+      "endpoints": {
+        "embeddings": "POST /embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Baichuan-Text-Embedding"
+  ],
+  "sources": [
+    {
+      "title": "向量化模型 | 百川智能开放平台",
+      "url": "https://platform.baichuan-ai.com/docs-v2/text-Embedding",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "产品定价 | 百川智能开放平台",
+      "url": "https://platform.baichuan-ai.com/prices",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
