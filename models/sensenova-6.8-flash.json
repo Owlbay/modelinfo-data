@@ -1,0 +1,83 @@
+{
+  "id": "sensenova-6.8-flash",
+  "object": "model",
+  "created": null,
+  "owned_by": "sensetime",
+  "name": "SenseNova 6.8 Flash",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "prices": [],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Our latest multimodal agent model built for work intelligence and real-world tasks, with cross-session context, proactive assistance, and dynamic content creation",
+    "docs": "https://platform.sensenova.cn/docs",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "sensenova",
+      "model": "sensenova-6.8-flash",
+      "base_url": "https://token.sensenova.cn/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "日日新推出的新一代多模态智能体模型，面向办公智能与持续任务，支持跨会话协作与动态创作场景"
+    }
+  },
+  "sources": [
+    {
+      "title": "SenseNova AI API 文档（模型总览；SenseNova 6.8 Flash：model_id sensenova-6.8-flash、POST https://token.sensenova.cn/v1/chat/completions、图片输入、工具调用、reasoning_effort minimal/low/medium/high/xhigh/max、messages 支持 1M 上下文、max_tokens 范围 [1, 128K]、response_format json_object、stream）",
+      "url": "https://platform.sensenova.cn/docs",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SenseNova 官网（SenseNova 6.8 Flash 新一代多模态智能体模型）",
+      "url": "https://www.sensenova.cn/",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
