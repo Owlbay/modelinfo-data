@@ -1,0 +1,70 @@
+{
+  "id": "apriel-voice-27b-preview",
+  "object": "model",
+  "created": 1793232000,
+  "owned_by": "servicenow",
+  "name": "Apriel Voice 27B Preview",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-10-29",
+    "knowledge_cutoff": null,
+    "description": "Apriel Voice 27B Preview understands spoken requests, reasons over conversational context, and generates text responses and tool calls through a shared Gemma 4 backbone.",
+    "docs": "https://huggingface.co/ServiceNow-AI/Apriel-Voice-27B-preview",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [],
+  "aliases": [
+    "ServiceNow-AI/Apriel-Voice-27B-preview"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Apriel Voice 27B Preview 能理解语音请求，结合对话上下文进行推理，并通过共享的 Gemma 4 主干生成文本回复和工具调用。"
+    }
+  },
+  "sources": [
+    {
+      "title": "ServiceNow-AI/Apriel-Voice-27B-preview 模型卡（MIT；音频/文本/图像输入，输出文本与工具调用；thinking 模式 enable_thinking；OpenAI 兼容 /v1/chat/completions 示例）| Hugging Face",
+      "url": "https://huggingface.co/ServiceNow-AI/Apriel-Voice-27B-preview",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Introducing Apriel Voice 27B Preview（Model release October 29, 2026）| Apriel Live",
+      "url": "https://servicenow-ai-apriel.hf.space/blog/apriel-voice-preview",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use — Technical report | Apriel Live",
+      "url": "https://servicenow-ai-apriel.hf.space/documents/apriel-voice-preview-tech-report",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
