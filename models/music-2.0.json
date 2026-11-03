@@ -1,0 +1,111 @@
+{
+  "id": "music-2.0",
+  "object": "model",
+  "created": null,
+  "owned_by": "minimax",
+  "name": "Music-2.0",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "request",
+      "input": null,
+      "output": 0.03,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "request",
+      "input": null,
+      "output": 0.25,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://platform.minimax.io/docs/api-reference/music-generation",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "music-2.0",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "audio": "POST /v1/music_generation"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "存档 Music Generation | MiniMax API Docs（原网址 https://platform.minimax.io/docs/api-reference/music-generation，model 为 music-2.0）",
+      "url": "https://web.archive.org/web/20251216055948/https://platform.minimax.io/docs/api-reference/music-generation",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Models | MiniMax API Docs（Legacy Models：music-2.0）",
+      "url": "https://platform.minimax.io/docs/guides/models-intro",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Pay as You Go pricing | MiniMax API Docs（Music 节，标 Discontinued）",
+      "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "按量计费定价 | MiniMax 开放平台文档（音乐节，标「已下线」，元/首）",
+      "url": "https://platform.minimaxi.com/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Model release notes | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "模型发布 | MiniMax 开放平台文档",
+      "url": "https://platform.minimaxi.com/docs/release-notes/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Model List（Retired Models 表） | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/faq/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "模型列表（已下线模型） | MiniMax 开放平台文档",
+      "url": "https://platform.minimaxi.com/docs/faq/models",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}

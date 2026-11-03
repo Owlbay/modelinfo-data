@@ -1,0 +1,110 @@
+{
+  "id": "m2-her",
+  "object": "model",
+  "created": 1769472000,
+  "owned_by": "minimax",
+  "name": "M2-her",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 65536,
+    "input": null,
+    "output": 2048
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 1.2,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 2.1,
+      "output": 8.4,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2026-01-27",
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://platform.minimax.io/docs/guides/text-chat",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "M2-her",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "M2-her"
+  ],
+  "sources": [
+    {
+      "title": "Chat Model | MiniMax API Docs（M2-her 上下文 64 K，max_completion_tokens 上限 2048）",
+      "url": "https://platform.minimax.io/docs/guides/text-chat",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "对话模型 | MiniMax 开放平台文档",
+      "url": "https://platform.minimaxi.com/docs/guides/text-chat",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Model List（Retired Models 表） | MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/faq/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "模型列表（已下线模型） | MiniMax 开放平台文档",
+      "url": "https://platform.minimaxi.com/docs/faq/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "A Deep Dive into the MiniMax-M2-her | MiniMax News（2026.1.27）",
+      "url": "https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "存档 Pay as You Go pricing | MiniMax API Docs（原网址 https://platform.minimax.io/docs/guides/pricing-paygo，M2-her $0.3 / $1.2）",
+      "url": "https://web.archive.org/web/20260301152915/https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "存档 按量计费定价 | MiniMax 开放平台文档（原网址 https://platform.minimaxi.com/docs/guides/pricing-paygo，M2-her 2.1 / 8.4 元）",
+      "url": "https://web.archive.org/web/20260227142030/https://platform.minimaxi.com/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
