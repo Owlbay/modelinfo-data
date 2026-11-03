@@ -1,0 +1,100 @@
+{
+  "id": "aion-2.0",
+  "object": "model",
+  "created": 1766275200,
+  "owned_by": "aionlabs",
+  "name": "Aion 2.0",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": 1.6,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-21",
+    "knowledge_cutoff": null,
+    "description": "A variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging. It also handles mature and darker themes with more nuance and depth.",
+    "docs": "https://api.aionlabs.ai/docs/models/",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "aionlabs",
+      "model": "aion-labs/aion-2.0",
+      "base_url": "https://api.aionlabs.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [
+    "aion-labs/aion-2.0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "DeepSeek V3.2 的变体，针对沉浸式角色扮演和故事创作优化。它尤其擅长在故事中引入紧张、危机和冲突，让叙事更引人入胜；处理成熟和黑暗题材时也更细腻、更有深度。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/models/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Models endpoint | Aion Labs API",
+      "url": "https://api.aionlabs.ai/v1/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "API Reference | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/api-reference/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Quickstart | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/quickstart/",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
