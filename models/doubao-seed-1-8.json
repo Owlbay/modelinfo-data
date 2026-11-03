@@ -1,0 +1,115 @@
+{
+  "id": "doubao-seed-1-8",
+  "object": "model",
+  "created": 1766016000,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seed-1.8",
+  "api": {
+    "types": [
+      "chat",
+      "responses"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 262144,
+    "input": 229376,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": 2,
+      "cache_read": 0.16,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output"
+  ],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-12-18",
+    "knowledge_cutoff": null,
+    "description": "更强Agent能力、升级多模态理解、更灵活的上下文管理。",
+    "docs": "https://ark.volcengine.com/region:cn-beijing/docs/model-deprecation-notice",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seed-1-8-251228",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [
+    "doubao-seed-1-8-251228",
+    "doubao-seed-1-8-251215"
+  ],
+  "translations": {
+    "en": {
+      "description": "Stronger agent capabilities, upgraded multimodal understanding, and more flexible context management."
+    }
+  },
+  "sources": [
+    {
+      "title": "通用 Agent 模型 Seed1.8 正式发布 | 字节跳动 Seed（日期 2025-12-18）",
+      "url": "https://research.doubao.com/zh/blog/official-release-of-seed1-8-a-generalized-agentic-model",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "模型发布公告 2025 | 火山方舟（202512：doubao-seed-1-8-251228 新发布）",
+      "url": "https://ark.volcengine.com/region:cn-beijing/docs/model-release-announcement-2025",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "模型下线公告 | 火山方舟（第九批：doubao-seed-1-8-251228 EOS 2026-09-21 14:00；第八批：doubao-seed-1-8-251215 迁至 251228）",
+      "url": "https://ark.volcengine.com/region:cn-beijing/docs/model-deprecation-notice",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "下线模型迁移说明 | 火山方舟（doubao-seed-1-8-251228 的 thinking / reasoning_effort 支持）",
+      "url": "https://ark.volcengine.com/region:cn-beijing/docs/model-deprecation-migration-guide",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310，文档接口 2026-02-24 快照）",
+      "url": "https://web.archive.org/web/20260224175014/https://www.volcengine.com/api/doc/getDocDetail?LibraryID=82379&DocumentID=1330310&AuditDocumentID=&type=online",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "存档 豆包大模型产品页 | 火山引擎（原网址 https://www.volcengine.com/product/doubao，Doubao-Seed-1.8 在线推理价格）",
+      "url": "https://web.archive.org/web/20260115134233/https://www.volcengine.com/product/doubao",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
