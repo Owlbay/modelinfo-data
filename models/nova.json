@@ -1,0 +1,108 @@
+{
+  "id": "nova",
+  "object": "model",
+  "created": 1681344000,
+  "owned_by": "deepgram",
+  "name": "Nova-1",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/deepgram",
+      "@deepgram/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "minute",
+      "input": 0.0043,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2023-04-13",
+    "knowledge_cutoff": null,
+    "description": "Nova 1 is the predecessor to Nova-2.",
+    "docs": "https://developers.deepgram.com/docs/models-languages-overview",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "deepgram",
+      "model": "nova",
+      "base_url": "https://api.deepgram.com",
+      "endpoints": {
+        "audio": "POST /v1/listen"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nova-general"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Nova 1 是 Nova-2 的前代模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models & Languages Overview | Deepgram Docs",
+      "url": "https://developers.deepgram.com/docs/models-languages-overview",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Pricing | Deepgram",
+      "url": "https://deepgram.com/pricing",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Deepgram Pricing (archived 2024-11-04)",
+      "url": "https://web.archive.org/web/20241104135804/https://deepgram.com/pricing",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Changelog: April 13, 2023 — Latest Speech Recognition Model Releases | Deepgram Docs",
+      "url": "https://developers.deepgram.com/changelog/2023/4/13",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Introducing Nova | Deepgram",
+      "url": "https://deepgram.com/learn/nova-speech-to-text-whisper-api",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @deepgram/sdk (api.sdk only)",
+      "url": "https://github.com/deepgram/deepgram-js-sdk",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/deepgram (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/deepgram",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
