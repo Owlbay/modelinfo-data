@@ -45,7 +45,7 @@
     "knowledge_cutoff": null,
     "description": "Stable Diffusion 3.5 base model with 8 billion parameters, for professional use at 1 megapixel resolution.",
     "docs": "https://platform.stability.ai/docs/api-reference",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -54,6 +54,15 @@
       "base_url": "https://api.stability.ai",
       "endpoints": {
         "images": "POST /v2beta/stable-image/generate/sd3"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "stability.sd3-5-large-v1:0",
+      "base_url": "https://bedrock-runtime.{region}.amazonaws.com",
+      "endpoints": {
+        "images": "POST /model/{modelId}/invoke"
       },
       "reasoning_param": null
     }
@@ -81,6 +90,21 @@
       "title": "Release Notes | Stability AI Developer Platform",
       "url": "https://platform.stability.ai/docs/release-notes",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "aws-samples/amazon-bedrock-samples — Guardrails image content filters (official AWS GitHub; stability.sd3-5-large-v1:0 via bedrock-runtime invoke_model)",
+      "url": "https://github.com/aws-samples/amazon-bedrock-samples/blob/main/responsible_ai/bedrock-guardrails/guardrails_image_content_filters_api.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "aws-samples/generative-ai-use-cases — Bedrock image generation models (official AWS GitHub; stability.sd3-5-large-v1:0 with InvokeModelCommand)",
+      "url": "https://github.com/aws-samples/generative-ai-use-cases/blob/main/packages/cdk/lambda/utils/models.ts",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "boto/botocore — Amazon Bedrock Runtime service model (official AWS SDK; Converse POST /model/{modelId}/converse, InvokeModel POST /model/{modelId}/invoke)",
+      "url": "https://github.com/boto/botocore/blob/develop/botocore/data/bedrock-runtime/2023-09-30/service-2.json",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

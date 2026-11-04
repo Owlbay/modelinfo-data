@@ -47,13 +47,22 @@
     "knowledge_cutoff": null,
     "description": "Lower-latency, higher-throughput version of rerank-v4.0-pro. Multilingual.",
     "docs": "https://docs.cohere.com/docs/rerank-overview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
       "id": "cohere",
       "model": "rerank-v4.0-fast",
       "base_url": "https://api.cohere.com",
+      "endpoints": {
+        "rerank": "POST /v2/rerank"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "Cohere-rerank-v4.0-fast",
+      "base_url": "https://<endpoint>.services.ai.azure.com/providers/cohere",
       "endpoints": {
         "rerank": "POST /v2/rerank"
       },
@@ -101,6 +110,11 @@
       "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Azure/azureml-examples — rerank-cohere-client.ipynb (official Microsoft GitHub; base_url https://<endpoint>.services.ai.azure.com/providers/cohere/, route /v2/rerank, model Cohere-rerank-v4.0-fast / Cohere-rerank-v4.0-pro)",
+      "url": "https://github.com/Azure/azureml-examples/blob/main/sdk/python/foundation-models/cohere/rerank-cohere-client.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

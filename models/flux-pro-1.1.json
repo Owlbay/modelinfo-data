@@ -47,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Fast and reliable text-to-image model with strong prompt adherence.",
     "docs": "https://docs.bfl.ml/flux_models/flux_1_1_pro",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -56,6 +56,15 @@
       "base_url": "https://api.bfl.ai",
       "endpoints": {
         "images": "POST /v1/flux-pro-1.1"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "flux-1.1-pro",
+      "base_url": "https://<YOUR_RESOURCE>.services.ai.azure.com",
+      "endpoints": {
+        "images": "POST /providers/blackforestlabs/v1/flux-pro-1.1?api-version=preview"
       },
       "reasoning_param": null
     }
@@ -91,6 +100,16 @@
       "title": "SDK support — @ai-sdk/black-forest-labs (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/black-forest-labs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "microsoft-foundry/foundry-samples — Image Generation with Black Forest Labs' FLUX models (official Microsoft Foundry GitHub; providers/blackforestlabs/v1/flux-pro-1.1 and providers/blackforestlabs/v1/flux-2-pro, api-version=preview, https://<YOUR_RESOURCE>.services.ai.azure.com/)",
+      "url": "https://github.com/microsoft-foundry/foundry-samples/blob/main/samples/python/black-forest-labs/flux/AIFoundry_ImageGeneration_FLUX.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "microsoft-foundry/foundry-samples — FLUX sample README (official Microsoft Foundry GitHub)",
+      "url": "https://github.com/microsoft-foundry/foundry-samples/blob/main/samples/python/black-forest-labs/flux/README.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

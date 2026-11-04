@@ -62,7 +62,7 @@
     "knowledge_cutoff": null,
     "description": "Foundation model for agentic engineering, 744B total and 40B active parameters.",
     "docs": "https://docs.z.ai/guides/llm/glm-5",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -73,6 +73,21 @@
         "chat": "POST /chat/completions"
       },
       "reasoning_param": "thinking.type"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "zai.glm-5",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ]
     }
   ],
   "aliases": [],
@@ -131,6 +146,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — Z.AI GLM family on bedrock-mantle (zai.glm-5, zai.glm-4.7, zai.glm-4.7-flash, zai.glm-4.6; base_url https://bedrock-mantle.{REGION}.api.aws/v1, Chat Completions, reasoning_effort none/low/medium/high) (official AWS GitHub)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/06-zai-glm/01-glm-family.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

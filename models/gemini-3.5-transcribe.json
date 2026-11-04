@@ -48,7 +48,7 @@
     "knowledge_cutoff": "2025-01",
     "description": "Speech-to-text model with language detection, speaker diarization, word-level timestamps and custom vocabulary.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -57,6 +57,15 @@
       "base_url": "https://generativelanguage.googleapis.com",
       "endpoints": {
         "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemini-3.5-transcribe",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "audio": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-3.5-transcribe:generateContent"
       },
       "reasoning_param": null
     }
@@ -112,6 +121,16 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "gemini_3_5_transcribe.ipynb — Agent Platform (formerly Vertex AI) sample (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/audio/speech/getting-started/gemini_3_5_transcribe.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "intro_gemini_curl.ipynb — Agent Platform REST request URL (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_curl.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

@@ -47,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Reranker for English documents and JSON.",
     "docs": "https://docs.cohere.com/docs/rerank-overview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -56,6 +56,15 @@
       "base_url": "https://api.cohere.com",
       "endpoints": {
         "rerank": "POST /v2/rerank"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "cohere.rerank-v3-5:0",
+      "base_url": "https://bedrock-runtime.us-west-2.amazonaws.com",
+      "endpoints": {
+        "rerank": "POST /model/{modelId}/invoke"
       },
       "reasoning_param": null
     }
@@ -106,6 +115,21 @@
       "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Cohere docs — Amazon Bedrock (official Cohere GitHub; Rerank cohere.rerank-v3-5:0 via cohere.BedrockClientV2, aws_region us-west-2)",
+      "url": "https://github.com/cohere-ai/cohere-developer-experience/blob/main/fern/pages/deployment-options/cohere-on-aws/amazon-bedrock.mdx",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Cohere docs — Models overview (official Cohere GitHub; Amazon Bedrock Model ID for rerank-v3.5: cohere.rerank-v3-5:0)",
+      "url": "https://github.com/cohere-ai/cohere-developer-experience/blob/main/fern/pages/models/models.mdx",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "cohere-ai/cohere-python — aws_client.py (official Cohere SDK; Bedrock URL https://bedrock-runtime.{aws_region}.amazonaws.com/model/{model}/invoke)",
+      "url": "https://github.com/cohere-ai/cohere-python/blob/main/src/cohere/aws_client.py",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
