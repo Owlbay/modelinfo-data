@@ -42,28 +42,39 @@
     }
   ],
   "features": [
-    "structured_output"
+    "structured_output",
+    "streaming"
   ],
   "info": {
     "status": "active",
     "release_date": "2026-05-12",
     "knowledge_cutoff": null,
-    "description": "Perceptron Mk1 (short for \"Mark 1\") is a closed-source vision-language model, with image, video, and reasoning support. Model ID perceptron-mk1; inputs text, images, videos; outputs text; context 32K tokens; reasoning yes; pricing $0.15/M input, $1.50/M output, $0.0375/M cached input (Multilook). The page does not publish a maximum output or a request URL.",
+    "description": "Perceptron Mk1 (short for \"Mark 1\") is a closed-source vision-language model, with image, video, and reasoning support.",
     "docs": "https://docs.perceptron.inc/perceptron-mk1/models/perceptron-mk1",
     "verified_at": "2026-11-04"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "perceptron",
+      "model": "perceptron-mk1",
+      "base_url": "https://api.perceptron.inc/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "vision_config.enable_thinking"
+    }
+  ],
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "Perceptron Mk1（\"Mark 1\" 的简称）是闭源视觉语言模型，支持图像、视频和推理。模型 ID perceptron-mk1；输入文本、图像、视频；输出文本；上下文 32K tokens；支持推理；价格为输入每百万 tokens 0.15 美元、输出 1.50 美元、缓存输入 0.0375 美元（Multilook）。页面没有给出最大输出或请求 URL。"
+      "description": "Perceptron Mk1（“Mark 1”的简称）是一款闭源视觉语言模型，支持图像、视频与推理。"
     }
   },
   "sources": [
     {
       "title": "Perceptron Mk1 | Perceptron Docs",
       "url": "https://docs.perceptron.inc/perceptron-mk1/models/perceptron-mk1",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Models overview | Perceptron Docs",
@@ -93,6 +104,11 @@
     {
       "title": "Capability — Structured Outputs (perceptron-mk1) | Perceptron cookbook, perceptron-ai-inc GitHub",
       "url": "https://github.com/perceptron-ai-inc/perceptron/blob/main/cookbook/recipes/capabilities/perceptron-mk1/structured-outputs.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat completions (Perceptron Mk1) | Perceptron API Reference",
+      "url": "https://docs.perceptron.inc/perceptron-mk1/api-reference/endpoint/chat-completions",
       "retrieved_at": "2026-11-04"
     }
   ]
