@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Older embedding model.",
     "docs": "https://developers.openai.com/api/docs/models/text-embedding-ada-002",
-    "verified_at": "2026-10-13"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -61,6 +61,15 @@
       "endpoints": {
         "embeddings": "POST /v1/embeddings",
         "batch": "POST /v1/batches"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "text-embedding-ada-002",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "embeddings": "POST /embeddings"
       },
       "reasoning_param": null
     }
@@ -121,6 +130,26 @@
       "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/api-version-lifecycle",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Generate embeddings with Azure OpenAI - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/embeddings",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Microsoft Foundry REST Reference - Azure OpenAI - Embeddings | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/embeddings",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

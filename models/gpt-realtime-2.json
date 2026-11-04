@@ -53,7 +53,7 @@
     "knowledge_cutoff": "2024-09-30",
     "description": "Speech-to-speech realtime voice model with configurable reasoning effort and reliable tool use.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-realtime-2",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -62,6 +62,15 @@
       "base_url": "https://api.openai.com",
       "endpoints": {
         "realtime": "GET /v1/realtime"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "gpt-realtime-2",
+      "base_url": "wss://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "realtime": "WS /realtime"
       },
       "reasoning_param": null
     }
@@ -102,6 +111,26 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/api-version-lifecycle",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Use the GPT Realtime API via WebSockets - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/realtime-audio-websockets",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Use the GPT Realtime API for speech and audio with Azure OpenAI - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/realtime-audio",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
