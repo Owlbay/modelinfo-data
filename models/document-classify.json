@@ -61,6 +61,7 @@
     }
   ],
   "aliases": [
+    "document-classify-260904",
     "document-classify-260304",
     "document-classify-260114"
   ],
@@ -73,26 +74,31 @@
     {
       "title": "Document Classify | Upstage Docs",
       "url": "https://console.upstage.ai/docs/models/document-classify",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Model history | Upstage Docs",
       "url": "https://console.upstage.ai/docs/models/history",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Pricing | Upstage",
       "url": "https://upstage.ai/pricing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Official API reference",
       "url": "https://console.upstage.ai/api/document-classification",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Upstage Document Classification skill | UpstageAI/upstage-extensions-hub GitHub",
       "url": "https://github.com/UpstageAI/upstage-extensions-hub/blob/main/skills/upstage-document-classification/SKILL.md",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Document classification | Upstage Docs",
+      "url": "https://console.upstage.ai/docs/capabilities/classify/document-classification",
       "retrieved_at": "2026-11-04"
     }
   ]
