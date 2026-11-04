@@ -8,7 +8,9 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai-compatible"
+    ]
   },
   "limits": {
     "context": 262144,
@@ -35,7 +37,7 @@
     "knowledge_cutoff": null,
     "description": "Laguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token, designed for agentic coding and long-horizon work on local machines.",
     "docs": "https://docs.poolside.ai/get-started/supported-models",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [],
   "aliases": [],
@@ -64,6 +66,16 @@
       "title": "poolside/Laguna-XS-2.1 | Hugging Face（Context window: 262,144 tokens）",
       "url": "https://huggingface.co/poolside/Laguna-XS-2.1",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "models.dev — Poolside provider npm @ai-sdk/openai-compatible; poolside/laguna-xs-2.1 (api.sdk only)",
+      "url": "https://github.com/anomalyco/models.dev/blob/dev/providers/poolside/models/poolside/laguna-xs-2.1.toml",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

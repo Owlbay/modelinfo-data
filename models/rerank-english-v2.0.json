@@ -44,9 +44,9 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "A model that allows for re-ranking English language documents. This model has a context length of 512 tokens.",
     "docs": "https://docs.cohere.com/docs/deprecations",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -58,6 +58,11 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "用于对英语文档进行重排序的模型。该模型的上下文长度为 512 个 Token。"
+    }
+  },
   "sources": [
     {
       "title": "Deprecations | Cohere Docs",
@@ -78,6 +83,11 @@
       "title": "SDK support — cohere-ai (api.sdk only)",
       "url": "https://github.com/cohere-ai/cohere-typescript",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "cohere-ai/cohere-developer-experience — Rerank models (docs source, 2024-10-22 revision; rerank-english-v2.0 description) | Cohere Docs (official GitHub)",
+      "url": "https://github.com/cohere-ai/cohere-developer-experience/blob/1646b04967d28c05eb03ff84bf5d7c33e18b35da/fern/pages/models/rerank-2.mdx",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

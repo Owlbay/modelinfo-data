@@ -9,7 +9,10 @@
       "audio",
       "realtime"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/mistral",
+      "@mistralai/mistralai"
+    ]
   },
   "limits": {
     "context": null,
@@ -48,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Public-preview realtime transcription model for a single WebSocket session, with configurable latency from 80 ms to 2,400 ms, end-of-turn detection, context biasing, and speaker diarization. Input is audio and output is text. The model card does not list a context length.",
     "docs": "https://docs.mistral.ai/models/voxtral-mini-transcribe-realtime-3-0",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -91,6 +94,16 @@
       "title": "Migrate from Voxtral 2 | Mistral Docs",
       "url": "https://docs.mistral.ai/studio/audio/migrate-from-voxtral-2",
       "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "SDK support — @ai-sdk/mistral (api.sdk only; vercel/ai packages/mistral model options list the Voxtral 3 IDs)",
+      "url": "https://github.com/vercel/ai/blob/main/packages/mistral/src/mistral-transcription-model-options.ts",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only; README voice agents example uses voxtral-mini-transcribe-realtime-3 and voxtral-mini-tts-3)",
+      "url": "https://github.com/mistralai/client-ts/blob/main/README.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
