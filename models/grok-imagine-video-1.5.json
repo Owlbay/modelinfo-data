@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "xAI video generation model, priced at $0.08 per second of output.",
     "docs": "https://docs.x.ai/developers/models/grok-imagine-video-1.5",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -58,7 +58,8 @@
       "model": "grok-imagine-video-1.5",
       "base_url": "https://api.x.ai",
       "endpoints": {
-        "video": "POST /v1/videos/generations"
+        "video": "POST /v1/videos/generations",
+        "batch": "POST /v1/batches"
       },
       "reasoning_param": null
     }
@@ -107,6 +108,16 @@
       "title": "SDK support — @ai-sdk/xai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/xai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "xai-sdk-ts src/resources/batches.ts — Batches API paths (official xAI GitHub)",
+      "url": "https://github.com/xai-org/xai-sdk-ts/blob/main/src/resources/batches.ts",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "xai-sdk-ts src/constants.ts — DEFAULT_BASE_URL (official xAI GitHub)",
+      "url": "https://github.com/xai-org/xai-sdk-ts/blob/main/src/constants.ts",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

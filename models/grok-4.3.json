@@ -63,7 +63,7 @@
     "knowledge_cutoff": null,
     "description": "Fast, reliable model with strong tool calling and instruction following capabilities.",
     "docs": "https://docs.x.ai/developers/models/grok-4.3",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -72,7 +72,8 @@
       "base_url": "https://api.x.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "responses": "POST /v1/responses"
+        "responses": "POST /v1/responses",
+        "batch": "POST /v1/batches"
       },
       "reasoning_param": "reasoning_effort"
     }
@@ -130,6 +131,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "xai-sdk-ts src/resources/batches.ts — Batches API paths (official xAI GitHub)",
+      "url": "https://github.com/xai-org/xai-sdk-ts/blob/main/src/resources/batches.ts",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "xai-sdk-ts src/constants.ts — DEFAULT_BASE_URL (official xAI GitHub)",
+      "url": "https://github.com/xai-org/xai-sdk-ts/blob/main/src/constants.ts",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
