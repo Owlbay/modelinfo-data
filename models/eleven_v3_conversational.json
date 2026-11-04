@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Expressive real-time speech synthesis.",
     "docs": "https://elevenlabs.io/docs/overview/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -59,6 +59,15 @@
       "base_url": "https://api.elevenlabs.io",
       "endpoints": {
         "audio": "POST /v1/text-to-speech/{voice_id}"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "elevenlabs",
+      "model": "eleven_v3_conversational",
+      "base_url": "wss://api.elevenlabs.io",
+      "endpoints": {
+        "realtime": "WS /v1/text-to-dialogue/stream-input"
       },
       "reasoning_param": null
     }
@@ -99,6 +108,16 @@
       "title": "SDK support — @ai-sdk/elevenlabs (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/elevenlabs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Text to Dialogue WebSocket client message (eleven_v3_conversational) | elevenlabs/elevenlabs-python GitHub",
+      "url": "https://github.com/elevenlabs/elevenlabs-python/blob/main/src/elevenlabs/types/text_to_dialogue_websocket_client_message.py",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Text to speech streaming (Text to Dialogue WebSocket) | elevenlabs/skills GitHub",
+      "url": "https://github.com/elevenlabs/skills/blob/main/text-to-speech/references/streaming.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

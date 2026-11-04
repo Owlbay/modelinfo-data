@@ -8,7 +8,9 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "perceptron"
+    ]
   },
   "limits": {
     "context": 32000,

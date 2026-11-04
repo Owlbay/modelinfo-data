@@ -8,7 +8,9 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "perceptron"
+    ]
   },
   "limits": {
     "context": null,
@@ -39,14 +41,16 @@
       "cache_write": null
     }
   ],
-  "features": [],
+  "features": [
+    "structured_output"
+  ],
   "info": {
     "status": "active",
     "release_date": "2026-05-12",
     "knowledge_cutoff": null,
     "description": "Perceptron Mk1 (short for \"Mark 1\") is a closed-source vision-language model, with image, video, and reasoning support. Model ID perceptron-mk1; inputs text, images, videos; outputs text; context 32K tokens; reasoning yes; pricing $0.15/M input, $1.50/M output, $0.0375/M cached input (Multilook). The page does not publish a maximum output or a request URL.",
     "docs": "https://docs.perceptron.inc/perceptron-mk1/models/perceptron-mk1",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [],
   "aliases": [],
@@ -75,6 +79,21 @@
       "title": "Introducing Perceptron Mk1 | Perceptron",
       "url": "https://www.perceptron.inc/blog/introducing-perceptron-mk1",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Perceptron Python SDK README | perceptron-ai-inc GitHub",
+      "url": "https://github.com/perceptron-ai-inc/perceptron/blob/main/README.md",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Perceptron Python SDK _providers.py | perceptron-ai-inc GitHub",
+      "url": "https://github.com/perceptron-ai-inc/perceptron/blob/main/src/perceptron/_providers.py",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Capability — Structured Outputs (perceptron-mk1) | Perceptron cookbook, perceptron-ai-inc GitHub",
+      "url": "https://github.com/perceptron-ai-inc/perceptron/blob/main/cookbook/recipes/capabilities/perceptron-mk1/structured-outputs.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

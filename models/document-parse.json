@@ -45,7 +45,7 @@
     "knowledge_cutoff": null,
     "description": "Converts complex documents into AI-readable HTML and Markdown; priced per page.",
     "docs": "https://console.upstage.ai/docs/models/document-parse",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
