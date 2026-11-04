@@ -8,7 +8,10 @@
     "types": [
       "audio"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/mistral",
+      "@mistralai/mistralai"
+    ]
   },
   "limits": {
     "context": null,
@@ -48,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Public-preview text-to-speech model with zero-shot and professional voice cloning, 9 languages, and streaming with about 90 ms time-to-first-audio. Input is text and audio; output is audio.",
     "docs": "https://docs.mistral.ai/models/voxtral-mini-tts-3-0",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -87,6 +90,16 @@
       "title": "Migrate from Voxtral 2 | Mistral Docs",
       "url": "https://docs.mistral.ai/studio/audio/migrate-from-voxtral-2",
       "retrieved_at": "2026-10-22"
+    },
+    {
+      "title": "SDK support — @ai-sdk/mistral (api.sdk only; vercel/ai packages/mistral speech model options list voxtral-mini-tts-3-0)",
+      "url": "https://github.com/vercel/ai/blob/main/packages/mistral/src/mistral-speech-model-options.ts",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @mistralai/mistralai (api.sdk only; README voice agents example uses voxtral-mini-transcribe-realtime-3 and voxtral-mini-tts-3)",
+      "url": "https://github.com/mistralai/client-ts/blob/main/README.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

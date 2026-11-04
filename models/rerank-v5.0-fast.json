@@ -8,7 +8,10 @@
     "types": [
       "rerank"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/cohere",
+      "cohere-ai"
+    ]
   },
   "limits": {
     "context": 32768,
@@ -44,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Rerank 5 Fast ranks documents against a query. The docs state a context length of 32,768 tokens for the query and documents combined. The launch post prices the API at $0.02 per 1M tokens. No cached-token price, separate input cap, or output cap is published.",
     "docs": "https://docs.cohere.com/docs/rerank",
-    "verified_at": "2026-10-27"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -73,6 +76,21 @@
       "title": "Rerank | Cohere Docs",
       "url": "https://docs.cohere.com/docs/rerank",
       "retrieved_at": "2026-10-27"
+    },
+    {
+      "title": "SDK support — cohere-ai (api.sdk only; RerankRelevantSpans names rerank-v5.0-pro)",
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "cohere-ai/cohere-developer-experience — Announcing Cohere's Rerank 5 Models (rerank-v5.0-pro / rerank-v5.0-fast via the Rerank API) | Cohere Docs source (official GitHub)",
+      "url": "https://github.com/cohere-ai/cohere-developer-experience/blob/main/fern/pages/changelog/2026-10-21-rerank-v5.mdx",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

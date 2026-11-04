@@ -8,7 +8,9 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai-compatible"
+    ]
   },
   "limits": {
     "context": 1048576,
@@ -43,7 +45,7 @@
     "knowledge_cutoff": "2026-06-30",
     "description": "Open-weight sparse mixture-of-experts model with 501.3B total parameters and 23.4B active parameters. It takes text input and generates text, with a 1M-token context length and a knowledge cutoff of 2026-06-30. Weights are Apache 2.0. Reasoning values are low, medium (default), high, xhigh, and max, and the model supports tool calling. No first-party API price is published.",
     "docs": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-04"
   },
   "providers": [],
   "aliases": [
@@ -74,6 +76,16 @@
       "title": "Models | Reflection Developer Docs",
       "url": "https://developers.reflection.ai/models",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "models.dev — providers/reflection (first-party Reflection API) SDK npm mapping (api.sdk only)",
+      "url": "https://github.com/anomalyco/models.dev/blob/dev/providers/reflection/provider.toml",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "models.dev — Beam-1.0-501B-A23B.toml on Reflection (api.sdk only)",
+      "url": "https://github.com/anomalyco/models.dev/blob/dev/providers/reflection/models/Beam-1.0-501B-A23B.toml",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

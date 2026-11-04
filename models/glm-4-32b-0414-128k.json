@@ -1,7 +1,7 @@
 {
   "id": "glm-4-32b-0414-128k",
   "object": "model",
-  "created": null,
+  "created": 1744588800,
   "owned_by": "zhipu",
   "name": "GLM-4-32B-0414-128K",
   "api": {
@@ -45,11 +45,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2025-04-14",
     "knowledge_cutoff": null,
     "description": "32B GLM-4 text model with 128K context.",
     "docs": "https://docs.z.ai/guides/overview/pricing",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -118,6 +118,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "GLM-4 README（2025/04/14：我们发布 GLM-4-32B-0414 系列模型）| zai-org GitHub",
+      "url": "https://github.com/zai-org/GLM-4/blob/main/README_zh.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

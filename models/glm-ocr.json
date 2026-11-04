@@ -8,7 +8,9 @@
     "types": [
       "ocr"
     ],
-    "sdk": []
+    "sdk": [
+      "glmocr"
+    ]
   },
   "limits": {
     "context": null,
@@ -53,7 +55,7 @@
     "knowledge_cutoff": null,
     "description": "Lightweight 0.9B-parameter OCR model for document parsing.",
     "docs": "https://docs.z.ai/guides/vlm/glm-ocr",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -87,6 +89,11 @@
       "title": "最新动态 | 智谱 AI 开放文档",
       "url": "https://docs.bigmodel.cn/cn/update/new-releases",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "GLM-OCR README（pip install glmocr; Zhipu MaaS API mode）| zai-org GitHub",
+      "url": "https://github.com/zai-org/GLM-OCR",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

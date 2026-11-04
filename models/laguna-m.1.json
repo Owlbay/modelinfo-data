@@ -8,7 +8,9 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai-compatible"
+    ]
   },
   "limits": {
     "context": 262144,
@@ -38,7 +40,7 @@
     "knowledge_cutoff": null,
     "description": "Laguna M.1 is a Laguna family model for agentic work.",
     "docs": "https://docs.poolside.ai/get-started/supported-models",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -84,6 +86,16 @@
       "title": "poolside/Laguna-M.1 | Hugging Face（Context window: 262,144 tokens；inference.poolside.ai 示例 model poolside/laguna-m.1）",
       "url": "https://huggingface.co/poolside/Laguna-M.1",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "models.dev — Poolside provider npm @ai-sdk/openai-compatible; poolside/laguna-m.1 (api.sdk only)",
+      "url": "https://github.com/anomalyco/models.dev/blob/dev/providers/poolside/models/poolside/laguna-m.1.toml",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

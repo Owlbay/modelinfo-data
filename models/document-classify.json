@@ -8,7 +8,9 @@
     "types": [
       "ocr"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -45,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Semantic classification of documents into user-defined classes; priced per page.",
     "docs": "https://console.upstage.ai/docs/models/document-classify",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -87,6 +89,11 @@
       "title": "Official API reference",
       "url": "https://console.upstage.ai/api/document-classification",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Upstage Document Classification skill | UpstageAI/upstage-extensions-hub GitHub",
+      "url": "https://github.com/UpstageAI/upstage-extensions-hub/blob/main/skills/upstage-document-classification/SKILL.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

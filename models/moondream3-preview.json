@@ -8,7 +8,9 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": 32000,
@@ -48,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Hosted Moondream 3 Preview vision model. The API model id is moondream3-preview, and the shared chat endpoint accepts image inputs and streaming. Real-time price is $0.30 per million input tokens and $2.50 per million output tokens. The batch price is half of that and is not stored. Context length, parameter count, and release date are not stated on the pricing or API pages.",
     "docs": "https://docs.moondream.ai/api",
-    "verified_at": "2026-10-24"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -82,6 +84,11 @@
       "title": "Moondream 3 Preview: Frontier-level reasoning at a blazing speed | Moondream",
       "url": "https://moondream.ai/blog/moondream-3-preview",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "OpenAI Compatibility | Moondream Docs (m87-labs/md-docs GitHub)",
+      "url": "https://github.com/m87-labs/md-docs/blob/main/docs/openai.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
