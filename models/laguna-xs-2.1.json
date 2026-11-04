@@ -29,8 +29,20 @@
     "supported": true,
     "efforts": []
   },
-  "prices": [],
-  "features": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 0.2,
+      "cache_read": 0.05,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": null,
@@ -39,8 +51,20 @@
     "docs": "https://docs.poolside.ai/get-started/supported-models",
     "verified_at": "2026-11-04"
   },
-  "providers": [],
-  "aliases": [],
+  "providers": [
+    {
+      "id": "poolside",
+      "model": "poolside/laguna-xs-2.1",
+      "base_url": "https://inference.poolside.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "chat_template_kwargs.enable_thinking"
+    }
+  ],
+  "aliases": [
+    "poolside/laguna-xs-2.1"
+  ],
   "translations": {
     "zh": {
       "description": "Laguna XS 2.1 是总参数 33B、每个 token 激活 3B 参数的混合专家模型，面向在本地机器上进行智能体编程和长周期任务。"
@@ -55,12 +79,12 @@
     {
       "title": "Model release notes | Poolside Docs",
       "url": "https://docs.poolside.ai/release-notes/models",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Introducing Laguna XS 2.1 | Poolside Blog（2026-07-02，256K context on our API）",
       "url": "https://poolside.ai/blog/introducing-laguna-xs-2-1",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "poolside/Laguna-XS-2.1 | Hugging Face（Context window: 262,144 tokens）",
@@ -75,6 +99,16 @@
     {
       "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Poolside API overview (Poolside-hosted inference base URL https://inference.poolside.ai/v1, POST /v1/chat/completions) | Poolside Docs",
+      "url": "https://docs.poolside.ai/api/overview",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "OpenAI API examples (chat_template_kwargs.enable_thinking, streaming, tools on Poolside-hosted inference) | Poolside Docs",
+      "url": "https://docs.poolside.ai/api/openai-api-examples",
       "retrieved_at": "2026-11-04"
     }
   ]
