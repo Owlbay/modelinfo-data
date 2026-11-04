@@ -44,7 +44,7 @@
     "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": "Our older embeddings model that allows for text to be classified or turned into embeddings. English only.",
+    "description": "Cohere's older embeddings model that allows for text to be classified or turned into embeddings. English only.",
     "docs": "https://docs.cohere.com/docs/deprecations",
     "verified_at": "2026-11-04"
   },
@@ -60,7 +60,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "我们较早的向量模型，可将文本分类或转换为向量。仅支持英语。"
+      "description": "Cohere 较早的向量模型，可将文本分类或转换为向量。仅支持英语。"
     }
   },
   "sources": [
