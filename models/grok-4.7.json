@@ -60,7 +60,7 @@
     "knowledge_cutoff": "2026-05",
     "description": "SpaceXAI's frontier model for coding, agentic tasks, and knowledge work.",
     "docs": "https://docs.x.ai/developers/models/grok-4.7",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -72,6 +72,20 @@
         "responses": "POST /v1/responses"
       },
       "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "us.xai.grok-4.7",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "responses": "POST /openai/v1/responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      }
     }
   ],
   "aliases": [],
@@ -130,6 +144,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — Grok 4.7 (us.xai.grok-4.7 on https://bedrock-runtime.{REGION}.amazonaws.com/openai/v1, Responses and Chat Completions) (official AWS GitHub)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/11-xai-grok/03-grok-4-7.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

@@ -74,7 +74,7 @@
     "knowledge_cutoff": null,
     "description": "Kimi flagship 2.8-trillion-parameter model with native visual understanding for software engineering, knowledge work and deep reasoning.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -93,6 +93,28 @@
         "messages": "output_config.effort",
         "responses": "reasoning.effort"
       }
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "us.moonshotai.kimi-k3",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "responses": "POST /openai/v1/responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      },
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ]
     }
   ],
   "aliases": [],
@@ -201,6 +223,11 @@
       "title": "Batch API guide | Kimi API Platform",
       "url": "https://platform.kimi.ai/docs/guide/use-batch-api",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — Kimi K3 (us.moonshotai.kimi-k3 on https://bedrock-runtime.{REGION}.amazonaws.com/openai/v1, Chat Completions and Responses; reasoning_effort / reasoning.effort none/low/medium/high/xhigh/max) (official AWS GitHub)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/08-moonshot-kimi/02-kimi-k3.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

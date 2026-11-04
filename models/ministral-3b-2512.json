@@ -57,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "Smallest and most efficient Ministral 3 model with language and vision capabilities, designed for edge deployment.",
     "docs": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -67,6 +67,15 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions",
         "batch": "POST /v1/batch"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "mistral.ministral-3-3b-instruct",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
       },
       "reasoning_param": null
     }
@@ -134,6 +143,11 @@
       "title": "Prompt caching | Mistral Docs",
       "url": "https://docs.mistral.ai/studio/conversations/advanced/prompt-caching",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — Mistral Large 3 and Ministral 3 on bedrock-mantle (mistral.mistral-large-3-675b-instruct, mistral.ministral-3-14b/8b/3b-instruct; base_url https://bedrock-mantle.{REGION}.api.aws/v1, Chat Completions) (official AWS GitHub)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/07-mistral/01-mistral-text-and-sizes.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

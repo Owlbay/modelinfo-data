@@ -76,6 +76,20 @@
         "batch": "POST /v1/batches"
       },
       "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "xai.grok-4.3",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "responses": "POST /openai/v1/responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      }
     }
   ],
   "aliases": [
@@ -140,6 +154,11 @@
     {
       "title": "xai-sdk-ts src/constants.ts — DEFAULT_BASE_URL (official xAI GitHub)",
       "url": "https://github.com/xai-org/xai-sdk-ts/blob/main/src/constants.ts",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — Grok 4.3 on bedrock-mantle (xai.grok-4.3; OpenAI client base_url https://bedrock-mantle.{REGION}.api.aws/openai/v1, responses.create and chat.completions.create, us-east-1) (official AWS GitHub)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/11-xai-grok/01-grok-4-3.ipynb",
       "retrieved_at": "2026-11-04"
     }
   ]

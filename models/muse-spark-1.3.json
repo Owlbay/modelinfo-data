@@ -65,7 +65,7 @@
     "knowledge_cutoff": null,
     "description": "Meta's latest Muse Spark version, tuned for agentic workflows (multi-step tool, browser, and long-horizon tasks) with improved coding.",
     "docs": "https://dev.meta.ai/docs/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -77,6 +77,15 @@
         "responses": "POST /responses"
       },
       "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "muse-spark-1.3",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "responses": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/meta/v1/responses"
+      },
+      "reasoning_param": null
     }
   ],
   "aliases": [],
@@ -135,6 +144,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "meta_muse_intro.ipynb — Meta Muse Spark 1.3 on Agent Platform (formerly Vertex AI) (official GoogleCloudPlatform/vertex-ai-samples; POST https://aiplatform.googleapis.com/v1/projects/{PROJECT_ID}/locations/global/publishers/meta/v1/responses, model muse-spark-1.3)",
+      "url": "https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/official/generative_ai/meta_muse_intro.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

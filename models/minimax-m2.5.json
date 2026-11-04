@@ -64,7 +64,7 @@
     "knowledge_cutoff": null,
     "description": "Legacy model optimized for code generation and refactoring.",
     "docs": "https://platform.minimax.io/docs/guides/models-intro",
-    "verified_at": "2026-11-02"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -76,6 +76,21 @@
         "messages": "POST /anthropic/v1/messages"
       },
       "reasoning_param": "thinking"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "minimax.minimax-m2.5",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ]
     }
   ],
   "aliases": [
@@ -166,6 +181,11 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — MiniMax M2.5 on bedrock-mantle (minimax.minimax-m2.5; base_url https://bedrock-mantle.{REGION}.api.aws/v1, Chat Completions, reasoning_effort none/low/medium/high) (official AWS GitHub)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/09-minimax/01-minimax-m2.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

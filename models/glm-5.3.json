@@ -69,7 +69,7 @@
     "knowledge_cutoff": null,
     "description": "Z.ai flagship text model with 1M context and stronger coding, built on the same base as GLM-5.2.",
     "docs": "https://docs.z.ai/guides/llm/glm-5.3",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -81,6 +81,22 @@
         "messages": "POST /api/anthropic/v1/messages"
       },
       "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "us.zai.glm-5.3",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_efforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ]
     }
   ],
   "aliases": [],
@@ -149,6 +165,11 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — GLM 5.3 (us.zai.glm-5.3 on https://bedrock-runtime.{REGION}.amazonaws.com/openai/v1, Chat Completions; reasoning_effort low/medium/high/xhigh/max) (official AWS GitHub)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/06-zai-glm/02-glm-5-3.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
