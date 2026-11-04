@@ -63,7 +63,7 @@
     "knowledge_cutoff": "2026-03",
     "description": "Most intelligent Flash model for long-horizon coding, agents and enterprise workflows. Standard price is $1.50 input, $7.50 output, and $0.15 cache read per 1M tokens from January 1, 2027. The introductory price through December 31, 2026 is $0.75, $3.75, and $0.075.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
-    "verified_at": "2026-10-26"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -74,6 +74,15 @@
         "generate": "POST /v1beta/models/{model}:generateContent",
         "batch": "POST /v1beta/models/{model}:batchGenerateContent",
         "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemini-3.8-flash",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-3.8-flash:generateContent"
       },
       "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
     }
@@ -144,6 +153,16 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "intro_gemini_3_8_flash.ipynb — Agent Platform (formerly Vertex AI) sample (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_3_8_flash.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "intro_gemini_curl.ipynb — Agent Platform REST request URL (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_curl.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

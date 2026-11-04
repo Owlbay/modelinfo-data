@@ -57,7 +57,7 @@
     "knowledge_cutoff": "2025-01",
     "description": "Low-latency, low-cost image generation and editing model for high-volume interactive use.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -67,6 +67,15 @@
       "endpoints": {
         "images": "POST /v1beta/models/{model}:generateContent",
         "batch": "POST /v1beta/models/{model}:batchGenerateContent"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemini-3.1-flash-lite-image",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "images": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-3.1-flash-lite-image:generateContent"
       },
       "reasoning_param": null
     }
@@ -127,6 +136,16 @@
       "title": "Understand and count tokens | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/tokens",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "intro_gemini_3_1_flash_lite_image_gen.ipynb — Agent Platform (formerly Vertex AI) sample (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_3_1_flash_lite_image_gen.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "intro_gemini_curl.ipynb — Agent Platform REST request URL (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_curl.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

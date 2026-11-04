@@ -53,7 +53,7 @@
     "knowledge_cutoff": "2025-01",
     "description": "Reasoning-driven model for professional image generation and editing with accurate text rendering.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -64,6 +64,15 @@
         "images": "POST /v1beta/models/{model}:generateContent",
         "batch": "POST /v1beta/models/{model}:batchGenerateContent",
         "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemini-3-pro-image",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "images": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-3-pro-image:generateContent"
       },
       "reasoning_param": null
     }
@@ -129,6 +138,16 @@
       "title": "Gemini 3 Pro Image | Gemini Enterprise Agent Platform",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-pro-image",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "intro_gemini_3_image_gen.ipynb — Agent Platform (formerly Vertex AI) sample (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_3_image_gen.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "intro_gemini_curl.ipynb — Agent Platform REST request URL (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_curl.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

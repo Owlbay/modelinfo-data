@@ -62,7 +62,7 @@
     "knowledge_cutoff": "2026-03",
     "description": "Previous-generation natively multimodal reasoning model; requests are routed to Gemini 3.8 Flash.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -72,6 +72,15 @@
       "endpoints": {
         "generate": "POST /v1beta/models/{model}:generateContent",
         "batch": "POST /v1beta/models/{model}:batchGenerateContent"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemini-3.7-flash",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-3.7-flash:generateContent"
       },
       "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
     }
@@ -137,6 +146,16 @@
       "title": "存档：Gemini API 价格（原网址 https://ai.google.dev/gemini-api/docs/pricing）",
       "url": "https://web.archive.org/web/20260825032205/https://ai.google.dev/gemini-api/docs/pricing",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "intro_gemini_3_7_flash.ipynb — Agent Platform (formerly Vertex AI) sample (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_3_7_flash.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "intro_gemini_curl.ipynb — Agent Platform REST request URL (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_curl.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
