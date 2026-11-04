@@ -56,7 +56,7 @@
     "knowledge_cutoff": null,
     "description": "Our first frontier-class multimodal model released November 2024.",
     "docs": "https://docs.mistral.ai/models/pixtral-large-24-11",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -65,7 +65,7 @@
       "base_url": "https://api.mistral.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batch/jobs"
       },
       "reasoning_param": null
     }
@@ -128,6 +128,11 @@
       "title": "Pixtral Large | Mistral Docs (official Markdown)",
       "url": "https://docs.mistral.ai/models/pixtral-large-24-11.md",
       "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Our OCR service powering our Document AI stack that enables our users to extract interleaved text and images",
     "docs": "https://docs.mistral.ai/models/ocr-2-25-05",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -59,7 +59,7 @@
       "model": "mistral-ocr-2505",
       "base_url": "https://api.mistral.ai",
       "endpoints": {
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batch/jobs"
       },
       "reasoning_param": null
     }
@@ -100,6 +100,11 @@
       "title": "OCR 2 | Mistral Docs (official Markdown)",
       "url": "https://docs.mistral.ai/models/ocr-2-25-05.md",
       "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

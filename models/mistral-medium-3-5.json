@@ -60,7 +60,7 @@
     "knowledge_cutoff": null,
     "description": "Frontier-class multimodal model optimized for agentic and coding use cases.",
     "docs": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
-    "verified_at": "2026-11-02"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -69,7 +69,7 @@
       "base_url": "https://api.mistral.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batch/jobs"
       },
       "reasoning_param": "reasoning_effort"
     }
@@ -138,6 +138,11 @@
       "title": "Prompt caching | Mistral Docs",
       "url": "https://docs.mistral.ai/studio/conversations/advanced/prompt-caching",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

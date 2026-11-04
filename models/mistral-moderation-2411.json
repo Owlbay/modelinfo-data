@@ -49,7 +49,7 @@
     "knowledge_cutoff": null,
     "description": "Our moderation service that enables our users to detect harmful text content",
     "docs": "https://docs.mistral.ai/models/mistral-moderation-24-11",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -57,7 +57,7 @@
       "model": "mistral-moderation-2411",
       "base_url": "https://api.mistral.ai",
       "endpoints": {
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batch/jobs"
       },
       "reasoning_param": null
     }
@@ -93,6 +93,11 @@
       "title": "SDK support — @mistralai/mistralai (api.sdk only)",
       "url": "https://github.com/mistralai/client-ts",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

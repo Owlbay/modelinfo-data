@@ -56,7 +56,7 @@
     "knowledge_cutoff": null,
     "description": "Our frontier-class multimodal model released August 2025. Improving tone and performance.",
     "docs": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -65,7 +65,7 @@
       "base_url": "https://api.mistral.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batch/jobs"
       },
       "reasoning_param": null
     }
@@ -126,6 +126,11 @@
       "title": "Mistral Medium 3.1 | Mistral Docs (official Markdown)",
       "url": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08.md",
       "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

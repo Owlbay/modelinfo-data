@@ -55,7 +55,7 @@
     "knowledge_cutoff": null,
     "description": "An experimental specialized small model trained on meticulously curated data, designed for creative writing, narrative generation, roleplay and character-driven dialog, general-purpose instruction following and conversational agents.",
     "docs": "https://docs.mistral.ai/models/mistral-small-creative-25-12",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -64,7 +64,7 @@
       "base_url": "https://api.mistral.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batch/jobs"
       },
       "reasoning_param": null
     }
@@ -120,6 +120,11 @@
       "title": "Mistral Small Creative | Mistral Docs (official Markdown)",
       "url": "https://docs.mistral.ai/models/mistral-small-creative-25-12.md",
       "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

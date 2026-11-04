@@ -54,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "Our frontier-class reasoning model released July 2025.",
     "docs": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -63,7 +63,7 @@
       "base_url": "https://api.mistral.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batch/jobs"
       },
       "reasoning_param": null
     }
@@ -119,6 +119,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

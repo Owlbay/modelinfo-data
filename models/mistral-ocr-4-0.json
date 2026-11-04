@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Our latest OCR service powering our Document AI stack, with native paragraph-level bounding box extraction and structural block labels.",
     "docs": "https://docs.mistral.ai/models/ocr-4-0",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -59,7 +59,7 @@
       "model": "mistral-ocr-4-0",
       "base_url": "https://api.mistral.ai",
       "endpoints": {
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batch/jobs"
       },
       "reasoning_param": null
     }
@@ -100,6 +100,11 @@
       "title": "OCR 4.0 | Mistral Docs (official Markdown)",
       "url": "https://docs.mistral.ai/models/ocr-4-0.md",
       "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

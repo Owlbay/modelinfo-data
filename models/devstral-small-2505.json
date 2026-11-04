@@ -55,7 +55,7 @@
     "knowledge_cutoff": null,
     "description": "A 24B text model, open source model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
     "docs": "https://docs.mistral.ai/models/devstral-small-1-0-25-05",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -64,7 +64,7 @@
       "base_url": "https://api.mistral.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batch/jobs"
       },
       "reasoning_param": null
     }
@@ -125,6 +125,11 @@
       "title": "Devstral Small 1.0 | Mistral Docs (official Markdown)",
       "url": "https://docs.mistral.ai/models/devstral-small-1-0-25-05.md",
       "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Batch | Mistral Docs",
+      "url": "https://docs.mistral.ai/api/endpoint/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
