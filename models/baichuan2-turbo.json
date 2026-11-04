@@ -1,0 +1,80 @@
+{
+  "id": "baichuan2-turbo",
+  "object": "model",
+  "created": null,
+  "owned_by": "baichuan",
+  "name": "Baichuan2-Turbo",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 32000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 8,
+      "output": 8,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://platform.baichuan-ai.com/docs-v2/api",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "baichuan",
+      "model": "Baichuan2-Turbo",
+      "base_url": "https://api.baichuan-ai.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Baichuan2-Turbo"
+  ],
+  "sources": [
+    {
+      "title": "通用大模型接口文档 | 百川智能开放平台",
+      "url": "https://platform.baichuan-ai.com/docs-v2/api",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "产品定价 | 百川智能开放平台",
+      "url": "https://platform.baichuan-ai.com/prices",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
