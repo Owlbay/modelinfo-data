@@ -1,0 +1,71 @@
+{
+  "id": "hydrogen-1.0",
+  "object": "model",
+  "created": null,
+  "owned_by": "deep-principle",
+  "name": "Hydrogen-1.0",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Hydrogen-1.0 is a scientific problem-solving and research assistance model developed by Deep Principle based on GLM-5.3.",
+    "docs": "https://huggingface.co/deep-principle/Hydrogen-1.0",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [],
+  "aliases": [
+    "deep-principle/Hydrogen-1.0"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Hydrogen-1.0 是 Deep Principle 基于 GLM-5.3 开发的科学问题求解与科研辅助模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "deep-principle/Hydrogen-1.0 模型卡（BF16；Context length 1M tokens、Maximum output length 128K tokens、MIT License）| Hugging Face",
+      "url": "https://huggingface.co/deep-principle/Hydrogen-1.0",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "deep-principle/Hydrogen-1.0-NVFP4 模型卡（同一规格表；SGLang --reasoning-parser glm45；API 模型 ID hydrogen-1.0；Chat Completions 示例）| Hugging Face",
+      "url": "https://huggingface.co/deep-principle/Hydrogen-1.0-NVFP4",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Hydrogen-1.0 使用说明 / Usage notes（1M tokens 上下文、128K tokens 最大输出；reasoning_effort 参数位置）| Hugging Face",
+      "url": "https://huggingface.co/deep-principle/Hydrogen-1.0-NVFP4/blob/main/docs/USAGE.md",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Introducing Hydrogen-1.0 — Deep Principle",
+      "url": "https://blog.deepprinciple.com/introducing-hydrogen-1.0/",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
