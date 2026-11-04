@@ -8,7 +8,9 @@
     "types": [
       "audio"
     ],
-    "sdk": []
+    "sdk": [
+      "azure-ai-transcription"
+    ]
   },
   "limits": {
     "context": null,
@@ -44,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Microsoft AI speech-to-text model, predecessor of MAI-Transcribe-2, used via Azure Speech enhanced mode.",
     "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -69,7 +71,7 @@
     {
       "title": "MAI-Transcribe-2 | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Introducing MAI-Transcribe-1.5 | Microsoft AI",
@@ -80,6 +82,11 @@
       "title": "Official model release / pricing documentation",
       "url": "https://microsoft.ai/models/mai-transcribe-2/",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "SDK support — azure-ai-transcription (PyPI), LLM Speech / Fast Transcription Python quickstart (api.sdk only) | Azure Speech",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/llm-speech?tabs=new-foundry%2Cwindows&pivots=programming-language-python",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
