@@ -1,0 +1,114 @@
+{
+  "id": "voyage-lite-02-instruct",
+  "object": "model",
+  "created": null,
+  "owned_by": "voyage",
+  "name": "Voyage Lite 02 Instruct",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/voyage",
+      "openai",
+      "voyageai"
+    ]
+  },
+  "limits": {
+    "context": 4000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "[Deprecated] Instruction-tuned for classification, clustering, and sentence textual similarity tasks, which are the only recommended use cases. Please transition to voyage-3.",
+    "docs": "https://docs.voyageai.com/docs/embeddings",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "voyage",
+      "model": "voyage-lite-02-instruct",
+      "base_url": "https://api.voyageai.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "[已弃用] 针对分类、聚类和句子文本相似度任务进行了指令微调，这也是仅有的推荐用途。请迁移到 voyage-3。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Text Embeddings | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/embeddings",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Pricing | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/pricing",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Text embeddings API | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/reference/embeddings-api",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/voyage (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/voyage",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — voyageai (api.sdk only)",
+      "url": "https://github.com/voyage-ai/typescript-sdk",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}

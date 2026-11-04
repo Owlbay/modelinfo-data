@@ -1,0 +1,114 @@
+{
+  "id": "voyage-2",
+  "object": "model",
+  "created": null,
+  "owned_by": "voyage",
+  "name": "Voyage 2",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@ai-sdk/voyage",
+      "openai",
+      "voyageai"
+    ]
+  },
+  "limits": {
+    "context": 4000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "General-purpose embedding model optimized for a balance between cost, latency, and retrieval quality. Please transition to voyage-3-lite.",
+    "docs": "https://docs.voyageai.com/docs/embeddings",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "voyage",
+      "model": "voyage-2",
+      "base_url": "https://api.voyageai.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "在成本、延迟和检索质量之间取得平衡的通用向量模型。请迁移到 voyage-3-lite。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Text Embeddings | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/embeddings",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Pricing | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/pricing",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Text embeddings API | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/reference/embeddings-api",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/voyage (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/voyage",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — voyageai (api.sdk only)",
+      "url": "https://github.com/voyage-ai/typescript-sdk",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}

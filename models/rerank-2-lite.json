@@ -1,0 +1,96 @@
+{
+  "id": "rerank-2-lite",
+  "object": "model",
+  "created": 1727654400,
+  "owned_by": "voyage",
+  "name": "Rerank 2 Lite",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": [
+      "@ai-sdk/voyage",
+      "voyageai"
+    ]
+  },
+  "limits": {
+    "context": 8000,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.02,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-09-30",
+    "knowledge_cutoff": null,
+    "description": "Our generalist second-generation reranker optimized for both latency and quality with multilingual support.",
+    "docs": "https://docs.voyageai.com/docs/reranker",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "voyage",
+      "model": "rerank-2-lite",
+      "base_url": "https://api.voyageai.com",
+      "endpoints": {
+        "rerank": "POST /v1/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "我们的第二代通用重排模型，同时针对延迟和质量进行了优化，支持多语言。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Rerankers | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/reranker",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Pricing | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/pricing",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Voyage AI Blog: rerank-2 and rerank-2-lite",
+      "url": "https://blog.voyageai.com/2024/09/30/rerank-2/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/voyage (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/voyage",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — voyageai (api.sdk only)",
+      "url": "https://github.com/voyage-ai/typescript-sdk",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
