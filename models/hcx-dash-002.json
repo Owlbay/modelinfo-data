@@ -8,7 +8,11 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
   },
   "limits": {
     "context": 32000,
@@ -47,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Lightweight, fast model suited to relatively simple tasks.",
     "docs": "https://guide.ncloud-docs.com/docs/clovastudio-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -56,6 +60,15 @@
       "base_url": "https://clovastudio.stream.ntruss.com",
       "endpoints": {
         "chat": "POST /v3/chat-completions/{modelName}"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "naver",
+      "model": "HCX-DASH-002",
+      "base_url": "https://clovastudio.stream.ntruss.com/v1/openai",
+      "endpoints": {
+        "chat": "POST /chat/completions"
       },
       "reasoning_param": null
     }
@@ -88,6 +101,21 @@
       "title": "CLOVA Studio inference pricing — KRW per 1,000 tokens (excluding VAT)",
       "url": "https://www.ncloud.com/product/aiService/clovaStudio#pricing",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "OpenAI compatibility | CLOVA Studio API Guide (NAVER Cloud)",
+      "url": "https://api.ncloud-docs.com/docs/en/clovastudio-openaicompatibility",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
