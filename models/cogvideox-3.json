@@ -8,7 +8,9 @@
     "types": [
       "video"
     ],
-    "sdk": []
+    "sdk": [
+      "zai-sdk"
+    ]
   },
   "limits": {
     "context": null,
@@ -45,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Video generation model with start and end frame support, priced at $0.2 per video.",
     "docs": "https://docs.z.ai/guides/video/cogvideox-3",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -68,7 +70,7 @@
     {
       "title": "CogVideoX-3 | Z.AI Developer Document",
       "url": "https://docs.z.ai/guides/video/cogvideox-3",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Pricing | Z.AI Developer Document",
@@ -79,6 +81,11 @@
       "title": "最新动态 | 智谱 AI 开放文档",
       "url": "https://docs.bigmodel.cn/cn/update/new-releases",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "CogVideoX-3（官方 Python SDK：pip install zai-sdk）| 智谱AI开放文档 (api.sdk only)",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/video-generation/cogvideox-3",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

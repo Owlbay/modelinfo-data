@@ -44,7 +44,7 @@
     "status": "active",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "代码补全模型",
     "docs": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
     "verified_at": "2026-11-04"
   },
@@ -60,11 +60,16 @@
     }
   ],
   "aliases": [],
+  "translations": {
+    "en": {
+      "description": "Code completion model"
+    }
+  },
   "sources": [
     {
       "title": "模型概览 | 智谱AI开放文档",
       "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "API 定价 | 智谱AI开放文档",
