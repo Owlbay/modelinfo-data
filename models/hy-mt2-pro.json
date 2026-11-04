@@ -1,7 +1,7 @@
 {
   "id": "hy-mt2-pro",
   "object": "model",
-  "created": null,
+  "created": 1779321600,
   "owned_by": "tencent",
   "name": "Hy-MT2-Pro",
   "api": {
@@ -44,11 +44,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-05-21",
     "knowledge_cutoff": null,
     "description": "Tencent flagship translation model for high-quality professional domains.",
     "docs": "https://cloud.tencent.com/document/product/1823/130051",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -71,7 +71,7 @@
     {
       "title": "模型列表 | 腾讯云 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "模型定价 | 腾讯云 TokenHub",
@@ -92,6 +92,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "产品动态 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130675",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

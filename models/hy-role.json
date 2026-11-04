@@ -1,7 +1,7 @@
 {
   "id": "hy-role",
   "object": "model",
-  "created": null,
+  "created": 1781481600,
   "owned_by": "tencent",
   "name": "Hy-Role",
   "api": {
@@ -47,11 +47,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-06-15",
     "knowledge_cutoff": null,
     "description": "Tencent role-play model for persona and scenario performance.",
     "docs": "https://cloud.tencent.com/document/product/1823/130051",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -75,7 +75,7 @@
     {
       "title": "模型列表 | 腾讯云 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "模型定价 | 腾讯云 TokenHub",
@@ -111,6 +111,11 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "产品动态 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130675",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
