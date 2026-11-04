@@ -228,6 +228,16 @@
       "title": "aws-samples/sample-per-model-bedrock — Kimi K3 (us.moonshotai.kimi-k3 on https://bedrock-runtime.{REGION}.amazonaws.com/openai/v1, Chat Completions and Responses; reasoning_effort / reasoning.effort none/low/medium/high/xhigh/max) (official AWS GitHub)",
       "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/08-moonshot-kimi/02-kimi-k3.ipynb",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Kimi K3 model card (Programmatic Access: geo us.moonshotai.kimi-k3, /openai/v1; reasoning effort none/low/medium/high/xhigh/max) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

@@ -85,7 +85,7 @@
     {
       "title": "Cohere Model Overview",
       "url": "https://docs.cohere.com/docs/models",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "How does Cohere pricing work?",
@@ -125,6 +125,21 @@
     {
       "title": "boto/botocore — endpoints.json (official AWS SDK; bedrock.us-east-1.amazonaws.com, bedrock-runtime.us-east-1.amazonaws.com)",
       "url": "https://github.com/boto/botocore/blob/develop/botocore/data/endpoints.json",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Embed Multilingual model card (Programmatic Access: cohere.embed-multilingual-v3, Invoke on bedrock-runtime) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-multilingual.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "InvokeModel - Amazon Bedrock API Reference (POST /model/{modelId}/invoke)",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_InvokeModel.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Amazon Bedrock endpoints and quotas - AWS General Reference",
+      "url": "https://docs.aws.amazon.com/general/latest/gr/bedrock.html",
       "retrieved_at": "2026-11-04"
     }
   ]

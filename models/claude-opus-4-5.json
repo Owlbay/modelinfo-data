@@ -195,6 +195,16 @@
       "title": "Claude in Microsoft Foundry | Claude Platform Docs",
       "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Claude Opus 4.5 model card (Programmatic Access: global.anthropic.claude-opus-4-5-20251101-v1:0, Invoke/Converse) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-5.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "InvokeModel - Amazon Bedrock API Reference (POST /model/{modelId}/invoke)",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_InvokeModel.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

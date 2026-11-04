@@ -128,6 +128,21 @@
       "title": "boto/botocore — endpoints.json (official AWS SDK; bedrock.us-east-1.amazonaws.com, bedrock-runtime.us-east-1.amazonaws.com)",
       "url": "https://github.com/boto/botocore/blob/develop/botocore/data/endpoints.json",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Palmyra X4 model card (Programmatic Access: writer.palmyra-x4-v1:0, geo us.writer.palmyra-x4-v1:0, Converse) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x4.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Converse - Amazon Bedrock API Reference (POST /model/{modelId}/converse)",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_Converse.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Amazon Bedrock endpoints and quotas - AWS General Reference",
+      "url": "https://docs.aws.amazon.com/general/latest/gr/bedrock.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

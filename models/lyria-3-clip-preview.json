@@ -127,6 +127,16 @@
       "title": "intro_gemini_curl.ipynb — Agent Platform REST request URL (official GoogleCloudPlatform/generative-ai sample source)",
       "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_curl.ipynb",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Lyria 3 (Model ID lyria-3-clip-preview; Global: global) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/lyria/lyria-3",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Generate music with Lyria (Lyria 3 REST: POST https://aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/global/interactions) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/music/generate-music",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

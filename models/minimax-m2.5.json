@@ -186,6 +186,16 @@
       "title": "aws-samples/sample-per-model-bedrock — MiniMax M2.5 on bedrock-mantle (minimax.minimax-m2.5; base_url https://bedrock-mantle.{REGION}.api.aws/v1, Chat Completions, reasoning_effort none/low/medium/high) (official AWS GitHub)",
       "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/09-minimax/01-minimax-m2.ipynb",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "MiniMax M2.5 model card (Programmatic Access: bedrock-mantle minimax.minimax-m2.5, https://bedrock-mantle.{region}.api.aws/v1) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2-5.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

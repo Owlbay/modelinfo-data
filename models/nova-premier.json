@@ -68,7 +68,7 @@
     },
     {
       "id": "amazon-bedrock",
-      "model": "amazon.nova-premier-v1:0",
+      "model": "us.amazon.nova-premier-v1:0",
       "base_url": "https://bedrock.us-east-1.amazonaws.com",
       "endpoints": {
         "batch": "POST /model-invocation-job"
@@ -89,7 +89,7 @@
     {
       "title": "What is Amazon Nova? | Amazon Nova User Guide",
       "url": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "SDK support — @aws-sdk/client-bedrock-runtime (api.sdk only)",
@@ -124,6 +124,21 @@
     {
       "title": "boto/botocore — endpoints.json (official AWS SDK; bedrock.us-east-1.amazonaws.com, bedrock-runtime.us-east-1.amazonaws.com)",
       "url": "https://github.com/boto/botocore/blob/develop/botocore/data/endpoints.json",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "CreateModelInvocationJob - Amazon Bedrock API Reference (POST /model-invocation-job)",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_CreateModelInvocationJob.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Supported Regions and models for batch inference - Amazon Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference-supported.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Amazon Bedrock endpoints and quotas - AWS General Reference",
+      "url": "https://docs.aws.amazon.com/general/latest/gr/bedrock.html",
       "retrieved_at": "2026-11-04"
     }
   ]

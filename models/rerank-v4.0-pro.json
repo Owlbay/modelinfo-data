@@ -115,6 +115,11 @@
       "title": "Azure/azureml-examples — rerank-cohere-client.ipynb (official Microsoft GitHub; base_url https://<endpoint>.services.ai.azure.com/providers/cohere/, route /v2/rerank, model Cohere-rerank-v4.0-fast / Cohere-rerank-v4.0-pro)",
       "url": "https://github.com/Azure/azureml-examples/blob/main/sdk/python/foundation-models/cohere/rerank-cohere-client.ipynb",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Foundry Models sold by Azure (Cohere-rerank-v4.0-pro) | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

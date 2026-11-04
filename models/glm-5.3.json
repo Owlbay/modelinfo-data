@@ -170,6 +170,16 @@
       "title": "aws-samples/sample-per-model-bedrock — GLM 5.3 (us.zai.glm-5.3 on https://bedrock-runtime.{REGION}.amazonaws.com/openai/v1, Chat Completions; reasoning_effort low/medium/high/xhigh/max) (official AWS GitHub)",
       "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/06-zai-glm/02-glm-5-3.ipynb",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "GLM 5.3 model card (Programmatic Access: geo us.zai.glm-5.3 on bedrock-runtime; effort low/medium/high/xhigh/max) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5-3.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

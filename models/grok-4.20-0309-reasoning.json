@@ -108,7 +108,7 @@
     {
       "title": "Grok 4.20 (Reasoning) | xAI Docs",
       "url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Models and Pricing | xAI Docs",
@@ -188,6 +188,16 @@
     {
       "title": "Reasoning for Grok Models (Grok reasoning models don't support reasoning_effort) | Gemini Enterprise Agent Platform",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/grok/capabilities/reasoning",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Batch API (Not every model accepts Batch API requests; POST https://api.x.ai/v1/batches) | xAI Docs",
+      "url": "https://docs.x.ai/developers/advanced-api-usage/batch-api",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Batches (POST /v1/batches) | xAI REST API Reference",
+      "url": "https://docs.x.ai/developers/rest-api-reference/inference/batches",
       "retrieved_at": "2026-11-04"
     }
   ]

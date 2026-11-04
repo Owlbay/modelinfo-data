@@ -148,6 +148,16 @@
       "title": "aws-samples/sample-per-model-bedrock — Mistral Large 3 and Ministral 3 on bedrock-mantle (mistral.mistral-large-3-675b-instruct, mistral.ministral-3-14b/8b/3b-instruct; base_url https://bedrock-mantle.{REGION}.api.aws/v1, Chat Completions) (official AWS GitHub)",
       "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/07-mistral/01-mistral-text-and-sizes.ipynb",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Ministral 14B 3.0 model card (Programmatic Access: bedrock-mantle mistral.ministral-3-14b-instruct, /v1) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-14b-3-0.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

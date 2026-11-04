@@ -60,10 +60,17 @@
     {
       "id": "stepfun",
       "model": "step-tts-mini",
-      "base_url": "https://api.stepfun.ai/v1",
+      "base_url": "https://api.stepfun.com/v1",
       "endpoints": {
         "audio": "POST /audio/speech"
       },
+      "reasoning_param": null
+    },
+    {
+      "id": "stepfun",
+      "model": "step-tts-mini",
+      "base_url": "https://api.stepfun.ai/v1",
+      "endpoints": {},
       "reasoning_param": null
     }
   ],
@@ -77,7 +84,7 @@
     {
       "title": "Pricing and Rate Limits | StepFun Documentation",
       "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Model Overview | StepFun Documentation",
@@ -92,7 +99,7 @@
     {
       "title": "API 定价 | StepFun 开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "StepAudio-Skills step-tts SKILL.md | stepfun-ai GitHub",

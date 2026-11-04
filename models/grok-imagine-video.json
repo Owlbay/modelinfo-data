@@ -75,7 +75,7 @@
     {
       "title": "Grok Imagine Video | xAI Docs",
       "url": "https://docs.x.ai/developers/models/grok-imagine-video",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Models and Pricing | xAI Docs",
@@ -120,6 +120,16 @@
     {
       "title": "xai-sdk-ts src/constants.ts — DEFAULT_BASE_URL (official xAI GitHub)",
       "url": "https://github.com/xai-org/xai-sdk-ts/blob/main/src/constants.ts",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Batch API (Not every model accepts Batch API requests; POST https://api.x.ai/v1/batches) | xAI Docs",
+      "url": "https://docs.x.ai/developers/advanced-api-usage/batch-api",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Batches (POST /v1/batches) | xAI REST API Reference",
+      "url": "https://docs.x.ai/developers/rest-api-reference/inference/batches",
       "retrieved_at": "2026-11-04"
     }
   ]

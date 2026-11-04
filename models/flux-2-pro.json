@@ -61,8 +61,8 @@
     },
     {
       "id": "microsoft-foundry",
-      "model": "flux-2-pro",
-      "base_url": "https://<YOUR_RESOURCE>.services.ai.azure.com",
+      "model": "FLUX.2-pro",
+      "base_url": "https://<resource-name>.api.cognitive.microsoft.com",
       "endpoints": {
         "images": "POST /providers/blackforestlabs/v1/flux-2-pro?api-version=preview"
       },
@@ -114,6 +114,11 @@
     {
       "title": "microsoft-foundry/foundry-samples — FLUX sample README (official Microsoft Foundry GitHub)",
       "url": "https://github.com/microsoft-foundry/foundry-samples/blob/main/samples/python/black-forest-labs/flux/README.md",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Deploy and use FLUX models in Microsoft Foundry (BFL API: https://<resource-name>.api.cognitive.microsoft.com/providers/blackforestlabs/v1/<model-path>?api-version=preview) | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-flux",
       "retrieved_at": "2026-11-04"
     }
   ]

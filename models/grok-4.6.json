@@ -193,6 +193,16 @@
       "title": "Reasoning for Grok Models (Grok reasoning models don't support reasoning_effort) | Gemini Enterprise Agent Platform",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/grok/capabilities/reasoning",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Grok 4.6 model card (Programmatic Access: bedrock-runtime us.xai.grok-4.6 /openai/v1; bedrock-mantle xai.grok-4.6 /openai/v1) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-6.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
