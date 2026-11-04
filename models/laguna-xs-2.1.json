@@ -1,0 +1,69 @@
+{
+  "id": "laguna-xs-2.1",
+  "object": "model",
+  "created": null,
+  "owned_by": "poolside",
+  "name": "Laguna XS 2.1",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Laguna XS 2.1 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token, designed for agentic coding and long-horizon work on local machines.",
+    "docs": "https://docs.poolside.ai/get-started/supported-models",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Laguna XS 2.1 是总参数 33B、每个 token 激活 3B 参数的混合专家模型，面向在本地机器上进行智能体编程和长周期任务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Supported models | Poolside Docs",
+      "url": "https://docs.poolside.ai/get-started/supported-models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Model release notes | Poolside Docs",
+      "url": "https://docs.poolside.ai/release-notes/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Introducing Laguna XS 2.1 | Poolside Blog（2026-07-02，256K context on our API）",
+      "url": "https://poolside.ai/blog/introducing-laguna-xs-2-1",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "poolside/Laguna-XS-2.1 | Hugging Face（Context window: 262,144 tokens）",
+      "url": "https://huggingface.co/poolside/Laguna-XS-2.1",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}

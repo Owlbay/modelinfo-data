@@ -1,0 +1,94 @@
+{
+  "id": "laguna-s-2.1",
+  "object": "model",
+  "created": 1784592000,
+  "owned_by": "poolside",
+  "name": "Laguna S 2.1",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-21",
+    "knowledge_cutoff": null,
+    "description": "Laguna S 2.1 is a 118B total parameter Mixture-of-Experts model with 8B activated parameters per token, built for agentic coding and long-horizon work.",
+    "docs": "https://docs.poolside.ai/get-started/supported-models",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "poolside",
+      "model": "poolside/laguna-s-2.1",
+      "base_url": "https://inference.poolside.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "chat_template_kwargs.enable_thinking"
+    }
+  ],
+  "aliases": [
+    "poolside/laguna-s-2.1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Laguna S 2.1 是总参数 118B、每个 token 激活 8B 参数的混合专家模型，面向智能体编程和长周期任务。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Supported models | Poolside Docs",
+      "url": "https://docs.poolside.ai/get-started/supported-models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Model release notes | Poolside Docs",
+      "url": "https://docs.poolside.ai/release-notes/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Poolside API | Poolside Docs（Poolside-hosted inference：https://inference.poolside.ai/v1，POST /v1/chat/completions）",
+      "url": "https://docs.poolside.ai/api/overview",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "OpenAI-compatible API examples | Poolside Docs（enable_thinking、stream、tools）",
+      "url": "https://docs.poolside.ai/api/openai-api-examples",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Introducing Laguna S 2.1 | Poolside Blog（2026-07-21）",
+      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "poolside/Laguna-S-2.1 | Hugging Face（Context window: 1,048,576 tokens）",
+      "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}

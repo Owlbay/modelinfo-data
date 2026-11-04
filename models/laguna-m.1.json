@@ -1,0 +1,89 @@
+{
+  "id": "laguna-m.1",
+  "object": "model",
+  "created": 1777334400,
+  "owned_by": "poolside",
+  "name": "Laguna M.1",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-04-28",
+    "knowledge_cutoff": null,
+    "description": "Laguna M.1 is a Laguna family model for agentic work.",
+    "docs": "https://docs.poolside.ai/get-started/supported-models",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "poolside",
+      "model": "poolside/laguna-m.1",
+      "base_url": "https://inference.poolside.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "chat_template_kwargs.enable_thinking"
+    }
+  ],
+  "aliases": [
+    "poolside/laguna-m.1"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Laguna M.1 是 Laguna 系列中面向智能体任务的模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Supported models | Poolside Docs",
+      "url": "https://docs.poolside.ai/get-started/supported-models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Model release notes | Poolside Docs",
+      "url": "https://docs.poolside.ai/release-notes/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Introducing Laguna XS.2 and Laguna M.1 | Poolside Blog（2026-04-28）",
+      "url": "https://poolside.ai/blog/introducing-laguna-xs2-m1",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Long context update: Laguna XS.2 and M.1 | Poolside Blog（M.1 served at 256K on our API）",
+      "url": "https://poolside.ai/blog/long-context-update-laguna-xs-2-and-m-1",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "poolside/Laguna-M.1 | Hugging Face（Context window: 262,144 tokens；inference.poolside.ai 示例 model poolside/laguna-m.1）",
+      "url": "https://huggingface.co/poolside/Laguna-M.1",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
