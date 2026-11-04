@@ -1,7 +1,7 @@
 {
   "id": "embed-multilingual-v2.0",
   "object": "model",
-  "created": null,
+  "created": 1670803200,
   "owned_by": "cohere",
   "name": "Embed Multilingual v2.0",
   "api": {
@@ -42,7 +42,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2022-12-12",
     "knowledge_cutoff": null,
     "description": "Provides multilingual classification and embedding support.",
     "docs": "https://docs.cohere.com/docs/deprecations",
@@ -87,6 +87,16 @@
     {
       "title": "cohere-ai/cohere-developer-experience — Embed models (docs source, 2024-10-22 revision; embed-multilingual-v2.0 description) | Cohere Docs (official GitHub)",
       "url": "https://github.com/cohere-ai/cohere-developer-experience/blob/1646b04967d28c05eb03ff84bf5d7c33e18b35da/fern/pages/models/cohere-embed.mdx",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Multilingual Text Model + Language Detection (Dec 12, 2022: multilingual-22-12 now available) | Cohere Changelog",
+      "url": "https://docs.cohere.com/changelog/multilingual-text-understanding-model-language-detection",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Cohere Model Names Are Changing! (multilingual-22-12 → embed-multilingual-v2.0) | Cohere Changelog",
+      "url": "https://docs.cohere.com/changelog/model-names-are-changing",
       "retrieved_at": "2026-11-04"
     }
   ]

@@ -48,7 +48,7 @@
     "knowledge_cutoff": null,
     "description": "Embedding model for text and images, also supports classification.",
     "docs": "https://docs.cohere.com/docs/cohere-embed",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -57,6 +57,15 @@
       "base_url": "https://api.cohere.com",
       "endpoints": {
         "embeddings": "POST /v2/embed"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "cohere.embed-v4:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "embeddings": "POST /model/{modelId}/invoke"
       },
       "reasoning_param": null
     }
@@ -102,6 +111,16 @@
       "title": "Cohere Pricing 存档 2026-09-02（Embed 4 $0.12／百万 tokens）",
       "url": "https://web.archive.org/web/20260902170505/https://cohere.com/pricing",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Amazon Bedrock model card: Cohere Embed v4 (cohere.embed-v4:0, bedrock-runtime, Invoke API)",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-v4.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "InvokeModel (POST /model/{modelId}/invoke) | Amazon Bedrock API Reference",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_InvokeModel.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

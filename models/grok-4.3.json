@@ -90,6 +90,16 @@
         "chat": "reasoning_effort",
         "responses": "reasoning.effort"
       }
+    },
+    {
+      "id": "vertex-ai",
+      "model": "xai/grok-4.3",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "chat": "POST /v1/projects/{PROJECT_ID}/locations/global/endpoints/openapi/chat/completions",
+        "responses": "POST /v1/projects/{PROJECT_ID}/locations/global/endpoints/openapi/responses"
+      },
+      "reasoning_param": null
     }
   ],
   "aliases": [
@@ -159,6 +169,31 @@
     {
       "title": "aws-samples/sample-per-model-bedrock — Grok 4.3 on bedrock-mantle (xai.grok-4.3; OpenAI client base_url https://bedrock-mantle.{REGION}.api.aws/openai/v1, responses.create and chat.completions.create, us-east-1) (official AWS GitHub)",
       "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/11-xai-grok/01-grok-4-3.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Grok 4.3 | Gemini Enterprise Agent Platform (Vertex AI) — model ID grok-4.3, global endpoint",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/grok/grok-4-3",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "xAI Grok models | Gemini Enterprise Agent Platform (Vertex AI) — managed model names",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/grok",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Call open model APIs (Chat Completions, global endpoint …/locations/global/endpoints/openapi) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/call-open-model-apis",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Call Responses API (model xai/grok-…, POST …/locations/global/endpoints/openapi/responses) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/grok/responses",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Reasoning for Grok Models (Grok reasoning models don't support reasoning_effort) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/grok/capabilities/reasoning",
       "retrieved_at": "2026-11-04"
     }
   ]

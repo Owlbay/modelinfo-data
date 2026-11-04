@@ -1,7 +1,7 @@
 {
   "id": "chat-bison",
   "object": "model",
-  "created": null,
+  "created": 1683676800,
   "owned_by": "google",
   "name": "PaLM 2 for Chat (chat-bison)",
   "api": {
@@ -33,11 +33,11 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2023-05-10",
     "knowledge_cutoff": null,
     "description": "PaLM 2 for Chat (chat-bison) large language model fine-tuned for natural multi-turn conversations, suited to text tasks that need back-and-forth interaction.",
     "docs": "https://web.archive.org/web/20251112105521/https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -74,6 +74,11 @@
       "title": "SDK support — @google-cloud/aiplatform (api.sdk only)",
       "url": "https://github.com/googleapis/google-cloud-node/tree/main/packages/google-cloud-aiplatform",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Vertex AI release notes (May 10, 2023: Generative AI Support for Vertex AI Preview — PaLM 2 for Text text-bison@001, PaLM 2 for Chat chat-bison@001)",
+      "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
