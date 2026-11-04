@@ -30,14 +30,16 @@
     "efforts": []
   },
   "prices": [],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": null,
     "knowledge_cutoff": null,
     "description": "Vision language model that queries and summarizes images and video from the physical or virtual world.",
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-vila",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -67,7 +69,7 @@
     {
       "title": "NVIDIA vila inference API",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-vila-infer",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

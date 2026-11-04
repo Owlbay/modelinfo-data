@@ -1,7 +1,7 @@
 {
   "id": "deepgram-enhanced",
   "object": "model",
-  "created": null,
+  "created": 1653523200,
   "owned_by": "deepgram",
   "name": "Enhanced",
   "api": {
@@ -43,11 +43,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2022-05-26",
     "knowledge_cutoff": null,
     "description": "Recommended for lower word error rates than Base, high accuracy timestamps, and use cases that require keyword boosting.",
     "docs": "https://developers.deepgram.com/docs/models-languages-overview",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -93,6 +93,11 @@
       "title": "SDK support — @ai-sdk/deepgram (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/deepgram",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "New Enhanced ASR Model Release | Deepgram Changelog",
+      "url": "https://developers.deepgram.com/changelog/2022/5/26",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

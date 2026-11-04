@@ -8,7 +8,11 @@
     "types": [
       "embeddings"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
   },
   "limits": {
     "context": 32768,
@@ -34,29 +38,54 @@
     "status": "preview",
     "release_date": "2026-10-19",
     "knowledge_cutoff": null,
-    "description": "8.38B multimodal embedding model for text and document images, with a 32,768-token context and 4096-dimensional embeddings. Weights use OpenMDW-1.1. The same card lists a Build.NVIDIA.com release of 2026-10-19 and a Hugging Face release of 2026-10-20, so the release date is unset. No request path is printed, and the trial endpoint does not publish a numeric standard price.",
+    "description": "8B multimodal embedding model for text and document-image retrieval in RAG applications.",
     "docs": "https://build.nvidia.com/nvidia/nemotron-3_5-embed-8b/modelcard",
-    "verified_at": "2026-10-24"
+    "verified_at": "2026-11-04"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/nemotron-3.5-embed-8b",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
   "aliases": [
     "nvidia/nemotron-3.5-embed-8b"
   ],
   "translations": {
     "zh": {
-      "description": "8.38B 多模态向量模型，输入为文本和文档图像，上下文 32,768 tokens，向量维度 4096。权重使用 OpenMDW-1.1。同一模型卡同时写了 Build.NVIDIA.com 发布日 2026-10-19 和 Hugging Face 发布日 2026-10-20，因此发布日期留空。页面没有给出请求路径，试用端点也没有数字标准价。"
+      "description": "用于 RAG 应用中文本与文档图像检索的 8B 多模态向量模型。"
     }
   },
   "sources": [
     {
       "title": "nemotron-3.5-embed-8b Model Card | NVIDIA NIM",
       "url": "https://build.nvidia.com/nvidia/nemotron-3_5-embed-8b/modelcard",
-      "retrieved_at": "2026-10-24"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "nvidia / nemotron-3.5-embed-8b | NVIDIA NIM API Reference",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-embed-8b",
       "retrieved_at": "2026-10-24"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

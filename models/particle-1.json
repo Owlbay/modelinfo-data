@@ -10,7 +10,11 @@
       "completions",
       "responses"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai-compatible",
+      "litellm",
+      "openai"
+    ]
   },
   "limits": {
     "context": 1048576,
@@ -60,7 +64,7 @@
     "knowledge_cutoff": null,
     "description": "Particle's software-engineering model, post-trained on DeepSeek V4.1 Flash and available through the Particle API. Requests use particle-1; responses return particle-ai/particle-1. The context window is 1,048,576 tokens for the prompt and completion combined. The output ceiling is 131,072 tokens, and the default cap when no limit is sent is 32,000. Input is text and images, and output is text. Chat reasoning_effort accepts none, minimal, low, medium, high (default), xhigh, max, and ultra; the Responses WebSocket uses reasoning.effort. Tool calling and streaming are supported. Schema-guaranteed structured output is not advertised. The recorded price is the peak standard rate: $0.25 per 1M uncached input tokens, $0.03 per 1M cached input tokens, and $1.00 per 1M output tokens. Off-peak and Flex rates are lower and are not recorded. The launch post's cost footnote instead lists $0.30, $0.006, and $1.20 per 1M tokens for both Particle-1 and DeepSeek V4.1 Flash.",
     "docs": "https://docs.particle.ai/models",
-    "verified_at": "2026-10-29"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -129,6 +133,16 @@
       "title": "Responses WebSocket API | Particle API",
       "url": "https://docs.particle.ai/responses",
       "retrieved_at": "2026-10-29"
+    },
+    {
+      "title": "Quickstart | Particle Docs (OpenAI SDK; @ai-sdk/openai-compatible config)",
+      "url": "https://docs.particle.ai/quickstart",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "LiteLLM | Particle Docs",
+      "url": "https://docs.particle.ai/litellm",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

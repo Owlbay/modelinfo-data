@@ -32,14 +32,16 @@
     "efforts": []
   },
   "prices": [],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": "2026-07-27",
     "knowledge_cutoff": null,
     "description": "Translation model in 37 languages with few-shot example prompt capability.",
     "docs": "https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2/modelcard",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -89,7 +91,7 @@
     {
       "title": "NVIDIA riva-translate-4b-instruct-v2 inference API",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-riva-translate-4b-instruct-v2-infer",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

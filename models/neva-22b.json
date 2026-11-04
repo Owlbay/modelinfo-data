@@ -29,14 +29,16 @@
     "efforts": []
   },
   "prices": [],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": null,
     "knowledge_cutoff": null,
     "description": "NVIDIA's version of the LLaVA vision-language model, with the LLaMA language model replaced by a GPT model trained by NVIDIA.",
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-neva-22b",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -66,7 +68,7 @@
     {
       "title": "NVIDIA neva-22b inference API",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-neva-22b-infer",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

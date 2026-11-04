@@ -9,7 +9,8 @@
       "chat"
     ],
     "sdk": [
-      "@ai-sdk/openai-compatible"
+      "@ai-sdk/openai-compatible",
+      "openai"
     ]
   },
   "limits": {
@@ -37,7 +38,9 @@
   },
   "prices": [],
   "features": [
-    "tools"
+    "tools",
+    "structured_output",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -47,7 +50,17 @@
     "docs": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
     "verified_at": "2026-11-04"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "reflection",
+      "model": "Beam-1.0-501B-A23B",
+      "base_url": "https://api.reflection.ai/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
   "aliases": [
     "Beam-1.0-501B-A23B"
   ],
@@ -75,7 +88,7 @@
     {
       "title": "Models | Reflection Developer Docs",
       "url": "https://developers.reflection.ai/models",
-      "retrieved_at": "2026-10-30"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "models.dev — providers/reflection (first-party Reflection API) SDK npm mapping (api.sdk only)",
@@ -85,6 +98,31 @@
     {
       "title": "models.dev — Beam-1.0-501B-A23B.toml on Reflection (api.sdk only)",
       "url": "https://github.com/anomalyco/models.dev/blob/dev/providers/reflection/models/Beam-1.0-501B-A23B.toml",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "API overview | Reflection Developer Docs",
+      "url": "https://developers.reflection.ai/api-overview",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Create a chat completion | Reflection API Reference",
+      "url": "https://developers.reflection.ai/api-reference/chat/create-a-chat-completion",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Reasoning | Reflection Developer Docs",
+      "url": "https://developers.reflection.ai/reasoning",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Streaming | Reflection Developer Docs",
+      "url": "https://developers.reflection.ai/streaming",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Structured outputs | Reflection Developer Docs",
+      "url": "https://developers.reflection.ai/structured-outputs",
       "retrieved_at": "2026-11-04"
     }
   ]

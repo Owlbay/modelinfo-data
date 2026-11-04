@@ -1,7 +1,7 @@
 {
   "id": "nova-2-atc",
   "object": "model",
-  "created": null,
+  "created": 1724025600,
   "owned_by": "deepgram",
   "name": "Nova-2 Air Traffic Control",
   "api": {
@@ -34,11 +34,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2024-08-19",
     "knowledge_cutoff": null,
     "description": "Deepgram Nova-2 speech-to-text model tuned for air traffic control audio (English).",
     "docs": "https://developers.deepgram.com/docs/models-languages-overview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -77,6 +77,11 @@
       "title": "SDK support — @ai-sdk/deepgram (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/deepgram",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Nova-2 Air Traffic Control Model Release | Deepgram Changelog",
+      "url": "https://developers.deepgram.com/changelog/2024/8/19",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
