@@ -7,7 +7,8 @@
   "api": {
     "types": [
       "chat",
-      "messages"
+      "messages",
+      "responses"
     ],
     "sdk": [
       "@ai-sdk/anthropic",
@@ -67,7 +68,7 @@
     "knowledge_cutoff": null,
     "description": "MiMo-V2.6-Pro performance with output up to 20 times faster for real-time, latency-sensitive workloads.",
     "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.6-pro-ultraspeed",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -76,9 +77,15 @@
       "base_url": "https://api.xiaomimimo.com",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "messages": "POST /anthropic/v1/messages"
+        "messages": "POST /anthropic/v1/messages",
+        "responses": "POST /v1/responses"
       },
-      "reasoning_param": "thinking"
+      "reasoning_param": "thinking",
+      "reasoning_params": {
+        "chat": "thinking",
+        "messages": "thinking",
+        "responses": "reasoning.effort"
+      }
     }
   ],
   "aliases": [],
@@ -162,6 +169,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "OpenAI Responses API 兼容（请求地址 https://api.xiaomimimo.com/v1/responses；model 可选值 mimo-v2.6-flash、mimo-v2.6-pro、mimo-v2.6-pro-ultraspeed；reasoning.effort 控制推理）| Xiaomi MiMo 开放平台",
+      "url": "https://mimo.mi.com/docs/zh-CN/api/chat/responses-post",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
