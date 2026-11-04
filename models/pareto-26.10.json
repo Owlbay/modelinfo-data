@@ -6,9 +6,13 @@
   "name": "Pareto 26.10",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "messages"
     ],
-    "sdk": []
+    "sdk": [
+      "anthropic",
+      "openai"
+    ]
   },
   "limits": {
     "context": 1000000,
@@ -38,6 +42,7 @@
     }
   ],
   "features": [
+    "streaming",
     "caching"
   ],
   "info": {
@@ -46,9 +51,20 @@
     "knowledge_cutoff": null,
     "description": "Stable Pareto release as of October 15, 2026. On the Unbiased API, pareto points at 26.10, and the dated id pareto-26.10 pins this release. The announcement says the preview price is now permanent: $0.80 per million input tokens, $0.03 cached, and $3.20 output. It also says the context window is 1M tokens. Unbiased is not in the abbreviation table and the page does not print an exact token count, so the context limit is unset. No cache-write price, maximum output, or request URL is published. Subscriber weekly allowances are plan prices and are not recorded.",
     "docs": "https://unbiased.ai/blog/pareto-26-10/",
-    "verified_at": "2026-10-27"
+    "verified_at": "2026-11-04"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "unbiased",
+      "model": "pareto-26.10",
+      "base_url": "https://api.unbiased.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": null
+    }
+  ],
   "aliases": [
     "pareto"
   ],
@@ -61,7 +77,12 @@
     {
       "title": "Pareto 26.10 is out of preview | Unbiased AI",
       "url": "https://unbiased.ai/blog/pareto-26-10/",
-      "retrieved_at": "2026-10-27"
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Developers | Unbiased (Pareto API)",
+      "url": "https://unbiased.ai/developers/",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
