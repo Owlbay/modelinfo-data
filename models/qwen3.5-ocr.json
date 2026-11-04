@@ -54,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "OCR model on the Qwen3.5 architecture for document parsing, text localization and key-information extraction, including PDF parsing.",
     "docs": "https://help.aliyun.com/zh/model-studio/qwen-vl-ocr",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -63,7 +63,8 @@
       "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
       "endpoints": {
         "chat": "POST /compatible-mode/v1/chat/completions",
-        "responses": "POST /compatible-mode/v1/responses"
+        "responses": "POST /compatible-mode/v1/responses",
+        "ocr": "POST /api/v1/services/aigc/multimodal-generation/generation"
       },
       "reasoning_param": null
     }
@@ -78,7 +79,7 @@
     {
       "title": "Text extraction (OCR) | 大模型服务平台百炼",
       "url": "https://help.aliyun.com/zh/model-studio/qwen-vl-ocr",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "模型调用计费 | 大模型服务平台百炼",
