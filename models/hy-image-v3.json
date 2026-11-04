@@ -40,12 +40,12 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": null,
     "knowledge_cutoff": null,
     "description": "Tencent text-to-image and image-to-image generation model on TokenHub.",
     "docs": "https://cloud.tencent.com/document/product/1823/130051",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -68,7 +68,7 @@
     {
       "title": "模型列表 | 腾讯云 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "模型定价 | 腾讯云 TokenHub",

@@ -51,14 +51,17 @@
       "cache_write": null
     }
   ],
-  "features": [],
+  "features": [
+    "tools",
+    "caching"
+  ],
   "info": {
     "status": "active",
     "release_date": null,
     "knowledge_cutoff": null,
     "description": "Vision model for image and video understanding.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/vision",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -107,6 +110,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "工具调用 | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/tool-call",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Prompt 缓存 | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/developer/prompt-cache",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

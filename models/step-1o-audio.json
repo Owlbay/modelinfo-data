@@ -6,9 +6,11 @@
   "name": "Step-1o Audio",
   "api": {
     "types": [
-      "audio"
+      "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -48,7 +50,8 @@
     }
   ],
   "features": [
-    "tools"
+    "tools",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -56,9 +59,18 @@
     "knowledge_cutoff": null,
     "description": "First-generation end-to-end voice model for low-latency voice conversation, with preset voice styles and tool calling.",
     "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
+    {
+      "id": "stepfun",
+      "model": "step-1o-audio",
+      "base_url": "https://api.stepfun.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    },
     {
       "id": "stepfun",
       "model": "step-1o-audio",
@@ -87,7 +99,17 @@
     {
       "title": "音频模型 | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "语音对话 | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/developer/audio-chat",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "对话补全 Chat Completions API | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/chat/chat-completion-create",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

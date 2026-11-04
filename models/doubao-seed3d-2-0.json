@@ -8,7 +8,9 @@
     "types": [
       "3d"
     ],
-    "sdk": []
+    "sdk": [
+      "arkruntime"
+    ]
   },
   "limits": {
     "context": null,
@@ -44,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Image-to-3D generation model that produces textured 3D files with PBR materials (glb, obj, usd, usdz); asynchronous task API.",
     "docs": "https://docs.volcengine.com/docs/ark/model-list?lang=zh",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -95,6 +97,11 @@
       "title": "Seed3D 2.0 Released: Higher Precision and Greater Usability",
       "url": "https://seed.bytedance.com/en/blog/seed3d-2-0-released-higher-precision-and-greater-usability",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "3D 生成 | 火山方舟",
+      "url": "https://docs.volcengine.com/docs/zh/ark/3d-generation",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

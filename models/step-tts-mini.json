@@ -8,7 +8,9 @@
     "types": [
       "audio"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -85,7 +87,7 @@
     {
       "title": "音频模型 | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "API 定价 | StepFun 开放平台文档",
@@ -100,6 +102,11 @@
     {
       "title": "StepAudio-Skills step-tts tts.sh | stepfun-ai GitHub",
       "url": "https://github.com/stepfun-ai/StepAudio-Skills/blob/main/skills/step-tts/scripts/tts.sh",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "语音合成 | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/audio/create-audio",
       "retrieved_at": "2026-11-04"
     }
   ]
