@@ -10,7 +10,13 @@
       "messages",
       "responses"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
   },
   "limits": {
     "context": 1048576,
@@ -141,6 +147,16 @@
     {
       "title": "Responses API（本接口当前支持 kimi-k3.1-pro、kimi-k3.1-pro-highspeed 和 kimi-k3）| Kimi API 开放平台",
       "url": "https://platform.kimi.com/docs/api/responses",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "API 概述：协议兼容性（OpenAI 官方 SDK openai、Anthropic 官方 SDK @anthropic-ai/sdk）| Kimi API 开放平台 (api.sdk only)",
+      "url": "https://platform.kimi.com/docs/api/overview",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "models.dev — moonshotai/kimi-k3.1-pro-highspeed (@ai-sdk/openai-compatible, @ai-sdk/openai for Responses, @ai-sdk/anthropic for Messages) (api.sdk only)",
+      "url": "https://github.com/anomalyco/models.dev/blob/main/providers/moonshotai/models/kimi-k3.1-pro-highspeed.toml",
       "retrieved_at": "2026-11-04"
     }
   ]

@@ -8,7 +8,9 @@
     "types": [
       "images"
     ],
-    "sdk": []
+    "sdk": [
+      "@minimax-ai/ai-sdk-provider"
+    ]
   },
   "limits": {
     "context": null,
@@ -44,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Text-to-image model supporting multiple aspect ratios and sizes.",
     "docs": "https://platform.minimax.io/docs/api-reference/image-generation-t2i",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -83,6 +85,11 @@
       "title": "Image generation (text to image) | MiniMax API Docs",
       "url": "https://platform.minimax.io/docs/api-reference/image-generation-t2i",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "MiniMax AI Provider for the AI SDK (@minimax-ai/ai-sdk-provider; Image: image-01, image-01-live) | MiniMax-AI GitHub",
+      "url": "https://github.com/MiniMax-AI/vercel-minimax-ai-provider",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

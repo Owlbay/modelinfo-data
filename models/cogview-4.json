@@ -1,7 +1,7 @@
 {
   "id": "cogview-4",
   "object": "model",
-  "created": null,
+  "created": 1741046400,
   "owned_by": "zhipu",
   "name": "CogView-4",
   "api": {
@@ -44,11 +44,11 @@
   "features": [],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2025-03-04",
     "knowledge_cutoff": null,
     "description": "Bilingual Chinese and English text-to-image model, priced at $0.01 per image.",
     "docs": "https://docs.z.ai/guides/image/cogview-4",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -94,6 +94,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "CogView4 README（2025/03/04：开源 CogView-4 模型）| zai-org GitHub",
+      "url": "https://github.com/zai-org/CogView4/blob/main/README_zh.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
