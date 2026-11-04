@@ -33,14 +33,16 @@
     "efforts": []
   },
   "prices": [],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "preview",
     "release_date": "2026-07-20",
     "knowledge_cutoff": null,
     "description": "Dense multimodal vision-language model that analyzes quantum computing calibration experiment plots and generates structured technical text.",
     "docs": "https://build.nvidia.com/nvidia/ising-calibration-1.5-31b/modelcard",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -90,7 +92,7 @@
     {
       "title": "NVIDIA ising-calibration-1.5-31b inference API",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-ising-calibration-1-5-31b-infer",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

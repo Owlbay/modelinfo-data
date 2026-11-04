@@ -33,14 +33,16 @@
     "efforts": []
   },
   "prices": [],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": "2025-01-16",
     "knowledge_cutoff": null,
     "description": "Content safety model that moderates human-LLM interaction content and classifies user prompts and LLM responses as safe or unsafe.",
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemoguard-8b-content-safety",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -71,7 +73,7 @@
     {
       "title": "NVIDIA llama-3.1-nemoguard-8b-content-safety inference API",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemoguard-8b-content-safety-infer",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "SDK support — openai (api.sdk only)",

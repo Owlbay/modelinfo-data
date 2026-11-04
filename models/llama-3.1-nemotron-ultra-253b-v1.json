@@ -32,14 +32,16 @@
     "efforts": []
   },
   "prices": [],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": "2025-04-07",
     "knowledge_cutoff": null,
     "description": "Reasoning model derived from Meta Llama-3.1-405B-Instruct, post-trained for reasoning, chat preferences, RAG and tool calling.",
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-ultra-253b-v1",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -69,7 +71,7 @@
     {
       "title": "Create chat completion (nvidia/llama-3.1-nemotron-ultra-253b-v1) | NVIDIA NIM API Reference",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-ultra-253b-v1-infer",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "NVIDIA llama-3.1-nemotron-ultra-253b-v1 inference API",

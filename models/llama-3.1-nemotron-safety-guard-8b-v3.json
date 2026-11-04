@@ -33,14 +33,16 @@
     "efforts": []
   },
   "prices": [],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": "2025-10-28",
     "knowledge_cutoff": null,
     "description": "Multilingual content safety model that moderates human-LLM interaction content and classifies user prompts and LLM responses as safe or unsafe.",
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-safety-guard-8b-v3",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -71,7 +73,7 @@
     {
       "title": "NVIDIA llama-3.1-nemotron-safety-guard-8b-v3 inference API",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-safety-guard-8b-v3-infer",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",
