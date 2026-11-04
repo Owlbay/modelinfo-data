@@ -54,14 +54,16 @@
     "knowledge_cutoff": null,
     "description": "Page-to-Markdown document parser handling text, formulas, tables and reading order; used by the Reader API.",
     "docs": "https://jina.ai/models/jina-ocr-v1",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
       "id": "jina",
       "model": "jina-ocr-v1",
       "base_url": "https://r.jina.ai",
-      "endpoints": {},
+      "endpoints": {
+        "ocr": "POST /"
+      },
       "reasoning_param": null
     },
     {
@@ -115,6 +117,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Jina AI meta-prompt v14 (Reader API) | jina-ai GitHub",
+      "url": "https://github.com/jina-ai/meta-prompt/blob/main/v14.txt",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Jina AI API OpenAPI spec | jina-ai GitHub",
+      "url": "https://github.com/jina-ai/meta-prompt/blob/main/api-docs/openapi.json",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

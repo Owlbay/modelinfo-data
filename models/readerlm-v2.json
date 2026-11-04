@@ -44,14 +44,16 @@
     "knowledge_cutoff": null,
     "description": "Small language model (1.54B parameters) that converts HTML into clean Markdown or JSON, used by the Reader API.",
     "docs": "https://jina.ai/models/ReaderLM-v2",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
       "id": "jina",
       "model": "readerlm-v2",
       "base_url": "https://r.jina.ai",
-      "endpoints": {},
+      "endpoints": {
+        "ocr": "POST /"
+      },
       "reasoning_param": null
     }
   ],
@@ -83,6 +85,16 @@
       "title": "Models | Jina AI API",
       "url": "https://api.jina.ai/v1/models",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Jina AI meta-prompt v14 (Reader API) | jina-ai GitHub",
+      "url": "https://github.com/jina-ai/meta-prompt/blob/main/v14.txt",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Jina AI API OpenAPI spec | jina-ai GitHub",
+      "url": "https://github.com/jina-ai/meta-prompt/blob/main/api-docs/openapi.json",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

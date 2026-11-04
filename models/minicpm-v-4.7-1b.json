@@ -37,9 +37,19 @@
     "knowledge_cutoff": null,
     "description": "Open-weight multimodal model with 1.55B parameters. The docs list a 256K context and support for single-image, multi-image, and video understanding. Thinking is switched with enable_thinking; no effort values are listed. OpenBMB is not in the abbreviation table, so 256K is not converted. The page does not publish a calendar date, a maximum output, a standard API price, or a first-party request URL.",
     "docs": "https://openbmb.cn/docs/en/guides/minicpm-v/minicpm-v-4.7",
-    "verified_at": "2026-10-27"
+    "verified_at": "2026-11-04"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "modelbest",
+      "model": "MiniCPM-V-4.7-1B",
+      "base_url": "https://api.modelbest.cn/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "chat_template_kwargs.enable_thinking"
+    }
+  ],
   "aliases": [
     "openbmb/MiniCPM-V-4.7-1B"
   ],
@@ -58,6 +68,11 @@
       "title": "Changelog | OpenBMB Knowledge Base",
       "url": "https://openbmb.cn/docs/en/changelog",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "MiniCPM-V API Guide | OpenBMB GitHub",
+      "url": "https://github.com/OpenBMB/MiniCPM-V/blob/main/docs/api.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
