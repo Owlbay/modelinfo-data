@@ -1,0 +1,101 @@
+{
+  "id": "eleven_turbo_v2_5",
+  "object": "model",
+  "created": 1721347200,
+  "owned_by": "elevenlabs",
+  "name": "Eleven Turbo v2.5",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/elevenlabs",
+      "@elevenlabs/elevenlabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 40,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2024-07-19",
+    "knowledge_cutoff": null,
+    "description": "First generation low-latency model (outclassed by Flash models). Replacement model suggestion: eleven_flash_v2_5. The eleven_turbo_v2_5 and eleven_turbo_v2 models are functionally equivalent to the eleven_flash_v2_5 and eleven_flash_v2 models respectively, except the latency on the Flash models is lower on average. We recommend using the Flash models over Turbo models in all use cases.",
+    "docs": "https://elevenlabs.io/docs/overview/models",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "elevenlabs",
+      "model": "eleven_turbo_v2_5",
+      "base_url": "https://api.elevenlabs.io",
+      "endpoints": {
+        "audio": "POST /v1/text-to-speech/{voice_id}"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "第一代低延迟模型（已被 Flash 模型超越）。建议替换模型：eleven_flash_v2_5。eleven_turbo_v2_5 和 eleven_turbo_v2 在功能上分别等同于 eleven_flash_v2_5 和 eleven_flash_v2，只是 Flash 模型的平均延迟更低。我们建议在所有场景中使用 Flash 模型而不是 Turbo 模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/overview/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "API pricing | ElevenLabs",
+      "url": "https://elevenlabs.io/pricing/api",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Create speech | ElevenLabs API Reference",
+      "url": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Introducing Eleven Turbo v2.5 | ElevenLabs Blog",
+      "url": "https://elevenlabs.io/blog/introducing-turbo-v25",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @elevenlabs/elevenlabs-js (api.sdk only)",
+      "url": "https://github.com/elevenlabs/elevenlabs-js",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/elevenlabs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/elevenlabs",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}

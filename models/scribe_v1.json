@@ -1,0 +1,92 @@
+{
+  "id": "scribe_v1",
+  "object": "model",
+  "created": 1740528000,
+  "owned_by": "elevenlabs",
+  "name": "Scribe v1",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": [
+      "@ai-sdk/elevenlabs",
+      "@elevenlabs/elevenlabs-js"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2025-02-26",
+    "knowledge_cutoff": null,
+    "description": "First generation speech recognition (outclassed by v2 models). Languages: 90+ languages. Replacement model suggestion: scribe_v2.",
+    "docs": "https://elevenlabs.io/docs/overview/models",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "elevenlabs",
+      "model": "scribe_v1",
+      "base_url": "https://api.elevenlabs.io",
+      "endpoints": {
+        "audio": "POST /v1/speech-to-text"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "第一代语音识别模型（已被 v2 模型超越）。语言：90 多种。建议替换模型：scribe_v2。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | ElevenLabs Documentation",
+      "url": "https://elevenlabs.io/docs/overview/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "API pricing | ElevenLabs",
+      "url": "https://elevenlabs.io/pricing/api",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Create transcript | ElevenLabs API Reference",
+      "url": "https://elevenlabs.io/docs/api-reference/speech-to-text/convert",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Meet Scribe | ElevenLabs Blog",
+      "url": "https://elevenlabs.io/blog/meet-scribe",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @elevenlabs/elevenlabs-js (api.sdk only)",
+      "url": "https://github.com/elevenlabs/elevenlabs-js",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SDK support — @ai-sdk/elevenlabs (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/elevenlabs",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
