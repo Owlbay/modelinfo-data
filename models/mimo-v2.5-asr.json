@@ -6,8 +6,7 @@
   "name": "MiMo-V2.5-ASR",
   "api": {
     "types": [
-      "chat",
-      "audio"
+      "chat"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -51,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "中英双语 + 多方言语音识别，无需语言标签，自动识别语码混用中的各语言内容。",
     "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-asr",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -115,6 +114,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "语音识别 | Xiaomi MiMo API",
+      "url": "https://mimo.mi.com/docs/zh-CN/api/audio/Speech-Recognition-post",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

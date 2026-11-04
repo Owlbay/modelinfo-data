@@ -6,8 +6,7 @@
   "name": "MiMo-V2.5-TTS-VoiceDesign",
   "api": {
     "types": [
-      "chat",
-      "audio"
+      "chat"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -42,7 +41,7 @@
     "knowledge_cutoff": null,
     "description": "无需参考音频，一句话描述即可生成全新音色。",
     "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-tts-voicedesign",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -106,6 +105,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "语音合成 | Xiaomi MiMo API",
+      "url": "https://mimo.mi.com/docs/zh-CN/api/audio/tts-post",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
