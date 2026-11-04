@@ -74,7 +74,7 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions",
         "responses": "POST /v1/responses",
-        "batch": "POST /v1/batch"
+        "batch": "POST /v1/batches"
       },
       "reasoning_param": "reasoning.effort",
       "reasoning_params": {
@@ -170,6 +170,11 @@
     {
       "title": "Azure OpenAI reasoning models - GPT-6 Astra and GPT-5 - Microsoft Foundry | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/reasoning",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Create batch | OpenAI API Reference",
+      "url": "https://developers.openai.com/api/reference/resources/batches/methods/create",
       "retrieved_at": "2026-11-04"
     }
   ]
