@@ -8,7 +8,11 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
   },
   "limits": {
     "context": 131072,
@@ -54,7 +58,7 @@
     "knowledge_cutoff": null,
     "description": "A variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging. It also handles mature and darker themes with more nuance and depth.",
     "docs": "https://api.aionlabs.ai/docs/models/",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -94,7 +98,17 @@
     {
       "title": "Quickstart | Aion Labs Docs",
       "url": "https://api.aionlabs.ai/docs/quickstart/",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

@@ -8,7 +8,11 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
   },
   "limits": {
     "context": 262144,
@@ -25,7 +29,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "low",
+      "high",
+      "max"
+    ]
   },
   "prices": [
     {
@@ -38,23 +46,27 @@
     }
   ],
   "features": [
+    "tools",
+    "streaming",
     "caching"
   ],
   "info": {
     "status": "active",
     "release_date": "2026-09-23",
     "knowledge_cutoff": null,
-    "description": "Aion Labs API model released on 2026-09-23, with reasoning. The models page lists a 256K context, a 32K maximum output, and prices of $0.70 per 1M input tokens, $0.18 per 1M cached input tokens, and $1.40 per 1M output tokens. The public models endpoint gives context_length 262144 and max_completion_tokens 32768. The API id is aion-labs/aion-3.5-mini. The documented host is https://api.aionlabs.ai; the page shows the models list and does not print a chat path or a cache-write price.",
+    "description": "A multi-model system built on the GLM family of models. Aion 3.5 Mini employs a collaborative generation process in which multiple specialized models contribute to each response. The result is stronger narrative structure, more compelling tension and conflict, and a nuanced treatment of mature and darker themes.",
     "docs": "https://www.aionlabs.ai/docs/models/",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
       "id": "aionlabs",
       "model": "aion-labs/aion-3.5-mini",
       "base_url": "https://api.aionlabs.ai",
-      "endpoints": {},
-      "reasoning_param": null
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
     }
   ],
   "aliases": [
@@ -62,7 +74,7 @@
   ],
   "translations": {
     "zh": {
-      "description": "Aion Labs API 模型，2026-09-23 发布，支持推理。模型页列出 256K 上下文、32K 最大输出，价格为输入每百万 tokens 0.70 美元、缓存输入 0.18 美元、输出 1.40 美元。公开的模型列表接口给出 context_length 262144、max_completion_tokens 32768。API id 为 aion-labs/aion-3.5-mini。文档给出的主机是 https://api.aionlabs.ai；页面展示了模型列表，没有写出聊天路径或缓存写入价。"
+      "description": "基于 GLM 系列模型构建的多模型系统。Aion 3.5 Mini 采用协作式生成流程，由多个专门模型共同参与每次回复，从而带来更强的叙事结构、更有张力的冲突，以及对成熟与黑暗题材更细腻的处理。"
     }
   },
   "sources": [
@@ -74,7 +86,27 @@
     {
       "title": "Models endpoint | Aion Labs API",
       "url": "https://api.aionlabs.ai/v1/models",
-      "retrieved_at": "2026-10-30"
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Quickstart | Aion Labs Docs (OpenAI SDK, base URL https://api.aionlabs.ai/v1)",
+      "url": "https://api.aionlabs.ai/docs/quickstart/",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "API Reference | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/api-reference/",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
