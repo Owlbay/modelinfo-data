@@ -89,6 +89,11 @@
       "title": "OpenAI Compatibility | Moondream Docs (m87-labs/md-docs GitHub)",
       "url": "https://github.com/m87-labs/md-docs/blob/main/docs/openai.md",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "OpenAI Compatibility (https://api.moondream.ai/v1/chat/completions; model moondream3.1-9B-A2B or moondream3-preview) | Moondream Docs",
+      "url": "https://docs.moondream.ai/openai",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

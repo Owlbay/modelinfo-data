@@ -153,6 +153,16 @@
       "title": "aws-samples/sample-per-model-bedrock — Z.AI GLM family on bedrock-mantle (zai.glm-5, zai.glm-4.7, zai.glm-4.7-flash, zai.glm-4.6; base_url https://bedrock-mantle.{REGION}.api.aws/v1, Chat Completions, reasoning_effort none/low/medium/high) (official AWS GitHub)",
       "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/06-zai-glm/01-glm-family.ipynb",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "GLM 4.7 Flash model card (Programmatic Access: bedrock-mantle zai.glm-4.7-flash, https://bedrock-mantle.{region}.api.aws/v1) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7-flash.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

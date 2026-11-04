@@ -88,7 +88,7 @@
     {
       "title": "Amazon Bedrock model card: Amazon Nova Micro",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro.html",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Amazon Nova User Guide (Version 1): What is Amazon Nova?",
@@ -123,6 +123,21 @@
     {
       "title": "boto/botocore — endpoints.json (official AWS SDK; bedrock.us-east-1.amazonaws.com, bedrock-runtime.us-east-1.amazonaws.com)",
       "url": "https://github.com/boto/botocore/blob/develop/botocore/data/endpoints.json",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "CreateModelInvocationJob - Amazon Bedrock API Reference (POST /model-invocation-job)",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_CreateModelInvocationJob.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Supported Regions and models for batch inference - Amazon Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference-supported.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Amazon Bedrock endpoints and quotas - AWS General Reference",
+      "url": "https://docs.aws.amazon.com/general/latest/gr/bedrock.html",
       "retrieved_at": "2026-11-04"
     }
   ]

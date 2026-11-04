@@ -105,6 +105,16 @@
       "title": "boto/botocore — Amazon Bedrock Runtime service model (official AWS SDK; Converse POST /model/{modelId}/converse, InvokeModel POST /model/{modelId}/invoke)",
       "url": "https://github.com/boto/botocore/blob/develop/botocore/data/bedrock-runtime/2023-09-30/service-2.json",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Stable Diffusion 3.5 Large model card (Programmatic Access: stability.sd3-5-large-v1:0, Invoke on bedrock-runtime) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-diffusion-3-5-large.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "InvokeModel - Amazon Bedrock API Reference (POST /model/{modelId}/invoke)",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_InvokeModel.html",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

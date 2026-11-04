@@ -120,6 +120,11 @@
       "title": "对话补全 Chat Completions API | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/api-reference/chat/chat-completion-create",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "实时语音（wss://api.stepfun.com/v1/realtime；model 支持 step-audio-2 等）| 阶跃星辰开放平台",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/realtime/chat",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

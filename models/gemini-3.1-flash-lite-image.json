@@ -146,6 +146,16 @@
       "title": "intro_gemini_curl.ipynb — Agent Platform REST request URL (official GoogleCloudPlatform/generative-ai sample source)",
       "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_curl.ipynb",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite) (Model ID gemini-3.1-flash-lite-image; Global: global) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-1-flash-lite-image",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Get started with Gemini Enterprise Agent Platform (API_ENDPOINT https://aiplatform.googleapis.com, location global, .../publishers/google/models/{MODEL_ID}:generateContent) | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

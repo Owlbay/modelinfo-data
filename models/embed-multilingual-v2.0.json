@@ -98,6 +98,11 @@
       "title": "Cohere Model Names Are Changing! (multilingual-22-12 → embed-multilingual-v2.0) | Cohere Changelog",
       "url": "https://docs.cohere.com/changelog/model-names-are-changing",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Cohere Embed models | Cohere Docs",
+      "url": "https://docs.cohere.com/docs/cohere-embed",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

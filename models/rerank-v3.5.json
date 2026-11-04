@@ -84,7 +84,7 @@
     {
       "title": "Cohere Model Overview",
       "url": "https://docs.cohere.com/docs/models",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "How does Cohere pricing work?",
@@ -129,6 +129,16 @@
     {
       "title": "cohere-ai/cohere-python — aws_client.py (official Cohere SDK; Bedrock URL https://bedrock-runtime.{aws_region}.amazonaws.com/model/{model}/invoke)",
       "url": "https://github.com/cohere-ai/cohere-python/blob/main/src/cohere/aws_client.py",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Rerank 3.5 model card (Programmatic Access: cohere.rerank-v3-5:0, Invoke on bedrock-runtime) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-rerank-3-5.html",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "InvokeModel - Amazon Bedrock API Reference (POST /model/{modelId}/invoke)",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_InvokeModel.html",
       "retrieved_at": "2026-11-04"
     }
   ]

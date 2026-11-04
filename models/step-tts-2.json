@@ -60,10 +60,17 @@
     {
       "id": "stepfun",
       "model": "step-tts-2",
-      "base_url": "https://api.stepfun.ai/v1",
+      "base_url": "https://api.stepfun.com/v1",
       "endpoints": {
         "audio": "POST /audio/speech"
       },
+      "reasoning_param": null
+    },
+    {
+      "id": "stepfun",
+      "model": "step-tts-2",
+      "base_url": "https://api.stepfun.ai/v1",
+      "endpoints": {},
       "reasoning_param": null
     }
   ],
@@ -77,7 +84,7 @@
     {
       "title": "Pricing and Rate Limits | StepFun Documentation",
       "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "音频模型 | 阶跃星辰开放平台文档",
@@ -87,7 +94,7 @@
     {
       "title": "API 定价 | StepFun 开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "StepAudio-Skills step-tts SKILL.md | stepfun-ai GitHub",
@@ -102,6 +109,11 @@
     {
       "title": "models.dev — StepFun (Global) step-tts-2 SDK mapping: api.speech aisdk @ai-sdk/openai (api.sdk only)",
       "url": "https://github.com/anomalyco/models.dev/blob/dev/providers/stepfun-ai/models/step-tts-2.toml",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "语音合成（POST https://api.stepfun.com/v1/audio/speech；model 支持 step-tts-2、step-tts-mini 等）| 阶跃星辰开放平台",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/audio/create-audio",
       "retrieved_at": "2026-11-04"
     }
   ]

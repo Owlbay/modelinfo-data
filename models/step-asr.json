@@ -58,10 +58,17 @@
     {
       "id": "stepfun",
       "model": "step-asr",
-      "base_url": "https://api.stepfun.ai/v1",
+      "base_url": "https://api.stepfun.com/v1",
       "endpoints": {
-        "audio": "POST /audio/asr/sse"
+        "audio": "POST /audio/transcriptions"
       },
+      "reasoning_param": null
+    },
+    {
+      "id": "stepfun",
+      "model": "step-asr",
+      "base_url": "https://api.stepfun.ai/v1",
+      "endpoints": {},
       "reasoning_param": null
     }
   ],
@@ -75,7 +82,7 @@
     {
       "title": "Pricing and Rate Limits | StepFun Documentation",
       "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Model Overview | StepFun Documentation",
@@ -85,11 +92,21 @@
     {
       "title": "API 定价 | StepFun 开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "StepAudio-Skills step-asr transcribe.py | stepfun-ai GitHub",
       "url": "https://github.com/stepfun-ai/StepAudio-Skills/blob/main/skills/step-asr/scripts/transcribe.py",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "音频转写（POST https://api.stepfun.com/v1/audio/transcriptions；model 支持 stepaudio-2.5-asr、step-asr（旧模型名称））| 阶跃星辰开放平台",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/audio/transcriptions",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "语音识别（流式返回文本）（POST /v1/audio/asr/sse；model 支持 stepaudio-2-asr-pro、stepaudio-2.5-asr、stepaudio-3-asr-max）| 阶跃星辰开放平台",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/audio/asr-sse",
       "retrieved_at": "2026-11-04"
     }
   ]

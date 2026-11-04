@@ -113,6 +113,16 @@
       "title": "streaming.md — Eleven v4 Turbo WebSocket (official elevenlabs/skills source)",
       "url": "https://github.com/elevenlabs/skills/blob/main/text-to-speech/references/streaming.md",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Text to Dialogue WebSocket (wss://api.elevenlabs.io/v1/text-to-dialogue/stream-input; model_id must start with eleven_v3 or eleven_v4) | ElevenLabs API Reference",
+      "url": "https://elevenlabs.io/docs/api-reference/text-to-dialogue/ttd-websocket",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Stream dialogue in real-time (MODEL_ID = \"eleven_v4_turbo\") | ElevenLabs Docs",
+      "url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/websockets/realtime-tdd",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
