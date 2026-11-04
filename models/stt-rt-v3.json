@@ -1,0 +1,78 @@
+{
+  "id": "stt-rt-v3",
+  "object": "model",
+  "created": 1761004800,
+  "owned_by": "soniox",
+  "name": "Soniox stt-rt-v3",
+  "api": {
+    "types": [
+      "realtime"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 4,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "retired",
+    "release_date": "2025-10-21",
+    "knowledge_cutoff": null,
+    "description": "The v3 models introduce major improvements across recognition, translation, and reasoning. These models power real-time and asynchronous speech processing in 60+ languages. Replaced by stt-rt-v4 (February 5, 2026); the stt-rt-v3 model was removed on February 28, 2026, after which requests automatically route to stt-rt-v4.",
+    "docs": "https://soniox.com/docs/stt/models",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "soniox",
+      "model": "stt-rt-v3",
+      "base_url": "https://stt-rt.soniox.com",
+      "endpoints": {
+        "realtime": "GET /transcribe-websocket"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "v3 模型在识别、翻译和推理方面带来重大改进，支持 60 多种语言的实时与异步语音处理。已被 stt-rt-v4 取代（2026 年 2 月 5 日）；stt-rt-v3 于 2026 年 2 月 28 日移除，此后请求会自动转到 stt-rt-v4。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Soniox Docs",
+      "url": "https://soniox.com/docs/stt/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "存档：Pricing | Soniox（2026-01-14，原网址 https://soniox.com/pricing）",
+      "url": "https://web.archive.org/web/20260114005557/https://soniox.com/pricing",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
