@@ -6,14 +6,11 @@
   "name": "ERNIE 5.0 Thinking Latest",
   "api": {
     "types": [
-      "chat",
-      "messages"
+      "chat"
     ],
     "sdk": [
-      "@ai-sdk/anthropic",
       "@ai-sdk/openai",
       "@ai-sdk/openai-compatible",
-      "@anthropic-ai/sdk",
       "@baiducloud/qianfan",
       "openai"
     ]
@@ -55,7 +52,7 @@
     "knowledge_cutoff": null,
     "description": "Latest version of ERNIE 5.0 with deep thinking. Retired on 2026-10-29 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -63,8 +60,7 @@
       "model": "ernie-5.0-thinking-latest",
       "base_url": "https://qianfan.baidubce.com",
       "endpoints": {
-        "chat": "POST /v2/chat/completions",
-        "messages": "POST /anthropic/v1/messages"
+        "chat": "POST /v2/chat/completions"
       },
       "reasoning_param": null
     }
@@ -79,7 +75,7 @@
     {
       "title": "模型列表 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "价格 | 百度千帆",
@@ -89,17 +85,17 @@
     {
       "title": "模型更新记录 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "文本生成 API 参考 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan-api/s/3m7of64lb",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Anthropic Claude API 兼容 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan-docs/s/6mh3e6gjp",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "模型版本升级及退役机制 | 百度千帆",
@@ -119,16 +115,6 @@
     {
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
-      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
-      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
     },
     {
