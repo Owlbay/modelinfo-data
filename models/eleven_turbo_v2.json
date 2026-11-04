@@ -1,7 +1,7 @@
 {
   "id": "eleven_turbo_v2",
   "object": "model",
-  "created": null,
+  "created": 1699488000,
   "owned_by": "elevenlabs",
   "name": "Eleven Turbo v2",
   "api": {
@@ -43,11 +43,11 @@
   "features": [],
   "info": {
     "status": "deprecated",
-    "release_date": null,
+    "release_date": "2023-11-09",
     "knowledge_cutoff": null,
     "description": "First generation low-latency model (outclassed by Flash models). Languages: en. Replacement model suggestion: eleven_flash_v2. The eleven_turbo_v2_5 and eleven_turbo_v2 models are functionally equivalent to the eleven_flash_v2_5 and eleven_flash_v2 models respectively, except the latency on the Flash models is lower on average. We recommend using the Flash models over Turbo models in all use cases.",
     "docs": "https://elevenlabs.io/docs/overview/models",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -85,7 +85,7 @@
     {
       "title": "Turbo v2 is here! | ElevenLabs Blog",
       "url": "https://elevenlabs.io/blog/turbo-v2-is-here",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "存档：Eleven v2 Turbo release | ElevenLabs Blog（原网址 https://elevenlabs.io/blog/eleven-v2-turbo-release）",
