@@ -1,0 +1,100 @@
+{
+  "id": "aion-3.0-mini",
+  "object": "model",
+  "created": 1778716800,
+  "owned_by": "aionlabs",
+  "name": "Aion 3.0 Mini",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.7,
+      "output": 1.4,
+      "cache_read": 0.18,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-05-14",
+    "knowledge_cutoff": null,
+    "description": "A multi-model system built on the DeepSeek family of models. Aion 3.0 Mini employs a collaborative generation process in which multiple specialized models contribute to each response. The result is stronger narrative structure, more compelling tension and conflict, and a nuanced treatment of mature and darker themes.",
+    "docs": "https://api.aionlabs.ai/docs/models/",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "aionlabs",
+      "model": "aion-labs/aion-3.0-mini",
+      "base_url": "https://api.aionlabs.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [
+    "aion-labs/aion-3.0-mini"
+  ],
+  "translations": {
+    "zh": {
+      "description": "基于 DeepSeek 系列模型构建的多模型系统。Aion 3.0 Mini 采用协作生成流程，由多个专用模型共同完成每次回复。结果是更强的叙事结构、更扣人心弦的紧张与冲突，以及对成熟和黑暗题材的细腻处理。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/models/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Models endpoint | Aion Labs API",
+      "url": "https://api.aionlabs.ai/v1/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "API Reference | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/api-reference/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Quickstart | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/quickstart/",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}

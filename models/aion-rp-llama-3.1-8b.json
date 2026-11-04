@@ -1,0 +1,92 @@
+{
+  "id": "aion-rp-llama-3.1-8b",
+  "object": "model",
+  "created": 1732924800,
+  "owned_by": "aionlabs",
+  "name": "Aion-RP 1.0 (8B)",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": false,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.8,
+      "output": 1.6,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2024-11-30",
+    "knowledge_cutoff": null,
+    "description": "A variant of LLama 3.1 8B optimized for immersive roleplaying and storytelling.",
+    "docs": "https://api.aionlabs.ai/docs/models/",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "aionlabs",
+      "model": "aion-labs/aion-rp-llama-3.1-8b",
+      "base_url": "https://api.aionlabs.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "aion-labs/aion-rp-llama-3.1-8b"
+  ],
+  "translations": {
+    "zh": {
+      "description": "LLama 3.1 8B 的变体，针对沉浸式角色扮演和故事创作优化。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Models | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/models/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Models endpoint | Aion Labs API",
+      "url": "https://api.aionlabs.ai/v1/models",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "API Reference | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/api-reference/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Quickstart | Aion Labs Docs",
+      "url": "https://api.aionlabs.ai/docs/quickstart/",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
