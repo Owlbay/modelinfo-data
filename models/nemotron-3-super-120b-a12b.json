@@ -42,7 +42,7 @@
     "knowledge_cutoff": "2025-06",
     "description": "Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning and tool calling.",
     "docs": "https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b/modelcard",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -53,6 +53,46 @@
         "chat": "POST /v1/chat/completions"
       },
       "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "nvidia.nemotron-super-3-120b",
+      "base_url": "https://bedrock-mantle.{region}.api.aws",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ],
+      "limits": {
+        "context": 262144,
+        "input": null,
+        "output": null
+      }
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "nvidia.nemotron-super-3-120b",
+      "base_url": "https://bedrock-runtime.{region}.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /model/{modelId}/converse"
+      },
+      "reasoning_param": "additionalModelRequestFields.reasoning_effort",
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ],
+      "limits": {
+        "context": 262144,
+        "input": null,
+        "output": null
+      }
     }
   ],
   "aliases": [
@@ -98,6 +138,21 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — NVIDIA Nemotron on Amazon Bedrock (official AWS GitHub; nvidia.nemotron-super-3-120b on bedrock-mantle /v1 Chat Completions and bedrock-runtime Converse, reasoning_effort none/low/medium/high, context window 262,144)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/10-nvidia-nemotron/01-nemotron-nano-and-super.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — Endpoints, authentication and URL paths (official AWS GitHub; bedrock-mantle.{region}.api.aws, /v1 path for open-weight families)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/00-foundations/01-endpoints-auth-and-the-three-paths.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "boto/botocore — Amazon Bedrock Runtime service model (official AWS SDK; Converse POST /model/{modelId}/converse, InvokeModel POST /model/{modelId}/invoke)",
+      "url": "https://github.com/boto/botocore/blob/develop/botocore/data/bedrock-runtime/2023-09-30/service-2.json",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
