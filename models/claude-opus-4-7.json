@@ -62,7 +62,7 @@
     "knowledge_cutoff": "2026-01",
     "description": "Claude Opus 4.7, Anthropic's most capable generally available model for complex reasoning and agentic coding.",
     "docs": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -72,6 +72,33 @@
       "endpoints": {
         "messages": "POST /v1/messages",
         "batch": "POST /v1/messages/batches"
+      },
+      "reasoning_param": "output_config.effort"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "anthropic.claude-opus-4-7",
+      "base_url": "https://bedrock-mantle.{region}.api.aws",
+      "endpoints": {
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "output_config.effort"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "claude-opus-4-7",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "messages": "POST /v1/projects/MY_PROJECT_ID/locations/global/publishers/anthropic/models/claude-opus-4-7:rawPredict"
+      },
+      "reasoning_param": "output_config.effort"
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "claude-opus-4-7",
+      "base_url": "https://{resource}.services.ai.azure.com",
+      "endpoints": {
+        "messages": "POST /anthropic/v1/messages"
       },
       "reasoning_param": "output_config.effort"
     }
@@ -152,6 +179,21 @@
       "title": "Models overview - Claude Docs",
       "url": "https://web.archive.org/web/20260510/https://platform.claude.com/docs/en/about-claude/models/overview",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Claude in Amazon Bedrock (Opus 4.7 and later) | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Claude Models on Google Cloud (Google managed) | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Claude in Microsoft Foundry | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

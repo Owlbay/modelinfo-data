@@ -56,7 +56,7 @@
     "knowledge_cutoff": "2025-02",
     "description": "Anthropic fast model with near-frontier intelligence.",
     "docs": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -66,6 +66,42 @@
       "endpoints": {
         "messages": "POST /v1/messages",
         "batch": "POST /v1/messages/batches"
+      },
+      "reasoning_param": "thinking"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "anthropic.claude-haiku-4-5",
+      "base_url": "https://bedrock-mantle.{region}.api.aws",
+      "endpoints": {
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "thinking"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "base_url": "https://bedrock-runtime.{region}.amazonaws.com",
+      "endpoints": {
+        "messages": "POST /model/{modelId}/invoke"
+      },
+      "reasoning_param": "thinking"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "claude-haiku-4-5@20251001",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "messages": "POST /v1/projects/MY_PROJECT_ID/locations/global/publishers/anthropic/models/claude-haiku-4-5@20251001:rawPredict"
+      },
+      "reasoning_param": "thinking"
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "claude-haiku-4-5",
+      "base_url": "https://{resource}.services.ai.azure.com",
+      "endpoints": {
+        "messages": "POST /anthropic/v1/messages"
       },
       "reasoning_param": "thinking"
     }
@@ -138,6 +174,31 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Claude in Amazon Bedrock (Opus 4.7 and later) | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Claude on Amazon Bedrock (Opus 4.6 and earlier) | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "anthropic-sdk-python — Bedrock client (InvokeModel base URL and paths)",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/lib/bedrock/_client.py",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Claude Models on Google Cloud (Google managed) | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Claude in Microsoft Foundry | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
