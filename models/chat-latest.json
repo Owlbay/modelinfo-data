@@ -55,7 +55,7 @@
     "knowledge_cutoff": "2025-08-31",
     "description": "Points to the latest Instant model currently used in ChatGPT.",
     "docs": "https://developers.openai.com/api/docs/models/chat-latest",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -65,6 +65,16 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions",
         "responses": "POST /v1/responses"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "gpt-chat-latest",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
       },
       "reasoning_param": null
     }
@@ -110,6 +120,31 @@
       "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/api-version-lifecycle",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Microsoft Foundry REST Reference - Azure OpenAI - Chat | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/chat",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Use the Azure OpenAI Responses API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/responses",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Microsoft Foundry REST Reference - Azure OpenAI - Responses | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/responses",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

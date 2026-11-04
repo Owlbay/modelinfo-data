@@ -52,7 +52,7 @@
     "knowledge_cutoff": "2025-07-31",
     "description": "Premier model for natural, expressive voice conversations with smooth interruption handling.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-live-1",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -61,6 +61,15 @@
       "base_url": "https://api.openai.com",
       "endpoints": {
         "realtime": "POST /v1/live/sessions"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "gpt-live-1",
+      "base_url": "wss://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "realtime": "WS /live/sessions"
       },
       "reasoning_param": null
     }
@@ -101,6 +110,21 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/api-version-lifecycle",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Use GPT-Live for real-time voice - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/gpt-live",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

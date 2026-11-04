@@ -49,7 +49,7 @@
     "knowledge_cutoff": "2024-06-01",
     "description": "Speech-to-text model powered by GPT-4o.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe",
-    "verified_at": "2026-10-15"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -59,6 +59,15 @@
       "endpoints": {
         "audio": "POST /v1/audio/transcriptions",
         "realtime": "GET /v1/realtime"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "gpt-4o-transcribe",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "audio": "POST /audio/transcriptions?api-version=preview"
       },
       "reasoning_param": null
     }
@@ -99,6 +108,21 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/api-version-lifecycle",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI image, audio, and video REST API reference (v1 preview) - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/reference-preview-latest",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
