@@ -9,7 +9,10 @@
       "generate",
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "@google/genai",
+      "openai"
+    ]
   },
   "limits": {
     "context": 1048576,
@@ -29,7 +32,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "low",
+      "medium",
+      "high"
+    ]
   },
   "prices": [
     {
@@ -51,9 +58,28 @@
     "knowledge_cutoff": null,
     "description": "Generally available to allowlisted projects. Input is text, image, audio, and video, and output is text. The context window is 1,048,576 tokens and the maximum output is 65,536 tokens. Thinking, structured output, context caching, GenerateContent, and Chat Completions are supported. Function calling, grounding, code execution, URL context, computer use, batch inference, the Interactions API, and the Live API are not supported. The recorded price is the Agent Platform Global standard rate, which is the same at or below 200K input tokens and above 200K: $1.50 per 1M input tokens, $0.15 per 1M cached input tokens, and $7.50 per 1M output tokens. Non-global standard rates are $1.65, $0.165, and $8.25. Priority and Flex/Batch rates are not recorded, and the page does not publish a cache-write price or a request URL.",
     "docs": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash-cyber",
-    "verified_at": "2026-10-27"
+    "verified_at": "2026-11-04"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "vertex-ai",
+      "model": "gemini-3.8-flash-cyber",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-3.8-flash-cyber:generateContent"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "google/gemini-3.8-flash-cyber",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "chat": "POST /v1/projects/{PROJECT_ID}/locations/global/endpoints/openapi/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
   "aliases": [],
   "translations": {
     "zh": {
@@ -64,12 +90,37 @@
     {
       "title": "Gemini 3.8 Flash Cyber | Gemini Enterprise Agent Platform",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash-cyber",
-      "retrieved_at": "2026-10-27"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Agent Platform Pricing | Google Cloud",
       "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
       "retrieved_at": "2026-10-27"
+    },
+    {
+      "title": "models.generateContent (POST https://{service-endpoint}/v1/{model}:generateContent; projects/{project}/locations/{location}/publishers/*/models/*) | Gemini Enterprise Agent Platform REST reference",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/reference/rest/v1/projects.locations.publishers.models/generateContent",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Inference API (OpenAI client base_url https://aiplatform.googleapis.com/v1/projects/{project_id}/locations/{location}/endpoints/openapi, model google/<model>) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/reference/models/inference",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Using OpenAI libraries with Gemini Enterprise Agent Platform (Chat Completions supported models include Gemini 3.8 Flash Cyber)",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/migrate/openai/overview",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Thinking (Gemini 3.8 Flash Cyber thinking_level LOW, MEDIUM, HIGH) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/thinking",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "SDK support — @google/genai (npm install @google/genai), Google Gen AI SDK quickstart (api.sdk only) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
