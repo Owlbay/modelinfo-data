@@ -1,7 +1,7 @@
 {
   "id": "doubao-seedance-1-5-pro",
   "object": "model",
-  "created": null,
+  "created": 1765843200,
   "owned_by": "bytedance",
   "name": "Doubao-Seedance-1.5-pro",
   "api": {
@@ -33,11 +33,11 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-12-16",
     "knowledge_cutoff": null,
     "description": "Doubao-Seedance-1.5-pro, retired. Official shutdown (EOS) dates: doubao-seedance-1-5-pro-251215 2026-09-21.",
     "docs": "https://www.volcengine.com/docs/82379/1350667",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -66,6 +66,16 @@
       "title": "存档 模型列表 | 火山方舟（原网址 https://www.volcengine.com/docs/82379/1330310）",
       "url": "https://web.archive.org/web/20251220120635/https://www.volcengine.com/docs/82379/1330310",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Sound and Vision, All in One Take | The Official Release of Seedance 1.5 pro | ByteDance Seed",
+      "url": "https://seed.bytedance.com/en/blog/sound-and-vision-all-in-one-take-the-official-release-of-seedance-1-5-pro",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "模型发布公告 2025 | 火山方舟",
+      "url": "https://docs.volcengine.com/docs/zh/ark/model-release-announcement-2025",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

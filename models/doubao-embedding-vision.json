@@ -8,7 +8,9 @@
     "types": [
       "embeddings"
     ],
-    "sdk": []
+    "sdk": [
+      "arkruntime"
+    ]
   },
   "limits": {
     "context": 131072,
@@ -46,7 +48,7 @@
     "knowledge_cutoff": null,
     "description": "Multimodal embedding model supporting text, image and video input with up to 2048 dimensions.",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -83,6 +85,11 @@
       "title": "深度思考 | 火山方舟",
       "url": "https://www.volcengine.com/docs/82379/1449737",
       "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "向量化 | 火山方舟",
+      "url": "https://docs.volcengine.com/docs/zh/ark/vectorization",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

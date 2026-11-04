@@ -1,7 +1,7 @@
 {
   "id": "doubao-seed-1-6-lite",
   "object": "model",
-  "created": null,
+  "created": 1760486400,
   "owned_by": "bytedance",
   "name": "Doubao-Seed-1.6-lite",
   "api": {
@@ -46,11 +46,11 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-10-15",
     "knowledge_cutoff": null,
     "description": "Doubao-Seed-1.6-lite, retired. Official shutdown (EOS) dates: doubao-seed-1-6-lite-251015 2026-05-11.",
     "docs": "https://www.volcengine.com/docs/82379/1350667",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -114,6 +114,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "豆包大模型1.6升级：国内首个原生支持“分档调节思考长度”的大模型 | 火山引擎发布中心",
+      "url": "https://www.volcengine.com/news/detail/23",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
