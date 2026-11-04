@@ -6,7 +6,9 @@
   "name": "Kimi K3.1 Pro Highspeed",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "messages",
+      "responses"
     ],
     "sdk": []
   },
@@ -55,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "High-speed variant of Kimi K3.1 Pro that delivers 2-3× the speed of K3.1 Pro. It uses the same 1,048,576-token context, image and video input, and always-on thinking.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
-    "verified_at": "2026-11-02"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -72,9 +74,16 @@
       "model": "kimi-k3.1-pro-highspeed",
       "base_url": "https://api.moonshot.cn",
       "endpoints": {
-        "chat": "POST /v1/chat/completions"
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages",
+        "responses": "POST /v1/responses"
       },
       "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "messages": "output_config.effort",
+        "responses": "reasoning.effort"
+      },
       "prices": [
         {
           "currency": "CNY",
@@ -123,6 +132,16 @@
       "title": "Kimi K3.1 Pro：智能前沿，更进一步 | Kimi",
       "url": "https://www.kimi.com/news/kimi-k3-1-pro",
       "retrieved_at": "2026-11-02"
+    },
+    {
+      "title": "Messages API（本接口当前支持 kimi-k3.1-pro、kimi-k3.1-pro-highspeed 和 kimi-k3）| Kimi API 开放平台",
+      "url": "https://platform.kimi.com/docs/api/messages",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Responses API（本接口当前支持 kimi-k3.1-pro、kimi-k3.1-pro-highspeed 和 kimi-k3）| Kimi API 开放平台",
+      "url": "https://platform.kimi.com/docs/api/responses",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
