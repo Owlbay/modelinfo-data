@@ -61,7 +61,7 @@
     "knowledge_cutoff": "2026-03",
     "description": "Flagship reasoning model for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. The default synchronous max output is 65,536 tokens; long decode can continue up to 1,048,576 tokens minus the input. Standard price is $4 input, $20 output, and $0.20 implicit cache read per 1M tokens. Also supports code execution, computer use (preview), search grounding, URL context, and file search.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
-    "verified_at": "2026-11-02"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -70,13 +70,23 @@
       "base_url": "https://generativelanguage.googleapis.com",
       "endpoints": {
         "interactions": "POST /v1beta/interactions",
-        "generate": "POST /v1beta/models/gemini-4-argon:generateContent"
+        "generate": "POST /v1beta/models/gemini-4-argon:generateContent",
+        "batch": "POST /v1beta/models/gemini-4-argon:batchGenerateContent"
       },
       "reasoning_param": "generation_config.thinking_level",
       "reasoning_params": {
         "interactions": "generation_config.thinking_level",
         "generate": "generationConfig.thinkingConfig.thinkingLevel"
       }
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemini-4-argon",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-4-argon:generateContent"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
     }
   ],
   "aliases": [],
@@ -120,6 +130,36 @@
       "title": "Long decode with the GenerateContent API | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/generate-content/long-decode",
       "retrieved_at": "2026-10-15"
+    },
+    {
+      "title": "Batch_mode.ipynb — Gemini API Batch mode quickstart (official google-gemini/cookbook source)",
+      "url": "https://github.com/google-gemini/cookbook/blob/main/quickstarts/Batch_mode.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "batches.py — Google Gen AI Python SDK batch request paths (official googleapis/python-genai SDK source)",
+      "url": "https://github.com/googleapis/python-genai/blob/main/google/genai/batches.py",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "_api_client.py — Google Gen AI Python SDK base URLs and API versions (official googleapis/python-genai SDK source)",
+      "url": "https://github.com/googleapis/python-genai/blob/main/google/genai/_api_client.py",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "_transformers.py — Google Gen AI Python SDK model resource names (official googleapis/python-genai SDK source)",
+      "url": "https://github.com/googleapis/python-genai/blob/main/google/genai/_transformers.py",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "intro_gemini_4_argon.ipynb — Agent Platform (formerly Vertex AI) sample (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_4_argon.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "intro_gemini_curl.ipynb — Agent Platform REST request URL (official GoogleCloudPlatform/generative-ai sample source)",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_curl.ipynb",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

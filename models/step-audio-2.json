@@ -6,7 +6,8 @@
   "name": "Step Audio 2",
   "api": {
     "types": [
-      "audio"
+      "audio",
+      "realtime"
     ],
     "sdk": []
   },
@@ -56,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "End-to-end audio model for sound understanding and natural interaction, with native tool calling and web search.",
     "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -64,6 +65,15 @@
       "model": "step-audio-2",
       "base_url": "https://api.stepfun.ai/v1",
       "endpoints": {},
+      "reasoning_param": null
+    },
+    {
+      "id": "stepfun",
+      "model": "step-audio-2",
+      "base_url": "wss://api.stepfun.com/v1",
+      "endpoints": {
+        "realtime": "WS /realtime"
+      },
       "reasoning_param": null
     }
   ],
@@ -83,6 +93,11 @@
       "title": "音频模型 | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/models/audio",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Step-Realtime-Console README | stepfun-ai GitHub",
+      "url": "https://github.com/stepfun-ai/Step-Realtime-Console/blob/main/README.md",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

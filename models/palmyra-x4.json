@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Language model for complex tasks that require extended context; deprecation scheduled 2026-12-14.",
     "docs": "https://dev.writer.com/home/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -59,6 +59,15 @@
       "base_url": "https://api.writer.com/v1",
       "endpoints": {
         "chat": "POST /chat"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "us.writer.palmyra-x4-v1:0",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /model/{modelId}/converse"
       },
       "reasoning_param": null
     }
@@ -99,6 +108,26 @@
       "title": "SDK support — writer-sdk (api.sdk only)",
       "url": "https://github.com/writer/writer-node",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "aws-samples/sample-per-model-bedrock — Palmyra X4 & X5 on bedrock-runtime (official AWS GitHub; us.writer.palmyra-x4-v1:0 / us.writer.palmyra-x5-v1:0, runtime.converse, us-east-1)",
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/blob/main/12-writer-palmyra/02-palmyra-x4-x5-on-runtime.ipynb",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "writer/aws-examples — Bedrock examples (official Writer GitHub; writer.palmyra-x4-v1:0, writer.palmyra-x5-v1:0, us.writer.palmyra-x5-v1:0 with client.converse)",
+      "url": "https://github.com/writer/aws-examples/tree/main/bedrock-examples",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "boto/botocore — Amazon Bedrock Runtime service model (official AWS SDK; Converse POST /model/{modelId}/converse, InvokeModel POST /model/{modelId}/invoke)",
+      "url": "https://github.com/boto/botocore/blob/develop/botocore/data/bedrock-runtime/2023-09-30/service-2.json",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "boto/botocore — endpoints.json (official AWS SDK; bedrock.us-east-1.amazonaws.com, bedrock-runtime.us-east-1.amazonaws.com)",
+      "url": "https://github.com/boto/botocore/blob/develop/botocore/data/endpoints.json",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

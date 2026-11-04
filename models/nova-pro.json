@@ -56,7 +56,7 @@
     "knowledge_cutoff": "2024-10",
     "description": "Amazon's balanced multimodal model offering strong accuracy, speed, and cost for a wide range of tasks across text, images, and video.",
     "docs": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-pro.html",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -65,6 +65,15 @@
       "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
       "endpoints": {
         "chat": "POST /model/{modelId}/converse"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "amazon.nova-pro-v1:0",
+      "base_url": "https://bedrock.us-east-1.amazonaws.com",
+      "endpoints": {
+        "batch": "POST /model-invocation-job"
       },
       "reasoning_param": null
     }
@@ -108,6 +117,16 @@
       "title": "SDK support — @ai-sdk/amazon-bedrock (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "boto/botocore — Amazon Bedrock control-plane service model (official AWS SDK; CreateModelInvocationJob POST /model-invocation-job, endpointPrefix bedrock)",
+      "url": "https://github.com/boto/botocore/blob/develop/botocore/data/bedrock/2023-04-20/service-2.json",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "boto/botocore — endpoints.json (official AWS SDK; bedrock.us-east-1.amazonaws.com, bedrock-runtime.us-east-1.amazonaws.com)",
+      "url": "https://github.com/boto/botocore/blob/develop/botocore/data/endpoints.json",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

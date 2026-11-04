@@ -52,14 +52,16 @@
     "knowledge_cutoff": null,
     "description": "Speech recognition for Chinese and English, supporting realtime and offline recognition.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/overview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
       "id": "stepfun",
       "model": "step-asr",
       "base_url": "https://api.stepfun.ai/v1",
-      "endpoints": {},
+      "endpoints": {
+        "audio": "POST /audio/asr/sse"
+      },
       "reasoning_param": null
     }
   ],
@@ -84,6 +86,11 @@
       "title": "API 定价 | StepFun 开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "StepAudio-Skills step-asr transcribe.py | stepfun-ai GitHub",
+      "url": "https://github.com/stepfun-ai/StepAudio-Skills/blob/main/skills/step-asr/scripts/transcribe.py",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

@@ -48,7 +48,7 @@
     "knowledge_cutoff": null,
     "description": "Multilingual embedding and classification model.",
     "docs": "https://docs.cohere.com/docs/cohere-embed",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -57,6 +57,15 @@
       "base_url": "https://api.cohere.com",
       "endpoints": {
         "embeddings": "POST /v2/embed"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "cohere.embed-multilingual-v3",
+      "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+      "endpoints": {
+        "embeddings": "POST /model/{modelId}/invoke"
       },
       "reasoning_param": null
     }
@@ -102,6 +111,21 @@
       "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "cohere-ai/cohere-developer-experience — Amazon Bedrock (official Cohere docs source; cohere.embed-english-v3, cohere.embed-multilingual-v3, invoke_model)",
+      "url": "https://github.com/cohere-ai/cohere-developer-experience/blob/main/fern/pages/deployment-options/cohere-on-aws/amazon-bedrock.mdx",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "boto/botocore — Amazon Bedrock Runtime service model (official AWS SDK; Converse POST /model/{modelId}/converse, InvokeModel POST /model/{modelId}/invoke)",
+      "url": "https://github.com/boto/botocore/blob/develop/botocore/data/bedrock-runtime/2023-09-30/service-2.json",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "boto/botocore — endpoints.json (official AWS SDK; bedrock.us-east-1.amazonaws.com, bedrock-runtime.us-east-1.amazonaws.com)",
+      "url": "https://github.com/boto/botocore/blob/develop/botocore/data/endpoints.json",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

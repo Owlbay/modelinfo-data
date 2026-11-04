@@ -52,14 +52,16 @@
     "knowledge_cutoff": null,
     "description": "Upgrade of step-tts-mini with finer emotion and style control and improved voice cloning.",
     "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
       "id": "stepfun",
       "model": "step-tts-2",
       "base_url": "https://api.stepfun.ai/v1",
-      "endpoints": {},
+      "endpoints": {
+        "audio": "POST /audio/speech"
+      },
       "reasoning_param": null
     }
   ],
@@ -84,6 +86,16 @@
       "title": "API 定价 | StepFun 开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "StepAudio-Skills step-tts SKILL.md | stepfun-ai GitHub",
+      "url": "https://github.com/stepfun-ai/StepAudio-Skills/blob/main/skills/step-tts/SKILL.md",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "StepAudio-Skills step-tts tts.sh | stepfun-ai GitHub",
+      "url": "https://github.com/stepfun-ai/StepAudio-Skills/blob/main/skills/step-tts/scripts/tts.sh",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
