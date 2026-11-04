@@ -6,8 +6,7 @@
   "name": "Ming-3.0-audio-flash",
   "api": {
     "types": [
-      "chat",
-      "audio"
+      "chat"
     ],
     "sdk": [
       "openai"
@@ -75,11 +74,16 @@
     {
       "title": "OpenAI Compatible | Ant Ling API Reference",
       "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai/",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "OpenAI Compatible Chat API（model 可选 Ming-3.0-audio-flash，audio_url 输入音频；示例使用 OpenAI SDK）| Ant Ling API Docs (api.sdk only)",
       "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Multimodal Understanding | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/tutorials/multimodal-understanding/",
       "retrieved_at": "2026-11-04"
     }
   ]

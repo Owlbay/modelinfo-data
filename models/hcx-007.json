@@ -63,15 +63,6 @@
     {
       "id": "naver",
       "model": "HCX-007",
-      "base_url": "https://clovastudio.stream.ntruss.com",
-      "endpoints": {
-        "chat": "POST /v3/chat-completions/{modelName}"
-      },
-      "reasoning_param": "thinking.effort"
-    },
-    {
-      "id": "naver",
-      "model": "HCX-007",
       "base_url": "https://clovastudio.stream.ntruss.com/v1/openai",
       "endpoints": {
         "chat": "POST /chat/completions"

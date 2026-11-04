@@ -57,15 +57,6 @@
     {
       "id": "naver",
       "model": "HCX-DASH-002",
-      "base_url": "https://clovastudio.stream.ntruss.com",
-      "endpoints": {
-        "chat": "POST /v3/chat-completions/{modelName}"
-      },
-      "reasoning_param": null
-    },
-    {
-      "id": "naver",
-      "model": "HCX-DASH-002",
       "base_url": "https://clovastudio.stream.ntruss.com/v1/openai",
       "endpoints": {
         "chat": "POST /chat/completions"
