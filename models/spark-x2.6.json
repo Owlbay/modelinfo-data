@@ -27,7 +27,16 @@
     "supported": null,
     "efforts": []
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1.5,
+      "output": 6,
+      "cache_read": 0.14,
+      "cache_write": null
+    }
+  ],
   "features": [],
   "info": {
     "status": "active",
@@ -35,7 +44,7 @@
     "knowledge_cutoff": null,
     "description": "iFlytek Spark-X2.6 is a 293B-A30B mixture-of-experts model. The MaaS catalog tags the context length as 1M and lists text input and text output. It prints an OpenAI base at /v2, an Anthropic base at /anthropic, and a complete Responses URL at /v1/responses; only that Responses path is recorded. The public Spark API page publishes only a limited-time 60% discount, so the standard price is unset.",
     "docs": "https://xinghuo.xfyun.cn/sparkapi",
-    "verified_at": "2026-10-24"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -63,7 +72,7 @@
     {
       "title": "星辰 MaaS 模型目录（Spark-X2.6）",
       "url": "https://maas.xfyun.cn/api/v1/gpt-finetune/model/base/list-v2",
-      "retrieved_at": "2026-10-24"
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

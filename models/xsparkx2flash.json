@@ -8,7 +8,9 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai-compatible"
+    ]
   },
   "limits": {
     "context": 262144,
@@ -44,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "iFlytek Spark X2-Flash 30B mid-size model optimized for agent scenarios.",
     "docs": "https://www.xfyun.cn/doc/spark/TokenPlan.html",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -65,7 +67,7 @@
     {
       "title": "Astron Token Plan 使用文档 | 讯飞星辰 MaaS",
       "url": "https://www.xfyun.cn/doc/spark/TokenPlan.html",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Spark-X2-Flash — official MaaS model square, standard token rates",
