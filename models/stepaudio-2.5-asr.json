@@ -8,7 +8,9 @@
     "types": [
       "audio"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai"
+    ]
   },
   "limits": {
     "context": 32768,
@@ -52,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "4B-parameter speech recognition model using multi-token prediction; one-shot submission with SSE output.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-2.5-asr",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -106,6 +108,11 @@
       "title": "StepAudio 2.5 ASR | StepFun 开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/models/stepaudio-2.5-asr",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "models.dev — StepFun stepaudio-2.5-asr provider npm @ai-sdk/openai (api.sdk only)",
+      "url": "https://models.dev",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

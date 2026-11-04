@@ -6,9 +6,11 @@
   "name": "Step Audio R1.5",
   "api": {
     "types": [
-      "audio"
+      "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -47,16 +49,27 @@
       "cache_write": null
     }
   ],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": null,
     "knowledge_cutoff": null,
     "description": "Audio model for deep sound understanding and reasoning that thinks while speaking.",
     "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
+    {
+      "id": "stepfun",
+      "model": "step-audio-r1.5",
+      "base_url": "https://api.stepfun.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    },
     {
       "id": "stepfun",
       "model": "step-audio-r1.5",
@@ -80,7 +93,17 @@
     {
       "title": "音频模型 | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "语音对话 | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/developer/audio-chat",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "对话补全 Chat Completions API | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/chat/chat-completion-create",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

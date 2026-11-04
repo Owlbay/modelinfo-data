@@ -6,10 +6,12 @@
   "name": "Step Audio 2",
   "api": {
     "types": [
-      "audio",
+      "chat",
       "realtime"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -49,7 +51,8 @@
     }
   ],
   "features": [
-    "tools"
+    "tools",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -63,8 +66,10 @@
     {
       "id": "stepfun",
       "model": "step-audio-2",
-      "base_url": "https://api.stepfun.ai/v1",
-      "endpoints": {},
+      "base_url": "https://api.stepfun.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
       "reasoning_param": null
     },
     {
@@ -74,6 +79,13 @@
       "endpoints": {
         "realtime": "WS /realtime"
       },
+      "reasoning_param": null
+    },
+    {
+      "id": "stepfun",
+      "model": "step-audio-2",
+      "base_url": "https://api.stepfun.ai/v1",
+      "endpoints": {},
       "reasoning_param": null
     }
   ],
@@ -92,11 +104,21 @@
     {
       "title": "音频模型 | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Step-Realtime-Console README | stepfun-ai GitHub",
       "url": "https://github.com/stepfun-ai/Step-Realtime-Console/blob/main/README.md",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "语音对话 | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/developer/audio-chat",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "对话补全 Chat Completions API | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/chat/chat-completion-create",
       "retrieved_at": "2026-11-04"
     }
   ]

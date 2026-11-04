@@ -52,9 +52,18 @@
     "knowledge_cutoff": null,
     "description": "Streaming speech recognition model.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
+    {
+      "id": "stepfun",
+      "model": "step-asr-1.1-stream",
+      "base_url": "wss://api.stepfun.com/v1",
+      "endpoints": {
+        "audio": "WS /realtime/asr/stream"
+      },
+      "reasoning_param": null
+    },
     {
       "id": "stepfun",
       "model": "step-asr-1.1-stream",
@@ -79,6 +88,11 @@
       "title": "API 定价 | StepFun 开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "流式语音识别（双向流式） | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/audio/asr-stream",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

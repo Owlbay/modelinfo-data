@@ -52,9 +52,18 @@
     "knowledge_cutoff": null,
     "description": "Professional 32B-parameter speech recognition model.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/overview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
+    {
+      "id": "stepfun",
+      "model": "stepaudio-2-asr-pro",
+      "base_url": "https://api.stepfun.com/v1",
+      "endpoints": {
+        "audio": "POST /audio/asr/sse"
+      },
+      "reasoning_param": null
+    },
     {
       "id": "stepfun",
       "model": "stepaudio-2-asr-pro",
@@ -83,12 +92,17 @@
     {
       "title": "音频模型 | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "API 定价 | StepFun 开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "语音识别（流式返回文本） | 阶跃星辰开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/audio/asr-sse",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
