@@ -1,0 +1,100 @@
+{
+  "id": "ling-3.0-tiny",
+  "object": "model",
+  "created": 1786060800,
+  "owned_by": "ant",
+  "name": "Ling-3.0-tiny",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-08-07",
+    "knowledge_cutoff": null,
+    "description": "Lightweight hybrid reasoning model with only 1.3B activated parameters — supports on-device deployment and local offline execution, low latency and low cost, built for real-time interaction and tool use",
+    "docs": "https://developer.ant-ling.com/zh-CN/docs/models/ling",
+    "verified_at": "2026-11-03"
+  },
+  "providers": [
+    {
+      "id": "ant",
+      "model": "Ling-3.0-tiny",
+      "base_url": "https://api.ant-ling.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "Ling-3.0-tiny"
+  ],
+  "translations": {
+    "zh": {
+      "description": "轻量级混合推理模型，激活参数仅 1.3B，支持端侧部署与本地离线运行，低时延、低成本，兼顾实时交互与工具调用"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ling | 蚂蚁百灵开发者文档（选型指南：Ling-3.0-tiny 上下文「—」，7.9B / 1.3B）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/models/ling",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Ling | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/ling",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "更新日志 | 蚂蚁百灵开发者文档（v2.0.2，2026 年 8 月 7 日上线 Ling-3.0-tiny）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "下架 | 蚂蚁百灵开发者文档（当前可用模型含 Ling-3.0-tiny）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/models/deprecation/",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "定价 | 蚂蚁百灵开发者文档（未列 Ling-3.0-tiny）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/models/price",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/openai",
+      "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Anthropic Compatible API | Ant Ling Docs",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/anthropic/",
+      "retrieved_at": "2026-11-03"
+    }
+  ]
+}
