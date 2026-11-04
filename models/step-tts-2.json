@@ -8,7 +8,9 @@
     "types": [
       "audio"
     ],
-    "sdk": []
+    "sdk": [
+      "@ai-sdk/openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -95,6 +97,11 @@
     {
       "title": "StepAudio-Skills step-tts tts.sh | stepfun-ai GitHub",
       "url": "https://github.com/stepfun-ai/StepAudio-Skills/blob/main/skills/step-tts/scripts/tts.sh",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "models.dev — StepFun (Global) step-tts-2 SDK mapping: api.speech aisdk @ai-sdk/openai (api.sdk only)",
+      "url": "https://github.com/anomalyco/models.dev/blob/dev/providers/stepfun-ai/models/step-tts-2.toml",
       "retrieved_at": "2026-11-04"
     }
   ]
