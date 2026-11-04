@@ -71,9 +71,16 @@
       "model": "kimi-k3.1-pro-highspeed",
       "base_url": "https://api.moonshot.ai",
       "endpoints": {
-        "chat": "POST /v1/chat/completions"
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages",
+        "responses": "POST /v1/responses"
       },
-      "reasoning_param": "reasoning_effort"
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "messages": "output_config.effort",
+        "responses": "reasoning.effort"
+      }
     },
     {
       "id": "moonshot",
@@ -157,6 +164,16 @@
     {
       "title": "models.dev — moonshotai/kimi-k3.1-pro-highspeed (@ai-sdk/openai-compatible, @ai-sdk/openai for Responses, @ai-sdk/anthropic for Messages) (api.sdk only)",
       "url": "https://github.com/anomalyco/models.dev/blob/main/providers/moonshotai/models/kimi-k3.1-pro-highspeed.toml",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Messages API（This endpoint currently supports kimi-k3.1-pro, kimi-k3.1-pro-highspeed, and kimi-k3; base URL https://api.moonshot.ai/anthropic）| Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/messages",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Responses API（This endpoint currently supports kimi-k3.1-pro, kimi-k3.1-pro-highspeed, and kimi-k3; server https://api.moonshot.ai）| Kimi API Platform",
+      "url": "https://platform.kimi.ai/docs/api/responses",
       "retrieved_at": "2026-11-04"
     }
   ]

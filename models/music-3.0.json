@@ -50,9 +50,9 @@
     "status": "retired",
     "release_date": "2026-07-16",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Text-to-music generation.",
     "docs": "https://platform.minimax.io/docs/api-reference/music-generation",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -70,7 +70,7 @@
     {
       "title": "Music Generation | MiniMax API Docs",
       "url": "https://platform.minimax.io/docs/api-reference/music-generation",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Models | MiniMax API Docs",

@@ -49,12 +49,12 @@
     "streaming"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2026-04-29",
     "knowledge_cutoff": null,
     "description": "Flagship long-context model for multi-step reasoning, agent tasks and coding.",
     "docs": "https://developer.ant-ling.com/en/docs/models/ling",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -146,6 +146,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Deprecation（Upcoming: Ling-2.6-1T, planned deprecation 2026-11-15 00:00:00 (UTC+8), replacement Ling-3.1-flash）| Ant Ling API Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/deprecation/",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

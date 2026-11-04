@@ -9,7 +9,10 @@
       "chat",
       "messages"
     ],
-    "sdk": []
+    "sdk": [
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -38,7 +41,7 @@
     "knowledge_cutoff": null,
     "description": "Lightweight hybrid reasoning model with only 1.3B activated parameters — supports on-device deployment and local offline execution, low latency and low cost, built for real-time interaction and tool use",
     "docs": "https://developer.ant-ling.com/zh-CN/docs/models/ling",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -95,6 +98,16 @@
       "title": "Anthropic Compatible API | Ant Ling Docs",
       "url": "https://developer.ant-ling.com/en/docs/api-reference/anthropic/",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "OpenAI Compatible Chat API（model 可选 Ling-3.0-tiny；示例使用 OpenAI SDK：from openai import OpenAI / import OpenAI from 'openai'）| Ant Ling API Docs (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Anthropic Compatible Chat API（model 可选 Ling-3.0-tiny；示例使用 anthropic / @anthropic-ai/sdk）| Ant Ling API Docs (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/anthropic",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

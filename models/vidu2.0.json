@@ -35,14 +35,16 @@
     "knowledge_cutoff": null,
     "description": "Video generation model supporting image-to-video, reference-to-video, first/last frame and effect templates, 4s or 8s clips.",
     "docs": "https://platform.vidu.com/docs/overview/model-map",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
       "id": "shengshu",
       "model": "vidu2.0",
-      "base_url": "https://api.vidu.com/ent/v2",
-      "endpoints": {},
+      "base_url": "https://api.vidu.com",
+      "endpoints": {
+        "video": "POST /ent/v2/start-end2video"
+      },
       "reasoning_param": null
     }
   ],
@@ -57,6 +59,11 @@
       "title": "Model Map | Vidu API",
       "url": "https://platform.vidu.com/docs/overview/model-map",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Start-End to Video（POST /ent/v2/start-end2video；model accepted values: vidu2.0）| Vidu API",
+      "url": "https://platform.vidu.com/docs/start-end-to-video",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

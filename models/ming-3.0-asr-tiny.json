@@ -8,7 +8,9 @@
     "types": [
       "audio"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -38,7 +40,7 @@
     "knowledge_cutoff": null,
     "description": "inclusionAI speech-recognition model that pairs a Ling-tiny-v3 language backbone with an audio encoder. It transcribes Chinese and English, including dialects, and can take hotwords or dialogue context as text. Output is transcription text. The card says image and video inputs are unsupported, and that a self-hosted server can stream the transcript. Weights and original project code use the MIT license. Parameter count, context limit, release date, and a first-party hosted price are not stated.",
     "docs": "https://huggingface.co/inclusionAI/Ming-3.0-asr-tiny",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -74,6 +76,11 @@
       "title": "ASR | Ant Ling API Reference",
       "url": "https://developer.ant-ling.com/en/docs/api-reference/audio/asr/",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Speech Recognition API（POST https://api.ant-ling.com/v1/audio/transcriptions，示例 OpenAI SDK client.audio.transcriptions.create(model=\"Ming-3.0-asr-tiny\")）| Ant Ling API Docs (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/audio/asr",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

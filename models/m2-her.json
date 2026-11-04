@@ -52,9 +52,9 @@
     "status": "retired",
     "release_date": "2026-01-27",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "M2-her is MiniMax's LLM optimized for dialogue scenarios, supporting rich role settings and conversation history management capabilities.",
     "docs": "https://platform.minimax.io/docs/guides/text-chat",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -74,7 +74,7 @@
     {
       "title": "Chat Model | MiniMax API Docs（M2-her 上下文 64 K，max_completion_tokens 上限 2048）",
       "url": "https://platform.minimax.io/docs/guides/text-chat",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "对话模型 | MiniMax 开放平台文档",

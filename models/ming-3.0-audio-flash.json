@@ -9,7 +9,9 @@
       "chat",
       "audio"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -38,7 +40,7 @@
     "knowledge_cutoff": null,
     "description": "inclusionAI native audio-language mixture-of-experts model with 126B total parameters and 6.5B activated per step. It takes audio and text and can return text or text with synthesized speech. The card states audio reasoning and the MIT license. The 128K figure is a serving profile, not a published context limit. No release date or first-party hosted price is on the card.",
     "docs": "https://huggingface.co/inclusionAI/Ming-3.0-audio-flash",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -74,6 +76,11 @@
       "title": "OpenAI Compatible | Ant Ling API Reference",
       "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai/",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "OpenAI Compatible Chat API（model 可选 Ming-3.0-audio-flash，audio_url 输入音频；示例使用 OpenAI SDK）| Ant Ling API Docs (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

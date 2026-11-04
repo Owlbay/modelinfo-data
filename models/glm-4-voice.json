@@ -8,7 +8,9 @@
     "types": [
       "audio"
     ],
-    "sdk": []
+    "sdk": [
+      "zai-sdk"
+    ]
   },
   "limits": {
     "context": 8192,
@@ -45,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "First end-to-end speech model that understands and generates Chinese and English speech for real-time conversation.",
     "docs": "https://docs.bigmodel.cn/cn/guide/models/sound-and-video/glm-4-voice",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -68,7 +70,7 @@
     {
       "title": "GLM-4-Voice | 智谱 AI 开放文档",
       "url": "https://docs.bigmodel.cn/cn/guide/models/sound-and-video/glm-4-voice",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "API 定价 | 智谱 AI 开放文档",

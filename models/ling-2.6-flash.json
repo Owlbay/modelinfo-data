@@ -49,12 +49,12 @@
     "streaming"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2026-04-22",
     "knowledge_cutoff": null,
     "description": "Cost-effective Ling model.",
     "docs": "https://developer.ant-ling.com/en/docs/models/ling",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -141,6 +141,11 @@
       "title": "Archived Ling | Ant Ling Developer Docs (original https://developer.ant-ling.com/en/docs/models/ling/)",
       "url": "https://web.archive.org/web/20260511042302/https://developer.ant-ling.com/en/docs/models/ling/",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Deprecation（Upcoming: Ling-2.6-flash, planned deprecation 2026-11-15 00:00:00 (UTC+8), replacement Ling-3.1-flash）| Ant Ling API Docs",
+      "url": "https://developer.ant-ling.com/en/docs/models/deprecation/",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

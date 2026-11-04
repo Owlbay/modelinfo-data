@@ -8,6 +8,7 @@
     "types": [
       "chat",
       "messages",
+      "responses",
       "batch"
     ],
     "sdk": [
@@ -69,7 +70,7 @@
     "knowledge_cutoff": null,
     "description": "Efficient Xiaomi reasoning model balancing capability, low cost and scale for high-volume workloads.",
     "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.6-flash",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -78,9 +79,24 @@
       "base_url": "https://api.xiaomimimo.com",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "messages": "POST /anthropic/v1/messages"
+        "messages": "POST /anthropic/v1/messages",
+        "responses": "POST /v1/responses"
       },
-      "reasoning_param": "thinking"
+      "reasoning_param": "thinking",
+      "reasoning_params": {
+        "chat": "thinking",
+        "messages": "thinking",
+        "responses": "reasoning.effort"
+      }
+    },
+    {
+      "id": "xiaomi",
+      "model": "mimo-v2.6-flash",
+      "base_url": "https://batch-api-${region}.xiaomimimo.com",
+      "endpoints": {
+        "batch": "POST /v1/batches"
+      },
+      "reasoning_param": null
     }
   ],
   "aliases": [],
@@ -169,6 +185,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "批量推理（Batch API）（支持 mimo-v2.6-pro、mimo-v2.6-flash；POST https://batch-api-${region}.xiaomimimo.com/v1/batches）| Xiaomi MiMo 开放平台",
+      "url": "https://mimo.mi.com/docs/zh-CN/quick-start/usage-guide/text-generation/batch-api",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "OpenAI Responses API 兼容（请求地址 https://api.xiaomimimo.com/v1/responses；model 可选值 mimo-v2.6-flash、mimo-v2.6-pro、mimo-v2.6-pro-ultraspeed；reasoning.effort 控制推理）| Xiaomi MiMo 开放平台",
+      "url": "https://mimo.mi.com/docs/zh-CN/api/chat/responses-post",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

@@ -53,14 +53,17 @@
       "cache_write": null
     }
   ],
-  "features": [],
+  "features": [
+    "streaming",
+    "caching"
+  ],
   "info": {
     "status": "active",
     "release_date": "2025-08-11",
     "knowledge_cutoff": null,
     "description": "Visual reasoning MoE model, 106B total and 12B active parameters, based on GLM-4.5-Air.",
     "docs": "https://docs.z.ai/guides/vlm/glm-4.5v",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -113,7 +116,7 @@
     {
       "title": "GLM-4.5V | 智谱AI开放文档",
       "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.5v",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",

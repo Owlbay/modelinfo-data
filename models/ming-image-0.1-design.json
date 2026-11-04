@@ -8,7 +8,9 @@
     "types": [
       "images"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -45,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Ming design image model on the Ant Ling platform for text-to-image generation and general image editing at 1K and above, via OpenAI-compatible image endpoints.",
     "docs": "https://developer.ant-ling.com/en/docs/api-reference/image/generations/",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -80,7 +82,7 @@
     {
       "title": "Image Generation | Ant Ling API Reference",
       "url": "https://developer.ant-ling.com/en/docs/api-reference/image/generations/",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Image Editing | Ant Ling API Reference",
