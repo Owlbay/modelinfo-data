@@ -57,7 +57,7 @@
     "knowledge_cutoff": "2024-06-01",
     "description": "Fast, cost-efficient reasoning model, succeeded by GPT-5 Mini.",
     "docs": "https://developers.openai.com/api/docs/models/o4-mini",
-    "verified_at": "2026-11-02"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -68,6 +68,17 @@
         "chat": "POST /v1/chat/completions",
         "responses": "POST /v1/responses",
         "batch": "POST /v1/batches"
+      },
+      "reasoning_param": "reasoning.effort"
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "o4-mini",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses",
+        "batch": "POST /batches"
       },
       "reasoning_param": "reasoning.effort"
     }
@@ -125,6 +136,51 @@
       "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/api-version-lifecycle",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Model retirement schedule - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI reasoning models - GPT-6 Astra and GPT-5 - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/reasoning",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Microsoft Foundry REST Reference - Azure OpenAI - Chat | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/chat",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Use the Azure OpenAI Responses API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/responses",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Microsoft Foundry REST Reference - Azure OpenAI - Responses | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/responses",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "How to use global batch processing with Azure OpenAI in Microsoft Foundry Models - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/batch",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Microsoft Foundry REST Reference - Azure OpenAI - Batch | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/batch",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }

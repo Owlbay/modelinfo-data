@@ -53,7 +53,7 @@
     "knowledge_cutoff": "2024-09-30",
     "description": "A version of GPT-5.1 optimized for agentic coding in Codex.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-04"
   },
   "providers": [
     {
@@ -64,6 +64,15 @@
         "responses": "POST /v1/responses"
       },
       "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "gpt-5.1-codex",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning.effort"
     }
   ],
   "aliases": [],
@@ -97,6 +106,41 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/api-version-lifecycle",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Model retirement schedule - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure OpenAI reasoning models - GPT-6 Astra and GPT-5 - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/reasoning",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Use the Azure OpenAI Responses API - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/responses",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Microsoft Foundry REST Reference - Azure OpenAI - Responses | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/responses",
+      "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Codex with Azure OpenAI in Microsoft Foundry Models - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/codex",
+      "retrieved_at": "2026-11-04"
     }
   ]
 }
