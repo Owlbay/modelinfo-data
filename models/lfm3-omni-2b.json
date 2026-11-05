@@ -51,9 +51,30 @@
     "knowledge_cutoff": null,
     "description": "Liquid AI's first omni model, an open-weight 2.17B model in the LFM3 family released on October 27, 2026. A single end-to-end model takes text, images, video with or without its soundtrack, and audio, and answers in text, speech, or interleaved text and speech (24 kHz), with a 32K-token context length and multimodal tool calling. It is a non-reasoning model. The recorded price is the Liquid API text rate: $0.10 per 1M input tokens, $0.02 per 1M cached input tokens, and $1.00 per 1M output tokens. Image input is $0.10 per 1M tokens ($0.02 cached); audio is $2.00 per 1M input tokens and $10.00 per 1M output tokens, with no cached audio rate. Weights are released under the LFM Open License v1.0. The docs give the context length only as 32K tokens (input + output), so no exact token count is recorded. The pages do not publish a cache-write price, a maximum output, or a request URL.",
     "docs": "https://docs.liquid.ai/lfm/models/lfm3-omni-2b",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-05"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "liquid",
+      "model": "lfm3-omni-2b",
+      "base_url": "https://api.liquid.ai/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "audio"
+        ]
+      }
+    }
+  ],
   "aliases": [],
   "translations": {
     "zh": {
@@ -80,6 +101,21 @@
       "title": "LiquidAI/LFM3-Omni-2B | Hugging Face",
       "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Models | Liquid API Docs（API model IDs, input/output modalities, context window 128,000）",
+      "url": "https://docs.liquid.ai/api/models",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Liquid API overview | Liquid Docs（OpenAI-compatible, base URL https://api.liquid.ai/openai/v1, POST /chat/completions）",
+      "url": "https://docs.liquid.ai/api/overview",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Audio and speech | Liquid API Docs（chat completions with modalities [\"text\",\"audio\"]）",
+      "url": "https://docs.liquid.ai/api/guides/audio",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -48,9 +48,24 @@
     "knowledge_cutoff": null,
     "description": "Open-weight 1.73B text model in the LFM3 family, released on October 27, 2026, for local agents, tool calling, structured outputs, and domain-specific fine-tuning, with a 256K-token context window (input + output). Reasoning is on by default and can be turned off. Liquid does not recommend it for agentic coding or complex multi-step reasoning. Liquid API inference is priced at $0.08 per 1M input tokens, $0.02 per 1M cached input tokens, and $0.20 per 1M output tokens. Weights are released under the LFM Open License v1.0. The pages do not publish a cache-write price, a maximum output, or a request URL.",
     "docs": "https://docs.liquid.ai/lfm/models/lfm3-1.7b",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-05"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "liquid",
+      "model": "lfm3-1.7b",
+      "base_url": "https://api.liquid.ai/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null,
+      "limits": {
+        "context": 128000,
+        "input": null,
+        "output": null
+      }
+    }
+  ],
   "aliases": [],
   "translations": {
     "zh": {
@@ -77,6 +92,16 @@
       "title": "LiquidAI/LFM3-1.7B | Hugging Face",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Models | Liquid API Docs（API model IDs, input/output modalities, context window 128,000）",
+      "url": "https://docs.liquid.ai/api/models",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Liquid API overview | Liquid Docs（OpenAI-compatible, base URL https://api.liquid.ai/openai/v1, POST /chat/completions）",
+      "url": "https://docs.liquid.ai/api/overview",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
