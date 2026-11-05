@@ -1,7 +1,7 @@
 {
   "id": "gen3a_turbo",
   "object": "model",
-  "created": null,
+  "created": 1726444800,
   "owned_by": "runway",
   "name": "Gen-3 Alpha Turbo",
   "api": {
@@ -42,11 +42,11 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2024-09-16",
     "knowledge_cutoff": null,
     "description": "Runway image-to-video model; no longer available on Runway Dev since 2026-07-30.",
     "docs": "https://docs.dev.runwayml.com/api-details/api_changelog/",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -83,6 +83,11 @@
       "title": "SDK support — @runwayml/sdk (api.sdk only)",
       "url": "https://github.com/runwayml/sdk-node",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Introducing the Runway API for Gen-3 Alpha Turbo | Runway News (September 16, 2024)",
+      "url": "https://runwayml.com/news/introducing-the-runway-api",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
