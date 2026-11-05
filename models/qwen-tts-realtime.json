@@ -35,9 +35,9 @@
     "status": "retired",
     "release_date": "2025-07-16",
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "Qwen-TTS-Realtime is a speech synthesis model in the Qwen series with bidirectional context awareness.",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_postponed_retirement_of_selected_legacy_models_7d0",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -52,6 +52,11 @@
     "qwen-tts-realtime-latest",
     "qwen-tts-realtime-2025-07-15"
   ],
+  "translations": {
+    "zh": {
+      "description": "Qwen-TTS 实时模型是通义实验室“qwen 系列”模型中的语音合成模型。具备双向上下文感知能力。"
+    }
+  },
   "sources": [
     {
       "title": "[Model Studio] Notice on the Postponed Retirement of Selected Legacy Models | Alibaba Cloud",
@@ -64,14 +69,19 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "Alibaba Cloud Model Studio model lifecycle and release dates",
+      "title": "Model release notes | Alibaba Cloud Model Studio",
       "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型发布记录 | 阿里云百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

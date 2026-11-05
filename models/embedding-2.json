@@ -41,9 +41,7 @@
       "cache_write": null
     }
   ],
-  "features": [
-    "batch"
-  ],
+  "features": [],
   "info": {
     "status": "active",
     "release_date": null,

@@ -6,7 +6,8 @@
   "name": "GLM-4-FlashX-250414",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "batch"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -63,7 +64,8 @@
       "model": "glm-4-flashx-250414",
       "base_url": "https://open.bigmodel.cn/api/paas/v4",
       "endpoints": {
-        "chat": "POST /chat/completions"
+        "chat": "POST /chat/completions",
+        "batch": "POST /batches"
       },
       "reasoning_param": null
     }
