@@ -9,10 +9,11 @@ import (
 )
 
 // fixture 把仓库中的一组真实数据复制到临时目录，返回目录与模型文件路径。
+// 另带一个经北京站调用的模型（cosyvoice-v2），供应商 sites 中的主机才有模型使用。
 func fixture(t *testing.T) (string, string) {
 	t.Helper()
 	dir := t.TempDir()
-	for _, f := range []string{"vendors/alibaba.json", "providers/alibaba.json", "models/qwen3.8-max.json"} {
+	for _, f := range []string{"vendors/alibaba.json", "providers/alibaba.json", "models/qwen3.8-max.json", "models/cosyvoice-v2.json"} {
 		raw, err := os.ReadFile(filepath.Join("..", "..", f))
 		if err != nil {
 			t.Fatal(err)
@@ -48,7 +49,7 @@ func edit(t *testing.T, path, from, to string) {
 func TestCheckPasses(t *testing.T) {
 	dir, _ := fixture(t)
 	code, out, errs := runCheck(t, nil, "--dir", dir)
-	if code != 0 || !strings.Contains(out, "校验通过：1 个模型、1 个厂商、1 个供应商") {
+	if code != 0 || !strings.Contains(out, "校验通过：2 个模型、1 个厂商、1 个供应商") {
 		t.Fatalf("退出码 %d\n%s%s", code, out, errs)
 	}
 }
