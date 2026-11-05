@@ -35,16 +35,7 @@
     "supported": true,
     "efforts": []
   },
-  "prices": [
-    {
-      "currency": "CNY",
-      "unit": "1M_tokens",
-      "input": 2,
-      "output": 8,
-      "cache_read": 0.04,
-      "cache_write": null
-    }
-  ],
+  "prices": [],
   "features": [
     "streaming"
   ],
@@ -54,7 +45,7 @@
     "knowledge_cutoff": null,
     "description": "Meituan LongCat high-performance agentic model with image understanding and strong coding capability.",
     "docs": "https://longcat.chat/platform/docs/pricing/longcat-2.5",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -93,9 +84,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "LongCat-2.5-Preview Pricing | LongCat API Docs",
+      "title": "LongCat-2.5 Pricing | LongCat API Docs（现只列 LongCat-2.5「Discounted Price (limited-time)」¥2 / ¥0.04 / ¥8，不再列 Preview）",
       "url": "https://longcat.chat/platform/docs/pricing/longcat-2.5",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "SDK support — openai (api.sdk only)",
@@ -136,6 +127,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://longcat.chat/platform/docs/APIDocs.html",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "LongCat-2.5 定价 | LongCat API 文档（「折扣价为平台初上线限时优惠」）",
+      "url": "https://longcat.chat/platform/docs/zh/pricing/longcat-2.5",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
