@@ -29,7 +29,16 @@
     "supported": null,
     "efforts": []
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.54,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [],
   "info": {
     "status": "preview",
@@ -37,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Microsoft AI speech-to-text model for 60 languages with diarization, word timestamps, keyword biasing and code switching.",
     "docs": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -83,6 +92,11 @@
       "title": "SDK support — azure-ai-transcription (PyPI), LLM Speech / Fast Transcription Python quickstart (api.sdk only) | Azure Speech",
       "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/llm-speech?tabs=new-foundry%2Cwindows&pivots=programming-language-python",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Azure Retail Prices API（MAI Models：MAI-Transcribe-2 AzSp Audio，$0.54 / 1 Hour）| Microsoft",
+      "url": "https://prices.azure.com/api/retail/prices?$filter=productName%20eq%20%27MAI%20Models%27",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

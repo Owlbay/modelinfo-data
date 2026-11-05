@@ -8,7 +8,8 @@
     "types": [
       "chat",
       "messages",
-      "responses"
+      "responses",
+      "batch"
     ],
     "sdk": [
       "@ai-sdk/alibaba",
@@ -70,7 +71,7 @@
     "knowledge_cutoff": null,
     "description": "Alibaba 2.4-trillion-parameter MoE flagship (95B active) for coding and office productivity.",
     "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-max",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -86,6 +87,24 @@
       "reasoning_params": {
         "responses": "reasoning.effort"
       }
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen3.8-max",
+      "base_url": "https://dashscope-intl.aliyuncs.com",
+      "endpoints": {
+        "batch": "POST /compatible-mode/v1/batches"
+      },
+      "reasoning_param": "enable_thinking"
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen3.8-max",
+      "base_url": "https://dashscope.aliyuncs.com",
+      "endpoints": {
+        "batch": "POST /compatible-mode/v1/batches"
+      },
+      "reasoning_param": "enable_thinking"
     }
   ],
   "aliases": [
@@ -172,6 +191,16 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "OpenAI compatible - Batch (file input) | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/batch-interfaces-compatible-with-openai",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "OpenAI兼容-Batch（文件输入） | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/batch-interfaces-compatible-with-openai",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

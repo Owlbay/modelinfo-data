@@ -39,6 +39,14 @@
       "output": null,
       "cache_read": null,
       "cache_write": null
+    },
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.074,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
     }
   ],
   "features": [
@@ -50,7 +58,7 @@
     "knowledge_cutoff": null,
     "description": "中英双语 + 多方言语音识别，无需语言标签，自动识别语码混用中的各语言内容。",
     "docs": "https://mimo.mi.com/models/zh-CN/mimo-v2.5-asr",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -78,7 +86,7 @@
     {
       "title": "按量计费 | Xiaomi MiMo",
       "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "模型发布 | Xiaomi MiMo",

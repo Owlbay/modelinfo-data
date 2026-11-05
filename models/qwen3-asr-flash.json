@@ -39,7 +39,15 @@
       "currency": "USD",
       "unit": "second",
       "input": 0.000035,
-      "output": null,
+      "output": 0,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "second",
+      "input": 0.00022,
+      "output": 0,
       "cache_read": null,
       "cache_write": null
     }
@@ -51,7 +59,7 @@
     "knowledge_cutoff": null,
     "description": "LLM-based multilingual speech recognition with automatic language detection.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -75,7 +83,7 @@
     {
       "title": "Model Studio model pricing | Alibaba Cloud",
       "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Rate limits | Alibaba Cloud Model Studio",
@@ -121,6 +129,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型调用计费 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

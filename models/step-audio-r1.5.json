@@ -58,7 +58,7 @@
     "knowledge_cutoff": null,
     "description": "Audio model for deep sound understanding and reasoning that thinks while speaking.",
     "docs": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -74,7 +74,9 @@
       "id": "stepfun",
       "model": "step-audio-r1.5",
       "base_url": "https://api.stepfun.ai/v1",
-      "endpoints": {},
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
       "reasoning_param": null
     }
   ],
@@ -88,7 +90,7 @@
     {
       "title": "Pricing and Rate Limits | StepFun Documentation",
       "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "音频模型 | 阶跃星辰开放平台文档",
@@ -104,6 +106,11 @@
       "title": "对话补全 Chat Completions API | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/api-reference/chat/chat-completion-create",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Create chat completion | StepFun API Reference",
+      "url": "https://platform.stepfun.ai/docs/en/api-reference/chat/chat-completion-create",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -32,8 +32,14 @@
     ]
   },
   "reasoning": {
-    "supported": null,
-    "efforts": []
+    "supported": true,
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "max"
+    ]
   },
   "prices": [
     {
@@ -41,7 +47,7 @@
       "unit": "1M_tokens",
       "input": 3.2,
       "output": 12,
-      "cache_read": null,
+      "cache_read": 0.48,
       "cache_write": null
     }
   ],
@@ -56,7 +62,7 @@
     "knowledge_cutoff": null,
     "description": "iFlytek Spark X2.5 flagship 293B-A30B MoE model for complex reasoning and long-text tasks.",
     "docs": "https://www.xfyun.cn/doc/spark/Spark-X2.5%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D.html",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -68,7 +74,12 @@
         "responses": "POST /v1/responses",
         "messages": "POST /anthropic/v1/messages"
       },
-      "reasoning_param": null
+      "reasoning_param": "thinking",
+      "reasoning_params": {
+        "chat": "thinking",
+        "responses": "reasoning.effort",
+        "messages": "thinking"
+      }
     }
   ],
   "aliases": [],
@@ -81,7 +92,7 @@
     {
       "title": "Spark-X2.5 模型介绍 | 讯飞星火",
       "url": "https://www.xfyun.cn/doc/spark/Spark-X2.5%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D.html",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Astron Token Plan 使用文档 | 讯飞星辰 MaaS",
@@ -91,7 +102,7 @@
     {
       "title": "Spark-X2.5 API接口文档",
       "url": "https://www.xfyun.cn/doc/spark/Spark-X2.5.html",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "星辰 MaaS 产品使用说明",
@@ -132,6 +143,11 @@
       "title": "讯飞星火大模型API | 科大讯飞",
       "url": "https://xinghuo.xfyun.cn/sparkapi",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "讯飞星辰 MaaS 模型目录（Spark-X2.5 原价 inTokensOrigPrice/outTokensOrigPrice/cacheTokensOrigPrice）",
+      "url": "https://maas.xfyun.cn/api/v1/gpt-finetune/model/base/list-v2",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

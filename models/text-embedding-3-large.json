@@ -16,7 +16,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 8192,
     "input": 8192,
     "output": null
   },
@@ -51,7 +51,7 @@
     "knowledge_cutoff": "2021-09",
     "description": "Most capable embedding model for both English and non-English tasks.",
     "docs": "https://developers.openai.com/api/docs/models/text-embedding-3-large",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -104,7 +104,7 @@
     {
       "title": "Embeddings guide（text-embedding-3-large 最大输入 8192）| OpenAI API",
       "url": "https://developers.openai.com/api/docs/guides/embeddings",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",
@@ -145,6 +145,11 @@
       "title": "Microsoft Foundry REST Reference - Azure OpenAI - Embeddings | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/embeddings",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Create embeddings | OpenAI API Reference",
+      "url": "https://developers.openai.com/api/reference/resources/embeddings",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
