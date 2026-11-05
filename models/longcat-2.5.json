@@ -21,7 +21,7 @@
   "limits": {
     "context": 1048576,
     "input": null,
-    "output": null
+    "output": 262144
   },
   "modalities": {
     "input": [
@@ -48,7 +48,7 @@
     "knowledge_cutoff": null,
     "description": "High-performance Agentic model",
     "docs": "https://longcat.chat/platform/docs/",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -85,7 +85,7 @@
     {
       "title": "Model Parameters | LongCat API Docs",
       "url": "https://longcat.chat/platform/docs/api/model-params",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Chat Completions | LongCat API Docs",
