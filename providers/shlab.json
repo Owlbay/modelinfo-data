@@ -3,5 +3,6 @@
   "name": "Shanghai AI Lab",
   "url": "https://internlm.intern-ai.org.cn",
   "owned_by": "shlab",
+  "api_key_url": "https://internlm.intern-ai.org.cn/api/tokens",
   "docs_url": "https://internlm.intern-ai.org.cn/api/document"
 }

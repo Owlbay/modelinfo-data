@@ -2,5 +2,7 @@
   "id": "liquid",
   "name": "Liquid AI",
   "url": "https://www.liquid.ai",
-  "owned_by": "liquid"
+  "owned_by": "liquid",
+  "api_key_url": "https://console.liquid.ai/dashboard/api-keys",
+  "docs_url": "https://docs.liquid.ai/api/overview"
 }
