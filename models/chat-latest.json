@@ -52,10 +52,10 @@
   "info": {
     "status": "active",
     "release_date": "2026-05-05",
-    "knowledge_cutoff": "2025-08-31",
+    "knowledge_cutoff": "2026-04-20",
     "description": "Points to the latest Instant model currently used in ChatGPT.",
     "docs": "https://developers.openai.com/api/docs/models/chat-latest",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -89,7 +89,7 @@
     {
       "title": "chat-latest Model | OpenAI API",
       "url": "https://developers.openai.com/api/docs/models/chat-latest",
-      "retrieved_at": "2026-10-15"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Pricing | OpenAI API",
