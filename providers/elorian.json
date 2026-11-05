@@ -2,5 +2,7 @@
   "id": "elorian",
   "name": "Elorian",
   "url": "https://elorian.ai",
-  "owned_by": "elorian"
+  "owned_by": "elorian",
+  "api_key_url": "https://platform.elorian.ai/settings/keys",
+  "docs_url": "https://platform.elorian.ai/docs"
 }
