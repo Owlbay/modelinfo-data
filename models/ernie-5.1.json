@@ -29,7 +29,7 @@
     ]
   },
   "reasoning": {
-    "supported": null,
+    "supported": true,
     "efforts": []
   },
   "prices": [
@@ -59,7 +59,7 @@
     "knowledge_cutoff": null,
     "description": "Baidu ERNIE 5.1 text generation model on the Qianfan platform.",
     "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -69,7 +69,7 @@
       "endpoints": {
         "chat": "POST /v2/chat/completions"
       },
-      "reasoning_param": null
+      "reasoning_param": "thinking_budget"
     }
   ],
   "aliases": [],
@@ -97,7 +97,7 @@
     {
       "title": "深度思考 | 百度千帆",
       "url": "https://cloud.baidu.com/doc/qianfan-docs/s/Wm95lyynv",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "ERNIE 5.1 Officially Released | ERNIE Blog",
