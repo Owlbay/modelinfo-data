@@ -18,7 +18,7 @@
   "limits": {
     "context": 65536,
     "input": null,
-    "output": null
+    "output": 32768
   },
   "modalities": {
     "input": [
@@ -53,7 +53,7 @@
     "knowledge_cutoff": null,
     "description": "Free visual reasoning model with built-in chain-of-thought.",
     "docs": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.1v-thinking-flash",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -94,9 +94,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "核心参数（各模型 max_tokens，128K 输出为 131072）| 智谱 AI 开放文档",
+      "title": "核心参数（各模型最大 max_tokens）| 智谱 AI 开放文档",
       "url": "https://docs.bigmodel.cn/cn/guide/start/concept-param",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "对话补全 | 智谱 AI 开放文档",

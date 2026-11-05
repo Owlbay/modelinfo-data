@@ -8,7 +8,9 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": null,
@@ -39,7 +41,7 @@
       "unit": "1M_tokens",
       "input": 0.6,
       "output": 3,
-      "cache_read": null,
+      "cache_read": 0.06,
       "cache_write": null
     }
   ],
@@ -82,6 +84,16 @@
     {
       "title": "Elorian API docs | Elorian Platform（https://api.elorian.ai/v1/chat/completions; model glimpse; reasoning_effort high, xhigh (default), max; stream=True; prompt caching always on）",
       "url": "https://platform.elorian.ai/docs",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Limits and tiers - Docs | Elorian",
+      "url": "https://platform.elorian.ai/docs/limits-and-tiers",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "SDK compatibility - Docs | Elorian",
+      "url": "https://platform.elorian.ai/docs/sdk-compatibility",
       "retrieved_at": "2026-11-05"
     }
   ]

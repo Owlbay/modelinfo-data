@@ -64,6 +64,11 @@
   "aliases": [
     "Baichuan-M2"
   ],
+  "translations": {
+    "zh": {
+      "description": "我们推出 Baichuan-M2，一款医疗增强推理模型，专为真实世界的医疗推理任务而设计。"
+    }
+  },
   "sources": [
     {
       "title": "医疗大模型对话 | 百川智能开放平台",

@@ -8,9 +8,7 @@
     "types": [
       "images"
     ],
-    "sdk": [
-      "@image-sdk/sdk"
-    ]
+    "sdk": []
   },
   "limits": {
     "context": null,
@@ -46,7 +44,7 @@
     "knowledge_cutoff": null,
     "description": "Stability image service optimized for fast and cost-effective text-to-image generation.",
     "docs": "https://platform.stability.ai/docs/api-reference",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -80,11 +78,6 @@
       "title": "Stability AI API Release Notes",
       "url": "https://platform.stability.ai/docs/release-notes",
       "retrieved_at": "2026-10-11"
-    },
-    {
-      "title": "SDK support — @image-sdk/sdk (api.sdk only)",
-      "url": "https://github.com/Adarsh-Me/Image-SDK",
-      "retrieved_at": "2026-10-13"
     }
   ]
 }

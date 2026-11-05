@@ -13,7 +13,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 32768,
     "input": null,
     "output": null
   },
@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Perceptron Mk1 (short for \"Mark 1\") is a closed-source vision-language model, with image, video, and reasoning support.",
     "docs": "https://docs.perceptron.inc/perceptron-mk1/models/perceptron-mk1",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -110,6 +110,11 @@
       "title": "Chat completions (Perceptron Mk1) | Perceptron API Reference",
       "url": "https://docs.perceptron.inc/perceptron-mk1/api-reference/endpoint/chat-completions",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Error messages - Perceptron Docs",
+      "url": "https://docs.perceptron.inc/perceptron-mk1/guides/error-messages",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
