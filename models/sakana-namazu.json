@@ -44,7 +44,9 @@
     }
   ],
   "features": [
-    "tools"
+    "tools",
+    "structured_output",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -52,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "Sakana AI's Japanese-focused LLM API, tuned for Japanese language, culture and business, with built-in web search and code execution.",
     "docs": "https://console.sakana.ai/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -62,7 +64,7 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions"
       },
-      "reasoning_param": null
+      "reasoning_param": "chat_template_kwargs.thinking"
     }
   ],
   "aliases": [
@@ -113,6 +115,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Models — Sakana Namazu | Sakana AI Console",
+      "url": "https://console.sakana.ai/models?model=sakana-namazu",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

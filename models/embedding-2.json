@@ -41,14 +41,16 @@
       "cache_write": null
     }
   ],
-  "features": [],
+  "features": [
+    "batch"
+  ],
   "info": {
     "status": "active",
     "release_date": null,
     "knowledge_cutoff": null,
     "description": "Second-generation text embedding model producing 1024-dimension vectors.",
     "docs": "https://docs.bigmodel.cn/cn/guide/models/embedding/embedding-2",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -107,6 +109,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Batch API（支持模型：GLM-4-Long、GLM-4-FlashX-250414、Embedding-2、Embedding-3 等）| 智谱 AI 开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/tools/batch",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

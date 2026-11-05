@@ -94,9 +94,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "核心参数（各模型 max_tokens，128K 输出为 131072）| 智谱 AI 开放文档",
+      "title": "核心参数（各模型最大 max_tokens）| 智谱 AI 开放文档",
       "url": "https://docs.bigmodel.cn/cn/guide/start/concept-param",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "对话补全 | 智谱 AI 开放文档",
@@ -132,11 +132,6 @@
       "title": "GLM-4.1V-Thinking（高并发版 FlashX / 免费版 Flash，上下文 64K） | 智谱开放平台",
       "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.1v-thinking",
       "retrieved_at": "2026-10-20"
-    },
-    {
-      "title": "核心参数（各模型最大 max_tokens）",
-      "url": " 智谱 AI 开放文档|https://docs.bigmodel.cn/cn/guide/start/concept-param",
-      "retrieved_at": "2026-11-05"
     }
   ]
 }

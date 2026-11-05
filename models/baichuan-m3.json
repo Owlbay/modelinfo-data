@@ -64,6 +64,11 @@
   "aliases": [
     "Baichuan-M3"
   ],
+  "translations": {
+    "zh": {
+      "description": "我们推出 Baichuan-M3，新一代医疗增强大语言模型，旨在支持临床级医疗辅助。"
+    }
+  },
   "sources": [
     {
       "title": "医疗大模型对话 | 百川智能开放平台",
