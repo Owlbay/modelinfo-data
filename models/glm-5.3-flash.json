@@ -33,7 +33,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "low",
+      "high",
+      "max"
+    ]
   },
   "prices": [
     {
@@ -65,7 +69,7 @@
     "knowledge_cutoff": null,
     "description": "First native multimodal model in the GLM-5 series, 320B total and 18B active parameters, low cost.",
     "docs": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -75,7 +79,7 @@
       "endpoints": {
         "chat": "POST /chat/completions"
       },
-      "reasoning_param": "thinking.type"
+      "reasoning_param": "reasoning_effort"
     }
   ],
   "aliases": [],
@@ -88,7 +92,7 @@
     {
       "title": "GLM-5.3-Flash | Z.AI Developer Document",
       "url": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Pricing | Z.AI Developer Document",
@@ -134,6 +138,21 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "GLM-5.3-Flash - 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "GLM-5.3 - Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/llm/glm-5.3",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "GLM-5.3 - 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5.3",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
