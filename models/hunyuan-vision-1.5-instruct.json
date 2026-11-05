@@ -29,7 +29,7 @@
     ]
   },
   "reasoning": {
-    "supported": null,
+    "supported": false,
     "efforts": []
   },
   "prices": [
@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Tencent fast-response image-to-text model built on the TurboS text base.",
     "docs": "https://cloud.tencent.com/document/product/1729/104753",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -105,6 +105,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "产品概述 ",
+      "url": " 腾讯混元大模型|https://cloud.tencent.com/document/product/1729/104753",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
