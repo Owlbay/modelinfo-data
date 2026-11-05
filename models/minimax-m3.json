@@ -41,17 +41,17 @@
     {
       "currency": "USD",
       "unit": "1M_tokens",
-      "input": 0.3,
-      "output": 1.2,
-      "cache_read": 0.06,
+      "input": 0.6,
+      "output": 2.4,
+      "cache_read": 0.12,
       "cache_write": null
     },
     {
       "currency": "CNY",
       "unit": "1M_tokens",
-      "input": 2.1,
-      "output": 8.4,
-      "cache_read": 0.42,
+      "input": 4.2,
+      "output": 16.8,
+      "cache_read": 0.84,
       "cache_write": null
     }
   ],
@@ -66,7 +66,7 @@
     "knowledge_cutoff": null,
     "description": "Multimodal frontier coding model with a 1M-token context window.",
     "docs": "https://platform.minimax.io/docs/guides/models-intro",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -158,6 +158,16 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Pricing Overview | MiniMax API Docs（Standard：MiniMax-M3 ≤ 512k input tokens 划线原价 $0.60 / $2.40 / cache read $0.12，标注 Permanent 50% off）",
+      "url": "https://platform.minimax.io/docs/pricing/overview",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "价格总览 | MiniMax 开放平台文档（标准服务：MiniMax-M3 ≤ 512k 输入 tokens 划线原价 ¥4.20 / ¥16.80 / 缓存读取 ¥0.84，标注 永久五折）",
+      "url": "https://platform.minimaxi.com/docs/pricing/overview",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
