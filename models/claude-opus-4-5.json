@@ -31,7 +31,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "low",
+      "medium",
+      "high"
+    ]
   },
   "prices": [
     {
@@ -56,7 +60,7 @@
     "knowledge_cutoff": "2025-05",
     "description": "Claude Opus 4.5, a premium model combining maximum intelligence with practical performance.",
     "docs": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -129,7 +133,7 @@
     {
       "title": "Effort | Claude Platform Docs",
       "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Structured outputs | Claude Platform Docs",

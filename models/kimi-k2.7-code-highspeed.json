@@ -90,9 +90,9 @@
       "retrieved_at": "2026-11-05"
     },
     {
-      "title": "Chat Model Pricing | Kimi API Platform",
+      "title": "Chat Model Pricing | Kimi API Platform（K2 系列：2026-10-31 起不再向新注册用户开放，计划 2026 年 12 月底前下线全部 K2 系列模型）",
       "url": "https://platform.kimi.ai/docs/pricing/chat",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Kimi K2.7 Code Quickstart | Kimi API Platform",
@@ -138,6 +138,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "对话模型定价 | Kimi API 开放平台",
+      "url": "https://platform.kimi.com/docs/pricing/chat",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -28,7 +28,7 @@
     ]
   },
   "reasoning": {
-    "supported": true,
+    "supported": null,
     "efforts": []
   },
   "prices": [
@@ -62,7 +62,7 @@
         "chat": "POST /v1/chat/completions",
         "batch": "POST /v1/batch"
       },
-      "reasoning_param": "reasoning"
+      "reasoning_param": null
     }
   ],
   "aliases": [],
@@ -85,7 +85,7 @@
     {
       "title": "Moondream 3 Preview: Frontier-level reasoning at a blazing speed | Moondream",
       "url": "https://moondream.ai/blog/moondream-3-preview",
-      "retrieved_at": "2026-11-05"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "OpenAI Compatibility | Moondream Docs (m87-labs/md-docs GitHub)",
@@ -93,18 +93,13 @@
       "retrieved_at": "2026-11-04"
     },
     {
-      "title": "OpenAI Compatibility (https://api.moondream.ai/v1/chat/completions; model moondream3.1-9B-A2B or moondream3-preview) | Moondream Docs",
+      "title": "OpenAI Compatibility | Moondream Docs（max_completion_tokens up to 4096, including reasoning tokens; reasoning boolean parameter; model moondream3.1-9B-A2B or moondream3-preview）",
       "url": "https://docs.moondream.ai/openai",
       "retrieved_at": "2026-11-05"
     },
     {
       "title": "Batch API | Moondream Docs",
       "url": "https://docs.moondream.ai/batch",
-      "retrieved_at": "2026-11-05"
-    },
-    {
-      "title": "Reasoning | Moondream Docs",
-      "url": "https://docs.moondream.ai/reasoning",
       "retrieved_at": "2026-11-05"
     }
   ]

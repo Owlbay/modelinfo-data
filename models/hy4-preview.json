@@ -7,7 +7,8 @@
   "api": {
     "types": [
       "chat",
-      "messages"
+      "messages",
+      "responses"
     ],
     "sdk": [
       "@ai-sdk/anthropic",
@@ -56,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "Tencent Hy4 preview model with 1M context and deep thinking, served on TokenHub.",
     "docs": "https://cloud.tencent.com/document/product/1823/132252",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -65,7 +66,8 @@
       "base_url": "https://tokenhub.tencentmaas.com/v1",
       "endpoints": {
         "chat": "POST /chat/completions",
-        "messages": "POST /messages"
+        "messages": "POST /messages",
+        "responses": "POST /responses"
       },
       "reasoning_param": "thinking"
     }
@@ -95,7 +97,7 @@
     {
       "title": "语言模型调用概览 | 腾讯云 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130079",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "腾讯发布并开源Hy4 preview | Tencent",
@@ -131,6 +133,21 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "深度思考 | 腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/131208",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Language Model API Overview | Tencent Cloud TokenHub",
+      "url": "https://www.tencentcloud.com/document/product/1300/80632",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Deep Reasoning | Tencent Cloud TokenHub",
+      "url": "https://www.tencentcloud.com/document/product/1300/80637",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -25,7 +25,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "low",
+      "high",
+      "max"
+    ]
   },
   "prices": [
     {
@@ -57,7 +61,7 @@
     "knowledge_cutoff": null,
     "description": "GLM-Legal, a GLM-5.3-Flash variant trained for legal research, contract review and document drafting. API access is open only to selected enterprise customers by application.",
     "docs": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -67,7 +71,7 @@
       "endpoints": {
         "chat": "POST /chat/completions"
       },
-      "reasoning_param": "thinking.type"
+      "reasoning_param": "reasoning_effort"
     }
   ],
   "aliases": [
@@ -82,12 +86,12 @@
     {
       "title": "GLM-5.3-FlashX-Legal | Z.AI Developer Document",
       "url": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "GLM-5.3-FlashX-Legal | 智谱AI开放文档",
       "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "GLM-Legal: Advancing Agentic Legal Intelligence | Z.ai Blog (2026-10-12)",
@@ -108,6 +112,16 @@
       "title": "Create Chat Completion (max_tokens maximum 131072) | Z.AI Developer Document",
       "url": "https://docs.z.ai/api-reference/llm/chat-completion",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "GLM-5.3 - Z.AI Developer Document",
+      "url": "https://docs.z.ai/guides/llm/glm-5.3",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "GLM-5.3 - 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5.3",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

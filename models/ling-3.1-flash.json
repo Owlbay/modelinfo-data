@@ -129,6 +129,16 @@
       "retrieved_at": "2026-10-20"
     },
     {
+      "title": "Ling | 蚂蚁百灵开发者文档（Ling-3.1-flash：模型上下文窗口为 1M）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/models/ling",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "inclusionAI/Ling-3.1-flash model card（1M-token context window）| Hugging Face",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+      "retrieved_at": "2026-11-05"
+    },
+    {
       "title": "OpenAI Compatible | Ant Ling API Reference",
       "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai/",
       "retrieved_at": "2026-11-05"

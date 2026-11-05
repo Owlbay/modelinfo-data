@@ -47,9 +47,24 @@
     "knowledge_cutoff": null,
     "description": "Open-weight text model with 24B total parameters, about 2B active, and a 131,072-token context window. The model card documents tool use, and the model always thinks. Liquid Console API inference is priced at $0.05 per 1M input tokens, $0.025 per 1M cached input tokens, and $0.70 per 1M output tokens. A $2 signup credit is separate from that token price. The pages do not publish a cache-write price, a maximum output, or a request URL.",
     "docs": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-05"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "liquid",
+      "model": "lfm2.5-24b-a2b",
+      "base_url": "https://api.liquid.ai/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null,
+      "limits": {
+        "context": 128000,
+        "input": null,
+        "output": null
+      }
+    }
+  ],
   "aliases": [
     "LiquidAI/LFM2.5-24B-A2B"
   ],
@@ -68,6 +83,16 @@
       "title": "LiquidAI/LFM2.5-24B-A2B | Hugging Face",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
       "retrieved_at": "2026-10-27"
+    },
+    {
+      "title": "Models | Liquid API Docs（API model IDs, input/output modalities, context window 128,000）",
+      "url": "https://docs.liquid.ai/api/models",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Liquid API overview | Liquid Docs（OpenAI-compatible, base URL https://api.liquid.ai/openai/v1, POST /chat/completions）",
+      "url": "https://docs.liquid.ai/api/overview",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

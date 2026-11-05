@@ -49,9 +49,19 @@
     "knowledge_cutoff": null,
     "description": "Open-weight 2B audio model in the LFM3 family, released on October 27, 2026, for multilingual speech recognition, speech synthesis, voice chat, audio understanding, and tool calling. It takes text or 16 kHz audio and returns text, 24 kHz speech, or interleaved text and speech, with a 32K-token context length; reasoning can be turned on or off per request. The recorded price is the Liquid API text rate: $0.10 per 1M input tokens, $0.02 per 1M cached input tokens, and $1.00 per 1M output tokens. Audio is billed at $2.00 per 1M input tokens and $10.00 per 1M output tokens, with no cached audio rate. Weights are released under the LFM Open License v1.0. The docs give the context length only as 32K tokens (input + output), so no exact token count is recorded. The pages do not publish a cache-write price, a maximum output, or a request URL.",
     "docs": "https://docs.liquid.ai/lfm/models/lfm3-audio-2b",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-05"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "liquid",
+      "model": "lfm3-audio-2b",
+      "base_url": "https://api.liquid.ai/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
   "aliases": [],
   "translations": {
     "zh": {
@@ -78,6 +88,21 @@
       "title": "LiquidAI/LFM3-Audio-2B | Hugging Face",
       "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Models | Liquid API Docs（API model IDs, input/output modalities, context window 128,000）",
+      "url": "https://docs.liquid.ai/api/models",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Liquid API overview | Liquid Docs（OpenAI-compatible, base URL https://api.liquid.ai/openai/v1, POST /chat/completions）",
+      "url": "https://docs.liquid.ai/api/overview",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Audio and speech | Liquid API Docs（chat completions with modalities [\"text\",\"audio\"]）",
+      "url": "https://docs.liquid.ai/api/guides/audio",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

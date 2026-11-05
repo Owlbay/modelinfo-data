@@ -1,7 +1,7 @@
 {
   "id": "sensenova-6.8-flash",
   "object": "model",
-  "created": null,
+  "created": 1793577600,
   "owned_by": "sensetime",
   "name": "SenseNova 6.8 Flash",
   "api": {
@@ -45,11 +45,11 @@
   ],
   "info": {
     "status": "active",
-    "release_date": null,
+    "release_date": "2026-11-02",
     "knowledge_cutoff": null,
     "description": "Our latest multimodal agent model built for work intelligence and real-world tasks, with cross-session context, proactive assistance, and dynamic content creation",
     "docs": "https://platform.sensenova.cn/docs",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -78,6 +78,11 @@
       "title": "SenseNova 官网（SenseNova 6.8 Flash 新一代多模态智能体模型）",
       "url": "https://www.sensenova.cn/",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "SenseNova 6.8 Flash 正式版发布：办公更稳，设计更美 | 商汤科技",
+      "url": "https://www.sensetime.com/cn/news/sensenova-6-8-flash-release-20261103-1421",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

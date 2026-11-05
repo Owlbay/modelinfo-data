@@ -13,9 +13,9 @@
     ]
   },
   "limits": {
-    "context": 32000,
+    "context": null,
     "input": null,
-    "output": null
+    "output": 8192
   },
   "modalities": {
     "input": [
@@ -44,12 +44,13 @@
       "unit": "1M_tokens",
       "input": 0.15,
       "output": 1.5,
-      "cache_read": null,
+      "cache_read": 0.0375,
       "cache_write": null
     }
   ],
   "features": [
     "tools",
+    "structured_output",
     "streaming"
   ],
   "info": {
@@ -79,19 +80,34 @@
   },
   "sources": [
     {
-      "title": "Introducing Perceptron Mk1.5",
+      "title": "Introducing Perceptron Mk1.5（Context Window: 32K tokens of multimodal context）",
       "url": "https://www.perceptron.inc/blog/introducing-perceptron-mk1-5",
-      "retrieved_at": "2026-10-27"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Perceptron Python SDK README | perceptron-ai-inc GitHub",
       "url": "https://github.com/perceptron-ai-inc/perceptron/blob/main/README.md",
-      "retrieved_at": "2026-11-05"
+      "retrieved_at": "2026-11-04"
     },
     {
       "title": "Perceptron Python SDK _providers.py | perceptron-ai-inc GitHub",
       "url": "https://github.com/perceptron-ai-inc/perceptron/blob/main/src/perceptron/_providers.py",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Perceptron Mk1.5 model spec | Perceptron Docs（Context window 36,864 tokens; Maximum output 8,192 tokens; Reasoning supported via reasoning_effort; Cached input $0.0375/M）",
+      "url": "https://docs.perceptron.inc/perceptron-mk1.5/models/perceptron-mk1.5",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Reasoning | Perceptron Docs（reasoning_effort: none, minimal, low, medium, high; streaming delta.reasoning_content）",
+      "url": "https://docs.perceptron.inc/perceptron-mk1.5/capabilities/thinking",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Structured outputs | Perceptron Docs (Mk1.5)",
+      "url": "https://docs.perceptron.inc/perceptron-mk1.5/capabilities/structured-outputs",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

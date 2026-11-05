@@ -1,0 +1,63 @@
+{
+  "id": "keye-vl-2.0-30b-a3b",
+  "object": "model",
+  "created": 1782777600,
+  "owned_by": "kuaishou",
+  "name": "Keye-VL-2.0-30B-A3B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 262144,
+    "input": 262144,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-06-30",
+    "knowledge_cutoff": null,
+    "description": "Keye-VL-2.0-30B-A3B 是快手自研多模态大语言模型 Keye 家族最新一代 30B 级主力基座（激活参数 3B）。",
+    "docs": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
+    "verified_at": "2026-11-05"
+  },
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "en": {
+      "description": "Keye-VL-2.0-30B-A3B is the latest-generation 30B-class flagship base (3B active parameters) of Kuaishou's in-house Keye family of multimodal large language models."
+    }
+  },
+  "sources": [
+    {
+      "title": "万擎模型列表 - 快手万擎(Vanchin)-StreamLake",
+      "url": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "模型发布公告 - 快手万擎(Vanchin)-StreamLake",
+      "url": "https://streamlake.com/document/WANQING/mdptas54hptu5uvllco",
+      "retrieved_at": "2026-11-05"
+    }
+  ]
+}
