@@ -29,7 +29,7 @@
     ]
   },
   "reasoning": {
-    "supported": true,
+    "supported": null,
     "efforts": []
   },
   "prices": [
@@ -75,7 +75,7 @@
     {
       "title": "Migrate from Sonar to the Agent API | Perplexity Docs",
       "url": "https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Pricing | Perplexity Docs",

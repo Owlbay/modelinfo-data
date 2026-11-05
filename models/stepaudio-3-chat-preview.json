@@ -37,12 +37,12 @@
     "tools"
   ],
   "info": {
-    "status": "preview",
+    "status": "deprecated",
     "release_date": null,
     "knowledge_cutoff": null,
     "description": "Speech-understanding and dialogue model that replies in text; free for a limited time.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-realtime",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -75,7 +75,7 @@
     {
       "title": "StepAudio 3 Realtime | StepFun Documentation",
       "url": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-realtime",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Chat Completions API | StepFun API reference",
@@ -96,6 +96,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "StepAudio 3 Realtime - StepFun 开放平台文档中心（限免到期后该预览版本将下线）",
+      "url": "https://platform.stepfun.com/docs/zh/guides/models/stepaudio-3-realtime",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

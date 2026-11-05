@@ -31,12 +31,12 @@
   "prices": [],
   "features": [],
   "info": {
-    "status": "preview",
+    "status": "deprecated",
     "release_date": "2026-09-15",
     "knowledge_cutoff": null,
     "description": "Music generation from text descriptions, lyrics, vocals or reference audio; free for a limited time.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-music",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -64,12 +64,17 @@
     {
       "title": "StepAudio 3 Music | StepFun Documentation",
       "url": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-music",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "阶跃发布语音大模型StepAudio 3 | 阶跃星辰新闻",
       "url": "https://www.stepfun.com/news/stepaudio-3",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "StepAudio 3 Music - StepFun 开放平台文档中心（限免到期后该预览版本将下线）",
+      "url": "https://platform.stepfun.com/docs/zh/guides/models/stepaudio-3-music",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
