@@ -16,7 +16,7 @@
   },
   "limits": {
     "context": 512,
-    "input": 512,
+    "input": null,
     "output": null
   },
   "modalities": {
@@ -39,7 +39,7 @@
     "knowledge_cutoff": null,
     "description": "Embedding model optimized for multilingual and crosslingual text question-answering retrieval.",
     "docs": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_2-nv-embedqa-1b-v1",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -62,9 +62,9 @@
   },
   "sources": [
     {
-      "title": "nvidia / llama-3.2-nv-embedqa-1b-v1 | NVIDIA NIM API Reference",
+      "title": "nvidia / llama-3.2-nv-embedqa-1b-v1 | NVIDIA NIM API Reference（Other Properties Related to Input: The model's maximum context length is 512 tokens；未单列最大输入）",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_2-nv-embedqa-1b-v1",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "NVIDIA llama-3.2-nv-embedqa-1b-v1 inference API",
