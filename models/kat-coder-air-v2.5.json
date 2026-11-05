@@ -41,7 +41,7 @@
     "tools"
   ],
   "info": {
-    "status": "active",
+    "status": "retired",
     "release_date": "2026-07-07",
     "knowledge_cutoff": null,
     "description": "KAT-Coder-Air V2.5 是一款能轻量快速版，助力开发者高效编码的模型。",
@@ -67,7 +67,7 @@
       "retrieved_at": "2026-11-05"
     },
     {
-      "title": "模型服务价格 - 快手万擎(Vanchin)-StreamLake",
+      "title": "模型服务价格 | 快手万擎 StreamLake（2026-11-05 更新：KAT-Coder-Pro-V2、KAT-Coder-Pro-V2.5、KAT-Coder-Air-V2.5 标注「已下线」）",
       "url": "https://www.streamlake.com/document/WANQING/mdsorb4ejjptsmfyrn",
       "retrieved_at": "2026-11-05"
     }

@@ -41,7 +41,7 @@
     "tools"
   ],
   "info": {
-    "status": "active",
+    "status": "retired",
     "release_date": "2026-07-07",
     "knowledge_cutoff": null,
     "description": "KwaiKAT coding model served on the StreamLake Wanqing platform, compatible with OpenAI and Claude protocols.",
@@ -94,6 +94,11 @@
     {
       "title": "Open AI 协议 | 万擎文本生成 API",
       "url": "https://www.streamlake.com/document/WANQING/mq6k66r6xgqwnfbd8t",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "模型服务价格 | 快手万擎 StreamLake（2026-11-05 更新：KAT-Coder-Pro-V2、KAT-Coder-Pro-V2.5、KAT-Coder-Air-V2.5 标注「已下线」）",
+      "url": "https://www.streamlake.com/document/WANQING/mdsorb4ejjptsmfyrn",
       "retrieved_at": "2026-11-05"
     }
   ]
