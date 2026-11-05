@@ -1,7 +1,7 @@
 {
   "id": "music-2.0",
   "object": "model",
-  "created": null,
+  "created": 1761696000,
   "owned_by": "minimax",
   "name": "Music-2.0",
   "api": {
@@ -48,7 +48,7 @@
   "features": [],
   "info": {
     "status": "retired",
-    "release_date": null,
+    "release_date": "2025-10-29",
     "knowledge_cutoff": null,
     "description": "Released Music 2.0, enhanced musical expression that makes every melody deeply emotional.",
     "docs": "https://platform.minimax.io/docs/api-reference/music-generation",
@@ -111,6 +111,11 @@
       "title": "模型列表（已下线模型） | MiniMax 开放平台文档",
       "url": "https://platform.minimaxi.com/docs/faq/models",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Models - Release Notes",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

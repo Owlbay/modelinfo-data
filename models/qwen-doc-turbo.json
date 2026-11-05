@@ -44,6 +44,7 @@
     }
   ],
   "features": [
+    "streaming",
     "caching"
   ],
   "info": {
@@ -52,7 +53,7 @@
     "knowledge_cutoff": null,
     "description": "Document information extraction, tagging, classification, moderation and summarization model.",
     "docs": "https://help.aliyun.com/zh/model-studio/qwen-doc-turbo",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -116,6 +117,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "数据挖掘（Qwen-Doc）",
+      "url": "https://help.aliyun.com/zh/model-studio/data-mining-qwen-doc",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

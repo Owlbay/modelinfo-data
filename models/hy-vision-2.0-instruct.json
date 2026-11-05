@@ -29,7 +29,7 @@
     ]
   },
   "reasoning": {
-    "supported": false,
+    "supported": null,
     "efforts": []
   },
   "prices": [
@@ -70,7 +70,7 @@
   },
   "sources": [
     {
-      "title": "模型列表 | 腾讯云 TokenHub",
+      "title": "模型列表 | 腾讯云 TokenHub | 大模型服务平台 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
       "retrieved_at": "2026-10-10"
     },
@@ -95,8 +95,8 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "模型列表 ",
-      "url": " 大模型服务平台 TokenHub|https://cloud.tencent.com/document/product/1823/130051",
+      "title": "模型列表 | 大模型服务平台 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130051",
       "retrieved_at": "2026-11-05"
     }
   ]

@@ -29,7 +29,7 @@
     ]
   },
   "reasoning": {
-    "supported": false,
+    "supported": null,
     "efforts": []
   },
   "prices": [
@@ -107,8 +107,8 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "产品概述 ",
-      "url": " 腾讯混元大模型|https://cloud.tencent.com/document/product/1729/104753",
+      "title": "产品概述 | 腾讯混元大模型",
+      "url": "https://cloud.tencent.com/document/product/1729/104753",
       "retrieved_at": "2026-11-05"
     }
   ]
