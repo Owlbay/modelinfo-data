@@ -1,7 +1,7 @@
 {
   "id": "doubao-seedream-5-0",
   "object": "model",
-  "created": null,
+  "created": 1770940800,
   "owned_by": "bytedance",
   "name": "Doubao-Seedream-5.0",
   "api": {
@@ -46,11 +46,11 @@
   "features": [],
   "info": {
     "status": "deprecated",
-    "release_date": null,
+    "release_date": "2026-02-13",
     "knowledge_cutoff": null,
     "description": "Image generation with text-to-image, image-to-image and group-image output (scheduled to go offline).",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -87,7 +87,7 @@
     {
       "title": "模型下线公告 | 火山方舟",
       "url": "https://www.volcengine.com/docs/82379/1350667",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "SDK support — @ai-sdk/bytedance (api.sdk only)",
@@ -108,6 +108,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "“思考”更深，生成更准｜Seedream 5.0 Lite 发布 | 字节跳动 Seed（日期 2026-02-13）",
+      "url": "https://seed.bytedance.com/zh/blog/deeper-thinking-more-accurate-generation-introducing-seedream-5-0-lite",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
