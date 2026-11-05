@@ -66,11 +66,7 @@
         "responses": "POST /responses",
         "images": "POST /images/generations"
       },
-      "reasoning_param": "reasoning_strength",
-      "reasoning_params": {
-        "responses": "tools[].reasoning_strength",
-        "images": "reasoning_strength"
-      }
+      "reasoning_param": "reasoning_strength"
     }
   ],
   "aliases": [],
