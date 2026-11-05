@@ -48,6 +48,7 @@
   "features": [
     "tools",
     "structured_output",
+    "streaming",
     "caching",
     "batch"
   ],
@@ -57,7 +58,7 @@
     "knowledge_cutoff": null,
     "description": "Powerful and efficient Ministral 3 model with text and vision capabilities, built for edge deployment.",
     "docs": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -92,7 +93,7 @@
     {
       "title": "Ministral 3 8B | Mistral Docs",
       "url": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "API pricing | Mistral Docs",
@@ -163,6 +164,11 @@
       "title": "Batch | Mistral Docs",
       "url": "https://docs.mistral.ai/api/endpoint/batch",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat completions (Streaming) | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/conversations/chat-completion",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

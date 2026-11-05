@@ -39,7 +39,8 @@
   },
   "prices": [],
   "features": [
-    "tools"
+    "tools",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -131,6 +132,11 @@
     {
       "title": "Gemma 4 model card (bedrock-mantle google.gemma-4-31b; use /openai/v1/chat/completions and /openai/v1/responses) - Amazon Bedrock User Guide",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b.html",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Streaming interactions (stream: true; Streaming image generation with gemini-3.1-flash-image) | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/streaming",
       "retrieved_at": "2026-11-05"
     }
   ]

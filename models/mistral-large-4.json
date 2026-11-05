@@ -52,6 +52,7 @@
   "features": [
     "tools",
     "structured_output",
+    "streaming",
     "caching",
     "batch"
   ],
@@ -61,7 +62,7 @@
     "knowledge_cutoff": null,
     "description": "State-of-the-art, open-weight, general-purpose multimodal model with a granular Mixture-of-Experts architecture. The model page lists API names mistral-large-4 and mistral-large-4-0, status Public Preview, and release date 2026-10-06. On 2026-10-29 Mistral released the weights of this same model. The model card says about 1T total parameters, 49B active per token, and 52B including embeddings and output layers; the model page says 1.05T total and 52B active. Context length is written as 1M, and the model card's local config sets max_context_length to 1048576. Input is text and image, and output is text. reasoning_effort accepts low, medium, or high, and high is the default; low replaces the earlier none mode. Weights are on Hugging Face as mistralai/Mistral-Large-4-1T-A52B, and a separate NVFP4 checkpoint is mistralai/Mistral-Large-4-1T-A52B-NVFP4. That card refers to an FP8 checkpoint, but the public model list has no separate FP8 repository. The license is the Mistral Ecosystem Open-Weight License, a modified MIT license. The API price is $0.70 per 1M input tokens, $0.07 cached input, and $2.10 output.",
     "docs": "https://docs.mistral.ai/models/mistral-large-4-0",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -87,7 +88,7 @@
     {
       "title": "Mistral Large 4 | Mistral Docs",
       "url": "https://docs.mistral.ai/models/mistral-large-4-0",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "API pricing | Mistral Docs",
@@ -152,12 +153,17 @@
     {
       "title": "Mistral Large 4 | Mistral Docs (official Markdown)",
       "url": "https://docs.mistral.ai/models/mistral-large-4-0.md",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Batch | Mistral Docs",
       "url": "https://docs.mistral.ai/api/endpoint/batch",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat completions (Streaming) | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/conversations/chat-completion",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

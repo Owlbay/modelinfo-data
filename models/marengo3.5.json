@@ -13,7 +13,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 2000,
     "input": null,
     "output": null
   },
@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Embedding model for video understanding; creates 128, 256 or 512-dimension embeddings from video, audio, images, text and documents.",
     "docs": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/marengo/marengo-3-5",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -83,7 +83,7 @@
     {
       "title": "Create embeddings for a query | TwelveLabs",
       "url": "https://docs.twelvelabs.io/v1.3/docs/guides/create-embeddings/query",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Release notes | TwelveLabs Docs",

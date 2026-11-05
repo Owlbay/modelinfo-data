@@ -39,7 +39,7 @@
       "unit": "1M_tokens",
       "input": 0.05,
       "output": 0.4,
-      "cache_read": null,
+      "cache_read": 0.01,
       "cache_write": null
     },
     {
@@ -47,11 +47,12 @@
       "unit": "1M_tokens",
       "input": 0.25,
       "output": 1.5,
-      "cache_read": null,
+      "cache_read": 0.05,
       "cache_write": null
     }
   ],
   "features": [
+    "structured_output",
     "streaming",
     "caching"
   ],
@@ -61,7 +62,7 @@
     "knowledge_cutoff": null,
     "description": "Lower-cost role-playing model for virtual companions, game NPCs and IP characters.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/role-play",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -120,6 +121,16 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen-flash-character",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-flash-character",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "qwen-flash-character 模型信息",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-flash-character",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

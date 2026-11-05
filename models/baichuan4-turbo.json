@@ -15,7 +15,7 @@
   "limits": {
     "context": 32000,
     "input": null,
-    "output": null
+    "output": 2048
   },
   "modalities": {
     "input": [
@@ -48,9 +48,9 @@
     "status": "active",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "针对企业高频场景优化，可用性相对Baichuan4提升10%+；部署和推理成本低，价格仅为GPT-4o的80%；首token响应速度和token流速大幅提升。",
     "docs": "https://platform.baichuan-ai.com/docs-v2/api",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -76,6 +76,16 @@
       "title": "产品定价 | 百川智能开放平台",
       "url": "https://platform.baichuan-ai.com/prices",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "通用大模型接口文档 | 百川智能开放平台",
+      "url": "https://platform.baichuan-ai.com/docs-v2/api",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "百川智能官网",
+      "url": "https://www.baichuan-ai.com/home",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

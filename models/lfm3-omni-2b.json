@@ -43,6 +43,7 @@
   ],
   "features": [
     "tools",
+    "streaming",
     "caching"
   ],
   "info": {
@@ -115,6 +116,11 @@
     {
       "title": "Audio and speech | Liquid API Docs（chat completions with modalities [\"text\",\"audio\"]）",
       "url": "https://docs.liquid.ai/api/guides/audio",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Text generation — Streaming (Chat Completions stream: true) | Liquid API",
+      "url": "https://docs.liquid.ai/api/guides/text-generation",
       "retrieved_at": "2026-11-05"
     }
   ]

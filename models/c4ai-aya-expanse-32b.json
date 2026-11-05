@@ -40,14 +40,16 @@
       "cache_write": null
     }
   ],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": "2024-10-24",
     "knowledge_cutoff": null,
     "description": "32B multilingual model covering 23 languages.",
     "docs": "https://docs.cohere.com/docs/aya-expanse",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -75,7 +77,7 @@
     {
       "title": "Cohere Model Overview",
       "url": "https://docs.cohere.com/docs/models",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "How does Cohere pricing work?",
@@ -101,6 +103,11 @@
       "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "A Guide to Streaming Responses (Chat API streaming) | Cohere",
+      "url": "https://docs.cohere.com/docs/streaming",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -42,7 +42,8 @@
   ],
   "features": [
     "tools",
-    "structured_output"
+    "structured_output",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -50,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "30B total / 3B active parameter MoE model for agentic coding. The Cohere pricing page lists API access as $0 (free).",
     "docs": "https://docs.cohere.com/docs/north-mini-code-1.0",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -78,7 +79,7 @@
     {
       "title": "Cohere Model Overview",
       "url": "https://docs.cohere.com/docs/models",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "How does Cohere pricing work?",
@@ -109,6 +110,11 @@
       "title": "cohere-ai/cohere-developer-experience — North Mini Code (Capability.ToolUse, Capability.StructuredOutputs) | Cohere Docs source (official GitHub)",
       "url": "https://github.com/cohere-ai/cohere-developer-experience/blob/main/fern/pages/models/north/north-mini-code-1.0.mdx",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "A Guide to Streaming Responses (Chat API streaming) | Cohere",
+      "url": "https://docs.cohere.com/docs/streaming",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

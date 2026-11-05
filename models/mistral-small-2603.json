@@ -51,6 +51,7 @@
   "features": [
     "tools",
     "structured_output",
+    "streaming",
     "caching",
     "batch"
   ],
@@ -60,7 +61,7 @@
     "knowledge_cutoff": null,
     "description": "Hybrid model unifying instruct, reasoning, and coding capabilities in a single model.",
     "docs": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -86,7 +87,7 @@
     {
       "title": "Mistral Small 4 | Mistral Docs",
       "url": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "API pricing | Mistral Docs",
@@ -147,6 +148,11 @@
       "title": "Batch | Mistral Docs",
       "url": "https://docs.mistral.ai/api/endpoint/batch",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat completions (Streaming) | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/conversations/chat-completion",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

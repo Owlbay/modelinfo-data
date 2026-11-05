@@ -47,6 +47,7 @@
   "features": [
     "tools",
     "structured_output",
+    "streaming",
     "caching"
   ],
   "info": {
@@ -55,7 +56,7 @@
     "knowledge_cutoff": null,
     "description": "SpaceXAI's intelligent coding model for agentic software, engineering, and workflow tasks.",
     "docs": "https://docs.x.ai/developers/models/grok-build-0.1",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -129,6 +130,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Streaming (supported by all models with text output capability) | xAI Docs",
+      "url": "https://docs.x.ai/developers/model-capabilities/text/streaming",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
