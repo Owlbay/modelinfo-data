@@ -28,7 +28,16 @@
     "supported": null,
     "efforts": []
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "second",
+      "input": null,
+      "output": 0.01,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "streaming"
   ],
@@ -38,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Simultaneous interpretation: real-time recognition, translation and spoken output.",
     "docs": "https://docs.senseaudio.cn/guides/simultaneous-interpretation/overview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -59,9 +68,9 @@
   },
   "sources": [
     {
-      "title": "模型列表与计费 | SenseAudio 文档",
+      "title": "模型列表 | SenseAudio 文档（同声传译 SenseNova-LiveTranslate-1.0：50 积分 / 秒）",
       "url": "https://docs.senseaudio.cn/guides/account/model-list",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "同声传译介绍 | SenseAudio 文档",
@@ -72,6 +81,11 @@
       "title": "SenseAudio WebSocket API",
       "url": "https://docs.senseaudio.cn/api-reference/endpoint/simultaneous-interpretation/websocket.md",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "创作台计费 | SenseAudio 文档（代金券 / 现金余额：1元 = 5,000积分；同声传译 50 积分/秒）",
+      "url": "https://docs.senseaudio.cn/guides/account/billing",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
