@@ -2,5 +2,7 @@
   "id": "meituan",
   "name": "Meituan",
   "url": "https://longcat.chat",
-  "owned_by": "meituan"
+  "owned_by": "meituan",
+  "api_key_url": "https://longcat.chat/platform/api_keys",
+  "docs_url": "https://longcat.chat/platform/docs/"
 }

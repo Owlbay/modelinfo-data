@@ -2,5 +2,7 @@
   "id": "deepgram",
   "name": "Deepgram",
   "url": "https://deepgram.com",
-  "owned_by": "deepgram"
+  "owned_by": "deepgram",
+  "api_key_url": "https://console.deepgram.com/signup?jump=keys",
+  "docs_url": "https://developers.deepgram.com/"
 }

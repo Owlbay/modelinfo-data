@@ -2,5 +2,6 @@
   "id": "meta",
   "name": "Meta",
   "url": "https://dev.meta.ai",
-  "owned_by": "meta"
+  "owned_by": "meta",
+  "docs_url": "https://dev.meta.ai/docs"
 }

@@ -2,5 +2,6 @@
   "id": "unbiased",
   "name": "Unbiased AI",
   "url": "https://unbiased.ai",
-  "owned_by": "unbiased"
+  "owned_by": "unbiased",
+  "docs_url": "https://unbiased.ai/developers/"
 }

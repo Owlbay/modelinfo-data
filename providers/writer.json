@@ -2,5 +2,7 @@
   "id": "writer",
   "name": "Writer",
   "url": "https://writer.com",
-  "owned_by": "writer"
+  "owned_by": "writer",
+  "api_key_url": "https://app.writer.com/controlcenter",
+  "docs_url": "https://dev.writer.com/"
 }

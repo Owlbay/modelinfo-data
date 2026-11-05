@@ -2,5 +2,7 @@
   "id": "elevenlabs",
   "name": "ElevenLabs",
   "url": "https://elevenlabs.io",
-  "owned_by": "elevenlabs"
+  "owned_by": "elevenlabs",
+  "api_key_url": "https://elevenlabs.io/app/settings/api-keys",
+  "docs_url": "https://elevenlabs.io/docs"
 }

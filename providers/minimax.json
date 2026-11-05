@@ -2,5 +2,7 @@
   "id": "minimax",
   "name": "MiniMax",
   "url": "https://www.minimax.io",
-  "owned_by": "minimax"
+  "owned_by": "minimax",
+  "api_key_url": "https://platform.minimax.io/user-center/basic-information/interface-key",
+  "docs_url": "https://platform.minimax.io/docs"
 }

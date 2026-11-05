@@ -2,5 +2,6 @@
   "id": "nomic",
   "name": "Nomic",
   "url": "https://www.nomic.ai",
-  "owned_by": "nomic"
+  "owned_by": "nomic",
+  "docs_url": "https://docs.nomic.ai/api/getting-started/getting-started"
 }

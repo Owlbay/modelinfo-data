@@ -2,5 +2,7 @@
   "id": "google",
   "name": "Google",
   "url": "https://ai.google.dev",
-  "owned_by": "google"
+  "owned_by": "google",
+  "api_key_url": "https://aistudio.google.com/apikey",
+  "docs_url": "https://ai.google.dev/gemini-api/docs"
 }

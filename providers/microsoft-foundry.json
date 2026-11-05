@@ -2,5 +2,6 @@
   "id": "microsoft-foundry",
   "name": "Microsoft Foundry",
   "url": "https://ai.azure.com",
-  "owned_by": "microsoft"
+  "owned_by": "microsoft",
+  "docs_url": "https://learn.microsoft.com/azure/foundry/"
 }

@@ -2,5 +2,7 @@
   "id": "openai",
   "name": "OpenAI",
   "url": "https://platform.openai.com",
-  "owned_by": "openai"
+  "owned_by": "openai",
+  "api_key_url": "https://platform.openai.com/api-keys",
+  "docs_url": "https://developers.openai.com/api/docs"
 }

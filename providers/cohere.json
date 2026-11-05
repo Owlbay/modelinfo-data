@@ -2,5 +2,7 @@
   "id": "cohere",
   "name": "Cohere",
   "url": "https://cohere.com",
-  "owned_by": "cohere"
+  "owned_by": "cohere",
+  "api_key_url": "https://dashboard.cohere.com/api-keys",
+  "docs_url": "https://docs.cohere.com/"
 }

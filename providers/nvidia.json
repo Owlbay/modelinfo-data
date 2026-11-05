@@ -2,5 +2,7 @@
   "id": "nvidia",
   "name": "NVIDIA",
   "url": "https://www.nvidia.com",
-  "owned_by": "nvidia"
+  "owned_by": "nvidia",
+  "api_key_url": "https://build.nvidia.com/settings/api-keys",
+  "docs_url": "https://docs.api.nvidia.com/"
 }

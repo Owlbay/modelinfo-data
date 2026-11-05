@@ -2,5 +2,16 @@
   "id": "moonshot",
   "name": "Moonshot AI",
   "url": "https://platform.moonshot.ai",
-  "owned_by": "moonshot"
+  "owned_by": "moonshot",
+  "api_key_url": "https://platform.kimi.ai/console/api-keys",
+  "docs_url": "https://platform.kimi.ai/docs",
+  "sites": [
+    {
+      "hosts": [
+        "api.moonshot.cn"
+      ],
+      "api_key_url": "https://platform.kimi.com/console/api-keys",
+      "docs_url": "https://platform.kimi.com/docs"
+    }
+  ]
 }

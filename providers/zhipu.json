@@ -2,5 +2,16 @@
   "id": "zhipu",
   "name": "Zhipu AI",
   "url": "https://z.ai",
-  "owned_by": "zhipu"
+  "owned_by": "zhipu",
+  "api_key_url": "https://z.ai/manage-apikey/apikey-list",
+  "docs_url": "https://docs.z.ai/",
+  "sites": [
+    {
+      "hosts": [
+        "open.bigmodel.cn"
+      ],
+      "api_key_url": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys",
+      "docs_url": "https://docs.bigmodel.cn/"
+    }
+  ]
 }

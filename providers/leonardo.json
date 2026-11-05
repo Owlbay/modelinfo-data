@@ -2,5 +2,7 @@
   "id": "leonardo",
   "name": "Leonardo.Ai",
   "url": "https://leonardo.ai",
-  "owned_by": "leonardo"
+  "owned_by": "leonardo",
+  "api_key_url": "https://app.leonardo.ai/api-access",
+  "docs_url": "https://docs.leonardo.ai/"
 }

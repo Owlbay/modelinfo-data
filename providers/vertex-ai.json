@@ -2,5 +2,7 @@
   "id": "vertex-ai",
   "name": "Vertex AI",
   "url": null,
-  "owned_by": "google"
+  "owned_by": "google",
+  "api_key_url": "https://console.cloud.google.com/agent-platform/studio/settings/api-keys",
+  "docs_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models"
 }

@@ -2,5 +2,16 @@
   "id": "stepfun",
   "name": "StepFun",
   "url": "https://platform.stepfun.com",
-  "owned_by": "stepfun"
+  "owned_by": "stepfun",
+  "api_key_url": "https://platform.stepfun.ai/interface-key",
+  "docs_url": "https://platform.stepfun.ai/docs",
+  "sites": [
+    {
+      "hosts": [
+        "api.stepfun.com"
+      ],
+      "api_key_url": "https://platform.stepfun.com/interface-key",
+      "docs_url": "https://platform.stepfun.com/docs"
+    }
+  ]
 }

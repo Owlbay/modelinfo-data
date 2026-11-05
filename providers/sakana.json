@@ -2,5 +2,7 @@
   "id": "sakana",
   "name": "Sakana AI",
   "url": "https://sakana.ai",
-  "owned_by": "sakana"
+  "owned_by": "sakana",
+  "api_key_url": "https://console.sakana.ai/api-keys",
+  "docs_url": "https://console.sakana.ai/get-started"
 }

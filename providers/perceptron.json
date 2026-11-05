@@ -2,5 +2,7 @@
   "id": "perceptron",
   "name": "Perceptron",
   "url": "https://www.perceptron.inc",
-  "owned_by": "perceptron"
+  "owned_by": "perceptron",
+  "api_key_url": "https://platform.perceptron.inc/",
+  "docs_url": "https://docs.perceptron.inc/"
 }

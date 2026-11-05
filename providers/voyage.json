@@ -2,5 +2,7 @@
   "id": "voyage",
   "name": "Voyage AI",
   "url": "https://www.voyageai.com",
-  "owned_by": "voyage"
+  "owned_by": "voyage",
+  "api_key_url": "https://dashboard.voyageai.com/organization/api-keys",
+  "docs_url": "https://docs.voyageai.com/"
 }

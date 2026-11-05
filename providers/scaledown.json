@@ -2,5 +2,6 @@
   "id": "scaledown",
   "name": "ScaleDown",
   "url": "https://scaledown.ai",
-  "owned_by": "scaledown"
+  "owned_by": "scaledown",
+  "docs_url": "https://docs.scaledown.ai/"
 }

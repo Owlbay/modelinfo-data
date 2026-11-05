@@ -2,5 +2,7 @@
   "id": "cartesia",
   "name": "Cartesia",
   "url": "https://cartesia.ai",
-  "owned_by": "cartesia"
+  "owned_by": "cartesia",
+  "api_key_url": "https://play.cartesia.ai/keys",
+  "docs_url": "https://docs.cartesia.ai/"
 }

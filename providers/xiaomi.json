@@ -2,5 +2,7 @@
   "id": "xiaomi",
   "name": "Xiaomi",
   "url": "https://mimo.mi.com",
-  "owned_by": "xiaomi"
+  "owned_by": "xiaomi",
+  "api_key_url": "https://platform.xiaomimimo.com/#/console/api-keys",
+  "docs_url": "https://mimo.mi.com/docs"
 }

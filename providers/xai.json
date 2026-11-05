@@ -2,5 +2,7 @@
   "id": "xai",
   "name": "xAI",
   "url": "https://x.ai",
-  "owned_by": "xai"
+  "owned_by": "xai",
+  "api_key_url": "https://console.x.ai/team/default/api-keys",
+  "docs_url": "https://docs.x.ai/"
 }

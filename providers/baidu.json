@@ -2,5 +2,7 @@
   "id": "baidu",
   "name": "Baidu",
   "url": "https://cloud.baidu.com/product/qianfan.html",
-  "owned_by": "baidu"
+  "owned_by": "baidu",
+  "api_key_url": "https://console.bce.baidu.com/iam/#/iam/apikey/list",
+  "docs_url": "https://cloud.baidu.com/doc/qianfan/index.html"
 }

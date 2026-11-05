@@ -2,5 +2,16 @@
   "id": "kuaishou",
   "name": "Kuaishou",
   "url": "https://www.kuaishou.com",
-  "owned_by": "kuaishou"
+  "owned_by": "kuaishou",
+  "api_key_url": "https://kling.ai/dev/api-key",
+  "docs_url": "https://kling.ai/document-api",
+  "sites": [
+    {
+      "hosts": [
+        "wanqing.streamlakeapi.com"
+      ],
+      "api_key_url": null,
+      "docs_url": "https://www.streamlake.com/document/WANQING/mdptab9x4xn2v4vyo9v"
+    }
+  ]
 }

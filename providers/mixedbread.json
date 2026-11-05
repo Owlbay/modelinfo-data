@@ -2,5 +2,7 @@
   "id": "mixedbread",
   "name": "Mixedbread",
   "url": "https://www.mixedbread.com",
-  "owned_by": "mixedbread"
+  "owned_by": "mixedbread",
+  "api_key_url": "https://platform.mixedbread.com/platform?next=api-keys",
+  "docs_url": "https://www.mixedbread.com/docs"
 }

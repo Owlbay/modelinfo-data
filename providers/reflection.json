@@ -2,5 +2,7 @@
   "id": "reflection",
   "name": "Reflection",
   "url": "https://reflection.ai",
-  "owned_by": "reflection"
+  "owned_by": "reflection",
+  "api_key_url": "https://platform.reflection.ai",
+  "docs_url": "https://developers.reflection.ai/"
 }

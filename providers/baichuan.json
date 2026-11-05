@@ -2,5 +2,6 @@
   "id": "baichuan",
   "name": "Baichuan",
   "url": "https://www.baichuan-ai.com",
-  "owned_by": "baichuan"
+  "owned_by": "baichuan",
+  "docs_url": "https://platform.baichuan-ai.com/docs/api"
 }

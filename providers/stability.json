@@ -2,5 +2,7 @@
   "id": "stability",
   "name": "Stability AI",
   "url": "https://stability.ai",
-  "owned_by": "stability"
+  "owned_by": "stability",
+  "api_key_url": "https://platform.stability.ai/dashboard/api-keys",
+  "docs_url": "https://docs.stability.ai/"
 }

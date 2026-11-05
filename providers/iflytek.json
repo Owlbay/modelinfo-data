@@ -2,5 +2,16 @@
   "id": "iflytek",
   "name": "iFlytek",
   "url": "https://xinghuo.xfyun.cn",
-  "owned_by": "iflytek"
+  "owned_by": "iflytek",
+  "api_key_url": "https://console.xfyun.cn/services/cbm",
+  "docs_url": "https://www.xfyun.cn/doc/spark/HTTP%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.html",
+  "sites": [
+    {
+      "hosts": [
+        "maas-api.cn-huabei-1.xf-yun.com"
+      ],
+      "api_key_url": "https://maas.xfyun.cn/apikey",
+      "docs_url": "https://www.xfyun.cn/doc/spark/%E4%BA%A7%E5%93%81%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html"
+    }
+  ]
 }

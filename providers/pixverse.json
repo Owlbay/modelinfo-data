@@ -2,5 +2,7 @@
   "id": "pixverse",
   "name": "PixVerse",
   "url": "https://pixverse.ai",
-  "owned_by": "pixverse"
+  "owned_by": "pixverse",
+  "api_key_url": "https://platform.pixverse.ai",
+  "docs_url": "https://docs.platform.pixverse.ai/"
 }

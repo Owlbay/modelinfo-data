@@ -2,5 +2,7 @@
   "id": "lightricks",
   "name": "Lightricks (LTX)",
   "url": "https://www.lightricks.com",
-  "owned_by": "lightricks"
+  "owned_by": "lightricks",
+  "api_key_url": "https://console.ltx.io/",
+  "docs_url": "https://docs.ltx.io/"
 }

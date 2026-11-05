@@ -2,5 +2,7 @@
   "id": "assemblyai",
   "name": "AssemblyAI",
   "url": "https://www.assemblyai.com",
-  "owned_by": "assemblyai"
+  "owned_by": "assemblyai",
+  "api_key_url": "https://www.assemblyai.com/dashboard/api-keys",
+  "docs_url": "https://www.assemblyai.com/docs"
 }

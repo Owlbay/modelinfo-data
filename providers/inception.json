@@ -2,5 +2,7 @@
   "id": "inception",
   "name": "Inception Labs",
   "url": "https://www.inceptionlabs.ai",
-  "owned_by": "inception"
+  "owned_by": "inception",
+  "api_key_url": "https://platform.inceptionlabs.ai/dashboard/api-keys",
+  "docs_url": "https://docs.inceptionlabs.ai/"
 }

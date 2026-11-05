@@ -2,5 +2,7 @@
   "id": "twelvelabs",
   "name": "Twelve Labs",
   "url": "https://www.twelvelabs.io",
-  "owned_by": "twelvelabs"
+  "owned_by": "twelvelabs",
+  "api_key_url": "https://playground.twelvelabs.io/dashboard/api-keys",
+  "docs_url": "https://docs.twelvelabs.io/"
 }

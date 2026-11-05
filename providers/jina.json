@@ -2,5 +2,7 @@
   "id": "jina",
   "name": "Jina AI",
   "url": "https://jina.ai",
-  "owned_by": "jina"
+  "owned_by": "jina",
+  "api_key_url": "https://jina.ai/api-dashboard",
+  "docs_url": "https://docs.jina.ai/"
 }

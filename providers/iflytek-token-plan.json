@@ -2,5 +2,7 @@
   "id": "iflytek-token-plan",
   "name": "iFlytek Token Plan",
   "url": null,
-  "owned_by": "iflytek"
+  "owned_by": "iflytek",
+  "api_key_url": "https://maas.xfyun.cn/tokenPlan/subscription",
+  "docs_url": "https://www.xfyun.cn/doc/spark/TokenPlan.html"
 }

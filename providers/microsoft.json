@@ -2,5 +2,16 @@
   "id": "microsoft",
   "name": "Microsoft",
   "url": "https://www.microsoft.com",
-  "owned_by": "microsoft"
+  "owned_by": "microsoft",
+  "docs_url": "https://learn.microsoft.com/azure/foundry/",
+  "sites": [
+    {
+      "hosts": [
+        "<resource-name>.cognitiveservices.azure.com",
+        "<region>.tts.speech.microsoft.com"
+      ],
+      "api_key_url": null,
+      "docs_url": "https://learn.microsoft.com/azure/ai-services/speech-service/"
+    }
+  ]
 }

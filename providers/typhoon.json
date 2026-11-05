@@ -2,5 +2,7 @@
   "id": "typhoon",
   "name": "SCB 10X Typhoon",
   "url": "https://opentyphoon.ai",
-  "owned_by": "typhoon"
+  "owned_by": "typhoon",
+  "api_key_url": "https://playground.opentyphoon.ai/api-key",
+  "docs_url": "https://docs.opentyphoon.ai/en/"
 }
