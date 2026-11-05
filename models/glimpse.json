@@ -27,7 +27,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "high",
+      "xhigh",
+      "max"
+    ]
   },
   "prices": [
     {
@@ -40,7 +44,9 @@
     }
   ],
   "features": [
-    "tools"
+    "tools",
+    "streaming",
+    "caching"
   ],
   "info": {
     "status": "active",
@@ -48,9 +54,19 @@
     "knowledge_cutoff": null,
     "description": "A visual thinking model available through an API and a chat interface. It takes text, images, and video and reasons in visual space, including with multimodal tools. Input tokens cost $0.60 per million and output tokens $3.00 per million; the comparison table labels those rates uncached. The page does not publish a calendar date, a cached-token price, a context length, a maximum output, or a request URL.",
     "docs": "https://elorian.ai/blog/introducing-glimpse",
-    "verified_at": "2026-10-27"
+    "verified_at": "2026-11-05"
   },
-  "providers": [],
+  "providers": [
+    {
+      "id": "elorian",
+      "model": "glimpse",
+      "base_url": "https://api.elorian.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
   "aliases": [],
   "translations": {
     "zh": {
@@ -62,6 +78,11 @@
       "title": "Introducing Glimpse | Elorian",
       "url": "https://elorian.ai/blog/introducing-glimpse",
       "retrieved_at": "2026-10-27"
+    },
+    {
+      "title": "Elorian API docs | Elorian Platform（https://api.elorian.ai/v1/chat/completions; model glimpse; reasoning_effort high, xhigh (default), max; stream=True; prompt caching always on）",
+      "url": "https://platform.elorian.ai/docs",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
