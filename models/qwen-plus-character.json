@@ -47,7 +47,7 @@
       "unit": "1M_tokens",
       "input": 0.8,
       "output": 2,
-      "cache_read": null,
+      "cache_read": 0.16,
       "cache_write": null
     }
   ],
@@ -61,7 +61,7 @@
     "knowledge_cutoff": null,
     "description": "Role-playing model for virtual companions, game NPCs and IP characters, with improved character consistency and topic progression.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/role-play",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -72,6 +72,30 @@
         "chat": "POST /compatible-mode/v1/chat/completions"
       },
       "reasoning_param": null
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen-plus-character",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "chat": "POST /compatible-mode/v1/chat/completions"
+      },
+      "reasoning_param": null,
+      "limits": {
+        "context": 32768,
+        "input": 32768,
+        "output": 32768
+      },
+      "prices": [
+        {
+          "currency": "CNY",
+          "unit": "1M_tokens",
+          "input": 0.8,
+          "output": 2,
+          "cache_read": 0.16,
+          "cache_write": null
+        }
+      ]
     }
   ],
   "aliases": [],
@@ -125,6 +149,16 @@
       "title": "qwen-plus-character | Alibaba Cloud Model Studio",
       "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-plus-character",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "qwen-plus-character | 大模型服务平台百炼（华北2（北京）上下文限制与模型价格）",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-plus-character",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "如何通过OpenAI接口调用千问模型 | 大模型服务平台百炼（华北2（北京）接入地址）",
+      "url": "https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -73,6 +73,30 @@
         "chat": "POST /compatible-mode/v1/chat/completions"
       },
       "reasoning_param": null
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen-flash-character",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
+      "endpoints": {
+        "chat": "POST /compatible-mode/v1/chat/completions"
+      },
+      "reasoning_param": null,
+      "limits": {
+        "context": 8192,
+        "input": 8192,
+        "output": 4096
+      },
+      "prices": [
+        {
+          "currency": "CNY",
+          "unit": "1M_tokens",
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0.05,
+          "cache_write": null
+        }
+      ]
     }
   ],
   "aliases": [],
@@ -130,6 +154,11 @@
     {
       "title": "qwen-flash-character 模型信息",
       "url": "https://help.aliyun.com/zh/model-studio/qwen-flash-character",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "如何通过OpenAI接口调用千问模型 | 大模型服务平台百炼（华北2（北京）接入地址）",
+      "url": "https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope",
       "retrieved_at": "2026-11-05"
     }
   ]
