@@ -63,7 +63,7 @@ func TestBrokenDocsRejectedByBoth(t *testing.T) {
 		{"币种小写", `"currency": "USD"`, `"currency": "usd"`},
 		{"未知单位", `"unit": "1M_tokens"`, `"unit": "tokens"`},
 		{"未知状态", `"status": "active"`, `"status": "live"`},
-		{"日期格式", `"verified_at": "2026-10-11"`, `"verified_at": "2026/10/11"`},
+		{"日期格式", `"verified_at": "20`, `"verified_at": "20/`}, // 不写死具体日期，模型被重新核实后仍然有效
 		{"数组写成 null", `"features": [`, `"features": null, "x": [`},
 		{"端点格式", `"POST /compatible-mode/v1/chat/completions"`, `"/compatible-mode/v1/chat/completions"`},
 		{"未知译文语言", `"zh": {`, `"fr": {`},
