@@ -41,7 +41,7 @@
     "tools"
   ],
   "info": {
-    "status": "active",
+    "status": "retired",
     "release_date": "2026-03-25",
     "knowledge_cutoff": null,
     "description": "快手 Kwaipilot 团队最新高性能模型，适用于复杂企业项目与SaaS集成，代码场景表现优秀，适配多种类型 Agent 框架（claude code, opencode, kilocode），原生适配 openclaw，专为前端页面美学进行优化。",
@@ -67,7 +67,7 @@
       "retrieved_at": "2026-11-05"
     },
     {
-      "title": "模型服务价格 - 快手万擎(Vanchin)-StreamLake",
+      "title": "模型服务价格 | 快手万擎 StreamLake（2026-11-05 更新：KAT-Coder-Pro-V2、KAT-Coder-Pro-V2.5、KAT-Coder-Air-V2.5 标注「已下线」）",
       "url": "https://www.streamlake.com/document/WANQING/mdsorb4ejjptsmfyrn",
       "retrieved_at": "2026-11-05"
     }
