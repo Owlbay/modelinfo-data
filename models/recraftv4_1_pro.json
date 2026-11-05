@@ -11,7 +11,6 @@
     "sdk": [
       "@ai-sdk/openai",
       "@ai-sdk/openai-compatible",
-      "@image-sdk/sdk",
       "openai"
     ]
   },
@@ -50,7 +49,7 @@
     "knowledge_cutoff": null,
     "description": "Recraft V4.1 variant that generates 2K raster images with finer detail.",
     "docs": "https://www.recraft.ai/docs/api-reference/models/recraft-v4-1",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -101,14 +100,14 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "SDK support — @image-sdk/sdk (api.sdk only)",
-      "url": "https://github.com/Adarsh-Me/Image-SDK",
-      "retrieved_at": "2026-10-13"
-    },
-    {
       "title": "Recraft V4.1 Release: More Beautiful by Nature",
       "url": "https://www.recraft.ai/blog/recraft-v4-1-more-beautiful-by-nature",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Clients and SDKs - Recraft",
+      "url": "https://www.recraft.ai/docs/api-reference/clients",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
