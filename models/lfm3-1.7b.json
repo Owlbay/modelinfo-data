@@ -40,6 +40,7 @@
   "features": [
     "tools",
     "structured_output",
+    "streaming",
     "caching"
   ],
   "info": {
@@ -101,6 +102,11 @@
     {
       "title": "Liquid API overview | Liquid Docs（OpenAI-compatible, base URL https://api.liquid.ai/openai/v1, POST /chat/completions）",
       "url": "https://docs.liquid.ai/api/overview",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Text generation — Streaming (Chat Completions stream: true) | Liquid API",
+      "url": "https://docs.liquid.ai/api/guides/text-generation",
       "retrieved_at": "2026-11-05"
     }
   ]

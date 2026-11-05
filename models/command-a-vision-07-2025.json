@@ -33,7 +33,8 @@
   },
   "prices": [],
   "features": [
-    "structured_output"
+    "structured_output",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -41,7 +42,7 @@
     "knowledge_cutoff": "2024-06",
     "description": "Image-processing model for charts, tables, diagrams, OCR, document Q&A, and object detection.",
     "docs": "https://docs.cohere.com/docs/command-a-vision",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -69,7 +70,7 @@
     {
       "title": "Cohere Model Overview",
       "url": "https://docs.cohere.com/docs/models",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "How does Cohere pricing work?",
@@ -100,6 +101,11 @@
       "title": "cohere-ai/cohere-developer-experience — Command A Vision (Capability.StructuredOutputs; tool use not supported) | Cohere Docs source (official GitHub)",
       "url": "https://github.com/cohere-ai/cohere-developer-experience/blob/main/fern/pages/models/the-command-family-of-models/command-a-vision.mdx",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "A Guide to Streaming Responses (Chat API streaming) | Cohere",
+      "url": "https://docs.cohere.com/docs/streaming",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

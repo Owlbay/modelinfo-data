@@ -31,14 +31,16 @@
     "efforts": []
   },
   "prices": [],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": "2026-09-09",
     "knowledge_cutoff": null,
     "description": "218B total / 25B active parameter MoE model for machine translation across 50+ languages.",
     "docs": "https://docs.cohere.com/docs/north-small-translate-1.0",
-    "verified_at": "2026-10-26"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -68,7 +70,7 @@
     {
       "title": "Cohere Model Overview",
       "url": "https://docs.cohere.com/docs/models",
-      "retrieved_at": "2026-10-26"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "How does Cohere pricing work?",
@@ -89,6 +91,11 @@
       "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "A Guide to Streaming Responses (Chat API streaming) | Cohere",
+      "url": "https://docs.cohere.com/docs/streaming",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

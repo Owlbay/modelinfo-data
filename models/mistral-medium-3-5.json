@@ -51,6 +51,7 @@
   "features": [
     "tools",
     "structured_output",
+    "streaming",
     "caching",
     "batch"
   ],
@@ -60,7 +61,7 @@
     "knowledge_cutoff": null,
     "description": "Frontier-class multimodal model optimized for agentic and coding use cases.",
     "docs": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -87,7 +88,7 @@
     {
       "title": "Mistral Medium 3.5 | Mistral Docs",
       "url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
-      "retrieved_at": "2026-11-02"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "API pricing | Mistral Docs",
@@ -143,6 +144,11 @@
       "title": "Batch | Mistral Docs",
       "url": "https://docs.mistral.ai/api/endpoint/batch",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat completions (Streaming) | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/conversations/chat-completion",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

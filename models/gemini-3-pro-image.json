@@ -45,6 +45,7 @@
     }
   ],
   "features": [
+    "streaming",
     "batch"
   ],
   "info": {
@@ -53,7 +54,7 @@
     "knowledge_cutoff": "2025-01",
     "description": "Reasoning-driven model for professional image generation and editing with accurate text rendering.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -153,6 +154,16 @@
       "title": "Get started with Gemini Enterprise Agent Platform (API_ENDPOINT https://aiplatform.googleapis.com, location global, .../publishers/google/models/{MODEL_ID}:generateContent) | Google Cloud Documentation",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Streaming interactions (stream: true; Streaming image generation with gemini-3.1-flash-image) | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/streaming",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Image generation — Thinking process (enabled by default, cannot be disabled) | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

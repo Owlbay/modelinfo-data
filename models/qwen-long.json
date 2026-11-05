@@ -48,6 +48,7 @@
   ],
   "features": [
     "structured_output",
+    "streaming",
     "batch"
   ],
   "info": {
@@ -138,6 +139,11 @@
     {
       "title": "OpenAI兼容-Batch（文件输入） | 大模型服务平台百炼",
       "url": "https://help.aliyun.com/zh/model-studio/batch-interfaces-compatible-with-openai",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Qwen-Long",
+      "url": "https://help.aliyun.com/zh/model-studio/long-context-qwen-long",
       "retrieved_at": "2026-11-05"
     }
   ]

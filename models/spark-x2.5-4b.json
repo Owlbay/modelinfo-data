@@ -41,7 +41,16 @@
       "max"
     ]
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0,
+      "output": 0,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [
     "tools",
     "structured_output",
@@ -114,6 +123,16 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "讯飞星辰MaaS平台 模型广场（Spark-X2.5-4B：0 元/百万tokens）",
+      "url": "https://maas.xfyun.cn/modelSquare",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "讯飞星辰 MaaS 模型目录（Spark-X2.5-4B inferencePrice inTokensPrice 0 / outTokensPrice 0）",
+      "url": "https://maas.xfyun.cn/api/v1/gpt-finetune/model/base/list-v2",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

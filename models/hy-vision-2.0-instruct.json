@@ -49,7 +49,7 @@
     "knowledge_cutoff": null,
     "description": "Tencent fast-thinking image-to-text model.",
     "docs": "https://cloud.tencent.com/document/product/1823/130051",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -70,7 +70,7 @@
   },
   "sources": [
     {
-      "title": "模型列表 | 腾讯云 TokenHub",
+      "title": "模型列表 | 腾讯云 TokenHub | 大模型服务平台 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
       "retrieved_at": "2026-10-10"
     },
@@ -93,6 +93,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型列表 | 大模型服务平台 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130051",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

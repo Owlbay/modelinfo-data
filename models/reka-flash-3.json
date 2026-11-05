@@ -42,7 +42,8 @@
     }
   ],
   "features": [
-    "structured_output"
+    "structured_output",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -50,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Reka's reasoning text model served on the Reka API.",
     "docs": "https://docs.reka.ai/chat/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -104,6 +105,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Chat Completions — Streaming (reka-flash-3 example) | Reka API",
+      "url": "https://docs.reka.ai/chat/overview",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -46,9 +46,9 @@
     "status": "active",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "We introduce Baichuan-M3, a new-generation medical-enhanced large language model designed to support clinical-grade medical assistance.",
     "docs": "https://platform.baichuan-ai.com/docs-v2/medical",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -74,6 +74,11 @@
       "title": "产品定价 | 百川智能开放平台",
       "url": "https://platform.baichuan-ai.com/prices",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "Baichuan-M3 技术博客",
+      "url": "https://www.baichuan-ai.com/blog/baichuan-M3",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

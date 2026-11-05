@@ -13,7 +13,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 512,
     "input": 512,
     "output": null
   },
@@ -46,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": null,
     "docs": "https://platform.baichuan-ai.com/docs-v2/text-Embedding",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -72,6 +72,11 @@
       "title": "产品定价 | 百川智能开放平台",
       "url": "https://platform.baichuan-ai.com/prices",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "向量化 | 百川智能开放平台",
+      "url": "https://platform.baichuan-ai.com/docs-v2/text-Embedding",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
