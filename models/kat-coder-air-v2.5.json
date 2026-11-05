@@ -1,0 +1,75 @@
+{
+  "id": "kat-coder-air-v2.5",
+  "object": "model",
+  "created": 1783382400,
+  "owned_by": "kuaishou",
+  "name": "KAT-Coder-Air-V2.5",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": 81920
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 1,
+      "output": 4,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-07-07",
+    "knowledge_cutoff": null,
+    "description": "KAT-Coder-Air V2.5 是一款能轻量快速版，助力开发者高效编码的模型。",
+    "docs": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
+    "verified_at": "2026-11-05"
+  },
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "en": {
+      "description": "KAT-Coder-Air V2.5 is a lightweight, fast model that helps developers code efficiently."
+    }
+  },
+  "sources": [
+    {
+      "title": "万擎模型列表 - 快手万擎(Vanchin)-StreamLake",
+      "url": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "模型发布公告 - 快手万擎(Vanchin)-StreamLake",
+      "url": "https://streamlake.com/document/WANQING/mdptas54hptu5uvllco",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "模型服务价格 - 快手万擎(Vanchin)-StreamLake",
+      "url": "https://www.streamlake.com/document/WANQING/mdsorb4ejjptsmfyrn",
+      "retrieved_at": "2026-11-05"
+    }
+  ]
+}
