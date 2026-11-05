@@ -6,7 +6,8 @@
   "name": "Sarvam-105B",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "responses"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -30,7 +31,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "low",
+      "medium",
+      "high"
+    ]
   },
   "prices": [
     {
@@ -43,6 +48,8 @@
     }
   ],
   "features": [
+    "tools",
+    "structured_output",
     "streaming"
   ],
   "info": {
@@ -51,7 +58,7 @@
     "knowledge_cutoff": null,
     "description": "Sarvam flagship 105B Mixture-of-Experts chat model for Indian language understanding, reasoning, coding and agentic tasks.",
     "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-105b",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -59,9 +66,13 @@
       "model": "sarvam-105b",
       "base_url": "https://api.sarvam.ai",
       "endpoints": {
-        "chat": "POST /v1/chat/completions"
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v2/responses"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort"
+      }
     }
   ],
   "aliases": [],
@@ -120,6 +131,16 @@
       "title": "Open-Sourcing Sarvam 30B and 105B | Sarvam AI Blog",
       "url": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Chat Completion | Sarvam API Docs（reasoning_effort: low / medium / high, default low；Tool Calling 与 Structured Outputs 示例均用 sarvam-105b）",
+      "url": "https://docs.sarvam.ai/api/token-factory/chat-completions",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Responses API | Sarvam API Docs（POST /v2/responses supports sarvam-105b）",
+      "url": "https://docs.sarvam.ai/api/token-factory/responses-api",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
