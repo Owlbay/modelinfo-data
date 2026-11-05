@@ -112,6 +112,39 @@
 | `name` | string | 显示名称 |
 | `url` | string \| null | 官网 `https://` 网址 |
 | `owned_by` | string \| null | 所属模型厂商 ID，必须存在于 `vendors/` |
+| `api_key_url` | string | **可省略**。创建或获取 API Key 的官方页面（`https://`，可以是需要登录的控制台页），前台模型页的「获取 API Key」按钮跳到这里 |
+| `docs_url` | string | **可省略**。官方 API 文档首页（`https://`），前台的「API 文档」按钮跳到这里 |
+| `sites` | Site[] | **可省略**。同一供应商有国内站/国际站或不同区域、入口不同时使用，见 [Site](#site)；没有时省略，不写 `[]` |
+
+### Site
+
+模型 `providers[].base_url` 的主机属于某个站点的 `hosts` 时，用该站点的入口代替供应商默认的 `api_key_url`、`docs_url`；都不匹配时用默认值。
+
+| 字段 | 类型 | 含义 |
+|---|---|---|
+| `hosts` | string[] | `base_url` 的主机名，至少一项，不重复；照模型中的写法（小写，不含 `https://` 与路径，可含占位符，如 `{workspaceid}.cn-beijing.maas.aliyuncs.com`）。每个主机都必须有模型以它为 `base_url` 调用该供应商 |
+| `api_key_url` | string \| null | 该站点获取 API Key 的官方页面 |
+| `docs_url` | string \| null | 该站点的官方 API 文档首页；与 `api_key_url` 至少写一项 |
+
+示例（Moonshot：默认国际站，`api.moonshot.cn` 用国内站入口）：
+
+```json
+{
+  "id": "moonshot",
+  "name": "Moonshot AI",
+  "url": "https://platform.moonshot.ai",
+  "owned_by": "moonshot",
+  "api_key_url": "https://platform.moonshot.ai/console/api-keys",
+  "docs_url": "https://platform.moonshot.ai/docs",
+  "sites": [
+    {
+      "hosts": ["api.moonshot.cn"],
+      "api_key_url": "https://platform.moonshot.cn/console/api-keys",
+      "docs_url": "https://platform.moonshot.cn/docs"
+    }
+  ]
+}
+```
 
 ## 跨文件规则
 

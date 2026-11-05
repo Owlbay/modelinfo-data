@@ -51,7 +51,7 @@
 ### 新增厂商或供应商
 
 - 厂商：`vendors/<id>.json`，`{id, name, url, icon?}`，`url` 为官网。
-- 供应商：`providers/<id>.json`，`{id, name, url, owned_by}`，`owned_by` 为所属厂商 ID（没有写 `null`）。
+- 供应商：`providers/<id>.json`，`{id, name, url, owned_by}`，`owned_by` 为所属厂商 ID（没有写 `null`）。可选 `api_key_url`（获取 API Key 的官方页面）、`docs_url`（官方 API 文档首页）；国内站/国际站入口不同时用 `sites` 按 `base_url` 主机区分，见 [docs/fields.md](docs/fields.md#site)。这些地址同样只用官方页面，并在 PR 中列出。
 - ID 只用小写字母、数字与 `-`，与文件名一致。
 
 ## 来源规则
