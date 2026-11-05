@@ -3,5 +3,6 @@
   "name": "Nomic",
   "url": "https://www.nomic.ai",
   "owned_by": "nomic",
+  "api_key_url": "https://atlas.nomic.ai/data",
   "docs_url": "https://docs.nomic.ai/api/getting-started/getting-started"
 }

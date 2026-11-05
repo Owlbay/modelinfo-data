@@ -3,5 +3,6 @@
   "name": "Baichuan",
   "url": "https://www.baichuan-ai.com",
   "owned_by": "baichuan",
+  "api_key_url": "https://platform.baichuan-ai.com/console/apikey",
   "docs_url": "https://platform.baichuan-ai.com/docs/api"
 }

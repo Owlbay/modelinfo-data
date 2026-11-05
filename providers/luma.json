@@ -3,5 +3,6 @@
   "name": "Luma AI",
   "url": "https://lumalabs.ai",
   "owned_by": "luma",
+  "api_key_url": "https://platform.lumalabs.ai/",
   "docs_url": "https://docs.agents.lumalabs.ai/"
 }

@@ -3,6 +3,7 @@
   "name": "Microsoft",
   "url": "https://www.microsoft.com",
   "owned_by": "microsoft",
+  "api_key_url": "https://ai.azure.com/",
   "docs_url": "https://learn.microsoft.com/azure/foundry/",
   "sites": [
     {
@@ -10,7 +11,7 @@
         "<resource-name>.cognitiveservices.azure.com",
         "<region>.tts.speech.microsoft.com"
       ],
-      "api_key_url": null,
+      "api_key_url": "https://portal.azure.com/#create/Microsoft.CognitiveServicesAIFoundry",
       "docs_url": "https://learn.microsoft.com/azure/ai-services/speech-service/"
     }
   ]
