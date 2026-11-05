@@ -6,7 +6,9 @@
   "name": "Spark X2.5-4B",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "responses",
+      "messages"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -28,18 +30,28 @@
     ]
   },
   "reasoning": {
-    "supported": null,
-    "efforts": []
+    "supported": true,
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "max"
+    ]
   },
   "prices": [],
-  "features": [],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": "2026-08-31",
     "knowledge_cutoff": null,
     "description": "iFlytek 4B dense Spark X2.5 model with 1M context for small and medium-sized business integrations.",
     "docs": "https://www.xfyun.cn/doc/spark/Spark-X2.5%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D.html",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -47,9 +59,16 @@
       "model": "spark-x2.5-4b",
       "base_url": "https://maas-api.cn-huabei-1.xf-yun.com",
       "endpoints": {
-        "chat": "POST /v2/chat/completions"
+        "chat": "POST /v2/chat/completions",
+        "responses": "POST /v1/responses",
+        "messages": "POST /anthropic/v1/messages"
       },
-      "reasoning_param": null
+      "reasoning_param": "thinking.type",
+      "reasoning_params": {
+        "chat": "thinking.type",
+        "responses": "reasoning.effort",
+        "messages": null
+      }
     }
   ],
   "aliases": [],
@@ -67,7 +86,7 @@
     {
       "title": "Spark-X2.5 API接口文档",
       "url": "https://www.xfyun.cn/doc/spark/Spark-X2.5.html",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "SDK support — openai (api.sdk only)",
