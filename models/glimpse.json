@@ -46,7 +46,6 @@
     }
   ],
   "features": [
-    "tools",
     "streaming",
     "caching"
   ],
@@ -92,7 +91,7 @@
       "retrieved_at": "2026-11-05"
     },
     {
-      "title": "SDK compatibility - Docs | Elorian",
+      "title": "SDK compatibility - Docs | Elorian（Glimpse does not accept your own function tools）",
       "url": "https://platform.elorian.ai/docs/sdk-compatibility",
       "retrieved_at": "2026-11-05"
     }

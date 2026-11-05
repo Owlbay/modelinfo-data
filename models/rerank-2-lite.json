@@ -9,7 +9,6 @@
       "rerank"
     ],
     "sdk": [
-      "@ai-sdk/voyage",
       "voyageai"
     ]
   },
@@ -47,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Our generalist second-generation reranker optimized for both latency and quality with multilingual support.",
     "docs": "https://docs.voyageai.com/docs/reranker",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -83,14 +82,14 @@
       "retrieved_at": "2026-11-03"
     },
     {
-      "title": "SDK support — @ai-sdk/voyage (api.sdk only)",
-      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/voyage",
-      "retrieved_at": "2026-11-03"
+      "title": "Voyage TypeScript Library (voyage-ai/typescript-sdk)",
+      "url": "https://github.com/voyage-ai/typescript-sdk",
+      "retrieved_at": "2026-11-05"
     },
     {
-      "title": "SDK support — voyageai (api.sdk only)",
-      "url": "https://github.com/voyage-ai/typescript-sdk",
-      "retrieved_at": "2026-11-03"
+      "title": "API Key and Python Client | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/api-key-and-installation",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

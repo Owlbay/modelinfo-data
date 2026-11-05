@@ -9,10 +9,6 @@
       "embeddings"
     ],
     "sdk": [
-      "@ai-sdk/openai",
-      "@ai-sdk/openai-compatible",
-      "@ai-sdk/voyage",
-      "openai",
       "voyageai"
     ]
   },
@@ -50,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Optimized for general-purpose and multilingual retrieval quality.",
     "docs": "https://docs.voyageai.com/docs/embeddings",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -91,29 +87,14 @@
       "retrieved_at": "2026-11-03"
     },
     {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
-      "retrieved_at": "2026-11-03"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
-      "retrieved_at": "2026-11-03"
-    },
-    {
-      "title": "SDK support — @ai-sdk/voyage (api.sdk only)",
-      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/voyage",
-      "retrieved_at": "2026-11-03"
-    },
-    {
-      "title": "SDK support — openai (api.sdk only)",
-      "url": "https://github.com/openai/openai-node",
-      "retrieved_at": "2026-11-03"
-    },
-    {
-      "title": "SDK support — voyageai (api.sdk only)",
+      "title": "Voyage TypeScript Library (voyage-ai/typescript-sdk)",
       "url": "https://github.com/voyage-ai/typescript-sdk",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "API Key and Python Client | Voyage AI Docs",
+      "url": "https://docs.voyageai.com/docs/api-key-and-installation",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

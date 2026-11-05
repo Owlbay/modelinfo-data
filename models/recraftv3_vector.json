@@ -9,8 +9,6 @@
       "images"
     ],
     "sdk": [
-      "@ai-sdk/openai",
-      "@ai-sdk/openai-compatible",
       "openai"
     ]
   },
@@ -88,21 +86,6 @@
       "title": "Recraft introduces a revolutionary AI model that thinks in design language（October 30, 2024；Recraft V3 via API, raster and vector formats）",
       "url": "https://www.recraft.ai/blog/recraft-introduces-a-revolutionary-ai-model-that-thinks-in-design-language",
       "retrieved_at": "2026-10-20"
-    },
-    {
-      "title": "SDK support — openai (api.sdk only)",
-      "url": "https://github.com/openai/openai-node",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
-      "retrieved_at": "2026-10-13"
     },
     {
       "title": "Clients and SDKs - Recraft",
