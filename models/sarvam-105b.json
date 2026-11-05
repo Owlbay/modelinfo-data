@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Sarvam flagship 105B Mixture-of-Experts chat model for Indian language understanding, reasoning, coding and agentic tasks.",
     "docs": "https://docs.sarvam.ai/api/getting-started/models/sarvam-105b",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -61,7 +61,7 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning_effort"
     }
   ],
   "aliases": [],
@@ -74,7 +74,7 @@
     {
       "title": "Sarvam-105B | Sarvam Docs",
       "url": "https://docs.sarvam.ai/api/getting-started/models/sarvam-105b",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Pricing | Sarvam Docs",

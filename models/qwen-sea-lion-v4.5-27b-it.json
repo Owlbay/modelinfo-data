@@ -29,7 +29,7 @@
     ]
   },
   "reasoning": {
-    "supported": null,
+    "supported": true,
     "efforts": []
   },
   "prices": [],
@@ -42,7 +42,7 @@
     "knowledge_cutoff": null,
     "description": "Instruct model fine-tuned for Southeast Asian languages, distilled from Qwen3.5-397B-A17B, with a vision encoder.",
     "docs": "https://docs.sea-lion.ai/guides/inferencing/api",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -72,7 +72,7 @@
     {
       "title": "Qwen-SEA-LION-v4.5 | SEA-LION Docs",
       "url": "https://docs.sea-lion.ai/models/sea-lion-v4.5/qwen-sea-lion-v4.5",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Hugging Face aisingapore/Qwen-SEA-LION-v4.5-27B-IT config.json (official org)",

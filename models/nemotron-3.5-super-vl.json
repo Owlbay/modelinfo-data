@@ -15,7 +15,7 @@
   "limits": {
     "context": 1000000,
     "input": null,
-    "output": null
+    "output": 131072
   },
   "modalities": {
     "input": [
@@ -29,7 +29,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "none",
+      "low",
+      "high"
+    ]
   },
   "prices": [],
   "features": [
@@ -42,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Open 120B-parameter vision-language model with 12B active parameters, under the OpenMDW-1.1 license. It accepts text, images, and video and returns text; the announcement also describes webpage and PDF understanding, with documents supplied as page images. The weights card says context is up to 1M tokens, and one TensorRT-LLM example sets max_seq_len to 1048576. The NVIDIA NIM catalog lists 262K for the hosted endpoint. Those figures conflict, so the context limit is unset. Reasoning is switched with chat_template_kwargs.enable_thinking; medium effort sets medium_effort to true. No official API token price is published.",
     "docs": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-    "verified_at": "2026-10-16"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -52,7 +56,7 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning_effort"
     }
   ],
   "aliases": [
@@ -83,6 +87,11 @@
       "title": "nemotron-3.5-super-vl-120b-a12b | NVIDIA NIM",
       "url": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
       "retrieved_at": "2026-10-16"
+    },
+    {
+      "title": "Create chat completion (nvidia/nemotron-3.5-super-vl-120b-a12b) | NVIDIA NIM API Reference",
+      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-super-vl-120b-a12b-infer",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

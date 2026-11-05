@@ -8,7 +8,9 @@
     "types": [
       "ocr"
     ],
-    "sdk": []
+    "sdk": [
+      "langchain-upstage"
+    ]
   },
   "limits": {
     "context": null,
@@ -45,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Converts complex documents into AI-readable HTML and Markdown; priced per page.",
     "docs": "https://console.upstage.ai/docs/models/document-parse",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -85,7 +87,7 @@
     {
       "title": "Document parsing API | Upstage Docs",
       "url": "https://console.upstage.ai/api/document-digitization/document-parsing",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

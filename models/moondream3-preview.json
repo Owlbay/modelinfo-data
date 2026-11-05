@@ -6,7 +6,8 @@
   "name": "Moondream 3 Preview",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "batch"
     ],
     "sdk": [
       "openai"
@@ -15,7 +16,7 @@
   "limits": {
     "context": 32000,
     "input": null,
-    "output": null
+    "output": 4096
   },
   "modalities": {
     "input": [
@@ -27,7 +28,7 @@
     ]
   },
   "reasoning": {
-    "supported": null,
+    "supported": true,
     "efforts": []
   },
   "prices": [
@@ -50,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Hosted Moondream 3 Preview vision model. The API model id is moondream3-preview, and the shared chat endpoint accepts image inputs and streaming. Real-time price is $0.30 per million input tokens and $2.50 per million output tokens. The batch price is half of that and is not stored. Context length, parameter count, and release date are not stated on the pricing or API pages.",
     "docs": "https://docs.moondream.ai/api",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -58,9 +59,10 @@
       "model": "moondream3-preview",
       "base_url": "https://api.moondream.ai",
       "endpoints": {
-        "chat": "POST /v1/chat/completions"
+        "chat": "POST /v1/chat/completions",
+        "batch": "POST /v1/batch"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning"
     }
   ],
   "aliases": [],
@@ -83,7 +85,7 @@
     {
       "title": "Moondream 3 Preview: Frontier-level reasoning at a blazing speed | Moondream",
       "url": "https://moondream.ai/blog/moondream-3-preview",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "OpenAI Compatibility | Moondream Docs (m87-labs/md-docs GitHub)",
@@ -93,7 +95,17 @@
     {
       "title": "OpenAI Compatibility (https://api.moondream.ai/v1/chat/completions; model moondream3.1-9B-A2B or moondream3-preview) | Moondream Docs",
       "url": "https://docs.moondream.ai/openai",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Batch API | Moondream Docs",
+      "url": "https://docs.moondream.ai/batch",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Reasoning | Moondream Docs",
+      "url": "https://docs.moondream.ai/reasoning",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

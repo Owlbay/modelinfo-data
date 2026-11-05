@@ -36,7 +36,8 @@
   },
   "prices": [],
   "features": [
-    "tools"
+    "tools",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -44,7 +45,7 @@
     "knowledge_cutoff": null,
     "description": "Omni-modal reasoning model that understands images, video, speech and text.",
     "docs": "https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning/modelcard",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -54,7 +55,7 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning_budget"
     }
   ],
   "aliases": [
@@ -99,7 +100,7 @@
     {
       "title": "NVIDIA nemotron-3-nano-omni-30b-a3b-reasoning inference API",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-infer",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
