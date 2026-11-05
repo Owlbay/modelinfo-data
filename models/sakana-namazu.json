@@ -6,7 +6,9 @@
   "name": "Sakana Namazu",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "responses",
+      "messages"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -62,9 +64,16 @@
       "model": "sakana-namazu",
       "base_url": "https://api.sakana.ai",
       "endpoints": {
-        "chat": "POST /v1/chat/completions"
+        "chat": "POST /v1/chat/completions",
+        "responses": "POST /v1/responses",
+        "messages": "POST /v1/messages"
       },
-      "reasoning_param": "chat_template_kwargs.thinking"
+      "reasoning_param": "chat_template_kwargs.thinking",
+      "reasoning_params": {
+        "chat": "chat_template_kwargs.thinking",
+        "responses": "chat_template_kwargs.thinking",
+        "messages": "thinking"
+      }
     }
   ],
   "aliases": [
