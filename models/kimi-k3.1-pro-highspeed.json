@@ -63,7 +63,7 @@
     "knowledge_cutoff": null,
     "description": "High-speed variant of Kimi K3.1 Pro that delivers 2-3× the speed of K3.1 Pro. It uses the same 1,048,576-token context, image and video input, and always-on thinking.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -175,6 +175,11 @@
       "title": "Responses API（This endpoint currently supports kimi-k3.1-pro, kimi-k3.1-pro-highspeed, and kimi-k3; server https://api.moonshot.ai）| Kimi API Platform",
       "url": "https://platform.kimi.ai/docs/api/responses",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Kimi K3.1 Pro Pricing Explained: Membership Plans and API Costs | Kimi",
+      "url": "https://www.kimi.ai/resources/kimi-k3-1-pro-pricing",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
