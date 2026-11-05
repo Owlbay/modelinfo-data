@@ -3,5 +3,6 @@
   "name": "Naver",
   "url": "https://clova.ai",
   "owned_by": "naver",
+  "api_key_url": "https://clovastudio.ncloud.com/info/api-key",
   "docs_url": "https://api.ncloud-docs.com/docs/en/ai-naver-clovastudio-summary"
 }

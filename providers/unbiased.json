@@ -3,5 +3,6 @@
   "name": "Unbiased AI",
   "url": "https://unbiased.ai",
   "owned_by": "unbiased",
+  "api_key_url": "https://platform.unbiased.ai/",
   "docs_url": "https://unbiased.ai/developers/"
 }

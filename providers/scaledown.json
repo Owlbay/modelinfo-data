@@ -3,5 +3,6 @@
   "name": "ScaleDown",
   "url": "https://scaledown.ai",
   "owned_by": "scaledown",
+  "api_key_url": "https://scaledown.ai/dashboard/api-keys",
   "docs_url": "https://docs.scaledown.ai/"
 }

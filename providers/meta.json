@@ -3,5 +3,6 @@
   "name": "Meta",
   "url": "https://dev.meta.ai",
   "owned_by": "meta",
+  "api_key_url": "https://dev.meta.ai/api-keys",
   "docs_url": "https://dev.meta.ai/docs"
 }

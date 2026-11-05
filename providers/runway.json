@@ -3,5 +3,6 @@
   "name": "Runway",
   "url": "https://runwayml.com",
   "owned_by": "runway",
+  "api_key_url": "https://dev.runway.com/settings/api-keys",
   "docs_url": "https://docs.dev.runwayml.com/"
 }

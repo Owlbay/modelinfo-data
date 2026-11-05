@@ -10,7 +10,7 @@
       "hosts": [
         "wanqing.streamlakeapi.com"
       ],
-      "api_key_url": null,
+      "api_key_url": "https://console.streamlake.com/console/wanqing/api-key",
       "docs_url": "https://www.streamlake.com/document/WANQING/mdptab9x4xn2v4vyo9v"
     }
   ]
