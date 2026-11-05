@@ -1,0 +1,75 @@
+{
+  "id": "kat-coder-pro-v2",
+  "object": "model",
+  "created": 1774396800,
+  "owned_by": "kuaishou",
+  "name": "KAT-Coder-Pro-V2",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": 81920
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 2.1,
+      "output": 8.4,
+      "cache_read": 0.42,
+      "cache_write": 0
+    }
+  ],
+  "features": [
+    "tools"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-03-25",
+    "knowledge_cutoff": null,
+    "description": "快手 Kwaipilot 团队最新高性能模型，适用于复杂企业项目与SaaS集成，代码场景表现优秀，适配多种类型 Agent 框架（claude code, opencode, kilocode），原生适配 openclaw，专为前端页面美学进行优化。",
+    "docs": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
+    "verified_at": "2026-11-05"
+  },
+  "providers": [],
+  "aliases": [],
+  "translations": {
+    "en": {
+      "description": "The Kuaishou Kwaipilot team's latest high-performance model, suited to complex enterprise projects and SaaS integration. It performs well in coding scenarios, works with many kinds of agent frameworks (claude code, opencode, kilocode), natively supports openclaw, and is optimized for front-end page aesthetics."
+    }
+  },
+  "sources": [
+    {
+      "title": "万擎模型列表 - 快手万擎(Vanchin)-StreamLake",
+      "url": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "模型发布公告 - 快手万擎(Vanchin)-StreamLake",
+      "url": "https://streamlake.com/document/WANQING/mdptas54hptu5uvllco",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "模型服务价格 - 快手万擎(Vanchin)-StreamLake",
+      "url": "https://www.streamlake.com/document/WANQING/mdsorb4ejjptsmfyrn",
+      "retrieved_at": "2026-11-05"
+    }
+  ]
+}
