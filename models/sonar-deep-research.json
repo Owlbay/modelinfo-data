@@ -29,8 +29,12 @@
     ]
   },
   "reasoning": {
-    "supported": null,
-    "efforts": []
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high"
+    ]
   },
   "prices": [
     {
@@ -52,7 +56,7 @@
     "knowledge_cutoff": null,
     "description": "Perplexity deep research model for the Sonar API; Sonar Chat Completions support ended 2026-09-27 in favor of the Agent API.",
     "docs": "https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -62,7 +66,7 @@
       "endpoints": {
         "chat": "POST /v1/sonar"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning_effort"
     }
   ],
   "aliases": [],
@@ -126,6 +130,11 @@
       "title": "Supported Models (Context Length per Model) - Perplexity docs (archived 2025-04-30)",
       "url": "https://web.archive.org/web/20250430214336/https://docs.perplexity.ai/models/model-cards",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "Changelog | Perplexity",
+      "url": "https://docs.perplexity.ai/changelog",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
