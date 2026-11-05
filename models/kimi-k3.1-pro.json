@@ -65,7 +65,7 @@
     "knowledge_cutoff": null,
     "description": "First model in the Kimi K3.1 series and Moonshot's most capable 3T-class open-weight model to date, with a 1,048,576-token context window. It improves coding, 3D creation, financial research, and other agentic work. Thinking is always on.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -189,6 +189,16 @@
       "title": "Responses API（This endpoint currently supports kimi-k3.1-pro, kimi-k3.1-pro-highspeed, and kimi-k3; server https://api.moonshot.ai）| Kimi API Platform",
       "url": "https://platform.kimi.ai/docs/api/responses",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "moonshotai/Kimi-K3.1-Pro 模型卡（开放权重，Kimi K3.1 Pro License）| Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Kimi K3.1 Pro Pricing Explained: Membership Plans and API Costs | Kimi",
+      "url": "https://www.kimi.ai/resources/kimi-k3-1-pro-pricing",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
