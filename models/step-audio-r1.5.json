@@ -28,7 +28,7 @@
     ]
   },
   "reasoning": {
-    "supported": null,
+    "supported": true,
     "efforts": []
   },
   "prices": [
@@ -95,7 +95,7 @@
     {
       "title": "音频模型 | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/guides/models/audio",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "语音对话 | 阶跃星辰开放平台文档",
