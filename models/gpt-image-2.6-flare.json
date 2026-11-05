@@ -1,0 +1,118 @@
+{
+  "id": "gpt-image-2.6-flare",
+  "object": "model",
+  "created": 1793750400,
+  "owned_by": "openai",
+  "name": "GPT-Image-2.6 Flare",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 5,
+      "output": 30,
+      "cache_read": 1.25,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-04",
+    "knowledge_cutoff": null,
+    "description": "Image generation and editing for fast iteration",
+    "docs": "https://developers.openai.com/api/docs/models/gpt-image-2.6-flare",
+    "verified_at": "2026-11-05"
+  },
+  "providers": [
+    {
+      "id": "openai",
+      "model": "gpt-image-2.6-flare",
+      "base_url": "https://api.openai.com",
+      "endpoints": {
+        "images": "POST /v1/images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "适合快速迭代的图像生成和编辑。"
+    }
+  },
+  "sources": [
+    {
+      "title": "GPT-Image-2.6 Flare Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-image-2.6-flare",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Pricing | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Models | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Changelog（Nov 4, 2026：Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare）| OpenAI API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Image generation guide — GPT Image 2.6 | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/guides/image-generation",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Introducing Images 2.6 | OpenAI",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-05"
+    }
+  ]
+}
