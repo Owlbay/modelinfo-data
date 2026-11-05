@@ -2,5 +2,7 @@
   "id": "pfn",
   "name": "Preferred Networks",
   "url": "https://www.preferred.jp/en/",
-  "owned_by": "pfn"
+  "owned_by": "pfn",
+  "api_key_url": "https://console.platform.preferredai.jp/profile",
+  "docs_url": "https://docs.plamo.preferredai.jp/en/"
 }

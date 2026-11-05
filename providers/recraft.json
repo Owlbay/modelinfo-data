@@ -2,5 +2,7 @@
   "id": "recraft",
   "name": "Recraft",
   "url": "https://www.recraft.ai",
-  "owned_by": "recraft"
+  "owned_by": "recraft",
+  "api_key_url": "https://www.recraft.ai/app/api/api-keys",
+  "docs_url": "https://www.recraft.ai/docs"
 }

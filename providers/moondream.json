@@ -2,5 +2,7 @@
   "id": "moondream",
   "name": "Moondream",
   "url": "https://moondream.ai",
-  "owned_by": "moondream"
+  "owned_by": "moondream",
+  "api_key_url": "https://moondream.ai/c/cloud/api-keys",
+  "docs_url": "https://docs.moondream.ai/"
 }

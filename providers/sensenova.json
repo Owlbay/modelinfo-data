@@ -2,5 +2,7 @@
   "id": "sensenova",
   "name": "SenseNova",
   "url": null,
-  "owned_by": "sensetime"
+  "owned_by": "sensetime",
+  "api_key_url": "https://platform.sensenova.cn/console",
+  "docs_url": "https://platform.sensenova.cn/docs"
 }

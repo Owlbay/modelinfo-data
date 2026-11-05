@@ -2,5 +2,7 @@
   "id": "sarvam",
   "name": "Sarvam AI",
   "url": "https://www.sarvam.ai",
-  "owned_by": "sarvam"
+  "owned_by": "sarvam",
+  "api_key_url": "https://indus.sarvam.ai/key-management",
+  "docs_url": "https://docs.sarvam.ai/"
 }

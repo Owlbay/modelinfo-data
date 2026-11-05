@@ -2,5 +2,7 @@
   "id": "particle",
   "name": "Particle",
   "url": "https://particle.ai",
-  "owned_by": "particle"
+  "owned_by": "particle",
+  "api_key_url": "https://platform.particle.ai",
+  "docs_url": "https://docs.particle.ai/"
 }

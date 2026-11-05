@@ -2,5 +2,7 @@
   "id": "soniox",
   "name": "Soniox",
   "url": "https://soniox.com",
-  "owned_by": "soniox"
+  "owned_by": "soniox",
+  "api_key_url": "https://console.soniox.com/",
+  "docs_url": "https://soniox.com/docs"
 }

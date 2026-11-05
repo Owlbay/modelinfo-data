@@ -2,5 +2,6 @@
   "id": "naver",
   "name": "Naver",
   "url": "https://clova.ai",
-  "owned_by": "naver"
+  "owned_by": "naver",
+  "docs_url": "https://api.ncloud-docs.com/docs/en/ai-naver-clovastudio-summary"
 }

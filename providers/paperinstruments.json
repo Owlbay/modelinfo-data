@@ -2,5 +2,7 @@
   "id": "paperinstruments",
   "name": "Paper Instruments",
   "url": "https://www.paperinstruments.com",
-  "owned_by": "paperinstruments"
+  "owned_by": "paperinstruments",
+  "api_key_url": "https://platform.paperinstruments.com/keys",
+  "docs_url": "https://docs.paperinstruments.com/docs/ultramarine"
 }

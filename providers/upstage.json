@@ -2,5 +2,7 @@
   "id": "upstage",
   "name": "Upstage",
   "url": "https://upstage.ai",
-  "owned_by": "upstage"
+  "owned_by": "upstage",
+  "api_key_url": "https://console.upstage.ai/api-keys",
+  "docs_url": "https://console.upstage.ai/docs/getting-started"
 }

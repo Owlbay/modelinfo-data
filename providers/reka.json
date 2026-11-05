@@ -2,5 +2,7 @@
   "id": "reka",
   "name": "Reka AI",
   "url": "https://reka.ai",
-  "owned_by": "reka"
+  "owned_by": "reka",
+  "api_key_url": "https://developer.reka.ai/keys",
+  "docs_url": "https://docs.reka.ai/"
 }

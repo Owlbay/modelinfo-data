@@ -2,5 +2,7 @@
   "id": "black-forest-labs",
   "name": "Black Forest Labs",
   "url": "https://bfl.ai",
-  "owned_by": "black-forest-labs"
+  "owned_by": "black-forest-labs",
+  "api_key_url": "https://dashboard.bfl.ai",
+  "docs_url": "https://docs.bfl.ai/"
 }

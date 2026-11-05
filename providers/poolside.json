@@ -2,5 +2,7 @@
   "id": "poolside",
   "name": "Poolside",
   "url": "https://poolside.ai",
-  "owned_by": "poolside"
+  "owned_by": "poolside",
+  "api_key_url": "https://platform.poolside.ai/",
+  "docs_url": "https://docs.poolside.ai/api/overview"
 }

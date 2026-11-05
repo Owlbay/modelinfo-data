@@ -2,5 +2,7 @@
   "id": "anthropic",
   "name": "Anthropic",
   "url": "https://www.anthropic.com",
-  "owned_by": "anthropic"
+  "owned_by": "anthropic",
+  "api_key_url": "https://platform.claude.com/settings/keys",
+  "docs_url": "https://platform.claude.com/docs"
 }

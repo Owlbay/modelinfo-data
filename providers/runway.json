@@ -2,5 +2,6 @@
   "id": "runway",
   "name": "Runway",
   "url": "https://runwayml.com",
-  "owned_by": "runway"
+  "owned_by": "runway",
+  "docs_url": "https://docs.dev.runwayml.com/"
 }

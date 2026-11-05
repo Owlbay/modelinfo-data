@@ -2,5 +2,7 @@
   "id": "deepseek",
   "name": "DeepSeek",
   "url": "https://www.deepseek.com",
-  "owned_by": "deepseek"
+  "owned_by": "deepseek",
+  "api_key_url": "https://platform.deepseek.com/api_keys",
+  "docs_url": "https://api-docs.deepseek.com/"
 }

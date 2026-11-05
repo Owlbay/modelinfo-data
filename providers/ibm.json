@@ -2,5 +2,7 @@
   "id": "ibm",
   "name": "IBM",
   "url": "https://www.ibm.com",
-  "owned_by": "ibm"
+  "owned_by": "ibm",
+  "api_key_url": "https://cloud.ibm.com/iam/apikeys",
+  "docs_url": "https://cloud.ibm.com/docs/apis/watsonx-ai"
 }

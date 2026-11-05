@@ -2,5 +2,7 @@
   "id": "aisingapore",
   "name": "AI Singapore",
   "url": "https://aisingapore.org",
-  "owned_by": "aisingapore"
+  "owned_by": "aisingapore",
+  "api_key_url": "https://playground.sea-lion.ai/key-manager",
+  "docs_url": "https://docs.sea-lion.ai/"
 }

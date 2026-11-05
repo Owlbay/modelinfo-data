@@ -2,5 +2,7 @@
   "id": "modelbest",
   "name": "ModelBest",
   "url": "https://platform.modelbest.cn",
-  "owned_by": "openbmb"
+  "owned_by": "openbmb",
+  "api_key_url": "https://platform.modelbest.cn",
+  "docs_url": "https://github.com/OpenBMB/MiniCPM-V/blob/main/docs/api.md"
 }

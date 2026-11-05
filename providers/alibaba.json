@@ -2,5 +2,16 @@
   "id": "alibaba",
   "name": "Alibaba",
   "url": "https://www.alibabacloud.com/en/product/modelstudio",
-  "owned_by": "alibaba"
+  "owned_by": "alibaba",
+  "api_key_url": "https://modelstudio.console.alibabacloud.com/ap-southeast-1/settings/api-key",
+  "docs_url": "https://www.alibabacloud.com/help/en/model-studio/",
+  "sites": [
+    {
+      "hosts": [
+        "{workspaceid}.cn-beijing.maas.aliyuncs.com"
+      ],
+      "api_key_url": "https://bailian.console.aliyun.com/cn-beijing/model/settings/api-key",
+      "docs_url": "https://help.aliyun.com/zh/model-studio/"
+    }
+  ]
 }

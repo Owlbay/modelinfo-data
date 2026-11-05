@@ -2,5 +2,7 @@
   "id": "aionlabs",
   "name": "Aion Labs",
   "url": "https://www.aionlabs.ai",
-  "owned_by": "aionlabs"
+  "owned_by": "aionlabs",
+  "api_key_url": "https://www.aionlabs.ai/app/api-keys/",
+  "docs_url": "https://www.aionlabs.ai/docs/"
 }

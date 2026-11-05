@@ -2,5 +2,7 @@
   "id": "ant",
   "name": "Ant Group",
   "url": "https://www.ant-ling.com",
-  "owned_by": "ant"
+  "owned_by": "ant",
+  "api_key_url": "https://chat.ant-ling.com/open",
+  "docs_url": "https://developer.ant-ling.com/en/docs"
 }

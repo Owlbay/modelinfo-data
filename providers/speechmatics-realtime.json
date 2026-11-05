@@ -2,5 +2,7 @@
   "id": "speechmatics-realtime",
   "name": "Speechmatics Realtime",
   "url": null,
-  "owned_by": "speechmatics"
+  "owned_by": "speechmatics",
+  "api_key_url": "https://portal.speechmatics.com/settings/api-keys",
+  "docs_url": "https://docs.speechmatics.com/"
 }

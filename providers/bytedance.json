@@ -2,5 +2,7 @@
   "id": "bytedance",
   "name": "ByteDance",
   "url": "https://www.volcengine.com/product/ark",
-  "owned_by": "bytedance"
+  "owned_by": "bytedance",
+  "api_key_url": "https://ark.volcengine.com/region:cn-beijing/apiKey",
+  "docs_url": "https://docs.volcengine.com/docs/ark"
 }

@@ -2,5 +2,7 @@
   "id": "huawei",
   "name": "Huawei",
   "url": "https://www.huaweicloud.com",
-  "owned_by": "huawei"
+  "owned_by": "huawei",
+  "api_key_url": "https://console.huaweicloud.com/maas/#/model-studio/authmanage",
+  "docs_url": "https://support.huaweicloud.com/maas/index.html"
 }

@@ -2,5 +2,7 @@
   "id": "perplexity",
   "name": "Perplexity",
   "url": "https://www.perplexity.ai",
-  "owned_by": "perplexity"
+  "owned_by": "perplexity",
+  "api_key_url": "https://console.perplexity.ai/project/keys",
+  "docs_url": "https://docs.perplexity.ai/"
 }

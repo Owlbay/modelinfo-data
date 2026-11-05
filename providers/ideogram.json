@@ -2,5 +2,7 @@
   "id": "ideogram",
   "name": "Ideogram",
   "url": "https://ideogram.ai",
-  "owned_by": "ideogram"
+  "owned_by": "ideogram",
+  "api_key_url": "https://ideogram.ai/platform/api-keys",
+  "docs_url": "https://developer.ideogram.ai/"
 }

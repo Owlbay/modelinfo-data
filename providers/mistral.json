@@ -2,5 +2,7 @@
   "id": "mistral",
   "name": "Mistral AI",
   "url": "https://mistral.ai",
-  "owned_by": "mistral"
+  "owned_by": "mistral",
+  "api_key_url": "https://console.mistral.ai/api-keys",
+  "docs_url": "https://docs.mistral.ai/"
 }
