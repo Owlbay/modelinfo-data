@@ -15,9 +15,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 98304,
     "input": null,
-    "output": null
+    "output": 32768
   },
   "modalities": {
     "input": [
@@ -48,7 +48,7 @@
     "knowledge_cutoff": "2025-01",
     "description": "Speech-to-text model with language detection, speaker diarization, word-level timestamps and custom vocabulary.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -105,7 +105,7 @@
     {
       "title": "Gemini 3.5 Audio - Model Card — Google DeepMind",
       "url": "https://deepmind.google/models/model-cards/gemini-3-5-audio/",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Audio transcription | Gemini API",
