@@ -28,7 +28,16 @@
     "supported": null,
     "efforts": []
   },
-  "prices": [],
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "second",
+      "input": null,
+      "output": 0.125,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
   "features": [],
   "info": {
     "status": "active",
@@ -36,7 +45,7 @@
     "knowledge_cutoff": null,
     "description": "Faster video generation model of the Vidu Q3 series, 1-16s clips.",
     "docs": "https://platform.vidu.com/docs/overview/model-map",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -75,6 +84,11 @@
       "title": "Vidu API: video-models/vidu-q3/text-to-video",
       "url": "https://platform.vidu.com/docs/api-reference/video-models/vidu-q3/text-to-video",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "Pricing | Vidu API Docs（Credit Unit Price：1 credit = 0.03125 RMB；Credit Consumption Details）",
+      "url": "https://platform.vidu.com/docs/pricing",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
