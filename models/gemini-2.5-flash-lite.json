@@ -59,7 +59,7 @@
     "knowledge_cutoff": "2025-01",
     "description": "Cost-efficient multimodal model for high-volume, lightweight, low-latency tasks.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -71,7 +71,7 @@
         "batch": "POST /v1beta/models/{model}:batchGenerateContent",
         "interactions": "POST /v1beta/interactions"
       },
-      "reasoning_param": null
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingBudget"
     },
     {
       "id": "vertex-ai",
@@ -80,7 +80,7 @@
       "endpoints": {
         "generate": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent"
       },
-      "reasoning_param": null
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingBudget"
     }
   ],
   "aliases": [],
@@ -113,7 +113,7 @@
     {
       "title": "Generating content | Gemini API",
       "url": "https://ai.google.dev/api/generate-content",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Batch API | Gemini API",
@@ -159,6 +159,11 @@
       "title": "Get started with Gemini Enterprise Agent Platform (API_ENDPOINT https://aiplatform.googleapis.com, location global, .../publishers/google/models/{MODEL_ID}:generateContent) | Google Cloud Documentation",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Thinking (Gemini 2.5 and earlier models: configure thinking using the thinking_budget parameter; supported models include Gemini 2.5 Pro, Flash-Lite, Flash) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/thinking",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

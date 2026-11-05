@@ -6,16 +6,19 @@
   "name": "Ling-3.1-flash",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "messages"
     ],
     "sdk": [
+      "@ai-sdk/anthropic",
       "@ai-sdk/openai",
       "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
       "openai"
     ]
   },
   "limits": {
-    "context": 262144,
+    "context": 1048576,
     "input": null,
     "output": null
   },
@@ -43,6 +46,7 @@
   ],
   "features": [
     "tools",
+    "structured_output",
     "streaming"
   ],
   "info": {
@@ -51,17 +55,18 @@
     "knowledge_cutoff": null,
     "description": "Hybrid reasoning model for long-horizon tasks, office work, software development and agent workflows; free for a limited time.",
     "docs": "https://developer.ant-ling.com/en/docs/models/ling",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
       "id": "ant",
       "model": "Ling-3.1-flash",
-      "base_url": "https://api.ant-ling.com/v1",
+      "base_url": "https://api.ant-ling.com",
       "endpoints": {
-        "chat": "POST /chat/completions"
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
       },
-      "reasoning_param": null
+      "reasoning_param": "thinking.type"
     }
   ],
   "aliases": [
@@ -76,7 +81,7 @@
     {
       "title": "Ling | Ant Ling Docs",
       "url": "https://developer.ant-ling.com/en/docs/models/ling",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Pricing | Ant Ling Docs",
@@ -122,6 +127,31 @@
       "title": "Pricing — Ling-3.1-flash 原价 ¥2.00 / ¥6.00 / 缓存 ¥0.40（限时折扣价不计） | Ant Ling Docs",
       "url": "https://developer.ant-ling.com/en/docs/models/price",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai/",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Anthropic Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/anthropic/",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Structured Outputs | Ant Ling Tutorials",
+      "url": "https://developer.ant-ling.com/en/docs/tutorials/structured-outputs/",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
     }
   ]
 }
