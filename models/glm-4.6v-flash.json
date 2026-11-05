@@ -46,7 +46,8 @@
     }
   ],
   "features": [
-    "tools"
+    "tools",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -54,7 +55,7 @@
     "knowledge_cutoff": null,
     "description": "Lightweight and completely free GLM-4.6V series model.",
     "docs": "https://docs.z.ai/guides/vlm/glm-4.6v",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -107,7 +108,7 @@
     {
       "title": "GLM-4.6V-Flash | 智谱AI开放文档",
       "url": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.6v-flash",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "GLM-4.6V official release announcement",

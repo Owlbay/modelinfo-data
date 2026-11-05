@@ -54,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "M2-her is MiniMax's LLM optimized for dialogue scenarios, supporting rich role settings and conversation history management capabilities.",
     "docs": "https://platform.minimax.io/docs/guides/text-chat",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -70,6 +70,11 @@
   "aliases": [
     "M2-her"
   ],
+  "translations": {
+    "zh": {
+      "description": "M2-her 是 MiniMax 针对对话场景优化的大语言模型，支持丰富的角色设定与对话历史管理能力。"
+    }
+  },
   "sources": [
     {
       "title": "Chat Model | MiniMax API Docs（M2-her 上下文 64 K，max_completion_tokens 上限 2048）",

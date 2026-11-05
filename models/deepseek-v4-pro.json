@@ -70,7 +70,7 @@
     "knowledge_cutoff": null,
     "description": "DeepSeek-V4-Pro, the flagship V4 model with thinking and non-thinking modes.",
     "docs": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -87,6 +87,15 @@
         "chat": "reasoning_effort",
         "responses": "reasoning.effort"
       }
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "DeepSeek-V4-Pro",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
     }
   ],
   "aliases": [],
@@ -165,6 +174,16 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Foundry Models sold by Azure (DeepSeek-V4-Pro: chat-completion) - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Endpoints for Microsoft Foundry Models (/openai/v1/ route, Chat Completions for Foundry Models sold by Azure) - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/endpoints",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -59,12 +59,12 @@
     "structured_output"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": null,
     "knowledge_cutoff": null,
     "description": "High-speed variant of Kimi K2.7 Code, about 180 tokens/s output.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -87,7 +87,7 @@
     {
       "title": "Model List | Kimi API Platform",
       "url": "https://platform.kimi.ai/docs/models",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Chat Model Pricing | Kimi API Platform",
