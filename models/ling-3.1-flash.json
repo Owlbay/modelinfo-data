@@ -15,7 +15,7 @@
     ]
   },
   "limits": {
-    "context": 262144,
+    "context": 1048576,
     "input": null,
     "output": null
   },
@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Hybrid reasoning model for long-horizon tasks, office work, software development and agent workflows; free for a limited time.",
     "docs": "https://developer.ant-ling.com/en/docs/models/ling",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -76,7 +76,7 @@
     {
       "title": "Ling | Ant Ling Docs",
       "url": "https://developer.ant-ling.com/en/docs/models/ling",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Pricing | Ant Ling Docs",
@@ -122,6 +122,16 @@
       "title": "Pricing — Ling-3.1-flash 原价 ¥2.00 / ¥6.00 / 缓存 ¥0.40（限时折扣价不计） | Ant Ling Docs",
       "url": "https://developer.ant-ling.com/en/docs/models/price",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Ling | 蚂蚁百灵开发者文档（Ling-3.1-flash：模型上下文窗口为 1M）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/models/ling",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "inclusionAI/Ling-3.1-flash model card（1M-token context window）| Hugging Face",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
