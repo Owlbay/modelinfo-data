@@ -48,6 +48,7 @@
   "features": [
     "tools",
     "structured_output",
+    "streaming",
     "batch"
   ],
   "info": {
@@ -56,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "First Mistral model with audio input capabilities for instruct use cases.",
     "docs": "https://docs.mistral.ai/models/voxtral-small-25-07",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -91,7 +92,7 @@
     {
       "title": "Voxtral Small | Mistral Docs",
       "url": "https://docs.mistral.ai/models/voxtral-small-25-07",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "API pricing | Mistral Docs",
@@ -157,6 +158,11 @@
       "title": "Batch | Mistral Docs",
       "url": "https://docs.mistral.ai/api/endpoint/batch",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat completions (Streaming) | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/conversations/chat-completion",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

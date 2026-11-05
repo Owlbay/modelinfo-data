@@ -48,6 +48,7 @@
   "features": [
     "tools",
     "structured_output",
+    "streaming",
     "caching",
     "batch"
   ],
@@ -57,7 +58,7 @@
     "knowledge_cutoff": null,
     "description": "State-of-the-art, open-weight, general-purpose multimodal model with a granular Mixture-of-Experts architecture.",
     "docs": "https://docs.mistral.ai/models/mistral-large-3-25-12",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -92,7 +93,7 @@
     {
       "title": "Mistral Large 3 | Mistral Docs",
       "url": "https://docs.mistral.ai/models/mistral-large-3-25-12",
-      "retrieved_at": "2026-11-02"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "API pricing | Mistral Docs",
@@ -163,6 +164,11 @@
       "title": "Batch | Mistral Docs",
       "url": "https://docs.mistral.ai/api/endpoint/batch",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Chat completions (Streaming) | Mistral Docs",
+      "url": "https://docs.mistral.ai/inference/conversations/chat-completion",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

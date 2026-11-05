@@ -7,6 +7,7 @@
   "api": {
     "types": [
       "chat",
+      "messages",
       "responses"
     ],
     "sdk": [
@@ -76,6 +77,15 @@
         "responses": "POST /responses"
       },
       "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "bytedance",
+      "model": "doubao-seed-evolving",
+      "base_url": "https://ark.cn-beijing.volces.com/api/compatible",
+      "endpoints": {
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": "thinking.type"
     }
   ],
   "aliases": [],
@@ -88,7 +98,7 @@
     {
       "title": "模型列表 | 火山方舟",
       "url": "https://www.volcengine.com/docs/82379/1330310",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "模型价格 | 火山方舟",
@@ -143,6 +153,11 @@
     {
       "title": "模型发布公告 | 火山方舟（202606：doubao-seed-evolving 新发布）",
       "url": "https://docs.volcengine.com/docs/zh/ark/model-release-announcement",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "创建 Message（Messages API）| 火山方舟",
+      "url": "https://ark.volcengine.com/region:cn-beijing/docs/messages-api",
       "retrieved_at": "2026-11-05"
     }
   ]

@@ -48,6 +48,7 @@
   "features": [
     "tools",
     "structured_output",
+    "streaming",
     "caching",
     "batch"
   ],
@@ -210,6 +211,11 @@
     {
       "title": "Azure OpenAI in Microsoft Foundry Models v1 API (base_url https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1/; chat completions with models from other providers like DeepSeek and Grok) | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/api-version-lifecycle",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Streaming (supported by all models with text output capability) | xAI Docs",
+      "url": "https://docs.x.ai/developers/model-capabilities/text/streaming",
       "retrieved_at": "2026-11-05"
     }
   ]

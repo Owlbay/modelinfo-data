@@ -45,6 +45,7 @@
   ],
   "features": [
     "structured_output",
+    "streaming",
     "caching",
     "batch"
   ],
@@ -54,7 +55,7 @@
     "knowledge_cutoff": null,
     "description": "Multiple agents collaborate in parallel to perform deep research tasks.",
     "docs": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -65,7 +66,7 @@
         "responses": "POST /v1/responses",
         "batch": "POST /v1/batches"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning.effort"
     }
   ],
   "aliases": [
@@ -110,7 +111,7 @@
     {
       "title": "Multi Agent | xAI Docs",
       "url": "https://docs.x.ai/developers/model-capabilities/text/multi-agent",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",
@@ -151,6 +152,16 @@
       "title": "Batches (POST /v1/batches) | xAI REST API Reference",
       "url": "https://docs.x.ai/developers/rest-api-reference/inference/batches",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Streaming (supported by all models with text output capability) | xAI Docs",
+      "url": "https://docs.x.ai/developers/model-capabilities/text/streaming",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Reasoning (summary table: grok-4.20-multi-agent reasoning.effort) | xAI Docs",
+      "url": "https://docs.x.ai/developers/model-capabilities/text/reasoning",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

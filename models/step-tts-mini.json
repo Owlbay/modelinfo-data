@@ -54,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "Multilingual text-to-speech with preset voices and voice cloning.",
     "docs": "https://platform.stepfun.ai/docs/en/guides/models/overview",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -63,6 +63,15 @@
       "base_url": "https://api.stepfun.com/v1",
       "endpoints": {
         "audio": "POST /audio/speech"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "stepfun",
+      "model": "step-tts-mini",
+      "base_url": "wss://api.stepfun.com/v1",
+      "endpoints": {
+        "audio": "WS /realtime/audio"
       },
       "reasoning_param": null
     },
@@ -115,6 +124,11 @@
       "title": "语音合成 | 阶跃星辰开放平台文档",
       "url": "https://platform.stepfun.com/docs/zh/api-reference/audio/create-audio",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "流式语音合成（wss://api.stepfun.com/v1/realtime/audio；model 支持 stepaudio-3-tts、stepaudio-2.5-tts、step-tts-2、step-tts-mini）| 阶跃星辰开放平台",
+      "url": "https://platform.stepfun.com/docs/zh/api-reference/audio/ws-audio",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

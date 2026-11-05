@@ -15,7 +15,7 @@
   "limits": {
     "context": 32000,
     "input": null,
-    "output": null
+    "output": 2048
   },
   "modalities": {
     "input": [
@@ -48,9 +48,9 @@
     "status": "active",
     "release_date": null,
     "knowledge_cutoff": null,
-    "description": null,
+    "description": "SuperCLUE评测，模型能力国内第一。在知识百科、长文本、生成创作等中文任务上超越国外主流模型。还具备行业领先的多模态能力，多项权威评测基准表现优异。",
     "docs": "https://platform.baichuan-ai.com/docs-v2/api",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -76,6 +76,16 @@
       "title": "产品定价 | 百川智能开放平台",
       "url": "https://platform.baichuan-ai.com/prices",
       "retrieved_at": "2026-11-03"
+    },
+    {
+      "title": "通用大模型接口文档 ",
+      "url": " 百川智能开放平台|https://platform.baichuan-ai.com/docs-v2/api",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "百川智能官网",
+      "url": "https://www.baichuan-ai.com/home",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -7,7 +7,8 @@
   "api": {
     "types": [
       "chat",
-      "responses"
+      "responses",
+      "batch"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -52,7 +53,9 @@
   "features": [
     "tools",
     "structured_output",
-    "caching"
+    "streaming",
+    "caching",
+    "batch"
   ],
   "info": {
     "status": "active",
@@ -60,7 +63,7 @@
     "knowledge_cutoff": null,
     "description": "SpaceXAI's intelligent coding model for agentic software, engineering, and workflow tasks.",
     "docs": "https://docs.x.ai/developers/models/grok-4.5",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -69,7 +72,8 @@
       "base_url": "https://api.x.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions",
-        "responses": "POST /v1/responses"
+        "responses": "POST /v1/responses",
+        "batch": "POST /v1/batches"
       },
       "reasoning_param": "reasoning_effort"
     }
@@ -87,7 +91,7 @@
     {
       "title": "Grok 4.5 | xAI Docs",
       "url": "https://docs.x.ai/developers/models/grok-4.5",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Models and Pricing | xAI Docs",
@@ -133,6 +137,21 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Streaming (supported by all models with text output capability) | xAI Docs",
+      "url": "https://docs.x.ai/developers/model-capabilities/text/streaming",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Batch API | xAI Docs",
+      "url": "https://docs.x.ai/developers/advanced-api-usage/batch-api",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Batches — REST API reference | xAI Docs",
+      "url": "https://docs.x.ai/developers/rest-api-reference/inference/batches",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

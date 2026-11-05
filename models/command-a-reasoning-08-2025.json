@@ -33,7 +33,8 @@
   "prices": [],
   "features": [
     "tools",
-    "structured_output"
+    "structured_output",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -69,7 +70,7 @@
     {
       "title": "Cohere Model Overview",
       "url": "https://docs.cohere.com/docs/models",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "How does Cohere pricing work?",
@@ -99,6 +100,11 @@
     {
       "title": "Reasoning Capabilities (thinking parameter: {\"type\": \"disabled\"} turns off thinking; enabled by default; thinking token budget) | Cohere",
       "url": "https://docs.cohere.com/docs/reasoning",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "A Guide to Streaming Responses (Chat API streaming) | Cohere",
+      "url": "https://docs.cohere.com/docs/streaming",
       "retrieved_at": "2026-11-05"
     }
   ]
