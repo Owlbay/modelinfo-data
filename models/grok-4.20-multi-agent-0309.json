@@ -66,7 +66,7 @@
         "responses": "POST /v1/responses",
         "batch": "POST /v1/batches"
       },
-      "reasoning_param": "reasoning.effort"
+      "reasoning_param": null
     }
   ],
   "aliases": [
@@ -109,7 +109,7 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "Multi Agent | xAI Docs",
+      "title": "Multi Agent (agent count: reasoning.effort low/medium = 4 agents, high/xhigh = 16 agents) | xAI Docs",
       "url": "https://docs.x.ai/developers/model-capabilities/text/multi-agent",
       "retrieved_at": "2026-11-05"
     },
@@ -159,7 +159,7 @@
       "retrieved_at": "2026-11-05"
     },
     {
-      "title": "Reasoning (summary table: grok-4.20-multi-agent reasoning.effort) | xAI Docs",
+      "title": "Reasoning (grok-4.20-multi-agent: reasoning.effort controls how many agents collaborate rather than reasoning depth) | xAI Docs",
       "url": "https://docs.x.ai/developers/model-capabilities/text/reasoning",
       "retrieved_at": "2026-11-05"
     }
