@@ -124,6 +124,7 @@ func Load(fsys fs.FS) (*Dataset, Issues) {
 			}
 		}
 	}
+	issues = append(issues, checkSiteHosts(ds)...)
 	slices.SortStableFunc(issues, func(a, b Issue) int {
 		if c := strings.Compare(a.File, b.File); c != 0 {
 			return c
@@ -258,4 +259,51 @@ func quote(s string) string {
 		s = string(r[:80]) + "…"
 	}
 	return "`" + s + "`"
+}
+
+// checkSiteHosts 检查供应商 sites[].hosts 的每个主机都出现在引用该供应商的某个模型的 base_url 中，
+// 避免写错主机后前台按钮悄悄退回默认入口。
+func checkSiteHosts(ds *Dataset) Issues {
+	used := map[string]map[string]bool{}
+	for _, m := range ds.Models {
+		for _, pv := range m.Model.Providers {
+			if used[pv.ID] == nil {
+				used[pv.ID] = map[string]bool{}
+			}
+			used[pv.ID][BaseURLHost(pv.BaseURL)] = true
+		}
+	}
+	var out Issues
+	for _, pf := range ds.Providers {
+		for i, s := range pf.Provider.Sites {
+			for j, h := range s.Hosts {
+				if !used[pf.Provider.ID][h] {
+					out = append(out, Issue{File: pf.Path, Path: fmt.Sprintf("sites[%d].hosts[%d]", i, j), Msg: fmt.Sprintf("没有模型以 %s 为 base_url 主机调用供应商 %s", h, pf.Provider.ID)})
+				}
+			}
+		}
+	}
+	return out
+}
+
+// BaseURLHost 返回 base_url 的主机部分（去掉 https:// 或 wss:// 与路径，保留占位符原样、转为小写），
+// 用于与供应商 sites[].hosts 匹配。
+func BaseURLHost(baseURL string) string {
+	_, rest, ok := strings.Cut(baseURL, "://")
+	if !ok {
+		rest = baseURL
+	}
+	host, _, _ := strings.Cut(rest, "/")
+	return strings.ToLower(host)
+}
+
+// SiteFor 返回 base_url 对应的开发者入口：先找 sites 中包含该主机的站点，否则用供应商默认值。
+func (p ProviderInfo) SiteFor(baseURL string) (apiKeyURL, docsURL *string) {
+	h := BaseURLHost(baseURL)
+	for _, s := range p.Sites {
+		if slices.Contains(s.Hosts, h) {
+			return s.APIKeyURL, s.DocsURL
+		}
+	}
+	return p.APIKeyURL, p.DocsURL
 }

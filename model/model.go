@@ -105,4 +105,16 @@ type ProviderInfo struct {
 	Name    string  `json:"name"`
 	URL     *string `json:"url"`
 	OwnedBy *string `json:"owned_by"`
+	// 以下可省略：开发者入口（前台模型页「获取 API Key」「API 文档」按钮）。
+	APIKeyURL *string        `json:"api_key_url,omitempty"` // 创建或获取 API Key 的官方页面
+	DocsURL   *string        `json:"docs_url,omitempty"`    // 官方 API 文档首页
+	Sites     []ProviderSite `json:"sites,omitempty"`       // 国内站/国际站、不同区域的入口不同时，按 base_url 主机区分
+}
+
+// ProviderSite 是供应商的一个站点：模型 providers[].base_url 的主机属于 hosts 时，
+// 用这里的入口代替供应商默认的 api_key_url、docs_url。
+type ProviderSite struct {
+	Hosts     []string `json:"hosts"`       // base_url 的主机名，照原样（可含占位符，如 {workspaceid}.cn-beijing.maas.aliyuncs.com）
+	APIKeyURL *string  `json:"api_key_url"` // 该站点获取 API Key 的官方页面；没有为 null
+	DocsURL   *string  `json:"docs_url"`    // 该站点的官方 API 文档首页；没有为 null
 }

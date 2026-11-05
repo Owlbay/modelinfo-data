@@ -430,11 +430,48 @@ func DecodeProvider(data []byte) (ProviderInfo, error) {
 	if v.URL != nil && !isURL(*v.URL, "https://") {
 		p = append(p, "url：必须是 https 网址")
 	}
+	if v.APIKeyURL != nil && !isURL(*v.APIKeyURL, "https://") {
+		p = append(p, "api_key_url：必须是 https 网址")
+	}
+	if v.DocsURL != nil && !isURL(*v.DocsURL, "https://") {
+		p = append(p, "docs_url：必须是 https 网址")
+	}
+	if v.Sites != nil && len(v.Sites) == 0 {
+		p = append(p, "sites：没有时省略，不写空数组")
+	}
+	seen := map[string]bool{}
+	for i, s := range v.Sites {
+		at := fmt.Sprintf("sites[%d]", i)
+		if len(s.Hosts) == 0 {
+			p = append(p, at+".hosts：至少一项")
+		}
+		for j, h := range s.Hosts {
+			switch {
+			case !reHost.MatchString(h):
+				p = append(p, fmt.Sprintf("%s.hosts[%d]：只写主机名（小写，不含 https:// 与路径），与模型 base_url 的主机一致", at, j))
+			case seen[h]:
+				p = append(p, fmt.Sprintf("%s.hosts[%d]：主机 %s 重复", at, j, h))
+			}
+			seen[h] = true
+		}
+		if s.APIKeyURL == nil && s.DocsURL == nil {
+			p = append(p, at+"：api_key_url 与 docs_url 至少写一项")
+		}
+		if s.APIKeyURL != nil && !isURL(*s.APIKeyURL, "https://") {
+			p = append(p, at+".api_key_url：必须是 https 网址")
+		}
+		if s.DocsURL != nil && !isURL(*s.DocsURL, "https://") {
+			p = append(p, at+".docs_url：必须是 https 网址")
+		}
+	}
 	if len(p) > 0 {
 		return v, p
 	}
 	return v, nil
 }
+
+// reHost 是 sites[].hosts 的写法：小写主机名，允许 base_url 中照原样保留的占位符（{region}、<resource-name>、${region}）。
+var reHost = regexp.MustCompile(`^[a-z0-9{}<>$_-]+(\.[a-z0-9{}<>$_-]+)+$`)
 
 func strict(data []byte, v any) error {
 	dec := json.NewDecoder(bytes.NewReader(data))

@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/Owlbay/modelinfo-data/raw/main/schema/provider.schema.json",
   "title": "ModelInfo 供应商 / Provider",
-  "description": "providers/<id>.json：API 供应商（模型的 providers[].id 引用它）。字段顺序为 id、name、url、owned_by。",
+  "description": "providers/<id>.json：API 供应商（模型的 providers[].id 引用它）。字段顺序为 id、name、url、owned_by、api_key_url、docs_url、sites（后三项可省略）。",
   "type": "object",
   "additionalProperties": false,
   "required": ["id", "name", "url", "owned_by"],
@@ -10,6 +10,23 @@
     "id": { "description": "供应商 ID，与文件名一致 / Provider ID; must equal the file name.", "type": "string", "pattern": "^[a-z0-9-]+$" },
     "name": { "description": "显示名称 / Display name.", "type": "string", "pattern": "\\S" },
     "url": { "description": "官网 https 网址；没有为 null / Official website or null.", "type": ["string", "null"], "pattern": "^https://" },
-    "owned_by": { "description": "所属厂商 ID（必须存在于 vendors/）；没有为 null / Owning vendor ID or null.", "type": ["string", "null"], "pattern": "^[a-z0-9-]+$" }
+    "owned_by": { "description": "所属厂商 ID（必须存在于 vendors/）；没有为 null / Owning vendor ID or null.", "type": ["string", "null"], "pattern": "^[a-z0-9-]+$" },
+    "api_key_url": { "description": "可省略。创建或获取 API Key 的官方页面 / Optional. Official page to create or get an API key.", "type": "string", "pattern": "^https://" },
+    "docs_url": { "description": "可省略。官方 API 文档首页 / Optional. Official API documentation home.", "type": "string", "pattern": "^https://" },
+    "sites": {
+      "description": "可省略。国内站/国际站、不同区域的入口不同时，按模型 base_url 的主机区分 / Optional. Per-site entry points keyed by the host of providers[].base_url.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["hosts", "api_key_url", "docs_url"],
+        "properties": {
+          "hosts": { "description": "base_url 的主机名，照原样（小写，可含占位符）/ Hosts of base_url as written (lowercase, placeholders kept).", "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9{}<>$_-]+(\\.[a-z0-9{}<>$_-]+)+$" } },
+          "api_key_url": { "description": "该站点获取 API Key 的官方页面；没有为 null / API key page for this site, or null.", "type": ["string", "null"], "pattern": "^https://" },
+          "docs_url": { "description": "该站点的官方 API 文档首页；没有为 null / API docs home for this site, or null.", "type": ["string", "null"], "pattern": "^https://" }
+        }
+      }
+    }
   }
 }
