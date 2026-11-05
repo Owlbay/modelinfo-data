@@ -18,7 +18,7 @@
   "limits": {
     "context": 65536,
     "input": null,
-    "output": null
+    "output": 32768
   },
   "modalities": {
     "input": [
@@ -53,7 +53,7 @@
     "knowledge_cutoff": null,
     "description": "Free visual reasoning model with built-in chain-of-thought.",
     "docs": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.1v-thinking-flash",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -132,6 +132,11 @@
       "title": "GLM-4.1V-Thinking（高并发版 FlashX / 免费版 Flash，上下文 64K） | 智谱开放平台",
       "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.1v-thinking",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "核心参数（各模型最大 max_tokens）",
+      "url": " 智谱 AI 开放文档|https://docs.bigmodel.cn/cn/guide/start/concept-param",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

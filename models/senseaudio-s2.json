@@ -32,7 +32,7 @@
     ]
   },
   "reasoning": {
-    "supported": null,
+    "supported": true,
     "efforts": []
   },
   "prices": [
@@ -55,7 +55,7 @@
     "knowledge_cutoff": null,
     "description": "SenseAudio flagship text generation model.",
     "docs": "https://docs.senseaudio.cn/guides/llm/overview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -136,6 +136,11 @@
       "title": "模型列表（上下文长度、最大输入、最大输出） | SenseAudio 文档",
       "url": "https://docs.senseaudio.cn/guides/account/model-list.md",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Token Plan 概览 | SenseAudio 文档",
+      "url": "https://docs.senseaudio.cn/guides/token-plan/overview",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

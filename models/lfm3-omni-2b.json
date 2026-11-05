@@ -8,7 +8,9 @@
     "types": [
       "chat"
     ],
-    "sdk": []
+    "sdk": [
+      "openai"
+    ]
   },
   "limits": {
     "context": 32000,
@@ -121,6 +123,16 @@
     {
       "title": "Text generation — Streaming (Chat Completions stream: true) | Liquid API",
       "url": "https://docs.liquid.ai/api/guides/text-generation",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Developer quickstart - Liquid AI Docs",
+      "url": "https://docs.liquid.ai/api/quickstart",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Vision - Liquid AI Docs",
+      "url": "https://docs.liquid.ai/api/guides/vision",
       "retrieved_at": "2026-11-05"
     }
   ]

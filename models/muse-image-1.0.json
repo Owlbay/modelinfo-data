@@ -30,8 +30,11 @@
     ]
   },
   "reasoning": {
-    "supported": null,
-    "efforts": []
+    "supported": true,
+    "efforts": [
+      "low",
+      "high"
+    ]
   },
   "prices": [
     {
@@ -43,14 +46,16 @@
       "cache_write": null
     }
   ],
-  "features": [],
+  "features": [
+    "streaming"
+  ],
   "info": {
     "status": "active",
     "release_date": "2026-08-25",
     "knowledge_cutoff": null,
     "description": "Meta's image model that generates and edits images from text prompts and reference images.",
     "docs": "https://dev.meta.ai/docs/image-generation",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -61,7 +66,11 @@
         "responses": "POST /responses",
         "images": "POST /images/generations"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning_strength",
+      "reasoning_params": {
+        "responses": "tools[].reasoning_strength",
+        "images": "reasoning_strength"
+      }
     }
   ],
   "aliases": [],
@@ -84,7 +93,7 @@
     {
       "title": "Image generation | Meta Model API",
       "url": "https://dev.meta.ai/docs/image-generation",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Muse Image on Meta Model API | Meta for Developers",
@@ -105,6 +114,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Muse Image | Meta",
+      "url": "https://dev.meta.ai/models/muse-image",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
