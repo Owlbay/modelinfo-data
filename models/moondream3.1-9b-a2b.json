@@ -15,7 +15,7 @@
   "limits": {
     "context": 32768,
     "input": null,
-    "output": null
+    "output": 4096
   },
   "modalities": {
     "input": [
@@ -47,10 +47,10 @@
   "info": {
     "status": "active",
     "release_date": "2026-07-07",
-    "knowledge_cutoff": "2025-12",
+    "knowledge_cutoff": null,
     "description": "Open-weight vision-language model with 9.0B total parameters and 2.0B active per token. It reads image and text into a 32,768-token context, returns text, and supports grounded reasoning. Weights use the Moondream License. Real-time cloud price is $0.30 per million input tokens and $1.00 per million output tokens. The batch price is half of that and is not stored. The model card still labels its figures preliminary.",
     "docs": "https://moondream.ai/models/moondream_3-1_9B_A2B",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -60,7 +60,7 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning"
     }
   ],
   "aliases": [
@@ -73,9 +73,9 @@
   },
   "sources": [
     {
-      "title": "Moondream 3.1 9B A2B model card",
+      "title": "Moondream 3.1 9B A2B model card（Knowledge cutoff: training data through 2025-12; Freshness / cutoff: data through May 2026）",
       "url": "https://moondream.ai/models/moondream_3-1_9B_A2B",
-      "retrieved_at": "2026-10-24"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Pricing | Moondream",
@@ -98,9 +98,14 @@
       "retrieved_at": "2026-11-04"
     },
     {
-      "title": "OpenAI Compatibility (https://api.moondream.ai/v1/chat/completions; model moondream3.1-9B-A2B or moondream3-preview) | Moondream Docs",
+      "title": "OpenAI Compatibility | Moondream Docs（max_completion_tokens up to 4096, including reasoning tokens; reasoning boolean parameter; model moondream3.1-9B-A2B or moondream3-preview）",
       "url": "https://docs.moondream.ai/openai",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Reasoning | Moondream Docs（\"reasoning\": true with model moondream3.1-9B-A2B）",
+      "url": "https://docs.moondream.ai/reasoning",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
