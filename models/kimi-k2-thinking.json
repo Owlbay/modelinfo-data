@@ -44,13 +44,22 @@
     "knowledge_cutoff": null,
     "description": "Kimi K2 long-term thinking model with multi-step tool use and reasoning for complex problems. Officially discontinued on 2026-05-25.",
     "docs": "https://platform.kimi.ai/docs/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
       "id": "moonshot",
       "model": "kimi-k2-thinking",
       "base_url": "https://api.moonshot.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "moonshotai.kimi-k2-thinking",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
       "endpoints": {
         "chat": "POST /v1/chat/completions"
       },
@@ -103,6 +112,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Kimi K2 Thinking model card (Programmatic Access: bedrock-mantle moonshotai.kimi-k2-thinking, https://bedrock-mantle.{region}.api.aws/v1; Chat Completions) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-thinking.html",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

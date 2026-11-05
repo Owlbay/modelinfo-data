@@ -6,8 +6,10 @@
   "name": "Gemma 4 26B A4B IT",
   "api": {
     "types": [
+      "chat",
       "generate",
-      "interactions"
+      "interactions",
+      "responses"
     ],
     "sdk": [
       "@ai-sdk/google",
@@ -54,7 +56,7 @@
     "knowledge_cutoff": "2025-01",
     "description": "Google open Gemma 4 model served on the Gemini API with 256K context, thinking and function calling (free tier only).",
     "docs": "https://ai.google.dev/gemma/docs/core/gemma_on_gemini_api",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -66,6 +68,30 @@
         "interactions": "POST /v1beta/interactions"
       },
       "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemma-4-26b-a4b-it-maas",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "chat": "POST /v1/projects/{PROJECT_ID}/locations/global/endpoints/openapi/chat/completions"
+      },
+      "reasoning_param": null,
+      "limits": {
+        "context": 262144,
+        "input": null,
+        "output": 128000
+      }
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "google.gemma-4-26b-a4b",
+      "base_url": "https://bedrock-mantle.{region}.api.aws",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "responses": "POST /openai/v1/responses"
+      },
+      "reasoning_param": null
     }
   ],
   "aliases": [],
@@ -129,6 +155,26 @@
       "title": "Vertex AI / Gemini Enterprise Agent Platform pricing（Gemma 4 26B）| Google Cloud",
       "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Gemma 4 26B A4B IT (Model ID gemma-4-26b-a4b-it-maas; Global: global; 128,000 maximum output, 262,144 context length) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/google/gemma-4-26b-a4b-it",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Google models (MaaS): \"For Gemma 4 26B A4B IT, use gemma-4-26b-a4b-it-maas\" | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/google",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Call MaaS APIs for open models (POST https://aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/global/endpoints/openapi/chat/completions) | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/call-open-model-apis",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Gemma 4 model card (bedrock-mantle google.gemma-4-26b-a4b; use /openai/v1/chat/completions and /openai/v1/responses) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-26b-a4b.html",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

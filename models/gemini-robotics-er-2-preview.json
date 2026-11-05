@@ -57,7 +57,7 @@
     "knowledge_cutoff": "2025-01",
     "description": "Vision-language model for robotics with spatial reasoning, video understanding and multi-step tool orchestration.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -67,6 +67,15 @@
       "endpoints": {
         "generate": "POST /v1beta/models/{model}:generateContent",
         "batch": "POST /v1beta/models/{model}:batchGenerateContent"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemini-robotics-er-2-preview",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-robotics-er-2-preview:generateContent"
       },
       "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
     }
@@ -117,6 +126,21 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini Robotics ER 2 (Model ID gemini-robotics-er-2-preview; Global: global) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/robotics-er-2",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Gemini Robotics ER 2 overview (thinkingConfig.thinkingLevel) | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/gemini-robotics-er",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Get started with Gemini Enterprise Agent Platform (API_ENDPOINT https://aiplatform.googleapis.com, location global, .../publishers/google/models/{MODEL_ID}:generateContent) | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

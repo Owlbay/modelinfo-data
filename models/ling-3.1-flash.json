@@ -6,11 +6,14 @@
   "name": "Ling-3.1-flash",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "messages"
     ],
     "sdk": [
+      "@ai-sdk/anthropic",
       "@ai-sdk/openai",
       "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
       "openai"
     ]
   },
@@ -43,6 +46,7 @@
   ],
   "features": [
     "tools",
+    "structured_output",
     "streaming"
   ],
   "info": {
@@ -57,11 +61,12 @@
     {
       "id": "ant",
       "model": "Ling-3.1-flash",
-      "base_url": "https://api.ant-ling.com/v1",
+      "base_url": "https://api.ant-ling.com",
       "endpoints": {
-        "chat": "POST /chat/completions"
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
       },
-      "reasoning_param": null
+      "reasoning_param": "thinking.type"
     }
   ],
   "aliases": [
@@ -132,6 +137,31 @@
       "title": "inclusionAI/Ling-3.1-flash model card（1M-token context window）| Hugging Face",
       "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
       "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai/",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Anthropic Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/anthropic/",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Structured Outputs | Ant Ling Tutorials",
+      "url": "https://developer.ant-ling.com/en/docs/tutorials/structured-outputs/",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
     }
   ]
 }

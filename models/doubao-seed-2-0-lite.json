@@ -7,7 +7,8 @@
   "api": {
     "types": [
       "chat",
-      "responses"
+      "responses",
+      "batch"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -65,7 +66,7 @@
     "knowledge_cutoff": null,
     "description": "Doubao Seed 2.0 lightweight model with deep thinking and multimodal understanding.",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -77,6 +78,25 @@
         "responses": "POST /responses"
       },
       "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "bytedance",
+      "model": "doubao-seed-2-0-lite-260428",
+      "base_url": "https://ark.cn-beijing.volcengineapi.com",
+      "endpoints": {
+        "batch": "POST /?Action=CreateBatchInferenceJob&Version=2024-01-01"
+      },
+      "reasoning_param": null,
+      "prices": [
+        {
+          "currency": "CNY",
+          "unit": "1M_tokens",
+          "input": 0.3,
+          "output": 1.8,
+          "cache_read": 0.12,
+          "cache_write": null
+        }
+      ]
     }
   ],
   "aliases": [
@@ -97,7 +117,7 @@
     {
       "title": "模型价格 | 火山方舟",
       "url": "https://www.volcengine.com/docs/82379/1544106",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "深度思考 | 火山方舟",
@@ -143,6 +163,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "批量推理 | 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1399517",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "创建批量推理任务（CreateBatchInferenceJob）| 火山方舟",
+      "url": "https://www.volcengine.com/docs/82379/1339603",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

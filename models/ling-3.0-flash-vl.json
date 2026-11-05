@@ -56,7 +56,7 @@
     "knowledge_cutoff": null,
     "description": "First native multimodal Ling model, with visual feedback for frontend code generation and GUI automation.",
     "docs": "https://developer.ant-ling.com/en/docs/models/ling",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -67,7 +67,7 @@
         "chat": "POST /v1/chat/completions",
         "messages": "POST /anthropic/v1/messages"
       },
-      "reasoning_param": null
+      "reasoning_param": "thinking.type"
     }
   ],
   "aliases": [
@@ -143,6 +143,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai/",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Anthropic Compatible | Ant Ling API Reference",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/anthropic/",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

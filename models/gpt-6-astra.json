@@ -63,7 +63,7 @@
     "knowledge_cutoff": "2026-04-30",
     "description": "OpenAI most capable model for the most demanding work.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-6-astra",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -76,6 +76,26 @@
         "batch": "POST /v1/batches"
       },
       "reasoning_param": "reasoning.effort"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "openai.gpt-6-astra",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "responses": "POST /openai/v1/responses"
+      },
+      "reasoning_param": "reasoning.effort",
+      "prices": [
+        {
+          "currency": "USD",
+          "unit": "1M_tokens",
+          "input": 11,
+          "output": 55,
+          "cache_read": 1.1,
+          "cache_write": 13.75
+        }
+      ]
     },
     {
       "id": "microsoft-foundry",
@@ -164,6 +184,11 @@
       "title": "Azure OpenAI reasoning models - GPT-6 Astra and GPT-5 - Microsoft Foundry | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/reasoning",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "GPT-6 Astra model card (bedrock-mantle openai.gpt-6-astra, /openai/v1/chat/completions and /openai/v1/responses; In-Region Standard short-context prices) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-astra.html",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

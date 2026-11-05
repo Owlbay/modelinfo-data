@@ -46,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Multimodal model with native visual and text input, thinking and non-thinking modes, dialogue and agent tasks. Officially discontinued on 2026-08-31.",
     "docs": "https://platform.kimi.ai/docs/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -55,6 +55,24 @@
       "base_url": "https://api.moonshot.ai",
       "endpoints": {
         "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "moonshotai.kimi-k2.5",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "Kimi-K2.5",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
       },
       "reasoning_param": null
     }
@@ -110,6 +128,26 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Kimi K2.5 model card (Programmatic Access: bedrock-mantle moonshotai.kimi-k2.5, https://bedrock-mantle.{region}.api.aws/v1; Chat Completions) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-5.html",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Foundry Models sold by Azure (Kimi-K2.5: chat-completion) - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Endpoints for Microsoft Foundry Models (/openai/v1/ route, Chat Completions for Foundry Models sold by Azure) - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/endpoints",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -6,7 +6,8 @@
   "name": "Qwen-Long",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "batch"
     ],
     "sdk": [
       "@ai-sdk/alibaba",
@@ -55,7 +56,7 @@
     "knowledge_cutoff": null,
     "description": "Long-context model that processes large documents uploaded as files, with a 10,000,000-token context window.",
     "docs": "https://help.aliyun.com/zh/model-studio/long-context-qwen-long",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -64,6 +65,15 @@
       "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com",
       "endpoints": {
         "chat": "POST /compatible-mode/v1/chat/completions"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen-long",
+      "base_url": "https://dashscope.aliyuncs.com",
+      "endpoints": {
+        "batch": "POST /compatible-mode/v1/batches"
       },
       "reasoning_param": null
     }
@@ -124,6 +134,11 @@
       "title": "qwen-long 模型信息 | 阿里云百炼",
       "url": "https://help.aliyun.com/zh/model-studio/qwen-long",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "OpenAI兼容-Batch（文件输入） | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/batch-interfaces-compatible-with-openai",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

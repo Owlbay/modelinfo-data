@@ -6,7 +6,8 @@
   "name": "Moondream 3 Preview",
   "api": {
     "types": [
-      "chat"
+      "chat",
+      "batch"
     ],
     "sdk": [
       "openai"
@@ -58,7 +59,8 @@
       "model": "moondream3-preview",
       "base_url": "https://api.moondream.ai",
       "endpoints": {
-        "chat": "POST /v1/chat/completions"
+        "chat": "POST /v1/chat/completions",
+        "batch": "POST /v1/batch"
       },
       "reasoning_param": null
     }
@@ -93,6 +95,11 @@
     {
       "title": "OpenAI Compatibility | Moondream Docs（max_completion_tokens up to 4096, including reasoning tokens; reasoning boolean parameter; model moondream3.1-9B-A2B or moondream3-preview）",
       "url": "https://docs.moondream.ai/openai",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Batch API | Moondream Docs",
+      "url": "https://docs.moondream.ai/batch",
       "retrieved_at": "2026-11-05"
     }
   ]

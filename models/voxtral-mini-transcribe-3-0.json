@@ -35,7 +35,7 @@
       "unit": "minute",
       "input": 0.0035,
       "output": null,
-      "cache_read": null,
+      "cache_read": 0.00035,
       "cache_write": null
     }
   ],
@@ -48,7 +48,7 @@
     "knowledge_cutoff": null,
     "description": "Public-preview transcription and diarization model. Context length is 32k. Input is audio and output is text.",
     "docs": "https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -79,7 +79,7 @@
     {
       "title": "API pricing | Mistral Docs",
       "url": "https://docs.mistral.ai/inference/pricing",
-      "retrieved_at": "2026-10-30"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Migrate from Voxtral 2 | Mistral Docs",

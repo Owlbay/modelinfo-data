@@ -46,14 +46,16 @@
     "knowledge_cutoff": null,
     "description": "KwaiKAT coding model served on the StreamLake Wanqing platform, compatible with OpenAI and Claude protocols.",
     "docs": "https://streamlake.com/document/WANQING/mdrax1ixkgpgh1ms1na",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
       "id": "kuaishou",
       "model": "kat-coder-pro-v2.5",
       "base_url": "https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints",
-      "endpoints": {},
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
       "reasoning_param": null
     }
   ],
@@ -83,6 +85,16 @@
       "title": "万擎模型发布公告",
       "url": "https://streamlake.com/document/WANQING/mdptas54hptu5uvllco",
       "retrieved_at": "2026-10-11"
+    },
+    {
+      "title": "快速开始 | 万擎 API 说明（POST https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/chat/completions）",
+      "url": "https://www.streamlake.com/document/WANQING/me6yi4shauyxx5fhdtv",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Open AI 协议 | 万擎文本生成 API",
+      "url": "https://www.streamlake.com/document/WANQING/mq6k66r6xgqwnfbd8t",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

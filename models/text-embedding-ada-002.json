@@ -16,7 +16,7 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 8192,
     "input": 8192,
     "output": null
   },
@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Older embedding model.",
     "docs": "https://developers.openai.com/api/docs/models/text-embedding-ada-002",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -104,7 +104,7 @@
     {
       "title": "Embeddings guide（text-embedding-ada-002 最大输入 8192）| OpenAI API",
       "url": "https://developers.openai.com/api/docs/guides/embeddings",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Official model release / pricing documentation",
@@ -150,6 +150,11 @@
       "title": "Microsoft Foundry REST Reference - Azure OpenAI - Embeddings | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/embeddings",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Create embeddings | OpenAI API Reference",
+      "url": "https://developers.openai.com/api/reference/resources/embeddings",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

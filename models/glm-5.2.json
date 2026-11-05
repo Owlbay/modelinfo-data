@@ -62,7 +62,7 @@
     "knowledge_cutoff": null,
     "description": "Flagship foundation model for long-running engineering work with 1M context.",
     "docs": "https://docs.z.ai/guides/llm/glm-5.2",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -73,6 +73,15 @@
         "chat": "POST /chat/completions"
       },
       "reasoning_param": "thinking.type"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "zai-org/glm-5.2-maas",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "chat": "POST /v1/projects/{PROJECT_ID}/locations/global/endpoints/openapi/chat/completions"
+      },
+      "reasoning_param": "chat_template_kwargs.enable_thinking"
     }
   ],
   "aliases": [],
@@ -131,6 +140,16 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "GLM 5.2 (Model ID glm-5.2-maas, Preview, global) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/zaiorg/glm-52",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Thinking for open models (GLM 5.2: model zai-org/glm-5.2-maas, chat_template_kwargs.enable_thinking, POST https://aiplatform.googleapis.com/v1/projects/…/locations/global/endpoints/openapi/chat/completions) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/capabilities/thinking",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

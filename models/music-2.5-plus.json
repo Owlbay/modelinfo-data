@@ -52,7 +52,7 @@
     "knowledge_cutoff": null,
     "description": "Released Music2.5+, Instrumental Unlocked, break through style boundaries",
     "docs": "https://platform.minimax.io/docs/api-reference/music-generation",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -68,6 +68,11 @@
   "aliases": [
     "music-2.5+"
   ],
+  "translations": {
+    "zh": {
+      "description": "发布 Music2.5+，解锁纯音乐，突破风格边界"
+    }
+  },
   "sources": [
     {
       "title": "存档 Music Generation | MiniMax API Docs（原网址 https://platform.minimax.io/docs/api-reference/music-generation，model 可选 music-2.5+、music-2.5）",

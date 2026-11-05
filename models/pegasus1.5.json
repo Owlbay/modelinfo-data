@@ -42,7 +42,8 @@
     }
   ],
   "features": [
-    "structured_output"
+    "structured_output",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -50,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "Generative video-to-text model; analyzes videos to generate summaries, detailed descriptions and structured responses.",
     "docs": "https://docs.twelvelabs.io/v1.3/docs/concepts/models/pegasus/pegasus-1-5",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -83,7 +84,7 @@
     {
       "title": "Analyze videos (API Reference) | TwelveLabs",
       "url": "https://docs.twelvelabs.io/v1.3/api-reference/analyze-videos/analyze",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Release notes | TwelveLabs Docs",

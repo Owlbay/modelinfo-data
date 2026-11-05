@@ -41,7 +41,7 @@
     "knowledge_cutoff": "2024-06",
     "description": "Cohere's first reasoning model, for nuanced problem-solving and agent tasks in 23 languages.",
     "docs": "https://docs.cohere.com/docs/command-a-reasoning",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -51,7 +51,7 @@
       "endpoints": {
         "chat": "POST /v2/chat"
       },
-      "reasoning_param": null
+      "reasoning_param": "thinking.type"
     }
   ],
   "aliases": [],
@@ -95,6 +95,11 @@
       "title": "SDK support — @ai-sdk/cohere (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/cohere",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Reasoning Capabilities (thinking parameter: {\"type\": \"disabled\"} turns off thinking; enabled by default; thinking token budget) | Cohere",
+      "url": "https://docs.cohere.com/docs/reasoning",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

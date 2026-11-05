@@ -11,8 +11,10 @@
       "messages"
     ],
     "sdk": [
+      "@ai-sdk/anthropic",
       "@ai-sdk/openai",
       "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
       "openai"
     ]
   },
@@ -115,6 +117,16 @@
     {
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
     }
   ]

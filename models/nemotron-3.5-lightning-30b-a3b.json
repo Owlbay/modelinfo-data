@@ -34,7 +34,8 @@
   "prices": [],
   "features": [
     "tools",
-    "structured_output"
+    "structured_output",
+    "streaming"
   ],
   "info": {
     "status": "active",
@@ -42,7 +43,7 @@
     "knowledge_cutoff": "2025-09",
     "description": "Fastest 30B A3B MoE model with leading domain accuracy for specialized agentic tasks.",
     "docs": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -52,7 +53,7 @@
       "endpoints": {
         "chat": "POST /v1/chat/completions"
       },
-      "reasoning_param": null
+      "reasoning_param": "reasoning_budget"
     }
   ],
   "aliases": [
@@ -77,7 +78,7 @@
     {
       "title": "Create chat completion (nvidia/nemotron-3.5-lightning-30b-a3b) | NVIDIA NIM API Reference",
       "url": "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3-5-lightning-30b-a3b-infer",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",

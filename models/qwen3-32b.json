@@ -53,7 +53,7 @@
     "knowledge_cutoff": null,
     "description": "Open-weight Qwen3 dense model with reasoning beyond QwQ.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -64,6 +64,15 @@
         "chat": "POST /compatible-mode/v1/chat/completions"
       },
       "reasoning_param": "enable_thinking"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "qwen.qwen3-32b",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
     }
   ],
   "aliases": [],
@@ -117,6 +126,16 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Qwen3 32B model card (Programmatic Access: bedrock-mantle qwen.qwen3-32b, https://bedrock-mantle.{region}.api.aws/v1; Chat Completions) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-32b.html",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

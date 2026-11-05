@@ -64,7 +64,7 @@
     "knowledge_cutoff": null,
     "description": "Legacy agentic model with function calling, advanced reasoning and real-time streaming.",
     "docs": "https://platform.minimax.io/docs/guides/models-intro",
-    "verified_at": "2026-11-02"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -76,6 +76,15 @@
         "messages": "POST /anthropic/v1/messages"
       },
       "reasoning_param": "thinking"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "minimax.minimax-m2",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
     }
   ],
   "aliases": [
@@ -156,6 +165,16 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "MiniMax M2 model card (Programmatic Access: bedrock-mantle minimax.minimax-m2, https://bedrock-mantle.{region}.api.aws/v1; Chat Completions) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2.html",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

@@ -47,7 +47,7 @@
       "unit": "1M_tokens",
       "input": 3.2,
       "output": 12,
-      "cache_read": null,
+      "cache_read": 0.48,
       "cache_write": null
     }
   ],
@@ -143,6 +143,11 @@
       "title": "讯飞星火大模型API | 科大讯飞",
       "url": "https://xinghuo.xfyun.cn/sparkapi",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "讯飞星辰 MaaS 模型目录（Spark-X2.5 原价 inTokensOrigPrice/outTokensOrigPrice/cacheTokensOrigPrice）",
+      "url": "https://maas.xfyun.cn/api/v1/gpt-finetune/model/base/list-v2",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

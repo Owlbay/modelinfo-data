@@ -82,6 +82,15 @@
         "batch": "POST /v1/batches"
       },
       "reasoning_param": "thinking.type"
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "Kimi-K2.7-Code",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
     }
   ],
   "aliases": [],
@@ -184,6 +193,16 @@
     {
       "title": "对话模型定价 | Kimi API 开放平台",
       "url": "https://platform.kimi.com/docs/pricing/chat",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Foundry Models sold by Azure (Kimi-K2.7-Code: chat-completion) - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Endpoints for Microsoft Foundry Models (/openai/v1/ route, Chat Completions for Foundry Models sold by Azure) - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/endpoints",
       "retrieved_at": "2026-11-05"
     }
   ]

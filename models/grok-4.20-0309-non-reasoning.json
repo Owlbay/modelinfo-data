@@ -57,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "A high-performance, non-reasoning model focused on speed, agentic tool calling, low hallucination rates, and strict prompt adherence.",
     "docs": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -78,6 +78,15 @@
       "endpoints": {
         "chat": "POST /v1/projects/{PROJECT_ID}/locations/global/endpoints/openapi/chat/completions",
         "responses": "POST /v1/projects/{PROJECT_ID}/locations/global/endpoints/openapi/responses"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "grok-4-20-non-reasoning",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
       },
       "reasoning_param": null
     }
@@ -192,6 +201,16 @@
       "title": "Batches (POST /v1/batches) | xAI REST API Reference",
       "url": "https://docs.x.ai/developers/rest-api-reference/inference/batches",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Foundry Models sold directly by Azure (xAI: grok-4-20-non-reasoning, chat-completion) | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Azure OpenAI in Microsoft Foundry Models v1 API (base_url https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1/; chat completions with models from other providers like DeepSeek and Grok) | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/api-version-lifecycle",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

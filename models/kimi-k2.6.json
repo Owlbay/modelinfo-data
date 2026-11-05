@@ -69,7 +69,7 @@
     "knowledge_cutoff": null,
     "description": "Kimi general-purpose model with stronger long-horizon coding, instruction following and agent execution.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-6-quickstart",
-    "verified_at": "2026-11-02"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -82,6 +82,15 @@
         "batch": "POST /v1/batches"
       },
       "reasoning_param": "thinking.type"
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "Kimi-K2.6",
+      "base_url": "https://YOUR-RESOURCE-NAME.openai.azure.com/openai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": null
     }
   ],
   "aliases": [],
@@ -180,6 +189,16 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Foundry Models sold by Azure (Kimi-K2.6: chat-completion) - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Endpoints for Microsoft Foundry Models (/openai/v1/ route, Chat Completions for Foundry Models sold by Azure) - Microsoft Foundry | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/endpoints",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

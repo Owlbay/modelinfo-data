@@ -59,7 +59,7 @@
     "knowledge_cutoff": "2025-01",
     "description": "Frontier-class multimodal and agentic model at low cost.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
-    "verified_at": "2026-11-02"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -70,6 +70,15 @@
         "generate": "POST /v1beta/models/{model}:generateContent",
         "batch": "POST /v1beta/models/{model}:batchGenerateContent",
         "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemini-3-flash-preview",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent"
       },
       "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
     }
@@ -99,7 +108,7 @@
     {
       "title": "Deprecations | Gemini API",
       "url": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "Generating content | Gemini API",
@@ -135,6 +144,16 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Gemini 3 Flash (Model ID gemini-3-flash-preview; Global: global) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-flash",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Get started with Gemini Enterprise Agent Platform (API_ENDPOINT https://aiplatform.googleapis.com, location global, .../publishers/google/models/{MODEL_ID}:generateContent) | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

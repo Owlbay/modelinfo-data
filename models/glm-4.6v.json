@@ -55,6 +55,7 @@
   ],
   "features": [
     "tools",
+    "streaming",
     "caching"
   ],
   "info": {
@@ -63,7 +64,7 @@
     "knowledge_cutoff": null,
     "description": "Z.ai multimodal model with native function calling and 128K context for visual understanding and agents.",
     "docs": "https://docs.z.ai/guides/vlm/glm-4.6v",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -142,6 +143,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "GLM-4.6V | 智谱AI开放文档",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.6v",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

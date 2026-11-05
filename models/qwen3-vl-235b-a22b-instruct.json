@@ -54,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "Open-weight Qwen3-VL vision-language model for image and video understanding.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -63,6 +63,15 @@
       "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
       "endpoints": {
         "chat": "POST /compatible-mode/v1/chat/completions"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "qwen.qwen3-vl-235b-a22b-instruct",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
       },
       "reasoning_param": null
     }
@@ -128,6 +137,16 @@
       "title": "Model list | Alibaba Cloud Model Studio (Wayback Machine archive, 2025-12-16)",
       "url": "https://web.archive.org/web/20251216202024/https://www.alibabacloud.com/help/en/model-studio/models",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "Qwen3 VL 235B A22B model card (Programmatic Access: bedrock-mantle qwen.qwen3-vl-235b-a22b-instruct, https://bedrock-mantle.{region}.api.aws/v1; Chat Completions) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-vl-235b-a22b.html",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }

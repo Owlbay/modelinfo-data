@@ -52,7 +52,7 @@
     "knowledge_cutoff": null,
     "description": "Qwen3 coding model with performance close to Coder-Plus, optimized for repository-level understanding.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-05"
   },
   "providers": [
     {
@@ -61,6 +61,15 @@
       "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com",
       "endpoints": {
         "chat": "POST /compatible-mode/v1/chat/completions"
+      },
+      "reasoning_param": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "qwen.qwen3-coder-next",
+      "base_url": "https://bedrock-mantle.us-east-1.api.aws",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
       },
       "reasoning_param": null
     }
@@ -116,6 +125,16 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Qwen3 Coder Next model card (Programmatic Access: bedrock-mantle qwen.qwen3-coder-next, https://bedrock-mantle.{region}.api.aws/v1; Chat Completions) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-next.html",
+      "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-05"
     }
   ]
 }
