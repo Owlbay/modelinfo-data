@@ -3,5 +3,6 @@
   "name": "Shengshu Vidu",
   "url": "https://www.vidu.com",
   "owned_by": "shengshu",
+  "api_key_url": "https://platform.vidu.com/api-keys",
   "docs_url": "https://platform.vidu.com/docs"
 }
