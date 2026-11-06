@@ -101,11 +101,6 @@
       "title": "SDK support — @speechmatics/batch-client (api.sdk only)",
       "url": "https://github.com/speechmatics/speechmatics-js-sdk",
       "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @speechmatics/real-time-client (api.sdk only)",
-      "url": "https://github.com/speechmatics/speechmatics-js-sdk",
-      "retrieved_at": "2026-10-13"
     }
   ]
 }

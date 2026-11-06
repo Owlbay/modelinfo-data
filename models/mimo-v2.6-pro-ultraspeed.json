@@ -161,16 +161,6 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
-      "retrieved_at": "2026-10-13"
-    },
-    {
       "title": "OpenAI Responses API 兼容（请求地址 https://api.xiaomimimo.com/v1/responses；model 可选值 mimo-v2.6-flash、mimo-v2.6-pro、mimo-v2.6-pro-ultraspeed；reasoning.effort 控制推理）| Xiaomi MiMo 开放平台",
       "url": "https://mimo.mi.com/docs/zh-CN/api/chat/responses-post",
       "retrieved_at": "2026-11-04"

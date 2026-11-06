@@ -155,16 +155,6 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
-      "retrieved_at": "2026-10-13"
-    },
-    {
       "title": "批量推理 | 火山方舟",
       "url": "https://www.volcengine.com/docs/82379/1399517",
       "retrieved_at": "2026-11-05"

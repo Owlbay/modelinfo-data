@@ -141,16 +141,6 @@
       "title": "SDK support — openai (api.sdk only)",
       "url": "https://longcat.chat/platform/docs/APIDocs.html",
       "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://longcat.chat/platform/docs/APIDocs.html",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://longcat.chat/platform/docs/APIDocs.html",
-      "retrieved_at": "2026-10-13"
     }
   ]
 }

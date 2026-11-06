@@ -82,11 +82,6 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "Official release announcement",
-      "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
-      "retrieved_at": "2026-10-11"
-    },
-    {
       "title": "SDK support — @runwayml/sdk (api.sdk only)",
       "url": "https://github.com/runwayml/sdk-node",
       "retrieved_at": "2026-10-13"

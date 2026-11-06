@@ -95,7 +95,7 @@
     {
       "title": "Model release notes | MiniMax API Docs",
       "url": "https://platform.minimax.io/docs/release-notes/models",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "模型发布 | MiniMax 开放平台文档",
@@ -111,11 +111,6 @@
       "title": "模型列表（已下线模型） | MiniMax 开放平台文档",
       "url": "https://platform.minimaxi.com/docs/faq/models",
       "retrieved_at": "2026-11-03"
-    },
-    {
-      "title": "Models - Release Notes",
-      "url": "https://platform.minimax.io/docs/release-notes/models",
-      "retrieved_at": "2026-11-05"
     }
   ]
 }

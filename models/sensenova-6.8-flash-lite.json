@@ -166,11 +166,6 @@
     {
       "title": "SenseNova AI API 文档（模型列表 context_length 262144、max_output_length 65536；max_tokens 范围 [1, 65536]）",
       "url": "https://platform.sensenova.cn/docs",
-      "retrieved_at": "2026-10-20"
-    },
-    {
-      "title": "SenseNova AI API 文档 — SenseNova 6.8 Flash Lite 思考模式（thinking.type / reasoning_effort）",
-      "url": "https://platform.sensenova.cn/docs",
       "retrieved_at": "2026-11-05"
     }
   ]

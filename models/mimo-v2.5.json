@@ -162,16 +162,6 @@
       "title": "SDK support — openai (api.sdk only)",
       "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
       "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
-      "retrieved_at": "2026-10-13"
     }
   ]
 }
