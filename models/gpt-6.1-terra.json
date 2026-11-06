@@ -64,7 +64,7 @@
     "knowledge_cutoff": "2026-06-01",
     "description": "A fast, efficient model for visual reasoning, precise computer use, and clear, natural writing. reasoning.effort accepts none, low, medium (default), high, xhigh, or max. Tool calling requires the Responses API. The recorded price is the standard short-context rate: $1 per 1M input tokens, $0.05 per 1M cached input tokens, $1.25 per 1M cache-write tokens for 30-minute retention, and $5 per 1M output tokens. Standard 12-hour cache writes are $2.50 per 1M tokens. When input exceeds 272K tokens, the full request uses the long-context standard rates: $2 input, $7.50 output, $0.10 cached input, $2.50 for a 30-minute cache write, and $5 for a 12-hour cache write. Batch and Flex are 50% lower, regional processing adds 10%, and fast mode is 2× standard; those rates are not recorded.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -168,7 +168,7 @@
     {
       "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-06"
     },
     {
       "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",

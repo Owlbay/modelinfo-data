@@ -14,7 +14,7 @@
   },
   "limits": {
     "context": 8192,
-    "input": 7168,
+    "input": null,
     "output": 1024
   },
   "modalities": {
@@ -46,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Short-audio speech recognition with Chinese dialect support.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {

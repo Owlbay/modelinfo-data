@@ -53,7 +53,7 @@
     "knowledge_cutoff": null,
     "description": "Document information extraction, tagging, classification, moderation and summarization model.",
     "docs": "https://help.aliyun.com/zh/model-studio/qwen-doc-turbo",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -122,6 +122,11 @@
       "title": "数据挖掘（Qwen-Doc）",
       "url": "https://help.aliyun.com/zh/model-studio/data-mining-qwen-doc",
       "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "qwen-doc-turbo | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-doc-turbo",
+      "retrieved_at": "2026-11-06"
     }
   ]
 }

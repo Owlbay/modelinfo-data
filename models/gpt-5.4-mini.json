@@ -63,7 +63,7 @@
     "knowledge_cutoff": "2025-08-31",
     "description": "Faster, more efficient model for coding, computer use, and subagents.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -141,7 +141,7 @@
     {
       "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-06"
     },
     {
       "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",

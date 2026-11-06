@@ -53,7 +53,7 @@
     "knowledge_cutoff": null,
     "description": "Doubao Seed model enhanced for translation.",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -98,7 +98,7 @@
     {
       "title": "模型列表 | 火山方舟",
       "url": "https://www.volcengine.com/docs/82379/1330310",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-06"
     },
     {
       "title": "模型价格 | 火山方舟",

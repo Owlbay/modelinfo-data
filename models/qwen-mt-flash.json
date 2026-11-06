@@ -60,7 +60,7 @@
     "knowledge_cutoff": null,
     "description": "Recommended general-purpose Qwen translation model, 92 languages.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -124,6 +124,11 @@
       "title": "qwen-mt-flash model information | Alibaba Cloud Model Studio",
       "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-mt-flash",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "qwen-mt-flash | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-flash",
+      "retrieved_at": "2026-11-06"
     }
   ]
 }
