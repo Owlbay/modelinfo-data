@@ -14,7 +14,7 @@
   },
   "limits": {
     "context": 8192,
-    "input": 7168,
+    "input": null,
     "output": 1024
   },
   "modalities": {
@@ -54,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "Generative speech recognition model optimized for voice messages, voice input, and enterprise scenarios, supporting Chinese, English, and other languages.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {

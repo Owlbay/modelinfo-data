@@ -57,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "Tencent Hy4 preview model with 1M context and deep thinking, served on TokenHub.",
     "docs": "https://cloud.tencent.com/document/product/1823/132252",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -87,7 +87,7 @@
     {
       "title": "模型列表 | 腾讯云 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-06"
     },
     {
       "title": "模型定价 | 腾讯云 TokenHub",

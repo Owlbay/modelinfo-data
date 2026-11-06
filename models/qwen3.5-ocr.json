@@ -54,7 +54,7 @@
     "knowledge_cutoff": null,
     "description": "OCR model on the Qwen3.5 architecture for document parsing, text localization and key-information extraction, including PDF parsing.",
     "docs": "https://help.aliyun.com/zh/model-studio/qwen-vl-ocr",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -125,6 +125,11 @@
       "title": "qwen3.5-ocr model information | Alibaba Cloud Model Studio",
       "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-5-ocr",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "qwen3.5-ocr | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-ocr",
+      "retrieved_at": "2026-11-06"
     }
   ]
 }

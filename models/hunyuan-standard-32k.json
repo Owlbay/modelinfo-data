@@ -46,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Hunyuan-Standard-32K, retired. Official shutdown: service stopped from 2026-06-22 00:00 (Beijing time) per the old-version model retirement notice.",
     "docs": "https://cloud.tencent.com/document/product/1729/131925",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-06"
   },
   "providers": [],
   "aliases": [
@@ -86,7 +86,7 @@
     {
       "title": "腾讯混元大模型 产品动态",
       "url": "https://cloud.tencent.com/document/product/1729/97765",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-06"
     }
   ]
 }

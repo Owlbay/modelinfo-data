@@ -61,7 +61,7 @@
     "knowledge_cutoff": null,
     "description": "Real-time omni-modal interaction over WebSocket.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/omni",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -122,6 +122,11 @@
       "title": "模型价格 | 大模型服务平台百炼",
       "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "qwen3.5-omni-plus-realtime | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-omni-plus-realtime",
+      "retrieved_at": "2026-11-06"
     }
   ]
 }

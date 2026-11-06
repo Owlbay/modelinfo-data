@@ -51,7 +51,7 @@
     "knowledge_cutoff": null,
     "description": "iFlytek Spark X2 deep reasoning model with function calling and web search.",
     "docs": "https://www.xfyun.cn/doc/spark/X1http.html",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -74,7 +74,7 @@
     {
       "title": "Spark-X2 http 协议文档 | 讯飞星火",
       "url": "https://www.xfyun.cn/doc/spark/X1http.html",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-06"
     },
     {
       "title": "Astron Token Plan 使用文档 | 讯飞星辰 MaaS",

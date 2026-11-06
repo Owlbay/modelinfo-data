@@ -16,7 +16,7 @@
   },
   "limits": {
     "context": 262144,
-    "input": 229376,
+    "input": null,
     "output": 32768
   },
   "modalities": {
@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Doubao-Seed-1.6-vision, retired. Official shutdown (EOS) dates: doubao-seed-1-6-vision-250815 2026-09-21.",
     "docs": "https://www.volcengine.com/docs/82379/1350667",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -119,6 +119,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Doubao-Seed-1.6-vision 模型详情 | 火山方舟",
+      "url": "https://console.volcengine.com/ark/region:ark+cn-beijing/model/detail?Id=doubao-seed-1-6-vision",
+      "retrieved_at": "2026-11-06"
     }
   ]
 }

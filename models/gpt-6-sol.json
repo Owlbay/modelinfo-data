@@ -64,7 +64,7 @@
     "knowledge_cutoff": "2026-04-20",
     "description": "Built to power complex coding and agentic workflows.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-6-sol",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -159,7 +159,7 @@
     {
       "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-06"
     },
     {
       "title": "Azure OpenAI in Microsoft Foundry Models v1 API - Microsoft Foundry | Microsoft Learn",

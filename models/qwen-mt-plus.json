@@ -60,7 +60,7 @@
     "knowledge_cutoff": null,
     "description": "Highest-quality Qwen translation model for professional and formal documents, 92 languages.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -119,6 +119,11 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "qwen-mt-plus | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-plus",
+      "retrieved_at": "2026-11-06"
     }
   ]
 }

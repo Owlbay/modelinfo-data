@@ -18,7 +18,7 @@
   },
   "limits": {
     "context": 131072,
-    "input": 98304,
+    "input": null,
     "output": 32768
   },
   "modalities": {
@@ -66,7 +66,7 @@
     "knowledge_cutoff": null,
     "description": "Doubao Seed role-play and character dialogue model with deep thinking.",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -158,6 +158,11 @@
       "title": "创建批量推理任务（CreateBatchInferenceJob）| 火山方舟",
       "url": "https://www.volcengine.com/docs/82379/1339603",
       "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Doubao-Seed-Character 模型详情 | 火山方舟",
+      "url": "https://console.volcengine.com/ark/region:ark+cn-beijing/model/detail?Id=doubao-seed-character",
+      "retrieved_at": "2026-11-06"
     }
   ]
 }
