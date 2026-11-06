@@ -1,0 +1,105 @@
+{
+  "id": "inkling-2-small",
+  "object": "model",
+  "created": 1793836800,
+  "owned_by": "thinking-machines",
+  "name": "Inkling 2 Small",
+  "api": {
+    "types": [
+      "messages"
+    ],
+    "sdk": [
+      "@anthropic-ai/sdk"
+    ]
+  },
+  "limits": {
+    "context": 65536,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.3,
+      "output": 1,
+      "cache_read": 0.03,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-11-05",
+    "knowledge_cutoff": null,
+    "description": "It is a Mixture-of-Experts model with 594B total parameters, 17B active, and supports image inputs and variable effort.",
+    "docs": "https://tinker-docs.thinkingmachines.ai/tinker/models/models_and_pricing/",
+    "verified_at": "2026-11-06"
+  },
+  "providers": [
+    {
+      "id": "tinker",
+      "model": "thinkingmachines/Inkling-2-Small",
+      "base_url": "https://tinker.thinkingmachines.dev",
+      "endpoints": {
+        "messages": "POST /services/tinker-prod/anthropic/api/v1/messages"
+      },
+      "reasoning_param": "output_config.effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "这是一个混合专家（MoE）模型，总参数 594B、激活 17B，支持图像输入和可变推理强度。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Introducing Inkling 2 Small | Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "retrieved_at": "2026-11-06"
+    },
+    {
+      "title": "Models & Pricing（Inkling 2 Small：Context 64K，Tinker ID thinkingmachines/Inkling-2-Small，Prefill $0.30／$0.03 cached，Sample $1.00 每百万 tokens）| Tinker Documentation",
+      "url": "https://tinker-docs.thinkingmachines.ai/tinker/models/models_and_pricing/",
+      "retrieved_at": "2026-11-06"
+    },
+    {
+      "title": "models.json（Machine-readable pricing：thinkingmachines/Inkling-2-Small context 64K）| Tinker Documentation",
+      "url": "https://tinker-docs.thinkingmachines.ai/tinker/models.json",
+      "retrieved_at": "2026-11-06"
+    },
+    {
+      "title": "Anthropic-Compatible API（base URL https://tinker.thinkingmachines.dev/services/tinker-prod/anthropic/api，/v1/messages；output_config.effort：low/medium/high/xhigh/max；tool use；Anthropic SDKs work — 亦作 api.sdk 依据）| Tinker Documentation",
+      "url": "https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/",
+      "retrieved_at": "2026-11-06"
+    },
+    {
+      "title": "Thinking effort | Tinker Cookbook",
+      "url": "https://tinker-docs.thinkingmachines.ai/cookbook/inkling/thinking-effort/",
+      "retrieved_at": "2026-11-06"
+    }
+  ]
+}
