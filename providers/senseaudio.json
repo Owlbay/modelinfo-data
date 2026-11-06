@@ -1,7 +1,7 @@
 {
   "id": "senseaudio",
   "name": "SenseAudio",
-  "url": null,
+  "url": "https://senseaudio.cn",
   "owned_by": "sensetime",
   "api_key_url": "https://senseaudio.cn/api-platform/api-key",
   "docs_url": "https://docs.senseaudio.cn/"

@@ -1,7 +1,7 @@
 {
   "id": "tencent",
   "name": "Tencent",
-  "url": "https://cloud.tencent.com/product/hunyuan",
+  "url": "https://cloud.tencent.com/product/tokenhub",
   "owned_by": "tencent",
   "api_key_url": "https://console.cloud.tencent.com/tokenhub/apikey",
   "docs_url": "https://cloud.tencent.com/document/product/1823",
