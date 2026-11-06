@@ -110,16 +110,11 @@
     {
       "title": "SDK support — @speechmatics/batch-client (api.sdk only)",
       "url": "https://github.com/speechmatics/speechmatics-js-sdk",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "Release Notes（2026.10.13 Realtime SaaS: Melia 1 now available in Realtime）| Speechmatics",
       "url": "https://docs.speechmatics.com/release-notes",
-      "retrieved_at": "2026-10-31"
-    },
-    {
-      "title": "SDK support — @speechmatics/real-time-client (api.sdk only)",
-      "url": "https://github.com/speechmatics/speechmatics-js-sdk",
       "retrieved_at": "2026-10-31"
     }
   ]

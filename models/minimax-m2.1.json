@@ -119,7 +119,7 @@
     {
       "title": "Model release notes | MiniMax API Docs",
       "url": "https://platform.minimax.io/docs/release-notes/models",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Messages API | MiniMax API Docs",
@@ -170,11 +170,6 @@
       "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
       "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "Model release notes — Dec. 22, 2025 MiniMax-M2.1 | MiniMax API Docs",
-      "url": "https://platform.minimax.io/docs/release-notes/models",
-      "retrieved_at": "2026-10-20"
     },
     {
       "title": "模型发布记录 — 2025 年 12 月 22 日 MiniMax-M2.1 / M2.1-highspeed 正式发布 | MiniMax 开放平台",

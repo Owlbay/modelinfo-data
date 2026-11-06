@@ -141,16 +141,6 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
-      "retrieved_at": "2026-10-13"
-    },
-    {
       "title": "Deprecation（Upcoming: Ring-2.6-1T, planned deprecation 2026-11-15 00:00:00 (UTC+8), replacement Ling-3.1-flash）| Ant Ling API Docs",
       "url": "https://developer.ant-ling.com/en/docs/models/deprecation/",
       "retrieved_at": "2026-11-04"
