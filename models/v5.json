@@ -36,7 +36,7 @@
     "knowledge_cutoff": null,
     "description": "Legacy PixVerse video model; 5 or 8s clips.",
     "docs": "https://docs.platform.pixverse.ai/text-to-video-generation-13016634e0",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-06"
   },
   "providers": [
     {
@@ -62,14 +62,14 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "Model Overview | PixVerse Platform Docs",
-      "url": "https://docs.platform.pixverse.ai/model-overview-2140345m0",
-      "retrieved_at": "2026-10-11"
+      "title": "Model Capability Map | PixVerse Platform Docs",
+      "url": "https://docs.platform.pixverse.ai/model-capability-map-2394982m0",
+      "retrieved_at": "2026-11-06"
     },
     {
-      "title": "PixVerse API Changelogs",
-      "url": "https://docs.platform.pixverse.ai/changelogs-906383m0",
-      "retrieved_at": "2026-10-11"
+      "title": "Changelog | PixVerse Platform Docs",
+      "url": "https://docs.platform.pixverse.ai/changelog-2394996m0",
+      "retrieved_at": "2026-11-06"
     },
     {
       "title": "PixVerse API Pricing",
