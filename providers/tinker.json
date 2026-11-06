@@ -1,0 +1,8 @@
+{
+  "id": "tinker",
+  "name": "Tinker",
+  "url": "https://thinkingmachines.ai/tinker/",
+  "owned_by": "thinking-machines",
+  "api_key_url": "https://tinker.thinkingmachines.ai/keys",
+  "docs_url": "https://tinker-docs.thinkingmachines.ai/"
+}
