@@ -1,7 +1,7 @@
 {
   "id": "amazon-bedrock",
   "name": "Amazon Bedrock",
-  "url": null,
+  "url": "https://aws.amazon.com/bedrock/",
   "owned_by": "amazon",
   "api_key_url": "https://console.aws.amazon.com/bedrock/home#/api-keys/short-term/create",
   "docs_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/"

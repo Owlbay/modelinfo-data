@@ -1,7 +1,7 @@
 {
   "id": "kling",
   "name": "Kling AI",
-  "url": null,
+  "url": "https://kling.ai",
   "owned_by": "kuaishou",
   "api_key_url": "https://kling.ai/dev/api-key",
   "docs_url": "https://kling.ai/document-api"
