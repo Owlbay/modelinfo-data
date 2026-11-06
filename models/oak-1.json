@@ -105,7 +105,7 @@
     {
       "title": "SDK support — @speechmatics/batch-client (api.sdk only)",
       "url": "https://github.com/speechmatics/speechmatics-js-sdk",
-      "retrieved_at": "2026-10-13"
+      "retrieved_at": "2026-10-31"
     },
     {
       "title": "Meet Oak: medical transcription that follows the conversation across languages and speakers | Speechmatics",
@@ -115,11 +115,6 @@
     {
       "title": "Release Notes（2026.10.27 Realtime SaaS: Oak 1 now available for real-time transcription）| Speechmatics",
       "url": "https://docs.speechmatics.com/release-notes",
-      "retrieved_at": "2026-10-31"
-    },
-    {
-      "title": "SDK support — @speechmatics/real-time-client (api.sdk only)",
-      "url": "https://github.com/speechmatics/speechmatics-js-sdk",
       "retrieved_at": "2026-10-31"
     }
   ]

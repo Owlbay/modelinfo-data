@@ -177,16 +177,6 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://mimo.mi.com/docs/en-US/quick-start/usage-guide/text-generation/structured-output",
-      "retrieved_at": "2026-10-13"
-    },
-    {
       "title": "批量推理（Batch API）（支持 mimo-v2.6-pro、mimo-v2.6-flash；POST https://batch-api-${region}.xiaomimimo.com/v1/batches）| Xiaomi MiMo 开放平台",
       "url": "https://mimo.mi.com/docs/zh-CN/quick-start/usage-guide/text-generation/batch-api",
       "retrieved_at": "2026-11-04"

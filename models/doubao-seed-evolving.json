@@ -136,16 +136,6 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://docs.volcengine.com/docs/ark/compatible-with-openai-sdk?lang=en",
-      "retrieved_at": "2026-10-13"
-    },
-    {
       "title": "火山方舟 - 模型广场-模型详情 Doubao-Seed-Evolving（版本动态：2026/06/23 全新 Seed 模型首发）",
       "url": "https://ark.volcengine.com/region:cn-beijing/model/detail?name=doubao-seed-evolving",
       "retrieved_at": "2026-11-05"

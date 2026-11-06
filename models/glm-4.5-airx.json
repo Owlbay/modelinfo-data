@@ -77,12 +77,12 @@
     {
       "title": "GLM-4.5 | Z.AI Developer Document",
       "url": "https://docs.z.ai/guides/llm/glm-4.5",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Pricing | Z.AI Developer Document",
       "url": "https://docs.z.ai/guides/overview/pricing",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-10-20"
     },
     {
       "title": "Release Notes | Z.AI Developer Document",
@@ -110,18 +110,8 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "GLM-4.5 系列（含 GLM-4.5-AirX；Context Length 128K、Maximum Output Tokens 96K） | Z.AI Developer Docs",
-      "url": "https://docs.z.ai/guides/llm/glm-4.5",
-      "retrieved_at": "2026-10-20"
-    },
-    {
       "title": "模型与产品发布记录 — 2025-07-28 GLM-4.5 系列基座模型上线 | 智谱开放平台",
       "url": "https://docs.bigmodel.cn/cn/update/new-releases",
-      "retrieved_at": "2026-10-20"
-    },
-    {
-      "title": "Pricing — GLM-4.5-AirX | Z.AI Developer Docs",
-      "url": "https://docs.z.ai/guides/overview/pricing",
       "retrieved_at": "2026-10-20"
     }
   ]

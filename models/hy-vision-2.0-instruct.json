@@ -72,7 +72,7 @@
     {
       "title": "模型列表 | 腾讯云 TokenHub | 大模型服务平台 TokenHub",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-05"
     },
     {
       "title": "模型定价 | 腾讯云 TokenHub",
@@ -93,11 +93,6 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "模型列表 | 大模型服务平台 TokenHub",
-      "url": "https://cloud.tencent.com/document/product/1823/130051",
-      "retrieved_at": "2026-11-05"
     }
   ]
 }

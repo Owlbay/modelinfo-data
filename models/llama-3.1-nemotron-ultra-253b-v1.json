@@ -74,11 +74,6 @@
       "retrieved_at": "2026-11-04"
     },
     {
-      "title": "NVIDIA llama-3.1-nemotron-ultra-253b-v1 inference API",
-      "url": "https://docs.api.nvidia.com/nim/reference/nvidia-llama-3_1-nemotron-ultra-253b-v1-infer",
-      "retrieved_at": "2026-10-11"
-    },
-    {
       "title": "models.dev — SDK npm mapping (api.sdk only)",
       "url": "https://models.dev/api.json",
       "retrieved_at": "2026-10-13"

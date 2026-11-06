@@ -135,16 +135,6 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
-      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
-      "retrieved_at": "2026-10-13"
-    },
-    {
-      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
-      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
-      "retrieved_at": "2026-10-13"
-    },
-    {
       "title": "OpenAI Compatible | Ant Ling API Reference",
       "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai/",
       "retrieved_at": "2026-11-05"
