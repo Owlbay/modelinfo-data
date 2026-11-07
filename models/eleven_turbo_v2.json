@@ -47,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "First generation low-latency model (outclassed by Flash models). Languages: en. Replacement model suggestion: eleven_flash_v2. The eleven_turbo_v2_5 and eleven_turbo_v2 models are functionally equivalent to the eleven_flash_v2_5 and eleven_flash_v2 models respectively, except the latency on the Flash models is lower on average. We recommend using the Flash models over Turbo models in all use cases.",
     "docs": "https://elevenlabs.io/docs/overview/models",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -68,9 +68,9 @@
   },
   "sources": [
     {
-      "title": "Models | ElevenLabs Documentation",
+      "title": "Models | ElevenLabs Documentation（Deprecated models：eleven_turbo_v2，替代为 eleven_flash_v2）",
       "url": "https://elevenlabs.io/docs/overview/models",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "API pricing | ElevenLabs",

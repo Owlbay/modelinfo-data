@@ -43,7 +43,7 @@
     "knowledge_cutoff": null,
     "description": "Shanghai AI Lab multimodal reasoning model.",
     "docs": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -64,9 +64,9 @@
   },
   "sources": [
     {
-      "title": "获取模型列表 | InternLM API 文档",
+      "title": "获取模型列表 | InternLM API 文档（API 服务下线计划：2026-11-09 起请求自动转发至 intern-s2，2027-01-26 原 API 入口停用）",
       "url": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Chat Completions | InternLM API 文档",

@@ -45,7 +45,7 @@
     "knowledge_cutoff": null,
     "description": "Tencent text-to-image and image-to-image generation model on TokenHub.",
     "docs": "https://cloud.tencent.com/document/product/1823/130051",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -66,9 +66,9 @@
   },
   "sources": [
     {
-      "title": "模型列表 | 腾讯云 TokenHub",
+      "title": "模型列表 | 腾讯云 TokenHub（Hy-Image-3.0（2026-11-12 下线）hy-image-v3）",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "模型定价 | 腾讯云 TokenHub",

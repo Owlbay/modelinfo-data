@@ -45,7 +45,7 @@
     "knowledge_cutoff": null,
     "description": "PaddleOCR-VL document parsing model with layout analysis, formula, table and chart recognition on Qianfan. Scheduled to be retired on 2026-11-23 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan-api/s/zmho8omz3",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -86,9 +86,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "模型版本升级及退役机制 | 百度千帆",
+      "title": "模型版本升级及退役机制 | 百度千帆（PaddleOCR-VL 2026-11-23 退役，推荐替换 Qianfan-Parser-PaddleOCR-VL）",
       "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

@@ -56,7 +56,7 @@
     "knowledge_cutoff": null,
     "description": "Perplexity deep research model for the Sonar API; Sonar Chat Completions support ended 2026-09-27 in favor of the Agent API.",
     "docs": "https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -77,9 +77,9 @@
   },
   "sources": [
     {
-      "title": "Migrate from Sonar to the Agent API | Perplexity Docs",
+      "title": "Migrate from Sonar to the Agent API | Perplexity Docs（Sonar Chat Completions support ended on September 27, 2026；同步与流式请求仍可用，改写为 Agent API 请求）",
       "url": "https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Pricing | Perplexity Docs",

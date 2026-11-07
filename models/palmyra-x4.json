@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Language model for complex tasks that require extended context; deprecation scheduled 2026-12-14.",
     "docs": "https://dev.writer.com/home/models",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -80,9 +80,9 @@
   },
   "sources": [
     {
-      "title": "Choose a model | Writer AI Studio",
+      "title": "Choose a model | Writer AI Studio（Deprecation notice：palmyra-x4、palmyra-x5 will be deprecated on December 14, 2026，迁移到 palmyra-x6）",
       "url": "https://dev.writer.com/home/models",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Pricing | Writer AI Studio",

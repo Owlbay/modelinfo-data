@@ -44,7 +44,7 @@
     "knowledge_cutoff": null,
     "description": "Multilingual cross-encoder reranker (278M parameters); the model page marks it as deprecated.",
     "docs": "https://jina.ai/models/jina-reranker-v2-base-multilingual",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -65,9 +65,9 @@
   },
   "sources": [
     {
-      "title": "jina-reranker-v2-base-multilingual | Jina AI",
+      "title": "jina-reranker-v2-base-multilingual | Jina AI（This model is deprecated by newer models：jina-reranker-v3）",
       "url": "https://jina.ai/models/jina-reranker-v2-base-multilingual",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Jina AI API docs",
