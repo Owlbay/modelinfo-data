@@ -35,7 +35,7 @@
     "knowledge_cutoff": null,
     "description": "Free-tier version of music-3.0 for text-to-music generation, rate limited to 3 RPM. Service stopped from 2026-08-20 per the official notice.",
     "docs": "https://platform.minimax.io/docs/api-reference/music-generation",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -56,9 +56,9 @@
   },
   "sources": [
     {
-      "title": "Music Generation | MiniMax API Docs",
+      "title": "Music Generation | MiniMax API Docs（Starting August 20, 2026 … The free music generation APIs (Music-3.0-free, Music-2.6-free, music-cover-free) will be discontinued）",
       "url": "https://platform.minimax.io/docs/api-reference/music-generation",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Models | MiniMax API Docs",

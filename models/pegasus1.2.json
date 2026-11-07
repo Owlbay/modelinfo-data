@@ -38,7 +38,7 @@
     "knowledge_cutoff": null,
     "description": "Video language model for long video understanding; removed from the platform on 2026-08-18.",
     "docs": "https://docs.twelvelabs.io/docs/get-started/release-notes",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -70,6 +70,11 @@
       "title": "SDK support — twelvelabs-js (api.sdk only)",
       "url": "https://github.com/twelvelabs-io/twelvelabs-js",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Release notes, August 18, 2026 | TwelveLabs Docs（Pegasus 1.2 has been removed）",
+      "url": "https://docs.twelvelabs.io/v1.3/docs/get-started/release-notes/2026/8/18",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

@@ -35,7 +35,7 @@
     "knowledge_cutoff": null,
     "description": "UltraSpeed mode of MiMo-V2.5-Pro (FP4 MoE experts with DFlash speculative decoding on TileRT), exceeding 1,000 tokens/s. Offered as an application-only API trial from 2026-06-09 to 2026-06-23 at a limited-time price of 3x MiMo-V2.5-Pro.",
     "docs": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -54,9 +54,9 @@
   },
   "sources": [
     {
-      "title": "MiMo-V2.5-Pro-UltraSpeed: Pushing 1T-Parameter Model Generation Speed to 1000 TPS | Xiaomi MiMo Blog",
+      "title": "MiMo-V2.5-Pro-UltraSpeed: Pushing 1T-Parameter Model Generation Speed to 1000 TPS | Xiaomi MiMo Blog（trial period available only from June 9 to June 23, 2026）",
       "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "MiMo-V2.5-Pro-UltraSpeed 发布 | Xiaomi MiMo Blog（中文）",

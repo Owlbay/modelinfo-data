@@ -38,7 +38,7 @@
     "knowledge_cutoff": null,
     "description": "Cartesia low-latency text-to-speech model for 9 languages; stopped working after 2026-10-20 per the official sunset notice; migrate to Sonic 3.6.",
     "docs": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -61,9 +61,9 @@
   },
   "sources": [
     {
-      "title": "Older Models | Cartesia Docs",
+      "title": "Older Models | Cartesia Docs（sonic-turbo and all sonic-turbo-* snapshots will stop working after October 20, 2026）",
       "url": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Pricing | Cartesia Docs",
