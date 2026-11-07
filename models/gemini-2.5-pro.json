@@ -54,12 +54,12 @@
     "batch"
   ],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2025-06-17",
     "knowledge_cutoff": "2025-01",
     "description": "Thinking model for complex reasoning in code, math and STEM, and for analyzing large datasets and documents.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -164,6 +164,11 @@
       "title": "Thinking (Gemini 2.5 and earlier models: configure thinking using the thinking_budget parameter; supported models include Gemini 2.5 Pro, Flash-Lite, Flash) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/thinking",
       "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Changelog | Gemini API（2026-11-02：gemini-2.5-pro、gemini-2.5-flash 自 2026-12-01 起请求自动转到新模型；2026-11-05：gemini-omni-1.1-flash 自 2026-12-03 起转到 gemini-omni-1.2-flash）",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }
