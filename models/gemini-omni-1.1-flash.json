@@ -44,12 +44,12 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2026-08-27",
     "knowledge_cutoff": null,
     "description": "High-performance model for fast, conversational video generation and editing.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -103,6 +103,11 @@
       "title": "SDK support — @ai-sdk/google (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/google",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Changelog | Gemini API（2026-11-02：gemini-2.5-pro、gemini-2.5-flash 自 2026-12-01 起请求自动转到新模型；2026-11-05：gemini-omni-1.1-flash 自 2026-12-03 起转到 gemini-omni-1.2-flash）",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }
