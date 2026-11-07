@@ -48,7 +48,7 @@
     "knowledge_cutoff": null,
     "description": "Baichuan2-Turbo long-context model (192k). Shut down on 2024-08-16; calls route to Baichuan3-Turbo-128k.",
     "docs": "https://platform.baichuan-ai.com/prices",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -71,9 +71,9 @@
   },
   "sources": [
     {
-      "title": "价格说明 | 百川智能开放平台",
+      "title": "价格说明 | 百川智能开放平台（Baichuan2-Turbo-192k 已于2024年08月16日下线）",
       "url": "https://platform.baichuan-ai.com/prices",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "价格说明 | 百川智能开放平台（存档，原网址 https://platform.baichuan-ai.com/price）",

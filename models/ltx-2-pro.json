@@ -36,7 +36,7 @@
     "knowledge_cutoff": null,
     "description": "LTX-2 video generation model; removed from the LTX API on 2026-08-15 per the 2026-07-02 deprecation notice, requests now return an error.",
     "docs": "https://docs.ltx.io/api-changelog",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -55,9 +55,9 @@
   },
   "sources": [
     {
-      "title": "API Changelog | LTX API Docs",
+      "title": "API Changelog | LTX API Docs（Aug 16, 2026 LTX-2 removal: ltx-2-fast and ltx-2-pro are no longer available）",
       "url": "https://docs.ltx.io/api-changelog",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

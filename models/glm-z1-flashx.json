@@ -49,7 +49,7 @@
     "knowledge_cutoff": null,
     "description": "Lightweight, fast and low-cost reasoning model, enhanced version of GLM-Z1-Flash. Shut down on 2025-11-15 per the official notice.",
     "docs": "https://web.archive.org/web/20251115025218/https://docs.bigmodel.cn/cn/guide/models/text/glm-z1",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -108,6 +108,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "GLM-Z1 | 智谱AI开放文档（GLM-Z1 系列模型已下线）",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-z1",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

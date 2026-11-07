@@ -38,7 +38,7 @@
     "knowledge_cutoff": null,
     "description": "Video language model; discontinued on 2025-02-25.",
     "docs": "https://docs.twelvelabs.io/docs/get-started/release-notes",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -65,6 +65,11 @@
       "title": "SDK support — twelvelabs-js (api.sdk only)",
       "url": "https://github.com/twelvelabs-io/twelvelabs-js",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Release notes, February 11, 2025 | TwelveLabs Docs（Pegasus 1.1 will be discontinued on February 25, 2025）",
+      "url": "https://docs.twelvelabs.io/v1.3/docs/get-started/release-notes/2025/2/11",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

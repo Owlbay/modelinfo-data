@@ -39,7 +39,7 @@
     "knowledge_cutoff": null,
     "description": "Perplexity Sonar small chat model in the Llama 3 family with a 32k context window.",
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -58,9 +58,9 @@
   },
   "sources": [
     {
-      "title": "Changelog | Perplexity Docs",
+      "title": "Changelog | Perplexity Docs（July 2024 Model Deprecation Notice：llama-3-sonar-small-32k-chat will no longer be accessible effective 8/12/2024）",
       "url": "https://docs.perplexity.ai/docs/resources/changelog",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "存档：Supported Models | Perplexity Docs（原网址 https://docs.perplexity.ai/docs/model-cards）",

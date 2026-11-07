@@ -38,7 +38,7 @@
     "knowledge_cutoff": null,
     "description": "First generation speech recognition (outclassed by v2 models). Languages: 90+ languages. Replacement model suggestion: scribe_v2.",
     "docs": "https://elevenlabs.io/docs/overview/models",
-    "verified_at": "2026-11-03"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -59,9 +59,9 @@
   },
   "sources": [
     {
-      "title": "Models | ElevenLabs Documentation",
+      "title": "Models | ElevenLabs Documentation（Deprecated models：scribe_v1，替代为 scribe_v2）",
       "url": "https://elevenlabs.io/docs/overview/models",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "API pricing | ElevenLabs",

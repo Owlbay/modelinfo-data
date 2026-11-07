@@ -49,7 +49,7 @@
     "knowledge_cutoff": null,
     "description": "Multilingual text embedding model (570M parameters) with task-specific LoRA adapters; the model page marks it as deprecated.",
     "docs": "https://jina.ai/models/jina-embeddings-v3",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -70,9 +70,9 @@
   },
   "sources": [
     {
-      "title": "jina-embeddings-v3 | Jina AI",
+      "title": "jina-embeddings-v3 | Jina AI（This model is deprecated by newer models：jina-embeddings-v5-text-small）",
       "url": "https://jina.ai/models/jina-embeddings-v3",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Jina AI API docs",

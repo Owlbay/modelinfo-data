@@ -38,7 +38,7 @@
     "knowledge_cutoff": null,
     "description": "First-generation Cartesia text-to-speech model; sunsetted.",
     "docs": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -62,9 +62,9 @@
   },
   "sources": [
     {
-      "title": "Older Models | Cartesia Docs",
+      "title": "Older Models | Cartesia Docs（sonic (sunsetted)）",
       "url": "https://docs.cartesia.ai/build-with-cartesia/tts-models/older-models",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "SDK support — @ai-sdk/cartesia (api.sdk only)",

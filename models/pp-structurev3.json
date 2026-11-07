@@ -45,7 +45,7 @@
     "knowledge_cutoff": null,
     "description": "PP-StructureV3 document structure recognition with layout, table, formula and seal recognition on Qianfan. Scheduled to be retired on 2026-11-23 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan-api/s/Nmj124ro4",
-    "verified_at": "2026-10-31"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -86,9 +86,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "模型版本升级及退役机制 | 百度千帆",
+      "title": "模型版本升级及退役机制 | 百度千帆（PP-StructureV3 2026-11-23 退役，推荐替换 Qianfan-OCR-Parser-Standard）",
       "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

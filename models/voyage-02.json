@@ -46,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "[Deprecated] This is our pilot-version v2 embedding model. We kindly ask you to transition to voyage-3.",
     "docs": "https://docs.voyageai.com/docs/embeddings",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -67,9 +67,9 @@
   },
   "sources": [
     {
-      "title": "Text Embeddings | Voyage AI Docs",
+      "title": "Text Embeddings | Voyage AI Docs（Older models：voyage-02 [Deprecated]，still accessible from our API，迁移到 voyage-3）",
       "url": "https://docs.voyageai.com/docs/embeddings",
-      "retrieved_at": "2026-11-03"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Pricing | Voyage AI Docs",

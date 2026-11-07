@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "xAI speech-to-speech voice model with improved intelligence, transcription accuracy and conversational capabilities.",
     "docs": "https://docs.x.ai/developers/model-capabilities/audio/speech-to-speech",
-    "verified_at": "2026-10-20"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -78,9 +78,9 @@
       "retrieved_at": "2026-10-20"
     },
     {
-      "title": "Release Notes（grok-voice-latest 现指向 grok-voice-3.0）| xAI Docs",
+      "title": "Release Notes（Grok Voice 2.0 deprecation：grok-voice-2.0 is deprecated，升级到 grok-voice-3.0）| xAI Docs",
       "url": "https://docs.x.ai/developers/release-notes",
-      "retrieved_at": "2026-10-20"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Introducing Grok Voice Think Fast 2.0",

@@ -58,7 +58,7 @@
     "knowledge_cutoff": null,
     "description": "State-of-the-art, open-weight, general-purpose multimodal model with a granular Mixture-of-Experts architecture.",
     "docs": "https://docs.mistral.ai/models/mistral-large-3-25-12",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -101,9 +101,9 @@
       "retrieved_at": "2026-10-10"
     },
     {
-      "title": "Models overview | Mistral Docs",
-      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
-      "retrieved_at": "2026-11-02"
+      "title": "Models Overview | Mistral Docs（Deprecated：mistral-large-2512，2026-10-31 弃用，2027-04-30 下线，替代为 Mistral Large 4）",
+      "url": "https://docs.mistral.ai/models",
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Mistral-Large-3-675B-Instruct-2512 (256k context, 262144) | Hugging Face",

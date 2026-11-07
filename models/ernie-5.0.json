@@ -60,7 +60,7 @@
     "knowledge_cutoff": null,
     "description": "Baidu ERNIE 5.0 native omni-modal model with text generation, vision understanding and deep thinking. Retired on 2026-10-29 (official retirement notice).",
     "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -106,9 +106,9 @@
       "retrieved_at": "2026-11-04"
     },
     {
-      "title": "模型版本升级及退役机制 | 百度千帆",
+      "title": "模型版本升级及退役机制 | 百度千帆（模型退役历史记录列有 ERNIE-5.0，已过退役日期）",
       "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
-      "retrieved_at": "2026-10-31"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "SDK support — openai (api.sdk only)",

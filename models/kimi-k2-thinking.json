@@ -44,7 +44,7 @@
     "knowledge_cutoff": null,
     "description": "Kimi K2 long-term thinking model with multi-step tool use and reasoning for complex problems. Officially discontinued on 2026-05-25.",
     "docs": "https://platform.kimi.ai/docs/models",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -122,6 +122,11 @@
       "title": "Chat Completions API (OpenAI-compatible) - Amazon Bedrock User Guide",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
       "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "模型列表 - Kimi API 开放平台（已下线模型：kimi-k2-thinking 已下线）",
+      "url": "https://platform.kimi.com/docs/models",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

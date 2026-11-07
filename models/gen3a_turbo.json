@@ -46,7 +46,7 @@
     "knowledge_cutoff": null,
     "description": "Runway image-to-video model; no longer available on Runway Dev since 2026-07-30.",
     "docs": "https://docs.dev.runwayml.com/api-details/api_changelog/",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -65,9 +65,9 @@
   },
   "sources": [
     {
-      "title": "Runway API Changelog",
+      "title": "Runway API Changelog（July 30th, 2026: gen3a_turbo and gen4_aleph are no longer available on Runway Dev）",
       "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "存档：Available AI Models | Runway API（原网址 https://docs.dev.runwayml.com/guides/models/）",

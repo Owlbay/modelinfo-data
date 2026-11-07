@@ -44,7 +44,7 @@
     "knowledge_cutoff": null,
     "description": "High-speed version of Kimi K2 Thinking, output speed 60 to 100 tokens per second. Officially discontinued on 2026-05-25.",
     "docs": "https://platform.kimi.ai/docs/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -103,6 +103,11 @@
       "title": "平台新功能发布记录",
       "url": "https://platform.kimi.com/blog/posts/changelog",
       "retrieved_at": "2026-10-31"
+    },
+    {
+      "title": "模型列表 - Kimi API 开放平台（已下线模型：kimi-k2-thinking-turbo 已下线）",
+      "url": "https://platform.kimi.com/docs/models",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

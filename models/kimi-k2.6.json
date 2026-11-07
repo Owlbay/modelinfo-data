@@ -69,7 +69,7 @@
     "knowledge_cutoff": null,
     "description": "Kimi general-purpose model with stronger long-horizon coding, instruction following and agent execution.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k2-6-quickstart",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -101,9 +101,9 @@
   },
   "sources": [
     {
-      "title": "Model List | Kimi API Platform",
+      "title": "Model List | Kimi API Platform（Deprecated Models：kimi-k2.6，Deprecation expected in late December 2026）",
       "url": "https://platform.kimi.ai/docs/models",
-      "retrieved_at": "2026-11-02"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Chat Model Pricing | Kimi API Platform",

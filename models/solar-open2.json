@@ -42,7 +42,7 @@
     "knowledge_cutoff": null,
     "description": "Open-weight Solar model; Upstage API serving ended on 2026-08-12.",
     "docs": "https://console.upstage.ai/docs/models/history",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -63,9 +63,9 @@
   },
   "sources": [
     {
-      "title": "All Models and Version History | Upstage Console",
+      "title": "All Models and Version History | Upstage Console（solar-open2: API serving ended on August 12, 2026）",
       "url": "https://console.upstage.ai/docs/models/history",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Solar models | Upstage Console",

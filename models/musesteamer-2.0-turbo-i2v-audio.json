@@ -36,7 +36,7 @@
     "knowledge_cutoff": null,
     "description": "MuseSteamer-2.0-Turbo-I2V-Audio, retired. Official retirement date: 2026-02-06.",
     "docs": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -57,9 +57,9 @@
   },
   "sources": [
     {
-      "title": "模型版本升级及退役机制 | 百度千帆",
+      "title": "模型版本升级及退役机制 | 百度千帆（模型退役历史记录列有 MuseSteamer-2.0-Turbo-I2V-Audio，已过退役日期）",
       "url": "https://cloud.baidu.com/doc/qianfan/s/zmh4stou3",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "百度蒸汽机（MuseSteamer）MCP | 百度千帆",

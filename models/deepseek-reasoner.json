@@ -53,7 +53,7 @@
     "knowledge_cutoff": null,
     "description": "Legacy API name for the thinking mode of the DeepSeek flagship model (DeepSeek-V3.2 at the last pricing snapshot). Announced for discontinuation on 2026-07-24.",
     "docs": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -107,6 +107,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "DeepSeek V4 Preview Release | DeepSeek API Docs（deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026）",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

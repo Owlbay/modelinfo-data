@@ -39,7 +39,7 @@
     "knowledge_cutoff": null,
     "description": "LongCat-Flash-Thinking-2601, retired. Official notice: the platform stops call service for this model from 2026-05-29.",
     "docs": "https://longcat.chat/platform/docs/zh/ChangeLog.html",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -58,9 +58,9 @@
   },
   "sources": [
     {
-      "title": "更新日志 | LongCat API 开放平台",
+      "title": "更新日志 | LongCat API 开放平台（2026-05-29 LongCat 部分模型服务下线：自 2026年5月29日 起停止 6 个模型的调用服务）",
       "url": "https://longcat.chat/platform/docs/zh/ChangeLog.html",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "存档 API 文档 | LongCat API 开放平台（原网址 https://longcat.chat/platform/docs/APIDocs.html）",

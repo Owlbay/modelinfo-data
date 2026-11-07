@@ -37,7 +37,7 @@
     "knowledge_cutoff": null,
     "description": "Speech-to-text model that transcribes audio to text in 25 languages with batch and streaming modes.",
     "docs": "https://docs.x.ai/developers/release-notes",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -56,9 +56,9 @@
   },
   "sources": [
     {
-      "title": "Release Notes | xAI Docs",
+      "title": "Release Notes | xAI Docs（grok-voice-transcribe-1.0 is deprecated and reaches end of life on October 2, 2026）",
       "url": "https://docs.x.ai/developers/release-notes",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "SDK support — @ai-sdk/xai (api.sdk only)",

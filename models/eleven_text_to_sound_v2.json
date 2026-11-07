@@ -47,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Generates sound effects from text prompts.",
     "docs": "https://elevenlabs.io/docs/overview/models",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -68,9 +68,9 @@
   },
   "sources": [
     {
-      "title": "Models | ElevenLabs Documentation",
+      "title": "Models | ElevenLabs Documentation（Deprecated models：eleven_text_to_sound_v2，2027-03-01 移除，替代为 eleven_text_to_sound_v3）",
       "url": "https://elevenlabs.io/docs/overview/models",
-      "retrieved_at": "2026-11-05"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "API pricing | ElevenLabs",
