@@ -49,7 +49,7 @@
     "knowledge_cutoff": null,
     "description": "Tencent deep-thinking vision model for VQA, OCR, charts and visual grounding.",
     "docs": "https://cloud.tencent.com/document/product/1823/130051",
-    "verified_at": "2026-11-06"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -80,9 +80,9 @@
       "retrieved_at": "2026-10-10"
     },
     {
-      "title": "产品概述 | 腾讯混元大模型",
+      "title": "产品概述 | 腾讯混元大模型（该页写「最大输入28k 最大输出20k」，与 TokenHub 模型列表不一致；数据采用唯一供应商 TokenHub 的数值）",
       "url": "https://cloud.tencent.com/document/product/1729/104753",
-      "retrieved_at": "2026-10-10"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "产品动态 | 腾讯混元大模型",
