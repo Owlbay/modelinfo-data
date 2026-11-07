@@ -41,7 +41,7 @@
     "knowledge_cutoff": null,
     "description": "Moonshot V1 vision model that understands image content and outputs text. Officially discontinued on 2026-08-31.",
     "docs": "https://platform.kimi.ai/docs/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -100,6 +100,11 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "模型列表 - Kimi API 开放平台（已下线模型：moonshot-v1-128k-vision-preview 已下线）",
+      "url": "https://platform.kimi.com/docs/models",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

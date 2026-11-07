@@ -48,7 +48,7 @@
     "knowledge_cutoff": null,
     "description": "Perplexity in-house 7B chat model built on an open-source LLM and fine-tuned for chat.",
     "docs": "https://docs.perplexity.ai/docs/resources/changelog",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -67,9 +67,9 @@
   },
   "sources": [
     {
-      "title": "Changelog | Perplexity Docs",
+      "title": "Changelog | Perplexity Docs（April 2024：as of May 14, pplx-7b-chat will no longer be available via API）",
       "url": "https://docs.perplexity.ai/docs/resources/changelog",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "Supported Models | Perplexity Docs (Wayback 2024-02-02)",

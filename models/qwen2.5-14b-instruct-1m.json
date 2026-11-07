@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Open-source Qwen2.5-14B-Instruct model supporting 1M-token contexts.",
     "docs": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_decommissioning_of_selected_historical_snapshot_models_730",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -71,9 +71,9 @@
   },
   "sources": [
     {
-      "title": "[Model Studio] Notice on the Decommissioning of Selected Historical Snapshot Models | Alibaba Cloud",
+      "title": "[Model Studio] Notice on the Decommissioning of Selected Historical Snapshot Models | Alibaba Cloud（Model Studio will decommission the snapshot models for the Beijing and Singapore regions listed below on May 13, 2026；列有 qwen2.5-14b-instruct-1m）",
       "url": "https://www.alibabacloud.com/en/notice/model_studio_notice_on_the_decommissioning_of_selected_historical_snapshot_models_730",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-07"
     },
     {
       "title": "存档：Models | Alibaba Cloud Model Studio（原网址 https://www.alibabacloud.com/help/en/model-studio/models）",
