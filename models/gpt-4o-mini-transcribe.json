@@ -49,7 +49,7 @@
     "knowledge_cutoff": "2024-06-01",
     "description": "Speech-to-text model powered by GPT-4o Mini.",
     "docs": "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -126,6 +126,11 @@
       "title": "Azure OpenAI image, audio, and video REST API reference (v1 preview) - Microsoft Foundry | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/reference-preview-latest",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

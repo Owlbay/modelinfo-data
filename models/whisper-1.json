@@ -47,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "General-purpose speech recognition model.",
     "docs": "https://developers.openai.com/api/docs/models/whisper-1",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -125,6 +125,11 @@
       "title": "Azure OpenAI image, audio, and video REST API reference (v1 preview) - Microsoft Foundry | Microsoft Learn",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/reference-preview-latest",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Deprecations | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "retrieved_at": "2026-11-07"
     }
   ]
 }
