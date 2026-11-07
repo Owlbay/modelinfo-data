@@ -41,7 +41,7 @@
     "status": "retired",
     "release_date": "2026-07-17",
     "knowledge_cutoff": null,
-    "description": "Shanghai AI Lab 397B multimodal preview model; goes offline 2026-10-31, replaced by intern-s2.",
+    "description": "Shanghai AI Lab 397B multimodal preview model; went offline on 2026-10-31, replaced by intern-s2.",
     "docs": "https://internlm.intern-ai.org.cn/doc/docs/%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8/",
     "verified_at": "2026-11-07"
   },
@@ -59,7 +59,7 @@
   "aliases": [],
   "translations": {
     "zh": {
-      "description": "上海人工智能实验室 397B 多模态预览模型；将于 2026-10-31 下线，由 intern-s2 取代。"
+      "description": "上海人工智能实验室 397B 多模态预览模型；已于 2026-10-31 下线，由 intern-s2 取代。"
     }
   },
   "sources": [
