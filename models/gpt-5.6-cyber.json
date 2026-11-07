@@ -53,7 +53,7 @@
     "knowledge_cutoff": "2026-02-16",
     "description": "Advanced cybersecurity model for authorized vulnerability research and security testing (approved access only).",
     "docs": "https://developers.openai.com/api/docs/models/gpt-5.6-cyber",
-    "verified_at": "2026-11-06"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -73,6 +73,11 @@
         "responses": "POST /openai/v1/responses"
       },
       "reasoning_param": "reasoning.effort",
+      "limits": {
+        "context": 1050000,
+        "input": null,
+        "output": null
+      },
       "prices": [
         {
           "currency": "USD",
@@ -125,9 +130,9 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "GPT-5.6 Cyber model card (bedrock-mantle openai.gpt-5.6-cyber, /openai/v1/chat/completions and /openai/v1/responses; In-Region Standard short-context prices) - Amazon Bedrock User Guide",
+      "title": "GPT-5.6-Cyber model card | Amazon Bedrock（Context window: 1,050,000 tokens）",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-cyber.html",
-      "retrieved_at": "2026-11-05"
+      "retrieved_at": "2026-11-07"
     }
   ]
 }

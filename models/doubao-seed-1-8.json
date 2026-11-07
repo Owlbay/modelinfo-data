@@ -14,7 +14,7 @@
   "limits": {
     "context": 262144,
     "input": 229376,
-    "output": 32768
+    "output": 98304
   },
   "modalities": {
     "input": [
@@ -57,7 +57,7 @@
     "knowledge_cutoff": null,
     "description": "更强Agent能力、升级多模态理解、更灵活的上下文管理。",
     "docs": "https://ark.volcengine.com/region:cn-beijing/docs/model-deprecation-notice",
-    "verified_at": "2026-11-06"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -112,9 +112,9 @@
       "retrieved_at": "2026-11-03"
     },
     {
-      "title": "Doubao-Seed-1.8 模型详情 | 火山方舟",
+      "title": "doubao-seed-1-8 模型详情 | 火山方舟控制台（模型限制：上下文窗口 256k，最大输入Token长度 224k，最大输出Token长度 96k）",
       "url": "https://console.volcengine.com/ark/region:ark+cn-beijing/model/detail?Id=doubao-seed-1-8",
-      "retrieved_at": "2026-11-06"
+      "retrieved_at": "2026-11-07"
     }
   ]
 }
