@@ -15,9 +15,9 @@
     ]
   },
   "limits": {
-    "context": 256000,
-    "input": 224000,
-    "output": 32000
+    "context": 262144,
+    "input": 229376,
+    "output": 65536
   },
   "modalities": {
     "input": [
@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Doubao-Seed-1.6-lite, retired. Official shutdown (EOS) dates: doubao-seed-1-6-lite-251015 2026-05-11.",
     "docs": "https://www.volcengine.com/docs/82379/1350667",
-    "verified_at": "2026-11-06"
+    "verified_at": "2026-11-07"
   },
   "providers": [
     {
@@ -111,9 +111,9 @@
       "retrieved_at": "2026-11-04"
     },
     {
-      "title": "Doubao-Seed-1.6-lite 模型详情 | 火山方舟",
+      "title": "doubao-seed-1-6-lite 模型详情 | 火山方舟控制台（模型限制：上下文窗口 256k，最大输入Token长度 224k，最大输出Token长度 64k）",
       "url": "https://console.volcengine.com/ark/region:ark+cn-beijing/model/detail?Id=doubao-seed-1-6-lite",
-      "retrieved_at": "2026-11-06"
+      "retrieved_at": "2026-11-07"
     }
   ]
 }
