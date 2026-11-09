@@ -71,7 +71,7 @@
     "knowledge_cutoff": null,
     "description": "High-speed variant of Kimi K3.1 Pro that delivers 2-3× the speed of K3.1 Pro. It uses the same 1,048,576-token context, image and video input, and always-on thinking.",
     "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-09"
   },
   "providers": [
     {
@@ -113,6 +113,147 @@
           "output": 136,
           "cache_read": 1.3,
           "cache_write": 26
+        }
+      ]
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "global.moonshotai.kimi-k3.1",
+      "base_url": "https://bedrock-runtime.{region}.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "responses": "POST /openai/v1/responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      },
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "features": [
+        "tools",
+        "structured_output",
+        "streaming",
+        "caching"
+      ],
+      "prices": [
+        {
+          "currency": "USD",
+          "unit": "1M_tokens",
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.2,
+          "cache_write": 5
+        }
+      ]
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "us.moonshotai.kimi-k3.1",
+      "base_url": "https://bedrock-runtime.{region}.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "responses": "POST /openai/v1/responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      },
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "features": [
+        "tools",
+        "structured_output",
+        "streaming",
+        "caching"
+      ],
+      "prices": [
+        {
+          "currency": "USD",
+          "unit": "1M_tokens",
+          "input": 4.4,
+          "output": 22,
+          "cache_read": 0.22,
+          "cache_write": 5.5
+        }
+      ]
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "in.moonshotai.kimi-k3.1",
+      "base_url": "https://bedrock-runtime.{region}.amazonaws.com",
+      "endpoints": {
+        "chat": "POST /openai/v1/chat/completions",
+        "responses": "POST /openai/v1/responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      },
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "features": [
+        "tools",
+        "structured_output",
+        "streaming",
+        "caching"
+      ],
+      "prices": [
+        {
+          "currency": "USD",
+          "unit": "1M_tokens",
+          "input": 4.4,
+          "output": 22,
+          "cache_read": 0.22,
+          "cache_write": 5.5
         }
       ]
     }
@@ -188,6 +329,31 @@
       "title": "Kimi K3.1 Pro Pricing Explained: Membership Plans and API Costs | Kimi",
       "url": "https://www.kimi.ai/resources/kimi-k3-1-pro-pricing",
       "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock | AWS What's New",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock/",
+      "retrieved_at": "2026-11-09"
+    },
+    {
+      "title": "Kimi K3.1 Pro - Highspeed model card (bedrock-runtime；global/us/in.moonshotai.kimi-k3.1；Standard 价；输入文本与图像、输出文本；不支持视频；reasoning effort none/low/medium/high/xhigh/max) - Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3-1-highspeed.html",
+      "retrieved_at": "2026-11-09"
+    },
+    {
+      "title": "API compatibility（Kimi K3.1 Pro - Highspeed：Invoke、Converse、Chat Completions、Responses 支持，Messages 不支持）- Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-api-compatibility.html",
+      "retrieved_at": "2026-11-09"
+    },
+    {
+      "title": "Chat Completions API（POST https://bedrock-runtime.{region}.amazonaws.com/openai/v1/chat/completions）- Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html",
+      "retrieved_at": "2026-11-09"
+    },
+    {
+      "title": "Responses API（POST /openai/v1/responses）- Amazon Bedrock User Guide",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-responses-api.html",
+      "retrieved_at": "2026-11-09"
     }
   ]
 }
