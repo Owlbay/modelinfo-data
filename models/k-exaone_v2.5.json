@@ -1,0 +1,92 @@
+{
+  "id": "k-exaone_v2.5",
+  "object": "model",
+  "created": 1794182400,
+  "owned_by": "lg-ai-research",
+  "name": "K-EXAONE 2.5",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 524288,
+    "input": null,
+    "output": 524288
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "high",
+      "max"
+    ]
+  },
+  "prices": [],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-09",
+    "knowledge_cutoff": "2026-01",
+    "description": "K-EXAONE 2.5 is a high-performance model with particular strength in Korean language understanding and generation.",
+    "docs": "https://docs.exaone.ai/en/docs/k-exaone-2.5",
+    "verified_at": "2026-11-10"
+  },
+  "providers": [
+    {
+      "id": "lg-ai-research",
+      "model": "k-exaone_v2.5",
+      "base_url": "https://api.exaone.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "K-EXAONE 2.5 是一款高性能模型，尤其擅长韩语理解与生成。"
+    }
+  },
+  "sources": [
+    {
+      "title": "K-EXAONE 2.5 | EXAONE API Platform",
+      "url": "https://docs.exaone.ai/en/docs/k-exaone-2.5",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Models | EXAONE API Platform",
+      "url": "https://docs.exaone.ai/en/docs/models",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Changelog (November 9, 2026: currently available free of charge) | EXAONE API Platform",
+      "url": "https://docs.exaone.ai/en/docs/changelog",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Quick Start | EXAONE API Platform",
+      "url": "https://docs.exaone.ai/en/docs/quick-start",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "K-EXAONE 2.5 API Available for Free | LG AI Research News（日期 2026-11-09）",
+      "url": "https://www.lgresearch.ai/news/view?seq=755",
+      "retrieved_at": "2026-11-10"
+    }
+  ]
+}
