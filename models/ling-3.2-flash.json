@@ -1,0 +1,170 @@
+{
+  "id": "ling-3.2-flash",
+  "object": "model",
+  "created": 1793836800,
+  "owned_by": "ant",
+  "name": "Ling-3.2-flash",
+  "api": {
+    "types": [
+      "chat",
+      "messages"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@anthropic-ai/sdk",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-05",
+    "knowledge_cutoff": null,
+    "description": "Ling-3.2-flash is the latest-generation native multimodal model in the Ling series, with 560B total parameters and 25B activated parameters.",
+    "docs": "https://developer.ant-ling.com/en/docs/models/ling",
+    "verified_at": "2026-11-10"
+  },
+  "providers": [
+    {
+      "id": "ant",
+      "model": "Ling-3.2-flash",
+      "base_url": "https://api.ant-ling.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions",
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "thinking.type"
+    }
+  ],
+  "aliases": [
+    "Ling-3.2-flash"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Ling-3.2-flash 是百灵最新一代原生多模态模型，拥有 560B 总参数、25B 激活参数。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Ling | Ant Ling Docs（Ling-3.2-flash：上下文窗口上限 1M，原生支持 image、text、video 输入）",
+      "url": "https://developer.ant-ling.com/en/docs/models/ling",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Ling | 蚂蚁百灵开发者文档（Ling-3.2-flash：模型上下文窗口上限为 1M，原生支持图像、文本与视频输入）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/models/ling",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "更新日志 | 蚂蚁百灵开发者文档（2026 年 11 月 5 日 v2.0.6 上线 Ling-3.2-flash）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Changelog | Ant Ling Docs（November 5, 2026 v2.0.6 launched Ling-3.2-flash）",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/changelog/",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Pricing | Ant Ling Docs（Ling-3.2-flash 仅限时免费，价目表无标准价）",
+      "url": "https://developer.ant-ling.com/en/docs/models/price",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "定价 | 蚂蚁百灵开发者文档（Ling-3.2-flash 上线前 2 周限时免费，价目表无标准价）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/models/price",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "API Overview | Ant Ling API Reference（Ling-3.2-flash：推理与工具调用）",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "API 概述 | 蚂蚁百灵 API 文档（Ling-3.2-flash：推理思考与工具调用）",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/api-reference",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "OpenAI Compatible | Ant Ling API Reference（model：Ling-3.2-flash；thinking.type 适用于 3.2 系列）",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/openai/",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Anthropic Compatible | Ant Ling API Reference（model：Ling-3.2-flash；thinking.type 适用于 3.2 系列）",
+      "url": "https://developer.ant-ling.com/en/docs/api-reference/chat/anthropic/",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Structured Outputs | Ant Ling Tutorials（示例模型为 Ling-3.2-flash）",
+      "url": "https://developer.ant-ling.com/en/docs/tutorials/structured-outputs/",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Multimodal Understanding | Ant Ling Tutorials（Ling-3.2-flash 原生支持 text、image、video 输入）",
+      "url": "https://developer.ant-ling.com/en/docs/tutorials/multimodal-understanding/",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "FAQ | Ant Ling Docs（Ling-3.2-flash 上下文 1M，输入与输出共享）",
+      "url": "https://developer.ant-ling.com/en/docs/faq/",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://developer.ant-ling.com/en/docs/getting-started/quickstart/",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-11-10"
+    }
+  ]
+}
