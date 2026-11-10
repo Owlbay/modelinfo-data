@@ -80,7 +80,7 @@
     },
     {
       "id": "vertex-ai",
-      "model": "meta/muse-spark-1.3",
+      "model": "muse-spark-1.3",
       "base_url": "https://aiplatform.googleapis.com",
       "endpoints": {
         "responses": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/meta/v1/responses"
@@ -151,9 +151,9 @@
       "retrieved_at": "2026-11-04"
     },
     {
-      "title": "Muse Spark 1.3 (Model ID meta/muse-spark-1.3; Global endpoint) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "title": "Muse Spark 1.3 (Model ID meta/muse-spark-1.3; requests on the global /locations/global/publishers/meta/v1/responses endpoint pass the bare model ID muse-spark-1.3) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/meta/muse-spark-1-3",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-10"
     }
   ]
 }
