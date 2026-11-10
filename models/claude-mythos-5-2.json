@@ -1,0 +1,204 @@
+{
+  "id": "claude-mythos-5-2",
+  "object": "model",
+  "created": 1794182400,
+  "owned_by": "anthropic",
+  "name": "Claude Mythos 5.2",
+  "api": {
+    "types": [
+      "messages",
+      "batch"
+    ],
+    "sdk": [
+      "@ai-sdk/anthropic",
+      "@anthropic-ai/sdk"
+    ]
+  },
+  "limits": {
+    "context": 1000000,
+    "input": 1000000,
+    "output": 128000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 8,
+      "output": 40,
+      "cache_read": 0.2,
+      "cache_write": 10
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-09",
+    "knowledge_cutoff": "2026-06",
+    "description": "Claude Fable 5.2 for verified organizations",
+    "docs": "https://platform.claude.com/docs/en/models/mythos-5-2/overview",
+    "verified_at": "2026-11-10"
+  },
+  "providers": [
+    {
+      "id": "anthropic",
+      "model": "claude-mythos-5-2",
+      "base_url": "https://api.anthropic.com",
+      "endpoints": {
+        "messages": "POST /v1/messages",
+        "batch": "POST /v1/messages/batches"
+      },
+      "reasoning_param": "output_config.effort"
+    },
+    {
+      "id": "amazon-bedrock",
+      "model": "anthropic.claude-mythos-5-2",
+      "base_url": "https://bedrock-mantle.{region}.api.aws",
+      "endpoints": {
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "output_config.effort"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "claude-mythos-5-2",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "messages": "POST /v1/projects/MY_PROJECT_ID/locations/global/publishers/anthropic/models/claude-mythos-5-2:rawPredict"
+      },
+      "reasoning_param": "output_config.effort"
+    },
+    {
+      "id": "microsoft-foundry",
+      "model": "claude-mythos-5-2",
+      "base_url": "https://{resource}.services.ai.azure.com",
+      "endpoints": {
+        "messages": "POST /anthropic/v1/messages"
+      },
+      "reasoning_param": "output_config.effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "面向经过验证的组织提供的 Claude Fable 5.2"
+    }
+  },
+  "sources": [
+    {
+      "title": "Claude Mythos 5.2 | Claude Platform Docs (Verification required)",
+      "url": "https://platform.claude.com/docs/en/models/mythos-5-2/overview",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 | Anthropic（日期 2026-11-09）",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Models overview | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Pricing | Claude Platform Docs (limited availability)",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Model deprecations | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Effort | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Structured outputs | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "PDF support | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/pdf-support",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Prompt caching | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Batch processing | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Messages | Claude API Reference",
+      "url": "https://platform.claude.com/docs/en/api/messages",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Batches | Claude API Reference",
+      "url": "https://platform.claude.com/docs/en/api/messages/batches",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @anthropic-ai/sdk (api.sdk only)",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/anthropic (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/anthropic",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Claude in Amazon Bedrock (Opus 4.7 and later) | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Claude Models on Google Cloud (Google managed) | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Claude in Microsoft Foundry | Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry",
+      "retrieved_at": "2026-11-10"
+    }
+  ]
+}
