@@ -7,7 +7,8 @@
   "api": {
     "types": [
       "chat",
-      "responses"
+      "responses",
+      "messages"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -64,7 +65,7 @@
     "knowledge_cutoff": null,
     "description": "Muse Spark 1.3 on the discounted Contributor tier, which permits training on prompts and completions.",
     "docs": "https://dev.meta.ai/docs/models",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-10"
   },
   "providers": [
     {
@@ -73,9 +74,15 @@
       "base_url": "https://api.meta.ai/v1",
       "endpoints": {
         "chat": "POST /chat/completions",
-        "responses": "POST /responses"
+        "responses": "POST /responses",
+        "messages": "POST /messages"
       },
-      "reasoning_param": "reasoning_effort"
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "messages": "output_config.effort",
+        "responses": "reasoning.effort"
+      }
     }
   ],
   "aliases": [],
@@ -89,6 +96,16 @@
       "title": "Models | Meta Model API",
       "url": "https://dev.meta.ai/docs/models",
       "retrieved_at": "2026-10-10"
+    },
+    {
+      "title": "Muse Spark (Endpoints: Responses, Chat Completions, Messages) | Meta Model API",
+      "url": "https://dev.meta.ai/docs/muse-spark",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Create a message (POST /messages) | Meta Model API",
+      "url": "https://dev.meta.ai/docs/api-reference/messages/create-message",
+      "retrieved_at": "2026-11-10"
     },
     {
       "title": "Pricing and rate limits | Meta Model API",

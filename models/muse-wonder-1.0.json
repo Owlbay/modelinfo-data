@@ -7,7 +7,8 @@
   "api": {
     "types": [
       "chat",
-      "responses"
+      "responses",
+      "messages"
     ],
     "sdk": [
       "@ai-sdk/openai",
@@ -65,7 +66,7 @@
     "knowledge_cutoff": null,
     "description": "Meta's most capable model, built for complex software engineering and long-horizon agentic work, with a 1,048,576-token context window.",
     "docs": "https://dev.meta.ai/docs/models",
-    "verified_at": "2026-10-26"
+    "verified_at": "2026-11-10"
   },
   "providers": [
     {
@@ -74,11 +75,13 @@
       "base_url": "https://api.meta.ai/v1",
       "endpoints": {
         "chat": "POST /chat/completions",
-        "responses": "POST /responses"
+        "responses": "POST /responses",
+        "messages": "POST /messages"
       },
       "reasoning_param": "reasoning_effort",
       "reasoning_params": {
         "chat": "reasoning_effort",
+        "messages": "output_config.effort",
         "responses": "reasoning.effort"
       }
     }
@@ -124,6 +127,16 @@
       "title": "Models | Meta Model API",
       "url": "https://dev.meta.ai/docs/models",
       "retrieved_at": "2026-10-20"
+    },
+    {
+      "title": "Muse Wonder (Endpoints: Responses, Chat Completions, Messages) | Meta Model API",
+      "url": "https://dev.meta.ai/docs/muse-wonder",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Create a message (POST /messages) | Meta Model API",
+      "url": "https://dev.meta.ai/docs/api-reference/messages/create-message",
+      "retrieved_at": "2026-11-10"
     },
     {
       "title": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents | Meta AI Research",
