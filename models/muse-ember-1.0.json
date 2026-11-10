@@ -1,0 +1,190 @@
+{
+  "id": "muse-ember-1.0",
+  "object": "model",
+  "created": 1794182400,
+  "owned_by": "meta",
+  "name": "Muse Ember",
+  "api": {
+    "types": [
+      "chat",
+      "messages",
+      "responses"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 524288
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 0.5,
+      "cache_read": 0.004,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-09",
+    "knowledge_cutoff": null,
+    "description": "Muse Ember is the efficient execution model in the Muse family, built for high-volume, repeated work.",
+    "docs": "https://dev.meta.ai/docs/muse-ember",
+    "verified_at": "2026-11-10"
+  },
+  "providers": [
+    {
+      "id": "meta",
+      "model": "muse-ember-1.0",
+      "base_url": "https://api.meta.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "messages": "POST /messages",
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "messages": "output_config.effort",
+        "responses": "reasoning.effort"
+      }
+    },
+    {
+      "id": "vertex-ai",
+      "model": "muse-ember-1.0",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "responses": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/meta/v1/responses"
+      },
+      "reasoning_param": null,
+      "limits": {
+        "context": 1048576,
+        "input": 1048576,
+        "output": 524288
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "features": [
+        "tools",
+        "structured_output"
+      ],
+      "prices": []
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "Muse Ember 是 Muse 系列中的高效执行模型，专为大批量、重复性工作打造。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Muse Ember | Meta Model API",
+      "url": "https://dev.meta.ai/docs/muse-ember",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Models | Meta Model API",
+      "url": "https://dev.meta.ai/docs/models",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Pricing and rate limits | Meta Model API",
+      "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Reasoning | Meta Model API",
+      "url": "https://dev.meta.ai/docs/reasoning",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Create a message (POST /messages) | Meta Model API",
+      "url": "https://dev.meta.ai/docs/api-reference/messages/create-message",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Create a response | Meta Model API",
+      "url": "https://dev.meta.ai/docs/api-reference/responses/create-response",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember | Meta（日期 2026-11-09）",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Muse Ember 1.0 (Model ID meta/muse-ember-1.0; Preview; Release date November 9, 2026) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/meta/muse-ember-1-0",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "Meta partner models (global responses endpoint; pass bare model ID muse-ember-1.0) | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/meta",
+      "retrieved_at": "2026-11-10"
+    },
+    {
+      "title": "models.dev — SDK npm mapping (api.sdk only)",
+      "url": "https://models.dev/api.json",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-10-13"
+    }
+  ]
+}
