@@ -1,0 +1,134 @@
+{
+  "id": "ernie-5.5-flash-preview",
+  "object": "model",
+  "created": null,
+  "owned_by": "baidu",
+  "name": "ERNIE-5.5-Flash-Preview",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai",
+      "@ai-sdk/openai-compatible",
+      "@baiducloud/qianfan",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": 1048576,
+    "output": 1048576
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 2,
+      "output": 8,
+      "cache_read": 0.2,
+      "cache_write": null
+    },
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.28,
+      "output": 1.13,
+      "cache_read": 0.028,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Baidu ERNIE-5.5-Flash-Preview text generation model on the Qianfan platform.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+    "verified_at": "2026-11-11"
+  },
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "ernie-5.5-flash-preview",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {
+        "chat": "POST /v2/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "千帆平台上的百度 ERNIE-5.5-Flash-Preview 文本生成模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "模型服务计费 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Model List | Baidu AI Cloud",
+      "url": "https://intl.cloud.baidu.com/en/doc/qianfan/s/7m95lyy43-intl-en",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Price | Baidu AI Cloud",
+      "url": "https://intl.cloud.baidu.com/en/doc/qianfan/s/Jm8r1826a-intl-en",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "文本生成 API 参考 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-api/s/3m7of64lb",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "深度思考 | 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan-docs/s/Wm95lyynv",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "SDK support — openai (api.sdk only)",
+      "url": "https://github.com/openai/openai-node",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai-compatible (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/openai-compatible-providers",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "SDK support — @ai-sdk/openai (api.sdk only)",
+      "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "SDK support — @baiducloud/qianfan (api.sdk only)",
+      "url": "https://github.com/baidubce/bce-qianfan-sdk/tree/main/javascript",
+      "retrieved_at": "2026-11-11"
+    }
+  ]
+}
