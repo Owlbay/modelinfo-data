@@ -1,0 +1,128 @@
+{
+  "id": "minimax-h3-image",
+  "object": "model",
+  "created": null,
+  "owned_by": "minimax",
+  "name": "MiniMax-H3-Image",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2.3,
+      "output": 3.8,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 15,
+      "output": 25,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Open-weight image model built on H3 for text-to-image generation, reference-based generation, and image editing, with up to 16 reference images and output area up to 20,000,000 pixels. The recorded price is text input and image output per million tokens; image input is $1.50 (¥10).",
+    "docs": "https://platform.minimax.io/docs/guides/image-generation",
+    "verified_at": "2026-11-11"
+  },
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "MiniMax-H3-Image",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "images": "POST /v1/images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MiniMax-H3-Image"
+  ],
+  "translations": {
+    "zh": {
+      "description": "基于 H3 的开放权重图像模型，支持文生图、参考图生成和图像编辑，最多 16 张参考图，输出面积最大 20,000,000 像素。记录的价格是每百万 tokens 的文本输入与图像输出；图像输入为 1.50 美元（10 元）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "MiniMax H3-Image: Bringing 4K Image Generation into the 10-Second Era（页面显示日期 2026-11-11；datePublished 2026-11-10T16:23:20.000Z）| MiniMax",
+      "url": "https://www.minimax.io/blog/minimax-h3-image",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Image Generation Guide（MiniMax-H3-Image / MiniMax-H3-Image-Highspeed；文生图与图像编辑；最多 16 张参考图；输出面积最大 20,000,000 像素；prompt ≤ 32000 字符）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/image-generation",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Text-to-Image（POST /v1/images/generations，base https://api.minimax.io，model MiniMax-H3-Image，OpenAI SDK，stream）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/image-generation-h3-generations",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Image Edit（POST /v1/images/edits，1 至 16 张参考图，model MiniMax-H3-Image）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/image-generation-h3-edits",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Pay as You Go pricing（MiniMax-H3-Image Standard：文本输入 $2.30、图像输入 $1.50、图像输出 $3.80 / 1M tokens；4K 限时 5 折未记）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "按量计费（MiniMax-H3-Image 标准版：文本输入 15 元、图片输入 10 元、图片输出 25 元 / 百万 tokens；4K 限时 5 折未记）| MiniMax 开放平台",
+      "url": "https://platform.minimaxi.com/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "图片生成（国内站示例 base https://api.minimax.cn，路径 POST /v1/images/generations 与 POST /v1/images/edits）| MiniMax 开放平台",
+      "url": "https://platform.minimaxi.com/docs/guides/image-generation",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Model release notes（Nov. 10, 2026：MiniMax H3 Image）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "MiniMax-H3-Image model card | MiniMaxAI Hugging Face",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "retrieved_at": "2026-11-11"
+    }
+  ]
+}

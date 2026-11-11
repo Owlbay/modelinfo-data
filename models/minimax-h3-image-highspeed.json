@@ -1,0 +1,123 @@
+{
+  "id": "minimax-h3-image-highspeed",
+  "object": "model",
+  "created": null,
+  "owned_by": "minimax",
+  "name": "MiniMax-H3-Image-Highspeed",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 2.3,
+      "output": 7.6,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 15,
+      "output": 50,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "High-speed version of MiniMax-H3-Image. It takes the same parameters and limits for text-to-image and image editing. The recorded price is text input and image output per million tokens; image input is $3.00 (¥20).",
+    "docs": "https://platform.minimax.io/docs/guides/image-generation",
+    "verified_at": "2026-11-11"
+  },
+  "providers": [
+    {
+      "id": "minimax",
+      "model": "MiniMax-H3-Image-Highspeed",
+      "base_url": "https://api.minimax.io",
+      "endpoints": {
+        "images": "POST /v1/images/generations"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "MiniMax-H3-Image-Highspeed"
+  ],
+  "translations": {
+    "zh": {
+      "description": "MiniMax-H3-Image 的高速版本，文生图和图像编辑的参数与限制与标准版相同。记录的价格是每百万 tokens 的文本输入与图像输出；图像输入为 3.00 美元（20 元）。"
+    }
+  },
+  "sources": [
+    {
+      "title": "MiniMax H3-Image: Bringing 4K Image Generation into the 10-Second Era（Highspeed 与 Standard 同一篇；页面显示日期 2026-11-11；datePublished 2026-11-10T16:23:20.000Z）| MiniMax",
+      "url": "https://www.minimax.io/blog/minimax-h3-image",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Image Generation Guide（将 model 设为 MiniMax-H3-Image-Highspeed，参数与限制同 MiniMax-H3-Image）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/image-generation",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Text-to-Image（POST /v1/images/generations，model 枚举含 MiniMax-H3-Image-Highspeed，OpenAI SDK，stream）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/image-generation-h3-generations",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Image Edit（POST /v1/images/edits，1 至 16 张参考图，model MiniMax-H3-Image-Highspeed）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/api-reference/image-generation-h3-edits",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Pay as You Go pricing（MiniMax-H3-Image-Highspeed：文本输入 $2.30、图像输入 $3.00、图像输出 $7.60 / 1M tokens；4K 限时 5 折未记）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "按量计费（MiniMax-H3-Image-Highspeed 极速版：文本输入 15 元、图片输入 20 元、图片输出 50 元 / 百万 tokens；4K 限时 5 折未记）| MiniMax 开放平台",
+      "url": "https://platform.minimaxi.com/docs/guides/pricing-paygo",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "图片生成（国内站示例 base https://api.minimax.cn；高速版参数与限制同 MiniMax-H3-Image）| MiniMax 开放平台",
+      "url": "https://platform.minimaxi.com/docs/guides/image-generation",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Model release notes（Nov. 10, 2026：MiniMax H3 Image；未单独写出 Highspeed 日期）| MiniMax API Docs",
+      "url": "https://platform.minimax.io/docs/release-notes/models",
+      "retrieved_at": "2026-11-11"
+    }
+  ]
+}
