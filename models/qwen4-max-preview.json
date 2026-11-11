@@ -1,0 +1,166 @@
+{
+  "id": "qwen4-max-preview",
+  "object": "model",
+  "created": 1794355200,
+  "owned_by": "alibaba",
+  "name": "Qwen4-Max-Preview",
+  "api": {
+    "types": [
+      "chat",
+      "messages",
+      "responses"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1000000,
+    "input": null,
+    "output": 393216
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "xhigh"
+    ]
+  },
+  "prices": [],
+  "features": [
+    "tools",
+    "structured_output"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-11-11",
+    "knowledge_cutoff": null,
+    "description": "Qwen4-Max-Preview is the next-generation flagship multimodal model in the Qwen family, combining text generation, image and video understanding, and deep reasoning. It is designed for coding, office productivity, frontend design, and complex agentic tasks. With support for web search, tool calling, and structured outputs, along with compatibility with the OpenAI and Anthropic APIs, it enables developers to build intelligent applications capable of multimodal understanding and task execution. Qwen4-Max-Preview is currently in preview and is available through Token Plan only. Pay-as-you-go access is not supported. The preview period runs from 10:00 on November 11, 2026 to 24:00 on November 25, 2026 (UTC+8); no changes will be made during this period, and the model will be retired after the preview ends.",
+    "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+    "verified_at": "2026-11-11"
+  },
+  "providers": [
+    {
+      "id": "alibaba-token-plan",
+      "model": "qwen4-max-preview",
+      "base_url": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+      "endpoints": {},
+      "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "alibaba-token-plan",
+      "model": "qwen4-max-preview",
+      "base_url": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/apps/anthropic",
+      "endpoints": {},
+      "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "alibaba-token-plan",
+      "model": "qwen4-max-preview",
+      "base_url": "https://token-plan.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+      "endpoints": {},
+      "reasoning_param": "reasoning_effort"
+    },
+    {
+      "id": "alibaba-token-plan",
+      "model": "qwen4-max-preview",
+      "base_url": "https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic",
+      "endpoints": {},
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [
+    "qwen4.0-max-preview"
+  ],
+  "translations": {
+    "zh": {
+      "description": "Qwen4-Max-Preview 是通义千问新一代旗舰多模态模型，融合文本生成、图片与视频理解及深度思考能力，适用于编程开发、办公、前端设计与复杂智能体任务。模型支持联网搜索、工具调用和结构化输出，兼容 OpenAI 与 Anthropic API，帮助开发者构建具备多模态理解与任务执行能力的智能应用。Qwen4-Max-Preview 当前为预览版，仅支持 Token Plan，不支持按量计费。预览期为 2026 年 11 月 11 日 10:00 至 11 月 25 日 24:00（UTC+8），期间不做变更，预览结束后下线。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Latest model: Qwen4-Max-Preview | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "最新模型：Qwen4-Max-Preview | 阿里云帮助中心",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen4-max-preview",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "最新模型：Qwen4-Max-Preview | 阿里云国际站中文文档",
+      "url": "https://www.alibabacloud.com/help/zh/model-studio/qwen4-max-preview",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Model lifecycle and updates | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "模型上架与更新 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/newly-released-models",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Text Generation and Visual Understanding | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "文本生成与视觉理解 | 大模型服务平台百炼",
+      "url": "https://www.alibabacloud.com/help/zh/model-studio/text-generation-model",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Token Plan (Personal Edition) | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/token-plan-personal-overview",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Token Plan（个人版）| 阿里云国际站中文文档",
+      "url": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-personal-overview",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Token Plan（个人版）| 阿里云帮助中心",
+      "url": "https://help.aliyun.com/zh/model-studio/token-plan-personal-overview",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Token Plan Personal Edition quick start | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/token-plan-personal-quick-start",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Token Plan 个人版快速开始 | 阿里云帮助中心",
+      "url": "https://help.aliyun.com/zh/model-studio/token-plan-personal-quick-start",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Token Plan overview | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/token-plan-overview",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Token Plan integration overview | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/token-plan-integration-overview",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Token Plan 概览 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/token-plan-overview",
+      "retrieved_at": "2026-11-11"
+    }
+  ]
+}
