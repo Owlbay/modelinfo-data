@@ -1,0 +1,142 @@
+{
+  "id": "gemini-4-carbon-cyber-permissive",
+  "object": "model",
+  "created": 1794268800,
+  "owned_by": "google",
+  "name": "Gemini 4 Carbon for cyber",
+  "api": {
+    "types": [
+      "generate",
+      "chat",
+      "batch",
+      "interactions"
+    ],
+    "sdk": [
+      "@google/genai",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 4,
+      "output": 20,
+      "cache_read": 0.2,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-10",
+    "knowledge_cutoff": null,
+    "description": "Generally available on Gemini Enterprise Agent Platform behind an allowlist (Fairwind Program). A version of Gemini 4 Carbon for defensive cybersecurity use cases such as vulnerability discovery, reverse engineering, exploit verification, and patch generation. Input is text, image, audio, video, and documents including PDF and Office files, and output is text. The context window is a unified 1,048,576 tokens. A single foreground segment generates up to 65,536 output tokens when streaming, or 32,768 when non-streaming; long decode can extend output up to 1,048,576 tokens minus the input. The spec table lists maximum output tokens as 1,048,576. Thinking levels are low, medium, and high, and the default is high. Computer use is not supported. Supported regions are global and us. Function calling, structured output, code execution, URL context, grounding, implicit context caching, the GenerateContent API, the Interactions API, Chat Completions, and batch inference are supported. The Live API is not supported. The recorded price is the Agent Platform Global standard rate: $4 per 1M input tokens, $0.20 per 1M cached input tokens, and $20 per 1M output tokens. Non-global standard rates are $4.40, $0.22, and $22. Promotional pricing does not apply. Priority and batch rates are not recorded, and the page does not publish a cache-write price.",
+    "docs": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-carbon#cyber",
+    "verified_at": "2026-11-11"
+  },
+  "providers": [
+    {
+      "id": "vertex-ai",
+      "model": "gemini-4-carbon-cyber-permissive",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-4-carbon-cyber-permissive:generateContent"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    },
+    {
+      "id": "vertex-ai",
+      "model": "google/gemini-4-carbon-cyber-permissive",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "chat": "POST /v1/projects/{PROJECT_ID}/locations/global/endpoints/openapi/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "在 Gemini Enterprise Agent Platform 上对白名单项目正式可用（Fairwind Program）。Gemini 4 Carbon 的防御性网络安全版本，用于漏洞发现、逆向工程、利用验证和补丁生成等场景。输入为文本、图像、音频、视频以及包括 PDF 和 Office 文件在内的文档，输出为文本。上下文窗口为统一的 1,048,576 token。单个前台分段在流式时最多生成 65,536 个输出 token，非流式为 32,768；long decode 可将输出延伸到 1,048,576 减去输入。规格表列出的最大输出 token 为 1,048,576。思考档位为 low、medium 和 high，默认为 high。不支持 Computer use。支持区域为 global 和 us。支持函数调用、结构化输出、代码执行、URL context、grounding、隐式上下文缓存、GenerateContent API、Interactions API、Chat Completions 和批量推理。不支持 Live API。记录的是 Agent Platform Global 标准价：输入每百万 token 4 美元，缓存输入 0.20 美元，输出 20 美元。非 Global 标准价为 4.40、0.22 和 22 美元。促销价不适用。Priority 与批量价格不记录。页面没有给出缓存写入价。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemini 4 Carbon (Gemini 4 Carbon for cyber; Model ID gemini-4-carbon-cyber-permissive; GA behind an allowlist; default thinking HIGH; computer use not supported; regions global, us) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-carbon",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Model versions (gemini-4-carbon-cyber-permissive release date November 10, 2026) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Agent Platform Pricing (Gemini 4 Carbon Cyber Permissive Global standard $4 / $20 / cached input $0.20) | Google Cloud",
+      "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Thinking (Gemini 4 Carbon for cyber thinking_level LOW, MEDIUM, HIGH; default HIGH) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/thinking",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "models.generateContent (POST https://{service-endpoint}/v1/{model}:generateContent; projects/{project}/locations/{location}/publishers/*/models/*) | Gemini Enterprise Agent Platform REST reference",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/reference/rest/v1/projects.locations.publishers.models/generateContent",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Get started with Gemini Enterprise Agent Platform (API_ENDPOINT https://aiplatform.googleapis.com, location global, .../publishers/google/models/{MODEL_ID}:generateContent; npm install @google/genai) | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Inference API (OpenAI client base_url https://aiplatform.googleapis.com/v1/projects/{project_id}/locations/{location}/endpoints/openapi, model google/<model>) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/reference/models/inference",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Using OpenAI libraries with Gemini Enterprise Agent Platform (Chat Completions supported models include Gemini 4 Carbon for cyber)",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/migrate/openai/overview",
+      "retrieved_at": "2026-11-11"
+    },
+    {
+      "title": "Generating content (generationConfig.thinkingConfig.thinkingLevel) | Gemini API",
+      "url": "https://ai.google.dev/api/generate-content",
+      "retrieved_at": "2026-11-11"
+    }
+  ]
+}
