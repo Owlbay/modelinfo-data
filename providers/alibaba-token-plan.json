@@ -1,0 +1,17 @@
+{
+  "id": "alibaba-token-plan",
+  "name": "Alibaba Token Plan",
+  "url": "https://www.alibabacloud.com/help/en/model-studio/token-plan-overview",
+  "owned_by": "alibaba",
+  "api_key_url": "https://modelstudio.console.alibabacloud.com/subscription/overview",
+  "docs_url": "https://www.alibabacloud.com/help/en/model-studio/token-plan-overview",
+  "sites": [
+    {
+      "hosts": [
+        "token-plan.cn-beijing.maas.aliyuncs.com"
+      ],
+      "api_key_url": "https://bailian.console.aliyun.com/cn-beijing/subscription/token-plan/personal",
+      "docs_url": "https://help.aliyun.com/zh/model-studio/token-plan-overview"
+    }
+  ]
+}
