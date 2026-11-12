@@ -35,7 +35,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "low",
+      "medium",
+      "xhigh"
+    ]
   },
   "prices": [
     {
@@ -67,7 +71,7 @@
     "knowledge_cutoff": null,
     "description": "Open-source release of the latest Qwen flagship, a sparse MoE with 2.4T total and about 95B active parameters.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
-    "verified_at": "2026-10-30"
+    "verified_at": "2026-11-12"
   },
   "providers": [
     {
@@ -79,7 +83,7 @@
         "messages": "POST /apps/anthropic/v1/messages",
         "responses": "POST /compatible-mode/v1/responses"
       },
-      "reasoning_param": "enable_thinking",
+      "reasoning_param": "reasoning_effort",
       "reasoning_params": {
         "responses": "reasoning.effort"
       }
@@ -115,7 +119,7 @@
     {
       "title": "Alibaba Cloud Model Studio API Reference — qwen-api-via-openai-responses",
       "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-responses",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-12"
     },
     {
       "title": "SDK support — @ai-sdk/alibaba (api.sdk only)",
@@ -156,6 +160,26 @@
       "title": "qwen3.8-2.4t-a95b | Alibaba Cloud Model Studio",
       "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-2-4t-a95b",
       "retrieved_at": "2026-10-30"
+    },
+    {
+      "title": "OpenAI compatible - Chat | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-chat-completions",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "OpenAI兼容-Chat | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-api-via-openai-chat-completions",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "创建响应 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-api-via-openai-responses",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "DashScope API 参考 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-api-via-dashscope",
+      "retrieved_at": "2026-11-12"
     }
   ]
 }

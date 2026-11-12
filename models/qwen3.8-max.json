@@ -38,7 +38,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "low",
+      "medium",
+      "xhigh"
+    ]
   },
   "prices": [
     {
@@ -71,7 +75,7 @@
     "knowledge_cutoff": null,
     "description": "Alibaba 2.4-trillion-parameter MoE flagship (95B active) for coding and office productivity.",
     "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-max",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-12"
   },
   "providers": [
     {
@@ -83,8 +87,9 @@
         "messages": "POST /apps/anthropic/v1/messages",
         "responses": "POST /compatible-mode/v1/responses"
       },
-      "reasoning_param": "enable_thinking",
+      "reasoning_param": "reasoning_effort",
       "reasoning_params": {
+        "messages": "output_config.effort",
         "responses": "reasoning.effort"
       }
     },
@@ -95,7 +100,7 @@
       "endpoints": {
         "batch": "POST /compatible-mode/v1/batches"
       },
-      "reasoning_param": "enable_thinking"
+      "reasoning_param": "reasoning_effort"
     },
     {
       "id": "alibaba",
@@ -104,7 +109,7 @@
       "endpoints": {
         "batch": "POST /compatible-mode/v1/batches"
       },
-      "reasoning_param": "enable_thinking"
+      "reasoning_param": "reasoning_effort"
     }
   ],
   "aliases": [
@@ -140,7 +145,7 @@
     {
       "title": "Create a response | Alibaba Cloud Model Studio",
       "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-responses",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-12"
     },
     {
       "title": "Use deep thinking models via API | Alibaba Cloud Model Studio",
@@ -155,7 +160,7 @@
     {
       "title": "Anthropic-compatible Messages API | Alibaba Cloud Model Studio",
       "url": "https://www.alibabacloud.com/help/en/model-studio/anthropic-api-messages",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-12"
     },
     {
       "title": "SDK support — @ai-sdk/alibaba (api.sdk only)",
@@ -201,6 +206,31 @@
       "title": "OpenAI兼容-Batch（文件输入） | 大模型服务平台百炼",
       "url": "https://help.aliyun.com/zh/model-studio/batch-interfaces-compatible-with-openai",
       "retrieved_at": "2026-11-05"
+    },
+    {
+      "title": "OpenAI compatible - Chat | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-chat-completions",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "OpenAI兼容-Chat | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-api-via-openai-chat-completions",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "创建响应 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-api-via-openai-responses",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "DashScope API 参考 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-api-via-dashscope",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "Anthropic兼容-Messages | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/anthropic-api-messages",
+      "retrieved_at": "2026-11-12"
     }
   ]
 }
