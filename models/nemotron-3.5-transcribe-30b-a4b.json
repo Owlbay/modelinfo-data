@@ -1,0 +1,65 @@
+{
+  "id": "nemotron-3.5-transcribe-30b-a4b",
+  "object": "model",
+  "created": 1793145600,
+  "owned_by": "nvidia",
+  "name": "Nemotron 3.5 Transcribe 30B-A4B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 65536,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio",
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-28",
+    "knowledge_cutoff": null,
+    "description": "Open-weight offline speech and audio model from NVIDIA under OpenMDW-1.1: a hybrid mixture-of-experts Speech-Augmented Language Model with about 4.3B active parameters (including the audio encoder). Transcribes 40 languages and handles recordings up to one hour with a 65,536-token context; also does speech translation, contextual and speaker-attributed transcription, timestamp prediction, language identification and audio question answering. Audio and text in, text out (optional word timestamps). Released in BF16, FP8 and NVFP4; reasoning toggled via chat template enable_thinking. No hosted API endpoint or official price found.",
+    "docs": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "verified_at": "2026-11-12"
+  },
+  "providers": [],
+  "aliases": [
+    "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+  ],
+  "translations": {
+    "zh": {
+      "description": "NVIDIA 开放权重的离线语音与音频模型，许可证 OpenMDW-1.1：混合 MoE 架构的语音增强语言模型，激活参数约 4.3B（含音频编码器）。支持 40 种语言转写，可处理最长 1 小时录音，上下文 65,536 tokens；还支持语音翻译、上下文转写、说话人转写、时间戳预测、语种识别和音频问答。输入音频和文本，输出文本（可选词级时间戳）。提供 BF16、FP8、NVFP4 版本；推理通过聊天模板 enable_thinking 开关。未找到托管 API 端点或官方价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B model card | Hugging Face",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Transcribe | NVIDIA Research",
+      "url": "https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Transcribe/",
+      "retrieved_at": "2026-11-12"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "nemotron-3.5-bolt-74b-a9b",
+  "object": "model",
+  "created": 1792022400,
+  "owned_by": "nvidia",
+  "name": "Nemotron 3.5 Bolt 74B-A9B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 262144,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-15",
+    "knowledge_cutoff": null,
+    "description": "Open-weight 74B-parameter (9B active) vision-language model from NVIDIA under the OpenMDW-1.1 license, built for running everyday agentic tasks locally (tool calling, web browsing, terminal use). Mamba-2-Transformer hybrid LatentMoE with a C-RADIO v4-H vision encoder; the 24GB release uses native 2-bit quantization, with GGUF and BF16 variants also published. Accepts text, images and video and returns text; context up to 256K tokens shared by prompt and response. Reasoning is toggled with the chat template (enable_thinking). No hosted NVIDIA API endpoint or official token price found.",
+    "docs": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+    "verified_at": "2026-11-12"
+  },
+  "providers": [],
+  "aliases": [
+    "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+    "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16"
+  ],
+  "translations": {
+    "zh": {
+      "description": "NVIDIA 开放权重的视觉语言模型，总参数 74B、激活 9B，许可证为 OpenMDW-1.1，面向本地运行日常智能体任务（工具调用、网页浏览、终端操作）。架构为 Mamba-2–Transformer 混合 LatentMoE，配 C-RADIO v4-H 视觉编码器；24GB 版本采用原生 2-bit 量化，另有 GGUF 与 BF16 版本。输入文本、图像和视频，输出文本；上下文最长 256K tokens，提示与回复共享。推理通过聊天模板 enable_thinking 开关。未找到 NVIDIA 托管 API 端点或官方 token 价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB model card | Hugging Face",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16 model card | Hugging Face",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+      "retrieved_at": "2026-11-12"
+    }
+  ]
+}

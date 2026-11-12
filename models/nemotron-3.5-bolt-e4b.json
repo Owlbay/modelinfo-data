@@ -1,0 +1,87 @@
+{
+  "id": "nemotron-3.5-bolt-e4b",
+  "object": "model",
+  "created": 1792713600,
+  "owned_by": "nvidia",
+  "name": "Nemotron 3.5 Bolt E4B",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai-compatible",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": 65536,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-23",
+    "knowledge_cutoff": null,
+    "description": "Open-weight small language model (8B total, 4B effective) that NVIDIA post-trained from Gemma-4-E4B-it, under OpenMDW-1.1 (Gemma 4 base under Apache 2.0). Tuned for multi-turn tool use, instruction following and input grounding in fast local voice/device assistants, interactive personas and edge interfaces. Text in, text out; the model card lists input up to 64K tokens and output up to 64K tokens without a separate total context figure, so context is unset. Thinking is toggled through the chat template (enable_thinking) with a runtime thinking budget. Hosted on build.nvidia.com; no official token price published.",
+    "docs": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+    "verified_at": "2026-11-12"
+  },
+  "providers": [
+    {
+      "id": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "base_url": "https://integrate.api.nvidia.com",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "nvidia/nemotron-3.5-bolt-e4b"
+  ],
+  "translations": {
+    "zh": {
+      "description": "NVIDIA 基于 Gemma-4-E4B-it 后训练的开放权重小模型（总参数 8B、有效 4B），许可证 OpenMDW-1.1（Gemma 4 基座为 Apache 2.0）。针对快速本地语音/设备助手、交互角色和边缘界面，强化多轮工具调用、指令遵循和输入依据。输入输出均为文本；模型卡写输入最长 64K tokens、输出最长 64K tokens，未单独给出总上下文，因此上下文留空。思考通过聊天模板 enable_thinking 开关，支持运行时思考预算。已上线 build.nvidia.com，未公布官方 token 价格。"
+    }
+  },
+  "sources": [
+    {
+      "title": "NVIDIA-Nemotron-3.5-Bolt-E4B-BF16 model card | Hugging Face",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB model card | Hugging Face",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "nemotron-3.5-bolt-e4b | NVIDIA NIM",
+      "url": "https://build.nvidia.com/nvidia/nemotron-3.5-bolt-e4b",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "NVIDIA API model list",
+      "url": "https://integrate.api.nvidia.com/v1/models",
+      "retrieved_at": "2026-11-12"
+    }
+  ]
+}
