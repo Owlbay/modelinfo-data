@@ -1,0 +1,95 @@
+{
+  "id": "ernie-light-dt-1.0",
+  "object": "model",
+  "created": null,
+  "owned_by": "baidu",
+  "name": "ERNIE-Light-DT-1.0",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "@ai-sdk/openai-compatible",
+      "@baiducloud/qianfan",
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": 1048576,
+    "output": 131072
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "high",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 8,
+      "output": 28,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Baidu lightweight deep-thinking text model on the Qianfan platform, built on Baidu's Lightning model work and Baidu Sparse Attention (BSA) with feedback-driven history compression to cut KV cache cost for long context. Qianfan lists a 1M-token context, 1M max input and 128K (131072) max output. Thinking can be switched on or off (default on); reasoning_effort accepts low, high or max (default max). Pay-as-you-go price is 8 CNY per 1M input tokens and 28 CNY per 1M output tokens. Launched at Baidu World 2026; no exact official release date found.",
+    "docs": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+    "verified_at": "2026-11-12"
+  },
+  "providers": [
+    {
+      "id": "baidu",
+      "model": "ernie-light-dt-1.0",
+      "base_url": "https://qianfan.baidubce.com",
+      "endpoints": {
+        "chat": "POST /v2/chat/completions"
+      },
+      "reasoning_param": "reasoning_effort"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "千帆平台上的百度文心闪电深度思考模型，基于百度闪电大模型与自研 BSA 稀疏注意力，借助反馈式历史压缩削减 KV 成本，支持超长上下文。千帆列出上下文 1M、最大输入 1M、最大输出 128K（131072）。思考模式可开可关（默认开启），reasoning_effort 可选 low、high、max（默认 max）。按量后付费价格为输入 8 元/百万 tokens、输出 28 元/百万 tokens。在百度世界 2026 发布，未找到官方精确发布日期。"
+    }
+  },
+  "sources": [
+    {
+      "title": "模型列表 - 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "模型默认参数说明 - 百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/s/6mh4stoyf",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "百度千帆产品页（模型价格卡片）",
+      "url": "https://cloud.baidu.com/product/qianfan.html",
+      "retrieved_at": "2026-11-12"
+    }
+  ]
+}
