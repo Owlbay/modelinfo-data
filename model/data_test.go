@@ -91,10 +91,14 @@ func TestShape(t *testing.T) {
 		{"字段顺序", `"object": "model",
   "created": 1785715200,`, `"created": 1785715200,
   "object": "model",`, "字段顺序应为 id、object、created"},
-		{"数组写成 null", `"efforts": []`, `"efforts": null`, "reasoning.efforts：应为数组"},
+		{"数组写成 null", `"efforts": [
+      "low",
+      "medium",
+      "xhigh"
+    ]`, `"efforts": null`, "reasoning.efforts：应为数组"},
 		{"对象写成 null", `"limits": {`, `"limits": null, "x": {`, "limits：应为对象"},
 		{"整数写成小数", `"context": 1000000,`, `"context": 1000000.5,`, "limits.context：应为整数"},
-		{"provider 缺 reasoning_param", `"reasoning_param": "enable_thinking",`, ``, "providers[0]：缺少字段 reasoning_param"},
+		{"provider 缺 reasoning_param", `"reasoning_param": "reasoning_effort",`, ``, "providers[0]：缺少字段 reasoning_param"},
 	}
 	for _, c := range cases {
 		doc := strings.Replace(raw, c.from, c.to, 1)
