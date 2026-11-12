@@ -37,7 +37,11 @@
   },
   "reasoning": {
     "supported": true,
-    "efforts": []
+    "efforts": [
+      "low",
+      "medium",
+      "xhigh"
+    ]
   },
   "prices": [
     {
@@ -69,7 +73,7 @@
     "knowledge_cutoff": null,
     "description": "Multimodal Qwen model combining reasoning, generation and speed for coding assistance, agentic workflows and visual understanding.",
     "docs": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-flash",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-12"
   },
   "providers": [
     {
@@ -81,8 +85,9 @@
         "messages": "POST /apps/anthropic/v1/messages",
         "responses": "POST /compatible-mode/v1/responses"
       },
-      "reasoning_param": "enable_thinking",
+      "reasoning_param": "reasoning_effort",
       "reasoning_params": {
+        "messages": "output_config.effort",
         "responses": "reasoning.effort"
       }
     }
@@ -122,12 +127,12 @@
     {
       "title": "Anthropic-compatible Messages API | Alibaba Cloud Model Studio",
       "url": "https://www.alibabacloud.com/help/en/model-studio/anthropic-api-messages",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-12"
     },
     {
       "title": "Alibaba Cloud Model Studio API Reference — qwen-api-via-openai-responses",
       "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-responses",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-12"
     },
     {
       "title": "SDK support — @ai-sdk/alibaba (api.sdk only)",
@@ -163,6 +168,31 @@
       "title": "SDK support — dashscope-sdk-official (api.sdk only)",
       "url": "https://github.com/dashscope/dashscope-sdk-nodejs",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "OpenAI compatible - Chat | Alibaba Cloud Model Studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-chat-completions",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "OpenAI兼容-Chat | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-api-via-openai-chat-completions",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "创建响应 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-api-via-openai-responses",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "DashScope API 参考 | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-api-via-dashscope",
+      "retrieved_at": "2026-11-12"
+    },
+    {
+      "title": "Anthropic兼容-Messages | 大模型服务平台百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/anthropic-api-messages",
+      "retrieved_at": "2026-11-12"
     }
   ]
 }
