@@ -1,0 +1,167 @@
+{
+  "id": "gemini-4-hydrogen",
+  "object": "model",
+  "created": 1794441600,
+  "owned_by": "google",
+  "name": "Gemini 4 Hydrogen",
+  "api": {
+    "types": [
+      "generate",
+      "batch",
+      "interactions"
+    ],
+    "sdk": [
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.5,
+      "output": 7.5,
+      "cache_read": 0.075,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-12",
+    "knowledge_cutoff": "2026-03",
+    "description": "Brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows. Stable on the Gemini API. The default synchronous max output is 65,536 tokens; long decode can continue up to 1,048,576 tokens minus the input. Standard price is $1.50 input, $7.50 output (including thinking tokens), and $0.075 implicit cache read per 1M tokens. Thinking levels are low, medium, high (default), and xhigh. Also supports code execution, computer use, search and Maps grounding, URL context, and file search. Caching is implicit only. Batch, Flex, and Priority inference are supported. It is the default model for the Antigravity agent in Gemini Managed Agents.",
+    "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-4-hydrogen",
+    "verified_at": "2026-11-13"
+  },
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-4-hydrogen",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "interactions": "POST /v1beta/interactions",
+        "generate": "POST /v1beta/models/gemini-4-hydrogen:generateContent",
+        "batch": "POST /v1beta/models/gemini-4-hydrogen:batchGenerateContent"
+      },
+      "reasoning_param": "generation_config.thinking_level",
+      "reasoning_params": {
+        "interactions": "generation_config.thinking_level",
+        "generate": "generationConfig.thinkingConfig.thinkingLevel"
+      }
+    },
+    {
+      "id": "vertex-ai",
+      "model": "gemini-4-hydrogen",
+      "base_url": "https://aiplatform.googleapis.com",
+      "endpoints": {
+        "generate": "POST /v1/projects/{PROJECT_ID}/locations/global/publishers/google/models/gemini-4-hydrogen:generateContent"
+      },
+      "reasoning_param": "generationConfig.thinkingConfig.thinkingLevel"
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "以速度和效率把前沿智能带到日常编程与智能体工作流。在 Gemini API 上为稳定版。同步默认最大输出为 65,536 token；开启 long decode 后，输出可延续到 1,048,576 减去输入。标准价为每百万 token 输入 1.50 美元、输出（含思考 token）7.50 美元、隐式缓存读取 0.075 美元。思考档位为 low、medium、high（默认）和 xhigh。另支持代码执行、Computer use、Search 与 Maps grounding、URL context 和 File search。仅支持隐式缓存。支持 Batch、Flex 和 Priority 推理。它是 Gemini Managed Agents 中 Antigravity agent 的默认模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Gemini 4 Hydrogen | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-4-hydrogen",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "What's new in Gemini 4 Hydrogen | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/whats-new-gemini-4-hydrogen",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Pricing (Gemini 4 Hydrogen standard paid tier) | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-4-hydrogen",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Release notes (November 12, 2026: gemini-4-hydrogen GA) | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Gemini 4 Hydrogen - Model Card — Google DeepMind",
+      "url": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Thinking (gemini-4-hydrogen default high; low, medium, high, xhigh; POST /v1beta/interactions generation_config.thinking_level) | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/thinking",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Long decode (gemini-4-hydrogen; default synchronous 65,536; stream: true) | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/long-decode",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Batch API (POST https://generativelanguage.googleapis.com/v1beta/models/gemini-4-hydrogen:batchGenerateContent) | Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/batch-api",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Generating content (POST /v1beta/models/{model}:generateContent; generationConfig.thinkingConfig.thinkingLevel) | Gemini API",
+      "url": "https://ai.google.dev/api/generate-content",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Gemini 4 Hydrogen (Model ID gemini-4-hydrogen; GA; Release date November 12, 2026; Knowledge cutoff March 2026; global, us, eu) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-hydrogen",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Model versions (gemini-4-hydrogen release date November 12, 2026) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Get started with Gemini 4 (model gemini-4-hydrogen; location global; @google/genai) | Gemini Enterprise Agent Platform",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start/get-started-with-gemini-4",
+      "retrieved_at": "2026-11-13"
+    },
+    {
+      "title": "Get started with Gemini Enterprise Agent Platform (API_ENDPOINT https://aiplatform.googleapis.com, .../publishers/google/models/{MODEL_ID}:generateContent; npm install @google/genai) | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start",
+      "retrieved_at": "2026-11-13"
+    }
+  ]
+}
