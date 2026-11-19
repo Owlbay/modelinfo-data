@@ -1,0 +1,83 @@
+{
+  "id": "doubao-seedance-2-5-flash",
+  "object": "model",
+  "created": null,
+  "owned_by": "bytedance",
+  "name": "Doubao-Seedance-2.5-Flash",
+  "api": {
+    "types": [
+      "video"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "video"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": null,
+      "output": 28,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://console.volcengine.com/ark/region:cn-beijing/docs/seedance-2-5",
+    "verified_at": "2026-11-19"
+  },
+  "providers": [
+    {
+      "id": "bytedance",
+      "model": "doubao-seedance-2-5-flash-261115",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "endpoints": {
+        "video": "POST /contents/generations/tasks"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "doubao-seedance-2-5-flash-261115"
+  ],
+  "sources": [
+    {
+      "title": "官方调用教程：模型ID、模态与接入接口",
+      "url": "https://console.volcengine.com/ark/region:cn-beijing/docs/seedance-2-5",
+      "retrieved_at": "2026-11-19"
+    },
+    {
+      "title": "模型发布公告（仅明确发布月份，不由ID推算日期）",
+      "url": "https://console.volcengine.com/ark/region:cn-beijing/docs/model-release-announcement",
+      "retrieved_at": "2026-11-19"
+    },
+    {
+      "title": "标准价格：图片最低像素档；Flash视频480p/720p含输入视频档",
+      "url": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh&redirect=1",
+      "retrieved_at": "2026-11-19"
+    }
+  ]
+}
