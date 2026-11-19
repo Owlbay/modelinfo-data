@@ -11,7 +11,7 @@
     "sdk": []
   },
   "limits": {
-    "context": 512768,
+    "context": null,
     "input": null,
     "output": null
   },
@@ -44,7 +44,7 @@
     "knowledge_cutoff": null,
     "description": "Small language model (1.54B parameters) that converts HTML into clean Markdown or JSON, used by the Reader API.",
     "docs": "https://jina.ai/models/ReaderLM-v2",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-19"
   },
   "providers": [
     {
@@ -82,9 +82,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "Models | Jina AI API",
+      "title": "Official model catalog: context differs from published weight configuration (see issue #131)",
       "url": "https://api.jina.ai/v1/models",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-19"
     },
     {
       "title": "Jina AI meta-prompt v14 (Reader API) | jina-ai GitHub",
@@ -95,6 +95,11 @@
       "title": "Jina AI API OpenAPI spec | jina-ai GitHub",
       "url": "https://github.com/jina-ai/meta-prompt/blob/main/api-docs/openapi.json",
       "retrieved_at": "2026-11-04"
+    },
+    {
+      "title": "Pinned official weight configuration: context conflict (see issue #131)",
+      "url": "https://huggingface.co/jinaai/ReaderLM-v2/blob/1d07078459ee1e880a22d67387b5e683d50a6e4b/config.json",
+      "retrieved_at": "2026-11-19"
     }
   ]
 }
