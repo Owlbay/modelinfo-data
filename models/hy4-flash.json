@@ -1,0 +1,106 @@
+{
+  "id": "hy4-flash",
+  "object": "model",
+  "created": null,
+  "owned_by": "tencent",
+  "name": "Hy4 flash",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "messages"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 0.5,
+      "output": 2,
+      "cache_read": 0.02,
+      "cache_write": null
+    },
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.07,
+      "output": 0.281,
+      "cache_read": 0.003,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "更轻量、更高效的日常主力模型。适合日常办公等高频、规模化场景。",
+    "docs": "https://cloud.tencent.com/document/product/1823/132252",
+    "verified_at": "2026-11-18"
+  },
+  "providers": [
+    {
+      "id": "tencent",
+      "model": "hy4-flash",
+      "base_url": "https://tokenhub.tencentmaas.com/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses",
+        "messages": "POST /messages"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Hy4 flash protocols, streaming, modalities; K-unit limits left unconverted",
+      "url": "https://cloud.tencent.com/document/product/1823/132252",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "Hy4 flash capabilities",
+      "url": "https://cloud.tencent.com/document/product/1823/130051",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "Hy4 flash CNY list prices, before temporary 50% discount",
+      "url": "https://cloud.tencent.com/document/product/1823/130055",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "Hy4 flash USD list prices, before temporary 50% discount",
+      "url": "https://intl.cloud.tencent.com/document/product/1300/78937",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "TokenHub protocol endpoints",
+      "url": "https://cloud.tencent.com/document/product/1823/130079",
+      "retrieved_at": "2026-11-18"
+    }
+  ]
+}

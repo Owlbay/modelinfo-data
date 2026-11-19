@@ -1,0 +1,172 @@
+{
+  "id": "qwen4-max",
+  "object": "model",
+  "created": 1794787200,
+  "owned_by": "alibaba",
+  "name": "Qwen4-Max",
+  "api": {
+    "types": [
+      "chat",
+      "responses",
+      "messages",
+      "batch"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 1000000,
+    "input": 983616,
+    "output": 262144
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "high",
+      "xhigh"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "CNY",
+      "unit": "1M_tokens",
+      "input": 10,
+      "output": 30,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-16",
+    "knowledge_cutoff": null,
+    "description": "Qwen4-Max is the next-generation flagship multimodal model in the Qwen family, combining text generation, image and video understanding, and deep reasoning.",
+    "docs": "https://help.aliyun.com/en/model-studio/qwen4-max",
+    "verified_at": "2026-11-18"
+  },
+  "providers": [
+    {
+      "id": "alibaba",
+      "model": "qwen4-max",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      }
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen4-max",
+      "base_url": "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/apps/anthropic",
+      "endpoints": {
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": "output_config.effort"
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen4-max",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      },
+      "features": [
+        "tools",
+        "structured_output",
+        "streaming",
+        "caching"
+      ],
+      "prices": [
+        {
+          "currency": "CNY",
+          "unit": "1M_tokens",
+          "input": 10.938,
+          "output": 32.813,
+          "cache_read": null,
+          "cache_write": null
+        }
+      ]
+    },
+    {
+      "id": "alibaba",
+      "model": "qwen4-max",
+      "base_url": "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/apps/anthropic",
+      "endpoints": {
+        "messages": "POST /v1/messages"
+      },
+      "reasoning_param": "output_config.effort",
+      "features": [
+        "tools",
+        "structured_output",
+        "streaming",
+        "caching"
+      ],
+      "prices": [
+        {
+          "currency": "CNY",
+          "unit": "1M_tokens",
+          "input": 10.938,
+          "output": 32.813,
+          "cache_read": null,
+          "cache_write": null
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Qwen4-Max: default thinking limits, effort values, regional pricing and capabilities",
+      "url": "https://help.aliyun.com/en/model-studio/qwen4-max",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "Qwen4-Max launch: November 16, 2026",
+      "url": "https://help.aliyun.com/zh/model-studio/token-plan-product-updates",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "OpenAI-compatible Chat endpoints",
+      "url": "https://help.aliyun.com/en/model-studio/qwen-api-via-openai-chat-completions",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "Responses endpoints",
+      "url": "https://help.aliyun.com/en/model-studio/qwen-api-via-openai-responses",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "Anthropic-compatible Messages endpoints",
+      "url": "https://help.aliyun.com/en/model-studio/anthropic-api-messages",
+      "retrieved_at": "2026-11-18"
+    }
+  ]
+}
