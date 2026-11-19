@@ -52,12 +52,12 @@
     "caching"
   ],
   "info": {
-    "status": "preview",
+    "status": "deprecated",
     "release_date": "2026-08-28",
     "knowledge_cutoff": null,
     "description": "Tencent Hy4 preview model with 1M context and deep thinking, served on TokenHub.",
     "docs": "https://cloud.tencent.com/document/product/1823/132252",
-    "verified_at": "2026-11-06"
+    "verified_at": "2026-11-18"
   },
   "providers": [
     {
@@ -85,9 +85,9 @@
       "retrieved_at": "2026-10-10"
     },
     {
-      "title": "模型列表 | 腾讯云 TokenHub",
+      "title": "腾讯模型列表：Hy4 preview 将于 2026-12-07 下线",
       "url": "https://cloud.tencent.com/document/product/1823/130051",
-      "retrieved_at": "2026-11-06"
+      "retrieved_at": "2026-11-18"
     },
     {
       "title": "模型定价 | 腾讯云 TokenHub",
