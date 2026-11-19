@@ -1,0 +1,81 @@
+{
+  "id": "jina-vlm",
+  "object": "model",
+  "created": 1764806400,
+  "owned_by": "jina",
+  "name": "Jina VLM",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 32768,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2025-12-04",
+    "knowledge_cutoff": null,
+    "description": "Multilingual vision-language model for visual question answering",
+    "docs": "https://jina.ai/models/jina-vlm/",
+    "verified_at": "2026-11-19"
+  },
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-vlm",
+      "base_url": "https://api-beta-vlm.jina.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Jina VLM: release date and input/output modalities",
+      "url": "https://jina.ai/models/jina-vlm/",
+      "retrieved_at": "2026-11-19"
+    },
+    {
+      "title": "Official model card: Via Jina API and Streaming response",
+      "url": "https://huggingface.co/jinaai/jina-vlm",
+      "retrieved_at": "2026-11-19"
+    },
+    {
+      "title": "Official model catalog: 32768 context; USD input price per token",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-11-19"
+    }
+  ]
+}
