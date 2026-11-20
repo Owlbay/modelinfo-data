@@ -58,7 +58,9 @@
       "id": "google",
       "model": "models/genie-4",
       "base_url": "https://generativelanguage.googleapis.com",
-      "endpoints": {},
+      "endpoints": {
+        "interactions": "POST /v1beta/interactions"
+      },
       "reasoning_param": null
     }
   ],
