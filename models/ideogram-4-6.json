@@ -1,0 +1,74 @@
+{
+  "id": "ideogram-4-6",
+  "object": "model",
+  "created": null,
+  "owned_by": "ideogram",
+  "name": "Ideogram 4.6",
+  "api": {
+    "types": [
+      "images"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "image"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "image",
+      "input": null,
+      "output": 0.008,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Generate images with Ideogram 4.6 from a natural-language or structured JSON prompt.",
+    "docs": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-4-6",
+    "verified_at": "2026-11-19"
+  },
+  "providers": [
+    {
+      "id": "ideogram",
+      "model": "ideogram-4-6",
+      "base_url": "https://api.ideogram.ai",
+      "endpoints": {
+        "images": "POST /v2/image/generate/ideogram-4-6"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Ideogram 4.6: generation and source-image editing endpoint",
+      "url": "https://developer.ideogram.ai/api-reference/images/generate/ideogram-4-6",
+      "retrieved_at": "2026-11-19"
+    },
+    {
+      "title": "Official API model prices: USD 0.008 per image, very_low, no source images, up to 2K",
+      "url": "https://developer.ideogram.ai/v2/ideogram-api/models",
+      "retrieved_at": "2026-11-19"
+    }
+  ]
+}
