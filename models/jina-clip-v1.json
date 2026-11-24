@@ -1,0 +1,84 @@
+{
+  "id": "jina-clip-v1",
+  "object": "model",
+  "created": 1717545600,
+  "owned_by": "jina",
+  "name": "Jina CLIP v1",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-06-05",
+    "knowledge_cutoff": null,
+    "description": "Multimodal embedding models for images and English text",
+    "docs": "https://jina.ai/models/jina-clip-v1/",
+    "verified_at": "2026-11-24"
+  },
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-clip-v1",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Official model page: release and modalities; 8K/12288 context conflict",
+      "url": "https://jina.ai/models/jina-clip-v1/",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Official model card: Embeddings API availability",
+      "url": "https://huggingface.co/jinaai/jina-clip-v1",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Official API: ClipV1Request",
+      "url": "https://docs.jina.ai/api.md",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Official catalog: USD0.00000005 per input token; 8192 context conflicts with model page",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-11-24"
+    }
+  ]
+}
