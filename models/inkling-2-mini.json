@@ -1,0 +1,100 @@
+{
+  "id": "inkling-2-mini",
+  "object": "model",
+  "created": 1795132800,
+  "owned_by": "thinking-machines",
+  "name": "Inkling 2 Mini",
+  "api": {
+    "types": [
+      "messages"
+    ],
+    "sdk": [
+      "@anthropic-ai/sdk"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.15,
+      "output": 0.5,
+      "cache_read": 0.015,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "streaming"
+  ],
+  "info": {
+    "status": "preview",
+    "release_date": "2026-11-20",
+    "knowledge_cutoff": null,
+    "description": "Inkling 2 Mini is a general-purpose multimodal model that accepts text and image inputs and generates text outputs.",
+    "docs": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+    "verified_at": "2026-11-21"
+  },
+  "providers": [
+    {
+      "id": "tinker",
+      "model": "thinkingmachines/Inkling-2-Mini",
+      "base_url": "https://tinker.thinkingmachines.dev",
+      "endpoints": {
+        "messages": "POST /services/tinker-prod/anthropic/api/v1/messages"
+      },
+      "reasoning_param": "output_config.effort",
+      "prices": [
+        {
+          "currency": "USD",
+          "unit": "1M_tokens",
+          "input": 0.15,
+          "output": 0.5,
+          "cache_read": null,
+          "cache_write": null
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Official model card: release date, modalities, Tinker access",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "retrieved_at": "2026-11-21"
+    },
+    {
+      "title": "Tinker model pricing; training versus sampling windows",
+      "url": "https://tinker-docs.thinkingmachines.ai/tinker/models.json",
+      "retrieved_at": "2026-11-21"
+    },
+    {
+      "title": "Anthropic-compatible inference Beta; endpoint, effort, tools, streaming, cache limitation",
+      "url": "https://tinker-docs.thinkingmachines.ai/inference/anthropic/",
+      "retrieved_at": "2026-11-21"
+    }
+  ]
+}
