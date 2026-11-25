@@ -1,0 +1,102 @@
+{
+  "id": "solar-mini-4-5-preview",
+  "object": "model",
+  "created": 1795392000,
+  "owned_by": "upstage",
+  "name": "Solar Mini 4.5 Preview",
+  "api": {
+    "types": [
+      "chat",
+      "responses"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": 0.4,
+      "cache_read": 0.01,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2026-11-23",
+    "knowledge_cutoff": "2026-08",
+    "description": "Early-access preview of the next compact Solar model",
+    "docs": "https://console.upstage.ai/docs/models/solar-mini-4-5-preview",
+    "verified_at": "2026-11-24"
+  },
+  "providers": [
+    {
+      "id": "upstage",
+      "model": "solar-mini-4-5-preview",
+      "base_url": "https://api.upstage.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "responses": "reasoning.effort"
+      }
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Official model: list prices and November 30 retirement",
+      "url": "https://console.upstage.ai/docs/models/solar-mini-4-5-preview",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Official reasoning effort values",
+      "url": "https://console.upstage.ai/docs/capabilities/generate/reasoning",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Responses API supported models",
+      "url": "https://console.upstage.ai/api/responses",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Chat API and SDK",
+      "url": "https://console.upstage.ai/docs/capabilities/generate/chat",
+      "retrieved_at": "2026-11-24"
+    }
+  ]
+}
