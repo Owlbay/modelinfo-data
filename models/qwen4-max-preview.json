@@ -41,12 +41,12 @@
     "structured_output"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2026-11-11",
     "knowledge_cutoff": null,
     "description": "Qwen4-Max-Preview is the next-generation flagship multimodal model in the Qwen family, combining text generation, image and video understanding, and deep reasoning. It is designed for coding, office productivity, frontend design, and complex agentic tasks. With support for web search, tool calling, and structured outputs, along with compatibility with the OpenAI and Anthropic APIs, it enables developers to build intelligent applications capable of multimodal understanding and task execution. Qwen4-Max-Preview is currently in preview and is available through Token Plan only. Pay-as-you-go access is not supported. The preview period runs from 10:00 on November 11, 2026 to 24:00 on November 25, 2026 (UTC+8); no changes will be made during this period, and the model will be retired after the preview ends.",
     "docs": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
-    "verified_at": "2026-11-18"
+    "verified_at": "2026-11-25"
   },
   "providers": [
     {
@@ -166,6 +166,16 @@
       "title": "Qwen4-Max-Preview: retires after November 25, 2026 24:00 UTC+8",
       "url": "https://help.aliyun.com/en/model-studio/qwen4-max-preview",
       "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "Token Plan 产品更新：Qwen4-Max-Preview 于 2026-11-25 10:00（UTC+8）下线，旧 ID 路由至 qwen4-max",
+      "url": "https://help.aliyun.com/zh/model-studio/token-plan-product-updates",
+      "retrieved_at": "2026-11-25"
+    },
+    {
+      "title": "Qwen4-Max: qwen4-max-preview is retired and routed to qwen4-max",
+      "url": "https://help.aliyun.com/en/model-studio/qwen4-max",
+      "retrieved_at": "2026-11-25"
     }
   ]
 }
