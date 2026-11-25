@@ -60,12 +60,12 @@
     "batch"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2026-02-14",
     "knowledge_cutoff": null,
     "description": "Doubao Seed 2.0 coding preview model (scheduled to go offline).",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-25"
   },
   "providers": [
     {
@@ -128,9 +128,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "模型下线公告 | 火山方舟",
+      "title": "模型下线公告 | 火山方舟（第十批：doubao-seed-2-0-code-preview-260215 于 2026-11-24 14:00（UTC+8）下线，残留接入点替换为 doubao-seed-evolving）",
       "url": "https://www.volcengine.com/docs/82379/1350667",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-25"
     },
     {
       "title": "models.dev — SDK npm mapping (api.sdk only)",
