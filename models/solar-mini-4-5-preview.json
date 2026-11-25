@@ -14,9 +14,9 @@
     ]
   },
   "limits": {
-    "context": null,
+    "context": 524288,
     "input": null,
-    "output": null
+    "output": 131072
   },
   "modalities": {
     "input": [
@@ -79,7 +79,7 @@
   "aliases": [],
   "sources": [
     {
-      "title": "Official model: list prices and November 30 retirement",
+      "title": "Official model: list prices, 512K context, 128K output and November 30 retirement",
       "url": "https://console.upstage.ai/docs/models/solar-mini-4-5-preview",
       "retrieved_at": "2026-11-24"
     },
