@@ -1,0 +1,85 @@
+{
+  "id": "assemblyai-stt-3-7-realtime",
+  "object": "model",
+  "created": null,
+  "owned_by": "assemblyai",
+  "name": "AssemblyAI-STT-3.7-Realtime",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.3,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://www.assemblyai.com/blog/which-assemblyai-stt-3-7-model",
+    "verified_at": "2026-11-20"
+  },
+  "providers": [
+    {
+      "id": "assemblyai",
+      "model": "assemblyai-stt-3-7-realtime",
+      "base_url": "wss://streaming.assemblyai.com",
+      "endpoints": {
+        "audio": "WS /v3/ws"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "AssemblyAI official model comparison, pricing and API guidance",
+      "url": "https://www.assemblyai.com/blog/which-assemblyai-stt-3-7-model",
+      "retrieved_at": "2026-11-20"
+    },
+    {
+      "title": "AssemblyAI official model comparison, pricing and API guidance",
+      "url": "https://www.assemblyai.com/pricing",
+      "retrieved_at": "2026-11-20"
+    },
+    {
+      "title": "AssemblyAI official model comparison, pricing and API guidance",
+      "url": "https://www.assemblyai.com/blog/real-time-transcription-code-switches-multilingual-speakers",
+      "retrieved_at": "2026-11-20"
+    },
+    {
+      "title": "AssemblyAI official model comparison, pricing and API guidance",
+      "url": "https://www.assemblyai.com/blog/real-time-speech-to-text-best-for-voice-agents",
+      "retrieved_at": "2026-11-20"
+    }
+  ]
+}
