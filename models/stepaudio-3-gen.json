@@ -1,0 +1,107 @@
+{
+  "id": "stepaudio-3-gen",
+  "object": "model",
+  "created": null,
+  "owned_by": "stepfun",
+  "name": "StepAudio 3 Gen",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_characters",
+      "input": 14,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "1M_characters",
+      "input": 95,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Unified audio generation from natural language: expressive voice with sound effects, ambience, background music and singing.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-gen",
+    "verified_at": "2026-11-24"
+  },
+  "providers": [
+    {
+      "id": "stepfun",
+      "model": "stepaudio-3-gen",
+      "base_url": "https://api.stepfun.ai/v1",
+      "endpoints": {
+        "audio": "POST /audio/generate"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "基于自然语言的统一音频生成：富有表现力的人声，配合音效、环境音、背景音乐和歌唱。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Pricing and Rate Limits | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "API 定价 | StepFun 开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Audio Models | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/models/audio",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "StepAudio 3 Gen | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-gen",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Audio Generation | StepFun API reference",
+      "url": "https://platform.stepfun.ai/docs/en/api-reference/audio/generate",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "StepAudio 3 Gen - StepFun 开放平台文档中心",
+      "url": "https://platform.stepfun.com/docs/zh/guides/models/stepaudio-3-gen",
+      "retrieved_at": "2026-11-24"
+    }
+  ]
+}
