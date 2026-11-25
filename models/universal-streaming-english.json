@@ -41,12 +41,12 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2025-06-02",
     "knowledge_cutoff": null,
     "description": "AssemblyAI English streaming speech-to-text model balancing speed and cost.",
     "docs": "https://www.assemblyai.com/docs/streaming/select-the-speech-model",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-21"
   },
   "providers": [
     {
@@ -85,6 +85,11 @@
       "title": "SDK support — assemblyai (api.sdk only)",
       "url": "https://github.com/AssemblyAI/assemblyai-node-sdk",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "Official migration status: deprecated November 17, 2026; retirement distinct from default routing",
+      "url": "https://www.assemblyai.com/blog/which-assemblyai-stt-3-7-model",
+      "retrieved_at": "2026-11-21"
     }
   ]
 }
