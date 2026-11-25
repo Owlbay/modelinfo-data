@@ -1,0 +1,102 @@
+{
+  "id": "gemini-4-neon",
+  "object": "model",
+  "created": 1794960000,
+  "owned_by": "google",
+  "name": "Gemini 4 Neon",
+  "api": {
+    "types": [
+      "generate",
+      "batch",
+      "interactions"
+    ],
+    "sdk": [
+      "@google/genai"
+    ]
+  },
+  "limits": {
+    "context": 1048576,
+    "input": null,
+    "output": 65536
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio",
+      "document"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 3,
+      "output": 15,
+      "cache_read": 0.15,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "streaming",
+    "caching",
+    "batch"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-18",
+    "knowledge_cutoff": null,
+    "description": "Bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows.",
+    "docs": "https://aistudio.google.com/docs/models/gemini-4-neon",
+    "verified_at": "2026-11-18"
+  },
+  "providers": [
+    {
+      "id": "google",
+      "model": "gemini-4-neon",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": "generation_config.thinking_level"
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Gemini 4 Neon: modalities, unified window, default synchronous output, capabilities",
+      "url": "https://aistudio.google.com/docs/models/gemini-4-neon",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "Gemini 4 Neon Standard pricing",
+      "url": "https://aistudio.google.com/docs/pricing#gemini-4-neon",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "Neon: Interactions endpoint, SDK, thinking levels, streaming and long decode",
+      "url": "https://aistudio.google.com/docs/whats-new-gemini-4-neon",
+      "retrieved_at": "2026-11-18"
+    },
+    {
+      "title": "November 18, 2026 release announcement",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "retrieved_at": "2026-11-18"
+    }
+  ]
+}
