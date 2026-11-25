@@ -45,12 +45,12 @@
   ],
   "features": [],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2026-02-13",
     "knowledge_cutoff": null,
     "description": "Image generation with text-to-image, image-to-image and group-image output (scheduled to go offline).",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-11-05"
+    "verified_at": "2026-11-25"
   },
   "providers": [
     {
@@ -85,9 +85,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "模型下线公告 | 火山方舟",
+      "title": "模型下线公告 | 火山方舟（第十批：doubao-seedream-5-0-260128 / 5-0-lite-260128 于 2026-11-24 14:00（UTC+8）下线，到期关停）",
       "url": "https://www.volcengine.com/docs/82379/1350667",
-      "retrieved_at": "2026-11-05"
+      "retrieved_at": "2026-11-25"
     },
     {
       "title": "SDK support — @ai-sdk/bytedance (api.sdk only)",

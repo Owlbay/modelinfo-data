@@ -52,12 +52,12 @@
     "streaming"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2026-05-15",
     "knowledge_cutoff": null,
     "description": "Trillion-parameter thinking model built for agent workflows, tool use and long-running tasks.",
     "docs": "https://developer.ant-ling.com/en/docs/models/ring",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-25"
   },
   "providers": [
     {
@@ -141,9 +141,9 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "Deprecation（Upcoming: Ring-2.6-1T, planned deprecation 2026-11-15 00:00:00 (UTC+8), replacement Ling-3.1-flash）| Ant Ling API Docs",
+      "title": "Deprecation | Ant Ling Docs（Ring-2.6-1T retired on November 15, 2026 00:00:00 (UTC+8)；此后调用返回错误）",
       "url": "https://developer.ant-ling.com/en/docs/models/deprecation/",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-25"
     }
   ]
 }

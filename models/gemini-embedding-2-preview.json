@@ -46,12 +46,12 @@
   ],
   "features": [],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2026-03-10",
     "knowledge_cutoff": null,
     "description": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space.",
     "docs": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
-    "verified_at": "2026-11-09"
+    "verified_at": "2026-11-25"
   },
   "providers": [
     {
@@ -74,9 +74,9 @@
   },
   "sources": [
     {
-      "title": "Deprecations（gemini-embedding-2-preview 在 Deprecated models，Shutdown date November 6, 2026；同格写明 API 请求路由到 gemini-embedding-2）| Gemini API",
+      "title": "Deprecations | Gemini API（gemini-embedding-2-preview Shutdown date November 6, 2026；请求路由到 gemini-embedding-2）",
       "url": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "retrieved_at": "2026-11-09"
+      "retrieved_at": "2026-11-25"
     },
     {
       "title": "Release notes（November 6, 2026：gemini-embedding-2-preview is deprecated；请求路由到 gemini-embedding-2，按 Gemini Embedding 2 价格计费）| Gemini API",

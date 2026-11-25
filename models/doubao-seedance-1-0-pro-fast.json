@@ -42,12 +42,12 @@
   ],
   "features": [],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": null,
     "knowledge_cutoff": null,
     "description": "Faster text and first-frame video generation (scheduled to go offline).",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-10-10"
+    "verified_at": "2026-11-25"
   },
   "providers": [
     {
@@ -80,9 +80,9 @@
       "retrieved_at": "2026-10-11"
     },
     {
-      "title": "模型下线公告 | 火山方舟",
+      "title": "模型下线公告 | 火山方舟（第十批：doubao-seedance-1-0-pro-fast-251015 于 2026-11-24 14:00（UTC+8）下线，到期关停）",
       "url": "https://www.volcengine.com/docs/82379/1350667",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-25"
     },
     {
       "title": "SDK support — @ai-sdk/bytedance (api.sdk only)",

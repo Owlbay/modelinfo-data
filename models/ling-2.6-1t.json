@@ -49,12 +49,12 @@
     "streaming"
   ],
   "info": {
-    "status": "deprecated",
+    "status": "retired",
     "release_date": "2026-04-29",
     "knowledge_cutoff": null,
     "description": "Flagship long-context model for multi-step reasoning, agent tasks and coding.",
     "docs": "https://developer.ant-ling.com/en/docs/models/ling",
-    "verified_at": "2026-11-04"
+    "verified_at": "2026-11-25"
   },
   "providers": [
     {
@@ -138,9 +138,9 @@
       "retrieved_at": "2026-10-13"
     },
     {
-      "title": "Deprecation（Upcoming: Ling-2.6-1T, planned deprecation 2026-11-15 00:00:00 (UTC+8), replacement Ling-3.1-flash）| Ant Ling API Docs",
+      "title": "Deprecation | Ant Ling Docs（Ling-2.6-1T retired on November 15, 2026 00:00:00 (UTC+8)；此后调用返回错误）",
       "url": "https://developer.ant-ling.com/en/docs/models/deprecation/",
-      "retrieved_at": "2026-11-04"
+      "retrieved_at": "2026-11-25"
     }
   ]
 }
