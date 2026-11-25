@@ -1,0 +1,107 @@
+{
+  "id": "stepaudio-3-music",
+  "object": "model",
+  "created": null,
+  "owned_by": "stepfun",
+  "name": "StepAudio 3 Music",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "audio"
+    ],
+    "output": [
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": null,
+      "output": 2.4,
+      "cache_read": null,
+      "cache_write": null
+    },
+    {
+      "currency": "CNY",
+      "unit": "hour",
+      "input": null,
+      "output": 16,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "Music generation from text descriptions, lyrics, vocals or reference audio.",
+    "docs": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-music",
+    "verified_at": "2026-11-24"
+  },
+  "providers": [
+    {
+      "id": "stepfun",
+      "model": "stepaudio-3-music",
+      "base_url": "https://api.stepfun.ai/v1",
+      "endpoints": {
+        "audio": "POST /audio/music"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "根据文字描述、歌词、人声或参考音频生成音乐。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Pricing and Rate Limits | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "API 定价 | StepFun 开放平台文档",
+      "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Audio Models | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/models/audio",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "StepAudio 3 Music | StepFun Documentation",
+      "url": "https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-music",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "Music Generation | StepFun API reference",
+      "url": "https://platform.stepfun.ai/docs/en/api-reference/audio/music",
+      "retrieved_at": "2026-11-24"
+    },
+    {
+      "title": "StepAudio 3 Music - StepFun 开放平台文档中心",
+      "url": "https://platform.stepfun.com/docs/zh/guides/models/stepaudio-3-music",
+      "retrieved_at": "2026-11-24"
+    }
+  ]
+}
