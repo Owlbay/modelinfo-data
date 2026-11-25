@@ -34,7 +34,7 @@
     {
       "currency": "USD",
       "unit": "hour",
-      "input": 0.22,
+      "input": 0.2,
       "output": null,
       "cache_read": null,
       "cache_write": null
@@ -47,7 +47,7 @@
     "knowledge_cutoff": null,
     "description": "Scribe v2 fine-tuned for clinical audio; batch only.",
     "docs": "https://elevenlabs.io/docs/overview/models",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-25"
   },
   "providers": [
     {
@@ -75,7 +75,7 @@
     {
       "title": "API pricing | ElevenLabs",
       "url": "https://elevenlabs.io/pricing/api",
-      "retrieved_at": "2026-10-11"
+      "retrieved_at": "2026-11-25"
     },
     {
       "title": "Create transcript | ElevenLabs API Reference",
