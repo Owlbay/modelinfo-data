@@ -1,0 +1,85 @@
+{
+  "id": "genie-4",
+  "object": "model",
+  "created": null,
+  "owned_by": "google",
+  "name": "Genie 4",
+  "api": {
+    "types": [
+      "interactions"
+    ],
+    "sdk": [
+      "@google/genai",
+      "google-genai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "video",
+      "audio"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 1.5,
+      "output": 17.5,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "streaming"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://aistudio.google.com/docs/models/genie-4.md",
+    "verified_at": "2026-11-19"
+  },
+  "providers": [
+    {
+      "id": "google",
+      "model": "models/genie-4",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "endpoints": {
+        "interactions": "POST /v1beta/interactions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Genie 4: stable model code, modalities, SDKs and supported capabilities",
+      "url": "https://aistudio.google.com/docs/models/genie-4.md",
+      "retrieved_at": "2026-11-19"
+    },
+    {
+      "title": "Genie 4 Standard: USD1.50 input, USD17.50 video output including audio per million tokens",
+      "url": "https://aistudio.google.com/docs/pricing.md#genie-4",
+      "retrieved_at": "2026-11-19"
+    },
+    {
+      "title": "Interactive world generation with Genie 4",
+      "url": "https://aistudio.google.com/docs/genie.md",
+      "retrieved_at": "2026-11-19"
+    }
+  ]
+}
