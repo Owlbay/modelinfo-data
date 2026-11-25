@@ -1,0 +1,77 @@
+{
+  "id": "pplx-embed-v2-context-0.6b",
+  "object": "model",
+  "created": null,
+  "owned_by": "perplexity",
+  "name": "Perplexity Embed v2 Context 0.6b",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": [
+      "perplexityai",
+      "@perplexity-ai/perplexity_ai"
+    ]
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.02,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://docs.perplexity.ai/docs/embeddings/contextualized-embeddings",
+    "verified_at": "2026-11-23"
+  },
+  "providers": [
+    {
+      "id": "perplexity",
+      "model": "pplx-embed-v2-context-0.6b",
+      "base_url": "https://api.perplexity.ai",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Official v2 models: text token price; image tokens billed separately at USD0.40/0.42",
+      "url": "https://docs.perplexity.ai/docs/embeddings/contextualized-embeddings",
+      "retrieved_at": "2026-11-23"
+    },
+    {
+      "title": "Official embeddings endpoint and SDKs",
+      "url": "https://docs.perplexity.ai/docs/embeddings/quickstart",
+      "retrieved_at": "2026-11-23"
+    }
+  ]
+}
