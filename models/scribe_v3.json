@@ -1,0 +1,78 @@
+{
+  "id": "scribe_v3",
+  "object": "model",
+  "created": null,
+  "owned_by": "elevenlabs",
+  "name": "Scribe v3",
+  "api": {
+    "types": [
+      "audio"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "hour",
+      "input": 0.2,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": null,
+    "docs": "https://elevenlabs.io/docs/overview/models",
+    "verified_at": "2026-11-25"
+  },
+  "providers": [
+    {
+      "id": "elevenlabs",
+      "model": "scribe_v3",
+      "base_url": "https://api.elevenlabs.io",
+      "endpoints": {
+        "audio": "POST /v1/speech-to-text"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "Official models, endpoints and standard transcription prices",
+      "url": "https://elevenlabs.io/docs/overview/models",
+      "retrieved_at": "2026-11-25"
+    },
+    {
+      "title": "Official models, endpoints and standard transcription prices",
+      "url": "https://elevenlabs.io/pricing/api",
+      "retrieved_at": "2026-11-25"
+    },
+    {
+      "title": "Official models, endpoints and standard transcription prices",
+      "url": "https://elevenlabs.io/docs/api-reference/speech-to-text/convert",
+      "retrieved_at": "2026-11-25"
+    }
+  ]
+}
