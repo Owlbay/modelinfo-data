@@ -1,0 +1,122 @@
+{
+  "id": "quasar-1-2-358b",
+  "object": "model",
+  "created": 1791331200,
+  "owned_by": "multiverse-computing",
+  "name": "Quasar 1.2 358B",
+  "api": {
+    "types": [
+      "chat",
+      "messages",
+      "responses"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": null,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": true,
+    "efforts": [
+      "high",
+      "max"
+    ]
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.11,
+      "output": 0.33,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [
+    "tools",
+    "structured_output",
+    "caching"
+  ],
+  "info": {
+    "status": "active",
+    "release_date": "2026-10-07",
+    "knowledge_cutoff": null,
+    "description": "Quasar 1.2 358B is exposed through POST /v1/chat/completions using the standard OpenAI-compatible chat payload.",
+    "docs": "https://docs.compactif.ai/models/quasar_1_2_358b/",
+    "verified_at": "2026-11-27"
+  },
+  "providers": [
+    {
+      "id": "compactifai",
+      "model": "quasar-1-2-358b",
+      "base_url": "https://api.compactif.ai/v1",
+      "endpoints": {
+        "chat": "POST /chat/completions",
+        "messages": "POST /messages",
+        "responses": "POST /responses"
+      },
+      "reasoning_param": "reasoning_effort",
+      "reasoning_params": {
+        "chat": "reasoning_effort",
+        "messages": "thinking",
+        "responses": "reasoning.effort"
+      }
+    }
+  ],
+  "aliases": [
+    "quasar-358b",
+    "quasar-2-358b"
+  ],
+  "sources": [
+    {
+      "title": "Quasar model card — capabilities and cache-price conflict",
+      "url": "https://docs.compactif.ai/models/quasar_1_2_358b/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Official pricing — input/output and conflicting cache price",
+      "url": "https://docs.compactif.ai/pricing/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Changelog — October 7 availability and October 15 aliases",
+      "url": "https://docs.compactif.ai/changelog/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Model catalog — regional limits are rounded, global routing varies",
+      "url": "https://docs.compactif.ai/models/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Quickstart — public API and global base URL",
+      "url": "https://docs.compactif.ai/quickstart/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Messages API — protocol-specific reasoning",
+      "url": "https://docs.compactif.ai/features/anthropic-messages/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Responses API — endpoint and reasoning",
+      "url": "https://docs.compactif.ai/features/responses/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Multimodality — text-only Quasar",
+      "url": "https://docs.compactif.ai/features/multi-modality/",
+      "retrieved_at": "2026-11-27"
+    }
+  ]
+}
