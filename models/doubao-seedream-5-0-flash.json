@@ -50,7 +50,7 @@
     "knowledge_cutoff": null,
     "description": "Fast image creation and editing model.",
     "docs": "https://www.volcengine.com/docs/82379/1330310",
-    "verified_at": "2026-10-11"
+    "verified_at": "2026-11-27"
   },
   "providers": [
     {
@@ -61,6 +61,25 @@
         "images": "POST /images/generations"
       },
       "reasoning_param": null
+    },
+    {
+      "id": "byteplus",
+      "model": "dola-seedream-5-0-flash-260915",
+      "base_url": "https://ark.ap-southeast.bytepluses.com/api/v3",
+      "endpoints": {
+        "images": "POST /images/generations"
+      },
+      "reasoning_param": null,
+      "prices": [
+        {
+          "currency": "USD",
+          "unit": "image",
+          "input": 0,
+          "output": 0.018,
+          "cache_read": null,
+          "cache_write": null
+        }
+      ]
     }
   ],
   "aliases": [
@@ -101,6 +120,31 @@
       "title": "SDK support — @ai-sdk/openai (api.sdk only)",
       "url": "https://ai-sdk.dev/providers/ai-sdk-providers/openai",
       "retrieved_at": "2026-10-13"
+    },
+    {
+      "title": "BytePlus Model list — ap-southeast-1 availability and base URL",
+      "url": "https://docs.byteplus.com/pt/docs/modelark/model-list",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "BytePlus image generation tutorial — model ID mapping",
+      "url": "https://docs.byteplus.com/pt/docs/modelark/image-generation-tutorial?redirect=1",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "BytePlus image generation tutorial — endpoint and standard mode",
+      "url": "https://docs.byteplus.com/en/docs/modelark/image-generation-tutorial?redirect=1",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "BytePlus Pricing — Flash input Free, USD 0.018 per output image",
+      "url": "https://docs.byteplus.com/en/docs/modelark/model-pricing?redirect=1",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "BytePlus Pricing — USD/image cross-check",
+      "url": "https://docs.byteplus.com/ja/docs/modelark/model-pricing",
+      "retrieved_at": "2026-11-27"
     }
   ]
 }
