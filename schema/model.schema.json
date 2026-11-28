@@ -146,8 +146,8 @@
   },
   "definitions": {
     "apiType": {
-      "description": "chat 为 OpenAI Chat Completions 兼容，messages 为 Anthropic Messages 兼容，responses 为 OpenAI Responses 兼容。",
-      "enum": ["chat", "messages", "responses", "interactions", "completions", "generate", "batch", "realtime", "embeddings", "images", "video", "audio", "3d", "rerank", "ocr", "moderation"]
+      "description": "chat 为 OpenAI Chat Completions 兼容，messages 为 Anthropic Messages 兼容，responses 为 OpenAI Responses 兼容，systemone 为 System One 决策接口（POST /v1/systemone）。",
+      "enum": ["chat", "messages", "responses", "interactions", "completions", "generate", "batch", "realtime", "embeddings", "images", "video", "audio", "3d", "rerank", "ocr", "moderation", "systemone"]
     },
     "modality": {
       "enum": ["text", "image", "audio", "video", "document", "embedding", "score", "3d"]

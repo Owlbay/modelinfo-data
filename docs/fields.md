@@ -47,7 +47,7 @@
 
 | 字段 | 取值 |
 |---|---|
-| `api.types`、`providers[].endpoints` 的键 | `chat`（OpenAI Chat Completions 兼容）· `messages`（Anthropic Messages 兼容）· `responses`（OpenAI Responses 兼容）· `interactions`（Google Interactions）· `completions` · `generate` · `batch` · `realtime` · `embeddings` · `images` · `video` · `audio` · `3d` · `rerank` · `ocr` · `moderation` |
+| `api.types`、`providers[].endpoints` 的键 | `chat`（OpenAI Chat Completions 兼容）· `messages`（Anthropic Messages 兼容）· `responses`（OpenAI Responses 兼容）· `interactions`（Google Interactions）· `completions` · `generate` · `batch` · `realtime` · `embeddings` · `images` · `video` · `audio` · `3d` · `rerank` · `ocr` · `moderation` · `systemone`（System One 决策接口：`state` + 类型化 `questions`，返回各选项概率，不生成文本） |
 | `modalities.*` | `text` · `image` · `audio` · `video` · `document` · `embedding` · `score` · `3d` |
 | `features` | `tools` · `structured_output` · `streaming` · `caching` · `batch` |
 | `prices[].unit` | `1M_tokens` · `1M_characters` · `image` · `second` · `minute` · `hour` · `request` · `page` |
