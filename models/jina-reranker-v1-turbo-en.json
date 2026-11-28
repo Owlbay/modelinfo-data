@@ -1,0 +1,83 @@
+{
+  "id": "jina-reranker-v1-turbo-en",
+  "object": "model",
+  "created": 1713398400,
+  "owned_by": "jina",
+  "name": "Jina Reranker v1 Turbo EN",
+  "api": {
+    "types": [
+      "rerank"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 8192,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2024-04-18",
+    "knowledge_cutoff": null,
+    "description": "The best combination of fast inference speed and accurate relevance scores",
+    "docs": "https://jina.ai/models/jina-reranker-v1-turbo-en/",
+    "verified_at": "2026-11-27"
+  },
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-reranker-v1-turbo-en",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "rerank": "POST /v1/rerank"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "jina-reranker-v1-turbo-en | Jina AI（This model is deprecated by newer models：jina-reranker-v2-base-multilingual）",
+      "url": "https://jina.ai/models/jina-reranker-v1-turbo-en/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Jina Reranker v1 Turbo EN model card — Reranker API",
+      "url": "https://huggingface.co/jinaai/jina-reranker-v1-turbo-en",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Jina API reference — TextRerankerRequest",
+      "url": "https://docs.jina.ai/api.md",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Jina model catalogue — context_length 8192, per-token input pricing",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-11-27"
+    }
+  ]
+}
