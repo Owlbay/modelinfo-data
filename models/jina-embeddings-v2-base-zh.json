@@ -1,0 +1,83 @@
+{
+  "id": "jina-embeddings-v2-base-zh",
+  "object": "model",
+  "created": 1704758400,
+  "owned_by": "jina",
+  "name": "Jina Embeddings v2 Base ZH",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 8192,
+    "input": 8192,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2024-01-09",
+    "knowledge_cutoff": null,
+    "description": "Chinese-English bilingual embeddings with SOTA performance",
+    "docs": "https://jina.ai/models/jina-embeddings-v2-base-zh/",
+    "verified_at": "2026-11-27"
+  },
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-embeddings-v2-base-zh",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "jina-embeddings-v2-base-zh | Jina AI",
+      "url": "https://jina.ai/models/jina-embeddings-v2-base-zh/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Jina Embeddings v2 Base ZH model card — 8192 sequence length, Embedding API",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Jina API reference — EmbeddingsV2Request",
+      "url": "https://docs.jina.ai/api.md",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Jina model catalogue — context_length 8192, per-token input pricing",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-11-27"
+    }
+  ]
+}
