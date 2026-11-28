@@ -39,7 +39,7 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2024-01-15",
     "knowledge_cutoff": null,
     "description": "German-English bilingual embeddings with SOTA performance",
@@ -60,7 +60,7 @@
   "aliases": [],
   "sources": [
     {
-      "title": "jina-embeddings-v2-base-de | Jina AI",
+      "title": "jina-embeddings-v2-base-de | Jina AI（This model is deprecated by newer models：jina-embeddings-v3）",
       "url": "https://jina.ai/models/jina-embeddings-v2-base-de/",
       "retrieved_at": "2026-11-27"
     },

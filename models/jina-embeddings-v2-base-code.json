@@ -39,7 +39,7 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2024-02-05",
     "knowledge_cutoff": null,
     "description": "Optimized for code and docstring search",
@@ -60,7 +60,7 @@
   "aliases": [],
   "sources": [
     {
-      "title": "jina-embeddings-v2-base-code | Jina AI",
+      "title": "jina-embeddings-v2-base-code | Jina AI（This model is deprecated by newer models：jina-code-embeddings-1.5b）",
       "url": "https://jina.ai/models/jina-embeddings-v2-base-code/",
       "retrieved_at": "2026-11-27"
     },
