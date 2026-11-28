@@ -16,7 +16,7 @@ import (
 
 // 枚举字段的取值范围。新增取值时同时更新 schema/*.schema.json 与 docs/fields.md。
 var (
-	APITypes   = []string{"chat", "messages", "responses", "interactions", "completions", "generate", "batch", "realtime", "embeddings", "images", "video", "audio", "3d", "rerank", "ocr", "moderation"}
+	APITypes   = []string{"chat", "messages", "responses", "interactions", "completions", "generate", "batch", "realtime", "embeddings", "images", "video", "audio", "3d", "rerank", "ocr", "moderation", "systemone"}
 	ModalityIn = []string{"text", "image", "audio", "video", "document", "embedding", "score", "3d"}
 	Features   = []string{"tools", "structured_output", "streaming", "caching", "batch"}
 	Units      = []string{"1M_tokens", "1M_characters", "image", "second", "minute", "hour", "request", "page"}
