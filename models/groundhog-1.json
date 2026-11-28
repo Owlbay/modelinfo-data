@@ -1,0 +1,109 @@
+{
+  "id": "groundhog-1",
+  "object": "model",
+  "created": 1795132800,
+  "owned_by": "baseten",
+  "name": "groundhog-1",
+  "api": {
+    "types": [
+      "systemone"
+    ],
+    "sdk": [
+      "@basetenlabs/performance-client",
+      "baseten-performance-client"
+    ]
+  },
+  "limits": {
+    "context": 131072,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.035,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": "2026-11-20",
+    "knowledge_cutoff": null,
+    "description": "A long-context, multimodal mixture-of-experts decision model from Base Labs",
+    "docs": "https://docs.baseten.co/inference/model-apis/decision-models",
+    "verified_at": "2026-11-27"
+  },
+  "providers": [
+    {
+      "id": "baseten",
+      "model": "decision-models/baseten-groundhog-latest",
+      "base_url": "https://inference.baseten.co",
+      "endpoints": {
+        "systemone": "POST /v1/systemone"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "decision-models/baseten-groundhog-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "来自 Base Labs 的长上下文、多模态混合专家决策模型"
+    }
+  },
+  "sources": [
+    {
+      "title": "Decision models — supported models, slugs, context limits, image inputs, SDK clients",
+      "url": "https://docs.baseten.co/inference/model-apis/decision-models",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "System One API reference — POST /v1/systemone request and response",
+      "url": "https://docs.baseten.co/reference/inference-api/system-one",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Baseten pricing — decision model token prices (input only)",
+      "url": "https://www.baseten.co/pricing/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Baseten Model Library — groundhog-1",
+      "url": "https://www.baseten.co/library/groundhog-1/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Meet bison-1 and groundhog-1 (blog, published 2026-11-20)",
+      "url": "https://www.baseten.co/blog/meet-bison-1-and-groundhog-1/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Changelog — bison-1 and groundhog-1 available on Baseten (2026-11-20)",
+      "url": "https://www.baseten.co/resources/changelog/bison-1-and-groundhog-1-available-on-baseten/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Official Hugging Face model card — baselabs/groundhog-1",
+      "url": "https://huggingface.co/baselabs/groundhog-1",
+      "retrieved_at": "2026-11-27"
+    }
+  ]
+}
