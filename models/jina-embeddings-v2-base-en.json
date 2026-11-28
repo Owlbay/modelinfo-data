@@ -39,12 +39,12 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2023-10-28",
     "knowledge_cutoff": null,
     "description": "On par with OpenAI's text-embedding-ada-002",
     "docs": "https://jina.ai/models/jina-embeddings-v2-base-en/",
-    "verified_at": "2026-11-26"
+    "verified_at": "2026-11-27"
   },
   "providers": [
     {
@@ -60,9 +60,9 @@
   "aliases": [],
   "sources": [
     {
-      "title": "jina-embeddings-v2-base-en | Jina AI",
+      "title": "jina-embeddings-v2-base-en | Jina AI（This model is deprecated by newer models：jina-embeddings-v3）",
       "url": "https://jina.ai/models/jina-embeddings-v2-base-en/",
-      "retrieved_at": "2026-11-26"
+      "retrieved_at": "2026-11-27"
     },
     {
       "title": "Jina Embeddings v2 Base EN model card",
@@ -72,12 +72,12 @@
     {
       "title": "Jina API reference — EmbeddingsV2Request",
       "url": "https://docs.jina.ai/api.md",
-      "retrieved_at": "2026-11-26"
+      "retrieved_at": "2026-11-27"
     },
     {
       "title": "Jina model catalogue — per-token input pricing",
       "url": "https://api.jina.ai/v1/models",
-      "retrieved_at": "2026-11-26"
+      "retrieved_at": "2026-11-27"
     }
   ]
 }

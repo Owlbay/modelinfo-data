@@ -40,12 +40,12 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2024-06-05",
     "knowledge_cutoff": null,
     "description": "Multimodal embedding models for images and English text",
     "docs": "https://jina.ai/models/jina-clip-v1/",
-    "verified_at": "2026-11-24"
+    "verified_at": "2026-11-27"
   },
   "providers": [
     {
@@ -61,9 +61,9 @@
   "aliases": [],
   "sources": [
     {
-      "title": "Official model page: release and modalities; 8K/12288 context conflict",
+      "title": "jina-clip-v1 | Jina AI（This model is deprecated by newer models：jina-clip-v2）",
       "url": "https://jina.ai/models/jina-clip-v1/",
-      "retrieved_at": "2026-11-24"
+      "retrieved_at": "2026-11-27"
     },
     {
       "title": "Official model card: Embeddings API availability",
@@ -73,12 +73,12 @@
     {
       "title": "Official API: ClipV1Request",
       "url": "https://docs.jina.ai/api.md",
-      "retrieved_at": "2026-11-24"
+      "retrieved_at": "2026-11-27"
     },
     {
       "title": "Official catalog: USD0.00000005 per input token; 8192 context conflicts with model page",
       "url": "https://api.jina.ai/v1/models",
-      "retrieved_at": "2026-11-24"
+      "retrieved_at": "2026-11-27"
     }
   ]
 }
