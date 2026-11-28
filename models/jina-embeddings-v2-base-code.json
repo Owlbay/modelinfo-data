@@ -1,0 +1,83 @@
+{
+  "id": "jina-embeddings-v2-base-code",
+  "object": "model",
+  "created": 1707091200,
+  "owned_by": "jina",
+  "name": "Jina Embeddings v2 Base Code",
+  "api": {
+    "types": [
+      "embeddings"
+    ],
+    "sdk": []
+  },
+  "limits": {
+    "context": 8192,
+    "input": 8192,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "embedding"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.05,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "deprecated",
+    "release_date": "2024-02-05",
+    "knowledge_cutoff": null,
+    "description": "Optimized for code and docstring search",
+    "docs": "https://jina.ai/models/jina-embeddings-v2-base-code/",
+    "verified_at": "2026-11-27"
+  },
+  "providers": [
+    {
+      "id": "jina",
+      "model": "jina-embeddings-v2-base-code",
+      "base_url": "https://api.jina.ai",
+      "endpoints": {
+        "embeddings": "POST /v1/embeddings"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "sources": [
+    {
+      "title": "jina-embeddings-v2-base-code | Jina AI（This model is deprecated by newer models：jina-code-embeddings-1.5b）",
+      "url": "https://jina.ai/models/jina-embeddings-v2-base-code/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Jina Embeddings v2 Base Code model card — 8192 sequence length, Embedding API",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-code",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Jina API reference — EmbeddingsV2Request",
+      "url": "https://docs.jina.ai/api.md",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Jina model catalogue — context_length 8192, per-token input pricing",
+      "url": "https://api.jina.ai/v1/models",
+      "retrieved_at": "2026-11-27"
+    }
+  ]
+}
