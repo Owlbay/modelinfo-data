@@ -39,7 +39,7 @@
   ],
   "features": [],
   "info": {
-    "status": "active",
+    "status": "deprecated",
     "release_date": "2024-04-18",
     "knowledge_cutoff": null,
     "description": "The fastest reranker model, best suited for ranking a large number of documents reliably",
@@ -60,7 +60,7 @@
   "aliases": [],
   "sources": [
     {
-      "title": "jina-reranker-v1-tiny-en | Jina AI",
+      "title": "jina-reranker-v1-tiny-en | Jina AI（This model is deprecated by newer models：jina-reranker-v2-base-multilingual）",
       "url": "https://jina.ai/models/jina-reranker-v1-tiny-en/",
       "retrieved_at": "2026-11-27"
     },
