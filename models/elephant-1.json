@@ -1,0 +1,109 @@
+{
+  "id": "elephant-1",
+  "object": "model",
+  "created": null,
+  "owned_by": "baseten",
+  "name": "elephant-1",
+  "api": {
+    "types": [
+      "systemone"
+    ],
+    "sdk": [
+      "@basetenlabs/performance-client",
+      "baseten-performance-client"
+    ]
+  },
+  "limits": {
+    "context": 16384,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.035,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "A 9B decision model that turns structured context into calibrated choice, yes/no, and scoring probabilities in a single forward pass.",
+    "docs": "https://docs.baseten.co/inference/model-apis/decision-models",
+    "verified_at": "2026-11-27"
+  },
+  "providers": [
+    {
+      "id": "baseten",
+      "model": "decision-models/baseten-elephant-9b-latest",
+      "base_url": "https://inference.baseten.co",
+      "endpoints": {
+        "systemone": "POST /v1/systemone"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "decision-models/baseten-elephant-9b-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "9B 决策模型，在一次前向计算中把结构化上下文转为经过校准的选择、是/否与打分概率。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Decision models — supported models, slugs, context limits, image inputs, SDK clients",
+      "url": "https://docs.baseten.co/inference/model-apis/decision-models",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "System One API reference — POST /v1/systemone request and response",
+      "url": "https://docs.baseten.co/reference/inference-api/system-one",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Baseten pricing — decision model token prices (input only)",
+      "url": "https://www.baseten.co/pricing/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Baseten Model Library — elephant-1",
+      "url": "https://www.baseten.co/library/elephant-1/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "The top ranked decision models in the world: mammoth-1 and elephant-1 (blog)",
+      "url": "https://www.baseten.co/blog/the-best-decision-models-in-the-world-mammoth-1-and-elephant-1/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Decisions for a penny: introducing joey-1 (blog, release timing conflicts with the elephant-1 blog date)",
+      "url": "https://www.baseten.co/blog/decisions-for-a-penny-introducing-joey-1/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Official Hugging Face model card — baselabs/elephant-1",
+      "url": "https://huggingface.co/baselabs/elephant-1",
+      "retrieved_at": "2026-11-27"
+    }
+  ]
+}
