@@ -1,0 +1,82 @@
+{
+  "id": "lingsante-3.1-air-vl",
+  "object": "model",
+  "created": null,
+  "owned_by": "ant",
+  "name": "LingSante-3.1-air-VL",
+  "api": {
+    "types": [
+      "chat"
+    ],
+    "sdk": [
+      "openai"
+    ]
+  },
+  "limits": {
+    "context": 256000,
+    "input": null,
+    "output": 32000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "We are officially introducing LingSante-3.1-air-VL, a lightweight native multimodal model designed for real-world healthcare applications.",
+    "docs": "https://computrix.ai/sg/models/modelservice-1795159585354001768",
+    "verified_at": "2026-11-27"
+  },
+  "providers": [
+    {
+      "id": "computrix",
+      "model": "lingsante-3.1-air-vl",
+      "base_url": "https://maas-api.computrix.ai",
+      "endpoints": {
+        "chat": "POST /v1/chat/completions"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [],
+  "translations": {
+    "zh": {
+      "description": "我们正式推出 LingSante-3.1-air-VL，这是一款面向真实医疗场景的轻量级原生多模态模型。"
+    }
+  },
+  "sources": [
+    {
+      "title": "LingSante-3.1-air-VL | Computrix 模型页（调用 ID、Context 256K、Max output 32K、价格、协议）",
+      "url": "https://computrix.ai/sg/models/modelservice-1795159585354001768",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Computrix 模型页公开数据接口（name、contextLength 256000、maxTokens 32000、inputTags、modelProtocolCompatibility、OpenAI SDK 示例）",
+      "url": "https://computrix.ai/api/v1/model-service/public/get/modelservice-1795159585354001768",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Quick Start | Computrix MaaS Docs（统一 base URL https://maas-api.computrix.ai/v1）",
+      "url": "https://computrix.ai/dt-maas-docs-global/en-US/quick-access",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "LingSante-3.1-air-VL | Ant Ling Blog（Try LingSante：通过 Computrix 提供 API）",
+      "url": "https://developer.ant-ling.com/en/blogs/lingsante-3.1-air-vl",
+      "retrieved_at": "2026-11-27"
+    }
+  ]
+}
