@@ -1,0 +1,109 @@
+{
+  "id": "mammoth-1",
+  "object": "model",
+  "created": null,
+  "owned_by": "baseten",
+  "name": "mammoth-1",
+  "api": {
+    "types": [
+      "systemone"
+    ],
+    "sdk": [
+      "@basetenlabs/performance-client",
+      "baseten-performance-client"
+    ]
+  },
+  "limits": {
+    "context": 16384,
+    "input": null,
+    "output": null
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "score"
+    ]
+  },
+  "reasoning": {
+    "supported": null,
+    "efforts": []
+  },
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "1M_tokens",
+      "input": 0.1,
+      "output": null,
+      "cache_read": null,
+      "cache_write": null
+    }
+  ],
+  "features": [],
+  "info": {
+    "status": "active",
+    "release_date": null,
+    "knowledge_cutoff": null,
+    "description": "A 27B decision model from Base Labs that returns probabilities over predefined options without generating text, built for classification, routing, and scoring.",
+    "docs": "https://docs.baseten.co/inference/model-apis/decision-models",
+    "verified_at": "2026-11-27"
+  },
+  "providers": [
+    {
+      "id": "baseten",
+      "model": "decision-models/baseten-mammoth-27b-latest",
+      "base_url": "https://inference.baseten.co",
+      "endpoints": {
+        "systemone": "POST /v1/systemone"
+      },
+      "reasoning_param": null
+    }
+  ],
+  "aliases": [
+    "decision-models/baseten-mammoth-27b-latest"
+  ],
+  "translations": {
+    "zh": {
+      "description": "来自 Base Labs 的 27B 决策模型，不生成文本，而是返回预定义选项的概率，用于分类、路由和打分。"
+    }
+  },
+  "sources": [
+    {
+      "title": "Decision models — supported models, slugs, context limits, image inputs, SDK clients",
+      "url": "https://docs.baseten.co/inference/model-apis/decision-models",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "System One API reference — POST /v1/systemone request and response",
+      "url": "https://docs.baseten.co/reference/inference-api/system-one",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Baseten pricing — decision model token prices (input only)",
+      "url": "https://www.baseten.co/pricing/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Baseten Model Library — mammoth-1",
+      "url": "https://www.baseten.co/library/mammoth-1/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "The top ranked decision models in the world: mammoth-1 and elephant-1 (blog)",
+      "url": "https://www.baseten.co/blog/the-best-decision-models-in-the-world-mammoth-1-and-elephant-1/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Decisions for a penny: introducing joey-1 (blog, release timing conflicts with the mammoth-1 blog date)",
+      "url": "https://www.baseten.co/blog/decisions-for-a-penny-introducing-joey-1/",
+      "retrieved_at": "2026-11-27"
+    },
+    {
+      "title": "Official Hugging Face model card — baselabs/mammoth-1",
+      "url": "https://huggingface.co/baselabs/mammoth-1",
+      "retrieved_at": "2026-11-27"
+    }
+  ]
+}
